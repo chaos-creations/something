@@ -144,12 +144,12 @@
 
 	var/list/target_list = list()
 	for(var/mob/living/carbon/possible_target in view(7, human_owner))
-		if(possible_target == human_owner || !possible_target.client) 
+		if(possible_target == human_owner || !possible_target.client)
 			continue
 		target_list += possible_target
 
 	var/mob/living/carbon/target_mob = tgui_input_list(human_owner, "Target", "Send a Psychic Whisper to whom?", target_list, theme = "hive_status")
-	if(!target_mob) 
+	if(!target_mob)
 		return
 
 	human_owner.psychic_whisper(target_mob)
@@ -339,7 +339,7 @@ CULT
 	message = capitalize(trim(message))
 	message = process_chat_markup(message, list("~", "_"))
 
-	if(!(copytext(message, -1) in ENDING_PUNCT))
+	if(!(copytext_char(message, -1) in ENDING_PUNCT))
 		message += "."
 
 	var/datum/hive_status/hive = GLOB.hive_datum[H.hivenumber]
