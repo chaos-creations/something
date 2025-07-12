@@ -370,6 +370,15 @@
 	. = ..()
 	reagents.add_reagent("sodawater", 30)
 
+/obj/item/reagent_container/food/drinks/cans/brepsi
+	name = "\improper Brepsi"
+	desc = "It seems to be the famous clone of Pepsi drink."
+	icon_state = "pepsi"
+
+/obj/item/reagent_container/food/drinks/cans/brepsi/Initialize()
+	. = ..()
+	reagents.add_reagent("brepsi", 30)
+
 //BODA
 
 /obj/item/reagent_container/food/drinks/cans/boda

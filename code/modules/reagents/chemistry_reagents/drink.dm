@@ -701,3 +701,16 @@
 	nutriment_factor = 2 * FOOD_METABOLISM
 	color = "#2ca314" // rgb: 48, 32, 0
 	chemclass = CHEM_CLASS_RARE
+
+// who
+
+/datum/reagent/drink/brepsi
+	name = "Brepsi"
+	id = "brepsi"
+	description = "The best drink they could have come up with."
+	color = "#3f1a07"
+	overdose = REAGENTS_OVERDOSE
+	overdose_critical = REAGENTS_OVERDOSE_CRITICAL
+	properties = list(PROPERTY_EMETIC = 5, PROPERTY_BALDING = 2, PROPERTY_RELAXING = 3)
+
+	chemclass = CHEM_CLASS_RARE

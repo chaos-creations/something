@@ -66,6 +66,11 @@
 				name = "Glass of Pepsi"
 				desc = "A glass of refreshing Pepsi"
 				center_of_mass = "x=16;y=10"
+			if("brepsi")
+				icon_state  = "glass_brown"
+				name = "Glass of Brepsi"
+				desc = "A glass of refreshing Brepsi"
+				center_of_mass = "x=16;y=10"
 			if("nuka_cola")
 				icon_state = "nuka_colaglass"
 				name = "Nuka Cola"
