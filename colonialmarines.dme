@@ -2661,4 +2661,6 @@
 #include "interface\interface.dm"
 #include "interface\skin.dmf"
 #include "maps\_basemap.dm"
+#include "something\code\pixel_shifting.dm"
+#include "something\code\pixel_shifting_items.dm"
 // END_INCLUDE
