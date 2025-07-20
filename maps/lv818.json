@@ -1,0 +1,14 @@
+{
+    "map_name": "LV818 Firebase Zulu",
+    "short_name": "LV818",
+    "map_path": "map_files/LV818",
+    "map_file": "LV_818_Firebase_Zulu.dmm",
+    "webmap_url": "Solaris",
+
+    "weather_holder": "/datum/weather_ss_map_holder/big_red",
+
+    "map_item_type": "/obj/item/map/big_red_map",
+
+    "camouflage": "desert"
+
+}
