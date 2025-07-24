@@ -131,6 +131,30 @@
 	name = JOB_PMCPLAT_SG
 	squad = SQUAD_PMCPLT
 
+/datum/job/marine/smartgunner/ai/grom
+	title = JOB_SQUAD_SMARTGUN_GROM
+	total_positions = 1
+	spawn_positions = 1
+	gear_preset = /datum/equipment_preset/uscm/sg/grom
+	gear_preset_secondary = /datum/equipment_preset/uscm/sg/grom/corporal
+	gear_preset_tertiary = /datum/equipment_preset/uscm/sg/grom/senior_private
+	gear_preset_quaternary = /datum/equipment_preset/uscm/sg/grom/private
+	job_options = list(PVT_VARIANT = "PVT", SR_PVT_VARIANT = "SrPVT", CPL_VARIANT = "CPL", JSGT_VARIANT = "JrSGT")
+
+/datum/job/marine/smartgunner/ai/grom/handle_job_options(option)
+	gear_preset = initial(gear_preset)
+	if(option == PVT_VARIANT)
+		gear_preset = gear_preset_quaternary
+	if(option == SR_PVT_VARIANT)
+		gear_preset = gear_preset_tertiary
+	if(option == CPL_VARIANT)
+		gear_preset = gear_preset_secondary
+
+/obj/effect/landmark/start/marine/smartgunner/grom
+	name = JOB_SQUAD_SMARTGUN_GROM
+	job = JOB_SQUAD_SMARTGUN_GROM
+	squad = SQUAD_GROM
+
 /obj/effect/landmark/start/marine/smartgunner/forecon
 	name = JOB_SQUAD_SMARTGUN_FORECON
 	job = JOB_SQUAD_SMARTGUN_FORECON
