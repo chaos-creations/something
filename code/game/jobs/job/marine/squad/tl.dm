@@ -79,23 +79,6 @@
 	squad = SQUAD_UPP
 	job = /datum/job/marine/tl/ai/upp
 
-/datum/job/marine/tl/grom
-	title = JOB_SQUAD_TEAM_LEADER_GROM
-	total_positions = 1
-	spawn_positions = 1
-	gear_preset = /datum/equipment_preset/uscm/tl/grom
-	gear_preset_secondary = /datum/equipment_preset/uscm/tl/grom/junior_sergeant
-	job_options = list(JSGT_VARIANT = "JrSGT", SGT_VARIANT = "SGT")
-
-/datum/job/marine/tl/ai/grom/handle_job_options(option)
-	gear_preset = initial(gear_preset)
-	if(option == JSGT_VARIANT)
-		gear_preset = gear_preset_secondary
-
-/obj/effect/landmark/start/marine/tl/grom
-	name = JOB_SQUAD_TEAM_LEADER_GROM
-	squad = SQUAD_GROM
-	job = /datum/job/marine/tl/grom
 
 /datum/job/marine/tl/ai/pmc
 	title = JOB_PMCPLAT_FTL
