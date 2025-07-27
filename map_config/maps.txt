@@ -93,6 +93,3 @@ endmap
 
 map oread_garrison
 endmap
-
-map lv818
-endmap
