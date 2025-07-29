@@ -3354,8 +3354,6 @@
 /area/golden_arrow/firingrange)
 "nl" = (
 /obj/structure/machinery/door/airlock/upp_utility{
-	lockdownbyai = 1;
-	locked = 1;
 	name = "\improper Upper Deck"
 	},
 /turf/open/floor/corsat/marked,
@@ -3839,8 +3837,6 @@
 /area/golden_arrow/dorms)
 "pe" = (
 /obj/structure/machinery/door/airlock/upp_utility{
-	lockdownbyai = 1;
-	locked = 1;
 	dir = 1;
 	req_one_access_txt = "230"
 	},
@@ -3879,8 +3875,6 @@
 /area/golden_arrow/engineering)
 "pj" = (
 /obj/structure/machinery/door/airlock/upp_utility{
-	lockdownbyai = 1;
-	locked = 1;
 	dir = 1;
 	req_one_access_txt = "230";
 	name = "\improper Brig"
@@ -10078,8 +10072,6 @@
 /area/golden_arrow/firingrange)
 "Mb" = (
 /obj/structure/machinery/door/airlock/upp_utility{
-	lockdownbyai = 1;
-	locked = 1;
 	dir = 1;
 	req_one_access_txt = "233";
 	name = "\improper Listening Post"
@@ -12773,8 +12765,6 @@
 /area/golden_arrow/hangar)
 "VZ" = (
 /obj/structure/machinery/door/airlock/upp_utility{
-	lockdownbyai = 1;
-	locked = 1;
 	dir = 4;
 	name = "\improper Execution Equipment";
 	req_one_access_txt = "233"
@@ -13553,6 +13543,10 @@
 	dir = 1;
 	pixel_y = -10;
 	pixel_x = -13
+	},
+/obj/structure/sign/safety/radio_rad{
+	pixel_x = 7;
+	pixel_y = -26
 	},
 /turf/open/floor/strata/multi_tiles/southwest,
 /area/golden_arrow/dorms)
