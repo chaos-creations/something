@@ -2684,6 +2684,8 @@
 #include "maps\_basemap.dm"
 #include "something\code\pixel_shifting.dm"
 #include "something\code\pixel_shifting_items.dm"
+#include "something\code\puzzle_things.dm"
+#include "something\code\step_triggers_custom.dm"
 #include "something\code\custom_emails\custom_email.dm"
 #include "something\code\custom_emails\example_email.dm"
 // END_INCLUDE
