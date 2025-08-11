@@ -200,3 +200,41 @@
 /obj/structure/sign/poster/hero/voteno/Initialize()
 	serial_number = 40
 	.=..()
+
+// allo
+
+/obj/structure/sign/poster/lss_propaganda
+	icon_state = "poster42"
+
+/obj/structure/sign/poster/lss_propaganda/Initialize()
+	serial_number = pick(42,43,61,62)
+	.=..()
+
+/obj/structure/sign/poster/kadaab
+	icon_state = "poster60"
+
+/obj/structure/sign/poster/kadaab/Initialize()
+	serial_number = pick(44,45,46,52,53,54,55,56,58,60)
+	.=..()
+
+/obj/structure/sign/poster/kadaab_helpers
+	icon_state = "poster47"
+
+/obj/structure/sign/poster/kadaab_helpers/Initialize()
+	serial_number = pick(47,48,49,50,51,59,57)
+	.=..()
+
+/obj/structure/sign/poster/kadaab_mine
+	icon_state = "poster63"
+
+/obj/structure/sign/poster/kadaab_mine/Initialize()
+	serial_number = 63
+	. = ..()
+
+/obj/structure/sign/poster/kadaab_idk
+	icon_state = "poster59"
+
+/obj/structure/sign/poster/kadaab_idk/Initialize()
+	serial_number = pick(58,55,52)
+	.=..()
+

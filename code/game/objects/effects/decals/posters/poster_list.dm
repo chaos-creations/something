@@ -214,6 +214,116 @@ Template
 	name = "Falling Falcons"
 	desc = "Promotional material for the 2nd Company of the 2nd Battalion of the 4th Brigade, the Falling Falcons. Designed by an unknown artist and printed in an effort to bolster the ranks of the Falling Falcons."
 
+/datum/poster/poster_42
+	icon_state = "poster42"
+	name = "Soobcha!"
+	desc = "A propaganda poster depicting  hands calling out to the GCC says 'Soobcha! Unified systems fight for Freedom!'"
+
+/datum/poster/poster_43
+	icon_state = "poster43"
+	name = "Burning SCG flag"
+	desc = "The famous photo of the burning SCG flag."
+
+/datum/poster/poster_44
+	icon_state = "poster44"
+	name = "Corporate Army"
+	desc = "An old poster asking for investment in the Corporate Army. Even in wartime, corporations extorted money."
+
+/datum/poster/poster_45
+	icon_state = "poster45"
+	name = "Atlas"
+	desc = "Although the advertising campaign of the 'Atlas' combat exosuit was a failure, it gained popularity as the Boris Booker's favorite mech."
+
+/datum/poster/poster_46
+	icon_state = "poster46"
+	name = "Terra"
+	desc = "Green fields of Terra"
+
+/datum/poster/poster_47
+	icon_state = "poster47"
+	name = "Tools"
+	desc = "'Let your tools do the talking.'"
+
+/datum/poster/poster_48
+	icon_state = "poster48"
+	name = "Safety"
+	desc = "'Teamwork improves safety.'"
+
+/datum/poster/poster_49
+	icon_state = "poster49"
+	name = "Secure"
+	desc = "'Secure all tool guards.'"
+
+/datum/poster/poster_50
+	icon_state = "poster50"
+	name = "Teamwork"
+	desc = "'Watch each other's back! Safety begins with teamwork.'"
+
+/datum/poster/poster_51
+	icon_state = "poster51"
+	name = "Stay warm"
+	desc = "'Stay warm, stay safe! Equip proper attire.'"
+
+/datum/poster/poster_52
+	icon_state = "poster52"
+	name = "Red poster"
+	desc = "A real ancient artifact from 1963, how did it even get here? Written in an unknown but familiar language."
+
+/datum/poster/poster_53
+	icon_state = "poster53"
+	name = "Gin and Tonic"
+	desc = "'Start your night with Gin and Tonic.'"
+
+/datum/poster/poster_54
+	icon_state = "poster54"
+	name = "Paradise"
+	desc = "'Birds of Paradise.'"
+
+/datum/poster/poster_55
+	icon_state = "poster55"
+	name = "Blini"
+	desc = "'Make your next gathering memorable and distinguished with Traditional Blini Cakes from Terran cuisine.'"
+
+/datum/poster/poster_56
+	icon_state = "poster56"
+	name = "Cigarette"
+	desc = "DromedaryCo cigarette ad."
+
+/datum/poster/poster_57
+	icon_state = "poster57"
+	name = "Wear gloves"
+	desc = "'Wear gloves when handling chemicals'"
+
+/datum/poster/poster_58
+	icon_state = "poster58"
+	name = "Pioneers"
+	desc = "'Sovereign Lordania Salutes our Pioneers of Science Graduating Class, Feb 2321.'"
+
+/datum/poster/poster_59
+	icon_state = "poster59"
+	name = "Human anatomy"
+	desc = "Man in the cross section. Brutal."
+
+/datum/poster/poster_60
+	icon_state = "poster60"
+	name = "Kadaab"
+	desc = "Kadaab, a moon of Inax."
+
+/datum/poster/poster_61
+	icon_state = "poster61"
+	name = "Militaristic poster"
+	desc = "ARMII GKK SLAVA!"
+
+/datum/poster/poster_62
+	icon_state = "poster62"
+	name = "Death to Sol"
+	desc = "'Smert Marsy! Smert dictaty democratov!'"
+
+/datum/poster/poster_63
+	icon_state = "poster63"
+	name = "Opasno"
+	desc = "'Alarm! Mines ahead'"
+
 /datum/poster/upp_1
 	icon_state="upp_poster_1"
 	name = "The Stars Are Ours"
