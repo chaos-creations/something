@@ -2689,4 +2689,5 @@
 #include "something\code\step_triggers_custom.dm"
 #include "something\code\custom_emails\custom_email.dm"
 #include "something\code\custom_emails\example_email.dm"
+#include "something\code\custom_items\custom_include.dm"
 // END_INCLUDE
