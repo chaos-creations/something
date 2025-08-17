@@ -511,3 +511,14 @@
 	icon_state = "spacecash1000"
 	desc = "Ten US Government minted hundred-dollar bills. Every single damn one of them has Ben Fucking Franklin on them. The court of Bens sit impatiently, as if each one thought they alone belonged to you. This coven of angry Bens have all since learned about your relations with the other Bens, and they want answers."
 	worth = 1000
+
+/obj/structure/prop/cadaab/bomba
+	name = "le bomba"
+	desc = "big boom"
+	icon_state = "bomba"
+
+/obj/structure/prop/cadaab/bomba/Destroy()
+	var/turf/T = get_turf(src)
+	if(T)
+		explosion(T, 0, 3, 5, 7)
+	. = ..()
