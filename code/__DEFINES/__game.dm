@@ -36,6 +36,8 @@
 #define MAP_RUNTIME "USS Runtime"
 #define MAP_LV522_CHANCES_CLAIM "LV-522 Chance's Claim" // Highpop Only
 #define MAP_LV522_CHANCES_CLAIM_FORECON "LV-522 Chance's Claim Forecon"
+#define MAP_LV759_HYBRISA_PROSPERA "LV-759 Hybrisa Prospera" // Highpop Only
+#define MAP_LV759_HYBRISA_PROSPERA_REPAIRED "LV-759 Hybrisa Prospera Repaired"
 #define MAP_NEW_VARADERO "New Varadero"//ice colony underground but as its own map
 #define MAP_NEW_VARADERO_REPAIRED "New Varadero Repaired"
 #define MAP_CHINOOK "Chinook 91 GSO" //admin level
@@ -279,12 +281,12 @@
 #define CEILING_PROTECTION_TIER_2 2
 #define CEILING_UNDERGROUND_ALLOW_CAS 2.1
 #define CEILING_UNDERGROUND_METAL_ALLOW_CAS 2.2
-#define CEILING_HULL_METAL 2.3
 
 /// Blocks CAS fire
 #define CEILING_PROTECTION_TIER_3 3
 #define CEILING_UNDERGROUND_BLOCK_CAS 3.1
 #define CEILING_UNDERGROUND_METAL_BLOCK_CAS 3.2
+#define CEILING_HULL_METAL 3.3
 
 /// Blocks OB fire
 #define CEILING_PROTECTION_TIER_4 4

@@ -214,116 +214,6 @@ Template
 	name = "Falling Falcons"
 	desc = "Promotional material for the 2nd Company of the 2nd Battalion of the 4th Brigade, the Falling Falcons. Designed by an unknown artist and printed in an effort to bolster the ranks of the Falling Falcons."
 
-/datum/poster/poster_42
-	icon_state = "poster42"
-	name = "Soobcha!"
-	desc = "A propaganda poster depicting  hands calling out to the GCC says 'Soobcha! Unified systems fight for Freedom!'"
-
-/datum/poster/poster_43
-	icon_state = "poster43"
-	name = "Burning SCG flag"
-	desc = "The famous photo of the burning SCG flag."
-
-/datum/poster/poster_44
-	icon_state = "poster44"
-	name = "Corporate Army"
-	desc = "An old poster asking for investment in the Corporate Army. Even in wartime, corporations extorted money."
-
-/datum/poster/poster_45
-	icon_state = "poster45"
-	name = "Atlas"
-	desc = "Although the advertising campaign of the 'Atlas' combat exosuit was a failure, it gained popularity as the Boris Booker's favorite mech."
-
-/datum/poster/poster_46
-	icon_state = "poster46"
-	name = "Terra"
-	desc = "Green fields of Terra"
-
-/datum/poster/poster_47
-	icon_state = "poster47"
-	name = "Tools"
-	desc = "'Let your tools do the talking.'"
-
-/datum/poster/poster_48
-	icon_state = "poster48"
-	name = "Safety"
-	desc = "'Teamwork improves safety.'"
-
-/datum/poster/poster_49
-	icon_state = "poster49"
-	name = "Secure"
-	desc = "'Secure all tool guards.'"
-
-/datum/poster/poster_50
-	icon_state = "poster50"
-	name = "Teamwork"
-	desc = "'Watch each other's back! Safety begins with teamwork.'"
-
-/datum/poster/poster_51
-	icon_state = "poster51"
-	name = "Stay warm"
-	desc = "'Stay warm, stay safe! Equip proper attire.'"
-
-/datum/poster/poster_52
-	icon_state = "poster52"
-	name = "Red poster"
-	desc = "A real ancient artifact from 1963, how did it even get here? Written in an unknown but familiar language."
-
-/datum/poster/poster_53
-	icon_state = "poster53"
-	name = "Gin and Tonic"
-	desc = "'Start your night with Gin and Tonic.'"
-
-/datum/poster/poster_54
-	icon_state = "poster54"
-	name = "Paradise"
-	desc = "'Birds of Paradise.'"
-
-/datum/poster/poster_55
-	icon_state = "poster55"
-	name = "Blini"
-	desc = "'Make your next gathering memorable and distinguished with Traditional Blini Cakes from Terran cuisine.'"
-
-/datum/poster/poster_56
-	icon_state = "poster56"
-	name = "Cigarette"
-	desc = "DromedaryCo cigarette ad."
-
-/datum/poster/poster_57
-	icon_state = "poster57"
-	name = "Wear gloves"
-	desc = "'Wear gloves when handling chemicals'"
-
-/datum/poster/poster_58
-	icon_state = "poster58"
-	name = "Pioneers"
-	desc = "'Sovereign Lordania Salutes our Pioneers of Science Graduating Class, Feb 2321.'"
-
-/datum/poster/poster_59
-	icon_state = "poster59"
-	name = "Human anatomy"
-	desc = "Man in the cross section. Brutal."
-
-/datum/poster/poster_60
-	icon_state = "poster60"
-	name = "Kadaab"
-	desc = "Kadaab, a moon of Inax."
-
-/datum/poster/poster_61
-	icon_state = "poster61"
-	name = "Militaristic poster"
-	desc = "ARMII GKK SLAVA!"
-
-/datum/poster/poster_62
-	icon_state = "poster62"
-	name = "Death to Sol"
-	desc = "'Smert Marsy! Smert dictaty democratov!'"
-
-/datum/poster/poster_63
-	icon_state = "poster63"
-	name = "Opasno"
-	desc = "'Alarm! Mines ahead'"
-
 /datum/poster/upp_1
 	icon_state="upp_poster_1"
 	name = "The Stars Are Ours"
@@ -374,3 +264,348 @@ Template
 	icon_state="upp_poster_10"
 	name = "Ever Vigilant Against the Stooges of Capitalism and Imperialism"
 	desc = "A warped screaming eagle made to look like a vulture bears its talons over Earth which has the UPP roundel super-imposed over it. The poster reads, 'The UA will not break the resolve of the people."
+
+// Hybrisa Posters //
+
+/// Alien Isolation & Dark Descent - posters used as reference (direct downscale of the image for some) ///
+/datum/poster/poster_42
+	icon_state="poster42"
+	name = "Colonial Marines poster"
+	desc = "Join the Colonial Marines. Enlist today, protect tomorrow!"
+
+/datum/poster/poster_43
+	icon_state="poster43"
+	name = "Koorlander Gold"
+	desc = "Koorlander - lovingly machine-rolled for YOUR pleasure."
+
+/datum/poster/poster_44
+	icon_state="poster44"
+	name = "Safety poster"
+	desc = "WASTE damages PROFIT - Think On!"
+
+/datum/poster/poster_45
+	icon_state="poster45"
+	name = "Pizza Galaxy poster"
+	desc = "This poster depicts a delicious looking slice of Pizza, Yum."
+
+/datum/poster/poster_46
+	icon_state="poster46"
+	name = "Kelland Mining co. poster"
+	desc = "A simplified version of the Kelland Mining co. logo.The Kelland Mining Company is owned by Prospectia, a sub-division of the San Rei Corporation, which is in turn owned by the Weyland-Yutani Corporation."
+
+/datum/poster/poster_47
+	icon_state="poster47"
+	name = "EAT"
+	desc = "This is less of a poster and more of an advertisement for those gross power bars."
+
+/datum/poster/poster_48
+	icon_state="poster48"
+	name = "Classic Cola poster"
+	desc = "This poster depicts a classic cola can. With a taste that's been around for centuries. Nobody can beat it."
+
+/datum/poster/poster_49
+	icon_state="poster49"
+	name = "Colonial Marines poster"
+	desc = "Join the Colonial Marines. Enlist today, protect tomorrow!"
+
+/datum/poster/poster_50
+	icon_state="poster50"
+	name = "Synthetic 'Daniel' poster"
+	desc = "An ominous forward facing profile of the Synthetic model 'Daniel'. Not quite a second generation model but something inbetween, suited for the needs of colonists. The poster is more art then an advertisement."
+
+/datum/poster/poster_51
+	icon_state="poster51"
+	name = "Synthetic 'Daniel' poster"
+	desc = "An ominous side facing profile of the Synthetic model 'Daniel'. Not quite a second generation model but something inbetween, suited for the needs of colonists. The poster is more art then an advertisement."
+
+/datum/poster/poster_52
+	icon_state="poster52"
+	name = "Colonial Marshalls poster"
+	desc = "To live, to serve, wherever humanity roams."
+
+/datum/poster/poster_53
+	icon_state="poster53"
+	name = "Colonial Marshalls poster"
+	desc = "The laws of Earth stretch beyond the Sol: The Colonial Marshals."
+
+/datum/poster/poster_54
+	icon_state="poster54"
+	name = "Pimp Clown poster"
+	desc = "Always returning. Always watching."
+
+/datum/poster/poster_55
+	icon_state="poster55"
+	name = "Weyland-Yutani poster"
+	desc = "You don't have much choice in brand loyalty when there's basically only one brand."
+
+/datum/poster/poster_56
+	icon_state="poster56"
+	name = "Koorlander Gold"
+	desc = "Koorlander Golds, lovingly machine rolled for YOUR pleasure."
+
+/datum/poster/poster_57
+	icon_state="poster57"
+	name = "art?"
+	desc = "This poster depicts some curved lines that some pretentious art snob valued at over $12,000,000. Too bad this is just a low-resolution print."
+
+/datum/poster/poster_58
+	icon_state="poster58"
+	name = "art?"
+	desc = "This poster depicts outsider geometric postmodern ascetic abject social expressionism art...you think."
+
+/datum/poster/poster_59
+	icon_state="poster59"
+	name = "Davenport Gin poster"
+	desc = "On your way back home? Toast your return with Davenport gin."
+
+/datum/poster/poster_60
+	icon_state="poster60"
+	name = "Weyland Yutani - 'Daniel' Model Synthetic poster"
+	desc = "A poster depicting a child in the arms of a Weyland Yutani 'Daniel' model Synthetic, Who thought this was a good idea?"
+
+/datum/poster/poster_61
+	icon_state="poster61"
+	name = "Safety poster"
+	desc = "Silence is not a Virtue - Do Not Share Sensitive Information..."
+
+/datum/poster/poster_62
+	icon_state="poster62"
+	name = "Synthetic 'Daniel' poster"
+	desc = "An ominous forward facing profile of the Synthetic model 'Daniel'. Not quite a second generation model but something inbetween, suited for the needs of colonists. The poster is more art then an advertisement."
+
+/datum/poster/poster_63
+	icon_state="poster63"
+	name = "Synthetic 'Daniel' poster"
+	desc = "An ominous side facing profile of the Synthetic model 'Daniel'. Not quite a second generation model but something inbetween, suited for the needs of colonists. The poster is more art then an advertisement."
+
+/datum/poster/poster_64
+	icon_state="poster64"
+	name = "Colonial Marine Corps poster"
+	desc = "Every Paycheck a Fortune! Every Formation a Parade! - Join the Colonial Marines!"
+
+/datum/poster/poster_65
+	icon_state="poster65"
+	name = "Colonial Marine Corps poster"
+	desc = "This poster depicts the logo of the Colonial Marine Corps, Oorah!"
+
+/datum/poster/poster_66
+	icon_state="poster66"
+	name = "Safety poster"
+	desc = "Save Resources! Switch Off Before You Clock Off."
+
+/datum/poster/poster_67
+	icon_state="poster67"
+	name = "Weyland Yutani - 'Daniel' Model Synthetic poster"
+	desc = "A poster depicting a child holding the hands of a Weyland Yutani 'Daniel' model Synthetic, Who thought this was a good idea?"
+
+/datum/poster/poster_68
+	icon_state="poster68"
+	name = "Safety poster"
+	desc = "Clutter Clouds the Mind - Clean Workstation = Clear Head!"
+
+/datum/poster/poster_69
+	icon_state="poster69"
+	name = "Safety poster"
+	desc = "NO foreign objects allowed - that means YOU Smokey Joe!"
+
+/datum/poster/poster_70
+	icon_state="poster70"
+	name = "Souto Blue"
+	desc = "Souto Blue. If you don't drink Souto, you probably do stuff like floss and value your kidneys...wimp. Printed in Havana."
+
+/datum/poster/poster_71
+	icon_state="poster71"
+	name = "Safety poster"
+	desc = "REMEMBER - Check Once, Twice, Thrice!"
+
+/datum/poster/poster_72
+	icon_state="poster72"
+	name = "Souto Lime"
+	desc = "Souto Lime. If you don't drink Souto, you probably do stuff like floss and value your kidneys...wimp. Printed in Havana."
+
+/datum/poster/poster_73
+	icon_state="poster73"
+	name = "Colonial Marine Corps poster"
+	desc = "YOU GIVE US WINGS, WINGS OF LIBERTY - United States Colonial Marines."
+
+/datum/poster/poster_74
+	icon_state="poster74"
+	name = "Colonial Marine Corps poster"
+	desc = "USCM MARINES - FIRST TO FIGHT."
+
+/datum/poster/poster_75
+	icon_state="poster75"
+	name = "Safety poster"
+	desc = "DO NOT APPROACH SUSPICIOUS OBJECTS - CALL SECURITY."
+
+/datum/poster/poster_76
+	icon_state="poster76"
+	name = "Weyland Yutani - 'Daniel' Model Synthetic poster"
+	desc = "All that matters is YOUR comfort. Our Artificial Humans are watching your back."
+
+/datum/poster/poster_77
+	icon_state="poster77"
+	name = "Colonial Marine Corps poster"
+	desc = "Join the elite 'Recon Division of the United States Colonial Marine Corps', and become the unseen force that strikes fear into the hearts of our enemies. Harness your instinct, adaptability, and unwavering focus as you navigate hostile territories on distant planets."
+
+/datum/poster/poster_78
+	icon_state="poster78"
+	name = "Safety poster"
+	desc = "CLEAN UP AFTER YOURSELF! CLEAN SPACE - CLEAR MIND."
+
+/datum/poster/poster_79
+	icon_state="poster79"
+	name = "Colonial Marine Corps poster"
+	desc = "No one stands alone with the United States Colonial Marines - JOIN US!"
+
+/datum/poster/poster_80
+	icon_state="poster80"
+	name = "Safety poster"
+	desc = "DON'T OPEN UNKNOWN CONTAINERS - AVOID VERMIN!"
+
+/datum/poster/poster_81
+	icon_state="poster81"
+	name = "Safety poster"
+	desc = "THIS IS A QUIET ZONE - PLEASE TALK SOFTLY."
+
+/datum/poster/poster_82
+	icon_state="poster82"
+	name = "Weyland-Yutani propaganda poster"
+	desc = "TOGETHER - EXTRASOLAR COLONIZATION - WEAPON - PROTECTION - HIGH TECHNOLOGY - MANUFACTURING SYNTHETICS - FUTURE - SPACE STATION. Weyland Yutani - Building better Worlds."
+
+/datum/poster/poster_83
+	icon_state="poster83"
+	name = "Weyland-Yutani propaganda poster"
+	desc = "LET'S WORK - TOGETHER WE BUILD A BETTER FUTURE."
+
+/datum/poster/poster_84
+	icon_state="poster84"
+	name = "Safety poster"
+	desc = "GERMS HATE SOAP - DON'T forget to wash your hands."
+
+/datum/poster/poster_85
+	icon_state="poster85"
+	name = "NSPA poster"
+	desc = "A recruitment poster for the NSPA. Integrity, Justice, Unity—Together, We Keep the Peace."
+
+/datum/poster/poster_86
+	icon_state="poster86"
+	name = "NSPA poster"
+	desc = "A recruitment poster for the NSPA. Serve with Honor, Protect with Strength."
+
+/datum/poster/poster_87
+	icon_state="poster87"
+	name = "NSPA poster"
+	desc = "A recruitment poster for the NSPA. One Law, One Duty, One Force—Join the NSPA."
+
+// allo
+
+/datum/poster/poster_88
+	icon_state = "poster88"
+	name = "Soobcha!"
+	desc = "A propaganda poster depicting  hands calling out to the GCC says 'Soobcha! Unified systems fight for Freedom!'"
+
+/datum/poster/poster_89
+	icon_state = "poster89"
+	name = "Burning SCG flag"
+	desc = "The famous photo of the burning SCG flag."
+
+/datum/poster/poster_90
+	icon_state = "poster90"
+	name = "Corporate Army"
+	desc = "An old poster asking for investment in the Corporate Army. Even in wartime, corporations extorted money."
+
+/datum/poster/poster_91
+	icon_state = "poster91"
+	name = "Atlas"
+	desc = "Although the advertising campaign of the 'Atlas' combat exosuit was a failure, it gained popularity as the Boris Booker's favorite mech."
+
+/datum/poster/poster_92
+	icon_state = "poster92"
+	name = "Terra"
+	desc = "Green fields of Terra"
+
+/datum/poster/poster_93
+	icon_state = "poster93"
+	name = "Tools"
+	desc = "'Let your tools do the talking.'"
+
+/datum/poster/poster_94
+	icon_state = "poster94"
+	name = "Safety"
+	desc = "'Teamwork improves safety.'"
+
+/datum/poster/poster_95
+	icon_state = "poster95"
+	name = "Secure"
+	desc = "'Secure all tool guards.'"
+
+/datum/poster/poster_96
+	icon_state = "poster96"
+	name = "Teamwork"
+	desc = "'Watch each other's back! Safety begins with teamwork.'"
+
+/datum/poster/poster_97
+	icon_state = "poster97"
+	name = "Stay warm"
+	desc = "'Stay warm, stay safe! Equip proper attire.'"
+
+/datum/poster/poster_98
+	icon_state = "poster98"
+	name = "Red poster"
+	desc = "A real ancient artifact from 1963, how did it even get here? Written in an unknown but familiar language."
+
+/datum/poster/poster_99
+	icon_state = "poster99"
+	name = "Gin and Tonic"
+	desc = "'Start your night with Gin and Tonic.'"
+
+/datum/poster/poster_100
+	icon_state = "poster100"
+	name = "Paradise"
+	desc = "'Birds of Paradise.'"
+
+/datum/poster/poster_101
+	icon_state = "poster101"
+	name = "Blini"
+	desc = "'Make your next gathering memorable and distinguished with Traditional Blini Cakes from Terran cuisine.'"
+
+/datum/poster/poster_102
+	icon_state = "poster102"
+	name = "Cigarette"
+	desc = "DromedaryCo cigarette ad."
+
+/datum/poster/poster_103
+	icon_state = "poster103"
+	name = "Wear gloves"
+	desc = "'Wear gloves when handling chemicals'"
+
+/datum/poster/poster_104
+	icon_state = "poster104"
+	name = "Pioneers"
+	desc = "'Sovereign Lordania Salutes our Pioneers of Science Graduating Class, Feb 2321.'"
+
+/datum/poster/poster_105
+	icon_state = "poster105"
+	name = "Human anatomy"
+	desc = "Man in the cross section. Brutal."
+
+/datum/poster/poster_106
+	icon_state = "poster106"
+	name = "Kadaab"
+	desc = "Kadaab, a moon of Inax."
+
+/datum/poster/poster_107
+	icon_state = "poster107"
+	name = "Militaristic poster"
+	desc = "ARMII GKK SLAVA!"
+
+/datum/poster/poster_108
+	icon_state = "poster108"
+	name = "Death to Sol"
+	desc = "'Smert Marsy! Smert dictaty democratov!'"
+
+/datum/poster/poster_109
+	icon_state = "poster109"
+	name = "Opasno"
+	desc = "'Alarm! Mines ahead'"
