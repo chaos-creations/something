@@ -20,7 +20,7 @@
 <center><i><small>Документ действителен до ##.##.2195. Несанкционированное копирование запрещено.</small></i></center>
 	"}
 
-/obj/item/storage/box/donator_kit/Mike_Forexsis
+/obj/item/storage/box/donator_kit/mike_forexsis
 	donor_key = "mike_forexsis"
 	donor_gear = list(
 		/obj/item/storage/mateba_case/captain,
