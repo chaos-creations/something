@@ -522,3 +522,79 @@
 	if(T)
 		explosion(T, 0, 3, 5, 7)
 	. = ..()
+
+//barrels
+
+/obj/structure/largecrate/random/barrel/cadaab
+	name = "barrel"
+	desc = "barrel"
+	icon = 'something/icons/barrels.dmi'
+	icon_state = "no_name"
+	anchored = FALSE
+	var/icon_prefix = "no_name"
+
+/obj/structure/largecrate/random/barrel/cadaab/grey
+	name = "grey barrel"
+	desc = "A grey barrel, probably used to store some kind of chemicals."
+	icon_state = "grey1"
+	icon_prefix = "grey"
+
+/obj/structure/largecrate/random/barrel/cadaab/grey/Initialize(mapload, ...)
+	. = ..()
+	if(icon_prefix)
+		icon_state = "[icon_prefix][rand(1,3)]"
+
+/obj/structure/largecrate/random/barrel/cadaab/red
+	name = "red barrel"
+	desc = "A red barrel, probably used to store some kind of chemicals."
+	icon_state = "red1"
+	icon_prefix = "red"
+
+/obj/structure/largecrate/random/barrel/cadaab/red/Initialize(mapload, ...)
+	. = ..()
+	if(icon_prefix)
+		icon_state = "[icon_prefix][rand(1,3)]"
+
+/obj/structure/largecrate/random/barrel/cadaab/yellow
+	name = "yellow barrel"
+	desc = "A yellow barrel, probably used to store some kind of chemicals."
+	icon_state = "yellow1"
+	icon_prefix = "yellow"
+
+/obj/structure/largecrate/random/barrel/cadaab/yellow/Initialize(mapload, ...)
+	. = ..()
+	if(icon_prefix)
+		icon_state = "[icon_prefix][rand(1,3)]"
+
+/obj/structure/largecrate/random/barrel/cadaab/label
+	name = "labeled barrel"
+	desc = "A labeled barrel, probably used to store some kind of chemicals."
+	icon_state = "label1"
+	icon_prefix = "label"
+
+/obj/structure/largecrate/random/barrel/cadaab/label/Initialize(mapload, ...)
+	. = ..()
+	if(icon_prefix)
+		icon_state = "[icon_prefix][rand(1,3)]"
+
+/obj/structure/largecrate/random/barrel/cadaab/hazard
+	name = "hazard barrel"
+	desc = "A hazard barrel, probably used to store some kind of chemicals."
+	icon_state = "hazard1"
+	icon_prefix = "hazard"
+
+/obj/structure/largecrate/random/barrel/cadaab/hazard/Initialize(mapload, ...)
+	. = ..()
+	if(icon_prefix)
+		icon_state = "[icon_prefix][rand(1,3)]"
+
+/obj/structure/largecrate/random/barrel/cadaab/red_alt
+	name = "red barrel"
+	desc = "A red barrel, probably used to store some kind of chemicals."
+	icon_state = "red_alt1"
+	icon_prefix = "red_alt"
+
+/obj/structure/largecrate/random/barrel/cadaab/red_alt/Initialize(mapload, ...)
+	. = ..()
+	if(icon_prefix)
+		icon_state = "[icon_prefix][rand(1,3)]"
