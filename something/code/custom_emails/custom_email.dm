@@ -31,6 +31,7 @@
 				var/datum/fluff_email/E = email_list[selected_mail]
 				dat += "<b>SUBJECT: [E.title]</b><HR>"
 				dat += "[E.entry_text]<HR>"
+				dat += "<A href='?src=\ref[src];print=1'>Print</A><BR>"
 				dat += "<A href='?src=\ref[src];back=1'>Back</A>"
 			else
 				var/i = 0
@@ -39,7 +40,7 @@
 					var/datum/fluff_email/FE = mail
 					dat += "<A href='byond://?src=\ref[src];selectmail=[i]'>[FE.title]</A><BR>"
 
-	show_browser(user, dat, "Personal Computer", "email", "size=600x520")
+	show_browser(user, dat, "[src.name]", "email_[REF(src)]", "size=600x520")
 
 /obj/structure/machinery/computer/custom_email/Topic(href, href_list)
 	if(..())
@@ -57,5 +58,15 @@
 	else if(href_list["back"])
 		selected_mail = null
 
+	else if(href_list["print"])
+		if(selected_mail)
+			var/datum/fluff_email/E = email_list[selected_mail]
+			var/obj/item/paper/P = new /obj/item/paper(get_turf(src))
+			P.name = "Printed Email — [E.title]"
+			P.info = "<b>SUBJECT:</b> [E.title]<hr>[E.entry_text]<hr><i>Printed from terminal: [src.name]</i>"
+			P.update_icon()
+			playsound(src, 'sound/machines/fax.ogg', 50, 1)
+
 	add_fingerprint(usr)
 	attack_hand(usr)
+
