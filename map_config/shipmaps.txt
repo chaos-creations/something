@@ -36,6 +36,9 @@ endmap
 map hideout
 endmap
 
+map scavenger
+endmap
+
 map uscss_obsidian_falk
 endmap
 
