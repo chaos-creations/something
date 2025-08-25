@@ -539,6 +539,10 @@
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
 	})
+"aN" = (
+/obj/structure/window/framed/strata/hull,
+/turf/open/floor/corsat,
+/area/space)
 "aO" = (
 /obj/structure/sink{
 	dir = 8;
@@ -1085,6 +1089,24 @@
 "bH" = (
 /turf/open/floor/plating/kutjevo/platingdmg1,
 /area/space)
+"bI" = (
+/obj/structure/machinery/vending/cigarette,
+/turf/open/floor/corsat,
+/area/space)
+"bJ" = (
+/obj/structure/bed/chair{
+	dir = 1
+	},
+/turf/open/floor/corsat,
+/area/space)
+"bK" = (
+/obj/structure/machinery/door/airlock/almayer/marine/requisitions{
+	dir = 4;
+	no_panel = 1;
+	not_weldable = 1
+	},
+/turf/open/floor/almayer/pod_landing_floor,
+/area/space)
 "bL" = (
 /turf/open/floor/prison/floor_plate/southwest,
 /area/space)
@@ -1122,6 +1144,27 @@
 /area/space)
 "bQ" = (
 /turf/open/floor/plating/kutjevo/platingdmg3,
+/area/space)
+"bR" = (
+/obj/structure/surface/table/almayer{
+	color = "#8B9490"
+	},
+/obj/item/toy/deck{
+	pixel_x = -4;
+	pixel_y = 10
+	},
+/obj/item/reagent_container/food/drinks/cans/souto/diet/cherry{
+	pixel_x = 9;
+	pixel_y = 12
+	},
+/obj/item/ashtray/plastic{
+	pixel_y = -4
+	},
+/obj/item/trash/cigbutt{
+	pixel_x = 1;
+	pixel_y = 5
+	},
+/turf/open/floor/corsat,
 /area/space)
 "bS" = (
 /turf/open/floor/almayer{
@@ -1214,6 +1257,79 @@
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
 	})
+"cf" = (
+/obj/structure/closet/secure_closet/cargotech{
+	pixel_x = -7;
+	pixel_y = 2
+	},
+/obj/structure/barricade/handrail/strata{
+	pixel_y = 0;
+	dir = 2;
+	layer = 3.1
+	},
+/turf/open/floor/corsat,
+/area/space)
+"cg" = (
+/obj/structure/bed/chair{
+	dir = 2
+	},
+/turf/open/floor/corsat,
+/area/space)
+"ch" = (
+/turf/open/floor/tdome/northeast,
+/area/space)
+"ci" = (
+/obj/structure/machinery/cryopod/big/flipped{
+	pixel_x = -14;
+	pixel_y = 4;
+	light_color = "#C02526"
+	},
+/turf/open/floor/tdome/tcomms,
+/area/space)
+"cj" = (
+/obj/structure/barricade/handrail/strata{
+	pixel_y = 0;
+	dir = 1;
+	layer = 3
+	},
+/obj/structure/prop/structure_lattice{
+	dir = 4;
+	pixel_y = 0
+	},
+/obj/structure/prop/structure_lattice{
+	dir = 4;
+	pixel_y = 13;
+	layer = 3.1
+	},
+/obj/structure/barricade/handrail/strata{
+	pixel_y = 0;
+	dir = 8;
+	layer = 3
+	},
+/turf/open/floor/corsat,
+/area/space)
+"ck" = (
+/obj/structure/cable/heavyduty{
+	icon_state = "1-2";
+	color = null;
+	pixel_x = 10
+	},
+/obj/effect/hybrisa/misc/fake/wire/red{
+	pixel_x = -10
+	},
+/obj/effect/hybrisa/misc/fake/wire/blue{
+	pixel_x = -13
+	},
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice3";
+	pixel_y = 20
+	},
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice3";
+	pixel_y = -12
+	},
+/turf/open/floor/corsat,
+/area/space)
 "cl" = (
 /turf/open/floor/prison/darkredcorners2/west,
 /area/space)
@@ -1303,6 +1419,26 @@
 "cu" = (
 /turf/open/floor/almayer/pod_landing_floor,
 /area/golden_arrow/canteen)
+"cv" = (
+/obj/structure/surface/rack{
+	color = "#6b675e";
+	layer = 2.79;
+	pixel_x = -3
+	},
+/obj/item/clothing/head/cmcap{
+	pixel_x = -5;
+	pixel_y = 8
+	},
+/obj/item/clothing/under/rank/cargotech{
+	pixel_x = -4;
+	pixel_y = 0
+	},
+/turf/open/floor/corsat,
+/area/space)
+"cw" = (
+/obj/effect/landmark/start/requisition,
+/turf/open/floor/tdome/northeast,
+/area/space)
 "cx" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "W";
@@ -1372,6 +1508,19 @@
 	},
 /turf/open/floor/almayer/pod_landing_floor,
 /area/golden_arrow/canteen)
+"cF" = (
+/obj/structure/cryofeed,
+/obj/structure/cable/heavyduty{
+	icon_state = "1-2";
+	color = null;
+	pixel_x = 10
+	},
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice3";
+	pixel_y = 20
+	},
+/turf/open/floor/corsat,
+/area/space)
 "cG" = (
 /obj/item/stool{
 	pixel_x = 15;
@@ -1385,6 +1534,56 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/corsat,
 /area/golden_arrow/cryo_cells)
+"cH" = (
+/obj/structure/surface/table/almayer{
+	color = "#8B9490"
+	},
+/obj/item/stack/medical/advanced/bruise_pack{
+	pixel_x = -9;
+	pixel_y = 10
+	},
+/obj/item/stack/medical/advanced/bruise_pack{
+	pixel_x = -9;
+	pixel_y = 10
+	},
+/obj/item/stack/medical/advanced/bruise_pack{
+	pixel_x = -9;
+	pixel_y = 10
+	},
+/obj/item/stack/medical/advanced/ointment{
+	pixel_x = 7;
+	pixel_y = 10
+	},
+/obj/item/stack/medical/advanced/ointment{
+	pixel_x = 7;
+	pixel_y = 10
+	},
+/obj/item/stack/medical/advanced/ointment{
+	pixel_x = 7;
+	pixel_y = 10
+	},
+/obj/item/storage/pill_bottle/packet/tricordrazine{
+	pixel_x = -8;
+	pixel_y = 0
+	},
+/obj/item/storage/pill_bottle/packet/tricordrazine{
+	pixel_x = -8;
+	pixel_y = 0
+	},
+/obj/item/reagent_container/hypospray/autoinjector/tricord{
+	pixel_x = 8;
+	pixel_y = -2
+	},
+/obj/item/reagent_container/hypospray/autoinjector/tricord{
+	pixel_x = 8;
+	pixel_y = -2
+	},
+/obj/item/reagent_container/hypospray/autoinjector/tricord{
+	pixel_x = 8;
+	pixel_y = -2
+	},
+/turf/open/floor/corsat,
+/area/space)
 "cI" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S";
@@ -1392,6 +1591,44 @@
 	},
 /turf/open/floor/almayer/edge,
 /area/golden_arrow/hangar)
+"cJ" = (
+/obj/structure/surface/rack{
+	color = "#98a3ab"
+	},
+/obj/item/clothing/head/helmet/marine/medic{
+	pixel_x = 7;
+	pixel_y = 12
+	},
+/obj/item/clothing/head/helmet/marine/medic{
+	pixel_x = 7;
+	pixel_y = 12
+	},
+/obj/item/clothing/head/helmet/marine/medic{
+	pixel_x = 7;
+	pixel_y = 12
+	},
+/obj/item/clothing/head/helmet/marine/tech{
+	pixel_x = -6;
+	pixel_y = 12
+	},
+/obj/item/clothing/head/helmet/marine/tech{
+	pixel_x = -6;
+	pixel_y = 12
+	},
+/obj/item/clothing/head/helmet/marine/tech{
+	pixel_x = -6;
+	pixel_y = 12
+	},
+/obj/item/clothing/head/helmet/marine/medic/white{
+	pixel_x = 1;
+	pixel_y = 4
+	},
+/obj/item/clothing/head/helmet/marine/medic/white{
+	pixel_x = 1;
+	pixel_y = 4
+	},
+/turf/open/floor/almayer/pod_landing_floor,
+/area/space)
 "cK" = (
 /obj/structure/closet{
 	name = "boxing attire"
@@ -1426,13 +1663,13 @@
 /obj/structure/platform_decoration/strata/metal{
 	dir = 8
 	},
-/turf/open/space/basic,
+/turf/open/floor/corsat,
 /area/space)
 "cN" = (
 /obj/structure/platform/strata/metal{
 	dir = 1
 	},
-/turf/open/space/basic,
+/turf/open/floor/corsat,
 /area/space)
 "cO" = (
 /obj/structure/stairs/perspective{
@@ -1445,6 +1682,44 @@
 /area/space)
 "cQ" = (
 /turf/open/floor/prison/darkred2/west,
+/area/space)
+"cR" = (
+/obj/structure/surface/rack{
+	color = "#98a3ab"
+	},
+/obj/item/clothing/head/helmet/marine/M3T{
+	pixel_x = 7;
+	pixel_y = 12
+	},
+/obj/item/clothing/head/helmet/marine/M3T{
+	pixel_x = 7;
+	pixel_y = 12
+	},
+/obj/item/clothing/head/helmet/marine/M3T{
+	pixel_x = 7;
+	pixel_y = 12
+	},
+/obj/item/clothing/head/helmet/marine/scout{
+	pixel_x = -6;
+	pixel_y = 12
+	},
+/obj/item/clothing/head/helmet/marine/scout{
+	pixel_x = -6;
+	pixel_y = 12
+	},
+/obj/item/clothing/head/helmet/marine/scout{
+	pixel_x = -6;
+	pixel_y = 12
+	},
+/obj/item/clothing/suit/marine/smartgunner{
+	pixel_x = 2;
+	pixel_y = -3
+	},
+/obj/item/clothing/suit/marine/smartgunner{
+	pixel_x = 2;
+	pixel_y = -3
+	},
+/turf/open/floor/almayer/pod_landing_floor,
 /area/space)
 "cS" = (
 /turf/open/floor/prison/darkred2/north,
@@ -1514,9 +1789,33 @@
 	color = "#6e6e6e";
 	dir = 2
 	},
-/turf/open/floor/plating,
+/turf/open/floor/corsat,
 /area/space)
 "cZ" = (
+/turf/open/floor/almayer/pod_landing_floor,
+/area/space)
+"da" = (
+/obj/structure/surface/rack{
+	color = "#98a3ab"
+	},
+/obj/item/weapon/gun/shotgun/double/sawn{
+	pixel_y = 8
+	},
+/obj/item/weapon/gun/shotgun/double/sawn{
+	pixel_y = 8
+	},
+/obj/item/weapon/gun/shotgun/double/sawn{
+	pixel_y = 8
+	},
+/obj/item/weapon/gun/shotgun/pump{
+	pixel_y = -3
+	},
+/obj/item/weapon/gun/shotgun/pump{
+	pixel_y = -3
+	},
+/obj/item/weapon/gun/shotgun/pump{
+	pixel_y = -3
+	},
 /turf/open/floor/almayer/pod_landing_floor,
 /area/space)
 "db" = (
@@ -1525,18 +1824,324 @@
 	},
 /turf/open/floor/almayer/plate,
 /area/golden_arrow/dorms)
+"dc" = (
+/obj/structure/surface/rack{
+	color = "#98a3ab"
+	},
+/obj/item/weapon/gun/rifle/ar10,
+/obj/item/weapon/gun/rifle/ar10,
+/obj/item/weapon/gun/rifle/ar10,
+/obj/item/explosive/grenade/high_explosive{
+	pixel_x = -4;
+	pixel_y = 13
+	},
+/obj/item/explosive/grenade/high_explosive{
+	pixel_x = -4;
+	pixel_y = 13
+	},
+/obj/item/explosive/grenade/high_explosive{
+	pixel_x = -4;
+	pixel_y = 13
+	},
+/obj/item/explosive/grenade/high_explosive{
+	pixel_x = -4;
+	pixel_y = 13
+	},
+/obj/item/explosive/grenade/high_explosive{
+	pixel_x = -4;
+	pixel_y = 13
+	},
+/obj/item/explosive/grenade/high_explosive/frag{
+	pixel_x = 5;
+	pixel_y = 13
+	},
+/obj/item/explosive/grenade/high_explosive/frag{
+	pixel_x = 5;
+	pixel_y = 13
+	},
+/obj/item/explosive/grenade/high_explosive/frag{
+	pixel_x = 5;
+	pixel_y = 13
+	},
+/obj/item/explosive/grenade/high_explosive/frag{
+	pixel_x = 5;
+	pixel_y = 13
+	},
+/obj/item/explosive/grenade/high_explosive/frag{
+	pixel_x = 5;
+	pixel_y = 13
+	},
+/turf/open/floor/almayer/pod_landing_floor,
+/area/space)
+"dd" = (
+/obj/structure/surface/rack{
+	color = "#98a3ab"
+	},
+/obj/item/storage/box/flare{
+	pixel_y = 16
+	},
+/obj/item/storage/box/flare{
+	pixel_y = 16
+	},
+/obj/item/storage/box/flare{
+	pixel_y = 16
+	},
+/obj/item/storage/box/flare{
+	pixel_y = 16
+	},
+/obj/item/storage/pouch/flare{
+	pixel_x = -5;
+	pixel_y = 8
+	},
+/obj/item/storage/pouch/flare{
+	pixel_x = -5;
+	pixel_y = 8
+	},
+/obj/item/storage/pouch/flare{
+	pixel_x = -5;
+	pixel_y = 8
+	},
+/obj/item/storage/pouch/flare{
+	pixel_x = -5;
+	pixel_y = 8
+	},
+/obj/item/storage/pouch/flare{
+	pixel_x = -5;
+	pixel_y = 8
+	},
+/obj/item/storage/pouch/shotgun{
+	pixel_x = 6;
+	pixel_y = 8
+	},
+/obj/item/storage/pouch/shotgun{
+	pixel_x = 6;
+	pixel_y = 8
+	},
+/obj/item/storage/pouch/shotgun{
+	pixel_x = 6;
+	pixel_y = 8
+	},
+/obj/item/storage/pouch/shotgun{
+	pixel_x = 6;
+	pixel_y = 8
+	},
+/obj/item/storage/pouch/shotgun{
+	pixel_x = 6;
+	pixel_y = 8
+	},
+/obj/item/device/flashlight{
+	pixel_y = -5
+	},
+/obj/item/device/flashlight{
+	pixel_y = -5
+	},
+/obj/item/device/flashlight{
+	pixel_y = -5
+	},
+/obj/item/device/flashlight{
+	pixel_y = -5
+	},
+/turf/open/floor/almayer/pod_landing_floor,
+/area/space)
+"de" = (
+/obj/structure/surface/rack{
+	color = "#98a3ab"
+	},
+/obj/item/storage/pouch/magazine{
+	pixel_y = 16
+	},
+/obj/item/storage/pouch/magazine{
+	pixel_y = 16
+	},
+/obj/item/storage/pouch/magazine{
+	pixel_y = 16
+	},
+/obj/item/storage/pouch/magazine{
+	pixel_y = 16
+	},
+/obj/item/storage/pouch/pistol{
+	pixel_x = -6;
+	pixel_y = 4
+	},
+/obj/item/storage/pouch/pistol{
+	pixel_x = -6;
+	pixel_y = 4
+	},
+/obj/item/storage/pouch/pistol{
+	pixel_x = -6;
+	pixel_y = 4
+	},
+/obj/item/storage/pouch/pistol{
+	pixel_x = -6;
+	pixel_y = 4
+	},
+/obj/item/storage/pouch/firstaid{
+	pixel_x = 5;
+	pixel_y = 1
+	},
+/obj/item/storage/pouch/firstaid{
+	pixel_x = 5;
+	pixel_y = 1
+	},
+/obj/item/storage/pouch/firstaid{
+	pixel_x = 5;
+	pixel_y = 1
+	},
+/obj/item/storage/pouch/firstaid{
+	pixel_x = 5;
+	pixel_y = 1
+	},
+/turf/open/floor/almayer/pod_landing_floor,
+/area/space)
+"df" = (
+/obj/structure/barricade/handrail/strata{
+	pixel_y = 0;
+	dir = 1;
+	layer = 3.1
+	},
+/obj/structure/closet/secure_closet/cargotech{
+	pixel_x = -7;
+	pixel_y = -5
+	},
+/turf/open/floor/corsat,
+/area/space)
 "dg" = (
 /obj/structure/machinery/computer/crew,
 /turf/open/floor/prison/sterile_white,
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
 	})
+"dh" = (
+/obj/structure/machinery/constructable_frame,
+/turf/open/floor/tdome/tcomms,
+/area/space)
+"di" = (
+/obj/structure/prop/structure_lattice{
+	dir = 4;
+	pixel_y = 0
+	},
+/obj/structure/prop/structure_lattice{
+	dir = 4;
+	pixel_y = 13;
+	layer = 3.1
+	},
+/obj/structure/barricade/handrail/strata{
+	pixel_y = 0;
+	dir = 8;
+	layer = 3
+	},
+/obj/structure/barricade/handrail/strata{
+	pixel_y = 0;
+	dir = 2;
+	layer = 3.1
+	},
+/turf/open/floor/corsat,
+/area/space)
+"dj" = (
+/obj/structure/cable/heavyduty{
+	icon_state = "1-2";
+	color = null;
+	pixel_x = 10
+	},
+/obj/effect/hybrisa/misc/fake/wire/red{
+	pixel_x = -10
+	},
+/obj/effect/hybrisa/misc/fake/wire/blue{
+	pixel_x = -13
+	},
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice3";
+	pixel_y = 20
+	},
+/turf/open/floor/corsat,
+/area/space)
 "dk" = (
 /turf/open/floor/prison/darkredcorners2/east,
+/area/space)
+"dl" = (
+/obj/structure/surface/rack{
+	color = "#98a3ab"
+	},
+/obj/item/weapon/gun/revolver/m44{
+	pixel_y = -3
+	},
+/obj/item/weapon/gun/revolver/m44{
+	pixel_y = -3
+	},
+/obj/item/weapon/gun/revolver/m44{
+	pixel_y = -3
+	},
+/obj/item/weapon/gun/pistol/vp78{
+	pixel_y = 9
+	},
+/obj/item/weapon/gun/pistol/vp78{
+	pixel_y = 9
+	},
+/obj/item/weapon/gun/pistol/vp78{
+	pixel_y = 9
+	},
+/turf/open/floor/almayer/pod_landing_floor,
+/area/space)
+"dm" = (
+/obj/structure/surface/rack{
+	color = "#98a3ab"
+	},
+/obj/item/storage/backpack/general_belt{
+	pixel_y = 17
+	},
+/obj/item/storage/backpack/general_belt{
+	pixel_y = 17
+	},
+/obj/item/storage/backpack/general_belt{
+	pixel_y = 17
+	},
+/obj/item/storage/pouch/medkit,
+/obj/item/storage/pouch/medkit,
+/obj/item/storage/pouch/medkit,
+/turf/open/floor/almayer/pod_landing_floor,
+/area/space)
+"dn" = (
+/obj/structure/surface/rack{
+	color = "#98a3ab"
+	},
+/obj/item/weapon/gun/smg/mac15,
+/obj/item/weapon/gun/smg/mac15,
+/obj/item/weapon/gun/smg/mac15,
+/turf/open/floor/almayer/pod_landing_floor,
 /area/space)
 "do" = (
 /turf/closed/wall/strata_outpost,
 /area/golden_arrow/dorms)
+"dp" = (
+/obj/structure/surface/rack{
+	color = "#98a3ab"
+	},
+/obj/item/storage/backpack/marine{
+	pixel_y = -6
+	},
+/obj/item/storage/backpack/marine{
+	pixel_y = -6
+	},
+/obj/item/storage/backpack/marine{
+	pixel_y = -6
+	},
+/obj/item/storage/backpack/marine{
+	pixel_y = -6
+	},
+/obj/item/storage/backpack/marine/satchel/tech{
+	pixel_y = 13
+	},
+/obj/item/storage/backpack/marine/satchel/tech{
+	pixel_y = 13
+	},
+/obj/item/storage/backpack/marine/satchel/tech{
+	pixel_y = 13
+	},
+/obj/item/storage/backpack/marine/satchel/tech{
+	pixel_y = 13
+	},
+/turf/open/floor/almayer/pod_landing_floor,
+/area/space)
 "dq" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -1546,6 +2151,327 @@
 	},
 /turf/open/floor/almayer/edge/east,
 /area/golden_arrow/engineering)
+"dr" = (
+/obj/effect/hybrisa/misc/fake/pipes/pipe5{
+	dir = 4;
+	pixel_y = -1
+	},
+/turf/open/floor/corsat,
+/area/space)
+"ds" = (
+/obj/effect/hybrisa/misc/fake/pipes/pipe3{
+	dir = 4
+	},
+/turf/open/floor/corsat,
+/area/space)
+"dt" = (
+/obj/effect/hybrisa/misc/fake/pipes/pipe1{
+	dir = 4
+	},
+/turf/open/floor/corsat,
+/area/space)
+"du" = (
+/obj/structure/surface/rack{
+	color = "#98a3ab"
+	},
+/obj/item/weapon/gun/smg/m39{
+	pixel_x = 2;
+	pixel_y = 8
+	},
+/obj/item/weapon/gun/smg/m39{
+	pixel_x = 2;
+	pixel_y = 8
+	},
+/obj/item/weapon/gun/smg/m39{
+	pixel_x = 2;
+	pixel_y = 8
+	},
+/obj/item/weapon/gun/smg/uzi{
+	pixel_x = 1;
+	pixel_y = -1
+	},
+/obj/item/weapon/gun/smg/uzi{
+	pixel_x = 1;
+	pixel_y = -1
+	},
+/obj/item/weapon/gun/smg/uzi{
+	pixel_x = 1;
+	pixel_y = -1
+	},
+/turf/open/floor/almayer/pod_landing_floor,
+/area/space)
+"dv" = (
+/obj/structure/surface/rack{
+	color = "#98a3ab"
+	},
+/obj/item/storage/pouch/general/large{
+	pixel_x = 1;
+	pixel_y = 18
+	},
+/obj/item/storage/pouch/general/large{
+	pixel_x = 1;
+	pixel_y = 18
+	},
+/obj/item/storage/pouch/general/large{
+	pixel_x = 1;
+	pixel_y = 18
+	},
+/obj/item/storage/belt/medical{
+	pixel_x = 1;
+	pixel_y = 2
+	},
+/obj/item/storage/belt/medical{
+	pixel_x = 1;
+	pixel_y = 2
+	},
+/obj/item/storage/belt/medical{
+	pixel_x = 1;
+	pixel_y = 2
+	},
+/turf/open/floor/almayer/pod_landing_floor,
+/area/space)
+"dw" = (
+/obj/structure/surface/table/almayer{
+	color = "#8B9490"
+	},
+/obj/item/storage/pill_bottle/packet/bicaridine{
+	pixel_x = -9;
+	pixel_y = 18
+	},
+/obj/item/storage/pill_bottle/packet/bicaridine{
+	pixel_x = -9;
+	pixel_y = 18
+	},
+/obj/item/storage/pill_bottle/packet/kelotane{
+	pixel_x = 1;
+	pixel_y = 18
+	},
+/obj/item/storage/pill_bottle/packet/kelotane{
+	pixel_x = 1;
+	pixel_y = 18
+	},
+/obj/item/storage/pill_bottle/packet/tramadol{
+	pixel_x = 11;
+	pixel_y = 18
+	},
+/obj/item/storage/pill_bottle/packet/tramadol{
+	pixel_x = 11;
+	pixel_y = 18
+	},
+/obj/item/device/healthanalyzer{
+	pixel_x = -4;
+	pixel_y = 9
+	},
+/obj/item/clothing/glasses/hud/sensor{
+	pixel_x = 5;
+	pixel_y = -1
+	},
+/turf/open/floor/almayer/pod_landing_floor,
+/area/space)
+"dx" = (
+/obj/structure/surface/rack{
+	color = "#98a3ab"
+	},
+/obj/item/weapon/gun/pistol/vp70{
+	pixel_y = 11
+	},
+/obj/item/weapon/gun/pistol/vp70{
+	pixel_y = 11
+	},
+/obj/item/weapon/gun/pistol/vp70{
+	pixel_y = 11
+	},
+/obj/item/weapon/gun/pistol/m4a3{
+	pixel_x = -2;
+	pixel_y = 3
+	},
+/obj/item/weapon/gun/pistol/m4a3{
+	pixel_x = -2;
+	pixel_y = 3
+	},
+/obj/item/weapon/gun/pistol/m4a3{
+	pixel_x = -2;
+	pixel_y = 3
+	},
+/obj/item/weapon/gun/pistol/m1911{
+	pixel_y = -4;
+	pixel_x = 2
+	},
+/obj/item/weapon/gun/pistol/m1911{
+	pixel_y = -4;
+	pixel_x = 2
+	},
+/obj/item/weapon/gun/pistol/m1911{
+	pixel_y = -4;
+	pixel_x = 2
+	},
+/turf/open/floor/almayer/pod_landing_floor,
+/area/space)
+"dy" = (
+/obj/structure/surface/rack{
+	color = "#98a3ab"
+	},
+/obj/item/storage/backpack/marine/satchel{
+	pixel_x = 1;
+	pixel_y = 17
+	},
+/obj/item/storage/backpack/marine/satchel{
+	pixel_x = 1;
+	pixel_y = 17
+	},
+/obj/item/storage/backpack/marine/satchel{
+	pixel_x = 1;
+	pixel_y = 17
+	},
+/obj/item/storage/backpack/marine/satchel{
+	pixel_x = 1;
+	pixel_y = 17
+	},
+/obj/item/storage/pouch/general{
+	pixel_x = -6;
+	pixel_y = 0
+	},
+/obj/item/storage/pouch/general{
+	pixel_x = -6;
+	pixel_y = 0
+	},
+/obj/item/storage/pouch/general{
+	pixel_x = -6;
+	pixel_y = 0
+	},
+/obj/item/storage/pouch/general{
+	pixel_x = -6;
+	pixel_y = 0
+	},
+/obj/item/storage/pouch/general{
+	pixel_x = -6;
+	pixel_y = 0
+	},
+/obj/item/storage/pouch/general/medium{
+	pixel_x = 6;
+	pixel_y = 0
+	},
+/obj/item/storage/pouch/general/medium{
+	pixel_x = 6;
+	pixel_y = 0
+	},
+/obj/item/storage/pouch/general/medium{
+	pixel_x = 6;
+	pixel_y = 0
+	},
+/obj/item/storage/pouch/general/medium{
+	pixel_x = 6;
+	pixel_y = 0
+	},
+/turf/open/floor/almayer/pod_landing_floor,
+/area/space)
+"dz" = (
+/obj/structure/surface/table/almayer{
+	color = "#8B9490"
+	},
+/obj/item/tool/wrench{
+	pixel_x = 0;
+	pixel_y = 7
+	},
+/obj/item/tool/wrench{
+	pixel_x = 0;
+	pixel_y = 7
+	},
+/obj/item/tool/wrench{
+	pixel_x = 0;
+	pixel_y = 7
+	},
+/obj/item/tool/wirecutters{
+	pixel_x = -1;
+	pixel_y = 0
+	},
+/obj/item/tool/wirecutters{
+	pixel_x = -1;
+	pixel_y = 0
+	},
+/obj/item/tool/wirecutters{
+	pixel_x = -1;
+	pixel_y = 0
+	},
+/turf/open/floor/almayer/pod_landing_floor,
+/area/space)
+"dA" = (
+/obj/structure/surface/rack{
+	color = "#98a3ab"
+	},
+/obj/item/weapon/gun/rifle/m16{
+	pixel_y = 11
+	},
+/obj/item/weapon/gun/rifle/m16{
+	pixel_y = 11
+	},
+/obj/item/weapon/gun/rifle/m16{
+	pixel_y = 11
+	},
+/obj/item/weapon/gun/shotgun/pump/dual_tube/cmb/slug{
+	pixel_y = -4
+	},
+/obj/item/weapon/gun/shotgun/pump/dual_tube/cmb/slug{
+	pixel_y = -4
+	},
+/obj/item/weapon/gun/shotgun/pump/dual_tube/cmb/slug{
+	pixel_y = -4
+	},
+/turf/open/floor/almayer/pod_landing_floor,
+/area/space)
+"dB" = (
+/obj/item/ammo_box/rounds{
+	pixel_x = 18;
+	pixel_y = 15
+	},
+/turf/open/floor/corsat,
+/area/space)
+"dC" = (
+/obj/item/ammo_box/rounds{
+	pixel_x = -12;
+	pixel_y = 15
+	},
+/turf/open/floor/corsat,
+/area/space)
+"dD" = (
+/obj/structure/surface/table/almayer{
+	color = "#8B9490"
+	},
+/obj/item/stack/medical/bruise_pack{
+	pixel_x = -9;
+	pixel_y = 16
+	},
+/obj/item/stack/medical/bruise_pack{
+	pixel_x = -1;
+	pixel_y = 16
+	},
+/obj/item/stack/medical/bruise_pack{
+	pixel_x = 7;
+	pixel_y = 16
+	},
+/obj/item/stack/medical/ointment{
+	pixel_x = -10;
+	pixel_y = 7
+	},
+/obj/item/stack/medical/ointment{
+	pixel_x = -10;
+	pixel_y = -1
+	},
+/obj/item/stack/medical/splint{
+	pixel_x = 3;
+	pixel_y = 2
+	},
+/turf/open/floor/almayer/pod_landing_floor,
+/area/space)
+"dE" = (
+/obj/structure/platform/metal/stair_cut/strata_right,
+/obj/structure/stairs/perspective{
+	dir = 8;
+	icon_state = "p_stair_full";
+	color = "#6e6e6e"
+	},
+/turf/open/floor/corsat,
+/area/space)
 "dF" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "4-8";
@@ -1556,6 +2482,75 @@
 /obj/structure/prop/hybrisa/misc/graffiti/graffiti5,
 /turf/open/floor/corsat,
 /area/golden_arrow/cryo_cells)
+"dG" = (
+/obj/structure/platform/metal/stair_cut/strata_left,
+/obj/structure/stairs/perspective{
+	dir = 4;
+	icon_state = "p_stair_full";
+	color = "#6e6e6e"
+	},
+/turf/open/floor/corsat,
+/area/space)
+"dH" = (
+/obj/structure/platform_decoration/strata/metal{
+	dir = 4
+	},
+/turf/open/floor/corsat,
+/area/space)
+"dI" = (
+/obj/structure/surface/table/almayer{
+	color = "#8B9490"
+	},
+/obj/item/tool/screwdriver{
+	pixel_x = -5;
+	pixel_y = 9
+	},
+/obj/item/tool/screwdriver{
+	pixel_x = -5;
+	pixel_y = 9
+	},
+/obj/item/tool/screwdriver{
+	pixel_x = -5;
+	pixel_y = 9
+	},
+/obj/item/tool/crowbar{
+	pixel_x = 3;
+	pixel_y = 1
+	},
+/obj/item/tool/crowbar{
+	pixel_x = 3;
+	pixel_y = 1
+	},
+/obj/item/tool/crowbar{
+	pixel_x = 3;
+	pixel_y = 1
+	},
+/obj/item/device/multitool{
+	pixel_y = -11;
+	pixel_x = -8
+	},
+/obj/item/device/multitool{
+	pixel_y = -11;
+	pixel_x = -8
+	},
+/obj/item/device/multitool{
+	pixel_y = -11;
+	pixel_x = -8
+	},
+/obj/item/tool/weldingtool{
+	pixel_x = 8;
+	pixel_y = -8
+	},
+/obj/item/tool/weldingtool{
+	pixel_x = 8;
+	pixel_y = -8
+	},
+/obj/item/tool/weldingtool{
+	pixel_x = 8;
+	pixel_y = -8
+	},
+/turf/open/floor/almayer/pod_landing_floor,
+/area/space)
 "dJ" = (
 /obj/structure/window/framed/strata/hull,
 /obj/structure/cable/heavyduty{
@@ -1564,12 +2559,280 @@
 	},
 /turf/open/floor/corsat,
 /area/golden_arrow/cryo_cells)
+"dK" = (
+/obj/structure/surface/table/almayer{
+	color = "#8B9490"
+	},
+/obj/item/explosive/grenade/incendiary{
+	pixel_x = -9;
+	pixel_y = 13
+	},
+/obj/item/explosive/grenade/incendiary{
+	pixel_x = -9;
+	pixel_y = 13
+	},
+/obj/item/explosive/grenade/incendiary{
+	pixel_x = -9;
+	pixel_y = 13
+	},
+/obj/item/explosive/grenade/incendiary{
+	pixel_x = -9;
+	pixel_y = 13
+	},
+/obj/item/explosive/grenade/incendiary{
+	pixel_x = -9;
+	pixel_y = 13
+	},
+/obj/item/ammo_magazine/smg/uzi{
+	pixel_x = -1;
+	pixel_y = 18
+	},
+/obj/item/ammo_magazine/smg/uzi{
+	pixel_x = -1;
+	pixel_y = 18
+	},
+/obj/item/ammo_magazine/smg/uzi{
+	pixel_x = -1;
+	pixel_y = 18
+	},
+/obj/item/ammo_magazine/smg/uzi{
+	pixel_x = -1;
+	pixel_y = 18
+	},
+/obj/item/ammo_magazine/smg/uzi/extended{
+	pixel_x = 6;
+	pixel_y = 21
+	},
+/obj/item/ammo_magazine/smg/uzi/extended{
+	pixel_x = 6;
+	pixel_y = 21
+	},
+/obj/item/ammo_magazine/smg/uzi/extended{
+	pixel_x = 6;
+	pixel_y = 21
+	},
+/obj/item/ammo_magazine/smg/uzi/extended{
+	pixel_x = 6;
+	pixel_y = 21
+	},
+/obj/item/ammo_magazine/shotgun/flechette{
+	pixel_x = 5;
+	pixel_y = 5
+	},
+/obj/item/ammo_magazine/shotgun/flechette{
+	pixel_x = 5;
+	pixel_y = 5
+	},
+/obj/item/ammo_magazine/shotgun/flechette{
+	pixel_x = 5;
+	pixel_y = 5
+	},
+/turf/open/floor/almayer/pod_landing_floor,
+/area/space)
 "dL" = (
 /obj/effect/step_trigger/clone_cleaner,
 /turf/open/floor/strata/green3/northeast,
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
 	})
+"dM" = (
+/obj/structure/surface/table/almayer{
+	color = "#8B9490"
+	},
+/obj/item/ammo_magazine/pistol/vp78{
+	pixel_x = -11;
+	pixel_y = 22
+	},
+/obj/item/ammo_magazine/pistol/vp78{
+	pixel_x = -11;
+	pixel_y = 22
+	},
+/obj/item/ammo_magazine/pistol/vp78{
+	pixel_x = -11;
+	pixel_y = 22
+	},
+/obj/item/ammo_magazine/pistol/vp78{
+	pixel_x = -11;
+	pixel_y = 22
+	},
+/obj/item/ammo_magazine/pistol/vp78{
+	pixel_x = -11;
+	pixel_y = 22
+	},
+/obj/item/ammo_magazine/pistol/vp78/penetrating{
+	pixel_x = -1;
+	pixel_y = 22
+	},
+/obj/item/ammo_magazine/pistol/vp78/penetrating{
+	pixel_x = -1;
+	pixel_y = 22
+	},
+/obj/item/ammo_magazine/pistol/vp78/penetrating{
+	pixel_x = -1;
+	pixel_y = 22
+	},
+/obj/item/ammo_magazine/pistol/vp78/penetrating{
+	pixel_x = -1;
+	pixel_y = 22
+	},
+/obj/item/ammo_magazine/pistol/vp78/penetrating{
+	pixel_x = -1;
+	pixel_y = 22
+	},
+/obj/item/ammo_magazine/pistol/vp78/incendiary{
+	pixel_x = 9;
+	pixel_y = 22
+	},
+/obj/item/ammo_magazine/pistol/vp78/incendiary{
+	pixel_x = 9;
+	pixel_y = 22
+	},
+/obj/item/ammo_magazine/pistol/vp78/incendiary{
+	pixel_x = 9;
+	pixel_y = 22
+	},
+/obj/item/ammo_magazine/pistol/vp78/incendiary{
+	pixel_x = 9;
+	pixel_y = 22
+	},
+/obj/item/ammo_magazine/pistol/vp78/incendiary{
+	pixel_x = 9;
+	pixel_y = 22
+	},
+/obj/item/ammo_magazine/revolver{
+	pixel_x = -8;
+	pixel_y = 1
+	},
+/obj/item/ammo_magazine/revolver{
+	pixel_x = -8;
+	pixel_y = 1
+	},
+/obj/item/ammo_magazine/revolver{
+	pixel_x = -8;
+	pixel_y = 1
+	},
+/obj/item/ammo_magazine/revolver{
+	pixel_x = -8;
+	pixel_y = 1
+	},
+/obj/item/ammo_magazine/revolver{
+	pixel_x = -8;
+	pixel_y = 1
+	},
+/obj/item/ammo_magazine/revolver/heavy{
+	pixel_x = 8;
+	pixel_y = 1
+	},
+/obj/item/ammo_magazine/revolver/heavy{
+	pixel_x = 8;
+	pixel_y = 1
+	},
+/obj/item/ammo_magazine/revolver/heavy{
+	pixel_x = 8;
+	pixel_y = 1
+	},
+/obj/item/ammo_magazine/revolver/heavy{
+	pixel_x = 8;
+	pixel_y = 1
+	},
+/obj/item/ammo_magazine/revolver/heavy{
+	pixel_x = 8;
+	pixel_y = 1
+	},
+/turf/open/floor/almayer/pod_landing_floor,
+/area/space)
+"dN" = (
+/obj/structure/surface/table/almayer{
+	color = "#8B9490"
+	},
+/obj/item/ammo_magazine/smg/m39{
+	pixel_x = -10;
+	pixel_y = 17
+	},
+/obj/item/ammo_magazine/smg/m39{
+	pixel_x = -10;
+	pixel_y = 17
+	},
+/obj/item/ammo_magazine/smg/m39{
+	pixel_x = -10;
+	pixel_y = 17
+	},
+/obj/item/ammo_magazine/smg/m39{
+	pixel_x = -10;
+	pixel_y = 17
+	},
+/obj/item/ammo_magazine/smg/m39/ap{
+	pixel_x = -1;
+	pixel_y = 17
+	},
+/obj/item/ammo_magazine/smg/m39/ap{
+	pixel_x = -1;
+	pixel_y = 17
+	},
+/obj/item/ammo_magazine/smg/m39/ap{
+	pixel_x = -1;
+	pixel_y = 17
+	},
+/obj/item/ammo_magazine/smg/m39/ap{
+	pixel_x = -1;
+	pixel_y = 17
+	},
+/obj/item/ammo_magazine/smg/m39/extended{
+	pixel_x = 9;
+	pixel_y = 17
+	},
+/obj/item/ammo_magazine/smg/m39/extended{
+	pixel_x = 9;
+	pixel_y = 17
+	},
+/obj/item/ammo_magazine/smg/m39/extended{
+	pixel_x = 9;
+	pixel_y = 17
+	},
+/obj/item/ammo_magazine/smg/m39/extended{
+	pixel_x = 9;
+	pixel_y = 17
+	},
+/obj/item/ammo_magazine/rifle/m16{
+	pixel_x = -7;
+	pixel_y = 0
+	},
+/obj/item/ammo_magazine/rifle/m16{
+	pixel_x = -7;
+	pixel_y = 0
+	},
+/obj/item/ammo_magazine/rifle/m16{
+	pixel_x = -7;
+	pixel_y = 0
+	},
+/obj/item/ammo_magazine/rifle/m16{
+	pixel_x = -7;
+	pixel_y = 0
+	},
+/obj/item/ammo_magazine/rifle/m16/extended{
+	pixel_x = 7;
+	pixel_y = 0
+	},
+/obj/item/ammo_magazine/rifle/m16/extended{
+	pixel_x = 7;
+	pixel_y = 0
+	},
+/obj/item/ammo_magazine/rifle/m16/extended{
+	pixel_x = 7;
+	pixel_y = 0
+	},
+/obj/item/ammo_magazine/rifle/m16/extended{
+	pixel_x = 7;
+	pixel_y = 0
+	},
+/turf/open/floor/almayer/pod_landing_floor,
+/area/space)
+"dO" = (
+/obj/structure/surface/rack{
+	color = "#98a3ab"
+	},
+/turf/open/floor/almayer/pod_landing_floor,
+/area/space)
 "dP" = (
 /obj/structure/bed/chair/comfy/bench/south,
 /obj/item/reagent_container/glass/rag{
@@ -1579,6 +2842,26 @@
 /obj/structure/prop/hybrisa/misc/floorprops/grate2,
 /turf/open/floor/corsat,
 /area/golden_arrow/cryo_cells)
+"dQ" = (
+/obj/structure/platform/strata/metal{
+	dir = 4
+	},
+/turf/open/floor/corsat,
+/area/space)
+"dR" = (
+/obj/structure/surface/table/almayer{
+	color = "#8B9490"
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 4;
+	color = "#a6aeab"
+	},
+/obj/structure/window/reinforced,
+/turf/open/floor/corsat,
+/area/space)
 "dS" = (
 /obj/structure/dropship_equipment/electronics/spotlights,
 /turf/open/floor/plating/plating_catwalk,
@@ -1587,6 +2870,72 @@
 /obj/structure/ship_ammo/heavygun,
 /turf/open/floor/almayer/cargo,
 /area/golden_arrow/hangar)
+"dU" = (
+/obj/structure/surface/table/almayer{
+	color = "#8B9490"
+	},
+/turf/open/floor/corsat,
+/area/space)
+"dV" = (
+/obj/structure/platform/strata/metal{
+	dir = 8
+	},
+/turf/open/floor/corsat,
+/area/space)
+"dW" = (
+/obj/structure/surface/rack{
+	color = "#98a3ab"
+	},
+/obj/item/clothing/head/helmet/marine{
+	pixel_x = -1;
+	pixel_y = 12
+	},
+/obj/item/clothing/head/helmet/marine{
+	pixel_x = -1;
+	pixel_y = 12
+	},
+/obj/item/clothing/head/helmet/marine{
+	pixel_x = -1;
+	pixel_y = 12
+	},
+/obj/item/clothing/head/helmet/marine{
+	pixel_x = -1;
+	pixel_y = 12
+	},
+/obj/item/clothing/suit/marine/light{
+	pixel_x = 6;
+	pixel_y = -3
+	},
+/obj/item/clothing/suit/marine/light{
+	pixel_x = 6;
+	pixel_y = -3
+	},
+/obj/item/clothing/suit/marine/light{
+	pixel_x = 6;
+	pixel_y = -3
+	},
+/obj/item/clothing/suit/marine/light{
+	pixel_x = 6;
+	pixel_y = -3
+	},
+/obj/item/clothing/suit/marine{
+	pixel_x = -5;
+	pixel_y = -3
+	},
+/obj/item/clothing/suit/marine{
+	pixel_x = -5;
+	pixel_y = -3
+	},
+/obj/item/clothing/suit/marine{
+	pixel_x = -5;
+	pixel_y = -3
+	},
+/obj/item/clothing/suit/marine{
+	pixel_x = -5;
+	pixel_y = -3
+	},
+/turf/open/floor/almayer/pod_landing_floor,
+/area/space)
 "dX" = (
 /obj/structure/prop/structure_lattice{
 	dir = 4;
@@ -1597,12 +2946,268 @@
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
 	})
+"dY" = (
+/obj/structure/surface/table/almayer{
+	color = "#8B9490"
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/machinery/door/window/eastleft,
+/turf/open/floor/corsat,
+/area/space)
+"dZ" = (
+/obj/structure/surface/table/almayer{
+	color = "#8B9490"
+	},
+/obj/structure/window/reinforced{
+	dir = 4;
+	color = "#a6aeab"
+	},
+/turf/open/floor/corsat,
+/area/space)
+"ea" = (
+/obj/structure/surface/table/almayer{
+	color = "#8B9490"
+	},
+/obj/structure/prop/cash_register{
+	pixel_x = 0;
+	pixel_y = 10
+	},
+/turf/open/floor/corsat,
+/area/space)
+"eb" = (
+/obj/structure/surface/rack{
+	color = "#98a3ab"
+	},
+/obj/item/storage/belt/utility{
+	pixel_y = 0
+	},
+/obj/item/storage/belt/utility{
+	pixel_y = 0
+	},
+/obj/item/storage/belt/utility{
+	pixel_y = 0
+	},
+/obj/item/clothing/accessory/storage/droppouch{
+	pixel_y = 3
+	},
+/obj/item/clothing/accessory/storage/droppouch{
+	pixel_y = 3
+	},
+/obj/item/clothing/accessory/storage/droppouch{
+	pixel_y = 3
+	},
+/turf/open/floor/almayer/pod_landing_floor,
+/area/space)
+"ec" = (
+/obj/structure/surface/table/almayer{
+	color = "#8B9490"
+	},
+/obj/item/ammo_magazine/rifle/ar10{
+	pixel_x = 8;
+	pixel_y = 16
+	},
+/obj/item/ammo_magazine/rifle/ar10{
+	pixel_x = 8;
+	pixel_y = 16
+	},
+/obj/item/ammo_magazine/rifle/ar10{
+	pixel_x = 8;
+	pixel_y = 16
+	},
+/obj/item/ammo_magazine/rifle/ar10{
+	pixel_x = 8;
+	pixel_y = 16
+	},
+/obj/item/ammo_magazine/rifle/ar10{
+	pixel_x = 8;
+	pixel_y = 16
+	},
+/turf/open/floor/almayer/pod_landing_floor,
+/area/space)
+"ed" = (
+/obj/structure/surface/rack{
+	color = "#98a3ab"
+	},
+/obj/item/clothing/accessory/storage/webbing/m3,
+/obj/item/clothing/accessory/storage/webbing/m3,
+/obj/item/clothing/accessory/storage/webbing/m3,
+/turf/open/floor/almayer/pod_landing_floor,
+/area/space)
+"ee" = (
+/obj/structure/surface/rack{
+	color = "#98a3ab"
+	},
+/obj/item/storage/belt/marine{
+	pixel_y = 13
+	},
+/obj/item/storage/belt/marine{
+	pixel_y = 13
+	},
+/obj/item/storage/belt/marine{
+	pixel_y = 13
+	},
+/obj/item/storage/belt/shotgun{
+	pixel_y = 0
+	},
+/obj/item/storage/belt/shotgun{
+	pixel_y = 0
+	},
+/obj/item/storage/belt/shotgun{
+	pixel_y = 0
+	},
+/turf/open/floor/almayer/pod_landing_floor,
+/area/space)
+"ef" = (
+/obj/structure/surface/table/almayer{
+	color = "#8B9490"
+	},
+/obj/item/ammo_magazine/pistol/vp70{
+	pixel_x = -10;
+	pixel_y = 23
+	},
+/obj/item/ammo_magazine/pistol/vp70{
+	pixel_x = -10;
+	pixel_y = 23
+	},
+/obj/item/ammo_magazine/pistol/vp70{
+	pixel_x = -10;
+	pixel_y = 23
+	},
+/obj/item/ammo_magazine/pistol/vp70{
+	pixel_x = -10;
+	pixel_y = 23
+	},
+/obj/item/ammo_magazine/pistol/vp70{
+	pixel_x = -10;
+	pixel_y = 23
+	},
+/obj/item/ammo_magazine/pistol/vp70/extended{
+	pixel_x = -2;
+	pixel_y = 23
+	},
+/obj/item/ammo_magazine/pistol/vp70/extended{
+	pixel_x = -2;
+	pixel_y = 23
+	},
+/obj/item/ammo_magazine/pistol/vp70/extended{
+	pixel_x = -2;
+	pixel_y = 23
+	},
+/obj/item/ammo_magazine/pistol/vp70/extended{
+	pixel_x = -2;
+	pixel_y = 23
+	},
+/obj/item/ammo_magazine/pistol/vp70/extended{
+	pixel_x = -2;
+	pixel_y = 23
+	},
+/obj/item/ammo_magazine/pistol{
+	pixel_x = -10;
+	pixel_y = 12
+	},
+/obj/item/ammo_magazine/pistol{
+	pixel_x = -10;
+	pixel_y = 12
+	},
+/obj/item/ammo_magazine/pistol{
+	pixel_x = -10;
+	pixel_y = 12
+	},
+/obj/item/ammo_magazine/pistol{
+	pixel_x = -10;
+	pixel_y = 12
+	},
+/obj/item/ammo_magazine/pistol{
+	pixel_x = -10;
+	pixel_y = 12
+	},
+/obj/item/ammo_magazine/pistol/m1911{
+	pixel_x = 9;
+	pixel_y = 18
+	},
+/obj/item/ammo_magazine/pistol/m1911{
+	pixel_x = 9;
+	pixel_y = 18
+	},
+/obj/item/ammo_magazine/pistol/m1911{
+	pixel_x = 9;
+	pixel_y = 18
+	},
+/obj/item/ammo_magazine/pistol/m1911{
+	pixel_x = 9;
+	pixel_y = 18
+	},
+/obj/item/ammo_magazine/pistol/m1911{
+	pixel_x = 9;
+	pixel_y = 18
+	},
+/obj/item/ammo_box/rounds/pistol{
+	pixel_y = 0;
+	pixel_x = 4
+	},
+/obj/item/ammo_box/rounds/pistol{
+	pixel_y = 0;
+	pixel_x = 4
+	},
+/obj/item/ammo_magazine/smg/mac15{
+	pixel_x = -10;
+	pixel_y = -6
+	},
+/obj/item/ammo_magazine/smg/mac15{
+	pixel_x = -10;
+	pixel_y = -6
+	},
+/obj/item/ammo_magazine/smg/mac15{
+	pixel_x = -10;
+	pixel_y = -6
+	},
+/obj/item/ammo_magazine/smg/mac15{
+	pixel_x = -10;
+	pixel_y = -6
+	},
+/obj/item/ammo_magazine/smg/mac15{
+	pixel_x = -10;
+	pixel_y = -6
+	},
+/obj/item/ammo_magazine/smg/mac15/extended{
+	pixel_x = -3;
+	pixel_y = -10
+	},
+/obj/item/ammo_magazine/smg/mac15/extended{
+	pixel_x = -3;
+	pixel_y = -10
+	},
+/obj/item/ammo_magazine/smg/mac15/extended{
+	pixel_x = -3;
+	pixel_y = -10
+	},
+/obj/item/ammo_magazine/smg/mac15/extended{
+	pixel_x = -3;
+	pixel_y = -10
+	},
+/obj/item/ammo_magazine/smg/mac15/extended{
+	pixel_x = -3;
+	pixel_y = -10
+	},
+/turf/open/floor/almayer/pod_landing_floor,
+/area/space)
 "eg" = (
 /obj/structure/stairs/perspective{
 	dir = 1
 	},
 /turf/open/floor/almayer/plate,
 /area/golden_arrow/hangar)
+"eh" = (
+/obj/structure/surface/rack{
+	color = "#98a3ab"
+	},
+/obj/item/weapon/gun/pistol/highpower,
+/obj/item/weapon/gun/pistol/highpower,
+/obj/item/weapon/gun/pistol/highpower,
+/turf/open/floor/almayer/pod_landing_floor,
+/area/space)
 "ei" = (
 /obj/structure/machinery/light/double/blue/golden_arrow{
 	dir = 4;
@@ -1610,17 +3215,181 @@
 	},
 /turf/open/floor/almayer/green/southwest,
 /area/golden_arrow/dorms)
+"ej" = (
+/obj/structure/surface/rack{
+	color = "#98a3ab"
+	},
+/obj/item/weapon/gun/revolver/spearhead,
+/obj/item/weapon/gun/revolver/spearhead,
+/obj/item/weapon/gun/revolver/spearhead,
+/turf/open/floor/almayer/pod_landing_floor,
+/area/space)
+"ek" = (
+/obj/structure/surface/rack{
+	color = "#98a3ab"
+	},
+/obj/item/clothing/head/helmet/marine/leader/extraction{
+	pixel_x = -6;
+	pixel_y = 12
+	},
+/obj/item/clothing/head/helmet/marine/leader/extraction{
+	pixel_x = -6;
+	pixel_y = 12
+	},
+/obj/item/clothing/head/helmet/marine/leader/extraction{
+	pixel_x = -6;
+	pixel_y = 12
+	},
+/obj/item/clothing/head/helmet/marine/specialist/extraction{
+	pixel_x = 7;
+	pixel_y = 12
+	},
+/obj/item/clothing/head/helmet/marine/specialist/extraction{
+	pixel_x = 7;
+	pixel_y = 12
+	},
+/obj/item/clothing/head/helmet/marine/specialist/extraction{
+	pixel_x = 7;
+	pixel_y = 12
+	},
+/obj/item/clothing/glasses/meson{
+	pixel_x = -3;
+	pixel_y = 0
+	},
+/obj/item/clothing/glasses/meson{
+	pixel_x = -3;
+	pixel_y = 0
+	},
+/turf/open/floor/almayer/pod_landing_floor,
+/area/space)
+"el" = (
+/obj/structure/surface/rack{
+	color = "#98a3ab"
+	},
+/obj/item/clothing/accessory/storage/webbing/m3/small,
+/obj/item/clothing/accessory/storage/webbing/m3/small,
+/obj/item/clothing/accessory/storage/webbing/m3/small,
+/turf/open/floor/almayer/pod_landing_floor,
+/area/space)
+"em" = (
+/obj/structure/surface/rack{
+	color = "#98a3ab"
+	},
+/obj/item/storage/belt/gun/m4a3{
+	pixel_y = 16
+	},
+/obj/item/storage/belt/gun/m4a3{
+	pixel_y = 16
+	},
+/obj/item/storage/belt/gun/m4a3{
+	pixel_y = 16
+	},
+/obj/item/storage/belt/gun/m44{
+	pixel_y = 4
+	},
+/obj/item/storage/belt/gun/m44{
+	pixel_y = 4
+	},
+/obj/item/storage/belt/gun/m44{
+	pixel_y = 4
+	},
+/turf/open/floor/almayer/pod_landing_floor,
+/area/space)
+"en" = (
+/obj/structure/surface/rack{
+	color = "#98a3ab"
+	},
+/obj/item/ammo_magazine/shotgun{
+	pixel_y = 16
+	},
+/obj/item/ammo_magazine/shotgun{
+	pixel_y = 16
+	},
+/obj/item/ammo_magazine/shotgun{
+	pixel_y = 16
+	},
+/obj/item/ammo_magazine/shotgun/buckshot{
+	pixel_y = 0
+	},
+/obj/item/ammo_magazine/shotgun/buckshot{
+	pixel_y = 0
+	},
+/obj/item/ammo_magazine/shotgun/buckshot{
+	pixel_y = 0
+	},
+/turf/open/floor/almayer/pod_landing_floor,
+/area/space)
 "eo" = (
 /turf/open/floor/almayer/black{
 	dir = 10
 	},
 /area/golden_arrow/dorms)
+"ep" = (
+/obj/structure/surface/rack{
+	color = "#98a3ab"
+	},
+/obj/item/weapon/gun/rifle/m41aMK1,
+/obj/item/weapon/gun/rifle/m41aMK1,
+/obj/item/weapon/gun/rifle/m41aMK1,
+/turf/open/floor/almayer/pod_landing_floor,
+/area/space)
+"eq" = (
+/obj/structure/surface/table/almayer{
+	color = "#8B9490"
+	},
+/turf/open/floor/almayer/pod_landing_floor,
+/area/space)
+"er" = (
+/obj/structure/machinery/cm_vending/sorted/attachments,
+/turf/open/floor/almayer/pod_landing_floor,
+/area/space)
+"es" = (
+/obj/structure/surface/rack{
+	color = "#98a3ab"
+	},
+/obj/item/weapon/gun/rifle/m20a{
+	pixel_x = 2;
+	pixel_y = 10
+	},
+/obj/item/weapon/gun/rifle/m20a{
+	pixel_x = 2;
+	pixel_y = 10
+	},
+/obj/item/weapon/gun/rifle/m20a{
+	pixel_x = 2;
+	pixel_y = 10
+	},
+/obj/item/weapon/gun/shotgun/combat{
+	pixel_y = -5
+	},
+/obj/item/weapon/gun/shotgun/combat{
+	pixel_y = -5
+	},
+/obj/item/weapon/gun/shotgun/combat{
+	pixel_y = -5
+	},
+/turf/open/floor/almayer/pod_landing_floor,
+/area/space)
+"et" = (
+/obj/item/ammo_box/rounds/smartgun{
+	pixel_x = 7;
+	pixel_y = 15
+	},
+/turf/open/floor/corsat,
+/area/space)
 "eu" = (
 /obj/structure/machinery/light/small{
 	dir = 4
 	},
 /turf/open/floor/plating,
 /area/golden_arrow/dorms)
+"ev" = (
+/obj/item/ammo_box/rounds/smartgun{
+	pixel_x = -4;
+	pixel_y = 15
+	},
+/turf/open/floor/corsat,
+/area/space)
 "ew" = (
 /turf/open/floor/almayer/green/southwest,
 /area/golden_arrow/dorms)
@@ -1660,6 +3429,138 @@
 	},
 /turf/open/floor/almayer/pod_landing_floor,
 /area/golden_arrow/cryo_cells)
+"eB" = (
+/obj/structure/surface/table/almayer{
+	color = "#8B9490"
+	},
+/obj/item/ammo_magazine/pistol/vp70/penetrating{
+	pixel_x = -10;
+	pixel_y = 22
+	},
+/obj/item/ammo_magazine/pistol/vp70/penetrating{
+	pixel_x = -10;
+	pixel_y = 22
+	},
+/obj/item/ammo_magazine/pistol/vp70/penetrating{
+	pixel_x = -10;
+	pixel_y = 22
+	},
+/obj/item/ammo_magazine/pistol/vp70/penetrating{
+	pixel_x = -10;
+	pixel_y = 22
+	},
+/obj/item/ammo_magazine/pistol/vp78/incendiary{
+	pixel_x = 1;
+	pixel_y = 22
+	},
+/obj/item/ammo_magazine/pistol/vp78/incendiary{
+	pixel_x = 1;
+	pixel_y = 22
+	},
+/obj/item/ammo_magazine/pistol/vp78/incendiary{
+	pixel_x = 1;
+	pixel_y = 22
+	},
+/obj/item/ammo_magazine/pistol/vp78/incendiary{
+	pixel_x = 1;
+	pixel_y = 22
+	},
+/obj/item/ammo_magazine/rifle/m16/ap{
+	pixel_x = 14;
+	pixel_y = 16
+	},
+/obj/item/ammo_magazine/rifle/m16/ap{
+	pixel_x = 14;
+	pixel_y = 16
+	},
+/obj/item/ammo_magazine/rifle/m16/ap{
+	pixel_x = 14;
+	pixel_y = 16
+	},
+/obj/item/ammo_magazine/rifle/m16/ap{
+	pixel_x = 14;
+	pixel_y = 16
+	},
+/obj/item/ammo_magazine/shotgun/incendiary{
+	pixel_x = 4;
+	pixel_y = 5
+	},
+/obj/item/ammo_magazine/shotgun/incendiary{
+	pixel_x = 4;
+	pixel_y = 5
+	},
+/turf/open/floor/almayer/pod_landing_floor,
+/area/space)
+"eC" = (
+/obj/structure/surface/table/almayer{
+	color = "#8B9490"
+	},
+/obj/item/ammo_magazine/pistol/highpower{
+	pixel_x = -8;
+	pixel_y = 17
+	},
+/obj/item/ammo_magazine/pistol/highpower{
+	pixel_x = -8;
+	pixel_y = 17
+	},
+/obj/item/ammo_magazine/pistol/highpower{
+	pixel_x = -8;
+	pixel_y = 17
+	},
+/obj/item/ammo_magazine/pistol/highpower{
+	pixel_x = -8;
+	pixel_y = 17
+	},
+/obj/item/ammo_magazine/revolver/spearhead{
+	pixel_x = -7;
+	pixel_y = 0
+	},
+/obj/item/ammo_magazine/revolver/spearhead{
+	pixel_x = -7;
+	pixel_y = 0
+	},
+/obj/item/ammo_magazine/revolver/spearhead{
+	pixel_x = -7;
+	pixel_y = 0
+	},
+/obj/item/ammo_magazine/revolver/spearhead{
+	pixel_x = -7;
+	pixel_y = 0
+	},
+/obj/item/ammo_magazine/revolver/spearhead/hollowpoint{
+	pixel_x = 7;
+	pixel_y = 0
+	},
+/obj/item/ammo_magazine/revolver/spearhead/hollowpoint{
+	pixel_x = 7;
+	pixel_y = 0
+	},
+/obj/item/ammo_magazine/revolver/spearhead/hollowpoint{
+	pixel_x = 7;
+	pixel_y = 0
+	},
+/obj/item/ammo_magazine/revolver/spearhead/hollowpoint{
+	pixel_x = 7;
+	pixel_y = 0
+	},
+/obj/item/ammo_magazine/rifle/m20a{
+	pixel_x = 7;
+	pixel_y = 16
+	},
+/obj/item/ammo_magazine/rifle/m20a{
+	pixel_x = 7;
+	pixel_y = 16
+	},
+/obj/item/ammo_magazine/rifle/m20a{
+	pixel_x = 7;
+	pixel_y = 16
+	},
+/obj/item/ammo_magazine/rifle/m20a{
+	pixel_x = 7;
+	pixel_y = 16
+	},
+/turf/open/floor/almayer/pod_landing_floor,
+/area/space)
 "eD" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/trash/hotdog{
@@ -1668,6 +3569,48 @@
 	},
 /turf/open/floor/corsat,
 /area/golden_arrow/cryo_cells)
+"eE" = (
+/obj/structure/surface/table/almayer{
+	color = "#8B9490"
+	},
+/obj/item/ammo_magazine/rifle/m41aMK1/short{
+	pixel_x = -6;
+	pixel_y = 20
+	},
+/obj/item/ammo_magazine/rifle/m41aMK1/short{
+	pixel_x = -6;
+	pixel_y = 20
+	},
+/obj/item/ammo_magazine/rifle/m41aMK1/short{
+	pixel_x = -6;
+	pixel_y = 20
+	},
+/obj/item/ammo_magazine/rifle/m41aMK1/short{
+	pixel_x = -6;
+	pixel_y = 20
+	},
+/obj/item/ammo_magazine/rifle/m41aMK1{
+	pixel_x = 6;
+	pixel_y = 20
+	},
+/obj/item/ammo_magazine/rifle/m41aMK1{
+	pixel_x = 6;
+	pixel_y = 20
+	},
+/obj/item/ammo_magazine/rifle/m41aMK1{
+	pixel_x = 6;
+	pixel_y = 20
+	},
+/obj/item/ammo_magazine/rifle/m41aMK1{
+	pixel_x = 6;
+	pixel_y = 20
+	},
+/turf/open/floor/almayer/pod_landing_floor,
+/area/space)
+"eF" = (
+/obj/item/explosive/grenade/high_explosive/impact/heap,
+/turf/open/space/basic,
+/area/space)
 "eG" = (
 /obj/effect/decal/cleanable/generic,
 /obj/structure/prop/hybrisa/misc/floorprops/grate2,
@@ -1677,10 +3620,38 @@
 /obj/structure/machinery/vending/cigarette,
 /turf/open/floor/almayer/plate,
 /area/golden_arrow/dorms)
+"eI" = (
+/obj/item/weapon/gun/launcher/rocket/anti_tank/disposable,
+/turf/open/space/basic,
+/area/space)
+"eJ" = (
+/obj/item/explosive/grenade/high_explosive/super,
+/turf/open/space/basic,
+/area/space)
+"eK" = (
+/obj/item/weapon/gun/rifle/m49a/marksman,
+/turf/open/space/basic,
+/area/space)
+"eL" = (
+/obj/item/weapon/gun/launcher/grenade/m92,
+/turf/open/space/basic,
+/area/space)
 "eM" = (
 /obj/structure/cryofeed/right,
 /turf/open/floor/corsat,
 /area/golden_arrow/cryo_cells)
+"eN" = (
+/obj/item/weapon/gun/rifle/m41aMK1/elite,
+/turf/open/space/basic,
+/area/space)
+"eO" = (
+/obj/item/ammo_magazine/rifle/m49a,
+/turf/open/space/basic,
+/area/space)
+"eP" = (
+/obj/item/weapon/gun/revolver/mateba/cmateba,
+/turf/open/space/basic,
+/area/space)
 "eQ" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "1-2-4";
@@ -1706,6 +3677,10 @@
 /obj/effect/decal/cleanable/cobweb,
 /turf/open/floor/corsat,
 /area/golden_arrow/cryo_cells)
+"eR" = (
+/obj/item/ammo_magazine/revolver/mateba,
+/turf/open/space/basic,
+/area/space)
 "eS" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S";
@@ -1719,6 +3694,14 @@
 /area/golden_arrow/hangar)
 "eT" = (
 /turf/open/floor/almayer/w_y0,
+/area/space)
+"eU" = (
+/obj/item/ammo_magazine/rifle/m41aMK1/ap,
+/turf/open/space/basic,
+/area/space)
+"eV" = (
+/obj/item/ammo_magazine/rifle/m41aMK1/extended,
+/turf/open/space/basic,
 /area/space)
 "eW" = (
 /obj/structure/surface/table/almayer,
@@ -1744,6 +3727,10 @@
 	},
 /turf/open/floor/corsat,
 /area/golden_arrow/cryo_cells)
+"eX" = (
+/obj/item/clothing/head/helmet/marine/CO/extraction,
+/turf/open/space/basic,
+/area/space)
 "eY" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "2-8";
@@ -1753,6 +3740,10 @@
 /obj/structure/blocker/invisible_wall,
 /turf/open/floor/corsat,
 /area/golden_arrow/cryo_cells)
+"eZ" = (
+/obj/item/clothing/suit/storage/marine/MP/CO/extraction,
+/turf/open/space/basic,
+/area/space)
 "fe" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate2,
 /turf/open/floor/corsat,
@@ -2596,8 +4587,8 @@
 	dir = 2;
 	req_access_txt = "26"
 	},
-/obj/structure/surface/table/reinforced/almayer_blend,
-/turf/open/floor/plating,
+/obj/structure/surface/table/reinforced/almayer_B,
+/turf/open/floor/corsat,
 /area/space)
 "mz" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -4858,7 +6849,7 @@
 /obj/structure/stairs{
 	dir = 4
 	},
-/turf/open/floor/plating,
+/turf/open/floor/corsat,
 /area/space)
 "Gt" = (
 /obj/structure/machinery/light/small/blue/golden_arrow{
@@ -5989,9 +7980,6 @@
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
 	})
-"QE" = (
-/turf/open/floor/almayer/blackfull,
-/area/space)
 "QK" = (
 /turf/open/floor/almayer/green/east,
 /area/golden_arrow/dorms)
@@ -8174,9 +10162,9 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
+eL
+eJ
+eF
 wf
 wf
 wf
@@ -8324,11 +10312,11 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
+eX
+eP
+eN
+eK
+eI
 wf
 wf
 wf
@@ -8476,8 +10464,8 @@ wf
 wf
 wf
 wf
-wf
-wf
+eZ
+eR
 wf
 wf
 wf
@@ -8629,8 +10617,8 @@ wf
 wf
 wf
 wf
-wf
-wf
+eU
+eO
 wf
 wf
 wf
@@ -8781,7 +10769,7 @@ wf
 wf
 wf
 wf
-wf
+eV
 wf
 wf
 wf
@@ -8930,15 +10918,15 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
+FJ
+FJ
+FJ
+FJ
+FJ
+FJ
+FJ
+FJ
+FJ
 wf
 wf
 wf
@@ -9081,17 +11069,17 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
+FJ
+FJ
+cZ
+cZ
+FJ
+FJ
+cZ
+cZ
+cZ
+FJ
+FJ
 wf
 wf
 wf
@@ -9232,20 +11220,20 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
+FJ
+FJ
+lE
+lE
+lE
+FJ
+lE
+lE
+lE
+lE
+lE
+FJ
+FJ
+FJ
 wf
 wf
 wf
@@ -9384,20 +11372,20 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
+FJ
+cZ
+lE
+lE
+lE
+lE
+lE
+cZ
+cZ
+cZ
+lE
+cZ
+lE
+FJ
 wf
 wf
 wf
@@ -9536,20 +11524,20 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
+FJ
+FJ
+lE
+lE
+lE
+FJ
+lE
+lE
+lE
+lE
+lE
+FJ
+FJ
+FJ
 wf
 wf
 wf
@@ -9689,17 +11677,17 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
+FJ
+FJ
+cZ
+cZ
+FJ
+FJ
+cZ
+cZ
+cZ
+FJ
+FJ
 wf
 wf
 wf
@@ -9842,6 +11830,15 @@ wf
 wf
 wf
 wf
+FJ
+FJ
+FJ
+FJ
+FJ
+FJ
+FJ
+FJ
+FJ
 wf
 wf
 wf
@@ -9855,19 +11852,10 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
+FJ
+FJ
+FJ
+FJ
 FJ
 FJ
 kC
@@ -10010,16 +11998,16 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
+FJ
+FJ
+FJ
+FJ
+cZ
+FJ
+FJ
+lE
+lE
+lE
 FJ
 pD
 cS
@@ -10161,17 +12149,17 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
+FJ
+FJ
+dA
+du
+dl
+lE
+FJ
+FJ
+lE
+cZ
+lE
 FJ
 pD
 Vz
@@ -10313,17 +12301,17 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
+FJ
+dK
+dB
+lE
+lE
+lE
+cH
+FJ
+lE
+cZ
+lE
 FJ
 cT
 lv
@@ -10465,17 +12453,17 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
+FJ
+dM
+lE
+dv
+dm
+lE
+lE
+cZ
+lE
+lE
+lE
 FJ
 FJ
 FJ
@@ -10617,17 +12605,17 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
+FJ
+dN
+dC
+lE
+lE
+lE
+cJ
+FJ
+lE
+cZ
+lE
 FJ
 tD
 FJ
@@ -10643,7 +12631,7 @@ wf
 wf
 wf
 wf
-FJ
+wf
 wf
 FJ
 FJ
@@ -10765,21 +12753,21 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
+FJ
+FJ
+FJ
+FJ
+FJ
+FJ
+FJ
+FJ
+FJ
+lE
+cR
+FJ
+lE
+cZ
+lE
 FJ
 tD
 FJ
@@ -10791,10 +12779,10 @@ nL
 FJ
 tD
 FJ
-wf
-wf
-wf
-wf
+FJ
+lE
+lE
+lE
 FJ
 FJ
 FJ
@@ -10916,22 +12904,22 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
+FJ
+FJ
+dO
+dO
+dO
+FJ
+FJ
+dD
+dw
+FJ
+cZ
+FJ
+FJ
+lE
+lE
+lE
 FJ
 tD
 FJ
@@ -10943,11 +12931,11 @@ nL
 FJ
 tD
 FJ
-wf
-wf
-wf
-wf
-wf
+lE
+lE
+lE
+lE
+lE
 FJ
 co
 bZ
@@ -11068,22 +13056,22 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
+FJ
+en
+lE
+lE
+lE
+cZ
+lE
+lE
+lE
+lE
+lE
+FJ
+FJ
+cZ
+FJ
+cZ
 FJ
 FJ
 FJ
@@ -11095,11 +13083,11 @@ FJ
 FJ
 FJ
 FJ
-wf
-wf
-wf
-wf
-wf
+lE
+lE
+lE
+lE
+lE
 FJ
 cp
 bY
@@ -11218,21 +13206,21 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
+FJ
+FJ
+FJ
+FJ
+ef
+ec
+FJ
+FJ
+dO
+lE
+dx
+dn
+lE
+da
+FJ
 wf
 wf
 wf
@@ -11247,11 +13235,11 @@ FJ
 tD
 tD
 FJ
-wf
-wf
-wf
-wf
-wf
+lE
+lE
+lE
+lE
+lE
 bW
 bZ
 bY
@@ -11369,22 +13357,22 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
+FJ
+FJ
+es
+ep
+FJ
+FJ
+FJ
+FJ
+dQ
+dQ
+cM
+lE
+lE
+lE
+dc
+FJ
 wf
 wf
 wf
@@ -11399,11 +13387,11 @@ FJ
 tD
 FJ
 FJ
-wf
-wf
-wf
-wf
-wf
+lE
+lE
+lE
+lE
+lE
 FJ
 cq
 bY
@@ -11521,22 +13509,22 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
 FJ
-Sc
-Sc
+eB
+et
+lE
+lE
+eh
 FJ
-wf
+dZ
+dY
+dR
+dE
+FJ
+aN
+aN
+FJ
+FJ
 wf
 wf
 wf
@@ -11551,11 +13539,11 @@ FJ
 FJ
 FJ
 cM
-wf
-wf
-wf
-wf
-wf
+lE
+lE
+lE
+lE
+lE
 FJ
 ct
 bZ
@@ -11671,20 +13659,20 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
 FJ
+FJ
+FJ
+eC
+ev
+eq
+lE
+ej
+FJ
+lE
+lE
+lE
+lE
+aN
 lE
 lE
 lE
@@ -11703,11 +13691,11 @@ FJ
 bL
 bL
 cN
-wf
-wf
-wf
-wf
-wf
+lE
+lE
+lE
+lE
+lE
 FJ
 FJ
 sy
@@ -11823,19 +13811,19 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
+FJ
+lE
+cZ
+lE
+lE
+er
+lE
+lE
+cZ
+lE
+lE
+lE
+lE
 mw
 lE
 lE
@@ -11855,11 +13843,11 @@ cZ
 bL
 nZ
 cO
-wf
-wf
-wf
-wf
-wf
+lE
+lE
+lE
+lE
+lE
 yq
 FJ
 FJ
@@ -11975,20 +13963,20 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
 FJ
+FJ
+FJ
+eE
+lE
+eq
+lE
+ek
+FJ
+ea
+lE
+lE
+lE
+aN
 lE
 lE
 lE
@@ -12007,11 +13995,11 @@ FJ
 bL
 bL
 cN
-wf
-wf
-wf
-wf
-wf
+lE
+lE
+lE
+lE
+lE
 yq
 tD
 FJ
@@ -12129,22 +14117,22 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
 FJ
-Sc
-Sc
+eq
+lE
+lE
+lE
+dO
 FJ
-wf
+dU
+dU
+dU
+dG
+FJ
+aN
+aN
+FJ
+FJ
 wf
 wf
 wf
@@ -12281,28 +14269,28 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
+FJ
+FJ
+dO
+dO
+FJ
+FJ
+FJ
+FJ
+dV
+dV
+dH
+lE
+lE
+lE
+dd
+FJ
 wf
 wf
 wf
 FJ
-QE
-QE
+lE
+lE
 cY
 cY
 cY
@@ -12434,27 +14422,27 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
+FJ
+FJ
+FJ
+FJ
+el
+ed
+FJ
+FJ
+dW
+lE
+dy
+dp
+lE
+de
+FJ
 wf
 wf
 wf
 FJ
-QE
-QE
+lE
+lE
 cY
 cY
 cY
@@ -12588,19 +14576,19 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
+FJ
+cZ
+lE
+lE
+lE
+cZ
+lE
+lE
+lE
+lE
+lE
+FJ
+FJ
 wf
 wf
 wf
@@ -12740,25 +14728,25 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
+FJ
+FJ
+em
+ee
+eb
+FJ
+FJ
+dI
+dz
+FJ
+cZ
+FJ
+FJ
+FJ
+bK
+FJ
+FJ
+FJ
+FJ
 wf
 wf
 wf
@@ -12893,24 +14881,24 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
+FJ
+FJ
+FJ
+FJ
+FJ
+FJ
+FJ
+FJ
+FJ
+lE
+df
+cv
+cf
+lE
+bI
+FJ
+lE
+FJ
 wf
 wf
 wf
@@ -13048,21 +15036,21 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
+FJ
+lE
+lE
+lE
+lE
+FJ
+lE
+lE
+lE
+lE
+lE
+lE
+aN
+lE
+FJ
 wf
 wf
 wf
@@ -13200,21 +15188,21 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
+FJ
+lE
+lE
+lE
+lE
+cZ
+lE
+lE
+lE
+lE
+lE
+lE
+aN
+lE
+FJ
 wf
 wf
 wf
@@ -13352,21 +15340,21 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
+FJ
+lE
+lE
+lE
+lE
+FJ
+lE
+lE
+lE
+cg
+bR
+bJ
+FJ
+lE
+FJ
 wf
 wf
 wf
@@ -13504,21 +15492,21 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
+FJ
+FJ
+FJ
+FJ
+FJ
+FJ
+FJ
+FJ
+cZ
+FJ
+FJ
+FJ
+FJ
+FJ
+FJ
 wf
 wf
 wf
@@ -13660,15 +15648,15 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
+FJ
+dr
+FJ
+ch
+ch
+ch
+FJ
+lE
+FJ
 wf
 wf
 wf
@@ -13812,15 +15800,15 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
+FJ
+ds
+aN
+dh
+ch
+ci
+aN
+lE
+FJ
 wf
 wf
 wf
@@ -13964,15 +15952,15 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
+FJ
+dt
+FJ
+di
+cw
+cj
+FJ
+lE
+FJ
 wf
 wf
 wf
@@ -14116,15 +16104,15 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
+FJ
+FJ
+FJ
+FJ
+ci
+FJ
+FJ
+FJ
+FJ
 wf
 wf
 wf
@@ -14270,11 +16258,11 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
+FJ
+FJ
+aN
+FJ
+FJ
 wf
 wf
 wf
@@ -14422,11 +16410,11 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
+FJ
+dj
+cF
+ck
+FJ
 wf
 wf
 wf
@@ -14574,11 +16562,11 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
+FJ
+FJ
+FJ
+FJ
+FJ
 wf
 wf
 wf
