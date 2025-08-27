@@ -291,6 +291,15 @@
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
 	})
+"as" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/Factory/Robotic_arm{
+	pixel_x = -13;
+	pixel_y = -2;
+	dir = 1
+	},
+/turf/open/floor/corsat,
+/area/space)
 "at" = (
 /obj/structure/machinery/door_control/brbutton{
 	pixel_y = 22;
@@ -665,7 +674,7 @@
 	name = "\improper SSV Orzel"
 	})
 "aV" = (
-/turf/open/floor/almayer/black/southeast,
+/turf/open/floor/prison/darkbrown2/southeast,
 /area/golden_arrow/dorms)
 "aW" = (
 /obj/structure/surface/table/almayer{
@@ -918,7 +927,7 @@
 /turf/open/floor/prison,
 /area/golden_arrow/cryo_cells)
 "bh" = (
-/turf/open/floor/almayer/blackcorner/north,
+/turf/open/floor/prison/darkbrowncorners2/east,
 /area/golden_arrow/dorms)
 "bi" = (
 /obj/structure/surface/rack{
@@ -1773,6 +1782,26 @@
 /obj/effect/decal/cleanable/generic,
 /turf/open/floor/corsat,
 /area/golden_arrow/cryo_cells)
+"cV" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/machinery/door/window{
+	dir = 2
+	},
+/obj/structure/inventory_machine{
+	density = 0;
+	pixel_y = 32
+	},
+/obj/structure/largecrate/random/secure{
+	pixel_x = 6;
+	pixel_y = 17
+	},
+/turf/open/floor/prison/darkredfull2,
+/area/space)
 "cW" = (
 /turf/open/floor/prison/darkred2,
 /area/space)
@@ -3384,9 +3413,7 @@
 /obj/structure/bed/sofa/hybrisa/misc/bench{
 	dir = 1
 	},
-/turf/open/floor/almayer/black{
-	dir = 10
-	},
+/turf/open/floor/prison/darkbrown2/southwest,
 /area/golden_arrow/dorms)
 "ep" = (
 /obj/structure/surface/rack{
@@ -3719,7 +3746,7 @@
 	name = "\improper Broken GUU-71/A pulse rifle";
 	anchored = 1
 	},
-/turf/open/floor/almayer,
+/turf/open/floor/prison/floor_plate/southwest,
 /area/golden_arrow/dorms)
 "eI" = (
 /obj/structure/surface/table/reinforced/prison,
@@ -3875,6 +3902,9 @@
 	},
 /turf/open/floor/almayer/edge,
 /area/golden_arrow/hangar)
+"eT" = (
+/turf/open/floor/prison/cell_stripe,
+/area/golden_arrow/dorms)
 "eU" = (
 /obj/structure/sign/poster/io{
 	pixel_x = 1;
@@ -4409,11 +4439,13 @@
 "gd" = (
 /obj/item/trash/boonie,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/Factory/Conveyor_belt,
 /turf/open/floor/corsat,
 /area/space)
 "ge" = (
 /obj/effect/decal/cleanable/greenglow,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/constructable_frame,
 /turf/open/floor/corsat,
 /area/space)
 "gf" = (
@@ -4705,6 +4737,10 @@
 /obj/effect/decal/cleanable/liquid_fuel,
 /turf/open/floor/corsat,
 /area/space)
+"gN" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison/cell_stripe,
+/area/golden_arrow/dorms)
 "gO" = (
 /obj/structure/largecrate/random/secure{
 	pixel_x = 0;
@@ -4825,6 +4861,10 @@
 	},
 /turf/open/floor/corsat,
 /area/golden_arrow/canteen)
+"hc" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison/floor_plate/southwest,
+/area/golden_arrow/dorms)
 "hd" = (
 /obj/structure/platform/strata/metal{
 	dir = 1
@@ -4851,6 +4891,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison,
 /area/golden_arrow/cryo_cells)
+"hf" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/floorprops/grate2,
+/turf/open/floor/corsat,
+/area/golden_arrow/dorms)
 "hh" = (
 /obj/structure/barricade/handrail/strata,
 /obj/item/ashtray/bronze{
@@ -6437,7 +6482,7 @@
 "kZ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/almayer/black/north,
+/turf/open/floor/prison/cell_stripe/north,
 /area/golden_arrow/dorms)
 "la" = (
 /obj/structure/platform/strata/metal{
@@ -8020,7 +8065,7 @@
 	pixel_y = 7;
 	anchored = 1
 	},
-/turf/open/floor/almayer,
+/turf/open/floor/prison/floor_plate/southwest,
 /area/golden_arrow/dorms)
 "oA" = (
 /obj/effect/hybrisa/misc/fake/wire/blue{
@@ -8164,7 +8209,7 @@
 "oQ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/almayer/black,
+/turf/open/floor/prison/darkbrown2,
 /area/golden_arrow/dorms)
 "oR" = (
 /obj/effect/decal/cleanable/dirt,
@@ -8173,11 +8218,11 @@
 	pixel_x = -15;
 	pixel_y = 0
 	},
-/turf/open/floor/almayer/black,
+/turf/open/floor/prison/darkbrown2,
 /area/golden_arrow/dorms)
 "oS" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/almayer/black,
+/turf/open/floor/prison/darkbrown2,
 /area/golden_arrow/dorms)
 "oT" = (
 /obj/structure/machinery/prop/almayer/CICmap{
@@ -8288,11 +8333,11 @@
 /obj/effect/decal/cleanable/hybrisa/trash{
 	icon_state = "trash_6"
 	},
-/turf/open/floor/almayer/black/north,
+/turf/open/floor/prison/darkbrown2/north,
 /area/golden_arrow/dorms)
 "pd" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/almayer/black/north,
+/turf/open/floor/prison/cell_stripe/north,
 /area/golden_arrow/dorms)
 "pe" = (
 /obj/effect/decal/cleanable/dirt,
@@ -8356,9 +8401,7 @@
 	dir = 8;
 	light_power = 0.7
 	},
-/turf/open/floor/almayer/black{
-	dir = 9
-	},
+/turf/open/floor/prison/darkbrown2/northwest,
 /area/golden_arrow/dorms)
 "pj" = (
 /obj/item/dartboard{
@@ -8473,7 +8516,7 @@
 	pixel_y = 13
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/almayer,
+/turf/open/floor/prison/floor_plate/southwest,
 /area/golden_arrow/dorms)
 "pv" = (
 /obj/structure/surface/table/reinforced/almayer_B,
@@ -8481,7 +8524,7 @@
 	pixel_x = -8;
 	pixel_y = 7
 	},
-/turf/open/floor/almayer,
+/turf/open/floor/prison/floor_plate/southwest,
 /area/golden_arrow/dorms)
 "pw" = (
 /obj/effect/decal/cleanable/dirt,
@@ -8492,10 +8535,6 @@
 	},
 /turf/open/floor/hybrisa/tile,
 /area/golden_arrow/canteen)
-"px" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/almayer/blackfull,
-/area/golden_arrow/dorms)
 "py" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/bed/chair{
@@ -8553,16 +8592,15 @@
 /turf/open/floor/prison/darkredfull2,
 /area/space)
 "pE" = (
-/obj/structure/machinery/prop/almayer/overwatch_console{
-	dir = 4;
-	layer = 3.2;
-	pixel_x = 9;
-	pixel_y = -6
-	},
 /obj/structure/surface/table/reinforced/almayer_B,
 /obj/item/device/flashlight/lamp{
 	pixel_x = 1;
 	pixel_y = 12
+	},
+/obj/structure/machinery/computer/overwatch/almayer{
+	dir = 4;
+	pixel_x = 9;
+	pixel_y = -6
 	},
 /turf/open/floor/darkblue2/east,
 /area/golden_arrow/dorms)
@@ -8573,7 +8611,7 @@
 	pixel_y = 12;
 	anchored = 1
 	},
-/turf/open/floor/almayer,
+/turf/open/floor/prison/floor_plate/southwest,
 /area/golden_arrow/dorms)
 "pG" = (
 /obj/structure/prop/hybrisa/misc/buildinggreebliessmall/smallvent3{
@@ -8679,7 +8717,7 @@
 /obj/structure/machinery/light/small/blue/golden_arrow{
 	dir = 4
 	},
-/turf/open/floor/almayer/black/east,
+/turf/open/floor/prison/darkbrown2/east,
 /area/golden_arrow/dorms)
 "pO" = (
 /obj/structure/sign/banners/twe_worn{
@@ -8784,7 +8822,7 @@
 	pixel_x = -9;
 	pixel_y = 11
 	},
-/turf/open/floor/almayer/black/west,
+/turf/open/floor/prison/darkbrown2/west,
 /area/golden_arrow/dorms)
 "pV" = (
 /obj/effect/step_trigger/clone_cleaner,
@@ -8808,17 +8846,17 @@
 	pixel_x = 1;
 	pixel_y = 2
 	},
-/turf/open/floor/almayer,
+/turf/open/floor/prison/floor_plate/southwest,
 /area/golden_arrow/dorms)
 "pZ" = (
 /obj/structure/prop/hybrisa/misc/stoneplanterseats{
 	pixel_x = -20;
 	pixel_y = 11
 	},
-/turf/open/floor/almayer/black/east,
+/turf/open/floor/prison/darkbrown2/east,
 /area/golden_arrow/dorms)
 "qa" = (
-/turf/open/floor/almayer/black/northwest,
+/turf/open/floor/prison/darkbrown2/northwest,
 /area/golden_arrow/dorms)
 "qb" = (
 /obj/structure/machinery/vending/coffee/simple{
@@ -8826,7 +8864,7 @@
 	pixel_y = 13;
 	density = 0
 	},
-/turf/open/floor/almayer/black/north,
+/turf/open/floor/prison/darkbrown2/north,
 /area/golden_arrow/dorms)
 "qc" = (
 /turf/open/floor/almayer_hull/outerhull_dir/southeast,
@@ -8858,7 +8896,7 @@
 	pixel_x = 11;
 	pixel_y = 6
 	},
-/turf/open/floor/almayer/black/north,
+/turf/open/floor/prison/darkbrown2/north,
 /area/golden_arrow/dorms)
 "qf" = (
 /obj/structure/machinery/door_control{
@@ -8883,10 +8921,10 @@
 	pixel_y = 13;
 	density = 0
 	},
-/turf/open/floor/almayer/black/north,
+/turf/open/floor/prison/darkbrown2/north,
 /area/golden_arrow/dorms)
 "qh" = (
-/turf/open/floor/almayer/black/northeast,
+/turf/open/floor/prison/darkbrown2/northeast,
 /area/golden_arrow/dorms)
 "qi" = (
 /obj/structure/platform_decoration/strata/metal,
@@ -9173,7 +9211,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/prison,
+/turf/open/floor/prison/floor_plate/southwest,
 /area/golden_arrow/cryo_cells)
 "rE" = (
 /obj/structure/vehicle_locker/cabinet/cups{
@@ -9967,7 +10005,7 @@
 	name = "\improper SSV Orzel"
 	})
 "yQ" = (
-/turf/open/floor/almayer/black,
+/turf/open/floor/prison/darkbrown2,
 /area/golden_arrow/dorms)
 "yU" = (
 /obj/structure/barricade/handrail/strata{
@@ -10992,7 +11030,7 @@
 /obj/structure/machinery/light/small/blue/golden_arrow{
 	dir = 8
 	},
-/turf/open/floor/almayer/black/west,
+/turf/open/floor/prison/darkbrown2/west,
 /area/golden_arrow/dorms)
 "HJ" = (
 /turf/open/floor/almayer_hull/outerhull_dir/southwest,
@@ -11019,9 +11057,6 @@
 	},
 /turf/open/floor/prison/blue/northwest,
 /area/golden_arrow/cryo_cells)
-"HQ" = (
-/turf/open/floor/almayer/black/east,
-/area/golden_arrow/dorms)
 "HR" = (
 /turf/open/floor/almayer_hull/outerhull_dir/west,
 /area/space)
@@ -11354,7 +11389,7 @@
 	light_color = "#C02526"
 	},
 /obj/effect/decal/cleanable/generic,
-/turf/open/floor/prison,
+/turf/open/floor/prison/floor_plate/southwest,
 /area/golden_arrow/cryo_cells)
 "LF" = (
 /obj/structure/machinery/light/small/blue/golden_arrow{
@@ -12259,9 +12294,6 @@
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
 	})
-"Tq" = (
-/turf/open/floor/almayer/blackfull,
-/area/golden_arrow/dorms)
 "Tr" = (
 /obj/structure/machinery/suit_storage_unit/pressure_suit/uscm{
 	pixel_x = -1
@@ -12405,7 +12437,7 @@
 	pixel_y = 0;
 	pixel_x = 0
 	},
-/turf/open/floor/prison,
+/turf/open/floor/prison/floor_plate/southwest,
 /area/golden_arrow/cryo_cells)
 "Ui" = (
 /obj/structure/bed/chair/comfy/bench/north,
@@ -12451,7 +12483,7 @@
 	pixel_y = 0
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/prison,
+/turf/open/floor/prison/floor_plate/southwest,
 /area/golden_arrow/cryo_cells)
 "UE" = (
 /obj/effect/decal/siding{
@@ -12540,7 +12572,7 @@
 	pixel_y = 8;
 	anchored = 1
 	},
-/turf/open/floor/almayer,
+/turf/open/floor/prison/floor_plate/southwest,
 /area/golden_arrow/dorms)
 "Vv" = (
 /obj/structure/machinery/door_control{
@@ -12569,7 +12601,7 @@
 /obj/structure/machinery/camera/autoname/golden_arrow{
 	dir = 2
 	},
-/turf/open/floor/almayer/black/north,
+/turf/open/floor/prison/darkbrown2/north,
 /area/golden_arrow/dorms)
 "VC" = (
 /obj/effect/decal/warning_stripes{
@@ -12729,7 +12761,7 @@
 	pixel_y = 0
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/prison,
+/turf/open/floor/prison/floor_plate/southwest,
 /area/golden_arrow/cryo_cells)
 "WT" = (
 /obj/structure/prop/hybrisa/xenobiology/giant_cryo{
@@ -12847,7 +12879,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/prison,
+/turf/open/floor/prison/floor_plate/southwest,
 /area/golden_arrow/cryo_cells)
 "Xz" = (
 /obj/structure/prop/almayer/missile_tube{
@@ -15881,7 +15913,7 @@ BJ
 AN
 AN
 gI
-fN
+cA
 gk
 ga
 FJ
@@ -16490,7 +16522,7 @@ AN
 AN
 gM
 gl
-cA
+as
 fN
 fN
 fH
@@ -16784,9 +16816,9 @@ hI
 FJ
 tD
 FJ
-jH
+cV
 cS
-bL
+hZ
 cW
 nL
 FJ
@@ -17698,7 +17730,7 @@ hB
 bL
 yq
 cS
-bL
+hZ
 cW
 yq
 bL
@@ -29346,8 +29378,8 @@ ox
 qa
 pU
 HI
-px
-Tq
+ou
+Bb
 bh
 yQ
 do
@@ -29496,8 +29528,8 @@ wf
 ql
 ll
 qb
-me
-yQ
+hc
+eT
 Vu
 pu
 kZ
@@ -29648,8 +29680,8 @@ wf
 ql
 ll
 qe
-me
-yQ
+hf
+eT
 oz
 eH
 pd
@@ -29801,7 +29833,7 @@ ql
 ll
 qg
 pY
-oS
+gN
 pF
 pv
 pd
@@ -29954,9 +29986,9 @@ ox
 qh
 pZ
 pN
-px
-px
-HQ
+nA
+nA
+oo
 aV
 nI
 do
@@ -30133,7 +30165,7 @@ lJ
 lA
 lm
 la
-kl
+lu
 lu
 hC
 wf
