@@ -61,7 +61,7 @@
 /obj/structure/sign/safety/three{
 	pixel_x = -25
 	},
-/turf/open/floor/almayer/black/west,
+/turf/open/floor/prison/darkbrown2/west,
 /area/golden_arrow/dorms)
 "ad" = (
 /obj/structure/surface/table/almayer{
@@ -291,9 +291,6 @@
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
 	})
-"as" = (
-/turf/open/floor/almayer/uscm/directional/northeast,
-/area/space)
 "at" = (
 /obj/structure/machinery/door_control/brbutton{
 	pixel_y = 22;
@@ -1384,7 +1381,7 @@
 	pixel_x = 0;
 	pixel_y = -4
 	},
-/turf/open/floor/prison,
+/turf/open/floor/prison/floor_plate/southwest,
 /area/space)
 "cq" = (
 /obj/structure/surface/rack{
@@ -1402,7 +1399,7 @@
 	pixel_x = -5;
 	pixel_y = 8
 	},
-/turf/open/floor/prison,
+/turf/open/floor/prison/floor_plate/southwest,
 /area/space)
 "cr" = (
 /obj/structure/reagent_dispensers/watertank,
@@ -1479,6 +1476,16 @@
 /obj/effect/landmark/start/marine/alpha,
 /turf/open/floor/prison,
 /area/golden_arrow/cryo_cells)
+"cA" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/prop{
+	desc = "A blood bag with a hole in it. The rats must have gotten to it first.";
+	icon = 'icons/obj/items/bloodpack.dmi';
+	icon_state = "bloodpack";
+	name = "blood bag"
+	},
+/turf/open/floor/corsat,
+/area/space)
 "cB" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E";
@@ -1648,6 +1655,15 @@
 	},
 /turf/open/floor/prison/floor_marked,
 /area/space)
+"cK" = (
+/obj/structure/machinery/door/airlock/almayer/marine/alpha{
+	dir = 1;
+	req_one_access = null;
+	req_access = null;
+	name = "\improper Squad Preparations"
+	},
+/turf/open/floor/almayer/pod_landing_floor,
+/area/space)
 "cL" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "4-8";
@@ -1757,9 +1773,6 @@
 /obj/effect/decal/cleanable/generic,
 /turf/open/floor/corsat,
 /area/golden_arrow/cryo_cells)
-"cV" = (
-/turf/open/floor/almayer/uscm/directional/southeast,
-/area/space)
 "cW" = (
 /turf/open/floor/prison/darkred2,
 /area/space)
@@ -2186,6 +2199,14 @@
 	pixel_x = 17
 	},
 /turf/open/floor/corsat,
+/area/space)
+"dt" = (
+/obj/structure/bed/chair{
+	dir = 1;
+	pixel_y = 7;
+	pixel_x = 7
+	},
+/turf/open/floor/prison/floor_plate/southwest,
 /area/space)
 "du" = (
 /obj/structure/surface/rack{
@@ -3242,6 +3263,18 @@
 /obj/item/weapon/gun/pistol/highpower,
 /turf/open/floor/prison/floor_marked,
 /area/space)
+"ei" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/reagent_container/food/drinks/cans/waterbottle/upp{
+	pixel_x = 8;
+	pixel_y = 9
+	},
+/obj/item/device/camera/oldcamera{
+	pixel_x = -4;
+	pixel_y = 1
+	},
+/turf/open/floor/prison/floor_plate/southwest,
+/area/space)
 "ej" = (
 /obj/structure/surface/rack{
 	color = "#98a3ab"
@@ -3347,6 +3380,10 @@
 /turf/open/floor/prison/floor_marked,
 /area/space)
 "eo" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/bed/sofa/hybrisa/misc/bench{
+	dir = 1
+	},
 /turf/open/floor/almayer/black{
 	dir = 10
 	},
@@ -3418,7 +3455,12 @@
 /obj/structure/machinery/light/small{
 	dir = 4
 	},
-/turf/open/floor/plating,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_5";
+	layer = 3.1
+	},
+/turf/open/floor/corsat,
 /area/golden_arrow/dorms)
 "ev" = (
 /obj/item/ammo_box/rounds/smartgun{
@@ -3426,6 +3468,14 @@
 	pixel_y = 15
 	},
 /turf/open/floor/prison,
+/area/space)
+"ew" = (
+/obj/structure/bed/chair{
+	dir = 8;
+	pixel_y = 13;
+	pixel_x = -5
+	},
+/turf/open/floor/prison/floor_plate/southwest,
 /area/space)
 "ex" = (
 /obj/structure/dropship_equipment/mg_holder,
@@ -3453,7 +3503,12 @@
 	dir = 4;
 	light_power = 0.7
 	},
-/turf/open/floor/almayer/black/east,
+/obj/item/trash/cigbutt{
+	pixel_x = -3;
+	pixel_y = 9
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison/darkbrown2/east,
 /area/golden_arrow/dorms)
 "eA" = (
 /obj/structure/machinery/door/airlock/almayer/secure/glass{
@@ -3635,19 +3690,144 @@
 /obj/structure/surface/table/almayer,
 /turf/open/floor/prison,
 /area/space)
+"eF" = (
+/obj/structure/bed/chair{
+	dir = 4;
+	pixel_y = 6;
+	pixel_x = 7
+	},
+/turf/open/floor/prison/darkred2/west,
+/area/space)
 "eG" = (
 /obj/effect/decal/cleanable/generic,
 /obj/structure/prop/hybrisa/misc/floorprops/grate2,
 /turf/open/floor/corsat,
 /area/golden_arrow/cryo_cells)
 "eH" = (
-/obj/structure/machinery/vending/cigarette,
-/turf/open/floor/almayer/plate,
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/clothing/mask/cigarette{
+	pixel_x = -5;
+	pixel_y = 16
+	},
+/obj/item/clothing/mask/cigarette{
+	pixel_x = 0;
+	pixel_y = 13
+	},
+/obj/item/weapon/gun/rifle/m41aMK1/navy{
+	pixel_x = -12;
+	pixel_y = 0;
+	name = "\improper Broken GUU-71/A pulse rifle";
+	anchored = 1
+	},
+/turf/open/floor/almayer,
 /area/golden_arrow/dorms)
+"eI" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/structure/phone_base/rotary{
+	name = "Squad Preparations Telephone";
+	phone_category = "Nomad";
+	phone_id = "Prep Room";
+	pixel_x = 10;
+	pixel_y = 6
+	},
+/obj/item/prop/magazine/dirty{
+	desc = "A copy of Playboy magazine. On the cover is photo of guitarist Sadie Summers, with the headline 'Sadie Summers tells ALL'. The article itself focuses on Sadie's many carnal exploits while on tour as well as her very public brawl at an LA nightclub that occured two years prior to the date of this issue. Flipping through the magazine you see article titles such as 'Jungle Mercenary: Life as an Ex-UPP commando', 'The whys and hows of choosing synthetic girls'.";
+	icon_state = "poster3";
+	name = "Playboy Magazine: Issue March 2182";
+	pixel_x = -5;
+	pixel_y = 6
+	},
+/turf/open/floor/prison/floor_plate/southwest,
+/area/space)
+"eJ" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/prop/tableflag{
+	pixel_x = -12;
+	pixel_y = 14
+	},
+/obj/item/prop/tableflag/upp{
+	pixel_x = -12;
+	pixel_y = -2
+	},
+/obj/item/paper_bin{
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/item/tool/pen{
+	pixel_x = 0;
+	pixel_y = 4
+	},
+/obj/item/notepad/blue{
+	pixel_x = -4;
+	pixel_y = -15
+	},
+/obj/item/ashtray/plastic{
+	pixel_x = 7;
+	pixel_y = -12
+	},
+/turf/open/floor/prison/floor_plate/southwest,
+/area/space)
+"eK" = (
+/obj/structure/bed/chair{
+	dir = 8;
+	pixel_y = 11;
+	pixel_x = -6
+	},
+/turf/open/floor/prison/floor_plate/southwest,
+/area/space)
+"eL" = (
+/obj/structure/machinery/door/airlock/almayer/marine/alpha{
+	dir = 4;
+	req_one_access = null;
+	req_access = null;
+	name = "\improper Squad Preparations"
+	},
+/turf/open/floor/almayer/pod_landing_floor,
+/area/space)
 "eM" = (
 /obj/structure/cryofeed/right,
 /turf/open/floor/corsat,
 /area/golden_arrow/cryo_cells)
+"eN" = (
+/obj/structure/bed/chair{
+	dir = 2;
+	pixel_y = 8;
+	pixel_x = 0
+	},
+/obj/item/trash/crushed_cup{
+	pixel_x = -17;
+	pixel_y = -10
+	},
+/turf/open/floor/prison/floor_plate/southwest,
+/area/space)
+"eO" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/prop{
+	desc = "An issue of Kosmicheskaya Pravda, the newspaper circulating in UPP-controlled space.";
+	icon = 'icons/obj/items/paper.dmi';
+	icon_state = "newspaper";
+	name = "Kosmicheskaya Pravda";
+	pixel_x = 4;
+	pixel_y = 3
+	},
+/obj/item/reagent_container/food/drinks/flask/barflask{
+	pixel_x = 5;
+	pixel_y = 3
+	},
+/obj/item/trash/uscm_mre{
+	pixel_x = -8;
+	pixel_y = 9
+	},
+/turf/open/floor/prison/floor_plate/southwest,
+/area/space)
+"eP" = (
+/obj/structure/bed/chair{
+	dir = 8;
+	pixel_y = 12;
+	pixel_x = -6
+	},
+/turf/open/floor/prison/floor_plate/southwest,
+/area/space)
 "eQ" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "1-2-4";
@@ -3673,6 +3853,17 @@
 /obj/effect/decal/cleanable/cobweb,
 /turf/open/floor/corsat,
 /area/golden_arrow/cryo_cells)
+"eR" = (
+/obj/structure/sign/poster/safety{
+	pixel_x = -4;
+	pixel_y = 34
+	},
+/obj/structure/sign/poster/pinup{
+	pixel_x = 1;
+	pixel_y = 36
+	},
+/turf/open/floor/prison/darkred2/northwest,
+/area/space)
 "eS" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S";
@@ -3684,8 +3875,22 @@
 	},
 /turf/open/floor/almayer/edge,
 /area/golden_arrow/hangar)
-"eT" = (
-/turf/open/floor/almayer/w_y0,
+"eU" = (
+/obj/structure/sign/poster/io{
+	pixel_x = 1;
+	pixel_y = 35
+	},
+/turf/open/floor/prison/darkred2/northeast,
+/area/space)
+"eV" = (
+/obj/structure/phone_base/rotary{
+	name = "Telephone";
+	phone_category = "Almayer";
+	phone_id = "Auxiliary Support Office";
+	pixel_x = 8;
+	pixel_y = 8
+	},
+/turf/open/space/basic,
 /area/space)
 "eW" = (
 /obj/structure/surface/table/almayer,
@@ -3711,6 +3916,10 @@
 	},
 /turf/open/floor/corsat,
 /area/golden_arrow/cryo_cells)
+"eX" = (
+/obj/structure/prop/hybrisa/misc/graffiti/graffiti5,
+/turf/open/floor/almayer_hull/outerhull_dir,
+/area/space)
 "eY" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "2-8";
@@ -3720,6 +3929,17 @@
 /obj/structure/blocker/invisible_wall,
 /turf/open/floor/corsat,
 /area/golden_arrow/cryo_cells)
+"eZ" = (
+/obj/vehicle/powerloader/jd{
+	dir = 4;
+	pixel_x = -25;
+	pixel_y = -10
+	},
+/obj/structure/platform_decoration/strata/metal{
+	dir = 4
+	},
+/turf/open/floor/almayer_hull,
+/area/space)
 "fa" = (
 /obj/structure/window/framed/upp/green,
 /turf/open/floor/corsat,
@@ -4066,7 +4286,12 @@
 /obj/item/shard{
 	icon_state = "large";
 	pixel_x = 3;
-	pixel_y = 24
+	pixel_y = 27
+	},
+/obj/structure/prop/structure_lattice{
+	dir = 4;
+	pixel_y = 0;
+	pixel_x = -2
 	},
 /turf/open/floor/corsat,
 /area/space)
@@ -4111,6 +4336,14 @@
 /obj/structure/largecrate/random/case/small{
 	pixel_x = -1;
 	pixel_y = 0
+	},
+/obj/item/prop{
+	desc = "The words \"Cloning Scanner\" are scrawled onto it. It appears to be heavily damaged.";
+	icon = 'icons/obj/items/circuitboards.dmi';
+	icon_state = "id_mod";
+	name = "circuit board";
+	pixel_x = 0;
+	pixel_y = 7
 	},
 /turf/open/floor/corsat,
 /area/space)
@@ -4472,9 +4705,6 @@
 /obj/effect/decal/cleanable/liquid_fuel,
 /turf/open/floor/corsat,
 /area/space)
-"gN" = (
-/turf/open/floor/almayer/uscm/directional,
-/area/space)
 "gO" = (
 /obj/structure/largecrate/random/secure{
 	pixel_x = 0;
@@ -4595,13 +4825,6 @@
 	},
 /turf/open/floor/corsat,
 /area/golden_arrow/canteen)
-"hc" = (
-/obj/structure/prop/hybrisa/supermart/souto_man_prop{
-	pixel_x = -1;
-	pixel_y = 20
-	},
-/turf/open/space/basic,
-/area/space)
 "hd" = (
 /obj/structure/platform/strata/metal{
 	dir = 1
@@ -4628,14 +4851,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison,
 /area/golden_arrow/cryo_cells)
-"hf" = (
-/obj/structure/computerframe,
-/turf/open/space/basic,
-/area/space)
-"hg" = (
-/obj/structure/bookcase/manuals/medical,
-/turf/open/space/basic,
-/area/space)
 "hh" = (
 /obj/structure/barricade/handrail/strata,
 /obj/item/ashtray/bronze{
@@ -4679,40 +4894,12 @@
 	},
 /turf/open/floor/corsat,
 /area/golden_arrow/canteen)
-"hm" = (
-/turf/open/floor/wood/wood_broken4,
-/area/space)
 "hn" = (
 /turf/open/floor/prison/darkbrowncorners2,
 /area/golden_arrow/cryo_cells)
-"ho" = (
-/obj/item/reagent_container/food/drinks/bottle/black_goo,
-/turf/open/floor/wood/ship,
-/area/space)
-"hp" = (
-/turf/open/floor/wood/wood_broken5,
-/area/space)
-"hq" = (
-/obj/structure/bed/chair/wood/normal{
-	dir = 4
-	},
-/turf/open/floor/wood/ship,
-/area/space)
 "hr" = (
 /obj/structure/platform_decoration/strata/metal,
 /turf/open/floor/prison/darkbrownfull2,
-/area/space)
-"hs" = (
-/obj/structure/surface/table/woodentable/poor,
-/obj/item/prop/magazine/book/littleredbook{
-	pixel_x = -2;
-	pixel_y = 5
-	},
-/obj/item/prop/flower_vase/bluewhiteflowers{
-	pixel_x = 4;
-	pixel_y = 16
-	},
-/turf/open/floor/wood/ship,
 /area/space)
 "ht" = (
 /obj/item/tool/warning_cone{
@@ -4721,12 +4908,6 @@
 	},
 /turf/open/floor/prison/darkbrown2,
 /area/golden_arrow/cryo_cells)
-"hu" = (
-/obj/structure/bed/chair/wood/normal{
-	dir = 8
-	},
-/turf/open/floor/wood/ship,
-/area/space)
 "hv" = (
 /obj/structure/machinery/medical_pod/sleeper{
 	pixel_y = 20
@@ -4736,49 +4917,12 @@
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
 	})
-"hw" = (
-/obj/structure/bed/chair/wood/normal{
-	dir = 4
-	},
-/turf/open/floor/wood/wood_broken,
-/area/space)
-"hx" = (
-/obj/structure/surface/table/woodentable/poor,
-/obj/item/book/manual/chef_recipes{
-	pixel_x = 5;
-	pixel_y = 8
-	},
-/obj/item/reagent_container/food/drinks/flask/barflask{
-	pixel_x = -6;
-	pixel_y = -11
-	},
-/obj/structure/sign/poster/io{
-	pixel_x = -11;
-	pixel_y = 33
-	},
-/turf/open/floor/wood/ship,
-/area/space)
 "hy" = (
 /obj/structure/machinery/light/small/blue/golden_arrow{
 	dir = 8
 	},
 /turf/open/floor/hybrisa/tile/tilewhitecheckered/biege,
 /area/golden_arrow/canteen)
-"hz" = (
-/turf/open/floor/almayer/black{
-	dir = 6
-	},
-/area/golden_arrow/dorms)
-"hA" = (
-/obj/structure/bed/chair/wood/normal{
-	dir = 8
-	},
-/obj/structure/sign/poster/pinup{
-	pixel_x = -15;
-	pixel_y = 33
-	},
-/turf/open/floor/wood/wood_broken2,
-/area/space)
 "hB" = (
 /obj/structure/barricade/handrail/strata{
 	dir = 1;
@@ -6131,10 +6275,6 @@
 	},
 /turf/open/floor/almayer/pod_landing_floor,
 /area/space)
-"kw" = (
-/obj/structure/prop/hybrisa/misc/graffiti/graffiti5,
-/turf/open/floor/almayer_hull,
-/area/space)
 "kx" = (
 /obj/structure/machinery/light/double/blue/golden_arrow{
 	dir = 2;
@@ -6152,21 +6292,6 @@
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
 	})
-"kz" = (
-/obj/vehicle/powerloader/jd{
-	dir = 4;
-	pixel_x = -7;
-	pixel_y = -6
-	},
-/turf/open/floor/almayer_hull,
-/area/space)
-"kA" = (
-/obj/structure/machinery/constructable_frame/porta_comms{
-	pixel_x = 13;
-	pixel_y = -13
-	},
-/turf/open/floor/almayer_hull,
-/area/space)
 "kB" = (
 /obj/effect/decal/medical_decals{
 	icon_state = "triagedecaltopleft";
@@ -6194,16 +6319,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison/darkbrown2/northeast,
 /area/golden_arrow/canteen)
-"kE" = (
-/obj/structure/prop/almayer/name_stencil,
-/turf/open/floor/almayer_hull,
-/area/space)
-"kF" = (
-/obj/structure/prop/almayer/name_stencil{
-	icon_state = "almayer1"
-	},
-/turf/open/floor/almayer_hull,
-/area/space)
 "kG" = (
 /obj/structure/pipes/vents/scrubber/on,
 /obj/effect/decal/cleanable/dirt,
@@ -6266,10 +6381,6 @@
 	},
 /turf/open/floor/almayer/plate,
 /area/space)
-"kP" = (
-/obj/structure/prop/almayer/missile_tube,
-/turf/open/floor/almayer_hull,
-/area/space)
 "kQ" = (
 /obj/structure/machinery/light/double/blue/golden_arrow{
 	dir = 8;
@@ -6324,10 +6435,14 @@
 /turf/open/floor/almayer_hull,
 /area/space)
 "kZ" = (
-/turf/open/floor/almayer/blackcorner/east,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/black/north,
 /area/golden_arrow/dorms)
 "la" = (
-/obj/structure/platform/metal/strata/north,
+/obj/structure/platform/strata/metal{
+	dir = 1
+	},
 /turf/open/floor/almayer_hull,
 /area/space)
 "lb" = (
@@ -6721,6 +6836,14 @@
 "ma" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/hybrisa/misc/fake/wire/red{
+	dir = 4;
+	pixel_y = 12
+	},
+/obj/effect/hybrisa/misc/fake/wire/blue{
+	dir = 4;
+	pixel_y = 6
+	},
 /turf/open/floor/plating,
 /area/golden_arrow/dorms)
 "mb" = (
@@ -6730,6 +6853,14 @@
 	pixel_y = 12
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/hybrisa/misc/fake/wire/red{
+	dir = 4;
+	pixel_y = 12
+	},
+/obj/effect/hybrisa/misc/fake/wire/blue{
+	dir = 4;
+	pixel_y = 6
+	},
 /turf/open/floor/plating,
 /area/golden_arrow/dorms)
 "mc" = (
@@ -6814,6 +6945,10 @@
 	pixel_x = 12;
 	pixel_y = 5
 	},
+/obj/item/stack/sheet/metal/small_stack{
+	pixel_x = -6;
+	pixel_y = -8
+	},
 /turf/open/floor/almayer,
 /area/golden_arrow/dorms)
 "mk" = (
@@ -6834,14 +6969,18 @@
 /obj/structure/stairs/perspective{
 	color = "#6e6e6e"
 	},
-/turf/open/floor/wood/ship,
+/turf/open/floor/hybrisa/wood/blackwood,
 /area/golden_arrow/canteen)
 "mm" = (
 /obj/structure/machinery/light/double/blue/golden_arrow{
 	dir = 8;
 	light_power = 0.7
 	},
-/turf/open/floor/almayer/black/west,
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "thermite";
+	name = "impact"
+	},
+/turf/open/floor/prison/darkbrown2/west,
 /area/golden_arrow/dorms)
 "mn" = (
 /obj/structure/cable/heavyduty{
@@ -6874,15 +7013,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/item/shard/shrapnel,
 /turf/open/floor/plating,
-/area/golden_arrow/dorms)
-"mr" = (
-/obj/effect/decal/cleanable/generic{
-	color = "#5d524b";
-	alpha = 155
-	},
-/turf/open/floor/almayer{
-	icon_state = "plate"
-	},
 /area/golden_arrow/dorms)
 "ms" = (
 /obj/effect/decal/cleanable/dirt,
@@ -7001,8 +7131,12 @@
 /turf/open/floor/almayer,
 /area/golden_arrow/dorms)
 "mD" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/shard/shrapnel,
+/obj/structure/barricade/handrail/hybrisa/road/plastic/red{
+	dir = 1;
+	pixel_x = 0;
+	pixel_y = 8;
+	layer = 3.1
+	},
 /turf/open/floor/almayer,
 /area/golden_arrow/dorms)
 "mE" = (
@@ -7051,8 +7185,8 @@
 "mJ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/power/port_gen/pacman{
-	pixel_x = -6;
-	pixel_y = 18
+	pixel_x = -2;
+	pixel_y = 19
 	},
 /turf/open/floor/almayer{
 	icon_state = "plate"
@@ -7097,18 +7231,190 @@
 /obj/structure/airlock_assembly,
 /turf/open/floor/almayer/pod_landing_floor,
 /area/golden_arrow/dorms)
-"mY" = (
-/obj/structure/machinery/light/double/blue/golden_arrow{
-	dir = 2;
-	light_power = 0.7
+"mO" = (
+/obj/structure/machinery/constructable_frame/porta_comms{
+	pixel_x = -4;
+	pixel_y = -21
 	},
-/turf/open/floor/almayer/black,
+/turf/open/floor/almayer_hull,
+/area/space)
+"mP" = (
+/obj/structure/prop/hybrisa/misc/buildinggreeblies/greeble9{
+	pixel_x = -15;
+	pixel_y = 0
+	},
+/turf/open/floor/almayer_hull,
+/area/space)
+"mQ" = (
+/obj/structure/prop/hybrisa/misc/buildinggreeblies/greeble9{
+	pixel_x = -15;
+	pixel_y = 0
+	},
+/turf/open/floor/almayer_hull,
+/area/golden_arrow/dorms)
+"mR" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/buildinggreeblies/greeble12,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/dorms)
+"mS" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/ash,
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"mT" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/buildinggreeblies/greeble12{
+	dir = 1;
+	pixel_x = -32;
+	pixel_y = 0
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/dorms)
+"mU" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "thermite";
+	name = "impact"
+	},
+/obj/effect/hybrisa/misc/fake/wire/red{
+	dir = 4;
+	pixel_y = 12
+	},
+/obj/effect/hybrisa/misc/fake/wire/blue{
+	dir = 4;
+	pixel_y = 6
+	},
+/turf/open/floor/plating,
+/area/golden_arrow/dorms)
+"mV" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/hybrisa/misc/fake/wire/red{
+	dir = 4;
+	pixel_y = 12
+	},
+/obj/effect/hybrisa/misc/fake/wire/blue{
+	dir = 4;
+	pixel_y = 6
+	},
+/turf/open/floor/plating,
+/area/golden_arrow/dorms)
+"mW" = (
+/obj/item/stack/sheet/metal/small_stack{
+	pixel_x = 10;
+	pixel_y = 3
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"mX" = (
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_2";
+	pixel_y = 12
+	},
+/obj/item/stack/sheet/cardboard{
+	pixel_y = -1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer,
 /area/golden_arrow/dorms)
 "mZ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/hybrisa/carpet/carpet_colorable/blue_grey,
 /area/golden_arrow/canteen)
+"na" = (
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_5";
+	pixel_y = 12
+	},
+/obj/item/trash/cigbutt{
+	pixel_x = -10;
+	pixel_y = 7
+	},
+/obj/item/smallDelivery{
+	layer = 5;
+	pixel_y = 20;
+	pixel_x = 10
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/dorms)
+"nb" = (
+/obj/item/smallDelivery{
+	layer = 5;
+	pixel_y = 19;
+	pixel_x = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/cobweb{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/dorms)
+"nc" = (
+/obj/item/trash/cigbutt{
+	pixel_x = -10;
+	pixel_y = 7
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"nd" = (
+/obj/effect/decal/hybrisa/road/road_stop{
+	dir = 4;
+	icon_state = "stop_decal5"
+	},
+/obj/structure/largecrate/random/mini{
+	pixel_x = 6;
+	pixel_y = -2
+	},
+/obj/item/smallDelivery{
+	pixel_x = 6;
+	pixel_y = 8
+	},
+/obj/item/smallDelivery{
+	pixel_y = 6;
+	layer = 2.9
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/dorms)
+"ne" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/computerframe{
+	pixel_x = 4;
+	pixel_y = 14
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/dorms)
+"nf" = (
+/obj/item/tool/screwdriver{
+	pixel_x = -1;
+	pixel_y = 2
+	},
+/obj/structure/largecrate/random/mini{
+	pixel_x = -7;
+	pixel_y = 16;
+	layer = 3.1
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
 "ng" = (
 /obj/structure/barricade/handrail/medical{
 	dir = 8;
@@ -7118,6 +7424,42 @@
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
 	})
+"nh" = (
+/obj/structure/prop/hybrisa/misc/buildinggreebliessmall{
+	pixel_y = 18
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/dorms)
+"ni" = (
+/obj/structure/largecrate/random/barrel/yellow,
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/dorms)
+"nj" = (
+/obj/structure/largecrate/empty,
+/obj/item/clothing/head/hardhat{
+	pixel_x = 4;
+	pixel_y = 7
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/dorms)
+"nk" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/light_construct/small{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/cobweb2/dynamic,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/dorms)
 "nl" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "cargo"
@@ -7138,6 +7480,16 @@
 	},
 /turf/open/floor/hybrisa/tile/tilewhitecheckered/blue,
 /area/golden_arrow/canteen)
+"nn" = (
+/obj/structure/machinery/door/airlock/almayer/generic/glass{
+	dir = 1;
+	name = "\improper Gym Quarters"
+	},
+/turf/open/floor/almayer/pod_landing_floor,
+/area/golden_arrow/dorms)
+"no" = (
+/turf/open/floor/corsat,
+/area/golden_arrow/dorms)
 "np" = (
 /obj/item/reagent_container/food/drinks/coffeecup/uscm{
 	pixel_x = 8;
@@ -7153,6 +7505,10 @@
 	},
 /turf/open/floor/hybrisa/tile,
 /area/golden_arrow/canteen)
+"nq" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/corsat,
+/area/golden_arrow/dorms)
 "nr" = (
 /obj/docking_port/stationary/marine_dropship/golden_arrow_hangar{
 	name = "Hangar Bay Aft";
@@ -7160,10 +7516,45 @@
 	},
 /turf/open/floor/plating,
 /area/golden_arrow/hangar)
+"ns" = (
+/obj/effect/decal/hybrisa/workers_decal{
+	pixel_x = -13;
+	pixel_y = -4
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/turf/open/floor/prison/darkbrown2,
+/area/golden_arrow/dorms)
+"nt" = (
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_14";
+	pixel_y = 10;
+	pixel_x = 5
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/turf/open/floor/prison/darkbrown2/southeast,
+/area/golden_arrow/dorms)
 "nu" = (
 /obj/structure/largecrate/random/case/double,
 /turf/open/floor/corsat,
 /area/golden_arrow/canteen)
+"nv" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/cobweb{
+	dir = 8
+	},
+/turf/open/floor/corsat,
+/area/golden_arrow/dorms)
+"nw" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/generic,
+/turf/open/floor/corsat,
+/area/golden_arrow/dorms)
 "nx" = (
 /obj/structure/machinery/door/poddoor/almayer{
 	id = "s_umbilical";
@@ -7176,6 +7567,25 @@
 "ny" = (
 /turf/open/floor/almayer/blackfull,
 /area/golden_arrow/hangar)
+"nz" = (
+/obj/effect/hybrisa/misc/fake/wire/blue{
+	pixel_x = -2
+	},
+/obj/effect/hybrisa/misc/fake/wire/red{
+	pixel_x = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/floorprops/grate2,
+/turf/open/floor/corsat,
+/area/golden_arrow/dorms)
+"nA" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison/darkbrown2/east,
+/area/golden_arrow/dorms)
+"nB" = (
+/obj/effect/decal/cleanable/cobweb,
+/turf/open/floor/corsat,
+/area/golden_arrow/dorms)
 "nC" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "NW-out";
@@ -7188,10 +7598,81 @@
 	},
 /turf/open/floor/almayer/edge,
 /area/golden_arrow/hangar)
+"nD" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_15";
+	pixel_y = 14
+	},
+/turf/open/floor/corsat,
+/area/golden_arrow/dorms)
+"nE" = (
+/obj/effect/hybrisa/misc/fake/wire/blue{
+	pixel_x = -2
+	},
+/obj/effect/hybrisa/misc/fake/wire/red{
+	pixel_x = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/floorprops/grate2,
+/turf/open/floor/corsat,
+/area/golden_arrow/dorms)
+"nF" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison/darkbrown2/west,
+/area/golden_arrow/dorms)
 "nG" = (
 /obj/structure/ship_ammo/heavygun/antitank,
 /turf/open/floor/almayer/cargo,
 /area/golden_arrow/hangar)
+"nH" = (
+/turf/open/floor/prison/floor_plate/southwest,
+/area/golden_arrow/dorms)
+"nI" = (
+/turf/closed/wall/strata_outpost/reinforced,
+/area/golden_arrow/dorms)
+"nJ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/bed{
+	icon_state = "psychbed";
+	pixel_x = 8;
+	pixel_y = 0
+	},
+/obj/effect/decal/hybrisa/colorable_rug{
+	color = "#6e272e";
+	layer = 2.01;
+	dir = 8;
+	pixel_y = -41;
+	pixel_x = 0
+	},
+/obj/item/bedsheet/brown{
+	layer = 3.4;
+	color = "#8B9490";
+	pixel_x = 7;
+	pixel_y = 0
+	},
+/turf/open/floor/hybrisa/wood,
+/area/golden_arrow/dorms)
+"nK" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/safe{
+	pixel_x = 4;
+	pixel_y = 0
+	},
+/obj/item/weapon/pole/fancy_cane/this_is_a_knife/ceremonial_sword{
+	pixel_x = 4;
+	pixel_y = 0
+	},
+/obj/item/weapon/sword/ceremonial{
+	pixel_x = 3;
+	pixel_y = 1
+	},
+/turf/open/floor/hybrisa/wood,
+/area/golden_arrow/dorms)
 "nL" = (
 /obj/structure/machinery/door/window{
 	dir = 1
@@ -7208,6 +7689,15 @@
 	},
 /turf/open/floor/prison/darkredfull2,
 /area/space)
+"nM" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_14";
+	pixel_y = 5;
+	pixel_x = 2
+	},
+/turf/open/floor/corsat,
+/area/golden_arrow/dorms)
 "nN" = (
 /turf/open/floor/prison,
 /area/golden_arrow/cryo_cells)
@@ -7224,18 +7714,285 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/golden_arrow/hangar)
+"nP" = (
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_4";
+	pixel_y = 4;
+	pixel_x = -4
+	},
+/turf/open/floor/prison/darkbrown2/west,
+/area/golden_arrow/dorms)
+"nQ" = (
+/obj/effect/hybrisa/misc/fake/wire/blue{
+	pixel_x = -2
+	},
+/obj/effect/hybrisa/misc/fake/wire/red{
+	pixel_x = 4
+	},
+/obj/structure/prop/hybrisa/misc/floorprops/grate2,
+/turf/open/floor/corsat,
+/area/golden_arrow/dorms)
+"nR" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison/darkbrown2/east,
+/area/golden_arrow/dorms)
+"nS" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/flora/pottedplant{
+	icon_state = "pottedplant_18";
+	pixel_x = -10;
+	pixel_y = 7
+	},
+/turf/open/floor/hybrisa/wood,
+/area/golden_arrow/dorms)
+"nT" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/hybrisa/carpet/carpetbluedeco,
+/area/golden_arrow/dorms)
+"nU" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/hybrisa/wood,
+/area/golden_arrow/dorms)
+"nV" = (
+/obj/structure/platform_decoration/strata/metal{
+	dir = 4
+	},
+/turf/open/floor/almayer_hull,
+/area/golden_arrow/dorms)
+"nW" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/corsat,
+/area/golden_arrow/dorms)
+"nX" = (
+/obj/effect/hybrisa/misc/fake/wire/blue{
+	pixel_x = -2
+	},
+/obj/effect/hybrisa/misc/fake/wire/red{
+	pixel_x = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/floorprops/grate2,
+/turf/open/floor/corsat,
+/area/golden_arrow/dorms)
+"nY" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_8";
+	pixel_y = 12
+	},
+/turf/open/floor/corsat,
+/area/golden_arrow/dorms)
 "nZ" = (
 /turf/open/floor/prison/cell_stripe,
 /area/space)
+"oa" = (
+/obj/structure/machinery/light/small{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/corsat,
+/area/golden_arrow/dorms)
+"ob" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/secure_closet/bar{
+	name = "Success Cabinet";
+	req_access_txt = "1";
+	pixel_x = -4;
+	pixel_y = 2
+	},
+/obj/item/reagent_container/food/drinks/bottle/whiskey{
+	pixel_x = -3;
+	pixel_y = 2
+	},
+/obj/structure/machinery/light/double/blue/golden_arrow{
+	dir = 8;
+	light_power = 0.7
+	},
+/turf/open/floor/hybrisa/wood,
+/area/golden_arrow/dorms)
+"oc" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/generic,
+/obj/structure/prop/ice_colony/tiger_rug{
+	dir = 8
+	},
+/turf/open/floor/hybrisa/carpet/carpetbluedeco,
+/area/golden_arrow/dorms)
 "od" = (
 /obj/structure/platform_decoration,
 /turf/open/floor/almayer/plate,
 /area/golden_arrow/hangar)
+"oe" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/hybrisa/carpet/carpetbluedeco,
+/area/golden_arrow/dorms)
 "of" = (
 /obj/structure/machinery/light_construct,
 /turf/open/floor/almayer{
 	icon_state = "plate"
 	},
+/area/golden_arrow/dorms)
+"og" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/surface/table/almayer{
+	color = "#EBD9B7"
+	},
+/obj/item/folder/yellow{
+	pixel_x = 8;
+	pixel_y = 9
+	},
+/obj/structure/machinery/faxmachine/corporate,
+/turf/open/floor/hybrisa/wood,
+/area/golden_arrow/dorms)
+"oh" = (
+/obj/structure/platform/strata/metal{
+	dir = 8
+	},
+/turf/open/floor/almayer_hull,
+/area/golden_arrow/dorms)
+"oi" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/generic{
+	color = "#5d524b";
+	alpha = 155
+	},
+/obj/effect/decal/cleanable/cobweb2,
+/turf/open/floor/corsat,
+/area/golden_arrow/dorms)
+"oj" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/bed/chair{
+	can_buckle = 0;
+	dir = 4;
+	pixel_x = -8;
+	pixel_y = 8
+	},
+/turf/open/floor/hybrisa/wood,
+/area/golden_arrow/dorms)
+"ok" = (
+/turf/open/floor/hybrisa/carpet/carpetbluedeco,
+/area/golden_arrow/dorms)
+"ol" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/bed/chair/comfy/orange{
+	layer = 5;
+	pixel_x = 8;
+	pixel_y = 8
+	},
+/turf/open/floor/hybrisa/carpet/carpetbluedeco,
+/area/golden_arrow/dorms)
+"om" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/surface/table/almayer{
+	color = "#EBD9B7"
+	},
+/obj/structure/machinery/computer/emails{
+	dir = 8;
+	pixel_x = 0;
+	pixel_y = 4
+	},
+/turf/open/floor/hybrisa/wood,
+/area/golden_arrow/dorms)
+"on" = (
+/obj/item/trash/cigbutt{
+	pixel_x = -10;
+	pixel_y = 14
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison/floor_plate/southwest,
+/area/golden_arrow/dorms)
+"oo" = (
+/turf/open/floor/prison/darkbrown2/east,
+/area/golden_arrow/dorms)
+"op" = (
+/obj/structure/coatrack{
+	icon_state = "coatrack1"
+	},
+/obj/structure/coatrack{
+	icon_state = "coatrack1"
+	},
+/obj/structure/coatrack{
+	icon_state = "coat_det"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/item/clothing/shoes/laceup{
+	desc = "The height of fashion, and they're pre-polished! The name 'Bob' is written on the inside.";
+	pixel_y = -15;
+	pixel_x = 0
+	},
+/turf/open/floor/hybrisa/wood/redwood,
+/area/golden_arrow/dorms)
+"oq" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/hybrisa/wood/redwood,
+/area/golden_arrow/dorms)
+"or" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/computer/cameras/wooden_tv{
+	desc = "An old TV hooked up to a video cassette recorder, you can even use it to time shift WOW.";
+	name = "Television set";
+	network = null;
+	pixel_x = -1;
+	pixel_y = 30;
+	layer = 4
+	},
+/turf/open/floor/hybrisa/wood/redwood,
+/area/golden_arrow/dorms)
+"os" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/generic{
+	color = "#5d524b";
+	alpha = 155
+	},
+/obj/structure/prop/hybrisa/misc/trash{
+	pixel_x = 7;
+	pixel_y = 14;
+	layer = 4
+	},
+/obj/structure/prop/hybrisa/misc/cabinet{
+	dir = 8;
+	pixel_x = -10;
+	pixel_y = 12;
+	layer = 3.5
+	},
+/turf/open/floor/hybrisa/wood/redwood,
+/area/golden_arrow/dorms)
+"ot" = (
+/obj/structure/platform_decoration/strata/metal{
+	dir = 1
+	},
+/turf/open/floor/almayer_hull,
+/area/golden_arrow/dorms)
+"ou" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison/darkbrown2/west,
+/area/golden_arrow/dorms)
+"ov" = (
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_8";
+	pixel_y = 12
+	},
+/turf/open/floor/prison/darkbrown2/east,
+/area/golden_arrow/dorms)
+"ow" = (
+/obj/structure/machinery/light/small{
+	dir = 2
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/corsat,
 /area/golden_arrow/dorms)
 "ox" = (
 /turf/closed/wall/strata_outpost/reinforced/hull,
@@ -7246,33 +8003,214 @@
 /turf/open/floor/corsat,
 /area/golden_arrow/cryo_cells)
 "oz" = (
-/obj/structure/surface/table/almayer,
-/obj/item/ashtray/glass{
-	pixel_x = -4;
+/obj/structure/prop/almayer/ship_memorial{
+	pixel_x = -16;
+	pixel_y = 1;
+	desc = "A memorial ship dedicated to the heroic deeds of fallen soldiers of all nations and corporations during the blockade. Each name has been scraped out with some kind of chisel. It looks sloppy, but it is noticeable that each name was carved out with individual trepidation.";
+	name = "slab of overcoming"
+	},
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/clothing/head/uppcap/peaked{
+	pixel_x = -9;
+	pixel_y = 8;
+	anchored = 1
+	},
+/obj/item/clothing/head/uppcap/peaked/police{
+	pixel_x = 2;
+	pixel_y = 7;
+	anchored = 1
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"oA" = (
+/obj/effect/hybrisa/misc/fake/wire/blue{
+	pixel_x = -2
+	},
+/obj/effect/hybrisa/misc/fake/wire/red{
+	pixel_x = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_16";
+	pixel_y = 35
+	},
+/obj/structure/prop/hybrisa/misc/floorprops/grate2,
+/turf/open/floor/corsat,
+/area/golden_arrow/dorms)
+"oB" = (
+/obj/item/trash/cigbutt{
+	pixel_x = 1;
+	pixel_y = 5
+	},
+/turf/open/floor/prison/darkbrown2/east,
+/area/golden_arrow/dorms)
+"oC" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_2";
+	pixel_y = 12
+	},
+/turf/open/floor/corsat,
+/area/golden_arrow/dorms)
+"oD" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/ash,
+/turf/open/floor/corsat,
+/area/golden_arrow/dorms)
+"oE" = (
+/obj/structure/prop/hybrisa/misc/buildinggreeblies/greeble10,
+/turf/open/floor/darkblue2/west,
+/area/golden_arrow/dorms)
+"oF" = (
+/obj/effect/hybrisa/misc/fake/wire/blue{
+	dir = 2;
+	pixel_y = 1;
+	pixel_x = 0
+	},
+/obj/effect/hybrisa/misc/fake/wire/red{
+	pixel_x = 7;
+	pixel_y = 0
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/floorprops/grate2,
+/turf/open/floor/corsat,
+/area/golden_arrow/dorms)
+"oG" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/reagent_dispensers/water_cooler/walk_past{
+	pixel_x = 12;
+	pixel_y = -2
+	},
+/turf/open/floor/darkblue2/east,
+/area/golden_arrow/dorms)
+"oH" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/generic{
+	color = "#5d524b";
+	alpha = 155
+	},
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_12";
+	pixel_y = 0;
+	pixel_x = 1
+	},
+/turf/open/floor/corsat,
+/area/golden_arrow/dorms)
+"oI" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_2"
+	},
+/turf/open/floor/darkblue2/west,
+/area/golden_arrow/dorms)
+"oJ" = (
+/obj/effect/hybrisa/misc/fake/wire/blue{
+	dir = 2;
+	pixel_y = 0;
+	pixel_x = 0
+	},
+/obj/effect/hybrisa/misc/fake/wire/red{
+	pixel_x = 7;
+	pixel_y = 0
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/floorprops/grate2,
+/turf/open/floor/corsat,
+/area/golden_arrow/dorms)
+"oK" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/light/double/blue/golden_arrow{
+	dir = 4;
+	light_power = 0.7
+	},
+/turf/open/floor/darkblue2/east,
+/area/golden_arrow/dorms)
+"oL" = (
+/obj/structure/window/framed/strata/reinforced,
+/turf/open/floor/corsat,
+/area/golden_arrow/dorms)
+"oM" = (
+/obj/item/clothing/suit/storage/jacket/marine/corporate/black{
+	pixel_x = -7;
+	pixel_y = 5
+	},
+/obj/item/clothing/accessory/black{
+	pixel_x = -7;
 	pixel_y = -1
 	},
-/obj/item/clothing/mask/cigarette{
-	pixel_x = 6;
-	pixel_y = 13
-	},
-/obj/item/clothing/mask/cigarette{
-	pixel_x = -3;
-	pixel_y = 9
-	},
-/obj/item/trash/cigbutt{
+/obj/structure/closet{
 	pixel_x = -8;
-	pixel_y = 13
+	pixel_y = 3;
+	layer = 3
 	},
-/obj/item/trash/cigbutt/cigarbutt{
-	pixel_x = 11;
-	pixel_y = 6
+/turf/open/floor/darkblue2/west,
+/area/golden_arrow/dorms)
+"oN" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_8";
+	pixel_y = -6;
+	pixel_x = -4
 	},
-/turf/open/floor/almayer/plate,
+/turf/open/floor/dark2,
+/area/golden_arrow/dorms)
+"oO" = (
+/turf/open/floor/darkblue2/east,
 /area/golden_arrow/dorms)
 "oP" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison/darkbrown2,
 /area/golden_arrow/canteen)
+"oQ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/black,
+/area/golden_arrow/dorms)
+"oR" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/bed/sofa/hybrisa/misc/bench{
+	dir = 1;
+	pixel_x = -15;
+	pixel_y = 0
+	},
+/turf/open/floor/almayer/black,
+/area/golden_arrow/dorms)
+"oS" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/black,
+/area/golden_arrow/dorms)
+"oT" = (
+/obj/structure/machinery/prop/almayer/CICmap{
+	pixel_x = 10;
+	pixel_y = -1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/darkblue2/southwest,
+/area/golden_arrow/dorms)
+"oU" = (
+/obj/structure/machinery/computer/crew{
+	pixel_x = 5;
+	pixel_y = 0
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/light/double/blue/golden_arrow{
+	dir = 2;
+	light_power = 0.7
+	},
+/turf/open/floor/darkblue2,
+/area/golden_arrow/dorms)
+"oV" = (
+/obj/structure/machinery/computer/med_data{
+	pixel_x = -4;
+	pixel_y = 0
+	},
+/obj/structure/flora/pottedplant{
+	icon_state = "pottedplant_22";
+	pixel_x = 22;
+	pixel_y = -2
+	},
+/turf/open/floor/darkblue2,
+/area/golden_arrow/dorms)
 "oW" = (
 /obj/structure/ship_ammo/minirocket/incendiary,
 /turf/open/floor/almayer/cargo,
@@ -7285,6 +8223,76 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"oY" = (
+/turf/open/floor/darkbluecorners2{
+	dir = 8
+	},
+/area/golden_arrow/dorms)
+"oZ" = (
+/obj/effect/hybrisa/misc/fake/wire/blue{
+	dir = 2;
+	pixel_y = 2;
+	pixel_x = 0
+	},
+/obj/effect/hybrisa/misc/fake/wire/red{
+	pixel_x = 7;
+	layer = 2.5;
+	pixel_y = 4
+	},
+/obj/effect/hybrisa/misc/fake/wire/red{
+	pixel_x = 7;
+	pixel_y = 2
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/floorprops/grate2,
+/turf/open/floor/corsat,
+/area/golden_arrow/dorms)
+"pa" = (
+/obj/item/paper/crumpled{
+	pixel_x = 10;
+	pixel_y = -8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/darkbluecorners2,
+/area/golden_arrow/dorms)
+"pb" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/device/flashlight/pen{
+	pixel_x = -5;
+	pixel_y = 22
+	},
+/obj/item/paper_bin{
+	pixel_x = 7;
+	pixel_y = 19
+	},
+/obj/item/paper/crumpled{
+	pixel_x = -8;
+	pixel_y = 6
+	},
+/obj/structure/machinery/hybrisa/coffee_machine{
+	pixel_x = 2;
+	pixel_y = -1;
+	layer = 4
+	},
+/obj/item/reagent_container/food/drinks/coffeecup{
+	layer = 4.1;
+	pixel_x = 8;
+	pixel_y = 0
+	},
+/turf/open/floor/darkblue2/southeast,
+/area/golden_arrow/dorms)
+"pc" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_6"
+	},
+/turf/open/floor/almayer/black/north,
+/area/golden_arrow/dorms)
+"pd" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/black/north,
 /area/golden_arrow/dorms)
 "pe" = (
 /obj/effect/decal/cleanable/dirt,
@@ -7300,10 +8308,53 @@
 	},
 /turf/open/floor/corsat,
 /area/golden_arrow/canteen)
+"pf" = (
+/obj/structure/machinery/door/airlock/almayer/command{
+	name = "\improper Mission Control Quarters";
+	req_one_access_txt = "19;22";
+	req_access = null
+	},
+/turf/open/floor/almayer/pod_landing_floor,
+/area/golden_arrow/dorms)
+"pg" = (
+/obj/effect/hybrisa/misc/fake/wire/blue{
+	dir = 4;
+	pixel_y = -4
+	},
+/obj/effect/hybrisa/misc/fake/wire/red{
+	dir = 4;
+	pixel_y = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/floorprops/grate2,
+/turf/open/floor/corsat,
+/area/golden_arrow/dorms)
+"ph" = (
+/obj/effect/hybrisa/misc/fake/wire/blue{
+	dir = 4;
+	pixel_y = -4
+	},
+/obj/effect/hybrisa/misc/fake/wire/red{
+	dir = 4;
+	pixel_y = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/item/trash/cigbutt{
+	pixel_x = -3;
+	pixel_y = 5
+	},
+/obj/structure/prop/hybrisa/misc/floorprops/grate2,
+/turf/open/floor/corsat,
+/area/golden_arrow/dorms)
 "pi" = (
 /obj/structure/sign/safety/south{
 	pixel_x = -25;
 	pixel_y = 0
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/light/double/blue/golden_arrow{
+	dir = 8;
+	light_power = 0.7
 	},
 /turf/open/floor/almayer/black{
 	dir = 9
@@ -7326,6 +8377,40 @@
 	},
 /turf/open/floor/hybrisa/wood,
 /area/golden_arrow/canteen)
+"pk" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/trash/cigbutt{
+	pixel_x = -6;
+	pixel_y = -3
+	},
+/turf/open/floor/dark2,
+/area/golden_arrow/dorms)
+"pl" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/dark2,
+/area/golden_arrow/dorms)
+"pm" = (
+/obj/effect/hybrisa/misc/fake/wire/blue{
+	dir = 10;
+	pixel_y = -3;
+	pixel_x = 0
+	},
+/obj/effect/hybrisa/misc/fake/wire/red{
+	dir = 10;
+	pixel_x = 7;
+	pixel_y = 4
+	},
+/obj/effect/hybrisa/misc/fake/wire/red{
+	dir = 4;
+	pixel_y = 4;
+	pixel_x = -15
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/floorprops/grate2,
+/turf/open/floor/corsat,
+/area/golden_arrow/dorms)
 "pn" = (
 /turf/open/floor/strata/green3/east,
 /area/golden_arrow/medical{
@@ -7342,9 +8427,62 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/golden_arrow/hangar)
+"pq" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/dark2,
+/area/golden_arrow/dorms)
 "pr" = (
 /turf/open/floor/almayer_hull/outerhull_dir/west,
 /area/golden_arrow/canteen)
+"ps" = (
+/obj/structure/machinery/computer/cameras/almayer/vehicle{
+	dir = 8;
+	pixel_x = 9;
+	pixel_y = 10;
+	layer = 3.3
+	},
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/clothing/mask/cigarette/cigar/fluff{
+	pixel_x = -5;
+	pixel_y = 0
+	},
+/obj/item/ashtray/glass{
+	icon_state = "ashtray_bork_gl";
+	pixel_x = -4;
+	pixel_y = 10
+	},
+/turf/open/floor/darkblue2/east,
+/area/golden_arrow/dorms)
+"pt" = (
+/obj/structure/barricade/handrail/strata{
+	pixel_y = 0;
+	dir = 8;
+	layer = 3
+	},
+/obj/structure/stairs/perspective{
+	color = "#6e6e6e";
+	dir = 1
+	},
+/turf/open/floor/corsat,
+/area/golden_arrow/dorms)
+"pu" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/prop/flower_vase/redwhiteflowers{
+	pixel_x = 6;
+	pixel_y = 13
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"pv" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/reagent_container/food/snacks/grown/poppy{
+	pixel_x = -8;
+	pixel_y = 7
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
 "pw" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/bed/chair/wood/normal{
@@ -7354,6 +8492,50 @@
 	},
 /turf/open/floor/hybrisa/tile,
 /area/golden_arrow/canteen)
+"px" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/blackfull,
+/area/golden_arrow/dorms)
+"py" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/bed/chair{
+	can_buckle = 0;
+	dir = 4;
+	pixel_x = -8;
+	pixel_y = 14
+	},
+/turf/open/floor/darkbluecorners2{
+	dir = 1
+	},
+/area/golden_arrow/dorms)
+"pz" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/w_y0,
+/area/golden_arrow/dorms)
+"pA" = (
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "thermite";
+	name = "impact"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/w_y1,
+/area/golden_arrow/dorms)
+"pB" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/w_y2,
+/area/golden_arrow/dorms)
+"pC" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 4;
+	pixel_x = 6;
+	pixel_y = -6
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/dark2,
+/area/golden_arrow/dorms)
 "pD" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -7370,6 +8552,54 @@
 	},
 /turf/open/floor/prison/darkredfull2,
 /area/space)
+"pE" = (
+/obj/structure/machinery/prop/almayer/overwatch_console{
+	dir = 4;
+	layer = 3.2;
+	pixel_x = 9;
+	pixel_y = -6
+	},
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/device/flashlight/lamp{
+	pixel_x = 1;
+	pixel_y = 12
+	},
+/turf/open/floor/darkblue2/east,
+/area/golden_arrow/dorms)
+"pF" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/clothing/head/marine/peaked/captain/black{
+	pixel_x = -8;
+	pixel_y = 12;
+	anchored = 1
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"pG" = (
+/obj/structure/prop/hybrisa/misc/buildinggreebliessmall/smallvent3{
+	pixel_x = -2;
+	pixel_y = 27
+	},
+/obj/structure/prop/hybrisa/misc/trash{
+	pixel_x = -6;
+	pixel_y = 14
+	},
+/obj/item/paper/crumpled{
+	pixel_x = -7;
+	pixel_y = 1
+	},
+/obj/item/paper/crumpled{
+	pixel_x = 0;
+	pixel_y = 2
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/darkblue2/northwest,
+/area/golden_arrow/dorms)
+"pH" = (
+/turf/open/floor/darkbluecorners2{
+	dir = 1
+	},
+/area/golden_arrow/dorms)
 "pI" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -7402,11 +8632,160 @@
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
 	})
+"pK" = (
+/obj/structure/sign/banners/united_americas_worn{
+	pixel_x = -5;
+	pixel_y = 66;
+	layer = 3
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/dark2,
+/area/golden_arrow/dorms)
+"pL" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/darkbluecorners2{
+	dir = 4
+	},
+/area/golden_arrow/dorms)
+"pM" = (
+/obj/structure/machinery/photocopier{
+	pixel_x = 5;
+	pixel_y = 12
+	},
+/obj/item/paper/hydroponics{
+	pixel_x = 4;
+	pixel_y = 22
+	},
+/obj/item/device/toner{
+	pixel_x = 6;
+	pixel_y = -4
+	},
+/obj/item/device/toner{
+	pixel_x = 7;
+	pixel_y = 1
+	},
+/obj/structure/machinery/status_display{
+	pixel_y = 35;
+	pixel_x = 1
+	},
+/obj/structure/machinery/light/double/blue/golden_arrow{
+	dir = 4;
+	light_power = 0.7
+	},
+/turf/open/floor/darkblue2/northeast,
+/area/golden_arrow/dorms)
+"pN" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/light/small/blue/golden_arrow{
+	dir = 4
+	},
+/turf/open/floor/almayer/black/east,
+/area/golden_arrow/dorms)
+"pO" = (
+/obj/structure/sign/banners/twe_worn{
+	pixel_x = -12;
+	pixel_y = 33;
+	layer = 2
+	},
+/obj/structure/prop/hybrisa/misc/cabinet{
+	pixel_x = -7;
+	pixel_y = 12;
+	layer = 3.20
+	},
+/turf/open/floor/darkblue2/northwest,
+/area/golden_arrow/dorms)
+"pP" = (
+/obj/structure/filingcabinet/chestdrawer{
+	density = 0;
+	pixel_x = -8;
+	pixel_y = 21;
+	layer = 3.20
+	},
+/obj/structure/filingcabinet/chestdrawer{
+	density = 0;
+	pixel_x = 8;
+	pixel_y = 21;
+	layer = 3.20
+	},
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_4";
+	pixel_y = 1;
+	pixel_x = -1
+	},
+/obj/structure/phone_base/rotary{
+	pixel_x = 9;
+	pixel_y = 28;
+	layer = 3.2
+	},
+/turf/open/floor/darkblue2/north,
+/area/golden_arrow/dorms)
 "pQ" = (
 /turf/open/floor/strata/green3/west,
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
 	})
+"pR" = (
+/obj/structure/sign/banners/colonial_marines_flag_worn{
+	pixel_x = 4;
+	pixel_y = 33;
+	layer = 3
+	},
+/obj/structure/filingcabinet{
+	density = 0;
+	pixel_x = -8;
+	pixel_y = 18
+	},
+/obj/structure/filingcabinet{
+	density = 0;
+	pixel_x = 8;
+	pixel_y = 18
+	},
+/obj/item/clothing/head/hybrisa/nspa_peaked_cap_gold{
+	pixel_y = 30;
+	pixel_x = 10
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_4";
+	layer = 3.2
+	},
+/turf/open/floor/darkblue2/north,
+/area/golden_arrow/dorms)
+"pS" = (
+/obj/structure/prop/almayer/computers/sensor_computer2{
+	pixel_x = 2;
+	pixel_y = 17
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/darkblue2/north,
+/area/golden_arrow/dorms)
+"pT" = (
+/obj/structure/sign/banners/upp_worn{
+	pixel_x = -18;
+	pixel_y = 32;
+	layer = 2
+	},
+/obj/structure/prop/almayer/computers/sensor_computer3{
+	name = "weapon targetting computer";
+	pixel_x = 1;
+	pixel_y = 17
+	},
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_3";
+	layer = 3.2;
+	pixel_x = 8;
+	pixel_y = -9
+	},
+/turf/open/floor/darkblue2/northeast,
+/area/golden_arrow/dorms)
+"pU" = (
+/obj/structure/prop/hybrisa/misc/stoneplanterseats{
+	dir = 1;
+	pixel_x = -9;
+	pixel_y = 11
+	},
+/turf/open/floor/almayer/black/west,
+/area/golden_arrow/dorms)
 "pV" = (
 /obj/effect/step_trigger/clone_cleaner,
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -7422,6 +8801,33 @@
 "pX" = (
 /turf/open/floor/almayer_hull/outerhull_dir/southwest,
 /area/golden_arrow/canteen)
+"pY" = (
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_5";
+	layer = 3.1;
+	pixel_x = 1;
+	pixel_y = 2
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"pZ" = (
+/obj/structure/prop/hybrisa/misc/stoneplanterseats{
+	pixel_x = -20;
+	pixel_y = 11
+	},
+/turf/open/floor/almayer/black/east,
+/area/golden_arrow/dorms)
+"qa" = (
+/turf/open/floor/almayer/black/northwest,
+/area/golden_arrow/dorms)
+"qb" = (
+/obj/structure/machinery/vending/coffee/simple{
+	pixel_x = 4;
+	pixel_y = 13;
+	density = 0
+	},
+/turf/open/floor/almayer/black/north,
+/area/golden_arrow/dorms)
 "qc" = (
 /turf/open/floor/almayer_hull/outerhull_dir/southeast,
 /area/golden_arrow/canteen)
@@ -7430,6 +8836,30 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/corsat,
 /area/golden_arrow/cryo_cells)
+"qe" = (
+/obj/structure/surface/table/almayer,
+/obj/item/ashtray/glass{
+	pixel_x = -4;
+	pixel_y = -1
+	},
+/obj/item/clothing/mask/cigarette{
+	pixel_x = 6;
+	pixel_y = 13
+	},
+/obj/item/clothing/mask/cigarette{
+	pixel_x = -3;
+	pixel_y = 9
+	},
+/obj/item/trash/cigbutt{
+	pixel_x = -8;
+	pixel_y = 13
+	},
+/obj/item/trash/cigbutt/cigarbutt{
+	pixel_x = 11;
+	pixel_y = 6
+	},
+/turf/open/floor/almayer/black/north,
+/area/golden_arrow/dorms)
 "qf" = (
 /obj/structure/machinery/door_control{
 	id = "weaponsbay1";
@@ -7447,6 +8877,21 @@
 	},
 /turf/open/floor/plating,
 /area/golden_arrow/hangar)
+"qg" = (
+/obj/structure/machinery/vending/cigarette{
+	pixel_x = -5;
+	pixel_y = 13;
+	density = 0
+	},
+/turf/open/floor/almayer/black/north,
+/area/golden_arrow/dorms)
+"qh" = (
+/turf/open/floor/almayer/black/northeast,
+/area/golden_arrow/dorms)
+"qi" = (
+/obj/structure/platform_decoration/strata/metal,
+/turf/open/floor/almayer_hull/outerhull_dir/northwest,
+/area/space)
 "qj" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -7492,8 +8937,15 @@
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
 	})
-"qt" = (
-/turf/closed/wall/upp_wall/grey,
+"ql" = (
+/obj/structure/platform/strata/metal,
+/turf/open/floor/almayer_hull/outerhull_dir/north,
+/area/space)
+"qm" = (
+/obj/structure/platform_decoration/strata/metal{
+	dir = 1
+	},
+/turf/open/floor/almayer_hull/outerhull_dir/northeast,
 /area/space)
 "qu" = (
 /obj/structure/barricade/handrail/kutjevo{
@@ -7668,6 +9120,13 @@
 /turf/open/floor/almayer/cargo/southwest,
 /area/golden_arrow/hangar)
 "rp" = (
+/obj/item/frame/camera{
+	desc = "The Staff Officer insisted he needed to monitor everyone at all times.";
+	layer = 2.9;
+	name = "broken camera";
+	pixel_x = -5;
+	pixel_y = 1
+	},
 /turf/open/floor/plating,
 /area/golden_arrow/dorms)
 "ru" = (
@@ -7749,10 +9208,6 @@
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
 	})
-"rT" = (
-/obj/item/storage/box/banana,
-/turf/open/floor/almayer/w_y1/north,
-/area/space)
 "rU" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/light_construct/small{
@@ -7763,7 +9218,8 @@
 	},
 /area/golden_arrow/dorms)
 "rZ" = (
-/turf/open/space/basic,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/hybrisa/wood,
 /area/golden_arrow/dorms)
 "sd" = (
 /obj/structure/prop/invuln/overhead_pipe{
@@ -7936,7 +9392,8 @@
 /turf/open/floor/corsat,
 /area/space)
 "tE" = (
-/turf/open/floor/almayer/black/north,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison/darkbrown2/north,
 /area/golden_arrow/dorms)
 "tI" = (
 /obj/structure/machinery/shower{
@@ -7953,10 +9410,6 @@
 /obj/structure/prop/hybrisa/misc/floorprops/grate2,
 /turf/open/floor/corsat,
 /area/golden_arrow/cryo_cells)
-"tK" = (
-/obj/structure/window/framed/strata/hull,
-/turf/open/floor/plating,
-/area/golden_arrow/dorms)
 "tO" = (
 /obj/effect/step_trigger/clone_cleaner,
 /obj/structure/platform_decoration/kutjevo/smooth,
@@ -8229,9 +9682,6 @@
 	},
 /turf/open/floor/almayer/test_floor4,
 /area/golden_arrow/hangar)
-"wK" = (
-/turf/closed/wall/sulaco,
-/area/space)
 "wM" = (
 /obj/structure/janitorialcart,
 /obj/item/tool/mop,
@@ -8265,12 +9715,6 @@
 	},
 /turf/open/floor/almayer/plate,
 /area/golden_arrow/hangar)
-"wV" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass{
-	name = "\improper Briefing Room"
-	},
-/turf/open/space/basic,
-/area/space)
 "wW" = (
 /obj/structure/barricade/handrail/kutjevo{
 	dir = 4
@@ -8354,10 +9798,6 @@
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
 	})
-"xn" = (
-/obj/structure/bed/sofa/south/grey/right,
-/turf/open/floor/almayer/plate,
-/area/golden_arrow/dorms)
 "xs" = (
 /obj/structure/barricade/handrail/strata{
 	dir = 4
@@ -8562,9 +10002,6 @@
 "zb" = (
 /turf/open/floor/almayer_hull/outerhull_dir/southeast,
 /area/golden_arrow/cryo_cells)
-"zc" = (
-/turf/closed/wall/biodome,
-/area/space)
 "ze" = (
 /obj/structure/machinery/vending/snack/packaged{
 	density = 0;
@@ -8789,7 +10226,7 @@
 	name = "\improper SSV Orzel"
 	})
 "Bb" = (
-/turf/open/floor/almayer/black/west,
+/turf/open/floor/prison/darkbrown2/west,
 /area/golden_arrow/dorms)
 "Bf" = (
 /obj/effect/decal/cleanable/dirt,
@@ -8878,12 +10315,6 @@
 /area/golden_arrow/canteen)
 "BJ" = (
 /turf/open/floor/prison/darkred2/southwest,
-/area/space)
-"BL" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass{
-	name = "\improper Prep Lockers"
-	},
-/turf/open/space/basic,
 /area/space)
 "BM" = (
 /obj/structure/prop/hybrisa/misc/buildinggreeblies/greeble10{
@@ -8983,32 +10414,39 @@
 	},
 /turf/open/floor/plating,
 /area/golden_arrow/engineering)
-"CB" = (
-/obj/structure/machinery/light/small/blue/golden_arrow{
-	dir = 8
-	},
-/turf/open/floor/almayer/black{
-	dir = 9
-	},
-/area/golden_arrow/dorms)
 "CD" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/hybrisa/misc/fake/wire/red{
+	dir = 4;
+	pixel_y = 12
+	},
+/obj/effect/hybrisa/misc/fake/wire/blue{
+	dir = 4;
+	pixel_y = 6
+	},
 /turf/open/floor/plating,
 /area/golden_arrow/dorms)
 "CI" = (
 /obj/structure/sign/safety/five{
 	pixel_x = -25
 	},
-/turf/open/floor/almayer/black/west,
+/obj/item/trash/cigbutt{
+	pixel_x = -1;
+	pixel_y = 17
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison/darkbrown2/west,
 /area/golden_arrow/dorms)
 "CO" = (
 /obj/structure/sign/safety/two{
 	pixel_y = 0;
 	pixel_x = 39
 	},
-/turf/open/floor/almayer/black/northeast,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison/darkbrown2/northeast,
 /area/golden_arrow/dorms)
 "CS" = (
 /turf/closed/wall/strata_outpost/reinforced/hull,
@@ -9541,11 +10979,20 @@
 /obj/structure/machinery/light/small{
 	dir = 8
 	},
-/turf/open/floor/plating,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/corsat,
 /area/golden_arrow/dorms)
 "HI" = (
-/obj/structure/bed/sofa/south/grey/left,
-/turf/open/floor/almayer/plate,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_9";
+	pixel_x = -1;
+	pixel_y = 29
+	},
+/obj/structure/machinery/light/small/blue/golden_arrow{
+	dir = 8
+	},
+/turf/open/floor/almayer/black/west,
 /area/golden_arrow/dorms)
 "HJ" = (
 /turf/open/floor/almayer_hull/outerhull_dir/southwest,
@@ -9732,7 +11179,7 @@
 /obj/structure/sign/safety/one{
 	pixel_x = -25
 	},
-/turf/open/floor/almayer/black/northwest,
+/turf/open/floor/prison/darkbrown2/northwest,
 /area/golden_arrow/dorms)
 "JT" = (
 /obj/structure/sign/poster/ad{
@@ -10129,9 +11576,6 @@
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
 	})
-"Np" = (
-/turf/open/floor/almayer/uscm/directional/north,
-/area/space)
 "Ns" = (
 /obj/structure/machinery/light/double/blue/golden_arrow{
 	dir = 1;
@@ -10701,7 +12145,11 @@
 /turf/open/floor/plating,
 /area/space)
 "Sd" = (
-/turf/open/floor/almayer/black/southwest,
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/turf/open/floor/prison/darkbrown2/southwest,
 /area/golden_arrow/dorms)
 "Sg" = (
 /obj/effect/decal/cleanable/dirt,
@@ -10745,7 +12193,7 @@
 /obj/structure/machinery/light/small{
 	dir = 2
 	},
-/turf/open/floor/plating,
+/turf/open/floor/corsat,
 /area/golden_arrow/dorms)
 "SN" = (
 /obj/structure/barricade/handrail/strata{
@@ -10812,13 +12260,7 @@
 	name = "\improper SSV Orzel"
 	})
 "Tq" = (
-/obj/structure/flora/pottedplant{
-	icon_state = "pottedplant_27";
-	layer = 3.1;
-	pixel_x = -2;
-	pixel_y = 10
-	},
-/turf/open/floor/almayer/black/west,
+/turf/open/floor/almayer/blackfull,
 /area/golden_arrow/dorms)
 "Tr" = (
 /obj/structure/machinery/suit_storage_unit/pressure_suit/uscm{
@@ -10884,6 +12326,7 @@
 /turf/open/floor/corsat,
 /area/golden_arrow/cryo_cells)
 "TF" = (
+/obj/structure/pipes/vents/pump_hybrisa,
 /turf/open/floor/almayer,
 /area/golden_arrow/dorms)
 "TG" = (
@@ -11001,9 +12444,6 @@
 	},
 /turf/open/floor/hybrisa/wood,
 /area/golden_arrow/canteen)
-"Uy" = (
-/turf/open/floor/almayer/w_y2,
-/area/space)
 "UD" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "SE-out";
@@ -11094,9 +12534,13 @@
 	name = "\improper SSV Orzel"
 	})
 "Vu" = (
-/turf/open/floor/almayer/black{
-	dir = 5
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/clothing/head/marine/peaked{
+	pixel_x = 9;
+	pixel_y = 8;
+	anchored = 1
 	},
+/turf/open/floor/almayer,
 /area/golden_arrow/dorms)
 "Vv" = (
 /obj/structure/machinery/door_control{
@@ -11265,9 +12709,6 @@
 	},
 /turf/open/floor/corsat,
 /area/golden_arrow/cryo_cells)
-"WL" = (
-/turf/open/floor/almayer/uscm/directional/southwest,
-/area/space)
 "WO" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/barricade/handrail/strata,
@@ -11537,7 +12978,7 @@
 /obj/structure/sign/safety/six{
 	pixel_x = 39
 	},
-/turf/open/floor/almayer/black/east,
+/turf/open/floor/prison/darkbrown2/east,
 /area/golden_arrow/dorms)
 "Yp" = (
 /obj/effect/decal/cleanable/dirt,
@@ -11632,9 +13073,6 @@
 /obj/effect/decal/siding,
 /turf/open/floor/plating,
 /area/golden_arrow/hangar)
-"YS" = (
-/turf/open/floor/almayer/uscm/directional/northwest,
-/area/space)
 "YV" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	color = "#999900";
@@ -11648,10 +13086,14 @@
 /turf/open/floor/almayer_hull/outerhull_dir,
 /area/golden_arrow/dorms)
 "YY" = (
-/obj/structure/stairs{
+/obj/structure/barricade/handrail/strata{
+	dir = 4
+	},
+/obj/structure/stairs/perspective{
+	color = "#6e6e6e";
 	dir = 1
 	},
-/turf/open/floor/plating,
+/turf/open/floor/corsat,
 /area/golden_arrow/dorms)
 "Ze" = (
 /obj/structure/cable/heavyduty{
@@ -11664,7 +13106,7 @@
 /obj/structure/sign/safety/four{
 	pixel_x = 39
 	},
-/turf/open/floor/almayer/black/east,
+/turf/open/floor/prison/darkbrown2/east,
 /area/golden_arrow/dorms)
 "Zj" = (
 /obj/structure/machinery/light/double/blue/golden_arrow{
@@ -13060,9 +14502,9 @@ wf
 wf
 wf
 wf
-wV
 wf
-BL
+wf
+wf
 wf
 wf
 wf
@@ -14128,7 +15570,7 @@ FJ
 FJ
 kC
 cQ
-cQ
+eF
 cQ
 BJ
 FJ
@@ -14279,9 +15721,9 @@ tD
 FJ
 pD
 cS
-bL
-bL
-bL
+eN
+eI
+dt
 cW
 th
 FJ
@@ -14431,13 +15873,13 @@ FJ
 FJ
 kC
 dk
-bL
-bL
-bL
+eO
+eJ
+ei
 cl
 BJ
-FJ
-FJ
+AN
+AN
 gI
 fN
 gk
@@ -14583,13 +16025,13 @@ FJ
 pD
 cS
 bL
-bL
-bL
-bL
+eP
+eK
+ew
 bL
 cW
 th
-FJ
+AN
 gl
 gu
 fO
@@ -14717,7 +16159,7 @@ wf
 wf
 wf
 wf
-wf
+eV
 wf
 wf
 FJ
@@ -14741,7 +16183,7 @@ cP
 cP
 Gh
 Ho
-FJ
+AN
 gK
 gl
 gl
@@ -14886,14 +16328,14 @@ hG
 FJ
 cT
 lv
-AN
-AN
-cZ
-AN
-AN
+yq
+yq
+eL
+yq
+yq
 lv
 ke
-FJ
+AN
 gL
 gl
 gm
@@ -15039,16 +16481,16 @@ FJ
 AN
 AN
 AN
-kC
+eR
 cQ
 BJ
 AN
 AN
 AN
-FJ
+AN
 gM
 gl
-fN
+cA
 fN
 fN
 fH
@@ -15197,7 +16639,7 @@ cW
 nL
 FJ
 tD
-FJ
+AN
 fN
 gv
 gn
@@ -15349,14 +16791,14 @@ cW
 nL
 FJ
 tD
-FJ
-FJ
+AN
+yq
 gw
-FJ
+yq
 gf
-FJ
-FJ
-FJ
+yq
+AN
+AN
 Tr
 Tr
 Tr
@@ -15507,10 +16949,10 @@ gx
 go
 gg
 fR
-AN
+yq
 co
 bZ
-bY
+bL
 bZ
 bX
 FJ
@@ -15647,7 +17089,7 @@ FJ
 AN
 AN
 AN
-Vz
+eU
 cP
 Gh
 AN
@@ -15659,12 +17101,12 @@ gy
 gp
 gg
 bL
-AN
+yq
 cp
 bY
 bY
 bY
-bY
+bL
 FJ
 bG
 bQ
@@ -15799,9 +17241,9 @@ AN
 tD
 tD
 AN
-AN
-cZ
-AN
+yq
+eL
+yq
 AN
 tD
 tD
@@ -15813,9 +17255,9 @@ gh
 nZ
 bW
 bZ
-bY
-bY
-bY
+bL
+bL
+bL
 bZ
 bW
 bG
@@ -15963,12 +17405,12 @@ nZ
 bL
 fT
 fT
-AN
+yq
 cq
 bY
 bY
 bY
-bY
+bL
 FJ
 bV
 bG
@@ -16118,7 +17560,7 @@ fU
 AN
 ct
 bZ
-bY
+bL
 bZ
 ca
 FJ
@@ -16254,11 +17696,11 @@ gB
 Sm
 hB
 bL
-AN
+yq
 cS
 bL
 cW
-AN
+yq
 bL
 gs
 gU
@@ -16406,11 +17848,11 @@ gB
 cs
 Sw
 bL
-cZ
+cK
 cS
 bL
 cW
-cZ
+cK
 bL
 nZ
 cO
@@ -16558,11 +18000,11 @@ gB
 Sm
 hB
 bL
-AN
+yq
 Vz
 cP
 Gh
-AN
+yq
 bL
 gs
 gU
@@ -27167,13 +28609,13 @@ Bf
 mg
 lV
 ox
-wf
 Ax
 HR
 HR
 HR
-HR
 HJ
+wf
+wf
 wf
 wf
 wf
@@ -27321,11 +28763,11 @@ lx
 ox
 ox
 ox
-lu
-lu
-kP
+mP
 lu
 hC
+wf
+wf
 wf
 wf
 wf
@@ -27454,16 +28896,16 @@ pi
 eo
 do
 do
-rp
-rp
+no
+nq
 do
-rp
+nq
 HG
-rp
+no
 do
-rp
+nB
 HG
-rp
+no
 do
 mH
 Bf
@@ -27471,13 +28913,11 @@ ms
 mj
 lW
 rU
-lx
+mR
 ox
 FJ
 kY
-lu
-kw
-hC
+eX
 wf
 wf
 wf
@@ -27504,7 +28944,9 @@ wf
 wf
 wf
 wf
-wK
+wf
+wf
+wf
 wf
 wf
 wf
@@ -27599,23 +29041,23 @@ wf
 wf
 wf
 ox
-YY
-YY
-YY
-tE
-yQ
+pt
+pt
+pt
+pc
+oQ
 do
-rp
-rp
+oH
+nq
 SL
 do
-rp
-rp
-rp
+nq
+nW
+nq
 do
-rp
-rp
-rp
+nD
+nw
+nq
 do
 lH
 mA
@@ -27627,8 +29069,6 @@ lH
 lx
 ll
 la
-lu
-lu
 hC
 wf
 wf
@@ -27654,11 +29094,13 @@ wf
 wf
 wf
 wf
-yq
 wf
-qt
 wf
-zc
+wf
+wf
+wf
+wf
+wf
 wf
 wf
 wf
@@ -27748,26 +29190,26 @@ wf
 wf
 wf
 wf
-wf
-wf
+ox
+ox
 ox
 ox
 ox
 ox
 VB
-yQ
+oR
 do
-rp
-rp
-rp
+nq
+nq
+no
 do
-rp
-rp
-rp
+nq
+nq
+nM
 do
-rp
-rp
-rp
+nq
+nq
+no
 do
 mI
 mB
@@ -27775,12 +29217,10 @@ oX
 ae
 CD
 YA
-lI
+mS
 lx
 ll
 la
-lu
-lu
 hC
 wf
 wf
@@ -27806,9 +29246,11 @@ wf
 wf
 wf
 wf
-AN
 wf
-hT
+wf
+wf
+wf
+wf
 wf
 wf
 wf
@@ -27899,15 +29341,15 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
+qi
 ox
+qa
+pU
 HI
-CB
+px
 Tq
 bh
-mY
+yQ
 do
 do
 tj
@@ -27921,7 +29363,7 @@ do
 tj
 do
 do
-ly
+nh
 lI
 LX
 wj
@@ -27931,8 +29373,6 @@ Yp
 ly
 ll
 la
-lu
-lu
 ki
 HR
 HJ
@@ -27958,7 +29398,9 @@ wf
 wf
 wf
 wf
-FJ
+wf
+wf
+wf
 wf
 wf
 wf
@@ -28051,40 +29493,38 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-ox
-xn
-Vu
-HQ
-kZ
+ql
+ll
+qb
+me
 yQ
+Vu
+pu
+kZ
+oS
 Lt
 JS
 Bb
-Bb
+ou
 mm
 ac
 Bb
-Bb
-Bb
+nP
+nF
 CI
 Bb
 Sd
-Lt
+nn
 lx
 lI
 GP
 db
-Bf
+mU
 lQ
 MM
 ox
 ox
-le
-lu
-kz
+eZ
 lu
 lu
 hC
@@ -28113,7 +29553,9 @@ wf
 wf
 wf
 wf
-hf
+wf
+wf
+wf
 wf
 wf
 wf
@@ -28203,27 +29645,27 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-ox
-ox
+ql
+ll
+qe
+me
+yQ
 oz
 eH
+pd
+oS
+oL
 tE
-yQ
-ig
-tE
-TF
-TF
-TF
-TF
-TF
-TF
-TF
-TF
-TF
-yQ
+oA
+nz
+on
+nz
+nX
+nQ
+nH
+nE
+nz
+ns
 ig
 rA
 lS
@@ -28233,10 +29675,8 @@ mb
 yf
 of
 ox
-ku
-lu
-kP
-kA
+mQ
+mO
 lu
 lu
 hC
@@ -28262,9 +29702,11 @@ wf
 wf
 wf
 wf
-hw
-hq
-hm
+wf
+wf
+wf
+wf
+wf
 wf
 wf
 wf
@@ -28355,40 +29797,38 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-ox
-ox
-rZ
-Vu
-hz
+ql
+ll
+qg
+pY
+oS
+pF
+pv
+pd
+oS
 Lt
 CO
-HQ
-HQ
-HQ
+oB
+ov
+oo
 Zh
-HQ
-HQ
+nR
+nR
 ez
 Yn
-HQ
-aV
+nA
+nt
 mN
 ly
 mC
 Bf
 mk
-Bf
+mV
 TF
 ly
 ox
 ox
 kY
-lu
-lu
 kl
 lu
 hC
@@ -28414,11 +29854,13 @@ wf
 wf
 wf
 wf
-hx
-hs
-ho
 wf
-hc
+wf
+wf
+wf
+wf
+wf
+wf
 wf
 wf
 wf
@@ -28507,15 +29949,19 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
+qm
 ox
-rZ
-rZ
-rZ
+qh
+pZ
+pN
+px
+px
+HQ
+aV
+nI
+do
+tj
+do
 do
 do
 tj
@@ -28525,12 +29971,8 @@ do
 tj
 do
 do
-do
-tj
-do
-do
-ly
-TF
+ni
+nf
 rp
 mq
 me
@@ -28539,8 +29981,6 @@ lx
 lz
 lm
 la
-lu
-kE
 kl
 lu
 hC
@@ -28566,10 +30006,12 @@ wf
 wf
 wf
 wf
-hA
-hu
-hp
-hg
+wf
+wf
+wf
+wf
+wf
+wf
 wf
 wf
 wf
@@ -28660,42 +30102,42 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
 ox
-rZ
-rZ
-rZ
+ox
+ox
+ox
+ox
+ox
+pf
 do
-rp
-rp
-rp
+nI
+nq
+nq
+no
 do
-rp
-rp
-rp
+no
+nq
+no
 do
-rp
-rp
-rp
+no
+nq
+nq
 do
-lx
+nj
 mD
 vX
 Ri
-TF
+mW
 lR
 lJ
 lA
 lm
 la
-lu
-lu
 kl
 lu
 hC
+wf
+wf
 wf
 wf
 wf
@@ -28816,22 +30258,22 @@ wf
 wf
 ox
 ox
-ox
-rZ
-rZ
-rZ
+pG
+py
+pg
+oT
+nI
+nq
+oC
+ow
 do
-rp
-rp
-SL
+nq
+nY
+nq
 do
-rp
-rp
-rp
-do
-rp
-rp
-rp
+nq
+nq
+nq
 do
 mJ
 mG
@@ -28843,11 +30285,11 @@ lx
 ly
 ll
 la
-lu
-kF
 kl
 lu
 hC
+wf
+wf
 wf
 wf
 wf
@@ -28967,39 +30409,39 @@ wf
 wf
 wf
 ox
-rZ
-rZ
-rZ
-rZ
-rZ
+pO
+pH
+pl
+ph
+oU
+nI
 do
+oD
+nq
 do
-rp
-rp
+oi
+oa
+nq
 do
-rp
+nq
 eu
-rp
+nv
 do
-rp
-eu
-rp
-do
-lU
+nk
 lx
 my
-TF
-ly
+nc
+mX
 lU
-lx
+mT
 ox
 ox
 le
-lu
-lu
 kl
 lu
 hC
+wf
+wf
 wf
 wf
 wf
@@ -29119,39 +30561,39 @@ wf
 wf
 wf
 ox
-rZ
-rZ
-rZ
-rZ
-rZ
-do
-do
-do
-do
-do
-do
-do
-do
-do
+pP
+pK
+pz
+pk
+oV
+nI
+nI
+nI
+nI
+nI
+nI
+nI
+nI
+nI
 ox
 ox
 ox
 ox
 ox
 ox
-ly
-mr
-ly
+lx
+lx
+na
 ox
 ox
 ox
-iC
-lu
-kP
+mP
 lu
 lu
 kd
 hC
+wf
+wf
 wf
 wf
 wf
@@ -29271,19 +30713,19 @@ wf
 wf
 wf
 ox
-rZ
-rZ
-rZ
-rZ
-rZ
-rZ
-rZ
-rZ
-rZ
-rZ
-rZ
-rZ
-rZ
+pR
+pq
+pA
+pl
+oY
+oM
+oI
+oE
+do
+op
+oj
+ob
+nS
 rZ
 ox
 ku
@@ -29291,12 +30733,10 @@ YX
 wf
 wf
 ox
-ly
-ly
-ly
+ne
+nd
+nb
 ox
-wf
-wf
 lo
 kf
 kf
@@ -29304,6 +30744,8 @@ kf
 kf
 kf
 jX
+wf
+wf
 wf
 wf
 wf
@@ -29423,20 +30865,20 @@ wf
 wf
 wf
 ox
-ox
-ox
-rZ
-rZ
-rZ
-rZ
-rZ
-rZ
-rZ
-rZ
-rZ
-rZ
-rZ
-rZ
+pS
+pq
+pB
+pm
+oZ
+oN
+oJ
+oF
+Lt
+oq
+ok
+oc
+nT
+nJ
 ox
 ku
 YX
@@ -29574,21 +31016,21 @@ wf
 wf
 wf
 wf
-wf
-wf
 ox
-rZ
-rZ
-rZ
-rZ
-rZ
-rZ
-rZ
-rZ
-rZ
-rZ
-rZ
-rZ
+pT
+pL
+pC
+pq
+pa
+oO
+oK
+oG
+do
+or
+ol
+oe
+nU
+nK
 ox
 ku
 YX
@@ -29726,19 +31168,19 @@ wf
 wf
 wf
 wf
-wf
-wf
 ox
 ox
-rZ
-rZ
+pM
+pE
+ps
+pb
 ox
 ox
 ox
 ox
-rZ
-rZ
-rZ
+os
+om
+og
 rZ
 ox
 ox
@@ -29879,8 +31321,8 @@ wf
 wf
 wf
 wf
-wf
-wf
+ox
+ox
 ox
 ox
 ox
@@ -29889,8 +31331,8 @@ za
 ku
 ox
 ox
-tK
-tK
+ll
+ll
 ox
 ox
 ku
@@ -29903,14 +31345,14 @@ wf
 wf
 wf
 wf
-FJ
-FJ
-FJ
-FJ
-FJ
-FJ
-FJ
-FJ
+wf
+wf
+wf
+wf
+wf
+wf
+wf
+wf
 wf
 wf
 wf
@@ -30040,10 +31482,10 @@ wf
 za
 ku
 ku
-ku
-ku
-ku
-ku
+ot
+oh
+oh
+nV
 ku
 ku
 ku
@@ -30055,14 +31497,14 @@ wf
 wf
 wf
 wf
-km
-km
-km
-km
-km
-km
-km
-FJ
+wf
+wf
+wf
+wf
+wf
+wf
+wf
+wf
 wf
 wf
 wf
@@ -30207,14 +31649,14 @@ wf
 wf
 wf
 wf
-km
-yq
-yq
-yq
-yq
-yq
-FJ
-FJ
+wf
+wf
+wf
+wf
+wf
+wf
+wf
+wf
 wf
 wf
 wf
@@ -30359,13 +31801,13 @@ wf
 wf
 wf
 wf
-yq
-yq
-lp
-lf
-kQ
-kH
-FJ
+wf
+wf
+wf
+wf
+wf
+wf
+wf
 wf
 wf
 wf
@@ -30511,14 +31953,14 @@ wf
 wf
 wf
 wf
-lK
-lC
-lq
-lg
-kI
-kI
-kn
-FJ
+wf
+wf
+wf
+wf
+wf
+wf
+wf
+wf
 wf
 wf
 wf
@@ -30663,14 +32105,14 @@ wf
 wf
 wf
 wf
-lF
-lF
-lr
-lh
-kU
-kJ
-ko
-FJ
+wf
+wf
+wf
+wf
+wf
+wf
+wf
+wf
 wf
 wf
 wf
@@ -30815,14 +32257,14 @@ wf
 wf
 wf
 wf
-lL
-kH
-kH
-lj
-kJ
-kN
-kp
-FJ
+wf
+wf
+wf
+wf
+wf
+wf
+wf
+wf
 wf
 wf
 wf
@@ -30967,14 +32409,14 @@ wf
 wf
 wf
 wf
-lk
-lk
-ls
-lh
-kV
-kJ
-ks
-FJ
+wf
+wf
+wf
+wf
+wf
+wf
+wf
+wf
 wf
 wf
 wf
@@ -31119,14 +32561,14 @@ wf
 wf
 wf
 wf
-lN
-lG
-lq
-lg
-kO
-kO
-kt
-FJ
+wf
+wf
+wf
+wf
+wf
+wf
+wf
+wf
 wf
 wf
 wf
@@ -31271,13 +32713,13 @@ wf
 wf
 wf
 wf
-yq
-yq
-lt
-lk
-kW
-kH
-FJ
+wf
+wf
+wf
+wf
+wf
+wf
+wf
 wf
 wf
 wf
@@ -31423,14 +32865,14 @@ wf
 wf
 wf
 wf
-km
-yq
-yq
-yq
-yq
-yq
-FJ
-FJ
+wf
+wf
+wf
+wf
+wf
+wf
+wf
+wf
 wf
 wf
 wf
@@ -31575,14 +33017,14 @@ wf
 wf
 wf
 wf
-km
-km
-km
-km
-km
-km
-km
-FJ
+wf
+wf
+wf
+wf
+wf
+wf
+wf
+wf
 wf
 wf
 wf
@@ -31727,14 +33169,6 @@ wf
 wf
 wf
 wf
-FJ
-FJ
-FJ
-FJ
-FJ
-FJ
-FJ
-FJ
 wf
 wf
 wf
@@ -31772,9 +33206,17 @@ wf
 wf
 wf
 wf
-YS
-eT
-WL
+wf
+wf
+wf
+wf
+wf
+wf
+wf
+wf
+wf
+wf
+wf
 wf
 wf
 wf
@@ -31924,9 +33366,9 @@ wf
 wf
 wf
 wf
-Np
-rT
-gN
+wf
+wf
+wf
 wf
 wf
 wf
@@ -32048,6 +33490,14 @@ wf
 wf
 wf
 wf
+FJ
+FJ
+FJ
+FJ
+FJ
+FJ
+FJ
+FJ
 wf
 wf
 wf
@@ -32071,14 +33521,6 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-as
-Uy
-cV
 wf
 wf
 wf
@@ -32200,14 +33642,14 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
+km
+km
+km
+km
+km
+km
+km
+FJ
 wf
 wf
 wf
@@ -32352,14 +33794,14 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
+km
+yq
+yq
+yq
+yq
+yq
+FJ
+FJ
 wf
 wf
 wf
@@ -32504,13 +33946,13 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
+yq
+yq
+lp
+lf
+kQ
+kH
+FJ
 wf
 wf
 wf
@@ -32656,14 +34098,14 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
+lK
+lC
+lq
+lg
+kI
+kI
+kn
+FJ
 wf
 wf
 wf
@@ -32808,14 +34250,14 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
+lF
+lF
+lr
+lh
+kU
+kJ
+ko
+FJ
 wf
 wf
 wf
@@ -32960,14 +34402,14 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
+lL
+kH
+kH
+lj
+kJ
+kN
+kp
+FJ
 wf
 wf
 wf
@@ -33112,14 +34554,14 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
+lk
+lk
+ls
+lh
+kV
+kJ
+ks
+FJ
 wf
 wf
 wf
@@ -33264,14 +34706,14 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
+lN
+lG
+lq
+lg
+kO
+kO
+kt
+FJ
 wf
 wf
 wf
@@ -33416,13 +34858,13 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
+yq
+yq
+lt
+lk
+kW
+kH
+FJ
 wf
 wf
 wf
@@ -33568,14 +35010,14 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
+km
+yq
+yq
+yq
+yq
+yq
+FJ
+FJ
 wf
 wf
 wf
@@ -33720,14 +35162,14 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
+km
+km
+km
+km
+km
+km
+km
+FJ
 wf
 wf
 wf
@@ -33872,14 +35314,14 @@ wf
 wf
 wf
 wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
-wf
+FJ
+FJ
+FJ
+FJ
+FJ
+FJ
+FJ
+FJ
 wf
 wf
 wf
