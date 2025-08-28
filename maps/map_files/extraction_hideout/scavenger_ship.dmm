@@ -1848,6 +1848,12 @@
 /obj/effect/decal/cleanable/generic,
 /turf/open/floor/corsat,
 /area/golden_arrow/cryo_cells)
+"cV" = (
+/obj/structure/machinery/light/small/red{
+	dir = 8
+	},
+/turf/open/floor/corsat,
+/area/golden_arrow/hangar)
 "cW" = (
 /turf/open/floor/prison/darkred2,
 /area/golden_arrow/platoonprep)
@@ -10550,6 +10556,12 @@
 	icon_state = "trash_9";
 	pixel_x = -8;
 	pixel_y = 12
+	},
+/obj/item/paper{
+	pixel_x = 9;
+	pixel_y = 9;
+	info = "Надеюсь тебе это поможет, мой старый друг. От лейтенанта Фокса Морроу.";
+	name = "last gift"
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/golden_arrow/engineering)
@@ -24627,7 +24639,7 @@ bN
 Ns
 xT
 kM
-iY
+cV
 XT
 kM
 wf
