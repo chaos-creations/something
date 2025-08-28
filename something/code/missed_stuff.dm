@@ -34,4 +34,9 @@
 /obj/effect/spawner/prop_gun/memorial
 	prop_gun_type = /obj/item/weapon/gun/rifle/m41aMK1/navy
 	custom_gun_name = "\improper GUU-71/A pulse rifle 'Ashes'"
-	custom_gun_desc = "This rifle was found shattered among the remains of its last owner, Lieutenant R. Cho. The internals are destroyed, the frame bent, and the grenade tube collapsed. It will never fire again, a broken monument to its final battle."
+	custom_gun_desc = "This rifle was found shattered among the remains of its last owner, Lieutenant F. Morrow. The internals are destroyed, the frame bent, and the grenade tube collapsed. It will never fire again, a broken monument to its final battle."
+
+/obj/item/prop/magazine/book/synthetic_repair_manual
+	name = "Hyperdyne Systems Synthetic Maintenance Handbook"
+	icon_state = "book_engineering"
+	desc = "An official Hyperdyne Systems field manual covering standard diagnostics, modular replacement, and emergency protocols for company-grade synthetics. Sections include hydraulic repair, memory core stabilization, and behavioral safeguard checks. Stamped with Weyland-Yutani oversight approval."
