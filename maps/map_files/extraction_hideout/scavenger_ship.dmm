@@ -836,12 +836,11 @@
 	},
 /area/space)
 "bc" = (
-/obj/structure/prop/cash_register{
-	pixel_x = 0;
-	pixel_y = 10
-	},
 /obj/structure/surface/table/almayer{
 	color = "#8B9490"
+	},
+/obj/structure/machinery/cm_vending/sorted/coins{
+	pixel_y = 4
 	},
 /turf/open/floor/strata/cyan1/east,
 /area/golden_arrow/medical{
@@ -3123,9 +3122,6 @@
 	pixel_y = 30;
 	layer = 2.8
 	},
-/obj/structure/prop/cash_register{
-	pixel_y = 17
-	},
 /obj/item/ashtray/glass{
 	pixel_x = -8;
 	pixel_y = -2
@@ -3136,6 +3132,9 @@
 	pixel_y = 0;
 	name = "Lockdown";
 	id = "req_lockdown"
+	},
+/obj/structure/machinery/cm_vending/sorted/coins{
+	pixel_y = 17
 	},
 /turf/open/floor/prison/darkbrownfull2,
 /area/golden_arrow/supply)
