@@ -4056,6 +4056,12 @@
 	},
 /turf/open/floor/prison/darkred2/northeast,
 /area/golden_arrow/platoonprep)
+"eV" = (
+/obj/vehicle/powerloader/ft{
+	dir = 4
+	},
+/turf/open/floor/prison/floor_plate/southwest,
+/area/golden_arrow/hangar)
 "eW" = (
 /obj/structure/surface/table/almayer,
 /obj/item/ashtray/bronze{
@@ -12790,12 +12796,7 @@
 /area/golden_arrow/hangar)
 "Gv" = (
 /obj/effect/decal/warning_stripes,
-/obj/effect/decal/mecha_wreckage/marauder{
-	pixel_x = 0;
-	pixel_y = -1;
-	layer = 4;
-	level = 4
-	},
+/obj/structure/dropship_equipment/paradrop_system,
 /turf/open/floor/prison/darkbrown2,
 /area/golden_arrow/hangar)
 "GA" = (
@@ -13682,10 +13683,8 @@
 /turf/open/floor/prison/darkbrown2,
 /area/golden_arrow/canteen)
 "Lj" = (
-/obj/docking_port/stationary/marine_dropship/golden_arrow_hangar{
-	name = "Hangar Bay Aft";
-	id = "golden arrow lz2";
-	roundstart_template = /datum/map_template/shuttle/midway
+/obj/docking_port/stationary/marine_dropship/galleyburned_hangar{
+	name = "Nomad Hangar"
 	},
 /turf/open/floor/corsat,
 /area/golden_arrow/hangar)
@@ -25965,7 +25964,7 @@ Pz
 BK
 MA
 Bn
-QA
+eV
 Er
 kM
 kM
