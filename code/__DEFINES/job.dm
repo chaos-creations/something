@@ -19,7 +19,7 @@
 #define SQUAD_PMCPLT "AZURE-15"
 #define SQUAD_PMCPLT_SMALL "AZURE-16"
 #define SQUAD_LRRP "Snake Eaters"
-#define SQUAD_EXTRACTION "Robert's Raiders"
+#define SQUAD_EXTRACTION "Deserters"
 
 // Job name defines
 #define JOB_SQUAD_MARINE "Rifleman"
