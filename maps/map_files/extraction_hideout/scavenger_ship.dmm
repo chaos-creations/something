@@ -5581,10 +5581,14 @@
 /turf/open/floor/hybrisa/wood/blackwood,
 /area/golden_arrow/canteen)
 "ip" = (
-/obj/structure/machinery/newscaster{
-	pixel_y = 32
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/computer/custom_email{
+	pixel_x = 3;
+	pixel_y = 28;
+	name = "Mission Terminal";
+	desc = "Terminal, usually need's for mission logs.";
+	email_list = list(/datum/fluff_email/rover/mission1, /datum/fluff_email/rover/mission2)
+	},
 /turf/open/floor/prison/darkbrown2/north,
 /area/golden_arrow/supply)
 "iq" = (
@@ -5740,7 +5744,8 @@
 /obj/structure/sign/ROsign{
 	layer = 3;
 	pixel_y = 30;
-	desc = ы
+	desc = "https://docs.google.com/spreadsheets/d/1919bv7tqCJG6CIeaxlFQm9zlBKKrn3qdrxEkXQANC4E/edit?usp=sharing";
+	name = "\improper Requisitions Price List"
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/warning_stripes{
@@ -8065,6 +8070,10 @@
 /area/golden_arrow/dorms)
 "nu" = (
 /obj/structure/largecrate/random/case/double,
+/obj/item/coin/requisitionpoint/one{
+	pixel_x = 3;
+	pixel_y = 12
+	},
 /turf/open/floor/corsat,
 /area/golden_arrow/canteen)
 "nv" = (
@@ -10190,6 +10199,10 @@
 "tA" = (
 /obj/structure/bed/roller/hospital,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/coin/requisitionpoint/five{
+	pixel_x = -3;
+	pixel_y = 4
+	},
 /turf/open/floor/prison/southwest,
 /area/golden_arrow/engineering)
 "tB" = (
@@ -12057,6 +12070,10 @@
 	light_color = "#e7c0a4";
 	light_power = 0.8;
 	light_range = 4
+	},
+/obj/item/coin/requisitionpoint/one{
+	pixel_x = 0;
+	pixel_y = 8
 	},
 /turf/open/floor/prison/floor_plate/southwest,
 /area/golden_arrow/cryo_cells)
@@ -15060,6 +15077,10 @@
 	pixel_x = 10;
 	pixel_y = 20
 	},
+/obj/item/coin/requisitionpoint/one{
+	pixel_x = -8;
+	pixel_y = 2
+	},
 /turf/open/floor/prison/darkbrownfull2,
 /area/golden_arrow/hangar)
 "Rq" = (
@@ -16249,13 +16270,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison/floor_plate/southwest,
 /area/golden_arrow/cryo_cells)
-"WR" = (
-/obj/structure/bed/sofa/south{
-	pixel_x = 0;
-	pixel_y = 18
-	},
-/turf/open/floor/prison/darkbrown2/north,
-/area/golden_arrow/supply)
 "WT" = (
 /obj/structure/platform/strata/metal,
 /obj/structure/platform/strata/metal{
@@ -21225,7 +21239,7 @@ iF
 iF
 qz
 qz
-WR
+qN
 zN
 sq
 hw
