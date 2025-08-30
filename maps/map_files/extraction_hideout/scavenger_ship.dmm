@@ -9770,6 +9770,18 @@
 	},
 /turf/open/floor/prison/floor_marked,
 /area/golden_arrow/hangar)
+"qY" = (
+/obj/structure/surface/rack{
+	color = "#6b675e";
+	layer = 2.79
+	},
+/obj/item/clothing/head/uppcap/beret/guerilla,
+/obj/item/clothing/under/marine/fluff/standard_jumpsuit{
+	name = "Worn Uniform";
+	desc = "Uniform worn by Omega Team."
+	},
+/turf/open/floor/prison/chapel_carpet,
+/area/golden_arrow/supply)
 "qZ" = (
 /turf/open/floor/prison/darkbrown2/southeast,
 /area/golden_arrow/hangar)
@@ -22080,7 +22092,7 @@ wf
 qz
 jB
 jv
-jt
+qY
 qz
 jk
 jd
