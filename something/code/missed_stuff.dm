@@ -41,6 +41,13 @@
 	icon_state = "book_engineering"
 	desc = "An official Hyperdyne Systems field manual covering standard diagnostics, modular replacement, and emergency protocols for company-grade synthetics. Sections include hydraulic repair, memory core stabilization, and behavioral safeguard checks. Stamped with Weyland-Yutani oversight approval."
 
+/obj/item/prop/almayer/lim_foto
+	name = "Faded Photo"
+	desc = "A faded photograph showing two figures standing somewhere in the jungle. One of them is clearly identified as Lieutenant Fox Morrow. The other remains unnamed, but their face feels strangely familiar."
+	icon = 'something/icons/missed_stuff.dmi'
+	icon_state = "photo_corridor"
+	w_class = SIZE_SMALL
+
 // Squad specialization
 
 /obj/item/pamphlet/skill/specialization

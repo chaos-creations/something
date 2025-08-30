@@ -4017,6 +4017,7 @@
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/golden_arrow/hangar)
 "eT" = (
+/obj/effect/step_trigger/message/memorial,
 /turf/open/floor/prison/cell_stripe,
 /area/golden_arrow/dorms)
 "eU" = (
@@ -4929,6 +4930,7 @@
 /area/golden_arrow/shared_office)
 "gN" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/step_trigger/message/memorial,
 /turf/open/floor/prison/cell_stripe,
 /area/golden_arrow/dorms)
 "gO" = (
@@ -7015,6 +7017,7 @@
 "kZ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/step_trigger/message/memorial,
 /turf/open/floor/prison/cell_stripe/north,
 /area/golden_arrow/dorms)
 "la" = (
@@ -8590,6 +8593,10 @@
 	pixel_y = 7;
 	anchored = 1
 	},
+/obj/item/prop/helmetgarb/cartridge{
+	pixel_x = 10;
+	pixel_y = 12
+	},
 /turf/open/floor/prison/floor_plate/southwest,
 /area/golden_arrow/dorms)
 "oA" = (
@@ -8841,6 +8848,7 @@
 /area/golden_arrow/dorms)
 "pd" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/step_trigger/message/memorial,
 /turf/open/floor/prison/cell_stripe/north,
 /area/golden_arrow/dorms)
 "pe" = (
@@ -9785,6 +9793,10 @@
 "qZ" = (
 /turf/open/floor/prison/darkbrown2/southeast,
 /area/golden_arrow/hangar)
+"ra" = (
+/obj/effect/step_trigger/message/memorial,
+/turf/closed/wall/strata_outpost/reinforced/hull,
+/area/golden_arrow/dorms)
 "rb" = (
 /obj/structure/platform/strata/metal{
 	dir = 4
@@ -13150,9 +13162,24 @@
 /area/golden_arrow/canteen)
 "HG" = (
 /obj/structure/surface/table/reinforced/almayer_B,
-/obj/item/reagent_container/food/snacks/grown/poppy{
-	pixel_x = 2;
-	pixel_y = 3
+/obj/item/prop{
+	name = "\improper worn-out headband";
+	icon = 'icons/obj/items/clothing/cm_hats.dmi';
+	icon_state = "headband";
+	desc = "A torn up and worn out old headband. The green looks faded.";
+	pixel_y = 13;
+	pixel_x = -15;
+	layer = 3.01
+	},
+/obj/item/prop/helmetgarb/rosary{
+	pixel_x = 4;
+	desc = "An old rosary, a few beads missing from it's string, yet it still holds together.";
+	name = "damaged rosary";
+	pixel_y = 12
+	},
+/obj/item/prop/helmetgarb/spacejam_tickets{
+	pixel_x = -10;
+	pixel_y = 4
 	},
 /turf/open/floor/prison/floor_plate/southwest,
 /area/golden_arrow/dorms)
@@ -13267,26 +13294,13 @@
 /area/golden_arrow/hangar)
 "If" = (
 /obj/structure/surface/table/reinforced/almayer_B,
-/obj/item/clothing/mask/cigarette{
-	pixel_x = -5;
-	pixel_y = 16
-	},
 /obj/effect/spawner/prop_gun/memorial{
-	pixel_x = -11;
-	pixel_y = 4
+	pixel_x = -9;
+	pixel_y = 13
 	},
-/obj/item/clothing/mask/cigarette/pipe{
-	pixel_x = 15;
-	pixel_y = 1
-	},
-/obj/item/prop{
-	name = "\improper worn-out headband";
-	icon = 'icons/obj/items/clothing/cm_hats.dmi';
-	icon_state = "headband";
-	desc = "A torn up and worn out old headband. The green looks faded.";
-	pixel_y = 11;
-	pixel_x = 10;
-	layer = 3.01
+/obj/item/reagent_container/food/snacks/grown/poppy{
+	pixel_x = 2;
+	pixel_y = 0
 	},
 /turf/open/floor/prison/floor_plate/southwest,
 /area/golden_arrow/dorms)
@@ -15779,6 +15793,10 @@
 	pixel_x = -17;
 	layer = 3.03
 	},
+/obj/item/reagent_container/food/snacks/grown/harebell{
+	pixel_x = 8;
+	pixel_y = 3
+	},
 /turf/open/floor/prison/floor_plate/southwest,
 /area/golden_arrow/dorms)
 "Um" = (
@@ -16027,6 +16045,10 @@
 	pixel_x = 9;
 	pixel_y = 8;
 	anchored = 1
+	},
+/obj/item/prop/flower_vase/redwhiteflowers{
+	pixel_x = -6;
+	pixel_y = -8
 	},
 /turf/open/floor/prison/floor_plate/southwest,
 /area/golden_arrow/dorms)
@@ -16992,18 +17014,22 @@
 /area/golden_arrow/canteen)
 "ZT" = (
 /obj/structure/surface/table/reinforced/almayer_B,
-/obj/item/prop/flower_vase/redwhiteflowers{
-	pixel_x = -2;
-	pixel_y = 12
-	},
 /obj/effect/decal/cleanable/dirt,
-/obj/item/prop/helmetgarb/flair_uscm{
-	pixel_x = 8;
-	pixel_y = 11
-	},
 /obj/item/clothing/mask/cigarette/weed{
-	pixel_x = -4;
-	pixel_y = 6
+	pixel_x = 0;
+	pixel_y = 18
+	},
+/obj/item/prop/helmetgarb/flair_peace{
+	pixel_x = 2;
+	pixel_y = 3
+	},
+/obj/item/reagent_container/food/snacks/grown/mtear{
+	pixel_x = -5;
+	pixel_y = 3
+	},
+/obj/item/prop/almayer/lim_foto{
+	pixel_x = 16;
+	pixel_y = 2
 	},
 /turf/open/floor/prison/floor_plate/southwest,
 /area/golden_arrow/dorms)
@@ -32165,7 +32191,7 @@ wf
 wf
 ox
 ox
-ox
+ra
 ox
 ox
 ox
