@@ -93,7 +93,7 @@
 #define AMBIENCE_CAVE 'sound/ambience/desert.ogg'
 #define AMBIENCE_YAUTJA 'sound/ambience/yautja_ship.ogg'
 #define AMBIENCE_AICORE 'sound/ambience/ai_interface.ogg'
-#define SCAPE_PL_SCAVENGER list('something/sounds/deck1.ogg', 'something/sounds/deck2.ogg', 'something/sounds/deck3.ogg', 'something/sounds/deck4.ogg', 'something/sounds/deck5.ogg', 'something/sounds/deck6.ogg', 'something/sounds/deck7.ogg', 'something/sounds/deck8.ogg')
+#define SCAPE_PL_SCAVENGER list('something/sounds/deck1.ogg', 'something/sounds/deck2.ogg', 'something/sounds/deck3.ogg', 'something/sounds/deck4.ogg', 'something/sounds/deck5.ogg', 'something/sounds/deck6.ogg', 'something/sounds/deck7.ogg', 'something/sounds/deck8.ogg', 'something/sounds/deck9.ogg', 'something/sounds/deck10.ogg')
 #define AMBIENCE_SHIP_SCAVENGER 'something/sounds/amb3.ogg'
 
 #define SOUND_MARINE_DRUMS 'sound/effects/drums.ogg'
