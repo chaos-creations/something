@@ -728,7 +728,7 @@ GLOBAL_LIST_EMPTY(personal_closets)
 		/obj/item/clothing/suit/marine/veteran/royal_marine,
 		/obj/item/clothing/suit/marine/veteran/royal_marine,
 		/obj/item/clothing/suit/marine/veteran/royal_marine,
-		/obj/item/clothing/suit/marine/veteran/royal_marine/heavy,
+		/obj/item/clothing/suit/marine/veteran/royal_marine/smartgun,
 		)
 	new_human.equip_to_slot_or_del(new suitpath, WEAR_JACKET)
 
