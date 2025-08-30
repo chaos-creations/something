@@ -1099,8 +1099,7 @@
 "bv" = (
 /obj/structure/prop/invuln/lattice_prop{
 	icon_state = "lattice6";
-	pixel_y = 0;
-	layer = 2
+	pixel_y = 0
 	},
 /turf/open/floor/almayer_hull{
 	color = "#afb196"
@@ -1211,16 +1210,16 @@
 	icon_state = "catwalk0";
 	layer = 0.5
 	},
-/obj/structure/prop/invuln/lattice_prop{
-	icon_state = "lattice3";
-	pixel_y = 14
-	},
 /obj/structure/prop/invuln{
 	desc = "An inflated membrane. This one is puncture proof. Wow!";
 	icon = 'icons/obj/items/inflatable.dmi';
 	icon_state = "wall"
 	},
 /obj/structure/blocker/invisible_wall,
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice-simple";
+	pixel_y = 14
+	},
 /turf/open/space/basic,
 /area/golden_arrow/prep_hallway)
 "bQ" = (
@@ -1243,10 +1242,6 @@
 	icon_state = "catwalk0";
 	layer = 0.5
 	},
-/obj/structure/prop/invuln/lattice_prop{
-	icon_state = "lattice3";
-	pixel_y = 14
-	},
 /obj/structure/prop/invuln{
 	desc = "An inflated membrane. This one is puncture proof. Wow!";
 	icon = 'icons/obj/items/inflatable.dmi';
@@ -1254,8 +1249,9 @@
 	},
 /obj/structure/blocker/invisible_wall,
 /obj/structure/prop/invuln/lattice_prop{
-	icon_state = "lattice3";
-	pixel_y = 46
+	icon_state = "lattice10";
+	pixel_y = 14;
+	pixel_x = 0
 	},
 /turf/open/space/basic,
 /area/golden_arrow/prep_hallway)
@@ -1862,10 +1858,6 @@
 	icon_state = "catwalk0";
 	layer = 0.5
 	},
-/obj/structure/prop/invuln/lattice_prop{
-	icon_state = "lattice3";
-	pixel_y = 14
-	},
 /obj/structure/prop/invuln{
 	desc = "An inflated membrane. This one is puncture proof. Wow!";
 	icon = 'icons/obj/items/inflatable.dmi';
@@ -1873,7 +1865,7 @@
 	},
 /obj/structure/blocker/invisible_wall,
 /obj/structure/prop/invuln/lattice_prop{
-	icon_state = "lattice3";
+	icon_state = "lattice-simple";
 	pixel_y = -18
 	},
 /turf/open/space/basic,
@@ -5946,6 +5938,11 @@
 	pixel_x = 12
 	},
 /obj/structure/surface/table/almayer,
+/obj/structure/machinery/line_nexter_control{
+	pixel_x = -9;
+	pixel_y = 10;
+	id = "qm_cargo"
+	},
 /turf/open/floor/prison/darkbrownfull2,
 /area/golden_arrow/supply)
 "jj" = (
@@ -6722,6 +6719,28 @@
 /obj/effect/landmark/start/marine/leader/alpha,
 /turf/open/floor/prison,
 /area/golden_arrow/cryo_cells)
+"kt" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon = 'icons/turf/floors/catwalks.dmi';
+	icon_state = "catwalk0";
+	layer = 0.5
+	},
+/obj/structure/prop/invuln{
+	desc = "An inflated membrane. This one is puncture proof. Wow!";
+	icon = 'icons/obj/items/inflatable.dmi';
+	icon_state = "wall"
+	},
+/obj/structure/blocker/invisible_wall,
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice-simple";
+	pixel_y = 14
+	},
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice-simple";
+	pixel_y = -18
+	},
+/turf/open/space/basic,
+/area/golden_arrow/prep_hallway)
 "ku" = (
 /turf/open/floor/almayer_hull,
 /area/golden_arrow/dorms)
@@ -6855,6 +6874,14 @@
 	},
 /turf/open/floor/prison/floor_marked,
 /area/golden_arrow/hangar)
+"kI" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice5";
+	pixel_y = 14;
+	pixel_x = 0
+	},
+/turf/open/space/basic,
+/area/space)
 "kJ" = (
 /obj/structure/prop/invuln/lattice_prop{
 	icon_state = "lattice3";
@@ -6915,6 +6942,24 @@
 	pixel_y = 14
 	},
 /turf/open/floor/corsat,
+/area/golden_arrow/prep_hallway)
+"kQ" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon = 'icons/turf/floors/catwalks.dmi';
+	icon_state = "catwalk0";
+	layer = 0.5
+	},
+/obj/structure/prop/invuln{
+	desc = "An inflated membrane. This one is puncture proof. Wow!";
+	icon = 'icons/obj/items/inflatable.dmi';
+	icon_state = "wall"
+	},
+/obj/structure/blocker/invisible_wall,
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice6";
+	pixel_y = 14
+	},
+/turf/open/space/basic,
 /area/golden_arrow/prep_hallway)
 "kR" = (
 /turf/open/floor/prison/darkbrown2/north,
@@ -7048,6 +7093,13 @@
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
 	})
+"lj" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice9";
+	pixel_y = 14
+	},
+/turf/open/space/basic,
+/area/space)
 "lk" = (
 /turf/open/floor/prison/darkbrowncorners2/east,
 /area/golden_arrow/hangar)
@@ -7240,6 +7292,13 @@
 	},
 /turf/open/floor/almayer,
 /area/golden_arrow/dorms)
+"lK" = (
+/obj/structure/surface/rack{
+	color = "#98a3ab"
+	},
+/obj/item/fishing_pole,
+/turf/open/floor/prison/floor_marked,
+/area/golden_arrow/supply)
 "lL" = (
 /obj/structure/prop/hybrisa/misc/graffiti/graffiti5{
 	pixel_x = 0;
@@ -10809,7 +10868,8 @@
 	dir = 8;
 	health = 1000;
 	icon_state = "turnstile_strata";
-	pixel_x = -3
+	pixel_x = -3;
+	id = "qm_cargo"
 	},
 /turf/open/floor/prison/darkbrown2/north,
 /area/golden_arrow/supply)
@@ -15849,7 +15909,7 @@
 "US" = (
 /obj/item/prop/scrap{
 	pixel_x = 8;
-	pixel_y = 11
+	pixel_y = 23
 	},
 /obj/structure/roof/cargocrane_tracks/horizontal,
 /turf/open/floor/prison/floor_plate/southwest,
@@ -20076,7 +20136,7 @@ As
 Tr
 hq
 hq
-wf
+kI
 wf
 wf
 by
@@ -20173,7 +20233,7 @@ qz
 qz
 jo
 kx
-jo
+lK
 qz
 qz
 dD
@@ -20209,7 +20269,7 @@ bZ
 bX
 hq
 bT
-bP
+kt
 cX
 KD
 KD
@@ -20736,9 +20796,9 @@ bL
 bZ
 ca
 hq
-bT
+kQ
 bP
-cX
+kt
 KD
 KD
 fg
@@ -20868,7 +20928,7 @@ YU
 sy
 hq
 hq
-wf
+lj
 wf
 wf
 bw
