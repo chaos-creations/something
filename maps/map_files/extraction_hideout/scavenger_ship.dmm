@@ -1150,7 +1150,8 @@
 /obj/item/device/flashlight/lamp/tripod{
 	light_color = "#e7c0a4";
 	anchored = 1;
-	pixel_y = 10
+	pixel_y = 10;
+	light_range = 3
 	},
 /turf/open/floor/plating/kutjevo,
 /area/golden_arrow/prep_hallway)
@@ -4816,6 +4817,12 @@
 /turf/open/floor/corsat,
 /area/golden_arrow/canteen)
 "gB" = (
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_5";
+	layer = 3.1;
+	pixel_x = 1;
+	pixel_y = 2
+	},
 /turf/open/floor/prison/darkbrown2,
 /area/golden_arrow/prep_hallway)
 "gC" = (
@@ -9467,13 +9474,25 @@
 /turf/open/floor/prison/darkred2/southwest,
 /area/golden_arrow/platoonprep)
 "qo" = (
-/obj/structure/closet/crate/ammo/alt,
-/turf/open/floor/prison/floor_marked,
+/obj/structure/largecrate/mule,
+/obj/structure/largecrate/random/mini{
+	pixel_x = 3;
+	pixel_y = 14
+	},
+/turf/open/floor/prison/floor_plate/southwest,
 /area/golden_arrow/platoonprep)
 "qp" = (
-/obj/structure/closet/crate/green,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/prison/floor_marked,
+/obj/structure/bed/chair{
+	dir = 8;
+	pixel_x = 6;
+	pixel_y = 9
+	},
+/obj/item/explosive/plastic/custom{
+	pixel_x = -7;
+	pixel_y = 13
+	},
+/turf/open/floor/prison/floor_plate/southwest,
 /area/golden_arrow/platoonprep)
 "qq" = (
 /obj/structure/stairs/perspective{
@@ -9803,6 +9822,11 @@
 	},
 /turf/open/floor/almayer_hull,
 /area/golden_arrow/platoonprep)
+"rc" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/hybrisa/trash,
+/turf/open/floor/prison/floor_plate/southwest,
+/area/golden_arrow/prep_hallway)
 "rd" = (
 /obj/structure/bed/chair{
 	pixel_y = 10
@@ -9811,6 +9835,13 @@
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
 	})
+"re" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_10"
+	},
+/turf/open/floor/prison/floor_plate/southwest,
+/area/golden_arrow/prep_hallway)
 "rh" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/generic,
@@ -15527,6 +15558,12 @@
 	light_power = 0.8;
 	light_range = 4
 	},
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_3";
+	layer = 3.2;
+	pixel_x = 8;
+	pixel_y = -9
+	},
 /turf/open/floor/prison/darkbrown2/north,
 /area/golden_arrow/prep_hallway)
 "Th" = (
@@ -16077,9 +16114,31 @@
 	name = "\improper SSV Orzel"
 	})
 "Vz" = (
-/obj/structure/closet/crate/alpha,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/prison/floor_marked,
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/device/assembly/prox_sensor{
+	pixel_x = -8;
+	pixel_y = 8
+	},
+/obj/item/stack/cable_coil{
+	pixel_x = 4;
+	pixel_y = 10;
+	icon_state = "coil2";
+	amount = 2
+	},
+/obj/item/device/assembly/igniter{
+	pixel_x = 6;
+	pixel_y = 0
+	},
+/obj/item/tool/lighter{
+	pixel_x = -4;
+	pixel_y = 6
+	},
+/obj/structure/sign/poster/clf{
+	pixel_x = 29;
+	pixel_y = -2
+	},
+/turf/open/floor/prison/floor_plate/southwest,
 /area/golden_arrow/platoonprep)
 "VB" = (
 /obj/structure/machinery/camera/autoname/golden_arrow{
@@ -20692,7 +20751,7 @@ hw
 hw
 Tg
 hA
-IM
+rc
 Kr
 fT
 hx
@@ -21483,7 +21542,7 @@ wf
 wf
 hq
 bL
-IM
+re
 cs
 cs
 EC
