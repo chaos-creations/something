@@ -59,7 +59,7 @@
 	var/flight_duration =  is_flyby ? DROPSHIP_TRANSIT_DURATION : DROPSHIP_TRANSIT_DURATION * GLOB.ship_alt
 	if(optimised)
 		if(is_flyby)
-			flight_duration = DROPSHIP_TRANSIT_DURATION * 1.5
+			flight_duration = DROPSHIP_TRANSIT_DURATION * 10
 		else
 			flight_duration = DROPSHIP_TRANSIT_DURATION * SHUTTLE_OPTIMIZE_FACTOR_TRAVEL
 
