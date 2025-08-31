@@ -465,7 +465,7 @@
 	name = "\improper SSV Orzel"
 	})
 "aD" = (
-/obj/structure/closet/secure_closet/marine_personal/rifleman{
+/obj/structure/closet/secure_closet/marine_personal/squad_leader{
 	pixel_x = -8
 	},
 /turf/open/floor/prison/cell_stripe,
@@ -15233,7 +15233,7 @@
 /turf/open/floor/prison/floor_marked,
 /area/golden_arrow/hangar)
 "Rd" = (
-/obj/structure/closet/secure_closet/marine_personal/rifleman{
+/obj/structure/closet/secure_closet/marine_personal/squad_leader{
 	pixel_x = 9
 	},
 /turf/open/floor/prison/cell_stripe,
