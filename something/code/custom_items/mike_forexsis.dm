@@ -23,8 +23,8 @@
 /obj/item/storage/box/donator_kit/mike_forexsis
 	donor_key = "mike_forexsis"
 	donor_gear = list(
-		/obj/item/storage/mateba_case/captain,
-		/obj/item/storage/belt/gun/mateba/cmateba/full,
-		/obj/item/storage/pouch/pistol/command,
-		/obj/item/paper/execution_order
+		/obj/item/reagent_container/food/snacks/grown/mushroom/libertycap,
+		/obj/item/reagent_container/food/snacks/grown/mushroom/libertycap,
+		/obj/item/reagent_container/food/snacks/grown/mushroom/libertycap,
+		/obj/item/reagent_container/food/snacks/grown/mushroom/libertycap
 	)
