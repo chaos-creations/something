@@ -2385,10 +2385,46 @@
 	pixel_y = 9
 	},
 /obj/item/clothing/glasses/hud/sensor{
-	pixel_x = 5;
-	pixel_y = -1
+	pixel_x = 8;
+	pixel_y = 7
 	},
 /obj/structure/surface/table/almayer,
+/obj/item/reagent_container/hypospray/autoinjector/bicaridine{
+	pixel_x = -4;
+	pixel_y = -1
+	},
+/obj/item/reagent_container/hypospray/autoinjector/bicaridine{
+	pixel_x = -4;
+	pixel_y = -1
+	},
+/obj/item/reagent_container/hypospray/autoinjector/bicaridine{
+	pixel_x = -4;
+	pixel_y = -1
+	},
+/obj/item/reagent_container/hypospray/autoinjector/kelotane{
+	pixel_x = -4;
+	pixel_y = -5
+	},
+/obj/item/reagent_container/hypospray/autoinjector/kelotane{
+	pixel_x = -4;
+	pixel_y = -5
+	},
+/obj/item/reagent_container/hypospray/autoinjector/kelotane{
+	pixel_x = -4;
+	pixel_y = -5
+	},
+/obj/item/reagent_container/hypospray/autoinjector/tramadol{
+	pixel_x = -4;
+	pixel_y = -9
+	},
+/obj/item/reagent_container/hypospray/autoinjector/tramadol{
+	pixel_x = -4;
+	pixel_y = -9
+	},
+/obj/item/reagent_container/hypospray/autoinjector/tramadol{
+	pixel_x = -4;
+	pixel_y = -9
+	},
 /turf/open/floor/prison/floor_plate/southwest,
 /area/golden_arrow/supply)
 "dx" = (
@@ -4648,8 +4684,8 @@
 /area/golden_arrow/prep_hallway)
 "gj" = (
 /obj/structure/largecrate/random/barrel/green{
-	pixel_x = -7;
-	pixel_y = -3;
+	pixel_x = -8;
+	pixel_y = -10;
 	layer = 2.9
 	},
 /turf/open/floor/prison/darkbrown2/west,
@@ -5586,8 +5622,7 @@
 	pixel_x = 3;
 	pixel_y = 28;
 	name = "Mission Terminal";
-	desc = "Terminal, usually need's for mission logs.";
-	email_list = list(/datum/fluff_email/rover/mission1, /datum/fluff_email/rover/mission2)
+	desc = "Terminal, usually need's for mission logs."
 	},
 /turf/open/floor/prison/darkbrown2/north,
 /area/golden_arrow/supply)
@@ -5744,7 +5779,7 @@
 /obj/structure/sign/ROsign{
 	layer = 3;
 	pixel_y = 30;
-	desc = "https://docs.google.com/spreadsheets/d/1919bv7tqCJG6CIeaxlFQm9zlBKKrn3qdrxEkXQANC4E/edit?usp=sharing";
+	desc = "https://docs.google.com/spreadsheets/d/1eOAwIABBe6LVzjNHNnexIsJe6dMKZdJSn9t17J6TMOc/edit?usp=sharing";
 	name = "\improper Requisitions Price List"
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -5886,16 +5921,15 @@
 /turf/open/floor/prison/yellowfull,
 /area/golden_arrow/supply)
 "jc" = (
-/obj/structure/prop/server_equipment/laptop/closed{
-	pixel_x = 3;
-	pixel_y = 8
-	},
 /obj/structure/surface/table/almayer,
 /obj/structure/machinery/light/double{
 	dir = 4;
 	light_color = "#e7c0a4";
 	light_power = 0.8;
 	light_range = 5
+	},
+/obj/structure/machinery/computer/overwatch{
+	dir = 1
 	},
 /turf/open/floor/prison/yellowfull,
 /area/golden_arrow/supply)
@@ -8138,10 +8172,6 @@
 /area/golden_arrow/dorms)
 "nu" = (
 /obj/structure/largecrate/random/case/double,
-/obj/item/coin/requisitionpoint/one{
-	pixel_x = 3;
-	pixel_y = 12
-	},
 /turf/open/floor/corsat,
 /area/golden_arrow/canteen)
 "nv" = (
@@ -8607,12 +8637,10 @@
 /turf/open/floor/prison/floor_plate/southwest,
 /area/golden_arrow/dorms)
 "oA" = (
-/obj/structure/surface/table/woodentable/fancy,
-/obj/structure/machinery/computer/emails{
-	pixel_x = 0;
-	pixel_y = 4
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/item/stack/sheet/wood{
+	anchored = 1
+	},
 /turf/open/floor/prison/southwest,
 /area/golden_arrow/engineering)
 "oB" = (
@@ -9015,7 +9043,7 @@
 /turf/closed/wall/strata_outpost,
 /area/golden_arrow/platoonprep)
 "py" = (
-/obj/structure/machinery/door/airlock/puzzle/vault,
+/obj/structure/airlock_assembly,
 /turf/open/floor/almayer/pod_landing_floor,
 /area/golden_arrow/engineering)
 "pz" = (
@@ -9802,11 +9830,6 @@
 	color = "#6b675e";
 	layer = 2.79
 	},
-/obj/item/clothing/head/uppcap/beret/guerilla,
-/obj/item/clothing/under/marine/fluff/standard_jumpsuit{
-	name = "Worn Uniform";
-	desc = "Uniform worn by Omega Team."
-	},
 /turf/open/floor/prison/chapel_carpet,
 /area/golden_arrow/supply)
 "qZ" = (
@@ -9842,6 +9865,18 @@
 	},
 /turf/open/floor/prison/floor_plate/southwest,
 /area/golden_arrow/prep_hallway)
+"rf" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_4";
+	layer = 3.2
+	},
+/turf/open/floor/corsat,
+/area/golden_arrow/engineering)
+"rg" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/corsat,
+/area/golden_arrow/engineering)
 "rh" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/generic,
@@ -9865,6 +9900,20 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/golden_arrow/hangar)
+"rj" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_8";
+	pixel_y = -2;
+	pixel_x = 9
+	},
+/turf/open/floor/corsat,
+/area/golden_arrow/engineering)
+"rk" = (
+/obj/structure/machinery/constructable_frame,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/corsat,
+/area/golden_arrow/engineering)
 "rl" = (
 /obj/structure/machinery/door/poddoor/almayer{
 	dir = 4;
@@ -9876,6 +9925,23 @@
 "rm" = (
 /turf/open/floor/prison/darkyellow2/north,
 /area/golden_arrow/vehicle_shuttle/upper)
+"rn" = (
+/obj/item/frame/light_fixture/small{
+	pixel_x = 5;
+	pixel_y = -13
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/corsat,
+/area/golden_arrow/engineering)
+"ro" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_6";
+	pixel_x = -8;
+	pixel_y = 12
+	},
+/turf/open/floor/corsat,
+/area/golden_arrow/engineering)
 "rp" = (
 /obj/item/frame/camera{
 	desc = "The Staff Officer insisted he needed to monitor everyone at all times.";
@@ -9886,6 +9952,20 @@
 	},
 /turf/open/floor/plating,
 /area/golden_arrow/dorms)
+"rq" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_11";
+	pixel_x = -3;
+	pixel_y = 25
+	},
+/turf/open/floor/corsat,
+/area/golden_arrow/engineering)
+"rr" = (
+/obj/item/frame/table/almayer,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/corsat,
+/area/golden_arrow/engineering)
 "ru" = (
 /turf/open/floor/prison/cell_stripe/east,
 /area/golden_arrow/hangar)
@@ -10310,11 +10390,10 @@
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/golden_arrow/dorms)
 "tA" = (
-/obj/structure/bed/roller/hospital,
 /obj/effect/decal/cleanable/dirt,
-/obj/item/coin/requisitionpoint/five{
-	pixel_x = -3;
-	pixel_y = 4
+/obj/item/trash/sosjerky{
+	pixel_x = 5;
+	pixel_y = 6
 	},
 /turf/open/floor/prison/southwest,
 /area/golden_arrow/engineering)
@@ -10549,17 +10628,21 @@
 	color = "#EBD9B7"
 	},
 /obj/item/robot_parts/arm/l_arm{
-	pixel_x = -6;
-	pixel_y = 3
+	pixel_x = -11;
+	pixel_y = 6
 	},
 /obj/item/prop{
 	name = "Broken screwdriver";
-	pixel_y = -2;
+	pixel_y = 4;
 	icon_state = "screwdriver";
 	desc = "You can be totally screwy with this.";
-	pixel_x = 1
+	pixel_x = 6
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/item/organ/brain/prosthetic{
+	pixel_x = -1;
+	pixel_y = 10
+	},
 /turf/open/floor/prison/darkbrownfull2,
 /area/golden_arrow/hangar)
 "va" = (
@@ -10688,12 +10771,6 @@
 	icon_state = "trash_9";
 	pixel_x = -8;
 	pixel_y = 12
-	},
-/obj/item/paper{
-	pixel_x = 9;
-	pixel_y = 9;
-	info = "Надеюсь тебе это поможет, мой старый друг. От лейтенанта Фокса Морроу.";
-	name = "last gift"
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/golden_arrow/engineering)
@@ -11053,6 +11130,9 @@
 	icon_state = "trash_4";
 	pixel_y = 1;
 	pixel_x = -1
+	},
+/obj/effect/step_trigger/sound_trigger{
+	sound_effect = 'sound/effects/metal_creaking.ogg'
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/golden_arrow/supply)
@@ -12018,6 +12098,18 @@
 /area/golden_arrow/cryo_cells)
 "BU" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/item/paper{
+	pixel_x = 14;
+	pixel_y = 24;
+	info = "Надеюсь тебе это поможет, мой старый друг. От лейтенанта Фокса Морроу.";
+	name = "last gift";
+	anchored = 1
+	},
+/obj/item/stack/sheet/wood{
+	pixel_x = -9;
+	pixel_y = 9;
+	anchored = 1
+	},
 /turf/open/floor/prison/floorscorched2,
 /area/golden_arrow/engineering)
 "BV" = (
@@ -12098,6 +12190,9 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/flour,
+/obj/effect/step_trigger/sound_trigger{
+	sound_effect = 'sound/effects/metal_creaking.ogg'
+	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/golden_arrow/supply)
 "Cs" = (
@@ -12184,10 +12279,6 @@
 	light_color = "#e7c0a4";
 	light_power = 0.8;
 	light_range = 4
-	},
-/obj/item/coin/requisitionpoint/one{
-	pixel_x = 0;
-	pixel_y = 8
 	},
 /turf/open/floor/prison/floor_plate/southwest,
 /area/golden_arrow/cryo_cells)
@@ -12400,9 +12491,8 @@
 	})
 "DN" = (
 /obj/structure/surface/rack,
-/obj/effect/spawner/random/toolbox,
-/obj/effect/spawner/random/technology_scanner,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/reagent_container/spray/cleaner,
 /turf/open/floor/prison/floor_plate,
 /area/golden_arrow/canteen)
 "DP" = (
@@ -12750,10 +12840,6 @@
 /area/golden_arrow/canteen)
 "FA" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/item/tool/weldingtool{
-	pixel_x = 9;
-	pixel_y = -3
-	},
 /obj/item/tool/weldpack/minitank{
 	pixel_x = -9;
 	pixel_y = 6
@@ -12763,6 +12849,13 @@
 	light_color = "#e7c0a4";
 	light_power = 0.8;
 	light_range = 5
+	},
+/obj/item/prop{
+	name = "Broken blowtorch";
+	icon_state = "welder";
+	desc = "Not working anymore";
+	pixel_x = 9;
+	pixel_y = -3
 	},
 /turf/open/floor/corsat,
 /area/golden_arrow/canteen)
@@ -13218,13 +13311,6 @@
 /obj/structure/surface/table/almayer{
 	color = "#EBD9B7"
 	},
-/obj/item/limb/head/synth{
-	desc = "This appears to be the head of a synthetic, though it it is so destroyed there is no way in hell anyone is going to bring it back to even basic functionality.";
-	name = "shattered synthetic head";
-	pixel_x = -11;
-	pixel_y = -6;
-	icon = 'icons/mob/humans/species/r_synthetic.dmi'
-	},
 /obj/item/clothing/suit/storage/marine/veteran/pmc/light/synth{
 	desc = "A serious modification of the standard Armat Systems M3 armor. This variant was designed for PMC Support Units in the field, with every armor insert removed. It's designed with the idea of a high speed lifesaver in mind. This set seems damaged...";
 	name = "damaged M4 Synthetic PMC armor";
@@ -13371,9 +13457,11 @@
 	name = "\improper SSV Orzel"
 	})
 "It" = (
-/obj/structure/machinery/puzzle/keycard_panel/vault{
-	pixel_y = 26
+/obj/item/frame/apc{
+	pixel_x = -13;
+	pixel_y = 2
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/corsat,
 /area/golden_arrow/engineering)
 "Iz" = (
@@ -13940,14 +14028,14 @@
 	name = "\improper SSV Orzel"
 	})
 "LP" = (
-/obj/structure/machinery/puzzle/keycard_panel/vault{
-	pixel_y = -26;
-	dir = 1
-	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/hybrisa/trash{
 	icon_state = "trash_4";
 	layer = 3.2
+	},
+/obj/item/trash/popcorn{
+	pixel_x = -14;
+	pixel_y = -4
 	},
 /turf/open/floor/prison/southwest,
 /area/golden_arrow/engineering)
@@ -14851,6 +14939,9 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/step_trigger/sound_trigger{
+	sound_effect = 'sound/effects/metal_creaking.ogg'
+	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/golden_arrow/supply)
 "PY" = (
@@ -15173,30 +15264,16 @@
 	name = "\improper SSV Orzel"
 	})
 "Ro" = (
-/obj/structure/surface/table/almayer{
-	color = "#EBD9B7";
-	density = 0
-	},
-/obj/structure/machinery/optable{
-	icon = 'icons/obj/structures/rollerbed.dmi';
-	icon_state = "surgical_down";
-	pixel_x = -15;
-	pixel_y = -5;
-	layer = 3
-	},
 /obj/item/fake_robot_head{
-	pixel_x = 7;
+	pixel_x = -4;
 	pixel_y = -1
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/item/prop/magazine/book/synthetic_repair_manual{
-	pixel_x = 10;
-	pixel_y = 20
-	},
-/obj/item/coin/requisitionpoint/one{
 	pixel_x = -8;
-	pixel_y = 2
+	pixel_y = 34
 	},
+/obj/structure/machinery/optable,
 /turf/open/floor/prison/darkbrownfull2,
 /area/golden_arrow/hangar)
 "Rq" = (
@@ -15230,10 +15307,11 @@
 /turf/open/floor/corsat,
 /area/golden_arrow/canteen)
 "Rw" = (
-/obj/structure/bed/chair/wood/normal{
-	dir = 1
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/item/trash/eat{
+	pixel_x = 7;
+	pixel_y = 7
+	},
 /turf/open/floor/prison/southwest,
 /area/golden_arrow/engineering)
 "Ry" = (
@@ -15286,22 +15364,15 @@
 	name = "\improper SSV Orzel"
 	})
 "RM" = (
-/obj/structure/surface/table/almayer{
-	color = "#EBD9B7";
-	density = 0
-	},
-/obj/structure/machinery/optable{
-	icon = 'icons/obj/structures/rollerbed.dmi';
-	icon_state = "surgical_down";
-	pixel_x = 17;
-	pixel_y = 25;
-	layer = 3
-	},
-/obj/item/organ/brain/prosthetic{
-	pixel_x = -5;
-	pixel_y = 5
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/optable,
+/obj/item/limb/head/synth{
+	desc = "This appears to be the head of a synthetic, though it it is so destroyed there is no way in hell anyone is going to bring it back to even basic functionality.";
+	name = "shattered synthetic head";
+	pixel_x = 6;
+	pixel_y = -11;
+	icon = 'icons/mob/humans/species/r_synthetic.dmi'
+	},
 /turf/open/floor/prison/darkbrownfull2,
 /area/golden_arrow/hangar)
 "RP" = (
@@ -15800,17 +15871,16 @@
 	},
 /obj/structure/largecrate/random/barrel/white{
 	pixel_x = -8;
-	pixel_y = 8
+	pixel_y = 2
 	},
-/obj/structure/largecrate/random/barrel/black,
 /obj/item/prop{
 	desc = "Danger. Very robust.";
 	icon = 'icons/obj/items/storage/toolbox.dmi';
 	icon_state = "blue";
 	name = "Empty mechanical toolbox";
-	pixel_y = 20;
+	pixel_y = 21;
 	force = 10;
-	pixel_x = -2
+	pixel_x = -4
 	},
 /turf/open/floor/prison/darkbrown2/west,
 /area/golden_arrow/canteen)
@@ -16524,10 +16594,6 @@
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/golden_arrow/dorms)
 "Xm" = (
-/obj/structure/surface/rack,
-/obj/item/storage/backpack/marine/satchel/fluff/sas_legion,
-/obj/item/clothing/suit/storage/marine/light/fluff/sas_legion,
-/obj/item/clothing/head/helmet/marine/fluff/sas_legion,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/light/double/blue/golden_arrow{
 	dir = 1;
@@ -16535,6 +16601,7 @@
 	color = "#C02526";
 	light_color = "#C02526"
 	},
+/obj/item/frame/rack,
 /turf/open/floor/prison/floor_marked,
 /area/golden_arrow/engineering)
 "Xn" = (
@@ -17761,10 +17828,10 @@ wf
 wf
 Ts
 Ts
-ln
+rg
 jD
-ln
-ln
+rg
+rf
 jD
 NS
 Ts
@@ -17892,11 +17959,11 @@ Ts
 Ts
 Ts
 Ts
-ln
-ln
+rg
+rg
 Ts
 Ts
-ln
+rg
 Ts
 Ts
 Ts
@@ -18025,8 +18092,8 @@ oA
 Rw
 Ts
 It
-ln
-ln
+ro
+rk
 Ts
 vt
 Ts
@@ -18156,11 +18223,11 @@ Xm
 vT
 BU
 py
-ln
-ln
-ln
-ln
-ln
+rg
+rg
+rg
+rj
+rg
 Ts
 wf
 wf
@@ -18288,10 +18355,10 @@ Ts
 tA
 LP
 Ts
-ln
-ln
-ln
-ln
+rr
+rq
+rn
+rg
 Ts
 Ts
 wf
@@ -18414,8 +18481,8 @@ wf
 wf
 wf
 Ts
-ln
-ln
+rg
+rg
 Ts
 Ts
 Ts
@@ -18547,13 +18614,13 @@ wf
 wf
 Ts
 Ts
-ln
+rg
 jD
-ln
-ln
-ln
-ln
-ln
+rg
+rf
+rg
+rg
+rg
 Ts
 wf
 wf
