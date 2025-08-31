@@ -1274,3 +1274,7 @@
 /datum/equipment_preset/uscm/leader/extraction
 	name = "Deserter Sergeant"
 	skills = /datum/skills/SL/extraction
+
+/datum/equipment_preset/uscm/tl/extraction
+	name = "Deserter Team Leader"
+	skills = /datum/skills/tl/extraction

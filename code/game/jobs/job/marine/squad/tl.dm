@@ -50,6 +50,10 @@
 	total_positions = 3
 	spawn_positions = 3
 
+/datum/job/marine/tl/ai/extraction
+	total_positions = 2
+	spawn_positions = 2
+
 /datum/job/marine/tl/ai/upp
 	title = JOB_SQUAD_TEAM_LEADER_UPP
 	gear_preset = /datum/equipment_preset/uscm/tl/upp
