@@ -5665,7 +5665,8 @@
 	pixel_x = 3;
 	pixel_y = 28;
 	name = "Mission Terminal";
-	desc = "Terminal, usually need's for mission logs."
+	desc = "Terminal, usually need's for mission logs.";
+	email_list = list(/datum/fluff_email/rover/mission1, /datum/fluff_email/rover/mission2)
 	},
 /turf/open/floor/prison/darkbrown2/north,
 /area/golden_arrow/supply)
