@@ -1154,9 +1154,6 @@
 	pixel_y = 10;
 	light_range = 3
 	},
-/obj/effect/step_trigger/sound_trigger{
-	sound_effect = 'sound/effects/metal_creaking.ogg'
-	},
 /turf/open/floor/plating/kutjevo,
 /area/golden_arrow/prep_hallway)
 "bG" = (
@@ -5572,9 +5569,6 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/effect/step_trigger/sound_trigger{
-	sound_effect = 'sound/effects/metal_creaking.ogg'
-	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/golden_arrow/platoonprep)
 "ia" = (
@@ -5632,7 +5626,6 @@
 	layer = 3.33;
 	pixel_y = 2
 	},
-/obj/effect/step_trigger/clone_cleaner,
 /turf/open/floor/prison/darkbrowncorners2/north,
 /area/golden_arrow/supply)
 "il" = (
@@ -5838,7 +5831,6 @@
 	pixel_y = -3;
 	pixel_x = 0
 	},
-/obj/effect/step_trigger/clone_cleaner,
 /turf/open/floor/prison/darkbrown2/northeast,
 /area/golden_arrow/supply)
 "iL" = (
@@ -9861,7 +9853,6 @@
 	icon_state = "W";
 	layer = 2.5
 	},
-/obj/effect/step_trigger/clone_cleaner,
 /turf/open/floor/prison/darkbrown2/east,
 /area/golden_arrow/supply)
 "qP" = (
@@ -9993,9 +9984,6 @@
 	color = null
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/step_trigger/sound_trigger{
-	sound_effect = 'sound/effects/metal_creaking.ogg'
-	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/golden_arrow/hangar)
 "rj" = (
@@ -10584,20 +10572,6 @@
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
 	})
-"sI" = (
-/obj/structure/prop/hybrisa/misc/concretestatue{
-	pixel_x = -15;
-	desc = "granit nauki";
-	pixel_y = 10
-	},
-/obj/effect/projector{
-	vector_x = -25;
-	vector_y = 5
-	},
-/turf/open/floor/prison/darkredfull2,
-/area/golden_arrow/medical{
-	name = "\improper SSV Orzel"
-	})
 "sJ" = (
 /turf/open/floor/prison/whitepurple/east,
 /area/golden_arrow/medical{
@@ -10729,10 +10703,6 @@
 	},
 /turf/open/floor/prison/darkbrown2/southeast,
 /area/golden_arrow/hangar)
-"sW" = (
-/obj/effect/step_trigger/clone_cleaner,
-/turf/open/floor/prison/darkbrowncorners2/east,
-/area/golden_arrow/supply)
 "sX" = (
 /obj/structure/prop/invuln/lattice_prop{
 	icon_state = "lattice12";
@@ -10801,7 +10771,7 @@
 "tb" = (
 /obj/structure/prop/hybrisa/misc/stoneplanterseats{
 	dir = 2;
-	pixel_x = -16;
+	pixel_x = -25;
 	pixel_y = 20
 	},
 /obj/effect/projector{
@@ -10848,7 +10818,6 @@
 	icon_state = "1-2";
 	color = null
 	},
-/obj/effect/step_trigger/clone_cleaner,
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/golden_arrow/supply)
 "tg" = (
@@ -10856,19 +10825,15 @@
 	color = "#6e6e6e";
 	dir = 1
 	},
+/obj/effect/step_trigger/teleporter_vector{
+	vector_x = -11;
+	vector_y = -42
+	},
 /obj/structure/machinery/light/small{
 	dir = 2;
 	light_color = "#e7c0a4";
 	light_power = 0.8;
 	light_range = 4
-	},
-/obj/effect/step_trigger/teleporter_vector{
-	vector_x = -11;
-	vector_y = -42
-	},
-/obj/effect/projector{
-	vector_x = -11;
-	vector_y = -42
 	},
 /turf/open/floor/prison/floor_plate/southwest,
 /area/golden_arrow/supply)
@@ -10899,7 +10864,6 @@
 	icon_state = "1-2";
 	color = null
 	},
-/obj/effect/step_trigger/clone_cleaner,
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/golden_arrow/supply)
 "tj" = (
@@ -10939,10 +10903,6 @@
 	color = "#6e6e6e";
 	dir = 1
 	},
-/obj/effect/projector{
-	vector_x = -11;
-	vector_y = -42
-	},
 /turf/open/floor/prison/floor_plate/southwest,
 /area/golden_arrow/supply)
 "to" = (
@@ -10960,7 +10920,6 @@
 	icon_state = "1-2";
 	color = null
 	},
-/obj/effect/step_trigger/clone_cleaner,
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/golden_arrow/supply)
 "tp" = (
@@ -10982,7 +10941,6 @@
 	icon_state = "1-2";
 	color = null
 	},
-/obj/effect/step_trigger/clone_cleaner,
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/golden_arrow/supply)
 "tr" = (
@@ -10992,10 +10950,6 @@
 	light_power = 0.8;
 	light_range = 4
 	},
-/turf/open/floor/prison/darkbrown2,
-/area/golden_arrow/supply)
-"ts" = (
-/obj/effect/step_trigger/clone_cleaner,
 /turf/open/floor/prison/darkbrown2,
 /area/golden_arrow/supply)
 "tt" = (
@@ -11529,8 +11483,14 @@
 /area/golden_arrow/engineering)
 "vz" = (
 /obj/effect/step_trigger/teleporter_vector/damage,
-/obj/structure/prop/invuln/darkness{
-	layer = 2.9
+/obj/structure/curtain/black{
+	alpha = 200;
+	icon = 'icons/turf/areas.dmi';
+	icon_state = "dark128";
+	indestructible = 1;
+	mouse_opacity = 0;
+	name = "darkness";
+	opacity = 0
 	},
 /turf/open/gm/empty,
 /area/golden_arrow/medical{
@@ -11799,7 +11759,6 @@
 	pixel_x = -3;
 	id = "qm_cargo"
 	},
-/obj/effect/step_trigger/clone_cleaner,
 /turf/open/floor/prison/darkbrown2/north,
 /area/golden_arrow/supply)
 "wB" = (
@@ -11831,7 +11790,6 @@
 	light_power = 0.8;
 	light_range = 5
 	},
-/obj/effect/step_trigger/clone_cleaner,
 /turf/open/floor/prison/darkbrown2/east,
 /area/golden_arrow/supply)
 "wK" = (
@@ -11920,12 +11878,18 @@
 	color = "#6e6e6e";
 	dir = 1
 	},
-/obj/structure/prop/invuln/darkness{
-	layer = 2.9
-	},
 /obj/effect/step_trigger/teleporter_vector{
 	vector_x = 11;
 	vector_y = 42
+	},
+/obj/structure/curtain/black{
+	alpha = 200;
+	icon = 'icons/turf/areas.dmi';
+	icon_state = "dark128";
+	indestructible = 1;
+	mouse_opacity = 0;
+	name = "darkness";
+	opacity = 0
 	},
 /turf/open/floor/corsat,
 /area/golden_arrow/supply)
@@ -12515,7 +12479,6 @@
 	pixel_x = 1;
 	pixel_y = -3
 	},
-/obj/effect/step_trigger/clone_cleaner,
 /turf/open/floor/prison/darkbrown2/northwest,
 /area/golden_arrow/supply)
 "Ae" = (
@@ -12949,8 +12912,14 @@
 /area/golden_arrow/hangar)
 "BY" = (
 /obj/structure/blocker/invisible_wall,
-/obj/structure/prop/invuln/darkness{
-	layer = 2.9
+/obj/structure/curtain/black{
+	alpha = 200;
+	icon = 'icons/turf/areas.dmi';
+	icon_state = "dark128";
+	indestructible = 1;
+	mouse_opacity = 0;
+	name = "darkness";
+	opacity = 0
 	},
 /turf/open/gm/empty,
 /area/golden_arrow/medical{
@@ -13331,7 +13300,6 @@
 	icon_state = "W";
 	layer = 2.5
 	},
-/obj/effect/step_trigger/clone_cleaner,
 /turf/open/floor/prison/darkbrown2/east,
 /area/golden_arrow/supply)
 "DX" = (
@@ -13616,9 +13584,6 @@
 	pixel_y = 0
 	},
 /obj/effect/decal/cleanable/flour,
-/obj/effect/step_trigger/sound_trigger{
-	sound_effect = 'sound/effects/metal_creaking.ogg'
-	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/golden_arrow/hangar)
 "Fr" = (
@@ -14353,7 +14318,6 @@
 	pixel_y = 2;
 	pixel_x = -5
 	},
-/obj/effect/step_trigger/clone_cleaner,
 /turf/open/floor/prison/floor_plate/southwest,
 /area/golden_arrow/supply)
 "IS" = (
@@ -14505,9 +14469,6 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/effect/step_trigger/sound_trigger{
-	sound_effect = 'sound/effects/metal_creaking.ogg'
-	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/golden_arrow/platoonprep)
 "JR" = (
@@ -14637,8 +14598,14 @@
 /turf/open/floor/hybrisa/tile,
 /area/golden_arrow/canteen)
 "KL" = (
-/obj/structure/prop/invuln/darkness{
-	layer = 2.9
+/obj/structure/curtain/black{
+	alpha = 200;
+	icon = 'icons/turf/areas.dmi';
+	icon_state = "dark128";
+	indestructible = 1;
+	mouse_opacity = 0;
+	name = "darkness";
+	opacity = 0
 	},
 /turf/open/gm/empty,
 /area/golden_arrow/medical{
@@ -14668,7 +14635,9 @@
 	color = "#999900";
 	dir = 4
 	},
-/mob/living/simple_animal/bat,
+/mob/living/simple_animal/bat{
+	name = "Spooky"
+	},
 /obj/structure/machinery/light/small{
 	dir = 1;
 	light_color = "#e7c0a4";
@@ -14690,9 +14659,6 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/step_trigger/sound_trigger{
-	sound_effect = 'sound/effects/metal_creaking.ogg'
-	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/golden_arrow/hangar)
 "La" = (
@@ -14876,7 +14842,7 @@
 	},
 /obj/structure/prop/hybrisa/misc/stoneplanterseats{
 	dir = 1;
-	pixel_x = -16;
+	pixel_x = -7;
 	pixel_y = 20
 	},
 /turf/open/floor/prison/whitegreen/east,
@@ -15297,7 +15263,6 @@
 	dir = 4;
 	layer = 3
 	},
-/obj/effect/step_trigger/clone_cleaner,
 /turf/open/floor/prison/darkbrown2/west,
 /area/golden_arrow/supply)
 "NA" = (
@@ -15434,9 +15399,6 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/step_trigger/sound_trigger{
-	sound_effect = 'sound/effects/metal_creaking.ogg'
-	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/golden_arrow/dorms)
 "NZ" = (
@@ -15814,8 +15776,14 @@
 	color = "#6e6e6e";
 	dir = 1
 	},
-/obj/structure/prop/invuln/darkness{
-	layer = 2.9
+/obj/structure/curtain/black{
+	alpha = 200;
+	icon = 'icons/turf/areas.dmi';
+	icon_state = "dark128";
+	indestructible = 1;
+	mouse_opacity = 0;
+	name = "darkness";
+	opacity = 0
 	},
 /turf/open/floor/corsat,
 /area/golden_arrow/supply)
@@ -15958,7 +15926,6 @@
 	pixel_x = 1;
 	pixel_y = 0
 	},
-/obj/effect/step_trigger/clone_cleaner,
 /turf/open/floor/prison/darkbrown2/west,
 /area/golden_arrow/supply)
 "Qy" = (
@@ -17043,9 +17010,6 @@
 	pixel_x = -11;
 	pixel_y = 11
 	},
-/obj/effect/step_trigger/sound_trigger{
-	sound_effect = 'sound/effects/metal_creaking.ogg'
-	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/golden_arrow/supply)
 "Vu" = (
@@ -17369,7 +17333,6 @@
 	pixel_x = 0;
 	pixel_y = -22
 	},
-/obj/effect/step_trigger/clone_cleaner,
 /turf/open/floor/prison/darkbrown2/west,
 /area/golden_arrow/supply)
 "WO" = (
@@ -21967,7 +21930,7 @@ Ab
 Nz
 Qx
 WH
-sW
+bR
 yO
 st
 RD
@@ -23373,7 +23336,7 @@ tL
 tL
 tF
 qM
-ts
+qJ
 to
 tf
 tf
@@ -23505,7 +23468,7 @@ tL
 tL
 tH
 tu
-ts
+qJ
 tn
 tn
 tg
@@ -23637,7 +23600,7 @@ tL
 tL
 tF
 qM
-ts
+qJ
 tq
 ti
 ti
@@ -24914,7 +24877,7 @@ sQ
 kq
 sU
 sG
-sI
+sG
 sG
 yB
 kq
