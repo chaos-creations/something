@@ -1041,10 +1041,11 @@
 	name = "\improper SSV Orzel"
 	})
 "bo" = (
-/obj/structure/closet/secure_closet/marine_personal/rifleman{
-	pixel_x = -8
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/secure_closet/marine_personal/corpsman{
+	pixel_x = -8;
+	density = 0
+	},
 /turf/open/floor/prison/cell_stripe/north,
 /area/golden_arrow/cryo_cells)
 "bp" = (
@@ -1300,7 +1301,7 @@
 	})
 "cc" = (
 /obj/effect/step_trigger/clone_cleaner,
-/turf/open/floor/strata/green3/southwest,
+/turf/open/floor/prison/whitepurplecorner/west,
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
 	})
@@ -2114,7 +2115,7 @@
 /area/golden_arrow/supply)
 "dg" = (
 /obj/structure/machinery/computer/crew,
-/turf/open/floor/prison/sterile_white,
+/turf/open/floor/prison/whitegreenfull,
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
 	})
@@ -2805,7 +2806,7 @@
 /area/golden_arrow/supply)
 "dL" = (
 /obj/effect/step_trigger/clone_cleaner,
-/turf/open/floor/strata/green3/northeast,
+/turf/open/floor/prison/whitepurplecorner/north,
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
 	})
@@ -4227,6 +4228,9 @@
 	pixel_y = 10;
 	id = "upp_ladder1"
 	},
+/obj/structure/sign/safety/ladder{
+	pixel_x = -22
+	},
 /turf/open/floor/almayer/pod_landing_floor,
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
@@ -4246,6 +4250,9 @@
 /obj/structure/ladder{
 	pixel_y = 10;
 	id = "upp_ladder2"
+	},
+/obj/structure/sign/safety/ladder{
+	pixel_x = 35
 	},
 /turf/open/floor/almayer/pod_landing_floor,
 /area/golden_arrow/medical{
@@ -6083,6 +6090,17 @@
 /obj/structure/machinery/cm_vending/sorted/medical/wall_med/souto{
 	pixel_y = 29
 	},
+/obj/structure/bed/bedroll{
+	name = "Bosco's bed";
+	desc = "It's covered in bite marks."
+	},
+/obj/item/toy/plush/moth{
+	pixel_x = -6;
+	pixel_y = 7;
+	desc = "A worn-out plush of a big moth. It's been gnawed on quite a bit, presumably by either the Platoon Commander or Bosco. You aren't sure which.";
+	name = "Bosco's favorite chew toy"
+	},
+/mob/living/simple_animal/hostile/retaliate/giant_lizard/bosco,
 /turf/open/floor/prison/darkbrown3/west,
 /area/golden_arrow/supply)
 "jq" = (
@@ -6791,7 +6809,7 @@
 /area/golden_arrow/platoon_commander_rooms)
 "kq" = (
 /obj/effect/step_trigger/clone_cleaner,
-/turf/open/floor/strata/floor2,
+/turf/open/floor/prison/sterile_white,
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
 	})
@@ -6906,6 +6924,9 @@
 	color = "#d3d3d3";
 	pixel_x = -14;
 	pixel_y = 0
+	},
+/obj/structure/bed/hybrisa/hospital/hospitaldivider{
+	pixel_y = -8
 	},
 /turf/open/floor/prison/whitegreen/north,
 /area/golden_arrow/medical{
@@ -7874,7 +7895,7 @@
 /area/golden_arrow/dorms)
 "mK" = (
 /obj/effect/step_trigger/clone_cleaner,
-/turf/open/floor/strata/green3/west,
+/turf/open/floor/prison/whitepurple/west,
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
 	})
@@ -8313,7 +8334,7 @@
 	light_power = 0.8;
 	light_range = 5
 	},
-/turf/open/floor/strata/green4/west,
+/turf/open/floor/prison/whitepurple/southeast,
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
 	})
@@ -9387,7 +9408,7 @@
 /area/golden_arrow/dorms)
 "pV" = (
 /obj/effect/step_trigger/clone_cleaner,
-/turf/open/floor/strata/orange_edge/southwest,
+/turf/open/floor/prison/whitegreencorner/west,
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
 	})
@@ -9674,11 +9695,7 @@
 /turf/open/floor/prison/darkred2/north,
 /area/golden_arrow/platoonprep)
 "qu" = (
-/obj/effect/projector{
-	vector_x = -25;
-	vector_y = 5
-	},
-/turf/open/floor/strata/orange_cover,
+/turf/open/floor/prison/whitegreenfull,
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
 	})
@@ -9861,15 +9878,17 @@
 /turf/open/floor/hybrisa/tile/tilewhitecheckered/blue,
 /area/golden_arrow/canteen)
 "qS" = (
-/obj/structure/surface/table/reinforced/prison{
-	color = "#b7b8b2"
+/obj/structure/closet/emcloset{
+	pixel_x = 7;
+	pixel_y = 0
 	},
-/obj/item/storage/box/cups{
-	pixel_x = -5;
-	pixel_y = 10;
-	anchored = 1
+/obj/structure/reagent_dispensers/water_cooler{
+	density = 0;
+	pixel_x = -8;
+	pixel_y = 1;
+	layer = 4
 	},
-/turf/open/floor/prison/sterile_white,
+/turf/open/floor/prison/whitegreenfull,
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
 	})
@@ -10478,12 +10497,40 @@
 	},
 /turf/open/floor/prison/darkbrown2,
 /area/golden_arrow/supply)
+"sv" = (
+/turf/open/floor/prison/whitegreen,
+/area/golden_arrow/medical{
+	name = "\improper SSV Orzel"
+	})
+"sw" = (
+/obj/structure/bed/roller/hospital_empty/bigrollerempty3{
+	dir = 4;
+	icon_state = "bigrollerempty3_up"
+	},
+/turf/open/floor/prison/whitegreen,
+/area/golden_arrow/medical{
+	name = "\improper SSV Orzel"
+	})
+"sx" = (
+/obj/structure/machinery/bot/medbot,
+/turf/open/floor/prison/sterile_white,
+/area/golden_arrow/medical{
+	name = "\improper SSV Orzel"
+	})
 "sy" = (
 /obj/structure/machinery/suit_storage_unit/pressure_suit/upp{
 	pixel_x = 5
 	},
 /turf/open/floor/prison/floor_marked,
 /area/golden_arrow/prep_hallway)
+"sz" = (
+/obj/structure/bed/chair/office/light{
+	dir = 1
+	},
+/turf/open/floor/strata/cyan4/north,
+/area/golden_arrow/medical{
+	name = "\improper SSV Orzel"
+	})
 "sA" = (
 /obj/structure/closet/crate/trashcart,
 /obj/item/clothing/gloves/yellow,
@@ -10496,15 +10543,65 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/corsat,
 /area/golden_arrow/canteen)
+"sB" = (
+/turf/open/floor/prison/whitepurple,
+/area/golden_arrow/medical{
+	name = "\improper SSV Orzel"
+	})
 "sC" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/corsat,
 /area/golden_arrow/cryo_cells)
+"sD" = (
+/turf/open/floor/prison/whitepurple/southwest,
+/area/golden_arrow/medical{
+	name = "\improper SSV Orzel"
+	})
 "sE" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/prison/darkbrown2/southeast,
 /area/golden_arrow/canteen)
+"sF" = (
+/turf/open/floor/prison/whitepurple/southeast,
+/area/golden_arrow/medical{
+	name = "\improper SSV Orzel"
+	})
+"sG" = (
+/turf/open/floor/prison/darkredfull2,
+/area/golden_arrow/medical{
+	name = "\improper SSV Orzel"
+	})
+"sH" = (
+/turf/open/floor/prison/whitepurple/west,
+/area/golden_arrow/medical{
+	name = "\improper SSV Orzel"
+	})
+"sI" = (
+/obj/structure/prop/hybrisa/misc/concretestatue{
+	pixel_x = -15;
+	desc = "granit nauki";
+	pixel_y = 10
+	},
+/turf/open/floor/prison/darkredfull2,
+/area/golden_arrow/medical{
+	name = "\improper SSV Orzel"
+	})
+"sJ" = (
+/turf/open/floor/prison/whitepurple/east,
+/area/golden_arrow/medical{
+	name = "\improper SSV Orzel"
+	})
+"sK" = (
+/turf/open/floor/prison/whitepurple/northwest,
+/area/golden_arrow/medical{
+	name = "\improper SSV Orzel"
+	})
+"sL" = (
+/turf/open/floor/prison/whitepurple/northeast,
+/area/golden_arrow/medical{
+	name = "\improper SSV Orzel"
+	})
 "sM" = (
 /obj/structure/prop/invuln/lattice_prop{
 	icon_state = "lattice3";
@@ -10531,6 +10628,19 @@
 	},
 /turf/open/floor/corsat,
 /area/golden_arrow/hangar)
+"sP" = (
+/turf/open/floor/prison/whitepurple/north,
+/area/golden_arrow/medical{
+	name = "\improper SSV Orzel"
+	})
+"sQ" = (
+/obj/structure/machinery/newscaster{
+	pixel_y = 30
+	},
+/turf/open/floor/prison/whitepurple/north,
+/area/golden_arrow/medical{
+	name = "\improper SSV Orzel"
+	})
 "sS" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -10621,11 +10731,12 @@
 	name = "\improper SSV Orzel"
 	})
 "tb" = (
-/obj/effect/projector{
-	vector_x = -25;
-	vector_y = 5
+/obj/structure/prop/hybrisa/misc/stoneplanterseats{
+	dir = 2;
+	pixel_x = -16;
+	pixel_y = 20
 	},
-/turf/open/floor/strata/orange_edge/west,
+/turf/open/floor/prison/whitegreen/west,
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
 	})
@@ -10739,7 +10850,7 @@
 /area/golden_arrow/supply)
 "tO" = (
 /obj/effect/step_trigger/clone_cleaner,
-/turf/open/floor/strata/orange_edge/southeast,
+/turf/open/floor/prison/whitegreencorner,
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
 	})
@@ -10750,7 +10861,7 @@
 	light_power = 0.8;
 	light_range = 5
 	},
-/turf/open/floor/strata/green4/east,
+/turf/open/floor/prison/whitepurple/southwest,
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
 	})
@@ -10809,15 +10920,6 @@
 	},
 /turf/open/floor/prison,
 /area/golden_arrow/hangar)
-"ul" = (
-/obj/effect/projector{
-	vector_x = -25;
-	vector_y = 5
-	},
-/turf/open/floor/strata/orange_edge,
-/area/golden_arrow/medical{
-	name = "\improper SSV Orzel"
-	})
 "um" = (
 /obj/structure/prop/structure_lattice{
 	dir = 4;
@@ -11715,11 +11817,7 @@
 /turf/open/floor/prison/floor_plate,
 /area/golden_arrow/canteen)
 "yB" = (
-/obj/effect/projector{
-	vector_x = -25;
-	vector_y = 5
-	},
-/turf/open/floor/strata/orange_edge/north,
+/turf/open/floor/prison/whitegreen/north,
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
 	})
@@ -11879,7 +11977,19 @@
 	light_power = 0.8;
 	light_range = 4
 	},
-/turf/open/floor/prison/sterile_white,
+/obj/structure/surface/table/reinforced/prison{
+	color = "#b7b8b2"
+	},
+/obj/item/storage/box/cups{
+	pixel_x = -2;
+	pixel_y = 2;
+	anchored = 1
+	},
+/obj/structure/machinery/reagentgrinder{
+	pixel_y = 18;
+	pixel_x = 2
+	},
+/turf/open/floor/prison/whitegreenfull,
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
 	})
@@ -12273,7 +12383,7 @@
 	light_power = 0.8;
 	light_range = 5
 	},
-/turf/open/floor/strata/green4/north,
+/turf/open/floor/prison/whitepurple/northeast,
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
 	})
@@ -12692,7 +12802,7 @@
 /area/golden_arrow/platoonprep)
 "CX" = (
 /obj/effect/step_trigger/clone_cleaner,
-/turf/open/floor/strata/green3/southeast,
+/turf/open/floor/prison/whitepurplecorner,
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
 	})
@@ -13440,6 +13550,9 @@
 	color = "#d3d3d3";
 	pixel_x = -18
 	},
+/obj/structure/bed/hybrisa/hospital/hospitaldivider{
+	pixel_y = -8
+	},
 /turf/open/floor/prison/whitegreen/north,
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
@@ -13849,7 +13962,7 @@
 /area/golden_arrow/cryo_cells)
 "IF" = (
 /obj/effect/step_trigger/clone_cleaner,
-/turf/open/floor/strata/green3/northwest,
+/turf/open/floor/prison/whitepurplecorner/east,
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
 	})
@@ -14388,7 +14501,12 @@
 	vector_x = -25;
 	vector_y = 5
 	},
-/turf/open/floor/strata/orange_edge/east,
+/obj/structure/prop/hybrisa/misc/stoneplanterseats{
+	dir = 1;
+	pixel_x = -16;
+	pixel_y = 20
+	},
+/turf/open/floor/prison/whitegreen/east,
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
 	})
@@ -14570,14 +14688,17 @@
 /area/golden_arrow/hangar)
 "ME" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/closet/secure_closet/marine_personal/platoon_leader{
-	pixel_x = 9
-	},
 /obj/structure/machinery/light/small{
 	dir = 4;
 	light_color = "#e7c0a4";
 	light_power = 0.8;
 	light_range = 4
+	},
+/obj/structure/closet/secure_closet/marine_personal/rifleman{
+	pixel_x = 9
+	},
+/obj/structure/closet/secure_closet/marine_personal/rifleman{
+	pixel_x = -8
 	},
 /turf/open/floor/prison/floor_marked,
 /area/golden_arrow/cryo_cells)
@@ -15176,15 +15297,17 @@
 	})
 "Pk" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/closet/secure_closet/marine_personal/corpsman{
-	pixel_x = -8;
-	density = 0
-	},
 /obj/structure/machinery/light/small{
 	dir = 8;
 	light_color = "#e7c0a4";
 	light_power = 0.8;
 	light_range = 4
+	},
+/obj/structure/closet/secure_closet/marine_personal/rifleman{
+	pixel_x = -8
+	},
+/obj/structure/closet/secure_closet/marine_personal/rifleman{
+	pixel_x = 8
 	},
 /turf/open/floor/prison/floor_marked,
 /area/golden_arrow/cryo_cells)
@@ -15647,7 +15770,7 @@
 /area/golden_arrow/canteen)
 "Rn" = (
 /obj/effect/step_trigger/clone_cleaner,
-/turf/open/floor/strata/orange_edge/northeast,
+/turf/open/floor/prison/whitegreencorner/north,
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
 	})
@@ -16174,7 +16297,7 @@
 	})
 "TL" = (
 /obj/effect/step_trigger/clone_cleaner,
-/turf/open/floor/strata/green3/east,
+/turf/open/floor/prison/whitepurple/east,
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
 	})
@@ -16227,7 +16350,7 @@
 /area/golden_arrow/canteen)
 "TY" = (
 /obj/effect/step_trigger/clone_cleaner,
-/turf/open/floor/strata/orange_edge/northwest,
+/turf/open/floor/prison/whitegreencorner/east,
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
 	})
@@ -16398,7 +16521,7 @@
 	light_power = 0.8;
 	light_range = 5
 	},
-/turf/open/floor/strata/green4,
+/turf/open/floor/prison/whitepurple/northwest,
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
 	})
@@ -16705,10 +16828,10 @@
 /turf/open/floor/prison,
 /area/golden_arrow/supply)
 "VV" = (
-/obj/structure/closet/secure_closet/marine_personal/rifleman{
+/obj/effect/decal/cleanable/generic,
+/obj/structure/closet/secure_closet/marine_personal/platoon_leader{
 	pixel_x = 9
 	},
-/obj/effect/decal/cleanable/generic,
 /turf/open/floor/prison/cell_stripe/north,
 /area/golden_arrow/cryo_cells)
 "VY" = (
@@ -16754,13 +16877,11 @@
 /turf/open/floor/hybrisa/wood,
 /area/golden_arrow/canteen)
 "Wm" = (
-/obj/structure/reagent_dispensers/water_cooler{
-	density = 0;
-	pixel_x = -8;
-	pixel_y = 1;
-	layer = 4
+/obj/structure/bed/roller/hospital_empty/bigrollerempty3{
+	dir = 1;
+	icon_state = "bigrollerempty3_up"
 	},
-/turf/open/floor/prison/sterile_white,
+/turf/open/floor/prison/whitegreen,
 /area/golden_arrow/medical{
 	name = "\improper SSV Orzel"
 	})
@@ -21123,7 +21244,7 @@ CZ
 CZ
 Tz
 Nd
-au
+sz
 AM
 AM
 ak
@@ -23888,9 +24009,9 @@ Ki
 KD
 ky
 KD
-KP
-pQ
-fq
+sK
+sH
+sD
 KD
 Vp
 KD
@@ -24018,13 +24139,13 @@ KD
 KD
 KD
 KD
-KP
+sK
 mK
 IF
 kq
 cc
 mK
-fq
+sD
 KD
 KD
 Po
@@ -24152,8 +24273,8 @@ KD
 UE
 IF
 tO
-LM
-LM
+Ip
+Ip
 LM
 Rn
 cc
@@ -24281,20 +24402,20 @@ KD
 AD
 eZ
 xi
-xH
+sP
 kq
-ul
+sv
 qu
-qu
+sG
 qu
 yB
 kq
-zj
+sB
 Ya
 Yy
 lc
 FR
-qG
+sv
 qS
 KD
 wf
@@ -24413,20 +24534,20 @@ KD
 KD
 KD
 KD
-xH
+sQ
 kq
-ul
-qu
-qu
-qu
+sv
+sG
+sI
+sG
 yB
 kq
-zj
+sB
 XY
 xk
+sx
 qG
-qG
-qG
+sv
 zl
 KD
 wf
@@ -24545,20 +24666,20 @@ KD
 Re
 wv
 xi
-xH
+sP
 kq
-ul
+sv
 qu
-qu
+sG
 qu
 yB
 kq
-zj
+sB
 Ya
 SU
 Ip
 qL
-qG
+sv
 dg
 KD
 wf
@@ -24678,10 +24799,10 @@ ta
 VR
 KD
 By
-kq
+dL
 pV
-tb
-tb
+lc
+lc
 tb
 TY
 CX
@@ -24690,7 +24811,7 @@ KD
 kL
 xy
 GM
-qG
+sw
 KD
 KD
 wf
@@ -24810,13 +24931,13 @@ KD
 KD
 KD
 KD
-hj
+sL
 TL
 dL
 kq
 CX
 TL
-zU
+sF
 KD
 KD
 ey
@@ -24944,9 +25065,9 @@ dS
 KD
 ky
 KD
-hj
-pn
-zU
+sL
+sJ
+sF
 KD
 Vp
 KD
