@@ -24,6 +24,7 @@ United States Colonial Marines
 		SKILL_JTAC = SKILL_JTAC_BEGINNER,
 		SKILL_ENDURANCE = SKILL_ENDURANCE_TRAINED,
 		SKILL_POLICE = SKILL_POLICE_SKILLED,
+		SKILL_VEHICLE = SKILL_VEHICLE_SMALL,
 		)
 
 /datum/skills/combat_medic
@@ -85,7 +86,6 @@ United States Colonial Marines
 		SKILL_JTAC = SKILL_JTAC_BEGINNER,
 		SKILL_ENDURANCE = SKILL_ENDURANCE_MASTER,
 	)
-
 
 
 /datum/skills/specialist
