@@ -233,13 +233,13 @@
 	new_human.undershirt = "undershirt"
 	//back
 	add_random_satchel(new_human)
+	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/handful/shotgun/buckshot(new_human), WEAR_IN_BACK)
+	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/handful/shotgun/slug(new_human), WEAR_IN_BACK)
+	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/handful/shotgun/slug(new_human), WEAR_IN_BACK)
 	if(prob(50))
 		new_human.equip_to_slot_or_del(new /obj/item/storage/box/mre/wy(new_human), WEAR_IN_BACK)
 	else
 		new_human.equip_to_slot_or_del(new /obj/item/storage/box/mre/hdr(new_human), WEAR_IN_BACK)
-		new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/handful/shotgun/buckshot(new_human), WEAR_IN_BACK)
-		new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/handful/shotgun/slug(new_human), WEAR_IN_BACK)
-		new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/handful/shotgun/slug(new_human), WEAR_IN_BACK)
 	//face
 	if(prob(50))
 		add_facewrap(new_human)
@@ -468,6 +468,22 @@
 /datum/equipment_preset/scav/antitank/load_gear(mob/living/carbon/human/new_human)
 	new_human.undershirt = "undershirt"
 	//back
+	var/scav_backpack = rand(1,3)
+	switch(scav_backpack)
+		if(1)
+			new_human.equip_to_slot_or_del(new /obj/item/storage/backpack/lightpack(new_human), WEAR_BACK)
+		if(2)
+			new_human.equip_to_slot_or_del(new /obj/item/storage/backpack/lightpack/upp(new_human), WEAR_BACK)
+		if(3)
+			new_human.equip_to_slot_or_del(new /obj/item/storage/backpack/rmc/light(new_human), WEAR_BACK)
+	if(prob(50))
+		new_human.equip_to_slot_or_del(new /obj/item/storage/box/mre/wy(new_human), WEAR_IN_BACK)
+		new_human.equip_to_slot_or_del(new /obj/item/explosive/grenade/incendiary/molotov(new_human), WEAR_IN_BACK)
+		new_human.equip_to_slot_or_del(new /obj/item/explosive/grenade/incendiary/molotov(new_human), WEAR_IN_BACK)
+	else
+		new_human.equip_to_slot_or_del(new /obj/item/storage/box/mre/hdr(new_human), WEAR_IN_BACK)
+		new_human.equip_to_slot_or_del(new /obj/item/explosive/grenade/high_explosive/stick(new_human), WEAR_IN_BACK)
+		new_human.equip_to_slot_or_del(new /obj/item/explosive/grenade/high_explosive/stick(new_human), WEAR_IN_BACK)
 	new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/launcher/rocket/anti_tank/disposable(new_human), WEAR_R_HAND)
 	//face
 	var/scav_mask = rand(1,2)
@@ -580,16 +596,16 @@
 		new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/medkit/full_advanced, WEAR_L_STORE)
 
 /datum/equipment_preset/scav/shotgun/elite
-	name = "Scav, Marauder (Shotgun)"
+	name = "Scav, Marauder (Shotgun+)"
 	flags = EQUIPMENT_PRESET_EXTRA
 	idtype = /obj/item/card/id/lanyard
 	paygrades = list(PAY_SHORT_REB = JOB_PLAYTIME_TIER_0)
 	access = list(ACCESS_LIST_CLF_BASE)
 
-/datum/equipment_preset/scav/rifle/elite/get_assignment(mob/living/carbon/human/new_human)
+/datum/equipment_preset/scav/shotgun/elite/get_assignment(mob/living/carbon/human/new_human)
 	return "Mercenary"
 
-/datum/equipment_preset/scav/rifle/elite/load_gear(mob/living/carbon/human/new_human)
+/datum/equipment_preset/scav/shotgun/elite/load_gear(mob/living/carbon/human/new_human)
 	new_human.undershirt = "undershirt"
 	//back
 	var/scav_backpack = rand(1,3)
@@ -723,10 +739,10 @@
 	paygrades = list(PAY_SHORT_REB = JOB_PLAYTIME_TIER_0)
 	access = list(ACCESS_LIST_CLF_BASE)
 
-/datum/equipment_preset/scav/rifle/elite/get_assignment(mob/living/carbon/human/new_human)
+/datum/equipment_preset/scav/machinegun/get_assignment(mob/living/carbon/human/new_human)
 	return "Mercenary"
 
-/datum/equipment_preset/scav/rifle/elite/load_gear(mob/living/carbon/human/new_human)
+/datum/equipment_preset/scav/machinegun/load_gear(mob/living/carbon/human/new_human)
 	new_human.undershirt = "undershirt"
 	//back
 	var/scav_backpack = rand(1,3)
