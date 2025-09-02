@@ -4,6 +4,6 @@
 	donor_key = "limbobaggins"
 	donor_gear = list(
 		/obj/item/clothing/accessory/patch/ribbon/topography,
-		/obj/item/clothing/head/cmcap,
+		/obj/item/clothing/head/helmet/marine/fluff/lostmixup,
 		/obj/item/storage/beer_pack
 	)
