@@ -2188,6 +2188,10 @@
 	pixel_x = 3;
 	pixel_y = 7
 	},
+/obj/item/prop/helmetgarb/faceplate{
+	pixel_x = -8;
+	pixel_y = -6
+	},
 /turf/open/floor/prison,
 /area/golden_arrow/cryo_cells{
 	name = "\improper Cryo Deck"
@@ -2724,7 +2728,9 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/prop/invuln/dense{
 	icon = 'icons/obj/structures/machinery/hydroponics.dmi';
-	icon_state = "hydrotray4"
+	icon_state = "hydrotray4";
+	name = "korobochka";
+	desc = "eto korobochka"
 	},
 /obj/structure/prop/invuln/dense{
 	icon = 'icons/obj/structures/machinery/hydroponics.dmi';
