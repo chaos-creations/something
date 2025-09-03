@@ -3092,7 +3092,7 @@
 /obj/structure/surface/table/reinforced/prison,
 /obj/structure/phone_base/rotary{
 	name = "Squad Preparations Telephone";
-	phone_category = "Nomad";
+	phone_category = "USS Nomad";
 	phone_id = "Prep Room";
 	pixel_x = 10;
 	pixel_y = 6
@@ -3801,10 +3801,6 @@
 	pixel_y = 4
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/item/coin/requisitionpoint/five{
-	pixel_x = 7;
-	pixel_y = 3
-	},
 /turf/open/floor/corsat,
 /area/golden_arrow/shared_office{
 	name = "\improper Workshop"
@@ -3835,6 +3831,10 @@
 "fQ" = (
 /obj/structure/largecrate/supply/supplies/tables_racks,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/coin/requisitionpoint/five{
+	pixel_x = 3;
+	pixel_y = 10
+	},
 /turf/open/floor/corsat,
 /area/golden_arrow/shared_office{
 	name = "\improper Workshop"
@@ -5490,7 +5490,7 @@
 /obj/structure/phone_base{
 	dir = 8;
 	name = "RO Office Telephone";
-	phone_category = "Offices";
+	phone_category = "USS Nomad";
 	phone_id = "RO Office";
 	pixel_x = 16;
 	pixel_y = 0
@@ -8681,7 +8681,7 @@
 "pf" = (
 /obj/structure/machinery/door/airlock/almayer/command{
 	name = "\improper Mission Control Quarters";
-	req_one_access_txt = "19;22";
+	req_one_access_txt = "19;22;12";
 	req_access = null
 	},
 /turf/open/floor/almayer/pod_landing_floor,
@@ -8985,7 +8985,7 @@
 /obj/structure/sign/banners/united_americas_worn{
 	pixel_x = -5;
 	pixel_y = 66;
-	layer = 3
+	layer = 2
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/dark2,
@@ -9047,7 +9047,10 @@
 /obj/structure/phone_base/rotary{
 	pixel_x = 9;
 	pixel_y = 28;
-	layer = 3.2
+	layer = 3.2;
+	phone_category = "USS Nomad";
+	phone_id = "Bridge";
+	name = "Bridge telephone"
 	},
 /turf/open/floor/darkblue2/north,
 /area/golden_arrow/platoon_commander_rooms)
@@ -9062,7 +9065,7 @@
 /obj/structure/sign/banners/colonial_marines_flag_worn{
 	pixel_x = 4;
 	pixel_y = 33;
-	layer = 3
+	layer = 2
 	},
 /obj/structure/filingcabinet{
 	density = 0;
