@@ -1,38 +1,4 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"aaa" = (
-/obj/effect/decal/cleanable/blood{
-	icon_state = "gib5"
-	},
-/turf/open/floor/prison/bright_clean,
-/area/sekhmet/int_heavy/low_level_rsr)
-"aab" = (
-/obj/structure/sink{
-	pixel_y = 24;
-	layer = 3.1
-	},
-/obj/structure/toilet{
-	dir = 4;
-	pixel_x = -7;
-	pixel_y = 6
-	},
-/obj/effect/spawner/gibspawner/human,
-/turf/open/floor/strata/multi_tiles/southwest,
-/area/sekhmet/int_heavy/low_level_rsr)
-"aac" = (
-/obj/effect/spawner/gibspawner/human,
-/turf/open/floor/prison/bright_clean,
-/area/sekhmet/int_heavy/low_level_rsr)
-"aad" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "E";
-	pixel_x = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood{
-	icon_state = "csplatter4"
-	},
-/turf/open/floor/kutjevo/grey,
-/area/sekhmet/int_heavy/low_level_rsr)
 "aae" = (
 /obj/structure/machinery/light/small{
 	light_power = 0.25
@@ -45,257 +11,10 @@
 	},
 /turf/open/floor/strata/multi_tiles/west,
 /area/sekhmet/int_heavy/research)
-"aag" = (
-/obj/effect/decal/cleanable/blood{
-	icon_state = "csplatter3"
-	},
-/turf/open/floor/strata/green1,
-/area/sekhmet/int_heavy/low_level_rsr)
-"aah" = (
-/obj/effect/spawner/gibspawner/human,
-/turf/open/floor/strata/green1,
-/area/sekhmet/int_heavy/low_level_rsr)
-"aai" = (
-/obj/effect/decal/cleanable/blood{
-	icon_state = "csplatter6"
-	},
-/turf/open/floor/strata/green1,
-/area/sekhmet/int_heavy/low_level_rsr)
-"aaj" = (
-/obj/effect/decal/cleanable/blood{
-	icon_state = "mfloor5"
-	},
-/turf/open/floor/strata/green1,
-/area/sekhmet/int_heavy/low_level_rsr)
-"aak" = (
-/obj/effect/decal/cleanable/blood{
-	icon_state = "gib2"
-	},
-/turf/open/floor/prison/bright_clean,
-/area/sekhmet/int_heavy/low_level_rsr)
-"aal" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood{
-	icon_state = "mgibbl3"
-	},
-/turf/open/floor/prison/bright_clean2,
-/area/sekhmet/int_heavy/low_level_rsr)
-"aam" = (
-/obj/structure/machinery/light/small{
-	dir = 8;
-	light_power = 0.25
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/item/tool/surgery/scalpel{
-	pixel_x = 6;
-	pixel_y = 9
-	},
-/turf/open/floor/strata/multi_tiles/southwest,
-/area/sekhmet/int_heavy/low_level_rsr)
-"aan" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "E";
-	pixel_x = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/item/organ/brain{
-	pixel_x = -6;
-	pixel_y = -5
-	},
-/turf/open/floor/strata/multi_tiles/southwest,
-/area/sekhmet/int_heavy/low_level_rsr)
-"aao" = (
-/obj/effect/decal/cleanable/blood{
-	icon_state = "csplatter3"
-	},
-/turf/open/floor/prison/bright_clean2,
-/area/sekhmet/int_heavy/low_level_rsr)
-"aap" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood{
-	icon_state = "csplatter1"
-	},
-/turf/open/floor/prison/bright_clean2,
-/area/sekhmet/int_heavy/low_level_rsr)
-"aaq" = (
-/obj/effect/decal/cleanable/blood{
-	icon_state = "mfloor7"
-	},
-/turf/open/floor/prison/sterile_white,
-/area/sekhmet/int_heavy/low_level_rsr)
-"aar" = (
-/obj/item/storage/fancy/blackgoo{
-	pixel_x = -11;
-	pixel_y = 13
-	},
-/turf/open/floor/prison/sterile_white,
-/area/sekhmet/int_heavy/low_level_rsr)
-"aas" = (
-/obj/structure/barricade/wooden{
-	dir = 1;
-	layer = 3.1;
-	pixel_y = 19
-	},
-/turf/open/floor/prison/bright_clean2,
-/area/sekhmet/int_heavy/low_level_rsr)
-"aat" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/barricade/wooden{
-	dir = 1;
-	layer = 3.1;
-	pixel_y = 19
-	},
-/turf/open/floor/prison/bright_clean2,
-/area/sekhmet/int_heavy/low_level_rsr)
-"aau" = (
-/obj/structure/machinery/door/poddoor/shutters/almayer/open{
-	name = "Security Shutter";
-	id = "locklowrsr";
-	color = "#8B9490";
-	dir = 2;
-	pixel_y = -2
-	},
-/obj/structure/foamed_metal/iron,
-/turf/open/floor/plating/plating_catwalk/strata,
-/area/sekhmet/int_heavy/low_level_rsr)
-"aav" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/girder/reinforced{
-	layer = 3.2
-	},
-/obj/structure/barricade/wooden{
-	dir = 1;
-	layer = 3.1;
-	pixel_y = 19
-	},
-/turf/open/floor/prison/bright_clean2,
-/area/sekhmet/int_heavy/low_level_rsr)
 "aaw" = (
 /obj/structure/largecrate/random/case/double,
 /turf/open/floor/corsat,
 /area/sekhmet/int_heavy/low_level_gen)
-"aax" = (
-/obj/effect/decal/cleanable/blood{
-	icon_state = "gib1"
-	},
-/turf/open/floor/prison/bright_clean,
-/area/sekhmet/int_heavy/low_level_rsr)
-"aay" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "W"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/spawner/gibspawner/human,
-/turf/open/floor/strata/multi_tiles/southwest,
-/area/sekhmet/int_heavy/low_level_rsr)
-"aaz" = (
-/obj/structure/machinery/shower{
-	dir = 4
-	},
-/obj/structure/largecrate/random/barrel/brown{
-	pixel_x = -3;
-	pixel_y = 5
-	},
-/turf/open/floor/plating/plating_catwalk/strata,
-/area/sekhmet/int_heavy/low_level_rsr)
-"aaA" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "W"
-	},
-/obj/structure/largecrate/random/secure{
-	pixel_x = -13;
-	pixel_y = 1
-	},
-/obj/structure/largecrate/random/barrel{
-	pixel_x = 9;
-	pixel_y = 3
-	},
-/obj/structure/largecrate/random/case/small{
-	pixel_x = -5;
-	pixel_y = 16
-	},
-/turf/open/floor/prison/bright_clean2,
-/area/sekhmet/int_heavy/low_level_rsr)
-"aaB" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/largecrate/random/case/double{
-	pixel_x = 0;
-	pixel_y = 7
-	},
-/turf/open/floor/prison/bright_clean2,
-/area/sekhmet/int_heavy/low_level_rsr)
-"aaC" = (
-/obj/structure/stairs,
-/obj/structure/girder/reinforced,
-/turf/open/floor/prison/bright_clean2,
-/area/sekhmet/int_heavy/low_level_rsr)
-"aaD" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/light{
-	light_power = 0.5;
-	dir = 8
-	},
-/obj/structure/barricade/wooden{
-	dir = 2;
-	layer = 3.1
-	},
-/turf/open/floor/prison/bright_clean2,
-/area/sekhmet/int_heavy/low_level_rsr)
-"aaE" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/barricade/wooden{
-	dir = 2;
-	layer = 3.1
-	},
-/turf/open/floor/prison/bright_clean2,
-/area/sekhmet/int_heavy/low_level_rsr)
-"aaF" = (
-/obj/structure/barricade/wooden{
-	dir = 2;
-	layer = 3.1
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/corsat/squares,
-/area/sekhmet/int_heavy/low_level_rsr)
-"aaG" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/closed/wall/rock{
-	color = "#a39e99"
-	},
-/area/sekhmet/int_heavy/low_level_rsr)
-"aaH" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/prop/rock/black_ground,
-/turf/open/floor/prison/bright_clean2,
-/area/sekhmet/int_heavy/low_level_rsr)
-"aaI" = (
-/obj/structure/surface/table/reinforced/prison,
-/obj/item/paper/rover/lab{
-	pixel_x = -8;
-	pixel_y = 7
-	},
-/turf/open/floor/corsat/squares,
-/area/sekhmet/int_heavy/low_level_rsr)
-"aaJ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/prop/rock/black_ground{
-	dir = 10
-	},
-/turf/open/floor/prison/bright_clean2,
-/area/sekhmet/int_heavy/low_level_rsr)
-"aaK" = (
-/obj/structure/prop/rock/black_ground{
-	dir = 8
-	},
-/turf/open/floor/prison/bright_clean2,
-/area/sekhmet/int_heavy/low_level_rsr)
-"aaL" = (
-/obj/structure/barricade/wooden{
-	dir = 8;
-	layer = 3.1
-	},
-/turf/closed/wall/upp_wall/grey,
-/area/sekhmet/int_heavy/low_level_rsr)
 "abe" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/strata/red1,
@@ -8291,9 +8010,6 @@
 /obj/structure/platform_decoration/shiva/catwalk{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/blood{
-	icon_state = "gib3"
-	},
 /turf/open/floor/prison/bright_clean,
 /area/sekhmet/int_heavy/low_level_rsr)
 "fbA" = (
@@ -12507,7 +12223,6 @@
 	pixel_x = 6;
 	pixel_y = 12
 	},
-/obj/effect/spawner/gibspawner/human,
 /turf/open/floor/strata/green1,
 /area/sekhmet/int_heavy/low_level_rsr)
 "hvh" = (
@@ -13725,9 +13440,7 @@
 /obj/structure/stairs{
 	dir = 1
 	},
-/turf/closed/wall/rock{
-	color = "#a39e99"
-	},
+/turf/open/floor/prison/bright_clean2,
 /area/sekhmet/int_heavy/low_level_rsr)
 "ihO" = (
 /obj/structure/fence,
@@ -14794,14 +14507,6 @@
 "iRc" = (
 /obj/structure/machinery/shower{
 	dir = 4
-	},
-/obj/structure/largecrate/random/mini/wooden{
-	pixel_x = 5;
-	pixel_y = 10
-	},
-/obj/structure/largecrate/random/mini/ammo{
-	pixel_x = -5;
-	pixel_y = -1
 	},
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/sekhmet/int_heavy/low_level_rsr)
@@ -23324,7 +23029,6 @@
 	pixel_y = 30
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/spawner/gibspawner/human,
 /turf/open/floor/kutjevo/grey,
 /area/sekhmet/int_heavy/low_level_rsr)
 "obb" = (
@@ -23415,6 +23119,19 @@
 /obj/structure/flora/bush/ausbushes/palebush,
 /turf/open/auto_turf/strata_grass/layer1,
 /area/sekhmet/outside/airfield)
+"ocP" = (
+/obj/structure/machinery/door/airlock/multi_tile/upp_grey{
+	req_one_access = list(103,233,236,240,241)
+	},
+/obj/structure/machinery/door/poddoor/shutters/almayer/open{
+	name = "Security Shutter";
+	id = "locklowrsr";
+	color = "#8B9490";
+	dir = 2;
+	pixel_y = -2
+	},
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/sekhmet/int_heavy/low_level_rsr)
 "odi" = (
 /obj/structure/machinery/door/airlock/multi_tile/upp_grey{
 	req_one_access = list(103,233,236,240,241)
@@ -24975,7 +24692,6 @@
 	dir = 2;
 	pixel_y = -2
 	},
-/obj/structure/girder/displaced,
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/sekhmet/int_heavy/low_level_rsr)
 "paN" = (
@@ -33881,10 +33597,6 @@
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/sekhmet/int_heavy/low_level_rsr)
 "uKV" = (
-/obj/structure/barricade/wooden{
-	dir = 2;
-	layer = 3.1
-	},
 /turf/open/floor/corsat/squares,
 /area/sekhmet/int_heavy/low_level_rsr)
 "uLa" = (
@@ -37915,16 +37627,6 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "W"
 	},
-/obj/structure/barricade/wooden{
-	dir = 1;
-	layer = 3.1;
-	pixel_y = 19
-	},
-/obj/structure/surface/rack{
-	pixel_x = 0;
-	pixel_y = -3;
-	layer = 3.2
-	},
 /turf/open/floor/prison/bright_clean2,
 /area/sekhmet/int_heavy/low_level_rsr)
 "xlm" = (
@@ -38703,7 +38405,6 @@
 	light_power = 0.5;
 	dir = 8
 	},
-/obj/effect/spawner/gibspawner/human,
 /turf/open/floor/prison/bright_clean2,
 /area/sekhmet/int_heavy/low_level_rsr)
 "xNu" = (
@@ -93506,7 +93207,7 @@ lPw
 lPw
 sCx
 sCx
-aaL
+sCx
 cXR
 suu
 wik
@@ -94003,7 +93704,7 @@ wlv
 wlv
 sCx
 lXB
-aao
+kuO
 bhx
 uaz
 bhx
@@ -94161,7 +93862,7 @@ bhx
 sCx
 eYR
 sCx
-aaz
+iRc
 iRc
 sCx
 cfg
@@ -94169,7 +93870,7 @@ lVX
 lVX
 lVX
 lVX
-aag
+lVX
 ngC
 sCx
 sCx
@@ -94320,13 +94021,13 @@ lgN
 kuO
 kuO
 bhx
-aaD
-aaC
+coV
+lVF
 sOO
-aaA
+xkR
 xkR
 paH
-aas
+kuO
 lVX
 lVX
 hvd
@@ -94336,7 +94037,7 @@ bhx
 pOO
 pmA
 jnJ
-aac
+rtV
 sCx
 ani
 ani
@@ -94482,14 +94183,14 @@ kuO
 kuO
 kuO
 kuO
-aaE
+bhx
 lVF
 uHI
-aaB
-aav
-aau
-aat
-aap
+bhx
+bhx
+uHI
+bhx
+bhx
 qSU
 pNL
 lVX
@@ -94642,7 +94343,7 @@ bhx
 pBG
 kuO
 kuO
-aaI
+jVD
 xnK
 uKV
 lAB
@@ -94813,7 +94514,7 @@ wlv
 wlv
 sCx
 czt
-aaq
+tES
 tES
 lVF
 lVX
@@ -94975,11 +94676,11 @@ wlv
 wlv
 bSf
 fpp
-aar
+tES
 tES
 lVF
-aaj
-aah
+lVX
+lVX
 pHV
 sjY
 pmA
@@ -95127,10 +94828,10 @@ kuO
 kuO
 pBG
 bhx
-aaJ
+bhx
 jVD
 aqA
-aaF
+uKV
 sCx
 sCx
 pmA
@@ -95290,11 +94991,11 @@ bhx
 sCx
 kuO
 kuO
+kuO
+kuO
 bhx
-aaH
-aaE
 ihr
-ani
+ocP
 vXh
 hHP
 hHP
@@ -95451,18 +95152,18 @@ kuO
 bhx
 sCx
 vdy
-aaK
-bhx
+kuO
+kuO
 kRS
-aaG
+iDQ
 ihr
-ani
+uHI
 vXh
 aJo
 uwZ
 nSN
 hLF
-aal
+bhx
 jci
 lVX
 lVX
@@ -95616,8 +95317,8 @@ kcU
 sKp
 bhx
 sCx
-ani
-ani
+sCx
+sCx
 sCx
 idz
 cYU
@@ -95627,11 +95328,11 @@ fqo
 bhx
 way
 lVX
-aai
+lVX
 kuO
 bhx
 lVF
-aac
+rtV
 jnJ
 cRZ
 mMz
@@ -96110,7 +95811,7 @@ bjr
 gbt
 sCx
 rtl
-aam
+bjr
 hPi
 sCx
 ojK
@@ -96118,9 +95819,9 @@ eXJ
 rtV
 uvF
 rKX
-aad
+ojK
 sCx
-aab
+rtl
 sAv
 glA
 sCx
@@ -96272,7 +95973,7 @@ sKu
 sHJ
 sCx
 euU
-aan
+euU
 nWt
 sCx
 mwV
@@ -96592,9 +96293,9 @@ oCB
 uKt
 xNq
 rtV
-aax
 rtV
-aac
+rtV
+rtV
 rtV
 cwM
 rtV
@@ -96760,16 +96461,16 @@ snv
 sFL
 rtV
 rtV
-aak
+rtV
 rtV
 rtV
 jrX
 nSu
 rtV
-aac
+rtV
 jnJ
 cwM
-aaa
+rtV
 rtV
 eVd
 sCx
@@ -97078,7 +96779,7 @@ egj
 xmw
 sCx
 sHJ
-aay
+aAV
 aAV
 sCx
 sHJ
