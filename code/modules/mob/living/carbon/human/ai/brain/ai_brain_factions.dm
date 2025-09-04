@@ -1983,36 +1983,3 @@
 		"This gun's a piece of shit. Let me just-- there we go.",
 		"What-? FUCK! I'M OUT OF ROUNDS! RELOADING!",
 	)
-
-/datum/human_ai_faction/skeletons
-	faction = FACTION_UNDEAD
-	friendly_factions = list(
-		FACTION_XENOMORPH,
-	)
-	enter_combat_lines = list(
-		"Ж И В Ы Е...",
-		"Я   В А С   Ч У Ю...",
-		"В А М   Н Е   С Б Е Ж А Т Ь...",
-		"Я   У П О К О Ю   В А С...",
-		"Н Е   С О П Р О Т И В Л Я Й Т Е С Ь...",
-		"С Л Е Д У Й Т Е   З О В У...",
-	)
-	exit_combat_lines = list(
-		"Н И Ч Е Г О...",
-		"В С Ё   К О Н Ч Е Н О...",
-		"М Ы   З А С Т А В И М   И Х   П Р И С О Е Д И Н И Т Ь С Я...",
-		"О Н И   У Ш Л И...",
-		"В А М   З Д Е С Ь   Н Е    М Е С Т О...",
-	)
-	squad_member_death_lines = list(
-		"О Н   В О С С Т А Н Е Т   В Н О В Ь...",
-		"Э Т О   В Р Е М Е Н Н О...",
-		"Н А Ш И   С Т Р А Д А Н И Я   В Е Ч Н Ы...",
-		"О Н   С Н О В А   С О Б Е Р Ё Т   Н А С...",
-	)
-	reload_lines = list(
-		". . .",
-	)
-	reload_internal_mag_lines = list(
-		". . .",
-	)
