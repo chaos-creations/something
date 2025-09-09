@@ -154,3 +154,152 @@
 		list("One-Hundred-Credit Requisition Token", 50, /obj/item/coin/requisitionpoint/onehundred, VENDOR_ITEM_REGULAR),
 		list("Two-Hundred-Credit Requisition Token", 50, /obj/item/coin/requisitionpoint/twohundred, VENDOR_ITEM_REGULAR)
 	)
+
+#define JOB_UPP_SYNTH_ASCLEPIUS "Replicant"
+
+/obj/item/device/radio/headset/almayer/marine/solardevils/mari
+	name = "\improper Soyuz headset"
+	desc = "A special headset used by Mari."
+	icon_state = "eng_headset"
+	item_state = "eng_headset"
+
+/obj/item/clothing/under/marine/veteran/owlf/mari
+	name = "\improper Soyuz Biological Uniform"
+	desc = "placeholder"
+
+/obj/item/clothing/mask/owlf_mask/mari
+	name = "\improper Soyuz bio mask"
+	desc = "placeholder"
+
+/obj/item/clothing/mask/gas/kutjevo/mari
+	name = "\improper Soyuz gas mask"
+	desc = "placeholder"
+
+/obj/item/clothing/under/rank/synthetic/joe/engi/overalls/mari
+	name = "\improper Soyuz Hazardous Uniform"
+	desc = "placeholder"
+
+/obj/item/clothing/gloves/marine/joe/mari
+	name = "\improper Soyuz hazardous gloves"
+	desc = "placeholder"
+
+/datum/equipment_preset/upp/synth/mari
+	name = "\improper Soyuz Replicant"
+	flags = EQUIPMENT_PRESET_EXTRA
+	languages = ALL_SYNTH_LANGUAGES_UPP
+	skills = /datum/skills/synthetic
+	assignment = "Replicant"
+	rank = JOB_UPP_COMBAT_SYNTH
+	paygrades = list(PAY_SHORT_SYN = JOB_PLAYTIME_TIER_0)
+	access = list(ACCESS_UPP_GENERAL, ACCESS_UPP_SECURITY, ACCESS_UPP_ARMORY, ACCESS_UPP_FLIGHT, ACCESS_UPP_SQUAD_ONE, ACCESS_UPP_SQUAD_TWO, ACCESS_UPP_LEADERSHIP, ACCESS_UPP_SENIOR_LEAD, ACCESS_UPP_MEDPREP, ACCESS_UPP_TLPREP, ACCESS_MARINE_AI, ACCESS_ARES_DEBUG)
+	idtype = /obj/item/card/id
+/*
+/datum/equipment_preset/upp/synth/mari/load_gear(mob/living/carbon/human/new_human)
+	//back
+	//face
+	new_human.equip_to_slot_or_del(new /obj/item/device/radio/headset/almayer/marine/solardevils/mari, WEAR_L_EAR)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/mask/surgical, WEAR_FACE)
+	//head
+	//uniform
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/marine/veteran/owlf, WEAR_BODY)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/storage/owlf_vest, WEAR_ACCESSORY)
+	//jacket
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/storage/labcoat/officer, WEAR_JACKET)
+	//waist
+	new_human.equip_to_slot_or_del(new /obj/item/storage/belt/marine/upp/full, WEAR_WAIST)
+	//limbs
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/marine/upp, WEAR_FEET)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/gloves/latex, WEAR_HANDS)
+	//pockets
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/mask/owlf_mask, WEAR_R_STORE)
+*/
+/datum/equipment_preset/upp/synth/mari/load_gear(mob/living/carbon/human/new_human)
+	var/dressvariety = rand(1,3)
+	switch(dressvariety)
+		if(1)
+			//back
+			//face
+			new_human.equip_to_slot_or_del(new /obj/item/device/radio/headset/almayer/marine/solardevils/mari, WEAR_L_EAR)
+			new_human.equip_to_slot_or_del(new /obj/item/clothing/mask/surgical, WEAR_FACE)
+			//head
+			//uniform
+			new_human.equip_to_slot_or_del(new /obj/item/clothing/under/marine/veteran/owlf/mari, WEAR_BODY)
+			//jacket
+			new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/storage/labcoat/officer, WEAR_JACKET)
+			//waist
+			//limbs
+			new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/marine/upp, WEAR_FEET)
+			new_human.equip_to_slot_or_del(new /obj/item/clothing/gloves/latex, WEAR_HANDS)
+			//pockets
+			new_human.equip_to_slot_or_del(new /obj/item/clothing/mask/owlf_mask/mari, WEAR_R_STORE)
+		if(2)
+			//back
+			//face
+			new_human.equip_to_slot_or_del(new /obj/item/device/radio/headset/almayer/marine/solardevils/mari, WEAR_L_EAR)
+			new_human.equip_to_slot_or_del(new /obj/item/clothing/mask/gas/kutjevo/mari, WEAR_FACE)
+			//head
+			//uniform
+			new_human.equip_to_slot_or_del(new /obj/item/clothing/under/rank/synthetic/joe/engi/overalls/mari, WEAR_BODY)
+			//jacket
+			new_human.equip_to_slot_or_del(new /obj/item/maintenance_jack, WEAR_J_STORE)
+			//waist
+			//limbs
+			new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/marine/joe, WEAR_FEET)
+			new_human.equip_to_slot_or_del(new /obj/item/clothing/gloves/marine/joe/mari, WEAR_HANDS)
+			//pockets
+			new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/sling, WEAR_R_STORE)
+			new_human.equip_to_slot_or_del(new /obj/item/device/working_joe_pda, WEAR_IN_R_STORE)
+		if(3)
+			//back
+			new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/smartgun/upp, WEAR_BACK)
+			//face
+			new_human.equip_to_slot_or_del(new /obj/item/device/radio/headset/almayer/marine/solardevils/mari, WEAR_L_EAR)
+			new_human.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/upp, WEAR_HEAD)
+			new_human.equip_to_slot_or_del(new /obj/item/clothing/mask/gas/pmc/upp, WEAR_FACE)
+			new_human.equip_to_slot_or_del(new /obj/item/clothing/glasses/night/m56_goggles/upp, WEAR_EYES)
+			//jacket
+			new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/marine/smartgunner/upp, WEAR_JACKET)
+			new_human.equip_to_slot_or_del(new /obj/item/storage/backpack/general_belt/upp, WEAR_J_STORE)
+			new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/smartgun/upp, WEAR_IN_J_STORE)
+			new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/smartgun/upp, WEAR_IN_J_STORE)
+			new_human.equip_to_slot_or_del(new /obj/item/smartgun_battery/upp, WEAR_IN_J_STORE)
+			new_human.equip_to_slot_or_del(new /obj/item/smartgun_battery/upp, WEAR_IN_J_STORE)
+			//uniform
+			new_human.equip_to_slot_or_del(new /obj/item/clothing/under/marine/veteran/UPP, WEAR_BODY)
+			//waist
+			new_human.equip_to_slot_or_del(new /obj/item/storage/belt/gun/type47/revolver, WEAR_WAIST)
+			//limbs
+			new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/marine/upp/guard, WEAR_FEET)
+			new_human.equip_to_slot_or_del(new /obj/item/clothing/gloves/marine/brown, WEAR_HANDS)
+			//pockets
+			new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/explosive/upp, WEAR_L_STORE)
+			new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/tools/uppsynth, WEAR_R_STORE)
+
+// dlya remonta
+
+/obj/item/prop/almayer/repair
+	name = "placeholder"
+	desc = "placeholder"
+	icon = 'something/icons/missed_stuff.dmi'
+	icon_state = "box_crate"
+	w_class = SIZE_LARGE
+
+/obj/item/prop/almayer/repair/repair_kit
+	name = "Universal Repair Kit"
+	desc = "A compact toolbox containing basic and advanced tools, along with standard consumables. Suitable for patching walls, fixing floors, and handling general maintenance tasks."
+	icon_state = "box_crate"
+
+/obj/item/prop/almayer/repair/rk_structural
+	name = "Structural Repair Pack"
+	desc = "A package of prefabricated wall panels, floor tiles, paint, and cosmetic trims. Designed for restoring both stability and the original look of rooms."
+	icon_state = "box_w"
+
+/obj/item/prop/almayer/repair/rk_electronics
+	name = "Electronic Repair Set"
+	desc = "A container with circuit boards, wiring spools, stabilizers, and control modules. Used to restore damaged terminals, power lines, and automated systems."
+	icon_state = "box_ecrate"
+
+/obj/item/prop/almayer/repair/rk_material
+	name = "Construction Materials Pack"
+	desc = "A bundle of raw supplies: metal sheets, insulation rolls, adhesives, and sealing compounds. Provides the base resources needed for room restoration."
+	icon_state = "box_z"

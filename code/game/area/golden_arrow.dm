@@ -4,9 +4,8 @@
 	ceiling = CEILING_HULL_METAL
 	powernet_name = "golden_arrow"
 	sound_environment = SOUND_ENVIRONMENT_ROOM
-	soundscape_playlist = SCAPE_PL_SCAVENGER
-	soundscape_interval = 60
-	ambience_exterior = AMBIENCE_SHIP_SCAVENGER
+	soundscape_interval = 30
+	ambience_exterior = AMBIENCE_SHIP
 	ceiling_muffle = FALSE
 
 /area/golden_arrow/hangar
