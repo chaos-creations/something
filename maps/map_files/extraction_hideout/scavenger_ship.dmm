@@ -18306,9 +18306,9 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/obj/structure/inventory_machine{
-	density = 0;
+/obj/structure/personal_stash{
 	pixel_y = -32;
+	density = 0;
 	light_color = "#e7c0a4"
 	},
 /turf/open/floor/prison/darkredfull2,
@@ -23547,9 +23547,9 @@
 /obj/structure/machinery/door/window{
 	dir = 2
 	},
-/obj/structure/inventory_machine{
-	density = 0;
+/obj/structure/personal_stash{
 	pixel_y = 32;
+	density = 0;
 	light_color = "#e7c0a4"
 	},
 /turf/open/floor/prison/darkredfull2,
