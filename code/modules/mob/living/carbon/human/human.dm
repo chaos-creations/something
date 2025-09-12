@@ -1726,3 +1726,7 @@
 
 	return .
 
+/mob/living/carbon/human/get_accent_icon()
+    if(accent_prefix && accent_prefix != "")
+        return "[icon2html('icons/accent_tags.dmi', GLOB.clients, accent_prefix)] "
+    return ""
