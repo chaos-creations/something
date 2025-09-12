@@ -1,4 +1,22 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aaa" = (
+/obj/structure/window/framed/strata/hull,
+/obj/structure/machinery/door/firedoor/border_only,
+/obj/structure/window/phoronreinforced/full{
+	not_damageable = 1;
+	not_deconstructable = 1;
+	health = 9000
+	},
+/obj/structure/machinery/door/firedoor/border_only/almayer,
+/turf/open/floor/corsat,
+/area/scavenger_ship/logistics_engo)
+"aab" = (
+/obj/structure/window/framed/strata/hull,
+/obj/structure/machinery/door/firedoor/border_only/almayer{
+	dir = 2
+	},
+/turf/open/floor/corsat,
+/area/scavenger_ship/logistics_engo)
 "aad" = (
 /obj/structure/machinery/light/double{
 	dir = 2;
@@ -334,6 +352,7 @@
 	name = "\improper Chief Engineer's Office"
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/door/firedoor/border_only/almayer,
 /turf/open/floor/almayer/test_floor4,
 /area/scavenger_ship/logistics_engo)
 "arx" = (
@@ -1584,6 +1603,9 @@
 	name = "\improper Core Hatch";
 	dir = 1;
 	req_one_access = list(19,7)
+	},
+/obj/structure/machinery/door/firedoor/border_only/almayer{
+	dir = 2
 	},
 /turf/open/floor/almayer/test_floor4,
 /area/scavenger_ship/logistics_engo)
@@ -5379,6 +5401,7 @@
 "erL" = (
 /obj/structure/machinery/door/airlock/almayer/engineering,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/door/firedoor/border_only/almayer,
 /turf/open/floor/almayer/test_floor4,
 /area/scavenger_ship/logistics_engo)
 "erS" = (
@@ -5880,6 +5903,9 @@
 	not_damageable = 1;
 	not_deconstructable = 1;
 	health = 9000
+	},
+/obj/structure/machinery/door/firedoor/border_only/almayer{
+	dir = 2
 	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_engo)
@@ -10325,6 +10351,9 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/door/firedoor/border_only/almayer{
+	dir = 2
+	},
 /turf/open/floor/almayer/test_floor4,
 /area/scavenger_ship/logistics_engo)
 "iyb" = (
@@ -12344,6 +12373,7 @@
 	dir = 5
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/door/firedoor/border_only/almayer,
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_engo)
 "kiP" = (
@@ -14347,6 +14377,7 @@
 /obj/structure/pipes/standard/simple/visible/yellow{
 	dir = 6
 	},
+/obj/structure/machinery/door/firedoor/border_only/almayer,
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_engo)
 "lJV" = (
@@ -19606,6 +19637,9 @@
 /obj/structure/machinery/door/airlock/prison_hatch{
 	dir = 1
 	},
+/obj/structure/machinery/door/firedoor/border_only/almayer{
+	dir = 2
+	},
 /turf/open/floor/almayer/test_floor4,
 /area/scavenger_ship/logistics_engo)
 "qar" = (
@@ -20999,6 +21033,7 @@
 	name = "\improper Core Hatch";
 	req_one_access = list(19,7)
 	},
+/obj/structure/machinery/door/firedoor/border_only/almayer,
 /turf/open/floor/almayer/test_floor4,
 /area/scavenger_ship/logistics_engo)
 "rnc" = (
@@ -23469,6 +23504,7 @@
 /obj/structure/pipes/standard/manifold/visible/yellow{
 	dir = 4
 	},
+/obj/structure/machinery/door/firedoor/border_only/almayer,
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_engo)
 "twt" = (
@@ -24669,6 +24705,9 @@
 /area/scavenger_ship/logistics_engoffice)
 "uBr" = (
 /obj/structure/window/framed/strata/reinforced,
+/obj/structure/machinery/door/firedoor/border_only/almayer{
+	dir = 2
+	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_engo)
 "uCc" = (
@@ -28497,6 +28536,9 @@
 /obj/structure/machinery/door/airlock/almayer/maint{
 	dir = 1;
 	req_one_access = list(19,7)
+	},
+/obj/structure/machinery/door/firedoor/border_only/almayer{
+	dir = 2
 	},
 /turf/open/floor/almayer/test_floor4,
 /area/scavenger_ship/logistics_engo)
@@ -47766,7 +47808,7 @@ rhS
 mCK
 aJD
 rhS
-cHD
+aab
 akg
 jyC
 mcb
@@ -47938,7 +47980,7 @@ rhS
 mCK
 aJD
 rhS
-cHD
+aab
 vpm
 rnc
 nva
@@ -48110,7 +48152,7 @@ rhS
 mCK
 aJD
 rhS
-cHD
+aab
 vpm
 cMM
 coO
@@ -49144,9 +49186,9 @@ rhS
 rhS
 pLW
 pLW
-eLX
-eLX
-eLX
+aaa
+aaa
+aaa
 pLW
 nek
 qeW
@@ -49486,7 +49528,7 @@ rhS
 mCK
 aJD
 rhS
-cHD
+aab
 qLq
 aCV
 hmc
@@ -49658,7 +49700,7 @@ rhS
 mCK
 aJD
 rhS
-cHD
+aab
 niR
 opK
 sjU
@@ -49830,7 +49872,7 @@ rhS
 mCK
 aJD
 rhS
-cHD
+aab
 fFg
 wHq
 ecv
