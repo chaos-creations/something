@@ -1,142 +1,29 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"aaa" = (
-/turf/closed/shuttle/midway/transparent{
-	icon_state = "22"
-	},
-/area/taipei/hangar)
-"aab" = (
-/turf/closed/shuttle/midway/transparent{
-	icon_state = "27"
-	},
-/area/taipei/hangar)
-"aac" = (
-/obj/effect/attach_point/fuel/midway{
-	attach_id = 10;
-	dir = 1
-	},
-/obj/structure/prop/hybrisa/airport/dropshipenginedamage,
-/turf/closed/shuttle/midway/transparent{
-	icon_state = "28"
-	},
-/area/taipei/hangar)
-"aad" = (
-/turf/closed/shuttle/midway{
-	icon_state = "31"
-	},
-/area/taipei/hangar)
-"aae" = (
-/obj/effect/attach_point/fuel/midway{
-	pixel_x = -32;
-	attach_id = 11;
-	dir = 1
-	},
-/turf/closed/shuttle/midway/transparent{
-	icon_state = "33"
-	},
-/area/taipei/hangar)
-"aaf" = (
-/turf/closed/shuttle/midway/transparent{
-	icon_state = "34"
-	},
-/area/taipei/hangar)
 "aag" = (
-/turf/closed/shuttle/midway{
-	icon_state = "36"
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice4";
+	pixel_x = -16;
+	pixel_y = 31
 	},
-/area/taipei/hangar)
-"aah" = (
-/turf/closed/shuttle/midway/transparent{
-	icon_state = "39"
-	},
-/area/taipei/hangar)
-"aai" = (
-/obj/structure/shuttle/part/midway/transparent{
-	icon_state = "40"
-	},
-/turf/open/floor/plating,
-/area/taipei/hangar)
-"aaj" = (
-/turf/closed/shuttle/midway{
-	icon_state = "47"
-	},
-/area/taipei/hangar)
-"aak" = (
-/obj/structure/platform_decoration{
-	dir = 4
-	},
-/obj/structure/platform_decoration{
-	dir = 8
-	},
-/turf/open/shuttle/dropship/light_grey_single_wide_up_to_down,
-/area/taipei/hangar)
-"aal" = (
-/turf/closed/shuttle/midway{
-	icon_state = "48"
-	},
-/area/taipei/hangar)
-"aam" = (
-/obj/structure/shuttle/part/midway/transparent{
-	icon_state = "41"
-	},
-/turf/open/floor/plating,
-/area/taipei/hangar)
-"aan" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
-/area/taipei/hangar)
-"aao" = (
-/obj/structure/shuttle/part/midway/transparent{
-	icon_state = "61"
+/turf/open/floor/almayer/edge/smooth/endcap_left/east,
+/area/taipei/hangar/cargoshuttle)
+"aak" = (
+/obj/structure/cargo_container/horizontal/blue/bottom,
+/turf/open/floor/almayer/edge/east,
+/area/taipei/hangar/cargoshuttle)
+"aan" = (
+/obj/structure/cargo_container/arious/leftmid,
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_x = 16;
+	pixel_y = -1
 	},
-/obj/effect/attach_point/weapon/midway/left_wing,
-/turf/open/floor/plating,
-/area/taipei/hangar)
-"aap" = (
-/turf/closed/shuttle/midway{
-	icon_state = "62"
-	},
-/area/taipei/hangar)
-"aaq" = (
-/obj/structure/shuttle/part/midway/transparent{
-	icon_state = "66"
-	},
-/turf/open/floor/plating,
-/area/taipei/hangar)
-"aar" = (
-/obj/effect/decal/cleanable/generic,
-/obj/structure/bed/chair/dropship/passenger/folded{
-	pixel_y = 8;
-	buckling_y = 8
-	},
-/turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
-/area/taipei/hangar)
-"aas" = (
-/obj/structure/machinery/light/double{
-	dir = 4;
-	light_color = "#e7c0a4";
-	light_power = 0.8;
-	light_range = 5
-	},
-/turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
-/area/taipei/hangar)
-"aat" = (
-/obj/structure/shuttle/part/midway/transparent{
-	icon_state = "70"
-	},
-/turf/open/floor/plating,
-/area/taipei/hangar)
-"aau" = (
-/obj/structure/shuttle/part/midway/transparent{
-	icon_state = "71"
-	},
-/turf/open/floor/plating,
-/area/taipei/hangar)
-"aav" = (
-/obj/structure/shuttle/part/midway/transparent{
-	icon_state = "74"
-	},
-/turf/open/floor/plating,
-/area/taipei/hangar)
+/obj/structure/catwalk,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison/bright_clean2,
+/area/taipei/hangar/cargoshuttle)
 "aaw" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "1-2"
@@ -148,116 +35,6 @@
 	},
 /turf/open/floor/corsat/marked,
 /area/taipei/maints/south)
-"aax" = (
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/obj/structure/machinery/door/airlock/hatch/cockpit/four,
-/turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
-/area/taipei/hangar)
-"aay" = (
-/obj/structure/shuttle/part/midway/transparent{
-	icon_state = "85"
-	},
-/obj/effect/attach_point/weapon/midway/left_fore,
-/turf/open/floor/plating,
-/area/taipei/hangar)
-"aaz" = (
-/obj/structure/machinery/door/poddoor/shutters/almayer/open{
-	name = "Privacy Shutter";
-	id = "ds1";
-	dir = 4
-	},
-/turf/closed/shuttle/midway/transparent{
-	icon_state = "86a"
-	},
-/area/taipei/hangar)
-"aaA" = (
-/obj/structure/stairs/perspective{
-	dir = 1;
-	icon_state = "p_stair_full";
-	pixel_y = 22
-	},
-/turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
-/area/taipei/hangar)
-"aaB" = (
-/obj/structure/machinery/door/poddoor/shutters/almayer/open{
-	name = "Privacy Shutter";
-	id = "ds1";
-	dir = 4
-	},
-/turf/closed/shuttle/midway/transparent{
-	icon_state = "89a"
-	},
-/area/taipei/hangar)
-"aaC" = (
-/obj/structure/shuttle/part/midway/transparent{
-	icon_state = "90"
-	},
-/obj/effect/attach_point/weapon/midway/right_fore,
-/turf/open/floor/plating,
-/area/taipei/hangar)
-"aaD" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "4-8"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/pipes/standard/simple/hidden/supply/no_boom{
-	dir = 4
-	},
-/obj/structure/barricade/metal/wired{
-	dir = 4;
-	icon_state = "metal_3"
-	},
-/turf/open/floor/kutjevo,
-/area/taipei/atrium/medbay)
-"aaE" = (
-/obj/structure/machinery/door/airlock/almayer/maint/colony/autoname{
-	welded = 1
-	},
-/obj/structure/cable/heavyduty{
-	icon_state = "4-8"
-	},
-/obj/structure/pipes/standard/simple/hidden/supply/no_boom{
-	dir = 4
-	},
-/turf/open/floor/corsat/marked,
-/area/taipei/maints/south)
-"aaF" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "4-8"
-	},
-/obj/structure/pipes/standard/simple/hidden/supply/no_boom{
-	dir = 4
-	},
-/obj/item/explosive/mine/active/no_iff{
-	dir = 4
-	},
-/turf/open/floor/plating/plating_catwalk/prison,
-/area/taipei/maints/south)
-"aaG" = (
-/obj/structure/shuttle/part/midway/transparent{
-	icon_state = "99a"
-	},
-/turf/open/floor/plating,
-/area/taipei/hangar)
-"aaH" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2"
-	},
-/obj/structure/pipes/standard/simple/hidden/supply/no_boom,
-/obj/effect/decal/cleanable/blood,
-/turf/open/floor/kutjevo/colors/cyan/edge/west,
-/area/taipei/atrium/medbay)
-"aaI" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2"
-	},
-/obj/structure/pipes/standard/simple/hidden/supply/no_boom,
-/obj/structure/barricade/plasteel/wired{
-	dir = 1;
-	icon_state = "plasteel_closed_1"
-	},
-/turf/open/floor/kutjevo/colors/cyan/edge/west,
-/area/taipei/atrium/medbay)
 "aaJ" = (
 /obj/structure/platform/kutjevo{
 	dir = 1
@@ -270,720 +47,6 @@
 	},
 /turf/open/floor/kutjevo/fake_wood,
 /area/taipei/theatre)
-"aaK" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/toy/desk/fan{
-	pixel_x = 14;
-	pixel_y = 1
-	},
-/obj/structure/machinery/faxmachine/backpack{
-	pixel_x = -4;
-	pixel_y = 4
-	},
-/turf/open/floor/kutjevo,
-/area/taipei/atrium/medbay)
-"aaL" = (
-/obj/structure/prop/invuln/lattice_prop{
-	icon_state = "lattice2";
-	pixel_x = 6;
-	pixel_y = 19
-	},
-/obj/structure/cable/heavyduty{
-	icon_state = "4-8"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/pipes/standard/simple/hidden/supply/no_boom{
-	dir = 4
-	},
-/obj/item/explosive/mine/active/no_iff{
-	dir = 8
-	},
-/turf/open/floor/prison,
-/area/taipei/maints/south)
-"aaM" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "4-8"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/pipes/standard/simple/hidden/supply/no_boom{
-	dir = 4
-	},
-/obj/structure/barricade/metal/wired{
-	dir = 8;
-	icon_state = "metal_3"
-	},
-/turf/open/floor/kutjevo,
-/area/taipei/atrium/medbay)
-"aaN" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood,
-/obj/item/limb/hand/l_hand{
-	dir = 1;
-	pixel_x = 9;
-	pixel_y = 3
-	},
-/turf/open/floor/kutjevo,
-/area/taipei/atrium/medbay)
-"aaO" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/camera{
-	dir = 8
-	},
-/turf/open/floor/prison,
-/area/taipei/telecomms)
-"aaP" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/vehicle_spawner/tank/desert/fixed/minigun,
-/turf/open/floor/plating/asteroidfloor,
-/area/taipei/atrium)
-"aaQ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/stack/yautja_rope,
-/turf/open/floor/plating/asteroidfloor,
-/area/taipei/atrium)
-"aaR" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/item/stack/yautja_rope,
-/turf/open/floor/plating/asteroidfloor,
-/area/taipei/atrium)
-"aaS" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/light/double{
-	dir = 1
-	},
-/obj/structure/prop/brazier/campfire,
-/turf/open/floor/plating/asteroidfloor,
-/area/taipei/atrium)
-"aaT" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/camera{
-	dir = 8
-	},
-/turf/open/floor/prison,
-/area/taipei/telecomms)
-"aaU" = (
-/obj/structure/platform_decoration/kutjevo{
-	dir = 1
-	},
-/obj/structure/barricade/razorwire,
-/turf/open/floor/plating/asteroidfloor,
-/area/taipei/atrium)
-"aaV" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/barricade/razorwire,
-/turf/open/floor/kutjevo/tan,
-/area/taipei/atrium)
-"aaW" = (
-/obj/structure/barricade/razorwire,
-/turf/open/floor/plating/asteroidfloor,
-/area/taipei/atrium)
-"aaX" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/girder/reinforced,
-/turf/open/floor/plating/asteroidfloor,
-/area/taipei/atrium)
-"aaY" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/barricade/metal/plasteel/wired,
-/turf/open/floor/kutjevo/tan/grey_edge/southwest,
-/area/taipei/atrium)
-"aaZ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/barricade/metal/plasteel/wired,
-/turf/open/floor/kutjevo/tan,
-/area/taipei/atrium)
-"aba" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/barricade/deployable,
-/turf/open/floor/kutjevo/tan,
-/area/taipei/atrium)
-"abb" = (
-/obj/structure/barricade/deployable,
-/turf/open/floor/kutjevo/tan,
-/area/taipei/atrium)
-"abc" = (
-/obj/structure/barricade/metal/plasteel/wired{
-	dir = 4
-	},
-/obj/structure/barricade/metal/plasteel/wired,
-/turf/open/floor/kutjevo/tan/grey_inner_edge/west,
-/area/taipei/atrium)
-"abd" = (
-/obj/structure/barricade/razorwire{
-	dir = 4
-	},
-/turf/open/floor/plating/asteroidfloor,
-/area/taipei/atrium)
-"abe" = (
-/obj/structure/barricade/metal/plasteel/wired{
-	dir = 4
-	},
-/turf/open/floor/kutjevo/tan/grey_edge/east,
-/area/taipei/atrium)
-"abf" = (
-/obj/structure/machinery/light/double{
-	dir = 1
-	},
-/obj/structure/barricade/razorwire{
-	dir = 4
-	},
-/turf/open/floor/plating/asteroidfloor,
-/area/taipei/atrium)
-"abg" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/barricade/metal/wired,
-/turf/open/floor/kutjevo/tan/grey_edge/east,
-/area/taipei/atrium/offices)
-"abh" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/barricade/plasteel/metal,
-/turf/open/floor/kutjevo/tan,
-/area/taipei/atrium/offices)
-"abi" = (
-/obj/structure/barricade/metal/wired,
-/turf/open/floor/kutjevo/tan,
-/area/taipei/atrium/offices)
-"abj" = (
-/obj/structure/prop/invuln/lattice_prop{
-	icon_state = "lattice12";
-	pixel_x = 16;
-	pixel_y = -8
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/hybrisa/tiretrack,
-/turf/open/floor/plating/asteroidwarning/east,
-/area/taipei/maints/north)
-"abk" = (
-/obj/structure/prop/invuln/lattice_prop{
-	icon_state = "lattice12";
-	pixel_x = 16;
-	pixel_y = -8
-	},
-/obj/structure/machinery/light{
-	dir = 4;
-	light_power = 0.5
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/hybrisa/tiretrack,
-/turf/open/floor/asteroidwarning/west,
-/area/taipei/maints/north)
-"abl" = (
-/obj/structure/prop/invuln/lattice_prop{
-	icon_state = "lattice2";
-	pixel_x = 6;
-	pixel_y = 19
-	},
-/obj/structure/cable/heavyduty{
-	icon_state = "4-8"
-	},
-/obj/structure/pipes/standard/simple/hidden/supply/no_boom{
-	dir = 4
-	},
-/obj/item/explosive/mine/active/no_iff{
-	dir = 8
-	},
-/turf/open/floor/prison,
-/area/taipei/maints/north)
-"abm" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/hybrisa/tiretrack,
-/turf/open/floor/plating/asteroidwarning/east,
-/area/taipei/maints/north)
-"abn" = (
-/obj/structure/prop/invuln/lattice_prop{
-	icon_state = "lattice4";
-	pixel_x = -16;
-	pixel_y = 24
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/hybrisa/tiretrack,
-/turf/open/floor/plating/asteroidwarning/east,
-/area/taipei/maints/north)
-"abo" = (
-/obj/structure/prop/invuln/lattice_prop{
-	icon_state = "lattice12";
-	pixel_x = 16;
-	pixel_y = -8
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/hybrisa/tiretrack,
-/turf/open/floor/asteroidwarning/west,
-/area/taipei/maints/north)
-"abp" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/hybrisa/tiretrack,
-/turf/open/floor/plating/asteroidwarning/east,
-/area/taipei/maints/north)
-"abq" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/hybrisa/tiretrack,
-/turf/open/floor/asteroidwarning/west,
-/area/taipei/maints/north)
-"abr" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/hybrisa/tiretrack,
-/turf/open/floor/asteroidwarning/west,
-/area/taipei/maints/north)
-"abs" = (
-/obj/structure/surface/table,
-/obj/item/reagent_container/food/drinks/bottle/davenport,
-/turf/open/floor/bar,
-/area/taipei/atrium/restaurant)
-"abt" = (
-/obj/structure/surface/table,
-/obj/effect/decal/cleanable/dirt,
-/obj/item/reagent_container/food/drinks/bottle/kahlua,
-/turf/open/floor/bar,
-/area/taipei/atrium/restaurant)
-"abu" = (
-/obj/structure/prop/invuln/lattice_prop{
-	icon_state = "lattice12";
-	pixel_x = 16;
-	pixel_y = -8
-	},
-/obj/structure/machinery/light{
-	dir = 4;
-	light_power = 0.5
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/hybrisa/tiretrack,
-/turf/open/floor/asteroidwarning/west,
-/area/taipei/maints/north)
-"abv" = (
-/obj/structure/surface/table,
-/obj/item/weapon/gun/rifle/m16{
-	pixel_x = 13;
-	pixel_y = 6
-	},
-/turf/open/floor/kutjevo/tan,
-/area/taipei/atrium/offices)
-"abw" = (
-/obj/structure/surface/table,
-/obj/item/reagent_container/food/drinks/bottle/vermouth,
-/turf/open/floor/bar,
-/area/taipei/atrium/restaurant)
-"abx" = (
-/obj/structure/surface/table,
-/obj/item/ammo_magazine/rifle/m16{
-	pixel_x = 16;
-	pixel_y = -1
-	},
-/obj/item/ammo_magazine/rifle/m16{
-	pixel_x = 3;
-	pixel_y = -10
-	},
-/obj/item/ammo_magazine/rifle/mar40/lmg{
-	pixel_x = 2;
-	pixel_y = 7
-	},
-/turf/open/floor/kutjevo/tan,
-/area/taipei/atrium/offices)
-"aby" = (
-/obj/structure/surface/table,
-/obj/item/weapon/gun/rifle/m16{
-	pixel_x = 6;
-	pixel_y = 9
-	},
-/turf/open/floor/kutjevo/tan/grey_edge/west,
-/area/taipei/atrium/offices)
-"abz" = (
-/obj/structure/surface/table,
-/obj/item/weapon/gun/rifle/mar40/lmg{
-	pixel_x = -10;
-	pixel_y = -2
-	},
-/obj/item/storage/box/attachments{
-	pixel_x = 0;
-	pixel_y = 13
-	},
-/turf/open/floor/kutjevo/tan,
-/area/taipei/atrium/offices)
-"abA" = (
-/obj/structure/prop/invuln/lattice_prop{
-	icon_state = "lattice4";
-	pixel_x = -16;
-	pixel_y = 24
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/hybrisa/tiretrack,
-/turf/open/floor/plating/asteroidwarning/east,
-/area/taipei/maints/north)
-"abB" = (
-/obj/structure/surface/table,
-/obj/item/reagent_container/food/drinks/bottle/cognac,
-/turf/open/floor/bar,
-/area/taipei/atrium/restaurant)
-"abC" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "4-8"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/pipes/standard/simple/hidden/supply/no_boom{
-	dir = 4
-	},
-/obj/structure/barricade/metal/plasteel/wired{
-	dir = 4
-	},
-/turf/open/floor/kutjevo/tan,
-/area/taipei/atrium/offices)
-"abD" = (
-/obj/structure/barricade/handrail/strata{
-	pixel_y = -4
-	},
-/obj/structure/cable/heavyduty{
-	icon_state = "4-8"
-	},
-/obj/structure/pipes/standard/simple/hidden/supply/no_boom{
-	dir = 4
-	},
-/obj/item/explosive/mine/active/no_iff{
-	dir = 4
-	},
-/turf/open/floor/plating/plating_catwalk/prison,
-/area/taipei/maints/north)
-"abE" = (
-/obj/structure/surface/table,
-/obj/effect/decal/cleanable/dirt,
-/obj/item/reagent_container/food/drinks/bottle/wine,
-/turf/open/floor/bar,
-/area/taipei/atrium/restaurant)
-"abF" = (
-/obj/structure/surface/table,
-/obj/item/reagent_container/food/drinks/bottle/sake,
-/turf/open/floor/bar,
-/area/taipei/atrium/restaurant)
-"abG" = (
-/obj/structure/prop/invuln/lattice_prop{
-	icon_state = "lattice12";
-	pixel_x = 16;
-	pixel_y = -8
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/hybrisa/tiretrack,
-/turf/open/floor/plating/asteroidwarning/east,
-/area/taipei/maints/north)
-"abH" = (
-/obj/structure/prop/invuln/lattice_prop{
-	icon_state = "lattice12";
-	pixel_x = 16;
-	pixel_y = -8
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/hybrisa/tiretrack,
-/turf/open/floor/asteroidwarning/west,
-/area/taipei/maints/north)
-"abI" = (
-/obj/structure/surface/table,
-/obj/item/reagent_container/food/drinks/drinkingglass{
-	pixel_x = 10;
-	pixel_y = 14
-	},
-/obj/item/reagent_container/food/drinks/bottle/vermouth,
-/turf/open/floor/bar,
-/area/taipei/atrium/restaurant)
-"abJ" = (
-/obj/structure/prop/invuln/lattice_prop{
-	icon_state = "lattice4";
-	pixel_x = -16;
-	pixel_y = 24
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/hybrisa/tiretrack,
-/turf/open/floor/plating/asteroidwarning/east,
-/area/taipei/maints/north)
-"abK" = (
-/obj/structure/prop/invuln/lattice_prop{
-	icon_state = "lattice12";
-	pixel_x = 16;
-	pixel_y = -8
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/hybrisa/tiretrack,
-/turf/open/floor/plating/asteroidwarning/east,
-/area/taipei/maints/north)
-"abL" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/hybrisa/tiretrack,
-/turf/open/floor/plating/asteroidwarning/east,
-/area/taipei/maints/north)
-"abM" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/largecrate/empty/case/double,
-/turf/open/floor/plating/asteroidwarning/east,
-/area/taipei/maints/north)
-"abN" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/largecrate/empty/case/double,
-/turf/open/floor/plating/asteroidwarning/west,
-/area/taipei/maints/north)
-"abO" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/largecrate/empty/case{
-	pixel_x = -5;
-	pixel_y = -3
-	},
-/turf/open/floor/plating/asteroidwarning/east,
-/area/taipei/maints/north)
-"abP" = (
-/obj/effect/decal/cleanable/blood{
-	icon_state = "csplatter3"
-	},
-/turf/open/floor/plating/asteroidfloor,
-/area/taipei/maints/north)
-"abQ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/barricade/metal/wired{
-	icon_state = "metal_1"
-	},
-/turf/open/floor/plating/asteroidwarning/west,
-/area/taipei/maints/north)
-"abR" = (
-/obj/structure/prop/invuln/overhead_pipe{
-	dir = 8;
-	pixel_x = 6;
-	pixel_y = 6
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/item/trash/uscm_mre{
-	pixel_x = 11;
-	pixel_y = -5
-	},
-/obj/item/explosive/grenade/high_explosive/stick,
-/turf/open/floor/plating/asteroidwarning/east,
-/area/taipei/maints/north)
-"abS" = (
-/obj/structure/prop/invuln/overhead_pipe{
-	dir = 8;
-	pixel_x = 6;
-	pixel_y = 6
-	},
-/obj/item/prop/colony/usedbandage{
-	dir = 10
-	},
-/obj/effect/decal/ammo_casing/bullet,
-/turf/open/floor/plating/asteroidfloor,
-/area/taipei/maints/north)
-"abT" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood,
-/turf/open/floor/asteroidwarning/north,
-/area/taipei/maints/north)
-"abU" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/barricade/metal/wired{
-	dir = 8;
-	icon_state = "metal_3"
-	},
-/obj/effect/decal/ammo_casing/bullet,
-/turf/open/floor/plating/asteroidwarning/northeast,
-/area/taipei/maints/north)
-"abV" = (
-/obj/item/ammo_box/magazine/l54/empty,
-/turf/open/floor/plating/asteroidfloor,
-/area/taipei/maints/north)
-"abW" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/ammo_casing/bullet,
-/turf/open/floor/plating/asteroidwarning/northwest,
-/area/taipei/maints/north)
-"abX" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/prop/colony/used_flare,
-/obj/item/ammo_magazine/pistol/l54{
-	pixel_x = 7;
-	pixel_y = 9;
-	current_rounds = 0
-	},
-/turf/open/floor/asteroidwarning/north,
-/area/taipei/maints/north)
-"abY" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/barricade/metal/wired{
-	dir = 4;
-	icon_state = "metal_1"
-	},
-/obj/effect/decal/ammo_casing/redshell,
-/obj/item/weapon/gun/pistol/l54/unloaded,
-/turf/open/floor/asteroidwarning/north,
-/area/taipei/maints/north)
-"abZ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood,
-/turf/open/floor/asteroidwarning/north,
-/area/taipei/maints/north)
-"aca" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/hybrisa/tiretrack{
-	dir = 9
-	},
-/turf/open/floor/plating/asteroidfloor,
-/area/taipei/maints/north)
-"acb" = (
-/obj/effect/decal/hybrisa/tiretrack{
-	dir = 8;
-	pixel_y = 8
-	},
-/turf/open/floor/plating/asteroidfloor,
-/area/taipei/maints/north)
-"acc" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/hybrisa/tiretrack{
-	dir = 6
-	},
-/turf/open/floor/plating/asteroidfloor,
-/area/taipei/maints/north)
-"acd" = (
-/obj/structure/barricade/plasteel/wired{
-	dir = 8;
-	icon_state = "plasteel_closed_1"
-	},
-/turf/open/floor/plating/asteroidfloor,
-/area/taipei/maints/north)
-"ace" = (
-/obj/effect/decal/cleanable/blood{
-	icon_state = "csplatter5"
-	},
-/obj/effect/decal/ammo_casing/bullet,
-/turf/open/floor/plating/asteroidfloor,
-/area/taipei/maints/north)
-"acf" = (
-/obj/effect/spawner/gibspawner/human,
-/turf/open/floor/plating/asteroidfloor,
-/area/taipei/maints/north)
-"acg" = (
-/obj/structure/prop/invuln/lattice_prop{
-	icon_state = "lattice3";
-	pixel_x = 6;
-	pixel_y = 19
-	},
-/obj/item/trash/twe_mre,
-/turf/open/floor/plating/asteroidfloor,
-/area/taipei/maints/north)
-"ach" = (
-/obj/item/prop/colony/usedbandage{
-	dir = 10
-	},
-/obj/effect/decal/ammo_casing/redshell,
-/turf/open/floor/plating/asteroidfloor,
-/area/taipei/maints/north)
-"aci" = (
-/obj/structure/barricade/plasteel/wired{
-	icon_state = "plasteel_2";
-	dir = 4
-	},
-/turf/open/floor/plating/asteroidfloor,
-/area/taipei/maints/north)
-"acj" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/hybrisa/tiretrack{
-	dir = 9;
-	pixel_y = 0
-	},
-/turf/open/floor/plating/asteroidfloor/north,
-/area/taipei/maints/north)
-"ack" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/hybrisa/tiretrack{
-	dir = 8;
-	pixel_y = 8
-	},
-/turf/open/floor/asteroidwarning,
-/area/taipei/maints/north)
-"acl" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/hybrisa/tiretrack{
-	dir = 6;
-	pixel_x = -6
-	},
-/turf/open/floor/plating/asteroidfloor/north,
-/area/taipei/maints/north)
-"acm" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/hybrisa/tiretrack,
-/turf/open/floor/plating/asteroidfloor/north,
-/area/taipei/maints/north)
-"acn" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood,
-/turf/open/floor/asteroidwarning,
-/area/taipei/maints/north)
-"aco" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/largecrate/empty{
-	pixel_x = 7;
-	pixel_y = 8
-	},
-/turf/open/floor/asteroidwarning,
-/area/taipei/maints/north)
-"acp" = (
-/obj/structure/prop/invuln/lattice_prop{
-	icon_state = "lattice2";
-	pixel_x = 6;
-	pixel_y = 19
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/largecrate/empty,
-/obj/structure/largecrate/empty{
-	pixel_x = -8;
-	pixel_y = 18
-	},
-/turf/open/floor/asteroidwarning,
-/area/taipei/maints/north)
-"acq" = (
-/obj/structure/barricade/metal/wired{
-	dir = 8;
-	icon_state = "metal_1"
-	},
-/obj/effect/decal/ammo_casing/bullet,
-/turf/open/floor/asteroidwarning,
-/area/taipei/maints/north)
-"acr" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/prop/colony/used_flare,
-/obj/effect/decal/ammo_casing/bullet,
-/turf/open/floor/asteroidwarning,
-/area/taipei/maints/north)
-"acs" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/prop/colony/usedbandage{
-	dir = 4
-	},
-/turf/open/floor/asteroidwarning,
-/area/taipei/maints/north)
-"act" = (
-/obj/structure/prop/invuln/lattice_prop{
-	icon_state = "lattice2";
-	pixel_x = 6;
-	pixel_y = 19
-	},
-/obj/effect/decal/ammo_casing/bullet,
-/obj/effect/decal/ammo_casing/redshell,
-/turf/open/floor/asteroidwarning,
-/area/taipei/maints/north)
 "acu" = (
 /obj/structure/barricade/handrail/strata{
 	dir = 4;
@@ -991,52 +54,6 @@
 	},
 /turf/open/floor/plating/asteroidfloor/north,
 /area/taipei/reactor/chamber)
-"acv" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood{
-	icon_state = "csplatter1"
-	},
-/obj/effect/decal/ammo_casing/redshell,
-/turf/open/floor/asteroidwarning,
-/area/taipei/maints/north)
-"acw" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/barricade/metal/wired{
-	dir = 4;
-	icon_state = "metal_3"
-	},
-/obj/item/explosive/grenade/high_explosive/m15/rubber,
-/turf/open/floor/asteroidwarning,
-/area/taipei/maints/north)
-"acx" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood,
-/turf/open/floor/asteroidwarning,
-/area/taipei/maints/north)
-"acy" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/hybrisa/tiretrack,
-/turf/open/floor/asteroidwarning/north,
-/area/taipei/maints/north)
-"acz" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/ammo_magazine/hardpoint/ltaaap_minigun,
-/turf/open/floor/plating/asteroidfloor/north,
-/area/taipei/reactor)
-"acA" = (
-/obj/item/hardpoint/holder/tank_turret,
-/turf/open/floor/plating/asteroidfloor/north,
-/area/taipei/reactor)
-"acB" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/item/hardpoint/locomotion/treads,
-/turf/open/floor/plating/asteroidwarning/west,
-/area/taipei/reactor)
 "acC" = (
 /obj/structure/machinery/light/small{
 	light_color = "#C02526";
@@ -1048,6 +65,53 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/taipei/elevator/departures)
+"acD" = (
+/turf/closed/shuttle/ert{
+	icon_state = "leftengine_1";
+	opacity = 0
+	},
+/area/taipei/hangar/cargoshuttle)
+"acE" = (
+/turf/closed/shuttle/ert{
+	icon_state = "twe1"
+	},
+/area/taipei/hangar/cargoshuttle)
+"acF" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/generic2/autoname,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/edge,
+/area/taipei/hangar/cargoshuttle)
+"acG" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/edge,
+/area/taipei/hangar/cargoshuttle)
+"acH" = (
+/turf/closed/shuttle/ert{
+	icon_state = "twe2"
+	},
+/area/taipei/hangar/cargoshuttle)
+"acI" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/generic2/autoname,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/edge,
+/area/taipei/hangar/cargoshuttle)
+"acJ" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/edge,
+/area/taipei/hangar/cargoshuttle)
+"acK" = (
+/turf/closed/shuttle/ert{
+	icon_state = "twe3"
+	},
+/area/taipei/hangar/cargoshuttle)
+"acL" = (
+/turf/closed/shuttle/ert{
+	icon_state = "rightengine_1";
+	opacity = 0
+	},
+/area/taipei/hangar/cargoshuttle)
 "acM" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -1055,6 +119,93 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/asteroidfloor/north,
 /area/taipei/hangar)
+"acN" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/floor,
+/area/taipei/hangar/cargoshuttle)
+"acO" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/floor,
+/area/taipei/hangar/cargoshuttle)
+"acP" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/floor,
+/area/taipei/hangar/cargoshuttle)
+"acQ" = (
+/turf/closed/shuttle/ert{
+	icon_state = "leftengine_3";
+	opacity = 0
+	},
+/area/taipei/hangar/cargoshuttle)
+"acR" = (
+/turf/closed/shuttle/ert{
+	icon_state = "rightengine_3";
+	opacity = 0
+	},
+/area/taipei/hangar/cargoshuttle)
+"acS" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/edge/smooth/southeast,
+/area/taipei/hangar/cargoshuttle)
+"acT" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/closed/shuttle/ert{
+	icon_state = "twe9"
+	},
+/area/taipei/hangar/cargoshuttle)
+"acU" = (
+/turf/closed/shuttle/ert{
+	icon_state = "twe_rightengine"
+	},
+/area/taipei/hangar/cargoshuttle)
+"acV" = (
+/turf/open/floor/almayer/edge/east,
+/area/taipei/hangar/cargoshuttle)
+"acW" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice8";
+	pixel_x = 16;
+	pixel_y = 31
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/edge/smooth/endcap_right/west,
+/area/taipei/hangar/cargoshuttle)
+"acX" = (
+/obj/structure/barricade/handrail/type_b,
+/obj/structure/catwalk,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison/bright_clean2,
+/area/taipei/hangar/cargoshuttle)
+"acY" = (
+/turf/closed/shuttle/ert{
+	icon_state = "twe20"
+	},
+/area/taipei/hangar/cargoshuttle)
+"acZ" = (
+/turf/closed/shuttle/ert{
+	icon_state = "twe21"
+	},
+/area/taipei/hangar/cargoshuttle)
+"ada" = (
+/turf/closed/shuttle/ert{
+	icon_state = "twe22"
+	},
+/area/taipei/hangar/cargoshuttle)
+"adb" = (
+/turf/closed/shuttle/ert{
+	icon_state = "twe23"
+	},
+/area/taipei/hangar/cargoshuttle)
+"adc" = (
+/turf/closed/shuttle/ert{
+	icon_state = "twe25"
+	},
+/area/taipei/hangar/cargoshuttle)
 "add" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "1-2"
@@ -1064,6 +215,58 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/corsat/marked,
+/area/taipei/maints/north)
+"ade" = (
+/turf/closed/shuttle/ert{
+	icon_state = "twe27"
+	},
+/area/taipei/hangar/cargoshuttle)
+"adf" = (
+/obj/structure/bed/chair/comfy{
+	dir = 1;
+	pixel_y = 14
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/kutjevo,
+/area/taipei/atrium/medbay)
+"adg" = (
+/obj/structure/surface/table,
+/obj/item/toy/desk/fan{
+	pixel_x = -4;
+	pixel_y = 4
+	},
+/turf/open/floor/kutjevo/colors/cyan/edge/north,
+/area/taipei/atrium/medbay)
+"adh" = (
+/obj/item/hardpoint/locomotion/van_wheels{
+	pixel_x = 12;
+	pixel_y = 14
+	},
+/turf/open/floor/plating/asteroidfloor/north,
+/area/taipei/hangar)
+"adi" = (
+/obj/structure/bed/chair/comfy{
+	dir = 1;
+	pixel_y = 14
+	},
+/turf/open/floor/kutjevo/tan,
+/area/taipei/atrium/offices)
+"adj" = (
+/obj/structure/bed/chair/comfy{
+	dir = 1;
+	pixel_y = 14
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/kutjevo/tan,
+/area/taipei/atrium/offices)
+"adk" = (
+/obj/structure/blocker/invisible_wall,
+/turf/closed/wall/almayer/outer,
+/area/taipei/maints/north)
+"adl" = (
+/obj/structure/blocker/invisible_wall,
+/obj/effect/decal/cleanable/dirt,
+/turf/closed/wall/almayer/outer,
 /area/taipei/maints/north)
 "adM" = (
 /obj/structure/prop/invuln/lattice_prop{
@@ -1186,10 +389,6 @@
 /area/taipei/elevator/departures)
 "aip" = (
 /obj/structure/surface/table/reinforced,
-/obj/item/storage/box/mre/hdr,
-/obj/item/storage/box/mre/hdr,
-/obj/item/storage/box/mre/hdr,
-/obj/item/storage/box/mre/hdr,
 /turf/open/floor/prison/sterile_white,
 /area/taipei/atrium/restaurant)
 "aiw" = (
@@ -1335,12 +534,13 @@
 /turf/open/floor/plating/asteroidfloor/north,
 /area/taipei/hangar)
 "aoh" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood{
-	icon_state = "csplatter1"
+/obj/structure/platform{
+	dir = 1
 	},
-/turf/open/shuttle/dropship/light_grey_top_right,
-/area/taipei/hangar)
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/edge/east,
+/area/taipei/hangar/cargoshuttle)
 "aol" = (
 /obj/structure/machinery/light{
 	dir = 4;
@@ -1442,24 +642,12 @@
 /area/taipei/maints/north)
 "aus" = (
 /obj/structure/surface/table,
-/obj/item/prop{
-	desc = "Сломанная снайперская винтовка, большая часть внутренних компонентов либо грубо выдернуты, либо сломаны. Может быть я смогу это починить?";
-	icon = 'icons/obj/items/weapons/guns/guns_by_faction/uscm.dmi';
-	icon_state = "m42a";
-	name = "\improper Broken M42A scoped rifle";
-	pixel_y = 4;
-	force = 10;
-	pixel_x = -16
+/obj/structure/machinery/prop/almayer/computer/PC{
+	pixel_y = 6
 	},
-/obj/item/map/new_varadero{
-	pixel_x = -1;
-	pixel_y = 16;
-	desc = "На карте множество пометок с разными надписями, в основном информация об укреплённых пунктах. В самом правом нижнем углу обведена огромная область с кратером, возможно там что-то ценное."
-	},
-/obj/item/ammo_magazine/sniper/basic{
-	current_rounds = 0;
-	pixel_y = 1;
-	pixel_x = 6
+/obj/structure/window/reinforced{
+	dir = 8;
+	health = 250
 	},
 /turf/open/floor/kutjevo/tan/grey_edge/west,
 /area/taipei/atrium/offices)
@@ -1603,14 +791,17 @@
 /turf/open/floor/asteroidwarning/west,
 /area/taipei/maints/south)
 "azN" = (
-/obj/structure/machinery/door/poddoor/shutters/almayer/open{
-	name = "Privacy Shutter";
-	id = "ds1"
+/obj/structure/machinery/computer/cameras{
+	pixel_x = -9;
+	pixel_y = 0
 	},
-/turf/closed/shuttle/midway/transparent{
-	icon_state = "97a"
+/obj/structure/machinery/computer/cameras/hangar{
+	pixel_x = 8;
+	pixel_y = 0
 	},
-/area/taipei/hangar)
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/edge,
+/area/taipei/hangar/cargoshuttle)
 "aAh" = (
 /obj/structure/machinery/light{
 	dir = 8;
@@ -2150,7 +1341,6 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/hybrisa/tiretrack,
 /turf/open/floor/plating/asteroidwarning/west,
 /area/taipei/maints/north)
 "aZQ" = (
@@ -2181,10 +1371,13 @@
 /turf/open/floor/strata/faux_wood,
 /area/taipei/atrium/hotel)
 "bav" = (
-/obj/effect/decal/ammo_casing/redshell,
-/obj/structure/prop/brazier/campfire,
-/turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
-/area/taipei/hangar)
+/obj/structure/largecrate/supply/powerloader{
+	pixel_x = 0;
+	pixel_y = 3
+	},
+/obj/structure/catwalk,
+/turf/open/floor/prison/bright_clean2,
+/area/taipei/hangar/cargoshuttle)
 "baP" = (
 /obj/structure/prop/invuln/lattice_prop{
 	icon_state = "lattice3";
@@ -2279,7 +1472,6 @@
 /area/taipei/atrium)
 "bel" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/hybrisa/tiretrack,
 /turf/open/floor/plating/asteroidwarning/northwest,
 /area/taipei/maints/north)
 "beM" = (
@@ -2478,7 +1670,6 @@
 /turf/open/floor/carpet6_2,
 /area/taipei/atrium/hotel)
 "bnV" = (
-/obj/effect/decal/cleanable/blood,
 /turf/open/floor/kutjevo/colors/cyan/edge/east,
 /area/taipei/atrium/medbay)
 "bnX" = (
@@ -2518,10 +1709,10 @@
 /turf/open/floor/prison,
 /area/taipei/hangar)
 "bof" = (
-/turf/closed/shuttle/midway{
-	icon_state = "104"
-	},
-/area/taipei/hangar)
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/edge/smooth/endcap_right/north,
+/area/taipei/hangar/cargoshuttle)
 "boK" = (
 /obj/item/trash/candy{
 	pixel_y = -13
@@ -2854,14 +2045,12 @@
 /turf/open/floor/carpet7_3/west,
 /area/taipei/theatre)
 "bBD" = (
-/obj/structure/shuttle/part/midway/transparent{
-	icon_state = "46"
+/obj/structure/machinery/light/blue{
+	dir = 8
 	},
-/obj/structure/shuttle/part/midway/transparent{
-	icon_state = "41"
-	},
-/turf/open/floor/plating,
-/area/taipei/hangar)
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/edge/smooth/endcap_right/east,
+/area/taipei/hangar/cargoshuttle)
 "bBX" = (
 /obj/structure/window/framed/corsat,
 /obj/structure/machinery/door/poddoor/shutters/almayer/open,
@@ -2999,7 +2188,6 @@
 /turf/open/floor/plating/asteroidwarning/east,
 /area/taipei/maints/north)
 "bFK" = (
-/obj/structure/barricade/razorwire,
 /turf/open/floor/kutjevo/tan/grey_edge/east,
 /area/taipei/atrium)
 "bFN" = (
@@ -3009,10 +2197,11 @@
 /turf/open/floor/floor4,
 /area/taipei/atrium/restaurant)
 "bGf" = (
-/turf/closed/shuttle/midway{
-	icon_state = "73"
-	},
-/area/taipei/hangar)
+/obj/structure/stairs/perspective,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/edge/east,
+/area/taipei/hangar/cargoshuttle)
 "bGo" = (
 /obj/structure/machinery/shower{
 	dir = 8;
@@ -3203,15 +2392,13 @@
 /turf/closed/wall/almayer,
 /area/taipei/atrium)
 "bRD" = (
-/obj/structure/machinery/door/poddoor/shutters/almayer/open{
-	name = "Privacy Shutter";
-	id = "ds1";
-	dir = 4
+/obj/structure/bed/chair/dropship/passenger{
+	dir = 1
 	},
-/turf/closed/shuttle/midway/transparent{
-	icon_state = "86b"
-	},
-/area/taipei/hangar)
+/obj/structure/platform,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/edge/smooth/endcap_left,
+/area/taipei/hangar/cargoshuttle)
 "bRI" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -3221,7 +2408,6 @@
 "bTh" = (
 /obj/structure/window/reinforced/toughened,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood,
 /turf/open/floor/kutjevo/colors/cyan/edge,
 /area/taipei/atrium/medbay)
 "bTv" = (
@@ -3269,7 +2455,6 @@
 /turf/open/floor/prison,
 /area/taipei/cargo)
 "bYk" = (
-/obj/structure/barricade/razorwire,
 /turf/open/floor/kutjevo/tan/grey_edge/west,
 /area/taipei/atrium)
 "bYy" = (
@@ -3375,6 +2560,10 @@
 "cbX" = (
 /obj/structure/surface/table/almayer,
 /obj/structure/machinery/computer/shuttle_control,
+/obj/structure/machinery/computer/emails{
+	pixel_x = 19;
+	pixel_y = 4
+	},
 /obj/structure/machinery/light{
 	dir = 8;
 	light_power = .25
@@ -3630,10 +2819,12 @@
 /turf/open/floor/prison/darkbrowncorners2/west,
 /area/taipei/theatre)
 "cjC" = (
-/turf/closed/shuttle/midway{
-	icon_state = "67"
+/obj/structure/machinery/light/blue{
+	dir = 8
 	},
-/area/taipei/hangar)
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/edge/smooth/northeast,
+/area/taipei/hangar/cargoshuttle)
 "cjD" = (
 /obj/structure/barricade/handrail/strata{
 	pixel_y = -4
@@ -3771,9 +2962,6 @@
 /area/taipei/cmb)
 "cpS" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/barricade/metal/plasteel/wired{
-	dir = 4
-	},
 /turf/open/floor/kutjevo/tan/grey_edge/east,
 /area/taipei/atrium)
 "cqn" = (
@@ -3843,10 +3031,11 @@
 /turf/open/floor/prison/bluecorner/north,
 /area/taipei/club)
 "csy" = (
-/turf/closed/shuttle/midway{
-	icon_state = "72"
-	},
-/area/taipei/hangar)
+/obj/structure/stairs/perspective,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/edge/west,
+/area/taipei/hangar/cargoshuttle)
 "csB" = (
 /obj/structure/machinery/conveyor{
 	dir = 4;
@@ -3863,9 +3052,13 @@
 /area/taipei/maints/south)
 "csP" = (
 /obj/structure/surface/table,
-/obj/item/device/flashlight/lamp{
-	pixel_x = 2;
-	pixel_y = 11
+/obj/structure/machinery/prop/almayer/computer/PC{
+	dir = 1
+	},
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 8;
+	health = 250
 	},
 /turf/open/floor/kutjevo/tan,
 /area/taipei/atrium/offices)
@@ -4975,11 +4168,10 @@
 /turf/open/floor/plating/asteroidfloor/north,
 /area/taipei/cargo)
 "drU" = (
-/obj/structure/shuttle/part/midway/transparent{
-	icon_state = "5"
+/turf/closed/shuttle/ert{
+	icon_state = "twe5"
 	},
-/turf/open/floor/plating,
-/area/taipei/hangar)
+/area/taipei/hangar/cargoshuttle)
 "dsU" = (
 /obj/structure/platform/shiva/catwalk{
 	dir = 4
@@ -5100,9 +4292,11 @@
 /turf/open/floor/plating/asteroidfloor,
 /area/taipei/maints/north)
 "dwe" = (
-/obj/structure/shuttle/part/midway/transparent,
-/turf/open/floor/plating,
-/area/taipei/hangar)
+/turf/closed/shuttle/ert{
+	icon_state = "leftengine_2";
+	opacity = 0
+	},
+/area/taipei/hangar/cargoshuttle)
 "dwn" = (
 /obj/structure/platform{
 	dir = 1
@@ -5277,12 +4471,11 @@
 /turf/closed/wall/almayer/outer,
 /area/taipei/maints/south)
 "dCZ" = (
-/obj/structure/shuttle/part/midway/transparent{
-	icon_state = "65"
+/obj/effect/decal/cleanable/dirt,
+/turf/closed/shuttle/ert{
+	icon_state = "twe5"
 	},
-/obj/effect/attach_point/weapon/midway/right_wing,
-/turf/open/floor/plating,
-/area/taipei/hangar)
+/area/taipei/hangar/cargoshuttle)
 "dDy" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -5323,11 +4516,11 @@
 /turf/closed/wall/biodome,
 /area/taipei/theatre)
 "dGJ" = (
-/obj/effect/decal/cleanable/blood{
-	icon_state = "gib2"
-	},
-/turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
-/area/taipei/hangar)
+/obj/structure/catwalk,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison/bright_clean2,
+/area/taipei/hangar/cargoshuttle)
 "dGS" = (
 /obj/structure/bed/chair/comfy/alpha,
 /obj/effect/decal/cleanable/dirt,
@@ -5621,8 +4814,8 @@
 /turf/closed/wall/biodome,
 /area/taipei/theatre)
 "dSW" = (
-/obj/structure/machinery/door/poddoor/shutters/almayer{
-	dir = 4
+/obj/structure/machinery/door/poddoor/shutters/almayer/open{
+	dir = 8
 	},
 /turf/open/floor/corsat/marked,
 /area/taipei/hangar)
@@ -6243,10 +5436,14 @@
 /turf/open/floor/prison,
 /area/taipei/hangar)
 "etN" = (
-/turf/closed/shuttle/midway{
-	icon_state = "24"
+/obj/structure/catwalk,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable/heavyduty{
+	icon_state = "1-2"
 	},
-/area/taipei/hangar)
+/turf/open/floor/prison/bright_clean2,
+/area/taipei/hangar/cargoshuttle)
 "etP" = (
 /obj/item/trash/crushed_cup{
 	pixel_y = -18;
@@ -6278,14 +5475,11 @@
 /turf/open/floor/bar,
 /area/taipei/atrium/restaurant)
 "ewg" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/ammo_magazine/handful{
-	default_ammo = /datum/ammo/bullet/rifle/heavy;
-	name = "10x28 bullets";
-	current_rounds = 5;
-	pixel_x = 2;
-	pixel_y = -3
+/obj/structure/bed/chair/comfy{
+	dir = 1;
+	pixel_y = 14
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/kutjevo/tan/grey_edge/west,
 /area/taipei/atrium/offices)
 "ewl" = (
@@ -6461,8 +5655,9 @@
 /turf/open/floor/prison,
 /area/taipei/club)
 "eDn" = (
-/obj/structure/barricade/table{
-	dir = 1
+/obj/structure/surface/table,
+/obj/structure/machinery/prop/almayer/computer/PC{
+	pixel_y = 7
 	},
 /turf/open/floor/kutjevo/colors/cyan/edge/north,
 /area/taipei/atrium/medbay)
@@ -6498,18 +5693,17 @@
 /turf/open/floor/kutjevo/multi_tiles/southwest,
 /area/taipei/atrium)
 "eEi" = (
-/obj/structure/machinery/door/poddoor/almayer/closed,
+/obj/structure/machinery/door/poddoor/almayer/locked,
+/obj/structure/blocker/forcefield/human,
+/obj/structure/blocker/invisible_wall,
 /turf/open/floor/plating/asteroidfloor/north,
 /area/taipei/maints/north)
 "eEo" = (
-/obj/item/trash/cigbutt/ucigbutt,
-/obj/item/ammo_magazine/handful{
-	default_ammo = /datum/ammo/bullet/rifle/heavy;
-	name = "10x28 bullets";
-	current_rounds = 5;
-	pixel_x = 9;
-	pixel_y = 10
+/obj/structure/bed/chair/comfy{
+	dir = 1;
+	pixel_y = 14
 	},
+/obj/item/trash/cigbutt/ucigbutt,
 /turf/open/floor/kutjevo/tan,
 /area/taipei/atrium/offices)
 "eEt" = (
@@ -6643,12 +5837,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison,
 /area/taipei/club)
-"eOh" = (
-/obj/structure/shuttle/part/midway/transparent{
-	icon_state = "8"
-	},
-/turf/open/floor/plating,
-/area/taipei/hangar)
 "eOl" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -7017,15 +6205,13 @@
 /turf/open/floor/kutjevo/tan/grey_edge/east,
 /area/taipei/atrium/offices)
 "fer" = (
+/obj/structure/prop/almayer/computers/sensor_computer1{
+	name = "computer"
+	},
 /obj/structure/cable/heavyduty{
 	icon_state = "1-2-4"
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/prop/almayer/computers/sensor_computer1{
-	name = "Компьютер";
-	desc = "Компьютер для управления грузовым лифтом, около экрана прилеплена какая-то записка с командами.";
-	color = "#afb196"
-	},
 /turf/open/floor/prison,
 /area/taipei/cargo)
 "feF" = (
@@ -7496,11 +6682,12 @@
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/taipei/maints/south)
 "fzM" = (
-/obj/structure/shuttle/part/midway/transparent{
-	icon_state = "4"
+/obj/structure/machinery/light/blue{
+	dir = 4
 	},
-/turf/open/floor/plating,
-/area/taipei/hangar)
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/floor,
+/area/taipei/hangar/cargoshuttle)
 "fAG" = (
 /obj/structure/prop/turbine,
 /obj/item/lightstick/red/variant/planted{
@@ -7555,10 +6742,17 @@
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/taipei/maints/north)
 "fEh" = (
-/turf/closed/shuttle/midway/transparent{
-	icon_state = "23"
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice4";
+	pixel_x = -16;
+	pixel_y = 31
 	},
-/area/taipei/hangar)
+/obj/structure/machinery/light/blue{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/edge/smooth/southeast,
+/area/taipei/hangar/cargoshuttle)
 "fEj" = (
 /obj/structure/stairs/perspective{
 	dir = 4
@@ -7650,15 +6844,13 @@
 /turf/closed/wall/almayer,
 /area/taipei/hangar)
 "fLR" = (
-/obj/structure/machinery/door/poddoor/shutters/almayer/open{
-	name = "Privacy Shutter";
-	id = "ds1";
-	dir = 4
+/obj/structure/bed/chair/dropship/passenger{
+	dir = 1
 	},
-/turf/closed/shuttle/midway/transparent{
-	icon_state = "89b"
-	},
-/area/taipei/hangar)
+/obj/structure/platform,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/edge/smooth/endcap_right,
+/area/taipei/hangar/cargoshuttle)
 "fMz" = (
 /obj/structure/prop/invuln/overhead_pipe{
 	pixel_x = 6;
@@ -7982,12 +7174,14 @@
 /turf/open/floor/kutjevo/colors,
 /area/taipei/cmb)
 "fYB" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood{
-	icon_state = "gib1"
+/obj/structure/cargo_container/horizontal/blue/top,
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_x = 16;
+	pixel_y = -1
 	},
-/turf/open/shuttle/dropship/light_grey_bottom_right,
-/area/taipei/hangar)
+/turf/open/floor/almayer/edge/east,
+/area/taipei/hangar/cargoshuttle)
 "fZq" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "1-4-8"
@@ -8285,9 +7479,6 @@
 /obj/structure/machinery/light{
 	dir = 4
 	},
-/obj/structure/machinery/camera/autoname{
-	dir = 1
-	},
 /turf/open/floor/prison,
 /area/taipei/reactor)
 "gqB" = (
@@ -8447,8 +7638,8 @@
 /turf/open/void,
 /area/taipei/maints/north)
 "gxp" = (
+/obj/structure/bed/chair/comfy,
 /obj/effect/decal/cleanable/dirt,
-/obj/item/trash/cigbutt,
 /turf/open/floor/kutjevo/tan/grey_edge/west,
 /area/taipei/atrium/offices)
 "gxK" = (
@@ -8555,7 +7746,6 @@
 	unslashable = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/item/stack/sandbags/small_stack,
 /turf/open/floor/asteroidwarning/north,
 /area/taipei/maints/north)
 "gFF" = (
@@ -8640,22 +7830,15 @@
 /turf/open/floor/plating/asteroidfloor/north,
 /area/taipei/hangar)
 "gHQ" = (
-/obj/effect/decal/cleanable/generic,
-/obj/structure/largecrate/random/mini{
-	pixel_y = 4;
-	pixel_x = -4
+/obj/structure/cargo_container/ferret/mid,
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_x = 16;
+	pixel_y = -1
 	},
-/obj/structure/largecrate/random/barrel/yellow{
-	pixel_x = 7;
-	parts_type = /obj/item/stack/sheet/wood;
-	pixel_y = -17
-	},
-/obj/structure/largecrate/random/mini/wooden{
-	pixel_x = 15;
-	pixel_y = 9
-	},
-/turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
-/area/taipei/hangar)
+/obj/structure/catwalk,
+/turf/open/floor/prison/bright_clean2,
+/area/taipei/hangar/cargoshuttle)
 "gIr" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -8785,12 +7968,13 @@
 /turf/open/floor/prison,
 /area/taipei/hangar)
 "gPy" = (
+/obj/structure/flora/pottedplant{
+	icon_state = "pottedplant_21";
+	pixel_x = 5;
+	pixel_y = 16
+	},
 /obj/structure/machinery/light{
 	dir = 8
-	},
-/obj/structure/barricade/metal/wired{
-	dir = 1;
-	icon_state = "metal_2"
 	},
 /turf/open/floor/kutjevo/colors/cyan/inner_corner,
 /area/taipei/atrium/medbay)
@@ -8907,10 +8091,9 @@
 /turf/open/floor/whitered/north,
 /area/taipei/atrium/restaurant)
 "gYN" = (
-/turf/closed/shuttle/midway/transparent{
-	icon_state = "35"
-	},
-/area/taipei/hangar)
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/edge/smooth/endcap_left/east,
+/area/taipei/hangar/cargoshuttle)
 "gZb" = (
 /obj/effect/decal/cleanable/generic,
 /obj/effect/decal/cleanable/dirt,
@@ -9270,16 +8453,9 @@
 /turf/open/floor/plating/asteroidfloor/north,
 /area/taipei/hangar)
 "hsC" = (
-/obj/structure/stairs/perspective,
-/obj/structure/platform{
-	dir = 8;
-	layer = 2.7
-	},
-/obj/structure/platform{
-	dir = 4
-	},
-/turf/open/shuttle/dropship/light_grey_single_wide_up_to_down,
-/area/taipei/hangar)
+/obj/structure/cargo_container/horizontal/blue/middle,
+/turf/open/floor/almayer/edge/east,
+/area/taipei/hangar/cargoshuttle)
 "hsO" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -9573,9 +8749,16 @@
 /turf/open/floor/plating/asteroidwarning/east,
 /area/taipei/maints/south)
 "hHb" = (
-/obj/item/stack/yautja_rope,
-/turf/open/shuttle/dropship/light_grey_single_wide_left_to_right,
-/area/taipei/hangar)
+/obj/structure/cargo_container/arious/right,
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_x = 16;
+	pixel_y = -1
+	},
+/obj/structure/catwalk,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison/bright_clean2,
+/area/taipei/hangar/cargoshuttle)
 "hHo" = (
 /turf/open/floor/kutjevo/tan/alt_inner_edge,
 /area/taipei/atrium)
@@ -9751,10 +8934,6 @@
 /area/taipei/maints/north)
 "hOI" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/item/clothing/head/helmet/riot{
-	pixel_x = 3;
-	pixel_y = 17
-	},
 /turf/open/floor/kutjevo/colors/cyan/edge/northwest,
 /area/taipei/atrium/medbay)
 "hOJ" = (
@@ -9900,11 +9079,12 @@
 /turf/open/floor/asteroidwarning/west,
 /area/taipei/maints/south)
 "hYN" = (
-/obj/structure/shuttle/part/midway/transparent{
-	icon_state = "3"
+/obj/structure/machinery/light/blue{
+	dir = 8
 	},
-/turf/open/floor/plating,
-/area/taipei/hangar)
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/floor,
+/area/taipei/hangar/cargoshuttle)
 "hZU" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "SW-out"
@@ -9939,7 +9119,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/hybrisa/tiretrack,
 /turf/open/floor/asteroidwarning/west,
 /area/taipei/maints/north)
 "iaN" = (
@@ -10434,7 +9613,6 @@
 /turf/closed/wall/almayer/white,
 /area/taipei/reactor)
 "iBq" = (
-/obj/structure/barricade/metal/plasteel/wired,
 /turf/open/floor/kutjevo/tan/grey_edge,
 /area/taipei/atrium)
 "iBU" = (
@@ -10477,14 +9655,13 @@
 /turf/closed/wall/almayer,
 /area/taipei/club)
 "iDD" = (
-/obj/structure/shuttle/part/midway/transparent{
-	icon_state = "15"
+/obj/structure/machinery/light/blue{
+	dir = 4
 	},
-/obj/structure/shuttle/part/midway/transparent{
-	icon_state = "40"
-	},
-/turf/open/floor/plating,
-/area/taipei/hangar)
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/edge/smooth/endcap_left/west,
+/area/taipei/hangar/cargoshuttle)
 "iDU" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "4-8"
@@ -10682,8 +9859,13 @@
 /turf/open/floor/plating/asteroidfloor/north,
 /area/taipei/maints/south)
 "iMT" = (
-/turf/open/shuttle/dropship/light_grey_top_left,
-/area/taipei/hangar)
+/obj/structure/platform{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/edge/west,
+/area/taipei/hangar/cargoshuttle)
 "iOi" = (
 /obj/structure/machinery/door/poddoor/railing{
 	id = "supply_elevator_railing"
@@ -10994,11 +10176,11 @@
 /turf/open/floor/strata/faux_wood,
 /area/taipei/atrium/bookstore)
 "jaM" = (
-/obj/structure/shuttle/part/midway/transparent{
-	icon_state = "21"
+/obj/effect/decal/cleanable/dirt,
+/turf/closed/shuttle/ert{
+	icon_state = "twe8"
 	},
-/turf/open/floor/plating,
-/area/taipei/hangar)
+/area/taipei/hangar/cargoshuttle)
 "jaT" = (
 /turf/open/floor/kutjevo/colors/cyan/edge/west,
 /area/taipei/atrium)
@@ -11420,17 +10602,16 @@
 /area/taipei/cmb)
 "jqV" = (
 /obj/structure/surface/table,
-/obj/item/trash/cigbutt,
-/obj/item/trash/cigbutt,
-/obj/item/trash/cigbutt,
-/obj/item/paper_bin{
-	pixel_x = -9;
-	pixel_y = 11
+/obj/structure/machinery/prop/almayer/computer/PC{
+	pixel_y = 6
 	},
-/obj/item/tool/pen{
-	pixel_x = 2;
-	pixel_y = 7
+/obj/structure/window/reinforced{
+	dir = 8;
+	health = 250
 	},
+/obj/item/trash/cigbutt,
+/obj/item/trash/cigbutt,
+/obj/item/trash/cigbutt,
 /turf/open/floor/kutjevo/tan,
 /area/taipei/atrium/offices)
 "jrf" = (
@@ -11482,7 +10663,6 @@
 /obj/structure/pipes/standard/simple/hidden/supply/no_boom{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/blood,
 /turf/open/floor/kutjevo,
 /area/taipei/atrium/medbay)
 "jwm" = (
@@ -11541,11 +10721,12 @@
 /obj/effect/decal/medical_decals{
 	icon_state = "triagedecalbottomright"
 	},
+/obj/structure/surface/table,
 /obj/structure/window/reinforced/toughened{
 	dir = 4
 	},
-/obj/structure/barricade/table{
-	dir = 1
+/obj/structure/machinery/prop/almayer/computer/PC{
+	pixel_y = 7
 	},
 /turf/open/floor/kutjevo/colors/cyan/inner_corner/north,
 /area/taipei/atrium/medbay)
@@ -11953,11 +11134,12 @@
 /turf/open/floor/plating/asteroidfloor/north,
 /area/taipei/hangar)
 "jWc" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/stack/sheet/metal{
-	pixel_x = -11;
-	pixel_y = 6
+/obj/structure/bed/chair/comfy{
+	dir = 4;
+	pixel_x = -1;
+	pixel_y = 14
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/kutjevo,
 /area/taipei/atrium/medbay)
 "jWO" = (
@@ -12155,14 +11337,14 @@
 /turf/open/floor/plating/asteroidfloor,
 /area/taipei/maints/north)
 "khb" = (
-/obj/structure/machinery/light/double{
-	dir = 4;
-	light_color = "#e7c0a4";
-	light_power = 0.8;
-	light_range = 5
+/obj/structure/cargo_container/ferret/right,
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_x = 16;
+	pixel_y = -1
 	},
-/turf/open/shuttle/dropship/light_grey_single_wide_up_to_down,
-/area/taipei/hangar)
+/turf/open/floor/almayer/edge/east,
+/area/taipei/hangar/cargoshuttle)
 "khP" = (
 /obj/structure/platform/strata/metal{
 	dir = 1
@@ -12245,6 +11427,12 @@
 	},
 /obj/effect/decal/cleanable/ash,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/siding{
+	icon_state = "siding10"
+	},
+/obj/effect/decal/siding{
+	icon_state = "siding5"
+	},
 /mob/living/simple_animal/mouse{
 	desc = "One day, while doing nothing particularly out of the ordinary, because of natural laws he was completely powerless to understand or intuit, he was instantly killed in a horrifying way by forces vastly in excess of anything he was ever designed to experience, for no reason, to no ones particular surprise or upset. In this we are more like him than different";
 	health = -10;
@@ -12388,18 +11576,13 @@
 /area/taipei/club)
 "koW" = (
 /obj/structure/surface/table,
-/obj/structure/machinery/faxmachine{
-	department = "CLF - Cell 42";
-	pixel_x = 19;
-	pixel_y = -5
+/obj/structure/machinery/prop/almayer/computer/PC{
+	dir = 1
 	},
-/obj/item/robot_parts/chest{
-	pixel_x = -4;
-	pixel_y = 4
-	},
-/obj/item/robot_parts/leg/l_leg{
-	pixel_x = -15;
-	pixel_y = 6
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 8;
+	health = 250
 	},
 /turf/open/floor/kutjevo/tan/grey_edge/west,
 /area/taipei/atrium/offices)
@@ -13031,7 +12214,6 @@
 /area/taipei/maints/north)
 "kUu" = (
 /obj/structure/surface/table/almayer,
-/obj/structure/machinery/computer/cameras,
 /turf/open/floor/prison,
 /area/taipei/telecomms)
 "kUB" = (
@@ -13248,9 +12430,13 @@
 /turf/open/floor/kutjevo/fake_wood,
 /area/taipei/theatre)
 "lgN" = (
-/obj/effect/decal/cleanable/cobweb,
-/turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
-/area/taipei/hangar)
+/obj/structure/platform{
+	dir = 1
+	},
+/obj/structure/catwalk,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison/bright_clean2,
+/area/taipei/hangar/cargoshuttle)
 "lhH" = (
 /obj/structure/surface/table/almayer,
 /obj/structure/sink/kitchen{
@@ -13422,10 +12608,6 @@
 /obj/structure/machinery/light{
 	dir = 1
 	},
-/obj/item/storage/box/mre/hdr,
-/obj/item/storage/box/mre/hdr,
-/obj/item/storage/box/mre/hdr,
-/obj/item/storage/box/mre/hdr,
 /turf/open/floor/prison/sterile_white,
 /area/taipei/atrium/restaurant)
 "lng" = (
@@ -13451,11 +12633,10 @@
 /turf/open/floor/prison,
 /area/taipei/maints/south)
 "loZ" = (
-/obj/structure/shuttle/part/midway/transparent{
-	icon_state = "20"
+/turf/closed/shuttle/ert{
+	icon_state = "twe_leftengine"
 	},
-/turf/open/floor/plating,
-/area/taipei/hangar)
+/area/taipei/hangar/cargoshuttle)
 "lph" = (
 /obj/item/trash/cigbutt,
 /obj/effect/decal/cleanable/dirt,
@@ -13603,9 +12784,9 @@
 /turf/open/floor,
 /area/taipei/atrium/laundry)
 "luZ" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/shuttle/dropship/light_grey_single_wide_up_to_down,
-/area/taipei/hangar)
+/obj/structure/reagent_dispensers/fueltank/gas,
+/turf/open/floor/almayer/edge/east,
+/area/taipei/hangar/cargoshuttle)
 "lvH" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/asteroidwarning/west,
@@ -13691,22 +12872,15 @@
 /turf/open/floor/plating/asteroidwarning/east,
 /area/taipei/maints/south)
 "lzj" = (
+/obj/structure/bed/chair/comfy{
+	dir = 1;
+	pixel_y = 14
+	},
 /obj/structure/machinery/light{
 	dir = 4;
 	light_power = 0.5
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/item/trash/cigbutt/ucigbutt{
-	pixel_x = -15;
-	pixel_y = 11
-	},
-/obj/item/ammo_magazine/handful{
-	default_ammo = /datum/ammo/bullet/rifle/heavy;
-	name = "10x28 bullets";
-	current_rounds = 5;
-	pixel_x = 1;
-	pixel_y = 9
-	},
 /turf/open/floor/kutjevo/tan,
 /area/taipei/atrium/offices)
 "lzr" = (
@@ -14022,11 +13196,6 @@
 /turf/open/floor/plating/asteroidfloor,
 /area/taipei/atrium)
 "lKR" = (
-/obj/item/reagent_container/food/drinks/bottle/goldschlager,
-/obj/item/tool/lighter/zippo/gold,
-/obj/item/weapon/gun/pistol/heavy,
-/obj/item/ammo_magazine/pistol/heavy,
-/obj/item/ammo_magazine/pistol/heavy,
 /obj/structure/safe,
 /turf/open/floor/carpet,
 /area/taipei/atrium/offices)
@@ -14167,12 +13336,12 @@
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/taipei/maints/north)
 "lRW" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/door/poddoor/shutters/almayer{
-	dir = 4
+/obj/structure/machinery/door/poddoor/shutters/almayer/open{
+	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/corsat/marked,
 /area/taipei/hangar)
 "lSk" = (
@@ -14309,10 +13478,6 @@
 /area/taipei/reactor)
 "mai" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/barricade/metal/wired{
-	dir = 1;
-	icon_state = "metal_2"
-	},
 /turf/open/floor/kutjevo/colors/cyan/edge/north,
 /area/taipei/atrium/medbay)
 "may" = (
@@ -14532,10 +13697,25 @@
 /turf/open/floor/plating/asteroidfloor/north,
 /area/taipei/hangar)
 "miq" = (
-/turf/closed/shuttle/midway{
-	icon_state = "54"
+/obj/structure/largecrate/random/barrel/red{
+	pixel_x = -7;
+	pixel_y = -2
 	},
-/area/taipei/hangar)
+/obj/structure/largecrate/random/barrel/red{
+	pixel_x = -6;
+	pixel_y = -16
+	},
+/obj/structure/largecrate/random/barrel/red{
+	pixel_x = -6;
+	pixel_y = -30
+	},
+/obj/structure/catwalk,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable/heavyduty{
+	icon_state = "1-2"
+	},
+/turf/open/floor/prison/bright_clean2,
+/area/taipei/hangar/cargoshuttle)
 "miH" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "cargo"
@@ -15014,13 +14194,12 @@
 /area/taipei/atrium)
 "mFC" = (
 /obj/structure/surface/table,
-/obj/item/ammo_magazine/rifle/m16{
-	pixel_x = -10;
+/obj/structure/machinery/prop/almayer/computer/PC{
 	pixel_y = 6
 	},
-/obj/item/ammo_magazine/rifle/mar40/lmg{
-	pixel_x = 3;
-	pixel_y = 11
+/obj/structure/window/reinforced{
+	dir = 8;
+	health = 250
 	},
 /turf/open/floor/kutjevo/tan,
 /area/taipei/atrium/offices)
@@ -15133,11 +14312,11 @@
 /turf/open/void,
 /area/taipei/reactor/chamber)
 "mNy" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/door/poddoor/shutters/almayer{
-	dir = 4
+/obj/structure/machinery/door/poddoor/shutters/almayer/open{
+	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/corsat/marked,
 /area/taipei/hangar)
 "mOh" = (
@@ -15512,14 +14691,9 @@
 /turf/open/floor/kutjevo/tan/alt_edge/southeast,
 /area/taipei/elevator/arrivals)
 "nfR" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/largecrate/random,
-/obj/structure/largecrate/random{
-	pixel_x = 4;
-	pixel_y = 18
-	},
-/turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
-/area/taipei/hangar)
+/obj/structure/catwalk,
+/turf/open/floor/prison/bright_clean2,
+/area/taipei/hangar/cargoshuttle)
 "nhs" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 5
@@ -15684,11 +14858,10 @@
 /turf/open/floor/kutjevo/fake_wood,
 /area/taipei/theatre)
 "nnh" = (
-/obj/structure/shuttle/part/midway/transparent{
-	icon_state = "7"
-	},
-/turf/open/floor/plating,
-/area/taipei/hangar)
+/obj/structure/largecrate/random/secure,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/floor,
+/area/taipei/hangar/cargoshuttle)
 "noy" = (
 /obj/structure/pipes/vents,
 /turf/open/floor,
@@ -15707,8 +14880,14 @@
 /turf/open/floor/plating/asteroidfloor/north,
 /area/taipei/maints/south)
 "nqh" = (
-/turf/open/shuttle/dropship/light_grey_single_wide_left_to_right,
-/area/taipei/hangar)
+/obj/structure/platform{
+	dir = 1
+	},
+/obj/structure/catwalk,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison/bright_clean2,
+/area/taipei/hangar/cargoshuttle)
 "nqr" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/kutjevo/colors/red/inner_corner/west,
@@ -15978,14 +15157,11 @@
 /area/taipei/cargo)
 "nCN" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/item/ammo_box/magazine/l42a,
 /turf/open/floor/kutjevo/colors/cyan/edge,
 /area/taipei/atrium/medbay)
 "nCR" = (
+/obj/structure/surface/table,
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/barricade/table{
-	dir = 1
-	},
 /turf/open/floor/kutjevo/colors/cyan/edge/north,
 /area/taipei/atrium/medbay)
 "nCX" = (
@@ -16088,10 +15264,10 @@
 /turf/open/floor/plating/asteroidfloor,
 /area/taipei/atrium)
 "nLb" = (
-/turf/closed/shuttle/midway{
-	icon_state = "77"
-	},
-/area/taipei/hangar)
+/obj/structure/barricade/handrail/type_b,
+/obj/structure/catwalk,
+/turf/open/floor/prison/bright_clean2,
+/area/taipei/hangar/cargoshuttle)
 "nLu" = (
 /obj/structure/machinery/light{
 	dir = 4
@@ -16140,10 +15316,11 @@
 /turf/open/floor/plating/asteroidfloor,
 /area/taipei/maints/north)
 "nOm" = (
-/turf/closed/shuttle/midway{
-	icon_state = "81"
-	},
-/area/taipei/hangar)
+/obj/structure/barricade/handrail/type_b,
+/obj/structure/catwalk,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison/bright_clean2,
+/area/taipei/hangar/cargoshuttle)
 "nPn" = (
 /obj/structure/prop/invuln/lattice_prop{
 	icon_state = "lattice12";
@@ -16419,15 +15596,23 @@
 /turf/open/floor/plating/asteroidfloor,
 /area/taipei/atrium)
 "nZJ" = (
-/turf/closed/shuttle/midway{
-	icon_state = "103"
-	},
-/area/taipei/hangar)
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/edge/smooth/endcap_left/north,
+/area/taipei/hangar/cargoshuttle)
 "nZM" = (
-/turf/closed/shuttle/midway{
-	icon_state = "30"
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_x = 16;
+	pixel_y = -1
 	},
-/area/taipei/hangar)
+/obj/structure/catwalk,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable/heavyduty{
+	icon_state = "1-2"
+	},
+/turf/open/floor/prison/bright_clean2,
+/area/taipei/hangar/cargoshuttle)
 "nZZ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -16705,10 +15890,7 @@
 /turf/open/floor/cmo,
 /area/taipei/atrium/hotel)
 "ojT" = (
-/obj/structure/machinery/door/airlock/almayer/maint/autoname{
-	lockdownbyai = 1;
-	locked = 1
-	},
+/obj/structure/machinery/door/airlock/almayer/maint/autoname,
 /turf/open/floor/corsat/marked,
 /area/taipei/hangar)
 "okm" = (
@@ -16891,10 +16073,10 @@
 /area/taipei/cmb)
 "oqb" = (
 /obj/structure/surface/table,
-/obj/item/toy/deck/uno{
-	pixel_x = 2;
-	pixel_y = 5
+/obj/structure/machinery/prop/almayer/computer/PC{
+	dir = 1
 	},
+/obj/structure/window/reinforced,
 /turf/open/floor/kutjevo/tan,
 /area/taipei/atrium/offices)
 "oqi" = (
@@ -16911,13 +16093,7 @@
 /turf/open/floor/asteroid,
 /area/taipei/atrium)
 "orr" = (
-/obj/structure/barricade/table{
-	dir = 1
-	},
-/obj/item/stack/sheet/metal{
-	pixel_x = 15;
-	pixel_y = -15
-	},
+/obj/structure/surface/table,
 /turf/open/floor/kutjevo/colors/cyan/edge/north,
 /area/taipei/atrium/medbay)
 "orR" = (
@@ -17174,20 +16350,9 @@
 /turf/closed/mineral,
 /area/taipei/reactor)
 "oEH" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "S";
-	pixel_y = 2
-	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "N";
-	pixel_y = -1
-	},
-/obj/structure/machinery/door/poddoor/shutters/almayer/open{
-	name = "Privacy Shutter";
-	id = "ds1"
-	},
-/turf/open/shuttle/dropship/medium_grey_single_wide_left_to_right,
-/area/taipei/hangar)
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/edge/smooth,
+/area/taipei/hangar/cargoshuttle)
 "oFA" = (
 /obj/structure/machinery/light{
 	dir = 1
@@ -17552,11 +16717,18 @@
 /turf/open/floor/plating/asteroidwarning/east,
 /area/taipei/hangar)
 "oXw" = (
-/obj/structure/prop/hybrisa/airport/dropshipenginedamage,
-/turf/closed/shuttle/midway/transparent{
-	icon_state = "26"
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice8";
+	pixel_x = 16;
+	pixel_y = 31
 	},
-/area/taipei/hangar)
+/obj/structure/machinery/light/blue{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/edge/smooth/southwest,
+/area/taipei/hangar/cargoshuttle)
 "oXz" = (
 /obj/structure/platform/shiva/catwalk{
 	dir = 1
@@ -17786,7 +16958,6 @@
 	pixel_x = 9;
 	pixel_y = 11
 	},
-/obj/item/reagent_container/food/drinks/bottle/tequila,
 /turf/open/floor/bar,
 /area/taipei/atrium/restaurant)
 "pfy" = (
@@ -17868,11 +17039,11 @@
 /turf/open/floor/asteroid,
 /area/space)
 "pjR" = (
-/obj/structure/shuttle/part/midway/transparent{
-	icon_state = "6"
+/turf/closed/shuttle/ert{
+	icon_state = "rightengine_2";
+	opacity = 0
 	},
-/turf/open/floor/plating,
-/area/taipei/hangar)
+/area/taipei/hangar/cargoshuttle)
 "pku" = (
 /obj/structure/barricade/handrail/kutjevo,
 /obj/item/trash/cigbutt{
@@ -18220,6 +17391,16 @@
 /area/taipei/maints/south)
 "pzM" = (
 /obj/structure/surface/table/woodentable/fancy,
+/obj/structure/machinery/prop/almayer/computer/PC{
+	dir = 1;
+	pixel_x = -14;
+	pixel_y = 3
+	},
+/obj/structure/machinery/computer/cameras{
+	dir = 1;
+	pixel_x = 5;
+	pixel_y = -1
+	},
 /obj/structure/barricade/handrail/kutjevo,
 /obj/structure/barricade/handrail/kutjevo{
 	dir = 4
@@ -18302,7 +17483,6 @@
 	pixel_x = 6;
 	pixel_y = 19
 	},
-/obj/structure/largecrate/empty,
 /turf/open/floor/asteroidwarning/north,
 /area/taipei/maints/north)
 "pEF" = (
@@ -18339,11 +17519,17 @@
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/taipei/maints/south)
 "pFN" = (
-/obj/structure/platform{
-	dir = 1
+/obj/structure/largecrate/random/mini/chest/c{
+	pixel_x = 3;
+	pixel_y = -4
 	},
-/turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
-/area/taipei/hangar)
+/obj/structure/largecrate/random/mini/med{
+	pixel_x = 5;
+	pixel_y = 8
+	},
+/obj/structure/catwalk,
+/turf/open/floor/prison/bright_clean2,
+/area/taipei/hangar/cargoshuttle)
 "pFZ" = (
 /obj/structure/platform_decoration/kutjevo,
 /turf/open/floor/kutjevo/tan/alt_edge/east,
@@ -18361,11 +17547,10 @@
 /turf/open/floor/bar,
 /area/taipei/atrium/restaurant)
 "pGZ" = (
-/obj/structure/shuttle/part/midway/transparent{
-	icon_state = "2"
+/turf/closed/shuttle/ert{
+	icon_state = "twe4"
 	},
-/turf/open/floor/plating,
-/area/taipei/hangar)
+/area/taipei/hangar/cargoshuttle)
 "pHd" = (
 /obj/item/stool{
 	pixel_y = 11;
@@ -18984,21 +18169,8 @@
 /area/taipei/atrium/medbay)
 "qhD" = (
 /obj/structure/surface/table,
-/obj/item/weapon/knife/marine/bowie/kukri{
-	pixel_x = 5;
-	pixel_y = 19
-	},
-/obj/item/limb/head/synth{
-	desc = "This appears to be the head of a synthetic, though it it is so destroyed there is no way in hell anyone is going to bring it back to even basic functionality.";
-	name = "shattered synthetic head";
-	pixel_x = 16;
-	pixel_y = 5;
-	icon = 'icons/mob/humans/species/r_synthetic.dmi';
-	dir = 2
-	},
-/obj/item/ammo_magazine/sniper/basic{
-	current_rounds = 0;
-	pixel_y = 12
+/obj/structure/machinery/prop/almayer/computer/PC{
+	pixel_y = 6
 	},
 /turf/open/floor/kutjevo/tan,
 /area/taipei/atrium/offices)
@@ -19271,12 +18443,12 @@
 /turf/open/floor/corsat/marked,
 /area/taipei/maints/north)
 "qsO" = (
-/obj/structure/shuttle/part/midway/transparent{
-	icon_state = "91"
+/obj/structure/catwalk,
+/obj/structure/machinery/light/blue{
+	dir = 4
 	},
-/obj/effect/attach_point/electronics/midway,
-/turf/open/floor/plating,
-/area/taipei/hangar)
+/turf/open/floor/almayer/edge/east,
+/area/taipei/hangar/cargoshuttle)
 "qts" = (
 /obj/structure/stairs/perspective{
 	dir = 4
@@ -19603,16 +18775,15 @@
 /turf/open/floor/asteroidfloor,
 /area/taipei/maints/south)
 "qIP" = (
-/obj/structure/stairs/perspective,
-/obj/structure/platform{
-	dir = 4;
-	layer = 2.7
+/obj/structure/largecrate/random/case/small,
+/obj/structure/largecrate/random/case{
+	pixel_x = 0;
+	pixel_y = 13
 	},
-/obj/structure/platform{
-	dir = 8
-	},
-/turf/open/shuttle/dropship/light_grey_single_wide_up_to_down,
-/area/taipei/hangar)
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/edge/west,
+/area/taipei/hangar/cargoshuttle)
 "qJb" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/medidoor{
 	name = "\improper Medical Bay";
@@ -19806,9 +18977,7 @@
 /turf/open/floor/plating/asteroidfloor,
 /area/taipei/atrium)
 "qRT" = (
-/obj/structure/machinery/door/airlock/almayer/maint/colony/autoname{
-	welded = 1
-	},
+/obj/structure/machinery/door/airlock/almayer/maint/colony/autoname,
 /obj/structure/prop/invuln/lattice_prop{
 	icon_state = "lattice1";
 	pixel_x = -26;
@@ -20032,10 +19201,6 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/obj/item/trash/upp_mre{
-	pixel_x = 13;
-	pixel_y = 18
-	},
 /turf/open/floor/plating/asteroidfloor,
 /area/taipei/maints/north)
 "rbc" = (
@@ -20079,7 +19244,6 @@
 "reD" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/hybrisa/tiretrack,
 /turf/open/floor/plating/asteroidwarning/west,
 /area/taipei/maints/north)
 "reM" = (
@@ -20353,10 +19517,10 @@
 /turf/open/floor/prison,
 /area/taipei/cargo)
 "rpf" = (
-/turf/closed/shuttle/midway/transparent{
-	icon_state = "38"
-	},
-/area/taipei/hangar)
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/edge/smooth/endcap_right/west,
+/area/taipei/hangar/cargoshuttle)
 "rpk" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -20959,10 +20123,13 @@
 /turf/open/floor/asteroidwarning/north,
 /area/taipei/maints/south)
 "rLB" = (
-/turf/closed/shuttle/midway{
-	icon_state = "25"
+/obj/structure/catwalk,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable/heavyduty{
+	icon_state = "1-2"
 	},
-/area/taipei/hangar)
+/turf/open/floor/prison/bright_clean2,
+/area/taipei/hangar/cargoshuttle)
 "rLH" = (
 /obj/item/stool{
 	pixel_y = 9;
@@ -21251,7 +20418,6 @@
 /turf/open/floor/plating/asteroidfloor,
 /area/taipei/atrium)
 "rWn" = (
-/obj/structure/barricade/metal/plasteel/wired,
 /turf/open/floor/kutjevo/tan/grey_edge/southeast,
 /area/taipei/atrium)
 "rWU" = (
@@ -21388,10 +20554,6 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/barricade/plasteel/wired{
-	icon_state = "plasteel_2";
-	dir = 1
-	},
 /turf/open/floor/kutjevo/colors/cyan/inner_corner/north,
 /area/taipei/atrium/medbay)
 "sef" = (
@@ -21623,11 +20785,6 @@
 /turf/open/floor/prison/blue/west,
 /area/taipei/club)
 "snK" = (
-/obj/structure/flora/pottedplant{
-	icon_state = "pottedplant_21";
-	pixel_x = 5;
-	pixel_y = 4
-	},
 /turf/open/floor/kutjevo/colors/cyan/edge,
 /area/taipei/atrium/medbay)
 "soA" = (
@@ -21735,17 +20892,14 @@
 /obj/structure/machinery/light{
 	dir = 4
 	},
-/obj/structure/barricade/metal/wired{
-	dir = 1;
-	icon_state = "metal_2"
-	},
 /turf/open/floor/kutjevo/colors/cyan/edge/east,
 /area/taipei/atrium/medbay)
 "ssB" = (
-/turf/closed/shuttle/midway{
-	icon_state = "83"
-	},
-/area/taipei/hangar)
+/obj/structure/catwalk,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/power/apc/power/east,
+/turf/open/floor/almayer/edge/east,
+/area/taipei/hangar/cargoshuttle)
 "ssE" = (
 /obj/structure/machinery/conveyor,
 /obj/structure/prop/invuln/lattice_prop{
@@ -22251,9 +21405,6 @@
 /obj/structure/pipes/standard/simple/hidden/supply/no_boom{
 	dir = 4
 	},
-/obj/structure/barricade/metal/plasteel/wired{
-	dir = 8
-	},
 /turf/open/floor/kutjevo/tan/grey_edge/east,
 /area/taipei/atrium/offices)
 "sRq" = (
@@ -22388,11 +21539,8 @@
 /turf/open/floor/kutjevo/colors,
 /area/taipei/cmb)
 "sVv" = (
+/obj/structure/bed/chair/comfy,
 /obj/effect/decal/cleanable/dirt,
-/obj/item/trash/cigbutt{
-	pixel_x = -9;
-	pixel_y = -1
-	},
 /turf/open/floor/kutjevo/tan,
 /area/taipei/atrium/offices)
 "sVw" = (
@@ -22471,10 +21619,14 @@
 /turf/open/floor/prison/sterile_white,
 /area/taipei/atrium/restaurant)
 "taf" = (
-/turf/closed/shuttle/midway/transparent{
-	icon_state = "29"
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_x = 16;
+	pixel_y = -1
 	},
-/area/taipei/hangar)
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/edge/smooth/endcap_right/east,
+/area/taipei/hangar/cargoshuttle)
 "tai" = (
 /obj/structure/sign/safety/luggageclaim{
 	pixel_x = 15
@@ -22503,9 +21655,11 @@
 /turf/open/floor/kutjevo/tan/grey_inner_edge/east,
 /area/taipei/atrium/offices)
 "tau" = (
+/obj/structure/machinery/door/poddoor/almayer/locked,
+/obj/structure/blocker/forcefield/human,
+/obj/structure/blocker/invisible_wall,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/door/poddoor/almayer/closed,
 /turf/open/floor/plating/asteroidfloor/north,
 /area/taipei/maints/north)
 "taO" = (
@@ -22850,24 +22004,11 @@
 /turf/open/floor/carpet14_10/west,
 /area/taipei/theatre)
 "toC" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "N";
-	pixel_y = -1
-	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "S";
-	pixel_y = 2
-	},
-/obj/structure/machinery/door/airlock/multi_tile/almayer/dropshiprear/ds4{
-	id = null;
-	name = "\improper DS-1 [VACANT]"
-	},
-/obj/structure/machinery/door/poddoor/shutters/almayer/open{
-	name = "Privacy Shutter";
-	id = "ds1"
-	},
-/turf/open/shuttle/dropship/medium_grey_single_wide_left_to_right,
-/area/taipei/hangar)
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/edge/smooth/southwest,
+/area/taipei/hangar/cargoshuttle)
 "toR" = (
 /obj/structure/bed/sofa/vert/white/bot,
 /obj/effect/decal/cleanable/dirt,
@@ -23124,12 +22265,18 @@
 /turf/open/floor/kutjevo/colors/cyan/edge/southeast,
 /area/taipei/atrium/medbay)
 "tyN" = (
-/obj/structure/bed/chair/dropship/passenger{
-	dir = 8;
-	icon_state = "hotseat_destroyed"
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_x = 16;
+	pixel_y = -1
 	},
-/turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
-/area/taipei/hangar)
+/obj/structure/catwalk,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable/heavyduty{
+	icon_state = "1-2"
+	},
+/turf/open/floor/prison/bright_clean2,
+/area/taipei/hangar/cargoshuttle)
 "tzy" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 8
@@ -23183,7 +22330,6 @@
 "tBT" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/light/double,
-/obj/structure/prop/brazier/campfire,
 /turf/open/floor/plating/asteroidfloor,
 /area/taipei/atrium)
 "tCd" = (
@@ -23214,12 +22360,17 @@
 /turf/open/floor/prison,
 /area/taipei/reactor)
 "tEJ" = (
-/obj/structure/bed/chair/dropship/passenger{
-	dir = 4;
-	icon_state = "hotseat_destroyed"
+/obj/structure/largecrate/random/case/double{
+	pixel_x = 2;
+	pixel_y = 3
 	},
-/turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
-/area/taipei/hangar)
+/obj/structure/catwalk,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable/heavyduty{
+	icon_state = "1-2"
+	},
+/turf/open/floor/prison/bright_clean2,
+/area/taipei/hangar/cargoshuttle)
 "tFe" = (
 /obj/structure/prop/invuln/lattice_prop{
 	icon_state = "lattice4";
@@ -23301,7 +22452,6 @@
 	pixel_y = 10
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/item/reagent_container/food/drinks/bottle/gin,
 /turf/open/floor/floor4,
 /area/taipei/atrium/restaurant)
 "tLl" = (
@@ -23627,10 +22777,7 @@
 /turf/open/floor/carpet9_4/west,
 /area/taipei/theatre)
 "ubP" = (
-/obj/item/trash/cigbutt{
-	pixel_x = 5;
-	pixel_y = 7
-	},
+/obj/structure/bed/chair/comfy,
 /turf/open/floor/kutjevo/tan,
 /area/taipei/atrium/offices)
 "ucs" = (
@@ -23709,7 +22856,6 @@
 	pixel_x = 10;
 	pixel_y = 14
 	},
-/obj/item/reagent_container/food/drinks/bottle/patron,
 /turf/open/floor/bar,
 /area/taipei/atrium/restaurant)
 "uhv" = (
@@ -23818,12 +22964,9 @@
 /turf/open/floor/kutjevo/colors/red/edge/west,
 /area/taipei/cmb)
 "ukr" = (
+/obj/structure/machinery/portable_atmospherics/canister/empty,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/portable_atmospherics/canister{
-	icon_state = "yellow-1"
-	},
-/obj/effect/decal/hybrisa/tiretrack,
 /turf/open/floor/asteroidwarning/north,
 /area/taipei/maints/north)
 "ukC" = (
@@ -23981,20 +23124,18 @@
 /turf/open/floor/carpet13_5,
 /area/taipei/theatre)
 "upf" = (
-/obj/effect/decal/cleanable/generic,
-/obj/effect/decal/cleanable/cobweb2/dynamic,
-/obj/structure/computer3frame{
-	pixel_x = -5;
-	pixel_y = 8
+/obj/structure/stairs/perspective{
+	dir = 1;
+	icon_state = "p_stair_full"
 	},
-/obj/item/device/encryptionkey/merc{
-	pixel_x = 5;
-	pixel_y = 4;
-	layer = 2.9;
-	anchored = 1
+/obj/structure/platform_decoration{
+	dir = 1
 	},
-/turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
-/area/taipei/hangar)
+/obj/structure/platform_decoration,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/edge/smooth,
+/area/taipei/hangar/cargoshuttle)
 "upq" = (
 /turf/closed/wall/biodome,
 /area/taipei/maints/north)
@@ -24329,7 +23470,6 @@
 "uGQ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/obj/item/tool/weldingtool/simple,
 /turf/open/floor/plating/asteroidwarning/west,
 /area/taipei/reactor)
 "uHf" = (
@@ -24443,19 +23583,15 @@
 /turf/open/floor/plating/asteroidfloor,
 /area/taipei/atrium)
 "uMA" = (
+/obj/structure/bed/sofa/south/white/right{
+	pixel_x = 0;
+	pixel_y = 12
+	},
 /obj/structure/machinery/light{
 	dir = 4;
 	light_power = 0.5
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/item/stack/sheet/metal{
-	pixel_x = 1;
-	pixel_y = -3
-	},
-/obj/structure/barricade/metal/wired{
-	dir = 1;
-	icon_state = "metal_2"
-	},
 /turf/open/floor/kutjevo/colors/cyan/inner_corner/north,
 /area/taipei/atrium/medbay)
 "uMK" = (
@@ -24661,7 +23797,6 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/obj/item/clothing/head/headband/red,
 /turf/open/floor/plating/asteroidwarning/west,
 /area/taipei/maints/north)
 "vbu" = (
@@ -24710,7 +23845,6 @@
 /obj/structure/machinery/light/double{
 	dir = 1
 	},
-/obj/structure/prop/brazier/campfire,
 /turf/open/floor/plating/asteroidfloor,
 /area/taipei/atrium)
 "vdI" = (
@@ -24993,11 +24127,9 @@
 /area/taipei/reactor)
 "vrP" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood{
-	icon_state = "csplatter6"
-	},
-/turf/open/shuttle/dropship/light_grey_single_wide_up_to_down,
-/area/taipei/hangar)
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/edge/west,
+/area/taipei/hangar/cargoshuttle)
 "vta" = (
 /obj/structure/bed/chair/bolted,
 /obj/effect/decal/cleanable/dirt,
@@ -25148,7 +24280,6 @@
 "vzG" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/obj/item/clothing/head/welding,
 /turf/open/floor/plating/asteroidfloor/north,
 /area/taipei/reactor)
 "vAv" = (
@@ -25185,10 +24316,12 @@
 /turf/open/floor/prison,
 /area/taipei/club)
 "vBx" = (
-/turf/closed/shuttle/midway{
-	icon_state = "69"
+/obj/structure/machinery/light/blue{
+	dir = 4
 	},
-/area/taipei/hangar)
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/edge/smooth/northwest,
+/area/taipei/hangar/cargoshuttle)
 "vBG" = (
 /obj/structure/prop/invuln/lattice_prop{
 	icon_state = "lattice8";
@@ -25198,15 +24331,11 @@
 /turf/closed/wall/biodome,
 /area/taipei/maints/north)
 "vBI" = (
+/obj/structure/bed/sofa/south/white/left{
+	pixel_x = 0;
+	pixel_y = 12
+	},
 /obj/effect/decal/cleanable/dirt,
-/obj/item/weapon/gun/rifle/l42a{
-	pixel_x = -12;
-	pixel_y = 6
-	},
-/obj/item/ammo_magazine/rifle/l42a{
-	pixel_x = 10;
-	pixel_y = 3
-	},
 /turf/open/floor/kutjevo/colors/cyan/edge/north,
 /area/taipei/atrium/medbay)
 "vCp" = (
@@ -25643,7 +24772,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/light/double,
-/obj/structure/prop/brazier/campfire,
 /turf/open/floor/plating/asteroidfloor,
 /area/taipei/atrium)
 "vSH" = (
@@ -25752,6 +24880,7 @@
 /turf/open/floor/corsat/marked,
 /area/taipei/maints/south)
 "vZK" = (
+/obj/structure/blocker/invisible_wall,
 /obj/structure/sign/safety/rad_haz,
 /obj/structure/sign/safety/restrictedarea{
 	pixel_x = 15
@@ -25801,10 +24930,10 @@
 /turf/open/floor/kutjevo/tan,
 /area/taipei/atrium)
 "wbW" = (
-/turf/closed/shuttle/midway/transparent{
-	icon_state = "32"
-	},
-/area/taipei/hangar)
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/edge/smooth/endcap_left/west,
+/area/taipei/hangar/cargoshuttle)
 "wcn" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/closed/wall/almayer,
@@ -25965,9 +25094,16 @@
 /turf/open/floor/plating/asteroidfloor/north,
 /area/taipei/hangar)
 "wfQ" = (
-/obj/effect/decal/ammo_casing/redshell,
-/turf/open/shuttle/dropship/light_grey_bottom_left,
-/area/taipei/hangar)
+/obj/structure/cargo_container/arious/rightmid,
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_x = 16;
+	pixel_y = -1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/edge/west,
+/area/taipei/hangar/cargoshuttle)
 "wgp" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "1-2"
@@ -26024,14 +25160,14 @@
 /area/taipei/telecomms)
 "whr" = (
 /obj/structure/surface/table,
-/obj/item/ammo_magazine/rifle/m16{
-	pixel_x = 3;
-	pixel_y = 1
+/obj/structure/machinery/prop/almayer/computer/PC{
+	pixel_y = 6
 	},
-/obj/item/clothing/accessory/storage/webbing{
-	pixel_x = -2;
-	pixel_y = 22
+/obj/structure/window/reinforced{
+	dir = 8;
+	health = 250
 	},
+/obj/item/trash/cigbutt/ucigbutt,
 /turf/open/floor/kutjevo/tan/grey_edge/west,
 /area/taipei/atrium/offices)
 "wiw" = (
@@ -26189,12 +25325,10 @@
 /turf/open/floor/plating/asteroidwarning/east,
 /area/taipei/reactor)
 "wpE" = (
-/obj/structure/machinery/light{
-	dir = 4;
-	pixel_x = 14
-	},
-/turf/open/shuttle/dropship/light_grey_single_wide_up_to_down,
-/area/taipei/hangar)
+/obj/structure/largecrate/random/barrel/red,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/edge/east,
+/area/taipei/hangar/cargoshuttle)
 "wpS" = (
 /obj/structure/machinery/light{
 	dir = 1
@@ -26220,10 +25354,6 @@
 /area/taipei/atrium)
 "wrB" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/item/ammo_magazine/rifle/l42a{
-	pixel_x = 0;
-	pixel_y = -6
-	},
 /turf/open/floor/kutjevo/colors/cyan/edge/northeast,
 /area/taipei/atrium/medbay)
 "wsc" = (
@@ -26339,12 +25469,12 @@
 /turf/open/floor/plating/asteroidfloor/north,
 /area/taipei/hangar)
 "wzN" = (
-/obj/structure/shuttle/part/midway/transparent{
-	icon_state = "84"
+/obj/structure/catwalk,
+/obj/structure/machinery/light/blue{
+	dir = 8
 	},
-/obj/effect/attach_point/electronics/midway,
-/turf/open/floor/plating,
-/area/taipei/hangar)
+/turf/open/floor/almayer/edge/west,
+/area/taipei/hangar/cargoshuttle)
 "wAj" = (
 /turf/open/floor/prison/darkredcorners2/east,
 /area/taipei/theatre)
@@ -26649,15 +25779,16 @@
 /turf/open/floor/cmo,
 /area/taipei/atrium/hotel)
 "wRY" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/light/double{
-	dir = 8;
-	light_color = "#e7c0a4";
-	light_power = 0.8;
-	light_range = 5
+/obj/structure/cargo_container/ferret/left,
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_x = 16;
+	pixel_y = -1
 	},
-/turf/open/shuttle/dropship/light_grey_single_wide_up_to_down,
-/area/taipei/hangar)
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/edge/west,
+/area/taipei/hangar/cargoshuttle)
 "wSl" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/kutjevo/colors/red/edge/west,
@@ -26690,8 +25821,12 @@
 /turf/open/floor/kutjevo/tan/alt_edge/northwest,
 /area/taipei/atrium)
 "wUY" = (
-/turf/open/shuttle/dropship/light_grey_single_wide_up_to_down,
-/area/taipei/hangar)
+/obj/structure/reagent_dispensers/fueltank/gas,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/edge/west,
+/area/taipei/hangar/cargoshuttle)
 "wVk" = (
 /obj/structure/stairs/perspective/kutjevo{
 	dir = 1;
@@ -26929,8 +26064,10 @@
 /turf/open/floor/prison/bluecorner,
 /area/taipei/club)
 "xeN" = (
+/obj/structure/machinery/door/poddoor/almayer/locked,
+/obj/structure/blocker/forcefield/human,
+/obj/structure/blocker/invisible_wall,
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/door/poddoor/almayer/open,
 /turf/open/floor/plating/asteroidfloor/north,
 /area/taipei/maints/north)
 "xfm" = (
@@ -27095,17 +26232,10 @@
 /turf/open/floor/light/broken,
 /area/taipei/club)
 "xjW" = (
-/obj/structure/machinery/light/double{
-	dir = 8;
-	light_color = "#e7c0a4";
-	light_power = 0.8;
-	light_range = 5
-	},
-/obj/structure/bed/chair/dropship/passenger{
-	dir = 4
-	},
-/turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
-/area/taipei/hangar)
+/obj/structure/catwalk,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison/bright_clean2,
+/area/taipei/hangar/cargoshuttle)
 "xli" = (
 /obj/structure/surface/rack{
 	pixel_x = -5
@@ -27846,13 +26976,15 @@
 /turf/open/floor/plating/asteroidfloor,
 /area/taipei/cargo)
 "xRv" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/bed/chair/dropship/passenger{
-	dir = 8;
-	icon_state = "hotseat_destroyed"
+/obj/structure/platform{
+	dir = 1
 	},
-/turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
-/area/taipei/hangar)
+/obj/structure/catwalk,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison/bright_clean2,
+/area/taipei/hangar/cargoshuttle)
 "xRX" = (
 /obj/structure/barricade/handrail/strata{
 	pixel_y = -4;
@@ -27960,11 +27092,10 @@
 /turf/open/floor/plating/asteroidfloor/north,
 /area/taipei/reactor/chamber)
 "xUP" = (
-/obj/structure/shuttle/part/midway/transparent{
-	icon_state = "95a"
-	},
+/obj/structure/machinery/computer/shuttle/ert/broken,
+/obj/structure/blocker/invisible_wall,
 /turf/open/floor/plating,
-/area/taipei/hangar)
+/area/taipei/hangar/cargoshuttle)
 "xUV" = (
 /obj/structure/platform{
 	dir = 8
@@ -28073,10 +27204,9 @@
 /turf/open/floor/kutjevo/colors,
 /area/taipei/cmb)
 "yan" = (
-/turf/closed/shuttle/midway{
-	icon_state = "64"
-	},
-/area/taipei/hangar)
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/edge/smooth/endcap_left/west,
+/area/taipei/hangar/cargoshuttle)
 "yaL" = (
 /obj/structure/curtain/open/medical,
 /obj/structure/cable/heavyduty{
@@ -28218,10 +27348,10 @@
 /turf/open/floor/prison,
 /area/taipei/reactor)
 "yha" = (
-/turf/closed/shuttle/midway{
-	icon_state = "75"
-	},
-/area/taipei/hangar)
+/obj/structure/catwalk,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/edge/west,
+/area/taipei/hangar/cargoshuttle)
 "yhw" = (
 /obj/structure/prop/invuln/joey,
 /obj/effect/decal/cleanable/dirt,
@@ -28282,11 +27412,8 @@
 /area/taipei/cmb)
 "yjv" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood{
-	icon_state = "csplatter3"
-	},
-/turf/open/shuttle/dropship/light_grey_single_wide_up_to_down,
-/area/taipei/hangar)
+/turf/open/floor/almayer/edge/west,
+/area/taipei/hangar/cargoshuttle)
 "yjz" = (
 /obj/item/spacecash/c20,
 /turf/open/floor/light/blue_glow,
@@ -34719,7 +33846,7 @@ iQr
 iQr
 iQr
 lGZ
-abl
+iCF
 lGZ
 tuY
 vqo
@@ -34747,7 +33874,7 @@ vqo
 vqo
 tuY
 bzQ
-aaL
+frY
 bzQ
 iQr
 iQr
@@ -35151,7 +34278,7 @@ cac
 vqo
 izj
 izj
-aaM
+jvY
 lsf
 lsf
 lsf
@@ -35759,8 +34886,8 @@ izj
 voa
 vNy
 bTh
-eDn
-aaK
+adg
+bqi
 kby
 ffL
 ltv
@@ -35937,7 +35064,7 @@ uaq
 vqo
 vqo
 iBq
-aaU
+lTl
 qMW
 alc
 qMW
@@ -35962,7 +35089,7 @@ fBF
 ciP
 rjP
 orr
-bqi
+adf
 kby
 oYQ
 hTM
@@ -36138,7 +35265,7 @@ njs
 uaq
 uaq
 kzi
-aaY
+hMK
 bYk
 gAS
 oAr
@@ -36337,11 +35464,11 @@ vHX
 vHX
 fdU
 fnB
-abg
+fnB
 xJD
 kEu
-aaZ
-aaV
+kzi
+kzi
 cEr
 oAr
 jEW
@@ -36368,9 +35495,9 @@ cYh
 rSP
 wLP
 cVT
-aaI
 wLP
-aaH
+wLP
+wLP
 cVT
 wLP
 tcq
@@ -36539,10 +35666,10 @@ lih
 lih
 gWs
 pXg
-abh
+pXg
 okm
 kzi
-aba
+kzi
 kzi
 hMK
 gAS
@@ -36564,7 +35691,7 @@ pOj
 xei
 qJb
 mai
-aaN
+bqi
 tyv
 blm
 oYQ
@@ -36731,20 +35858,20 @@ lnZ
 uaq
 vMO
 sVC
-sVC
-abx
-abv
-sVC
+ubP
+oqb
+qhD
+adi
 ubP
 oqb
 qhD
 eEo
 jNe
 sVC
-abh
+pXg
 oYS
 kzi
-aaZ
+kzi
 bej
 ucZ
 eKU
@@ -36933,10 +36060,10 @@ hDf
 uaq
 ofP
 bys
-bys
-aby
+gxp
+koW
 whr
-bys
+ewg
 gxp
 koW
 aus
@@ -36946,7 +36073,7 @@ cKu
 uaq
 uaq
 kEu
-abb
+bej
 bej
 cEr
 eOl
@@ -37135,16 +36262,16 @@ mBX
 mBX
 tsy
 fvi
-pXg
-abz
+sVv
+csP
 mFC
-pXg
+adj
 sVv
 csP
 jqV
 lzj
 sVC
-abi
+sVC
 xJD
 kzi
 kzi
@@ -37335,7 +36462,7 @@ iQr
 iQr
 iQr
 mBX
-abC
+pNl
 uaq
 uaq
 uaq
@@ -37349,9 +36476,9 @@ uaq
 uaq
 uaq
 cpS
-abe
-abc
-aaW
+bFK
+lCU
+oAr
 jEW
 jEW
 oAr
@@ -37383,7 +36510,7 @@ izj
 izj
 izj
 izj
-aaD
+jvY
 lsf
 iQr
 iQr
@@ -37550,10 +36677,10 @@ pPz
 pPz
 pPz
 pPz
-abf
-abd
-abd
-aaX
+pZD
+oAr
+oAr
+jEW
 jEW
 oAr
 oAr
@@ -37585,7 +36712,7 @@ bzQ
 bzQ
 bzQ
 bzQ
-aaE
+qWl
 bzQ
 iQr
 rns
@@ -37739,7 +36866,7 @@ oeA
 rns
 slJ
 lGZ
-abD
+kjv
 jVD
 scR
 pdD
@@ -37787,7 +36914,7 @@ pdD
 pdD
 lBe
 rhw
-aaF
+xJh
 bzQ
 iQr
 rns
@@ -40748,8 +39875,8 @@ yhR
 yhR
 yhR
 yhR
-lGZ
-lGZ
+adk
+adk
 lGZ
 lGZ
 lGZ
@@ -40952,37 +40079,37 @@ fPY
 fPY
 vZK
 tGK
-acj
-abm
-abm
-abp
-abm
-abL
-abj
-abn
-abm
-abj
-abJ
-abL
-abK
-abJ
-abm
-abG
-abA
-abp
-abj
-abn
-abm
-abj
-abA
-abm
-abj
-abn
-abp
-abj
-abn
-abm
-abj
+yeT
+bFJ
+bFJ
+rdf
+bFJ
+sjh
+kOX
+ieT
+bFJ
+kOX
+jZZ
+sjh
+nPn
+jZZ
+bFJ
+ezN
+dOO
+rdf
+kOX
+ieT
+bFJ
+kOX
+dOO
+bFJ
+kOX
+ieT
+rdf
+kOX
+ieT
+bFJ
+kOX
 qkf
 nZZ
 eOl
@@ -41151,10 +40278,10 @@ ocv
 cBi
 vzG
 wJp
-acz
+wJp
 tau
 hKJ
-ack
+gje
 utQ
 vQx
 vQx
@@ -41350,43 +40477,43 @@ ehP
 dcV
 nrm
 kWJ
-acB
+dxk
 dxk
 cRg
 uGQ
 xeN
-acy
-acl
-aca
+eeF
+blu
+vUH
 bel
 aZk
 reD
-abq
-abo
-abr
-abr
-abH
-abr
-abr
-abu
-abr
-abr
-abH
-abr
-abr
-abu
-abr
-abq
-abo
-abr
-abr
-abu
-abr
-abq
-abo
+heo
+awt
+oOp
+oOp
+xNf
+oOp
+oOp
+fPH
+oOp
+oOp
+xNf
+oOp
+oOp
+fPH
+oOp
+heo
+awt
+oOp
+oOp
+fPH
+oOp
+heo
+awt
 iaq
 iaq
-abk
+kAA
 lrH
 nZZ
 eOl
@@ -41559,7 +40686,7 @@ wJp
 xeN
 blu
 jTh
-acb
+vQx
 jOE
 bNd
 gOS
@@ -41755,13 +40882,13 @@ ogZ
 kYI
 kWJ
 bfm
-acA
+bfm
 bfm
 itO
 xeN
 ukr
-acm
-acc
+yeT
+aNh
 jOE
 doY
 hOD
@@ -42566,8 +41693,8 @@ yhR
 yhR
 yhR
 yhR
-lGZ
-lAV
+adk
+adl
 wBC
 vQx
 jOE
@@ -44406,7 +43533,7 @@ qxw
 svl
 onZ
 sph
-abB
+svl
 svl
 hdb
 svl
@@ -44815,7 +43942,7 @@ tUB
 eZX
 qxw
 tjI
-abs
+svl
 oIt
 dRT
 pyb
@@ -45208,16 +44335,16 @@ oiM
 sfA
 rMu
 pLS
-abI
+hdb
 vyU
 qxw
 epz
 uHN
-abE
+uHN
 uHN
 bUh
 svl
-abw
+svl
 onZ
 qxw
 wTk
@@ -45819,13 +44946,13 @@ dbT
 duV
 kTm
 kcX
-abF
+svl
 cIQ
 dbT
 njF
 gWM
 rkV
-abt
+uHN
 hhI
 dbT
 duV
@@ -48267,7 +47394,7 @@ jEW
 jEW
 jEW
 jEW
-aaP
+jEW
 jEW
 jEW
 jEW
@@ -48628,7 +47755,7 @@ iQr
 iQr
 iQr
 lGZ
-acn
+wBC
 vQx
 jOE
 amB
@@ -49438,7 +48565,7 @@ iQr
 lGZ
 wBC
 vQx
-abT
+eeF
 amB
 osb
 kCg
@@ -50042,7 +49169,7 @@ iQr
 iQr
 iQr
 lGZ
-aco
+wBC
 vQx
 lng
 gLk
@@ -50244,7 +49371,7 @@ iQr
 iQr
 iQr
 lGZ
-acp
+vCV
 alr
 jEe
 dgu
@@ -50446,12 +49573,12 @@ iQr
 iQr
 iQr
 lGZ
-acq
-acd
-abU
-abR
-abO
-abM
+xau
+vQx
+rKi
+tcp
+sjh
+sjh
 bFJ
 kZf
 xKO
@@ -50648,11 +49775,11 @@ iQr
 iQr
 iQr
 lGZ
-acr
-ace
-abV
-abS
-abP
+wBC
+vQx
+aNh
+mJr
+vQx
 aNh
 aNh
 aNh
@@ -50850,12 +49977,12 @@ iQr
 iQr
 iQr
 lGZ
-acs
-acf
-abW
+wBC
+vQx
+fDw
 vbr
-abQ
-abN
+mDD
+mDD
 hAl
 mDD
 mDD
@@ -51052,8 +50179,8 @@ iQr
 iQr
 iQr
 lGZ
-act
-acg
+pSB
+alr
 gEE
 pfF
 sCT
@@ -51254,9 +50381,9 @@ iQr
 iQr
 iQr
 lGZ
-acv
-ach
-abX
+wBC
+vQx
+jrf
 qZy
 xDs
 aqL
@@ -51456,9 +50583,9 @@ iQr
 iQr
 iQr
 lGZ
-acw
-aci
-abY
+wBC
+vQx
+jrf
 amB
 lmv
 aqL
@@ -52266,7 +51393,7 @@ iQr
 lGZ
 wBC
 aNh
-abZ
+jrf
 nOk
 xDs
 aqL
@@ -53072,7 +52199,7 @@ mhw
 hbh
 iQr
 lGZ
-acx
+vRB
 aNh
 lng
 amB
@@ -53882,7 +53009,7 @@ iQr
 lGZ
 wBC
 vQx
-abZ
+jrf
 amB
 lmv
 aqL
@@ -56345,7 +55472,7 @@ frb
 bgk
 vmb
 eCz
-aaS
+amQ
 nZZ
 eOl
 jEW
@@ -56751,7 +55878,7 @@ gbD
 jEW
 jEW
 oAr
-aaQ
+jEW
 eOl
 jEW
 jEW
@@ -56953,7 +56080,7 @@ gbD
 jEW
 eOl
 jEW
-aaR
+eOl
 jEW
 eOl
 jEW
@@ -61825,22 +60952,22 @@ twB
 hvq
 jiD
 xTD
-xTD
-xTD
-xTD
-xTD
-aau
-aaq
-aao
-xTD
-aai
-aaf
-aac
-aaa
+jiD
+acY
+pGZ
+pGZ
+pGZ
+pGZ
+pGZ
+pGZ
+pGZ
+pGZ
+pGZ
+pGZ
 loZ
-xTD
+acQ
 dwe
-xTD
+acD
 xTD
 xTD
 mPE
@@ -62026,23 +61153,23 @@ btG
 twB
 jiD
 xTD
+jiD
 xTD
-xTD
-xTD
+acZ
 wzN
 yha
 csy
 cjC
-aap
+taf
 aag
 bBD
 gYN
 taf
 fEh
 jaM
-xTD
 pGZ
-xTD
+pGZ
+acE
 xTD
 xTD
 mPE
@@ -62199,7 +61326,7 @@ lGS
 aCE
 skO
 ryf
-aaT
+ryf
 ryf
 qpY
 uHf
@@ -62209,7 +61336,7 @@ qpY
 ryf
 qpY
 qpY
-aaO
+qpY
 qpY
 cop
 mpR
@@ -62228,23 +61355,23 @@ btG
 twB
 jiD
 jiD
-xTD
-xTD
-xTD
-aay
+acY
+pGZ
+ada
+nfR
 nOm
 lgN
 xjW
 aan
 tEJ
-aaj
-aag
+etN
+rLB
 nZM
 etN
 nZJ
 nnh
 hYN
-xTD
+acF
 jiD
 xTD
 mPE
@@ -62430,23 +61557,23 @@ btG
 jpK
 jiD
 xTD
-xTD
+ade
 xUP
 bRD
-aaz
+xjW
 nLb
 iMT
 vrP
 wfQ
 qIP
-aak
+yjv
 yjv
 wRY
 wUY
 toC
-xTD
-xTD
-xTD
+acN
+acN
+acG
 jiD
 xTD
 mPE
@@ -62632,13 +61759,13 @@ btG
 jpK
 xTD
 xTD
-xTD
+ade
 azN
 upf
-aaA
-aax
+xjW
+nLb
 nqh
-aar
+xjW
 hHb
 bav
 pFN
@@ -62646,9 +61773,9 @@ nfR
 gHQ
 dGJ
 oEH
-xTD
-xTD
-xTD
+acO
+acO
+acH
 xTD
 xTD
 mPE
@@ -62834,23 +61961,23 @@ btG
 twB
 xTD
 xTD
-xTD
-aaG
+ade
+xUP
 fLR
-aaB
+dGJ
 nLb
 aoh
 luZ
 fYB
 hsC
 aak
-wUY
+acV
 khb
 wpE
-oEH
-xTD
-xTD
-xTD
+acS
+acO
+acP
+acI
 jiD
 xTD
 mPE
@@ -62998,7 +62125,7 @@ xKG
 gfa
 qSm
 rTs
-aof
+adh
 peI
 pew
 lGS
@@ -63036,23 +62163,23 @@ itE
 pRe
 jiD
 jiD
-xTD
-xTD
-xTD
-aaC
-nLb
+adc
+drU
+adb
+xjW
+acX
 xRv
-aas
+etN
 tyN
-aan
-aal
+rLB
+rLB
 miq
-aad
+nZM
 rLB
 bof
-eOh
+acN
 fzM
-xTD
+acJ
 xTD
 xTD
 mPE
@@ -63240,21 +62367,21 @@ xTD
 hvq
 xTD
 xTD
-xTD
+acZ
 qsO
 ssB
 bGf
 vBx
 yan
-miq
+acW
 iDD
 rpf
 wbW
 oXw
-loZ
-xTD
+acT
 drU
-xTD
+drU
+acK
 xTD
 xTD
 mPE
@@ -63442,21 +62569,21 @@ xTD
 jiD
 xTD
 xTD
-xTD
-xTD
-xTD
-aav
-aat
+adc
+drU
+drU
+drU
+drU
 dCZ
-xTD
-aam
-aah
-aae
-aab
-jaM
-xTD
+drU
+drU
+drU
+drU
+drU
+acU
+acR
 pjR
-xTD
+acL
 xTD
 xTD
 mPE
