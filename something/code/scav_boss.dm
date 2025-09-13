@@ -1,4 +1,4 @@
-//taipei baron
+//taipei baron STATUS: ELIMINATED
 
 /obj/item/clothing/head/helmet/marine/veteran/scavs
 	flags_atom = NO_SNOW_TYPE|NO_NAME_OVERRIDE //Let's make these keep their name and icon.

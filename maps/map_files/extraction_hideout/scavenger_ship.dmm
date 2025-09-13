@@ -17,6 +17,14 @@
 	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_engo)
+"aac" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/vending/cigarette/upp{
+	pixel_y = 21;
+	density = 0
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/scavenger_ship/ssv_asclepius)
 "aad" = (
 /obj/structure/machinery/light/double{
 	dir = 2;
@@ -26,6 +34,17 @@
 	},
 /turf/open/floor/prison/whitepurple/southwest,
 /area/scavenger_ship/ssv_asclepius)
+"aae" = (
+/obj/structure/window/framed/strata/hull,
+/obj/structure/blocker/invisible_wall,
+/turf/open/floor/corsat,
+/area/scavenger_ship/hangar_hallway)
+"aaf" = (
+/obj/effect/spawner/random/claymore/lowchance{
+	dir = 8
+	},
+/turf/open/floor/corsat,
+/area/scavenger_ship/hangar_maint)
 "aaE" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "1-2-4";
@@ -2032,12 +2051,12 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/hangar_maint)
 "bGS" = (
-/obj/structure/largecrate/random/secure,
-/obj/structure/largecrate/random/secure{
-	pixel_x = -2;
-	pixel_y = 17
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/largecrate/empty/secure,
+/obj/structure/largecrate/empty/secure{
+	pixel_x = -4;
+	pixel_y = 18
+	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/staging_workshop)
 "bGZ" = (
@@ -2143,10 +2162,6 @@
 	color = "#8B7B5B";
 	pixel_x = -8;
 	pixel_y = 2
-	},
-/obj/effect/spawner/random/bomb_supply{
-	pixel_x = -8;
-	pixel_y = 12
 	},
 /obj/item/frame/camera{
 	pixel_x = 8;
@@ -2632,7 +2647,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison/floor_marked,
-/area/supply/station)
+/area/scavenger_ship/logistics_bay)
 "cdb" = (
 /obj/effect/decal/cleanable/hybrisa/trash{
 	icon_state = "trash_12";
@@ -3783,7 +3798,7 @@
 	dir = 8
 	},
 /obj/effect/step_trigger/teleporter_vector{
-	vector_x = -28;
+	vector_x = 28;
 	vector_y = -29
 	},
 /obj/structure/barricade/handrail/strata{
@@ -3852,6 +3867,14 @@
 /area/space)
 "dhA" = (
 /obj/structure/bed/chair/comfy/bench/mid,
+/obj/item/prop/helmetgarb/chaplain_patch{
+	pixel_x = 4;
+	pixel_y = 9
+	},
+/obj/item/prop/helmetgarb/compass{
+	pixel_x = -1;
+	pixel_y = -12
+	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/cryo_lockers)
 "dhF" = (
@@ -4374,8 +4397,8 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/hangar_hallway)
 "dzj" = (
-/obj/structure/largecrate/random/secure,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/largecrate/empty/secure,
 /turf/open/floor/corsat,
 /area/scavenger_ship/staging_workshop)
 "dzv" = (
@@ -4431,7 +4454,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/oil,
 /turf/open/floor/prison/southwest,
-/area/supply/station)
+/area/scavenger_ship/logistics_bay)
 "dBa" = (
 /obj/structure/machinery/door/airlock/almayer/generic{
 	dir = 1;
@@ -6690,7 +6713,7 @@
 	},
 /obj/effect/landmark/late_join,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/start/marine/alpha,
+/obj/effect/landmark/start/marine/tl/alpha,
 /turf/open/floor/prison,
 /area/scavenger_ship/cryo_cells)
 "ftr" = (
@@ -9155,6 +9178,11 @@
 	pixel_x = -6;
 	pixel_y = -8
 	},
+/obj/structure/flag/plantable/upp{
+	layer = 2.8;
+	pixel_y = 11;
+	pixel_x = 25
+	},
 /turf/open/floor/prison/floor_plate/southwest,
 /area/scavenger_ship/residential_memorial)
 "hzP" = (
@@ -11457,9 +11485,9 @@
 /area/scavenger_ship/hangar_hallway)
 "jpv" = (
 /obj/item/clothing/suit/storage/hazardvest,
-/obj/structure/closet/crate,
 /obj/effect/spawner/random/bomb_supply,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/crate,
 /turf/open/floor/prison/darkbrown2/southeast,
 /area/scavenger_ship/logistics_bay)
 "jpz" = (
@@ -12107,10 +12135,10 @@
 /turf/open/floor/prison/darkbrown2/west,
 /area/scavenger_ship/residential_hallway)
 "jQi" = (
-/obj/structure/largecrate/random/case,
-/obj/structure/largecrate/random/case/double{
-	pixel_x = 0;
-	pixel_y = 10
+/obj/structure/largecrate/empty/case/double,
+/obj/structure/largecrate/empty/case{
+	pixel_x = 4;
+	pixel_y = 21
 	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/staging_workshop)
@@ -12476,10 +12504,6 @@
 /area/scavenger_ship/logistics_bay)
 "kmy" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/prop/almayer/whiteboard/clear{
-	pixel_x = 4;
-	pixel_y = 18
-	},
 /turf/open/floor/prison/darkbrowncorners2/north,
 /area/scavenger_ship/logistics_hallway)
 "kmN" = (
@@ -12601,7 +12625,6 @@
 /area/scavenger_ship/staging_requisition)
 "ktm" = (
 /obj/effect/decal/cleanable/generic,
-/obj/effect/decal/cleanable/cobweb2/dynamic,
 /obj/structure/computer3frame{
 	pixel_x = -5;
 	pixel_y = 8
@@ -12612,6 +12635,7 @@
 	layer = 2.9;
 	anchored = 1
 	},
+/obj/effect/decal/cleanable/cobweb2,
 /turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
 /area/scavenger_ship/hangar_deck)
 "ktu" = (
@@ -13023,6 +13047,12 @@
 	phone_id = "Deep Storage Bay";
 	name = "Cargo Storage Telephone"
 	},
+/obj/structure/machinery/light/small{
+	dir = 8;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 4
+	},
 /turf/open/floor/prison/cell_stripe,
 /area/scavenger_ship/logistics_elevator)
 "kGX" = (
@@ -13375,12 +13405,9 @@
 /area/scavenger_ship/hangar_deck)
 "kVy" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/computer/custom_email{
-	pixel_x = 3;
-	pixel_y = 28;
-	name = "Mission Terminal";
-	desc = "Terminal, usually need's for mission logs.";
-	email_list = list(/datum/fluff_email/rover/mission1, /datum/fluff_email/rover/mission2)
+/obj/structure/machinery/computer/custom_email/contracts{
+	pixel_y = 25;
+	light_color = "#e7c0a4"
 	},
 /turf/open/floor/prison/darkbrown2/north,
 /area/scavenger_ship/staging_hallway)
@@ -13466,13 +13493,6 @@
 "kZs" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/greenglow,
-/obj/item/device/radio/intercom{
-	freerange = 1;
-	name = "General Listening Channel";
-	pixel_y = -30;
-	layer = 4;
-	pixel_x = 1
-	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/cryo_lockersaban)
 "lah" = (
@@ -14865,7 +14885,8 @@
 	},
 /obj/item/ammo_magazine/pkp{
 	pixel_x = -5;
-	pixel_y = 1
+	pixel_y = 1;
+	current_rounds = 0
 	},
 /obj/item/tool/plantspray/weeds{
 	pixel_x = 5;
@@ -16150,8 +16171,8 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/item/prop/helmetgarb/rosary{
-	pixel_x = -15;
-	pixel_y = -1
+	pixel_x = -2;
+	pixel_y = -2
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/cryo_lockers)
@@ -16704,7 +16725,6 @@
 	icon_state = "door_warning";
 	pixel_y = 6
 	},
-/obj/effect/decal/cleanable/spiderling_remains,
 /turf/open/floor/prison/floor_plate/southwest,
 /area/scavenger_ship/logistics_engo)
 "nPo" = (
@@ -17038,7 +17058,6 @@
 /area/scavenger_ship/hangar_maint)
 "oeM" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/door/poddoor/railing,
 /turf/open/floor/prison/darkbrown2/west,
 /area/scavenger_ship/logistics_elevator)
 "ofd" = (
@@ -17812,19 +17831,9 @@
 	pixel_y = -4;
 	pixel_x = 11
 	},
-/obj/structure/largecrate/random/case/double{
+/obj/structure/largecrate/empty/case/double{
 	pixel_x = 11;
-	pixel_y = 20
-	},
-/obj/structure/largecrate/random/mini/small_case{
-	pixel_x = 21;
-	layer = 3.1;
-	pixel_y = 38
-	},
-/obj/structure/largecrate/random/mini/small_case{
-	pixel_x = 8;
-	layer = 3.1;
-	pixel_y = 38
+	pixel_y = 19
 	},
 /turf/open/floor/prison/floor_plate/southwest,
 /area/scavenger_ship/logistics_bay)
@@ -19733,6 +19742,7 @@
 	icon_state = "lattice-simple";
 	pixel_x = 10
 	},
+/obj/effect/spawner/random/gun/rifle/lowchance,
 /turf/open/floor/corsat,
 /area/scavenger_ship/hangar_maint)
 "qgq" = (
@@ -20359,17 +20369,14 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_hallway)
 "qJp" = (
-/obj/structure/sign/ROsign{
-	layer = 3;
-	pixel_y = 30;
-	desc = "https://docs.google.com/spreadsheets/d/1eOAwIABBe6LVzjNHNnexIsJe6dMKZdJSn9t17J6TMOc/edit?usp=sharing";
-	name = "\improper Requisitions Price List"
-	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/warning_stripes{
 	icon_state = "SW-out";
 	pixel_y = -3;
 	pixel_x = 0
+	},
+/obj/structure/sign/prop3{
+	pixel_y = 30
 	},
 /turf/open/floor/prison/darkbrown2/northeast,
 /area/scavenger_ship/staging_hallway)
@@ -20895,9 +20902,6 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/ssv_asclepius)
 "rho" = (
-/obj/structure/machinery/door/poddoor/railing{
-	id = "garrow_elevator_upper"
-	},
 /obj/structure/machinery/door/poddoor/almayer/locked{
 	name = "\improper Cargo Elevator";
 	id = "cargolock"
@@ -22253,11 +22257,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/shuttle/dropship/light_grey_single_wide_up_to_down,
 /area/scavenger_ship/hangar_deck)
-"srd" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/spawner/random/gun/rifle/lowchance,
-/turf/open/floor/corsat,
-/area/scavenger_ship/hangar_maint)
 "sro" = (
 /turf/open/floor/prison/darkbrown3/north,
 /area/scavenger_ship/staging_requisition)
@@ -22381,15 +22380,6 @@
 	},
 /turf/open/floor/prison/floor_marked,
 /area/scavenger_ship/hangar_hallway)
-"sxk" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/vending/cigarette/upp{
-	pixel_x = -22;
-	pixel_y = 2;
-	density = 0
-	},
-/turf/open/floor/strata/multi_tiles/west,
-/area/scavenger_ship/ssv_asclepius)
 "sxZ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/light/double{
@@ -22465,14 +22455,14 @@
 	color = "#6e6e6e";
 	dir = 8
 	},
-/obj/effect/step_trigger/teleporter_vector{
-	vector_x = -28;
-	vector_y = -29
-	},
 /obj/structure/barricade/handrail/strata{
 	dir = 1;
 	pixel_x = 0;
 	pixel_y = 14
+	},
+/obj/effect/step_trigger/teleporter_vector{
+	vector_x = 28;
+	vector_y = -29
 	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/hangar_hallway)
@@ -22603,18 +22593,13 @@
 	req_access_txt = "26"
 	},
 /obj/structure/surface/table/almayer,
+/obj/item/loyalty/quartermaster{
+	pixel_x = -5;
+	pixel_y = -2
+	},
 /turf/open/floor/prison/darkbrownfull2,
 /area/scavenger_ship/staging_requisition)
 "sJb" = (
-/obj/item/prop{
-	desc = ы;
-	icon_state = "coin_diamond";
-	name = "glued one-hundred-credit requisition token";
-	pixel_y = 2;
-	force = 10;
-	pixel_x = 2;
-	anchored = 1
-	},
 /obj/effect/decal/cleanable/vomit,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison/west,
@@ -22712,6 +22697,11 @@
 	pixel_y = 13;
 	pixel_x = -17;
 	layer = 3.03
+	},
+/obj/structure/flag/plantable/ua{
+	pixel_y = 11;
+	layer = 2.8;
+	pixel_x = -7
 	},
 /obj/item/reagent_container/food/snacks/grown/harebell{
 	pixel_x = 8;
@@ -22852,7 +22842,7 @@
 	},
 /obj/effect/landmark/late_join,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/start/marine/alpha,
+/obj/effect/landmark/start/marine/tl/alpha,
 /turf/open/floor/prison,
 /area/scavenger_ship/cryo_cells)
 "sUW" = (
@@ -23152,8 +23142,7 @@
 	can_buckle = 1;
 	layer = 3.6;
 	pixel_y = 20;
-	pixel_x = -1;
-	density = 1
+	pixel_x = -1
 	},
 /turf/open/floor/prison/darkbrown2/northwest,
 /area/scavenger_ship/logistics_elevator)
@@ -23241,6 +23230,13 @@
 	icon_state = "trash_2";
 	pixel_y = 3;
 	pixel_x = 0
+	},
+/obj/item/device/radio/intercom{
+	freerange = 1;
+	name = "General Listening Channel";
+	pixel_y = 0;
+	layer = 4;
+	pixel_x = -29
 	},
 /turf/open/floor/prison/blue/southwest,
 /area/scavenger_ship/cryo_lockersaban)
@@ -23846,7 +23842,6 @@
 	pixel_y = 5;
 	pixel_x = 2
 	},
-/obj/structure/machinery/door/poddoor/railing,
 /turf/open/floor/prison/darkbrown2/east,
 /area/scavenger_ship/logistics_elevator)
 "tKF" = (
@@ -23874,7 +23869,6 @@
 "tLI" = (
 /obj/effect/decal/hybrisa/tiretrack,
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/door/poddoor/railing,
 /turf/open/floor/prison/ramptop/north,
 /area/scavenger_ship/logistics_elevator)
 "tLQ" = (
@@ -24132,10 +24126,6 @@
 	pixel_y = 22
 	},
 /obj/effect/decal/remains/human,
-/obj/item/clothing/head/helmet/upp/marinepilot/merc{
-	pixel_x = -8;
-	pixel_y = 16
-	},
 /obj/item/lightstick/red/variant/planted{
 	pixel_x = 10;
 	pixel_y = 7
@@ -24754,15 +24744,6 @@
 	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/hangar_deck)
-"uEG" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "E";
-	pixel_x = 1
-	},
-/obj/effect/landmark/late_join,
-/obj/effect/landmark/start/marine/tl/alpha,
-/turf/open/floor/prison,
-/area/scavenger_ship/cryo_cells)
 "uFr" = (
 /obj/structure/shuttle/part/midway/transparent{
 	icon_state = "21"
@@ -25794,13 +25775,13 @@
 /turf/open/floor/prison/darkbrown3/southwest,
 /area/scavenger_ship/staging_requisition)
 "vFS" = (
-/obj/structure/largecrate/random/case/small,
 /obj/item/stack/sheet/glass{
 	amount = 20;
 	pixel_x = -1;
 	pixel_y = 9
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/largecrate/empty/case,
 /turf/open/floor/corsat,
 /area/scavenger_ship/staging_workshop)
 "vFX" = (
@@ -26026,7 +26007,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/plating_catwalk/prison,
-/area/supply/station)
+/area/scavenger_ship/logistics_bay)
 "vSj" = (
 /obj/structure/machinery/door/airlock/engineering/colony{
 	name = "Engine Tank Storage";
@@ -26044,6 +26025,9 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/camera/autoname/golden_arrow{
 	dir = 2
+	},
+/obj/structure/sign/banners/happybirthdaysteve{
+	pixel_y = 29
 	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/cryo_lockersaban)
@@ -26641,15 +26625,6 @@
 	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/hangar_hallway)
-"woI" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "W";
-	layer = 3.3
-	},
-/obj/effect/landmark/late_join,
-/obj/effect/landmark/start/marine/tl/alpha,
-/turf/open/floor/prison,
-/area/scavenger_ship/cryo_cells)
 "wpK" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E";
@@ -27473,7 +27448,7 @@
 	dir = 8
 	},
 /obj/effect/step_trigger/teleporter_vector{
-	vector_x = -28;
+	vector_x = 28;
 	vector_y = -29
 	},
 /turf/open/floor/corsat,
@@ -28777,10 +28752,6 @@
 /turf/open/floor/prison/blue/east,
 /area/scavenger_ship/cryo_lockersaban)
 "yhv" = (
-/obj/item/weapon/gun/shotgun/merc/damaged{
-	pixel_x = -6;
-	pixel_y = 14
-	},
 /obj/effect/decal/ammo_casing/redshell,
 /turf/open/shuttle/dropship/light_grey_bottom_left,
 /area/scavenger_ship/hangar_deck)
@@ -31101,7 +31072,7 @@ sfs
 pSU
 sfs
 xKh
-anL
+aaf
 naC
 naC
 rMX
@@ -31785,7 +31756,7 @@ opc
 sfs
 qzP
 pLi
-srd
+yjK
 hWG
 cBv
 sfs
@@ -32753,7 +32724,7 @@ hVe
 qwU
 rTv
 rTv
-fSa
+aac
 mxa
 lpK
 rTv
@@ -32929,7 +32900,7 @@ peC
 qXb
 peC
 kQE
-sxk
+fSa
 rTv
 rTv
 cxg
@@ -33149,7 +33120,7 @@ rhS
 gvv
 yjK
 fKH
-anL
+ckm
 sNk
 yjK
 jxd
@@ -37862,9 +37833,9 @@ rhS
 rEg
 rEg
 rEg
-sBu
-sBu
-sBu
+aae
+aae
+aae
 rEg
 rEg
 rEg
@@ -41187,7 +41158,7 @@ ciM
 sUP
 ffv
 jck
-woI
+ffv
 lGZ
 nur
 lhT
@@ -41529,7 +41500,7 @@ tAl
 rYU
 iwR
 oNd
-uEG
+eMG
 eVH
 ftg
 eMG

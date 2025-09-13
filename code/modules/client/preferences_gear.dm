@@ -647,7 +647,7 @@ GLOBAL_LIST_EMPTY(gear_datums_by_name)
 	display_name = "Royal Marine Commando uniform"
 	path = /obj/item/clothing/under/marine/veteran/royal_marine
 
-/datum/gear/clothing/uniform_upp
+/datum/gear/clothing/uniform_wy
 	display_name = "Weyland-Yutani PMC uniform"
 	path = /obj/item/clothing/under/marine/veteran/pmc
 

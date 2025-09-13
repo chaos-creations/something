@@ -70,3 +70,9 @@
 	add_fingerprint(usr)
 	attack_hand(usr)
 
+/obj/structure/machinery/computer/custom_email/contracts
+	name = "Misson Terminal"
+	desc = "An old but reliable machine connected to the local network. The display shows a rotating list of available tasks — ranging from deliveries and repairs to escort missions and clearances. \
+	The interface is simple: contract title, a brief description, estimated difficulty, and payout."
+	icon_state = "overwatch"
+	email_list = list(/datum/fluff_email/rover/mission1, /datum/fluff_email/rover/mission2, /datum/fluff_email/rover/mission3)

@@ -66,9 +66,8 @@
 		return
 
 	var/comm_paygrade = ""
-
+	var/accent_icon = get_accent_icon()
 	var/track = null
-
 	var/style = "body"
 
 	//non-verbal languages are garbled if you can't see the speaker. Yes, this includes if they are inside a closet.
@@ -102,11 +101,12 @@
 		comm_paygrade = H.get_paygrade()
 		if(H.voice)
 			speaker_name = H.voice
-
+		accent_icon = H.get_accent_icon(language)
 
 	if(hard_to_hear)
 		speaker_name = "unknown"
 		comm_paygrade = ""
+		accent_icon = ""
 
 	if(istype(src, /mob/dead/observer))
 		if(speaker_name != speaker.real_name) //Announce computer and various stuff that broadcasts doesn't use it's real name but AI's can't pretend to be other mobs.
@@ -127,14 +127,14 @@
 			to_chat(src, SPAN_WARNING("You feel your headset vibrate but can hear nothing from it!"), type = MESSAGE_TYPE_RADIO)
 	else if(track)
 		if(!command)
-			to_chat(src, "[part_a][comm_paygrade][track][part_b][verb], <span class=\"[style]\">\"[message]\"</span></span></span>", type = MESSAGE_TYPE_RADIO)
+			to_chat(src, "[part_a][accent_icon][comm_paygrade][track][part_b][verb], <span class=\"[style]\">\"[message]\"</span></span></span>", type = MESSAGE_TYPE_RADIO)
 		else
-			to_chat(src, "<span class=\"[fontsize_style]\">[part_a][comm_paygrade][track][part_b][verb], <span class=\"[style]\">\"[message]\"</span></span></span></span>", type = MESSAGE_TYPE_RADIO)
+			to_chat(src, "<span class=\"[fontsize_style]\">[part_a][accent_icon][comm_paygrade][track][part_b][verb], <span class=\"[style]\">\"[message]\"</span></span></span></span>", type = MESSAGE_TYPE_RADIO)
 	else
 		if(!command)
-			to_chat(src, "[part_a][comm_paygrade][speaker_name][part_b][verb], <span class=\"[style]\">\"[message]\"</span></span></span>", type = MESSAGE_TYPE_RADIO)
+			to_chat(src, "[part_a][accent_icon][comm_paygrade][speaker_name][part_b][verb], <span class=\"[style]\">\"[message]\"</span></span></span>", type = MESSAGE_TYPE_RADIO)
 		else
-			to_chat(src, "<span class=\"[fontsize_style]\">[part_a][comm_paygrade][speaker_name][part_b][verb], <span class=\"[style]\">\"[message]\"</span></span></span></span>", type = MESSAGE_TYPE_RADIO)
+			to_chat(src, "<span class=\"[fontsize_style]\">[part_a][accent_icon][comm_paygrade][speaker_name][part_b][verb], <span class=\"[style]\">\"[message]\"</span></span></span></span>", type = MESSAGE_TYPE_RADIO)
 
 /mob/proc/hear_signlang(message, verb = "gestures", datum/language/language, mob/speaker = null)
 	var/comm_paygrade = ""
