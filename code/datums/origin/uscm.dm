@@ -6,17 +6,17 @@
 /datum/origin/uscm/luna
 	name = ORIGIN_USCM_LUNA
 	desc = "You were born on a moonbase orbiting the earth. Pretty fuckin' cool if you ask me."
-	tag_icon = "usa"
+	tag_icon = "usa_moon"
 
 /datum/origin/uscm/other
 	name = ORIGIN_USCM_OTHER
 	desc = "You were born in an non-descript country within the United Americas."
-	tag_icon = "usa"
+	tag_icon = "usa_other"
 
 /datum/origin/uscm/colony
 	name = ORIGIN_USCM_COLONY
 	desc = "You were born on a Weyland-Yutani colony, and your only way of escaping that hell-hole was signing up with the marines."
-	tag_icon = "usa"
+	tag_icon = "usa_colony"
 
 /datum/origin/uscm/foreign
 	name = ORIGIN_USCM_FOREIGN
