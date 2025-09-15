@@ -21,7 +21,7 @@
 /datum/origin/uscm/foreign
 	name = ORIGIN_USCM_FOREIGN
 	desc = "You were born outside of the United Americas, designated irrelevant at birth."
-	tag_icon = "usa"
+	tag_icon = "usa_greencard"
 
 /datum/origin/uscm/aw
 	name = ORIGIN_USCM_AW
