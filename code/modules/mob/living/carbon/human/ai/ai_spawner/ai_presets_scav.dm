@@ -28,10 +28,15 @@
 
 /datum/human_ai_equipment_preset/scav/machinegun
 	name = "Scav, Marauder (Heavy)"
-	desc = "An advanced scav that excels in defending fortified locations. Always has good armor and a helmet, plus grenades and better meds. Uses either a PKP or M60 machine gun."
+	desc = "An advanced scav that excels in defending fortified locations. Always has good armor and a helmet, plus grenades and better meds. Uses either a ISL or M60 machine gun."
 	path = /datum/equipment_preset/scav/machinegun
 
 /datum/human_ai_equipment_preset/scav/antitank
 	name = "Scav, Marauder (Rocketeer)"
 	desc = "A scav that excels in breaching sieges; he always has good armor and a helmet, alongside better meds. Uses either an AR-10, M16, M20A, F903A1, or LW-317 rifle, and additionally always starts with a SADAR."
 	path = /datum/equipment_preset/scav/antitank
+
+/datum/human_ai_equipment_preset/scav/sniper
+	name = "Scav, Sniper"
+	desc = "A scav that excels in sniping; he never wears armor and carries nothing except his rifle. Uses either an SVD, M42A or L64A3."
+	path = /datum/equipment_preset/scav/sniper

@@ -45,6 +45,53 @@
 	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/hangar_maint)
+"aag" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/machinery/cm_vending/gear/extraction{
+	pixel_y = -32;
+	density = 0;
+	light_color = "#e7c0a4"
+	},
+/obj/item/shard{
+	icon_state = "large";
+	pixel_x = 2;
+	pixel_y = -1
+	},
+/turf/open/floor/prison/darkredfull2,
+/area/scavenger_ship/staging_prep)
+"aah" = (
+/obj/item/trash/pistachios,
+/turf/open/floor/prison/darkred2,
+/area/scavenger_ship/staging_prep)
+"aai" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/trash/barcardine,
+/turf/open/floor/prison/darkred2/north,
+/area/scavenger_ship/staging_prep)
+"aaj" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/machinery/cm_vending/gear/extraction{
+	pixel_y = 32;
+	density = 0;
+	light_color = "#e7c0a4"
+	},
+/obj/item/shard{
+	icon_state = "large";
+	pixel_x = 1;
+	pixel_y = 6
+	},
+/turf/open/floor/prison/darkredfull2,
+/area/scavenger_ship/staging_prep)
 "aaE" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "1-2-4";
@@ -4332,6 +4379,7 @@
 	pixel_x = -6
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/item/trash/sosjerky,
 /turf/open/floor/prison/floor_plate/southwest,
 /area/scavenger_ship/staging_prep)
 "dxN" = (
@@ -7385,6 +7433,7 @@
 	alpha = 155
 	},
 /obj/structure/disposalpipe/segment,
+/obj/item/trash/buritto,
 /turf/open/floor/prison/floor_plate/southwest,
 /area/scavenger_ship/staging_prep)
 "fZh" = (
@@ -9335,6 +9384,7 @@
 	pixel_y = 28;
 	pixel_x = -1
 	},
+/obj/item/trash/candy,
 /turf/open/floor/prison/darkred2/northwest,
 /area/scavenger_ship/staging_prep)
 "hGM" = (
@@ -9420,6 +9470,7 @@
 	pixel_x = 14;
 	pixel_y = 3
 	},
+/obj/effect/decal/cleanable/vomit,
 /turf/open/floor/prison/darkred2/east,
 /area/scavenger_ship/staging_prep)
 "hNn" = (
@@ -11168,14 +11219,6 @@
 /area/scavenger_ship/hangar_maint)
 "jeh" = (
 /obj/structure/surface/table/reinforced/prison,
-/obj/item/prop/tableflag{
-	pixel_x = -12;
-	pixel_y = 14
-	},
-/obj/item/prop/tableflag/upp{
-	pixel_x = -12;
-	pixel_y = -2
-	},
 /obj/item/paper_bin{
 	pixel_x = 1;
 	pixel_y = 8
@@ -11191,6 +11234,21 @@
 /obj/item/ashtray/plastic{
 	pixel_x = 7;
 	pixel_y = -12
+	},
+/obj/item/prop/magazine/dirty{
+	desc = "A copy of Playboy magazine. On the cover is photo of guitarist Sadie Summers, with the headline 'Sadie Summers tells ALL'. The article itself focuses on Sadie's many carnal exploits while on tour as well as her very public brawl at an LA nightclub that occured two years prior to the date of this issue. Flipping through the magazine you see article titles such as 'Jungle Mercenary: Life as an Ex-UPP commando', 'The whys and hows of choosing synthetic girls'.";
+	icon_state = "poster3";
+	name = "Playboy Magazine: Issue March 2182";
+	pixel_x = -6;
+	pixel_y = 39
+	},
+/obj/item/prop/tableflag{
+	pixel_x = -12;
+	pixel_y = 16
+	},
+/obj/item/prop/tableflag/upp{
+	pixel_x = -12;
+	pixel_y = -1
 	},
 /turf/open/floor/prison/floor_plate/southwest,
 /area/scavenger_ship/staging_prep)
@@ -13568,6 +13626,7 @@
 	icon_state = "trash_13";
 	pixel_y = 7
 	},
+/obj/item/trash/hotdog,
 /turf/open/floor/prison/darkred2/north,
 /area/scavenger_ship/staging_prep)
 "ldC" = (
@@ -15067,6 +15126,7 @@
 /area/scavenger_ship/hangar_maint)
 "mqg" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/item/trash/raisins,
 /turf/open/floor/prison/darkred2/northeast,
 /area/scavenger_ship/staging_prep)
 "mqA" = (
@@ -15846,6 +15906,7 @@
 	color = "#5d524b";
 	alpha = 155
 	},
+/obj/item/trash/eat,
 /turf/open/floor/prison/darkred2/west,
 /area/scavenger_ship/staging_prep)
 "ncJ" = (
@@ -18044,6 +18105,9 @@
 /area/scavenger_ship/staging_hallway)
 "oMb" = (
 /obj/effect/decal/cleanable/generic,
+/mob/living/simple_animal/hostile/retaliate/giant_lizard{
+	faction = "USCM"
+	},
 /turf/open/floor/prison/darkredcorners2/east,
 /area/scavenger_ship/staging_prep)
 "oMe" = (
@@ -18131,6 +18195,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/item/trash/barcardine,
 /turf/open/floor/prison/darkred2/east,
 /area/scavenger_ship/staging_prep)
 "oPk" = (
@@ -18888,6 +18953,7 @@
 /area/scavenger_ship/logistics_hallway)
 "pyB" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/prints,
 /turf/open/floor/prison/darkredcorners2/west,
 /area/scavenger_ship/staging_prep)
 "pyH" = (
@@ -19705,6 +19771,10 @@
 	pixel_x = 27
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/item/hybrisa/misc/trash_bag_full_prop{
+	pixel_x = 11;
+	pixel_y = 16
+	},
 /turf/open/floor/prison/darkred2/east,
 /area/scavenger_ship/staging_prep)
 "qeT" = (
@@ -22120,14 +22190,16 @@
 	phone_category = "USS Nomad";
 	phone_id = "Prep Room";
 	pixel_x = 10;
-	pixel_y = 6
+	pixel_y = 10
 	},
-/obj/item/prop/magazine/dirty{
-	desc = "A copy of Playboy magazine. On the cover is photo of guitarist Sadie Summers, with the headline 'Sadie Summers tells ALL'. The article itself focuses on Sadie's many carnal exploits while on tour as well as her very public brawl at an LA nightclub that occured two years prior to the date of this issue. Flipping through the magazine you see article titles such as 'Jungle Mercenary: Life as an Ex-UPP commando', 'The whys and hows of choosing synthetic girls'.";
-	icon_state = "poster3";
-	name = "Playboy Magazine: Issue March 2182";
-	pixel_x = -5;
-	pixel_y = 6
+/obj/structure/machinery/prop/almayer/CICmap{
+	icon = "icons/obj/items/marine-items.dmi";
+	icon_state = "map";
+	pixel_x = -4;
+	pixel_y = 2;
+	name = "\improper Area of Operation Map";
+	desc = "A satellite printout of the Area of Operation.";
+	needs_power = 0
 	},
 /turf/open/floor/prison/floor_plate/southwest,
 /area/scavenger_ship/staging_prep)
@@ -24394,6 +24466,7 @@
 	pixel_x = 7
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/item/trash/buritto,
 /turf/open/floor/prison/floor_plate/southwest,
 /area/scavenger_ship/staging_prep)
 "umE" = (
@@ -25963,6 +26036,7 @@
 /area/scavenger_ship/hangar_deck)
 "vPN" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/prints,
 /turf/open/floor/prison/floor_plate/southwest,
 /area/scavenger_ship/staging_prep)
 "vPZ" = (
@@ -28146,20 +28220,20 @@
 	icon = 'icons/obj/items/paper.dmi';
 	icon_state = "newspaper";
 	name = "Kosmicheskaya Pravda";
-	pixel_x = 4;
-	pixel_y = 3
-	},
-/obj/item/reagent_container/food/drinks/flask/barflask{
-	pixel_x = 5;
-	pixel_y = 3
+	pixel_x = 6;
+	pixel_y = 8
 	},
 /obj/item/trash/uscm_mre{
 	pixel_x = -8;
 	pixel_y = 9
 	},
-/obj/item/clothing/accessory/paint/target{
-	pixel_x = -7;
-	pixel_y = 2
+/obj/item/reagent_container/food/drinks/bottle/holywater/bong{
+	pixel_x = 6;
+	pixel_y = -9
+	},
+/obj/item/reagent_container/food/drinks/flask/barflask{
+	pixel_x = 5;
+	pixel_y = 9
 	},
 /turf/open/floor/prison/floor_plate/southwest,
 /area/scavenger_ship/staging_prep)
@@ -31661,12 +31735,12 @@ atn
 atn
 rEe
 lex
-bmd
+aai
 xQF
 skm
 ull
-isA
-rte
+aah
+aag
 rEe
 ydw
 ydw
@@ -32003,7 +32077,7 @@ mhi
 aCD
 dwv
 rEe
-lex
+aaj
 ldg
 vPN
 dxH
