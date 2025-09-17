@@ -16,11 +16,11 @@
 //Simply removes < and > and limits the length of the message
 /proc/strip_html_simple(t, limit=MAX_MESSAGE_LEN)
 	var/list/strip_chars = list("<",">")
-	t = copytext(t,1,limit)
+	t = copytext_char(t,1,limit)
 	for(var/char in strip_chars)
 		var/index = findtext(t, char)
 		while(index)
-			t = copytext(t, 1, index) + copytext(t, index+1)
+			t = copytext_char(t, 1, index) + copytext_char(t, index+1)
 			index = findtext(t, char)
 	return t
 
