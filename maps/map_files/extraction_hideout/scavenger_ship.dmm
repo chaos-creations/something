@@ -661,6 +661,11 @@
 	opacity = 0
 	},
 /area/scavenger_ship/hangar_maint)
+"abI" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/largecrate/black_market/clf_supplies,
+/turf/open/floor/corsat,
+/area/scavenger_ship/service_maint)
 "acA" = (
 /obj/structure/machinery/power/apc/almayer/south,
 /obj/item/weapon/twohanded/folded_metal_chair{
@@ -14633,6 +14638,10 @@
 /obj/structure/machinery/light/small/red{
 	dir = 8
 	},
+/obj/item/device/radio{
+	pixel_x = -1;
+	pixel_y = 6
+	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/service_maint)
 "lxG" = (
@@ -16671,6 +16680,26 @@
 /obj/structure/machinery/light/small/red{
 	dir = 4
 	},
+/obj/item/prop{
+	name = "Broken screwdriver";
+	pixel_y = 7;
+	icon_state = "screwdriver";
+	desc = "You can be totally screwy with this.";
+	pixel_x = -16
+	},
+/obj/item/prop{
+	name = "\improper Broken Security Access Tuner";
+	pixel_y = 4;
+	icon_state = "multitool_upp";
+	desc = "A small handheld tool used to override various machine functions. Primarily used to pulse Airlock and APC wires on a shortwave frequency. It contains a small data buffer as well.";
+	pixel_x = 5;
+	icon = 'icons/obj/items/devices.dmi'
+	},
+/obj/effect/decal/cleanable/blood{
+	icon_state = "csplatter3";
+	pixel_x = -15;
+	pixel_y = -22
+	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/service_maint)
 "nqo" = (
@@ -18563,18 +18592,13 @@
 /area/scavenger_ship/hangar_storbays)
 "oIZ" = (
 /obj/structure/surface/table/reinforced/almayer_B,
-/obj/item/device/radio{
-	pixel_x = 8;
-	pixel_y = 7
-	},
-/obj/item/stack/tile/carpet{
-	amount = 20;
-	pixel_x = -11;
-	pixel_y = 6
-	},
 /obj/structure/sign/poster/clf{
 	pixel_x = 0;
 	pixel_y = 33
+	},
+/obj/structure/machinery/prop/almayer/computer/noisetv/bigger{
+	pixel_x = 0;
+	pixel_y = 6
 	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/service_maint)
@@ -24504,9 +24528,9 @@
 /area/scavenger_ship/logistics_engo)
 "tNv" = (
 /obj/structure/machinery/door/airlock/prison_hatch{
-	dir = 1;
 	icon_state = "door_locked";
-	locked = 1
+	locked = 1;
+	dir = 1
 	},
 /obj/structure/machinery/door/firedoor/border_only/almayer{
 	dir = 2
@@ -28241,37 +28265,37 @@
 	pixel_x = 5;
 	pixel_y = 14
 	},
-/obj/item/reagent_container/hypospray/autoinjector/bicaridine/skillless/one_use{
+/obj/item/reagent_container/hypospray/autoinjector/bicaridine/skillless{
 	pixel_x = 1;
 	pixel_y = 1
 	},
-/obj/item/reagent_container/hypospray/autoinjector/bicaridine/skillless/one_use{
+/obj/item/reagent_container/hypospray/autoinjector/bicaridine/skillless{
 	pixel_x = 1;
 	pixel_y = 1
 	},
-/obj/item/reagent_container/hypospray/autoinjector/bicaridine/skillless/one_use{
+/obj/item/reagent_container/hypospray/autoinjector/bicaridine/skillless{
 	pixel_x = 1;
 	pixel_y = 1
 	},
-/obj/item/reagent_container/hypospray/autoinjector/bicaridine/skillless/one_use{
+/obj/item/reagent_container/hypospray/autoinjector/bicaridine/skillless{
 	pixel_x = 1;
 	pixel_y = 1
 	},
-/obj/item/reagent_container/hypospray/autoinjector/kelotane/skillless/one_use{
-	pixel_x = 1;
-	pixel_y = -7
+/obj/item/reagent_container/hypospray/autoinjector/kelotane/skillless{
+	pixel_y = -7;
+	pixel_x = 1
 	},
-/obj/item/reagent_container/hypospray/autoinjector/kelotane/skillless/one_use{
-	pixel_x = 1;
-	pixel_y = -7
+/obj/item/reagent_container/hypospray/autoinjector/kelotane/skillless{
+	pixel_y = -7;
+	pixel_x = 1
 	},
-/obj/item/reagent_container/hypospray/autoinjector/kelotane/skillless/one_use{
-	pixel_x = 1;
-	pixel_y = -7
+/obj/item/reagent_container/hypospray/autoinjector/kelotane/skillless{
+	pixel_y = -7;
+	pixel_x = 1
 	},
-/obj/item/reagent_container/hypospray/autoinjector/kelotane/skillless/one_use{
-	pixel_x = 1;
-	pixel_y = -7
+/obj/item/reagent_container/hypospray/autoinjector/kelotane/skillless{
+	pixel_y = -7;
+	pixel_x = 1
 	},
 /turf/open/floor/strata/cyan1/east,
 /area/scavenger_ship/ssv_asclepius)
@@ -46209,7 +46233,7 @@ mAm
 fWM
 rCN
 lxA
-cbP
+abI
 fWM
 fWM
 xyh

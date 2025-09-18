@@ -155,6 +155,76 @@
 		list("Two-Hundred-Credit Requisition Token", 50, /obj/item/coin/requisitionpoint/twohundred, VENDOR_ITEM_REGULAR)
 	)
 
+// noise tv redone //
+
+/obj/structure/machinery/prop/almayer/computer/noisetv
+	name = "transmission center"
+	desc = "A device assembled from a variety parts, waiting to receive a transmission."
+	icon = 'something/icons/missed_stuff.dmi'
+	icon_state = "tvnoise"
+	anchored = TRUE
+	density = TRUE
+	var/on = FALSE
+
+/obj/structure/machinery/prop/almayer/computer/noisetv/ex_act(severity)
+	switch(severity)
+		if(EXPLOSION_THRESHOLD_LOW to INFINITY)
+			if(prob(50))
+				audible_message(SPAN_WARNING("The [src] is damaged by the explosion!"))
+				on = FALSE
+				update_icon()
+				set_light(0)
+				playsound(src, null, 0)
+				addtimer(CALLBACK(src, .proc/endnoise), 1 SECONDS)
+				qdel(src)
+	return
+
+/obj/structure/machinery/prop/almayer/computer/noisetv/Initialize(mapload, ...)
+	. = ..()
+	on = TRUE
+	addtimer(CALLBACK(src, .proc/playnoise), 1)
+
+/obj/structure/machinery/prop/almayer/computer/noisetv/power_change()
+	..()
+	if(stat & NOPOWER)
+		if(on)
+			on = FALSE
+			endnoise()
+	else
+		if(!on)
+			on = TRUE
+			addtimer(CALLBACK(src, .proc/playnoise), 1)
+	update_icon()
+
+/obj/structure/machinery/prop/almayer/computer/noisetv/proc/playnoise()
+	if(!on)
+		return
+	if(QDELETED(src) || !on)
+		return
+
+	playsound(src, pick('something/sounds/noise.ogg', 'something/sounds/noise2.ogg','something/sounds/noise3.ogg'), 50)
+	if(prob(10))
+		var/phrase_1 = pick("Silent clearance", "Lost connection", "Incident report", "The-e-e-e-e", "A new decision has been made", "A measure of necessity")
+		var/phrase_2 = pick("Weyland-Yutani Directorate", "UPP field command", "Lord-Renegade", "Sector smugglers ring", "Hub Council", "Syndicate Dirrectors", "Colonial Administration office", "Unknown relay node")
+		var/phrase_3 = pick("Lost colony on LV-426", "Unmarked freighter drifting in orbit", "Experimental bio-weapon shipment", "Unstable reactor in Borealis sector", "Resurgence of insurgent cells", "Unexplained disappearances in colony", "Derelict vessel with distress beacon", "Strange signals from deep space")
+		visible_message(SPAN_LARGE("Noise-covered voices come from the [src]: '[phrase_1]... [phrase_2]... [phrase_3]'"))
+	if(on)
+		addtimer(CALLBACK(src, .proc/playnoise), 7 SECONDS)
+
+/obj/structure/machinery/prop/almayer/computer/noisetv/proc/endnoise()
+	playsound(src, null, 0)
+	set_light(0)
+	update_icon()
+	audible_message(SPAN_WARNING("Everything went quiet."))
+
+/obj/structure/machinery/prop/almayer/computer/noisetv/bigger
+	icon_state = "tvnoisebigger"
+
+/obj/structure/machinery/prop/almayer/computer/noisetv/old
+	name = "old TV"
+	desc = "An old TV. You doubt that it still works."
+	icon_state = "tvnoiseold"
+
 #define JOB_UPP_SYNTH_ASCLEPIUS "Replicant"
 
 /obj/item/device/radio/headset/almayer/marine/solardevils/mari
