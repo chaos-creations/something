@@ -1,4 +1,32 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aaa" = (
+/obj/structure/ladder/hatch{
+	id = "mtb"
+	},
+/turf/open/floor/strata/fake_wood,
+/area/sekhmet/int_reg/yard)
+"aab" = (
+/turf/open/floor/strata/multi_tiles/west,
+/area/sekhmet/int_reg/yard)
+"aac" = (
+/obj/structure/machinery/door/poddoor/hybrisa/ultra_reinforced_door{
+	id = "two"
+	},
+/turf/open/floor/corsat/marked,
+/area/sekhmet/int_reg/yard)
+"aad" = (
+/obj/structure/machinery/door_control/brbutton/alt{
+	pixel_x = -7;
+	pixel_y = 9;
+	id = "one"
+	},
+/obj/structure/machinery/door_control/brbutton/alt{
+	pixel_x = 8;
+	pixel_y = -5;
+	id = "two"
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
 "aae" = (
 /obj/structure/machinery/light/small{
 	light_power = 0.25
@@ -11,14 +39,449 @@
 	},
 /turf/open/floor/strata/multi_tiles/west,
 /area/sekhmet/int_heavy/research)
+"aag" = (
+/obj/structure/foamed_metal/iron,
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"aah" = (
+/obj/structure/machinery/door/poddoor/hybrisa/ultra_reinforced_door{
+	id = "one"
+	},
+/turf/open/floor/corsat/marked,
+/area/sekhmet/int_reg/yard)
+"aai" = (
+/obj/structure/machinery/camera{
+	c_tag = "Administration - Office";
+	colony_camera_mapload = 0;
+	network = list("Sekhmet");
+	dir = 1
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/sekhmet/int_reg/yard)
+"aaj" = (
+/turf/open/floor/strata/multi_tiles/southwest,
+/area/sekhmet/int_reg/yard)
+"aak" = (
+/obj/structure/prop/structure_lattice{
+	dir = 4;
+	pixel_y = 0
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"aal" = (
+/turf/open/floor/strata/multi_tiles,
+/area/sekhmet/int_reg/yard)
+"aam" = (
+/obj/structure/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/sekhmet/int_reg/yard)
+"aan" = (
+/obj/structure/machinery/door/airlock/multi_tile/secure2,
+/turf/open/floor/corsat/marked,
+/area/sekhmet/int_reg/yard)
+"aao" = (
+/turf/open/floor/corsat/marked,
+/area/sekhmet/int_reg/yard)
+"aap" = (
+/obj/structure/window/reinforced{
+	dir = 4;
+	pixel_x = -2;
+	pixel_y = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 8;
+	layer = 3.3;
+	pixel_y = 4
+	},
+/obj/structure/bed{
+	can_buckle = 0
+	},
+/obj/structure/bed{
+	buckling_y = 13;
+	layer = 3.5;
+	pixel_y = 13
+	},
+/obj/item/bedsheet/brown{
+	layer = 3.0
+	},
+/obj/item/bedsheet/brown{
+	pixel_y = 13
+	},
+/turf/open/floor/wood/ship,
+/area/sekhmet/int_reg/yard)
+"aaq" = (
+/obj/item/explosive/grenade/incendiary/molotov,
+/obj/item/clothing/mask/gas/swat,
+/obj/item/weapon/baton/cattleprod,
+/obj/structure/closet/crate,
+/obj/structure/machinery/light/small/built,
+/turf/open/floor/wood/wood_broken,
+/area/sekhmet/int_reg/yard)
+"aar" = (
+/obj/item/explosive/grenade/phosphorus/clf,
+/obj/item/storage/toolbox/syndicate,
+/obj/item/reagent_container/food/snacks/appletart,
+/obj/structure/closet/crate,
+/obj/structure/machinery/light/small/built,
+/turf/open/floor/wood/wood_broken4,
+/area/sekhmet/int_reg/yard)
+"aas" = (
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/sekhmet/int_reg/yard)
+"aat" = (
+/obj/item/clothing/under/colonist/clf{
+	pixel_x = -4;
+	pixel_y = -4
+	},
+/turf/open/floor/wood/wood_broken3,
+/area/sekhmet/int_reg/yard)
+"aau" = (
+/obj/item/clothing/shoes/jackboots{
+	pixel_x = 7;
+	pixel_y = 9
+	},
+/turf/open/floor/wood/ship,
+/area/sekhmet/int_reg/yard)
+"aav" = (
+/obj/structure/sign/poster/clf{
+	pixel_x = 30;
+	pixel_y = 3
+	},
+/turf/open/floor/wood/ship,
+/area/sekhmet/int_reg/yard)
 "aaw" = (
 /obj/structure/largecrate/random/case/double,
 /turf/open/floor/corsat,
 /area/sekhmet/int_heavy/low_level_gen)
+"aax" = (
+/obj/item/clothing/shoes/jackboots{
+	pixel_x = -4;
+	pixel_y = 10
+	},
+/obj/structure/sign/poster/clf{
+	pixel_x = -30;
+	pixel_y = 3
+	},
+/turf/open/floor/wood/wood_broken4,
+/area/sekhmet/int_reg/yard)
+"aay" = (
+/turf/open/floor/wood/ship,
+/area/sekhmet/int_reg/yard)
+"aaz" = (
+/obj/item/clothing/under/colonist/clf{
+	pixel_x = 6;
+	pixel_y = 6
+	},
+/turf/open/floor/wood/wood_broken7,
+/area/sekhmet/int_reg/yard)
+"aaA" = (
+/turf/open/floor/wood/wood_broken6,
+/area/sekhmet/int_reg/yard)
+"aaB" = (
+/turf/open/floor/wood/wood_broken,
+/area/sekhmet/int_reg/yard)
+"aaC" = (
+/obj/structure/machinery/door/airlock/external/colony{
+	req_one_access = null
+	},
+/turf/open/floor/corsat/marked,
+/area/sekhmet/int_reg/yard)
+"aaD" = (
+/obj/structure/surface/rack,
+/obj/item/stack/sheet/mineral/gold/small_stack,
+/obj/item/stack/sheet/mineral/gold/small_stack,
+/turf/open/floor/prison/floor_marked,
+/area/sekhmet/int_reg/yard)
+"aaE" = (
+/obj/structure/machinery/light/small,
+/turf/open/floor/strata/multi_tiles/west,
+/area/sekhmet/int_reg/yard)
+"aaF" = (
+/obj/structure/surface/rack,
+/obj/item/stack/sheet/mineral/uranium/small_stack,
+/obj/item/stack/sheet/mineral/uranium/small_stack,
+/turf/open/floor/prison/floor_marked,
+/area/sekhmet/int_reg/yard)
+"aaG" = (
+/obj/structure/platform_decoration/metal/almayer/east,
+/turf/open/floor/wood/ship,
+/area/sekhmet/int_reg/yard)
+"aaH" = (
+/obj/structure/bed/chair{
+	dir = 4
+	},
+/turf/open/floor/wood/ship,
+/area/sekhmet/int_reg/yard)
+"aaI" = (
+/obj/structure/surface/table/woodentable/poor,
+/obj/item/reagent_container/food/drinks/bottle/whiskey{
+	pixel_x = 7;
+	pixel_y = 9
+	},
+/obj/item/reagent_container/food/drinks/bottle/sake{
+	pixel_x = -4;
+	pixel_y = 5
+	},
+/obj/structure/machinery/light,
+/turf/open/floor/wood/wood_broken4,
+/area/sekhmet/int_reg/yard)
+"aaJ" = (
+/obj/structure/bed/chair{
+	dir = 8
+	},
+/turf/open/floor/wood/ship,
+/area/sekhmet/int_reg/yard)
+"aaK" = (
+/obj/structure/platform_decoration/metal/almayer/west,
+/turf/open/floor/wood/ship,
+/area/sekhmet/int_reg/yard)
+"aaL" = (
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/sekhmet/int_reg/yard)
+"aaM" = (
+/obj/structure/machinery/light{
+	dir = 2
+	},
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/sekhmet/int_reg/yard)
+"aaN" = (
+/obj/structure/machinery/floodlight/landing,
+/turf/open/floor/prison/floor_marked,
+/area/sekhmet/int_reg/yard)
+"aaO" = (
+/obj/structure/platform/metal/almayer/west,
+/turf/open/floor/wood/wood_broken4,
+/area/sekhmet/int_reg/yard)
+"aaP" = (
+/obj/structure/platform/metal/almayer/east,
+/turf/open/floor/wood/wood_broken6,
+/area/sekhmet/int_reg/yard)
+"aaQ" = (
+/obj/structure/surface/rack,
+/obj/item/stack/sheet/mineral/phoron{
+	amount = 25
+	},
+/turf/open/floor/prison/floor_marked,
+/area/sekhmet/int_reg/yard)
+"aaR" = (
+/obj/structure/surface/rack,
+/obj/item/stack/sheet/mineral/plastic/small_stack,
+/turf/open/floor/prison/floor_marked,
+/area/sekhmet/int_reg/yard)
+"aaS" = (
+/obj/structure/largecrate/black_market/confiscated_equipment,
+/turf/open/floor/prison/floor_marked,
+/area/sekhmet/int_reg/yard)
+"aaT" = (
+/obj/structure/platform_decoration/metal/almayer,
+/obj/structure/machinery/door/poddoor/almayer/open{
+	dir = 4
+	},
+/turf/open/floor/corsat/marked,
+/area/sekhmet/int_reg/yard)
+"aaU" = (
+/obj/structure/platform/metal/almayer,
+/turf/open/floor/wood/wood_broken7,
+/area/sekhmet/int_reg/yard)
+"aaV" = (
+/obj/structure/platform_decoration/metal/almayer/north,
+/turf/open/floor/wood/ship,
+/area/sekhmet/int_reg/yard)
+"aaW" = (
+/obj/structure/surface/table/woodentable/poor,
+/obj/item/weapon/gun/shotgun/pump/dual_tube/cmb,
+/obj/item/ammo_box/magazine/shotgun/buckshot,
+/turf/open/floor/wood/ship,
+/area/sekhmet/int_reg/yard)
+"aaX" = (
+/obj/structure/surface/table/woodentable/poor,
+/obj/item/ammo_magazine/smg/mp5,
+/obj/item/ammo_magazine/smg/mp5,
+/obj/item/ammo_magazine/smg/mp5,
+/obj/item/ammo_magazine/smg/mp5,
+/obj/item/ammo_magazine/smg/mp5,
+/obj/item/weapon/gun/smg/mp5,
+/turf/open/floor/wood/ship,
+/area/sekhmet/int_reg/yard)
+"aaY" = (
+/obj/structure/platform_decoration/metal/almayer,
+/turf/open/floor/wood/ship,
+/area/sekhmet/int_reg/yard)
+"aaZ" = (
+/obj/structure/platform/metal/almayer,
+/turf/open/floor/wood/wood_broken,
+/area/sekhmet/int_reg/yard)
+"aba" = (
+/obj/structure/platform_decoration/metal/almayer/north,
+/obj/structure/machinery/door/poddoor/almayer/open{
+	dir = 4
+	},
+/turf/open/floor/corsat/marked,
+/area/sekhmet/int_reg/yard)
+"abb" = (
+/obj/structure/surface/rack,
+/obj/item/ammo_magazine/rifle/mar40/lmg,
+/obj/item/ammo_magazine/rifle/mar40/lmg,
+/obj/item/ammo_magazine/rifle/mar40/lmg,
+/obj/item/weapon/gun/rifle/mar40/lmg,
+/turf/open/floor/prison/floor_marked,
+/area/sekhmet/int_reg/yard)
+"abc" = (
+/obj/structure/machinery/door/airlock/multi_tile/secure{
+	dir = 4
+	},
+/turf/open/floor/corsat/marked,
+/area/sekhmet/int_reg/yard)
+"abd" = (
+/obj/structure/machinery/door/airlock/glass/colony{
+	req_one_access = null
+	},
+/turf/open/floor/corsat/marked,
+/area/sekhmet/int_reg/yard)
 "abe" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/strata/red1,
 /area/sekhmet/int_heavy/low_level_gen)
+"abf" = (
+/obj/structure/surface/rack,
+/obj/item/ammo_magazine/rifle/mar40,
+/obj/item/ammo_magazine/rifle/mar40,
+/obj/item/ammo_magazine/rifle/mar40,
+/obj/item/ammo_magazine/rifle/mar40,
+/obj/item/ammo_magazine/rifle/mar40/extended,
+/obj/item/weapon/gun/rifle/mar40,
+/turf/open/floor/prison/floor_marked,
+/area/sekhmet/int_reg/yard)
+"abg" = (
+/obj/structure/platform_decoration/metal/almayer/west,
+/obj/structure/machinery/door/poddoor/almayer/open{
+	dir = 4
+	},
+/turf/open/floor/corsat/marked,
+/area/sekhmet/int_reg/yard)
+"abh" = (
+/obj/structure/platform/metal/almayer/north,
+/turf/open/floor/wood/wood_broken2,
+/area/sekhmet/int_reg/yard)
+"abi" = (
+/obj/structure/platform_decoration/metal/almayer/east,
+/turf/open/floor/wood/wood_broken5,
+/area/sekhmet/int_reg/yard)
+"abj" = (
+/obj/structure/surface/table/woodentable/poor,
+/obj/item/ammo_magazine/smg/uzi,
+/obj/item/ammo_magazine/smg/uzi,
+/obj/item/ammo_magazine/smg/uzi,
+/obj/item/ammo_magazine/smg/uzi,
+/obj/item/ammo_magazine/smg/uzi,
+/obj/item/weapon/gun/smg/uzi,
+/turf/open/floor/wood/ship,
+/area/sekhmet/int_reg/yard)
+"abk" = (
+/obj/structure/surface/table/woodentable/poor,
+/obj/item/ammo_magazine/smg/mac15,
+/obj/item/ammo_magazine/smg/mac15,
+/obj/item/ammo_magazine/smg/mac15,
+/obj/item/ammo_magazine/smg/mac15/extended,
+/obj/item/weapon/gun/smg/mac15,
+/turf/open/floor/wood/ship,
+/area/sekhmet/int_reg/yard)
+"abl" = (
+/obj/structure/platform/metal/almayer/north,
+/turf/open/floor/wood/wood_broken5,
+/area/sekhmet/int_reg/yard)
+"abm" = (
+/obj/structure/platform_decoration/metal/almayer/east,
+/obj/structure/machinery/door/poddoor/almayer/open{
+	dir = 4
+	},
+/turf/open/floor/corsat/marked,
+/area/sekhmet/int_reg/yard)
+"abn" = (
+/obj/structure/largecrate/black_market/uscm_heap,
+/turf/open/floor/prison/floor_marked,
+/area/sekhmet/int_reg/yard)
+"abo" = (
+/obj/structure/machinery/door/poddoor/almayer/planet_side_blastdoor{
+	unacidable = 1;
+	name = "Elevator Lock";
+	dir = 4
+	},
+/turf/open/floor/corsat/marked,
+/area/sekhmet/int_reg/yard)
+"abp" = (
+/obj/effect/hybrisa/misc/fake/pipes{
+	dir = 4
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"abq" = (
+/obj/effect/hybrisa/misc/fake/pipes{
+	dir = 4
+	},
+/obj/structure/machinery/light/small/red{
+	dir = 1
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"abr" = (
+/obj/structure/platform/metal/almayer/east,
+/obj/effect/hybrisa/misc/fake/pipes/pipe2,
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"abs" = (
+/obj/structure/machinery/camera{
+	c_tag = "Administration - Office";
+	colony_camera_mapload = 0;
+	network = list("Sekhmet");
+	dir = 1
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/sekhmet/int_reg/yard)
+"abt" = (
+/obj/structure/barricade/handrail/strata{
+	dir = 4
+	},
+/turf/open/floor/strata/multi_tiles/southwest,
+/area/sekhmet/int_reg/yard)
+"abu" = (
+/turf/open/floor/strata/floor3,
+/area/sekhmet/int_reg/yard)
+"abv" = (
+/obj/structure/barricade/handrail/strata{
+	dir = 8
+	},
+/turf/open/floor/strata/multi_tiles/southwest,
+/area/sekhmet/int_reg/yard)
+"abw" = (
+/obj/structure/platform/metal/almayer/west,
+/turf/open/floor/wood/ship,
+/area/sekhmet/int_reg/yard)
+"abx" = (
+/obj/structure/platform/metal/almayer/east,
+/turf/open/floor/wood/wood_broken5,
+/area/sekhmet/int_reg/yard)
+"aby" = (
+/obj/structure/machinery/door/airlock/hatch/colony{
+	req_one_access = null
+	},
+/turf/open/floor/corsat/marked,
+/area/sekhmet/int_reg/yard)
+"abz" = (
+/obj/structure/platform/metal/almayer/north,
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"abA" = (
+/obj/structure/platform/metal/almayer/north,
+/obj/structure/platform/metal/almayer/east,
+/obj/structure/platform_decoration/metal/almayer/northwest,
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
 "abB" = (
 /obj/structure/machinery/light{
 	light_power = 0.5;
@@ -26,6 +489,14 @@
 	},
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/sekhmet/int_heavy/research)
+"abC" = (
+/obj/structure/platform_decoration/metal/almayer/west,
+/turf/open/floor/strata/multi_tiles/west,
+/area/sekhmet/int_reg/yard)
+"abD" = (
+/obj/structure/platform/metal/almayer/north,
+/turf/open/floor/strata/multi_tiles,
+/area/sekhmet/int_reg/yard)
 "abE" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
@@ -45,12 +516,72 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/kutjevo,
 /area/sekhmet/outside/southroad)
+"abF" = (
+/obj/structure/stairs/perspective{
+	color = "#6e6e6e";
+	dir = 2
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/sekhmet/int_reg/yard)
+"abG" = (
+/obj/structure/machinery/camera{
+	c_tag = "Administration - Office";
+	colony_camera_mapload = 0;
+	network = list("Sekhmet");
+	dir = 4
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/sekhmet/int_reg/yard)
 "abH" = (
 /obj/structure/stairs/perspective/kutjevo{
 	dir = 4
 	},
 /turf/open/auto_turf/strata_grass/layer0_mud,
 /area/sekhmet/outside/central_road)
+"abI" = (
+/turf/open/floor/wood/wood_broken3,
+/area/sekhmet/int_reg/yard)
+"abJ" = (
+/obj/effect/hybrisa/misc/fake/wire/red{
+	dir = 5
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"abK" = (
+/obj/effect/hybrisa/misc/fake/wire/red{
+	dir = 4
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"abL" = (
+/obj/effect/hybrisa/misc/fake/wire/red{
+	dir = 4
+	},
+/obj/structure/machinery/light/small/red{
+	dir = 2
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"abM" = (
+/obj/structure/platform/metal/almayer/east,
+/turf/open/floor/strata/multi_tiles,
+/area/sekhmet/int_reg/yard)
+"abN" = (
+/obj/structure/window/reinforced{
+	dir = 8;
+	health = 80
+	},
+/obj/structure/window/reinforced,
+/obj/structure/surface/table,
+/obj/structure/machinery/recharger{
+	pixel_x = 0;
+	pixel_y = 8
+	},
+/turf/open/floor/strata/floor2,
+/area/sekhmet/int_reg/yard)
+"abO" = (
+/turf/open/floor/strata/floor2,
+/area/sekhmet/int_reg/yard)
 "abP" = (
 /obj/structure/surface/table/almayer{
 	color = "#8B9490"
@@ -60,6 +591,39 @@
 	},
 /turf/open/floor/strata/fake_wood,
 /area/sekhmet/int_heavy/low_level_gen)
+"abQ" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo_arrow";
+	dir = 1
+	},
+/obj/structure/barricade/handrail/strata{
+	dir = 4;
+	pixel_x = 1
+	},
+/turf/open/floor/strata/floor3,
+/area/sekhmet/int_reg/yard)
+"abR" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo_arrow";
+	dir = 2;
+	pixel_x = 0
+	},
+/turf/open/floor/strata/floor3,
+/area/sekhmet/int_reg/yard)
+"abS" = (
+/obj/structure/barricade/handrail/strata{
+	dir = 8
+	},
+/obj/structure/barricade/handrail/strata{
+	dir = 4
+	},
+/obj/structure/barricade/handrail/strata,
+/obj/structure/machinery/light{
+	light_power = 0.5;
+	dir = 1
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/sekhmet/int_reg/yard)
 "abT" = (
 /obj/structure/bed/chair{
 	buckling_y = 18;
@@ -69,6 +633,24 @@
 	},
 /turf/open/gm/dirt,
 /area/sekhmet/outside/airfield)
+"abU" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo_arrow";
+	dir = 1
+	},
+/obj/structure/barricade/handrail/strata{
+	dir = 8;
+	pixel_x = -2
+	},
+/turf/open/floor/strata/floor3,
+/area/sekhmet/int_reg/yard)
+"abV" = (
+/obj/structure/stairs/perspective{
+	color = "#6e6e6e";
+	dir = 2
+	},
+/turf/open/floor/wood/ship,
+/area/sekhmet/int_reg/yard)
 "abW" = (
 /obj/structure/bed/chair/comfy/blue,
 /obj/structure/window/reinforced/tinted{
@@ -76,6 +658,199 @@
 	},
 /turf/open/floor/prison/bright_clean2,
 /area/sekhmet/int_glass/complex_generic)
+"abX" = (
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/wood/ship,
+/area/sekhmet/int_reg/yard)
+"abY" = (
+/obj/structure/stairs/perspective{
+	color = "#6e6e6e";
+	dir = 2
+	},
+/turf/open/floor/wood/wood_broken5,
+/area/sekhmet/int_reg/yard)
+"abZ" = (
+/obj/structure/platform/metal/almayer,
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"aca" = (
+/obj/structure/platform/metal/almayer/east,
+/obj/structure/platform/metal/almayer,
+/obj/structure/platform_decoration/metal/almayer/southeast,
+/obj/effect/hybrisa/misc/fake/pipes,
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"acb" = (
+/obj/structure/platform/metal/almayer/east,
+/turf/open/floor/strata/multi_tiles/west,
+/area/sekhmet/int_reg/yard)
+"acc" = (
+/obj/structure/window/reinforced{
+	dir = 8;
+	health = 80
+	},
+/obj/structure/surface/table,
+/obj/structure/machinery/computer/cameras/wooden_tv{
+	dir = 4
+	},
+/turf/open/floor/strata/floor2,
+/area/sekhmet/int_reg/yard)
+"acd" = (
+/obj/structure/bed/chair{
+	dir = 8
+	},
+/obj/structure/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/strata/floor2,
+/area/sekhmet/int_reg/yard)
+"ace" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_y = 0
+	},
+/turf/open/floor/strata/orange_cover,
+/area/sekhmet/int_reg/yard)
+"acf" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_y = 0
+	},
+/obj/structure/largecrate/random/case/small{
+	pixel_x = 2;
+	pixel_y = 4
+	},
+/turf/open/floor/strata/orange_cover,
+/area/sekhmet/int_reg/yard)
+"acg" = (
+/obj/effect/hybrisa/misc/fake/pipes/pipe2{
+	dir = 1
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"ach" = (
+/obj/structure/platform/metal/almayer/east,
+/obj/effect/hybrisa/misc/fake/pipes/pipe3,
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"aci" = (
+/obj/structure/window/reinforced{
+	dir = 8;
+	health = 80
+	},
+/obj/structure/machinery/big_computers/messaging_server/brown,
+/turf/open/floor/strata/green1,
+/area/sekhmet/int_reg/yard)
+"acj" = (
+/obj/structure/prop/almayer/computers/sensor_computer2{
+	name = "colonial operations terminal"
+	},
+/turf/open/floor/strata/green1,
+/area/sekhmet/int_reg/yard)
+"ack" = (
+/obj/structure/largecrate/random/secure,
+/obj/structure/largecrate/random/barrel/green{
+	pixel_x = 9;
+	pixel_y = -16
+	},
+/turf/open/floor/strata/orange_cover,
+/area/sekhmet/int_reg/yard)
+"acl" = (
+/obj/structure/ore_box{
+	name = "wooden cargo crate"
+	},
+/turf/open/floor/strata/orange_cover,
+/area/sekhmet/int_reg/yard)
+"acm" = (
+/obj/structure/reagent_dispensers/fueltank,
+/turf/open/floor/strata/orange_cover,
+/area/sekhmet/int_reg/yard)
+"acn" = (
+/obj/structure/machinery/power/port_gen/pacman,
+/turf/open/floor/strata/orange_cover,
+/area/sekhmet/int_reg/yard)
+"aco" = (
+/obj/structure/machinery/light{
+	dir = 2
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/sekhmet/int_reg/yard)
+"acp" = (
+/obj/effect/hybrisa/misc/fake/pipes,
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"acq" = (
+/obj/structure/platform/metal/almayer/east,
+/obj/effect/hybrisa/misc/fake/wire/blue,
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"acr" = (
+/obj/structure/barricade/handrail/wire{
+	dir = 8
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/sekhmet/int_reg/yard)
+"acs" = (
+/obj/structure/barricade/handrail/wire{
+	dir = 4
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/sekhmet/int_reg/yard)
+"act" = (
+/obj/structure/platform/metal/almayer/west,
+/obj/effect/hybrisa/misc/fake/wire/red,
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"acu" = (
+/obj/structure/pipes/standard/tank/phoron{
+	dir = 4
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"acv" = (
+/obj/structure/prop/invuln/minecart_tracks{
+	desc = "A pipe.";
+	dir = 9;
+	icon = 'icons/obj/pipes/pipes.dmi';
+	icon_state = "intact";
+	name = "Pipe"
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"acw" = (
+/obj/structure/prop/invuln/minecart_tracks{
+	desc = "A pipe.";
+	dir = 5;
+	icon = 'icons/obj/pipes/pipes.dmi';
+	icon_state = "intact";
+	name = "Pipe"
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"acx" = (
+/obj/structure/pipes/standard/tank/phoron{
+	dir = 8
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"acy" = (
+/obj/structure/prop/ice_colony/ground_wire{
+	dir = 4
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"acz" = (
+/obj/structure/prop/invuln/minecart_tracks{
+	desc = "A heavy duty power cable for high voltage applications";
+	dir = 1;
+	icon = 'icons/obj/pipes/power_cond_heavy.dmi';
+	icon_state = "1-2-4";
+	name = "heavy duty power cable"
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
 "acA" = (
 /obj/structure/desertdam/decals/road_stop{
 	icon_state = "road_edge_decal5";
@@ -83,9 +858,190 @@
 	},
 /turf/open/floor/strata/multi_tiles/west,
 /area/sekhmet/int_heavy/research)
+"acB" = (
+/obj/structure/prop/invuln/minecart_tracks{
+	desc = "A heavy duty power cable for high voltage applications";
+	dir = 1;
+	icon = 'icons/obj/pipes/power_cond_heavy.dmi';
+	icon_state = "4-8";
+	name = "heavy duty power cable"
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"acC" = (
+/obj/structure/prop/invuln/minecart_tracks{
+	desc = "A heavy duty power cable for high voltage applications";
+	dir = 1;
+	icon = 'icons/obj/pipes/power_cond_heavy.dmi';
+	icon_state = "1-4-8";
+	name = "heavy duty power cable"
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"acD" = (
+/obj/structure/prop/invuln/minecart_tracks{
+	desc = "A pipe.";
+	dir = 1;
+	icon = 'icons/obj/pipes/pipes.dmi';
+	icon_state = "intact";
+	name = "Pipe"
+	},
+/obj/structure/prop/invuln/minecart_tracks{
+	desc = "A heavy duty power cable for high voltage applications";
+	dir = 1;
+	icon = 'icons/obj/pipes/power_cond_heavy.dmi';
+	icon_state = "4-8";
+	name = "heavy duty power cable"
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"acE" = (
+/obj/structure/prop/ice_colony/ground_wire{
+	dir = 8
+	},
+/obj/structure/prop/invuln/minecart_tracks{
+	desc = "A heavy duty power cable for high voltage applications";
+	dir = 1;
+	icon = 'icons/obj/pipes/power_cond_heavy.dmi';
+	icon_state = "4-8";
+	name = "heavy duty power cable"
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"acF" = (
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/sekhmet/int_reg/yard)
+"acG" = (
+/obj/structure/prop/structure_lattice{
+	dir = 4;
+	pixel_y = 0
+	},
+/turf/open/floor/corsat/marked,
+/area/sekhmet/int_reg/yard)
+"acH" = (
+/obj/structure/prop/invuln/minecart_tracks{
+	desc = "A pipe.";
+	icon = 'icons/obj/pipes/manifold.dmi';
+	icon_state = "map";
+	name = "Pipe manifold";
+	dir = 4
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"acI" = (
+/obj/structure/prop/invuln/minecart_tracks{
+	desc = "A pipe.";
+	icon = 'icons/obj/pipes/manifold.dmi';
+	icon_state = "map";
+	name = "Pipe manifold";
+	dir = 8
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"acJ" = (
+/obj/structure/pipes/standard/tank/phoron{
+	dir = 8
+	},
+/obj/structure/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"acK" = (
+/obj/structure/prop/ice_colony/ground_wire{
+	dir = 4
+	},
+/obj/structure/prop/invuln/minecart_tracks{
+	desc = "A pipe.";
+	dir = 5;
+	icon = 'icons/obj/pipes/pipes.dmi';
+	icon_state = "intact";
+	name = "Pipe"
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"acL" = (
+/obj/structure/prop/invuln/minecart_tracks{
+	desc = "A pipe.";
+	dir = 4;
+	icon = 'icons/obj/pipes/pipes.dmi';
+	icon_state = "intact";
+	name = "Pipe"
+	},
+/obj/structure/prop/invuln/minecart_tracks{
+	desc = "A heavy duty power cable for high voltage applications";
+	dir = 1;
+	icon = 'icons/obj/pipes/power_cond_heavy.dmi';
+	icon_state = "1-2";
+	name = "heavy duty power cable"
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"acM" = (
+/obj/structure/prop/invuln/minecart_tracks{
+	desc = "A pipe.";
+	dir = 4;
+	icon = 'icons/obj/pipes/pipes.dmi';
+	icon_state = "intact";
+	name = "Pipe"
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"acN" = (
+/obj/structure/prop/invuln/minecart_tracks{
+	desc = "A pipe.";
+	dir = 10;
+	icon = 'icons/obj/pipes/pipes.dmi';
+	icon_state = "intact";
+	name = "Pipe"
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"acO" = (
+/obj/structure/prop/ice_colony/ground_wire{
+	dir = 8
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"acP" = (
+/obj/structure/machinery/mineral/processing_unit,
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"acQ" = (
+/obj/structure/prop/invuln/minecart_tracks{
+	desc = "A pipe.";
+	icon = 'icons/obj/pipes/manifold.dmi';
+	icon_state = "map";
+	name = "Pipe manifold";
+	dir = 1
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"acR" = (
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"acS" = (
+/obj/structure/machinery/door/airlock/multi_tile/secure2{
+	dir = 2
+	},
+/turf/open/floor/corsat/marked,
+/area/sekhmet/int_reg/yard)
 "acT" = (
 /turf/open/floor/corsat/squares,
 /area/sekhmet/int_reg/engineering)
+"acU" = (
+/obj/structure/prop/invuln/minecart_tracks{
+	desc = "An exchange valve";
+	dir = 1;
+	icon = 'icons/obj/pipes/filter.dmi';
+	icon_state = "map";
+	name = "Automated Valve"
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
 "acV" = (
 /obj/structure/machinery/door/airlock/upp_utility{
 	req_one_access = list(102,232,233,240);
@@ -93,6 +1049,137 @@
 	},
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/sekhmet/int_reg/catwalk)
+"acW" = (
+/obj/structure/prop/invuln/minecart_tracks{
+	desc = "Righty tighty, lefty loosey!";
+	dir = 8;
+	icon = 'icons/obj/pipes/valve.dmi';
+	icon_state = "map_valve1";
+	name = "Pressure Valve"
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"acX" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/structure/largecrate/random/case/double,
+/turf/open/floor/prison/floor_plate,
+/area/sekhmet/int_reg/yard)
+"acY" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/structure/largecrate/random/secure,
+/turf/open/floor/prison/floor_plate,
+/area/sekhmet/int_reg/yard)
+"acZ" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/structure/largecrate/random/barrel/green,
+/turf/open/floor/prison/floor_plate,
+/area/sekhmet/int_reg/yard)
+"ada" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/structure/largecrate/random/case/double,
+/obj/structure/largecrate/random/mini/ammo{
+	pixel_x = 3;
+	pixel_y = 17
+	},
+/turf/open/floor/prison/floor_plate,
+/area/sekhmet/int_reg/yard)
+"adb" = (
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/sekhmet/int_reg/yard)
+"adc" = (
+/obj/structure/surface/rack,
+/obj/item/storage/bag/ore,
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"add" = (
+/obj/structure/surface/rack,
+/obj/item/weapon/twohanded/lungemine,
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"ade" = (
+/obj/structure/prop/invuln/minecart_tracks{
+	desc = "For connecting portables devices related to atmospherics control.";
+	dir = 9;
+	icon = 'icons/obj/pipes/connector.dmi';
+	icon_state = "map_connector";
+	name = "Connector Port"
+	},
+/obj/structure/reagent_dispensers/beerkeg,
+/obj/structure/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"adf" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/structure/ore_box{
+	name = "wooden cargo crate"
+	},
+/obj/structure/machinery/light{
+	light_power = 0.5;
+	dir = 4
+	},
+/turf/open/floor/prison/floor_plate,
+/area/sekhmet/int_reg/yard)
+"adg" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/structure/largecrate/random/secure,
+/obj/structure/machinery/light{
+	light_power = 0.5;
+	dir = 8
+	},
+/turf/open/floor/prison/floor_plate,
+/area/sekhmet/int_reg/yard)
+"adh" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/structure/largecrate/random{
+	pixel_x = 0;
+	pixel_y = 9
+	},
+/turf/open/floor/prison/floor_plate,
+/area/sekhmet/int_reg/yard)
+"adi" = (
+/obj/structure/cargo_container/hd/left/alt{
+	opacity = 0
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"adj" = (
+/obj/structure/cargo_container/hd/mid/alt{
+	opacity = 0
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"adk" = (
+/obj/structure/cargo_container/hd/right/alt{
+	opacity = 0
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"adl" = (
+/obj/structure/machinery/vending/sovietsoda{
+	icon_state = "sovietsoda-broken";
+	stat = 1
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
 "adm" = (
 /obj/structure/cargo_container/horizontal/blue/middle{
 	color = "#77b300";
@@ -105,6 +1192,140 @@
 	},
 /turf/open/floor/plating/kutjevo,
 /area/sekhmet/int_reg/warehouse)
+"adn" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_y = 0
+	},
+/turf/open/floor/prison/darkbrown2/north,
+/area/sekhmet/int_reg/yard)
+"ado" = (
+/obj/structure/platform/metal/almayer/north,
+/obj/structure/platform/metal/almayer/east,
+/obj/structure/platform_decoration/metal/almayer/northwest,
+/turf/open/floor/prison/platingdmg1,
+/area/sekhmet/int_reg/yard)
+"adp" = (
+/obj/structure/stairs/perspective{
+	color = "#6e6e6e";
+	dir = 2
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"adq" = (
+/obj/structure/platform/metal/almayer/north,
+/obj/structure/platform/metal/almayer/west,
+/obj/structure/platform_decoration/metal/almayer/northeast,
+/turf/open/floor/prison/platingdmg2,
+/area/sekhmet/int_reg/yard)
+"adr" = (
+/obj/structure/platform/metal/almayer/north,
+/obj/structure/platform/metal/almayer/east,
+/obj/structure/platform_decoration/metal/almayer/northwest,
+/turf/open/floor/prison/panelscorched,
+/area/sekhmet/int_reg/yard)
+"ads" = (
+/obj/structure/platform/metal/almayer/north,
+/obj/structure/platform/metal/almayer/west,
+/obj/structure/platform_decoration/metal/almayer/northeast,
+/turf/open/floor/prison/platingdmg3,
+/area/sekhmet/int_reg/yard)
+"adt" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/structure/surface/rack,
+/obj/item/tool/shovel{
+	pixel_x = 3;
+	pixel_y = 5
+	},
+/obj/item/tool/shovel{
+	pixel_x = 6;
+	pixel_y = 0
+	},
+/turf/open/floor/strata/floor3,
+/area/sekhmet/int_reg/yard)
+"adu" = (
+/obj/structure/barricade/handrail/strata{
+	dir = 4
+	},
+/obj/structure/barricade/handrail/strata{
+	dir = 8
+	},
+/obj/structure/machinery/light/small,
+/turf/open/floor/strata/multi_tiles/west,
+/area/sekhmet/int_reg/yard)
+"adv" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/structure/largecrate/supply/ammo/pistol/half,
+/turf/open/floor/strata/floor3,
+/area/sekhmet/int_reg/yard)
+"adw" = (
+/obj/structure/platform/metal/almayer/north,
+/obj/effect/hybrisa/misc/fake/wire/blue{
+	dir = 4;
+	pixel_y = -6
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"adx" = (
+/obj/structure/platform/metal/almayer/north,
+/obj/effect/hybrisa/misc/fake/wire/blue{
+	dir = 10;
+	pixel_y = -6
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"ady" = (
+/obj/structure/platform/metal/almayer/north,
+/obj/effect/hybrisa/misc/fake/wire/yellow{
+	dir = 6;
+	pixel_y = -6
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"adz" = (
+/obj/structure/platform/metal/almayer/north,
+/obj/effect/hybrisa/misc/fake/wire/yellow{
+	dir = 8;
+	pixel_y = -6
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"adA" = (
+/turf/open/floor/prison,
+/area/sekhmet/int_reg/yard)
+"adB" = (
+/turf/open/floor/prison/floor_plate,
+/area/sekhmet/int_reg/yard)
+"adC" = (
+/turf/open/floor/prison/ramptop/east,
+/area/sekhmet/int_reg/yard)
+"adD" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/structure/largecrate/random/barrel/white{
+	pixel_x = -6;
+	pixel_y = 12
+	},
+/obj/structure/largecrate/random/barrel/white{
+	pixel_x = 7;
+	pixel_y = 0
+	},
+/turf/open/floor/strata/floor3,
+/area/sekhmet/int_reg/yard)
+"adE" = (
+/obj/structure/machinery/door/airlock/multi_tile/secure{
+	dir = 2
+	},
+/turf/open/floor/corsat/marked,
+/area/sekhmet/int_reg/yard)
+"adF" = (
+/turf/open/floor/prison/cell_stripe/west,
+/area/sekhmet/int_reg/yard)
 "adG" = (
 /obj/structure/platform/strata{
 	dir = 1;
@@ -117,6 +1338,83 @@
 	},
 /turf/open/void,
 /area/sekhmet/outside/temple_outer)
+"adH" = (
+/turf/open/floor/prison/cell_stripe/east,
+/area/sekhmet/int_reg/yard)
+"adI" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/structure/largecrate/random/mini/ammo{
+	pixel_x = 11;
+	pixel_y = 12
+	},
+/obj/structure/largecrate/random/mini/ammo{
+	pixel_x = -7;
+	pixel_y = 3
+	},
+/obj/structure/largecrate/random/mini/ammo{
+	pixel_x = 12;
+	pixel_y = -4
+	},
+/turf/open/floor/strata/floor3,
+/area/sekhmet/int_reg/yard)
+"adJ" = (
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/sekhmet/int_reg/yard)
+"adK" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/structure/largecrate/random/secure,
+/turf/open/floor/strata/floor3,
+/area/sekhmet/int_reg/yard)
+"adL" = (
+/obj/structure/barricade/handrail/strata{
+	dir = 8
+	},
+/obj/structure/barricade/handrail/strata{
+	dir = 4
+	},
+/obj/structure/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/sekhmet/int_reg/yard)
+"adM" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/structure/largecrate/random/case/double,
+/turf/open/floor/strata/floor3,
+/area/sekhmet/int_reg/yard)
+"adN" = (
+/obj/structure/platform/metal/almayer,
+/obj/effect/hybrisa/misc/fake/wire/red{
+	dir = 4
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"adO" = (
+/obj/structure/platform/metal/almayer,
+/obj/effect/hybrisa/misc/fake/wire/red{
+	dir = 9
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"adP" = (
+/obj/structure/platform/metal/almayer,
+/obj/effect/hybrisa/misc/fake/pipes{
+	dir = 4
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"adQ" = (
+/turf/open/floor/prison/ramptop/north,
+/area/sekhmet/int_reg/yard)
 "adR" = (
 /obj/structure/machinery/door/airlock/sandstone/runed{
 	name = "\improper Heavy Strange Temple Door"
@@ -145,10 +1443,180 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/strata/floor2,
 /area/sekhmet/int_heavy/research)
+"adT" = (
+/turf/open/floor/prison/cell_stripe,
+/area/sekhmet/int_reg/yard)
+"adU" = (
+/obj/structure/prop/hybrisa/vehicles/Meridian/Shell{
+	pixel_x = 3;
+	dir = 4
+	},
+/obj/structure/barricade/handrail/strata{
+	dir = 8
+	},
+/turf/open/floor/plating/prison,
+/area/sekhmet/int_reg/yard)
+"adV" = (
+/turf/open/floor/plating/prison,
+/area/sekhmet/int_reg/yard)
+"adW" = (
+/obj/structure/prop/hybrisa/vehicles/Meridian/Turquoise,
+/turf/open/floor/plating/prison,
+/area/sekhmet/int_reg/yard)
+"adX" = (
+/obj/structure/machinery/camera{
+	c_tag = "Administration - Office";
+	colony_camera_mapload = 0;
+	network = list("Sekhmet");
+	dir = 4
+	},
+/turf/open/floor/corsat/marked,
+/area/sekhmet/int_reg/yard)
+"adY" = (
+/turf/open/floor/prison/cell_stripe/north,
+/area/sekhmet/int_reg/yard)
+"adZ" = (
+/obj/structure/prop/hybrisa/vehicles/Meridian/Blue{
+	pixel_x = 3;
+	dir = 1
+	},
+/obj/structure/barricade/handrail/strata{
+	dir = 8
+	},
+/turf/open/floor/plating/prison,
+/area/sekhmet/int_reg/yard)
+"aea" = (
+/obj/structure/prop/hybrisa/vehicles/Meridian/Black,
+/turf/open/floor/plating/prison,
+/area/sekhmet/int_reg/yard)
 "aeb" = (
 /obj/structure/largecrate/random/secure,
 /turf/open/auto_turf/strata_grass/layer0_mud,
 /area/sekhmet/outside/temple_outer)
+"aec" = (
+/obj/effect/decal/hefa_cult_decals/d96,
+/obj/effect/decal/cleanable/blood{
+	icon_state = "csplatter3"
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"aed" = (
+/obj/item/storage/bible/hefa,
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"aee" = (
+/obj/structure/machinery/autolathe/medilathe/full,
+/turf/open/floor/prison/greenblue/southwest,
+/area/sekhmet/int_reg/yard)
+"aef" = (
+/turf/open/floor/prison/greenblue/southeast,
+/area/sekhmet/int_reg/yard)
+"aeg" = (
+/obj/structure/surface/rack,
+/obj/item/storage/pill_bottle/bicaridine/skillless,
+/turf/open/floor/prison/floor_marked/southwest,
+/area/sekhmet/int_reg/yard)
+"aeh" = (
+/obj/structure/machinery/light/small,
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"aei" = (
+/obj/structure/machinery/door/airlock/mining/colony,
+/turf/open/floor/corsat/marked,
+/area/sekhmet/int_reg/yard)
+"aej" = (
+/obj/structure/stairs/perspective{
+	color = "#6e6e6e";
+	dir = 4
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"aek" = (
+/obj/item/weapon/unathiknife{
+	name = "ceremonial knife"
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"ael" = (
+/obj/item/clothing/head/cmcap,
+/obj/effect/decal/cleanable/blood{
+	icon_state = "gib2"
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"aem" = (
+/obj/item/restraint/adjustable/cable/pink,
+/obj/structure/machinery/light/small/red{
+	dir = 4
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"aen" = (
+/obj/structure/machinery/light/small{
+	dir = 8
+	},
+/turf/open/floor/prison/greenblue/west,
+/area/sekhmet/int_reg/yard)
+"aeo" = (
+/turf/open/floor/prison/greenblue/east,
+/area/sekhmet/int_reg/yard)
+"aep" = (
+/obj/structure/machinery/door/airlock/highsecurity/colony{
+	req_one_access = null
+	},
+/turf/open/floor/corsat/marked,
+/area/sekhmet/int_reg/yard)
+"aeq" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"aer" = (
+/obj/effect/decal/cleanable/blood{
+	icon_state = "csplatter1"
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"aes" = (
+/obj/structure/machinery/autolathe/medilathe/full,
+/turf/open/floor/prison/greenblue/northwest,
+/area/sekhmet/int_reg/yard)
+"aet" = (
+/turf/open/floor/prison/greenblue/northeast,
+/area/sekhmet/int_reg/yard)
+"aeu" = (
+/obj/item/tool/surgery/bonegel,
+/obj/item/tool/surgery/bonegel,
+/obj/item/tool/surgery/bonegel/empty,
+/obj/structure/closet/crate/medical,
+/turf/open/floor/prison/floor_marked/southwest,
+/area/sekhmet/int_reg/yard)
+"aev" = (
+/obj/structure/barricade/handrail/strata{
+	dir = 8
+	},
+/turf/open/floor/plating/prison,
+/area/sekhmet/int_reg/yard)
+"aew" = (
+/obj/structure/prop/hybrisa/vehicles/Long_Truck/Brown,
+/turf/open/floor/plating/prison,
+/area/sekhmet/int_reg/yard)
+"aex" = (
+/obj/structure/ladder{
+	id = "mtb";
+	height = -1
+	},
+/obj/structure/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/corsat,
+/area/sekhmet/int_reg/yard)
+"aey" = (
+/obj/structure/machinery/door/poddoor/almayer/planet_side_blastdoor{
+	unacidable = 1;
+	name = "Elevator Lock"
+	},
+/turf/open/floor/corsat/marked,
+/area/sekhmet/int_reg/yard)
 "aeK" = (
 /obj/structure/cargo_container/canc/left{
 	layer = 2.98
@@ -57756,7 +59224,7 @@ pwS
 mPS
 oxx
 gND
-vCA
+aaa
 vCA
 vCA
 eKM
@@ -74936,168 +76404,204 @@ hCs
 hCs
 "}
 (222,1,1) = {"
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
+hCs
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+hCs
 "}
 (223,1,1) = {"
+hCs
+tZm
+aex
+aby
+acR
+unM
+aag
+aag
+unM
+unM
+adI
+adD
+unM
+unM
+unM
+unM
+unM
+unM
+unM
+unM
+unM
+unM
+unM
+unM
+unM
+aag
+aag
+unM
+unM
+unM
+unM
+unM
+unM
+unM
+aag
+tZm
 gAD
 gAD
 gAD
@@ -75220,46 +76724,46 @@ gAD
 gAD
 gAD
 gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
+kAi
+hCs
 "}
 (224,1,1) = {"
+hCs
+tZm
+unM
+unM
+aeh
+unM
+aag
+aag
+unM
+adK
+aaL
+aaL
+adt
+unM
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+unM
+aag
+unM
+unM
+unM
+unM
+aag
+unM
+aag
+aag
+aag
+unM
+aag
+tZm
 gAD
 gAD
 gAD
@@ -75382,46 +76886,46 @@ gAD
 gAD
 gAD
 gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
+kAi
+hCs
 "}
 (225,1,1) = {"
+hCs
+tZm
+aag
+unM
+acR
+unM
+aag
+aag
+unM
+adL
+aal
+aal
+adu
+unM
+aag
+unM
+unM
+unM
+unM
+unM
+unM
+aag
+unM
+aag
+unM
+abf
+aaS
+unM
+aag
+unM
+aag
+aag
+aag
+unM
+aag
+tZm
 gAD
 gAD
 gAD
@@ -75544,46 +77048,46 @@ gAD
 gAD
 gAD
 gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
+kAi
+hCs
 "}
 (226,1,1) = {"
+hCs
+tZm
+unM
+unM
+aby
+unM
+unM
+aag
+unM
+adM
+aal
+aal
+adv
+unM
+aag
+unM
+acp
+acp
+acp
+acp
+unM
+aag
+unM
+unM
+unM
+abg
+aaT
+unM
+unM
+unM
+unM
+unM
+unM
+unM
+aag
+tZm
 gAD
 gAD
 gAD
@@ -75706,46 +77210,46 @@ gAD
 gAD
 gAD
 gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
+kAi
+hCs
 "}
 (227,1,1) = {"
+hCs
+tZm
+unM
+aaL
+enc
+aaL
+unM
+aag
+unM
+unM
+aao
+adE
+unM
+unM
+aag
+unM
+unM
+acG
+acG
+unM
+unM
+aag
+unM
+unM
+aaN
+abh
+aaU
+aaN
+unM
+unM
+aap
+aat
+aap
+unM
+aag
+tZm
 gAD
 gAD
 gAD
@@ -75868,46 +77372,46 @@ gAD
 gAD
 gAD
 gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
+kAi
+hCs
 "}
 (228,1,1) = {"
+hCs
+tZm
+tZm
+aaL
+aal
+aaL
+unM
+unM
+unM
+aal
+aaL
+aaL
+aal
+unM
+unM
+unM
+acq
+acq
+acq
+acq
+unM
+unM
+unM
+aaV
+abw
+abi
+aaV
+aaO
+aaG
+aaC
+aaA
+aau
+aaq
+unM
+aag
+tZm
 gAD
 gAD
 gAD
@@ -76030,46 +77534,46 @@ gAD
 gAD
 gAD
 gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
+kAi
+hCs
 "}
 (229,1,1) = {"
+hCs
+tZm
+aey
+aab
+aab
+aab
+aby
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aby
+aab
+acr
+acr
+acr
+acr
+aab
+aby
+abV
+abI
+aay
+abj
+aaW
+aay
+aaH
+unM
+aap
+aav
+aap
+unM
+aag
+tZm
 gAD
 gAD
 gAD
@@ -76192,46 +77696,46 @@ gAD
 gAD
 gAD
 gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
+kAi
+hCs
 "}
 (230,1,1) = {"
+hCs
+tZm
+aey
+aal
+enc
+aco
+unM
+adb
+enc
+aal
+aal
+aal
+enc
+aco
+unM
+adb
+enc
+aal
+aal
+enc
+aco
+unM
+abX
+aay
+aay
+aay
+aaB
+aay
+aaI
+unM
+unM
+unM
+unM
+unM
+aag
+tZm
 gAD
 gAD
 gAD
@@ -76354,46 +77858,46 @@ gAD
 gAD
 gAD
 gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
+kAi
+hCs
 "}
 (231,1,1) = {"
+hCs
+tZm
+aey
+aab
+aab
+aab
+aby
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aby
+aab
+acs
+acs
+acs
+acs
+aab
+aby
+abY
+aay
+aay
+abk
+aaX
+aay
+aaJ
+unM
+aap
+aax
+aap
+unM
+aag
+tZm
 gAD
 gAD
 gAD
@@ -76516,46 +78020,46 @@ gAD
 gAD
 gAD
 gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
+kAi
+hCs
 "}
 (232,1,1) = {"
+hCs
+tZm
+tZm
+aaL
+aal
+aaL
+unM
+unM
+unM
+aal
+aaL
+aaL
+aal
+unM
+unM
+unM
+act
+act
+act
+act
+unM
+unM
+unM
+aaY
+abx
+aaK
+aaY
+aaP
+aaK
+aaC
+aaB
+aay
+aar
+unM
+aag
+tZm
 gAD
 gAD
 gAD
@@ -76678,46 +78182,46 @@ gAD
 gAD
 gAD
 gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
+kAi
+hCs
 "}
 (233,1,1) = {"
+hCs
+tZm
+unM
+aaL
+enc
+aaL
+unM
+aag
+unM
+unM
+aao
+adE
+unM
+unM
+aag
+unM
+unM
+acG
+acG
+unM
+unM
+aag
+unM
+unM
+aaN
+abl
+aaZ
+aaN
+unM
+unM
+aap
+aaz
+aap
+unM
+aag
+tZm
 gAD
 gAD
 gAD
@@ -76840,46 +78344,46 @@ gAD
 gAD
 gAD
 gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
+kAi
+hCs
 "}
 (234,1,1) = {"
+hCs
+tZm
+unM
+unM
+aei
+unM
+unM
+aag
+unM
+adN
+aaL
+aaL
+adw
+unM
+aag
+unM
+acp
+acp
+acp
+acp
+unM
+aag
+unM
+unM
+unM
+abm
+aba
+unM
+unM
+unM
+unM
+unM
+unM
+unM
+unM
+tZm
 gAD
 gAD
 gAD
@@ -77002,46 +78506,46 @@ gAD
 gAD
 gAD
 gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
+kAi
+hCs
 "}
 (235,1,1) = {"
+hCs
+tZm
+aag
+unM
+aal
+unM
+aag
+aag
+unM
+adN
+aaL
+aaL
+adw
+unM
+aag
+unM
+unM
+unM
+unM
+unM
+unM
+aag
+unM
+aag
+unM
+abn
+abb
+unM
+aag
+aag
+aag
+aag
+unM
+aag
+aag
+tZm
 gAD
 gAD
 gAD
@@ -77164,46 +78668,46 @@ gAD
 gAD
 gAD
 gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
+kAi
+hCs
 "}
 (236,1,1) = {"
+hCs
+tZm
+unM
+unM
+aej
+unM
+unM
+aag
+unM
+adO
+aaL
+aaL
+adw
+unM
+aag
+unM
+aag
+aag
+aag
+aag
+aag
+aag
+unM
+aag
+unM
+unM
+unM
+unM
+aag
+unM
+unM
+aag
+tZm
+tZm
+tZm
+tZm
 gAD
 gAD
 gAD
@@ -77326,46 +78830,43 @@ gAD
 gAD
 gAD
 gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
+kAi
+hCs
 "}
 (237,1,1) = {"
+hCs
+tZm
+unM
+aeq
+aek
+aec
+unM
+aag
+unM
+unM
+adJ
+aaM
+unM
+unM
+aag
+unM
+aag
+aag
+aag
+aag
+aag
+aag
+unM
+aag
+unM
+aag
+aag
+unM
+aag
+aag
+aag
+aag
+tZm
 gAD
 gAD
 gAD
@@ -77491,43 +78992,43 @@ gAD
 gAD
 gAD
 gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
+kAi
+hCs
 "}
 (238,1,1) = {"
+hCs
+tZm
+unM
+acR
+ael
+acR
+unM
+aag
+aag
+unM
+aaL
+aaL
+unM
+aag
+aag
+unM
+aag
+aag
+aag
+aag
+aag
+aag
+unM
+aag
+unM
+unM
+unM
+unM
+unM
+unM
+unM
+unM
+tZm
 gAD
 gAD
 gAD
@@ -77653,43 +79154,43 @@ gAD
 gAD
 gAD
 gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
+kAi
+hCs
 "}
 (239,1,1) = {"
+hCs
+tZm
+unM
+aer
+aem
+aed
+unM
+aag
+aag
+unM
+aaL
+aaL
+unM
+aag
+aag
+unM
+unM
+unM
+unM
+aag
+aag
+aag
+unM
+aag
+unM
+abo
+unM
+aaQ
+aaL
+aaD
+unM
+aag
+tZm
 gAD
 gAD
 gAD
@@ -77815,43 +79316,43 @@ gAD
 gAD
 gAD
 gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
+kAi
+hCs
 "}
 (240,1,1) = {"
+hCs
+tZm
+unM
+unM
+unM
+unM
+unM
+aag
+unM
+unM
+adJ
+aaM
+unM
+unM
+unM
+unM
+acP
+acP
+unM
+unM
+unM
+unM
+unM
+aag
+unM
+abp
+aaC
+aab
+aal
+aaE
+unM
+aag
+tZm
 gAD
 gAD
 gAD
@@ -77977,44 +79478,52 @@ gAD
 gAD
 gAD
 gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
+kAi
+hCs
 "}
 (241,1,1) = {"
+hCs
+tZm
+unM
+unM
+unM
+unM
+unM
+aag
+unM
+adP
+aaL
+aaL
+adw
+unM
+adi
+acN
+acU
+acw
+acu
+acu
+unM
+aag
+unM
+unM
+unM
+abq
+unM
+aaR
+aaL
+aaF
+unM
+aag
+tZm
 gAD
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
 gAD
 gAD
 gAD
@@ -78131,51 +79640,52 @@ gAD
 gAD
 gAD
 gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
+kAi
+hCs
 "}
 (242,1,1) = {"
+hCs
+tZm
+unM
+aes
+aen
+aee
+unM
+aag
+unM
+adP
+aaL
+aaL
+adx
+unM
+adj
+adc
+acM
+acQ
+acH
+acv
+unM
+aag
+unM
+abJ
+aby
+abp
+unM
+unM
+unM
+unM
+unM
+aag
+tZm
+tZm
+tZm
+aag
+unM
+aag
+aag
+aag
+aag
+tZm
 gAD
 gAD
 gAD
@@ -78292,52 +79802,54 @@ gAD
 gAD
 gAD
 gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
+kAi
+hCs
 "}
 (243,1,1) = {"
+hCs
+tZm
+unM
+aet
+aeo
+aef
+unM
+aag
+unM
+adP
+aaL
+aaL
+ady
+unM
+adk
+add
+acW
+acN
+acI
+acw
+unM
+aag
+unM
+abK
+unM
+abo
+unM
+aag
+aag
+aag
+unM
+aag
+tZm
+tZm
+aag
+aag
+unM
+unM
+unM
+unM
+aag
+tZm
+tZm
+tZm
 gAD
 gAD
 gAD
@@ -78452,54 +79964,54 @@ gAD
 gAD
 gAD
 gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
+kAi
+hCs
 "}
 (244,1,1) = {"
+hCs
+tZm
+unM
+aeu
+adC
+aeg
+unM
+aag
+unM
+adP
+aaL
+aaL
+adz
+unM
+adl
+ade
+acv
+acR
+acJ
+acx
+unM
+aag
+unM
+abL
+unM
+unM
+unM
+aag
+aag
+aag
+unM
+aag
+unM
+aag
+aag
+unM
+unM
+aak
+aak
+unM
+unM
+tZm
+aad
+tZm
 gAD
 gAD
 gAD
@@ -78614,54 +80126,57 @@ gAD
 gAD
 gAD
 gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
+kAi
+hCs
 "}
 (245,1,1) = {"
+hCs
+tZm
+tZm
+unM
+aep
+unM
+unM
+unM
+unM
+unM
+aao
+adE
+unM
+unM
+unM
+unM
+aao
+acS
+unM
+unM
+unM
+aag
+unM
+abK
+unM
+aag
+unM
+unM
+unM
+unM
+unM
+unM
+unM
+unM
+unM
+unM
+aam
+aab
+aab
+aai
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
 gAD
 gAD
 gAD
@@ -78773,57 +80288,57 @@ gAD
 gAD
 gAD
 gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
+kAi
+hCs
 "}
 (246,1,1) = {"
+hCs
+tZm
+aey
+aab
+aab
+aab
+aab
+aas
+aab
+aab
+aab
+aab
+aab
+aab
+aas
+aab
+aab
+aab
+aab
+aab
+unM
+unM
+unM
+aby
+unM
+unM
+unM
+aal
+aal
+aab
+aab
+aab
+aas
+aab
+aab
+aan
+aaj
+aal
+aal
+aaj
+aah
+aab
+aab
+aac
+aab
+aab
+tZm
 gAD
 gAD
 gAD
@@ -78935,57 +80450,57 @@ gAD
 gAD
 gAD
 gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
+kAi
+hCs
 "}
 (247,1,1) = {"
+hCs
+tZm
+aey
+enc
+aal
+aal
+enc
+aal
+aal
+enc
+aal
+aal
+enc
+aal
+aal
+enc
+aal
+aal
+enc
+aco
+unM
+acg
+abZ
+aaL
+abz
+abp
+unM
+aal
+aal
+aab
+aab
+aab
+aab
+aab
+aab
+aao
+aaj
+aal
+aal
+aaj
+aah
+aab
+aab
+aac
+aab
+aab
+tZm
 gAD
 gAD
 gAD
@@ -79097,57 +80612,57 @@ gAD
 gAD
 gAD
 gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
+kAi
+hCs
 "}
 (248,1,1) = {"
+hCs
+tZm
+aey
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+unM
+ach
+aca
+aaL
+abA
+abr
+unM
+aaL
+aaL
+unM
+unM
+unM
+unM
+unM
+unM
+unM
+aam
+aab
+aab
+aab
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
 gAD
 gAD
 gAD
@@ -79259,57 +80774,52 @@ gAD
 gAD
 gAD
 gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
+kAi
+hCs
 "}
 (249,1,1) = {"
+hCs
+tZm
+tZm
+unM
+unM
+aao
+adE
+unM
+unM
+unM
+aao
+adE
+unM
+unM
+unM
+unM
+unM
+unM
+acK
+acy
+unM
+aab
+aab
+aal
+aab
+aab
+abc
+aaL
+aaM
+unM
+aag
+unM
+aag
+aag
+aag
+unM
+unM
+aak
+aak
+unM
+unM
+tZm
 gAD
 gAD
 gAD
@@ -79426,52 +80936,52 @@ gAD
 gAD
 gAD
 gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
+kAi
+hCs
 "}
 (250,1,1) = {"
+hCs
+tZm
+unM
+unM
+adA
+adC
+adC
+unM
+unM
+unM
+adB
+adB
+adA
+unM
+unM
+aag
+aag
+unM
+acL
+acz
+unM
+acb
+acb
+abM
+abC
+aab
+aao
+aaL
+aaL
+unM
+unM
+tZm
+tZm
+tZm
+aag
+aag
+unM
+unM
+unM
+unM
+aag
+tZm
 gAD
 gAD
 gAD
@@ -79588,53 +81098,52 @@ gAD
 gAD
 gAD
 gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
+kAi
+hCs
 "}
 (251,1,1) = {"
+hCs
+tZm
+unM
+aaN
+adA
+adC
+adC
+aaN
+unM
+aaN
+adB
+adB
+adA
+ado
+unM
+unM
+unM
+unM
+acM
+acB
+unM
+aci
+acc
+abN
+abD
+abs
+unM
+aaL
+aaL
+unM
+aag
+tZm
 gAD
+tZm
+tZm
+aag
+unM
+aag
+aag
+aag
+aag
+tZm
 gAD
 gAD
 gAD
@@ -79751,53 +81260,52 @@ gAD
 gAD
 gAD
 gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
+kAi
+hCs
 "}
 (252,1,1) = {"
+hCs
+tZm
+aey
+adQ
+adB
+adB
+adB
+adQ
+adX
+adQ
+adB
+adB
+adB
+adp
+adn
+acY
+acX
+unM
+acM
+acB
+unM
+acj
+acd
+abO
+abF
+aal
+unM
+aaL
+aaL
+unM
+aag
+tZm
 gAD
 gAD
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
 gAD
 gAD
 gAD
@@ -79914,50 +81422,42 @@ gAD
 gAD
 gAD
 gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
+kAi
+hCs
 "}
 (253,1,1) = {"
+hCs
+tZm
+aey
+adT
+adB
+adB
+adB
+adY
+aao
+adT
+adB
+adB
+adB
+adp
+adn
+adf
+acY
+unM
+acM
+acB
+unM
+unM
+unM
+unM
+unM
+unM
+unM
+aaL
+aaL
+unM
+aag
+tZm
 gAD
 gAD
 gAD
@@ -80084,42 +81584,42 @@ gAD
 gAD
 gAD
 gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
+kAi
+hCs
 "}
 (254,1,1) = {"
+hCs
+tZm
+aey
+adQ
+adB
+adB
+adB
+adQ
+aao
+adQ
+adB
+adB
+adB
+adq
+unM
+unM
+unM
+unM
+acM
+acB
+unM
+ack
+ace
+abQ
+abG
+aaj
+unM
+aaL
+aaM
+unM
+aag
+tZm
 gAD
 gAD
 gAD
@@ -80246,42 +81746,42 @@ gAD
 gAD
 gAD
 gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
+kAi
+hCs
 "}
 (255,1,1) = {"
+hCs
+tZm
+unM
+aev
+adC
+adF
+adC
+adZ
+unM
+adU
+adC
+adF
+adC
+unM
+unM
+aag
+aag
+unM
+acM
+acB
+unM
+acl
+acf
+abR
+aab
+abt
+unM
+aaL
+aaL
+unM
+aag
+tZm
 gAD
 gAD
 gAD
@@ -80408,42 +81908,42 @@ gAD
 gAD
 gAD
 gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
+kAi
+hCs
 "}
 (256,1,1) = {"
+hCs
+tZm
+unM
+aew
+adC
+adA
+adC
+adV
+unM
+adV
+adC
+adA
+adC
+unM
+unM
+aag
+aag
+unM
+acL
+acC
+unM
+unM
+unM
+abS
+abu
+abu
+abd
+aaL
+aaL
+unM
+aag
+tZm
 gAD
 gAD
 gAD
@@ -80570,42 +82070,42 @@ gAD
 gAD
 gAD
 gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
+kAi
+hCs
 "}
 (257,1,1) = {"
+hCs
+tZm
+unM
+adV
+adC
+adB
+adC
+aaN
+unM
+aaN
+adC
+adB
+adC
+adr
+unM
+unM
+unM
+unM
+acM
+acB
+unM
+acm
+ace
+abR
+aab
+abv
+unM
+aaL
+aaL
+unM
+aag
+tZm
 gAD
 gAD
 gAD
@@ -80732,42 +82232,42 @@ gAD
 gAD
 gAD
 gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
+kAi
+hCs
 "}
 (258,1,1) = {"
+hCs
+tZm
+unM
+adV
+adC
+adB
+adC
+aea
+unM
+adW
+adC
+adB
+adC
+adp
+adn
+adg
+acZ
+unM
+acN
+acD
+unM
+acn
+ace
+abU
+aab
+aaj
+unM
+aaL
+aaL
+unM
+aag
+tZm
 gAD
 gAD
 gAD
@@ -80894,42 +82394,42 @@ gAD
 gAD
 gAD
 gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
+kAi
+hCs
 "}
 (259,1,1) = {"
+hCs
+tZm
+unM
+adV
+adC
+adA
+adC
+adV
+unM
+adV
+adC
+adA
+adC
+adp
+adn
+adh
+ada
+unM
+acO
+acE
+unM
+unM
+unM
+unM
+unM
+unM
+unM
+aaL
+aaM
+unM
+aag
+tZm
 gAD
 gAD
 gAD
@@ -81056,42 +82556,42 @@ gAD
 gAD
 gAD
 gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
+kAi
+hCs
 "}
 (260,1,1) = {"
+hCs
+tZm
+unM
+adV
+adC
+adH
+adC
+unM
+unM
+unM
+adC
+adH
+adC
+ads
+unM
+unM
+unM
+unM
+aal
+aal
+aab
+aab
+aab
+aab
+aab
+aab
+aan
+aal
+aal
+unM
+aag
+tZm
 gAD
 gAD
 gAD
@@ -81218,42 +82718,42 @@ gAD
 gAD
 gAD
 gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
+kAi
+hCs
 "}
 (261,1,1) = {"
+hCs
+tZm
+unM
+tZm
+abo
+abo
+abo
+tZm
+aag
+tZm
+abo
+abo
+abo
+tZm
+unM
+aag
+aag
+unM
+aal
+acF
+aab
+aab
+aab
+aab
+aab
+aab
+aao
+aal
+aal
+unM
+aag
+tZm
 gAD
 gAD
 gAD
@@ -81380,202 +82880,170 @@ gAD
 gAD
 gAD
 gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
+kAi
+hCs
 "}
 (262,1,1) = {"
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
-gAD
+hCs
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+tZm
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+kAi
+hCs
 "}
 (263,1,1) = {"
 hCs
