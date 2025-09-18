@@ -666,6 +666,25 @@
 /obj/structure/largecrate/black_market/clf_supplies,
 /turf/open/floor/corsat,
 /area/scavenger_ship/service_maint)
+"abJ" = (
+/obj/structure/machinery/door/firedoor/border_only/almayer,
+/obj/structure/window_frame/strata,
+/obj/item/shard{
+	icon_state = "large";
+	pixel_x = -5;
+	pixel_y = 8
+	},
+/turf/open/floor/corsat,
+/area/scavenger_ship/cryo_lockersaban)
+"abK" = (
+/obj/structure/machinery/door/firedoor/border_only/almayer,
+/obj/structure/window_frame/strata,
+/obj/item/stack/rods{
+	pixel_x = 2;
+	pixel_y = 9
+	},
+/turf/open/floor/corsat,
+/area/scavenger_ship/cryo_lockersaban)
 "acA" = (
 /obj/structure/machinery/power/apc/almayer/south,
 /obj/item/weapon/twohanded/folded_metal_chair{
@@ -3130,6 +3149,11 @@
 	icon_state = "trash_11";
 	pixel_x = -2;
 	pixel_y = 18
+	},
+/obj/item/shard{
+	icon_state = "large";
+	pixel_x = 7;
+	pixel_y = 0
 	},
 /turf/open/floor/prison/cell_stripe/east,
 /area/scavenger_ship/cryo_lockersaban)
@@ -26644,6 +26668,7 @@
 /obj/structure/machinery/firealarm{
 	pixel_y = 28
 	},
+/obj/item/stack/rods,
 /turf/open/floor/prison/cell_stripe/east,
 /area/scavenger_ship/cryo_lockersaban)
 "vSY" = (
@@ -44661,7 +44686,7 @@ xrd
 lec
 xmm
 pXy
-pXy
+abJ
 xmm
 xmm
 lkb
@@ -45348,7 +45373,7 @@ aIg
 xNq
 fUx
 xmm
-pXy
+abK
 pXy
 xmm
 xmm
