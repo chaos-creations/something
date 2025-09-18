@@ -1,4 +1,14 @@
-/mob/proc/roll_dice(action_text)
+/mob/living/carbon/human/verb/roll_dice_ic()
+	set category = "IC"
+	set name = "Roll Dice"
+
+	var/action_text = input(src, "What are you trying to do?", "Dice Roll") as text|null
+	if(action_text == null)
+		return
+
+	src.roll_dice(action_text)
+
+/mob/living/carbon/human/proc/roll_dice(action_text)
 	var/result = rand(1, 18)
 
 	// Build the messages separately
@@ -18,13 +28,3 @@
 	message_admins("[src] rolled a dice: [(action_text && length(action_text)) ? action_text : "no action"] → [result] [ADMIN_JMP(src)]", 1)
 
 	return result
-
-/mob/verb/roll_dice_ic()
-	set category = "IC"
-	set name = "Roll Dice"
-
-	var/action_text = input(src, "What are you trying to do?", "Dice Roll") as text|null
-	if(action_text == null)
-		return
-
-	src.roll_dice(action_text)
