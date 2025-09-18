@@ -127,6 +127,7 @@ GLOBAL_LIST_INIT(platoon_to_jobs, list(/datum/squad/marine/alpha = list(/datum/j
 		/datum/job/marine/medic/ai/extraction = JOB_SQUAD_MEDIC,\
 		/datum/equipment_preset/uscm/tl/extraction = JOB_SQUAD_TEAM_LEADER,\
 		/datum/job/marine/standard/ai/extraction = JOB_SQUAD_MARINE),\
+		/datum/job/civilian/synthetic/ai = JOB_SYNTH,\
 		/datum/squad/marine/rmc = list(/datum/job/command/bridge/ai/rmc = JOB_TWE_RMC_LIEUTENANT,\
 		/datum/job/marine/leader/ai/rmc = JOB_TWE_RMC_TROOPLEADER,\
 		/datum/job/marine/tl/ai/rmc = JOB_TWE_RMC_SECTIONLEADER,\
