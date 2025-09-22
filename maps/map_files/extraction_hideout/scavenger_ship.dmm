@@ -1272,11 +1272,6 @@
 	pixel_x = 13;
 	pixel_y = 30
 	},
-/obj/structure/ladder/maintenance{
-	pixel_x = 0;
-	pixel_y = 14;
-	id = "ship_backup"
-	},
 /obj/structure/sign/safety/ladder{
 	pixel_x = 1;
 	pixel_y = 30
@@ -1285,6 +1280,11 @@
 	icon_state = "door_warning";
 	pixel_y = 2;
 	pixel_x = 0
+	},
+/obj/structure/ladder/maintenance{
+	pixel_x = 0;
+	pixel_y = 14;
+	id = "ship_backup"
 	},
 /turf/open/floor/prison/blue/northwest,
 /area/scavenger_ship/cryo_lockers)
@@ -11039,8 +11039,8 @@
 	pixel_x = 30;
 	pixel_y = 7
 	},
-/obj/item/prop/magazine/book/uppbooklet{
-	pixel_x = 9;
+/obj/item/pamphlet/skill/specialization/machinegunner{
+	pixel_x = 10;
 	pixel_y = 13
 	},
 /turf/open/floor/prison/darkred2/northwest,
@@ -11487,10 +11487,6 @@
 /obj/item/clothing/accessory/patch/brazil{
 	pixel_x = 2;
 	pixel_y = 7
-	},
-/obj/item/clothing/accessory/health/scrap{
-	pixel_x = -7;
-	pixel_y = 1
 	},
 /obj/item/device/radio{
 	pixel_x = 3;
@@ -14926,6 +14922,10 @@
 "lHr" = (
 /obj/structure/girder/displaced,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/pamphlet/skill/specialization/sniper{
+	pixel_x = 0;
+	pixel_y = 8
+	},
 /turf/open/floor/plating/prison,
 /area/scavenger_ship/logistics_hallway)
 "lHV" = (
@@ -15497,11 +15497,6 @@
 	pixel_x = -7;
 	pixel_y = 12
 	},
-/obj/item/ammo_magazine/pkp{
-	pixel_x = -5;
-	pixel_y = 1;
-	current_rounds = 0
-	},
 /obj/item/tool/plantspray/weeds{
 	pixel_x = 5;
 	pixel_y = 15
@@ -15513,6 +15508,10 @@
 /obj/item/clothing/mask/cigarette{
 	pixel_x = 10;
 	pixel_y = 5
+	},
+/obj/item/pamphlet/skill/specialization/ammo_bearer{
+	pixel_x = -1;
+	pixel_y = 3
 	},
 /turf/open/floor/prison/floor_plate/southwest,
 /area/scavenger_ship/cryo_lockersaban)
@@ -18676,7 +18675,9 @@
 "oMb" = (
 /obj/effect/decal/cleanable/generic,
 /mob/living/simple_animal/hostile/retaliate/giant_lizard{
-	faction = "USCM"
+	faction = "USCM";
+	name = "Storm";
+	desc = "A young male reptile with a small collar bearing his name, slightly larger than the average specimen.Oh, he'll make a mess. Thanks to Vikhr."
 	},
 /turf/open/floor/prison/darkredcorners2/east,
 /area/scavenger_ship/staging_prep)
@@ -26734,6 +26735,10 @@
 	pixel_x = 1;
 	pixel_y = 0;
 	parts_type = /obj/item/stack/sheet/wood
+	},
+/obj/item/pamphlet/skill/specialization/comtech{
+	pixel_x = 3;
+	pixel_y = 15
 	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/staging_hallway)
