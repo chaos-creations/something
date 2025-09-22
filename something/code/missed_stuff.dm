@@ -225,6 +225,8 @@
 	desc = "An old TV. You doubt that it still works."
 	icon_state = "tvnoiseold"
 
+// noise tv redone over //
+
 #define JOB_UPP_SYNTH_ASCLEPIUS "Replicant"
 
 /obj/item/device/radio/headset/almayer/marine/solardevils/mari
