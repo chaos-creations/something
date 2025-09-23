@@ -1276,16 +1276,7 @@
 	pixel_x = 1;
 	pixel_y = 30
 	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "door_warning";
-	pixel_y = 2;
-	pixel_x = 0
-	},
-/obj/structure/ladder/maintenance{
-	pixel_x = 0;
-	pixel_y = 14;
-	id = "ship_backup"
-	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison/blue/northwest,
 /area/scavenger_ship/cryo_lockers)
 "aHz" = (
@@ -4487,16 +4478,12 @@
 /turf/closed/void,
 /area/space)
 "dhA" = (
-/obj/structure/bed/chair/comfy/bench/mid,
-/obj/item/prop/helmetgarb/chaplain_patch{
-	pixel_x = 4;
-	pixel_y = 9
+/obj/structure/ladder/maintenance{
+	pixel_x = 0;
+	id = "ship_backup"
 	},
-/obj/item/prop/helmetgarb/compass{
-	pixel_x = -1;
-	pixel_y = -12
-	},
-/turf/open/floor/plating/plating_catwalk/prison,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison/floor_marked,
 /area/scavenger_ship/cryo_lockers)
 "dhF" = (
 /obj/structure/pipes/valve/digital/open{
@@ -16806,6 +16793,11 @@
 	pixel_x = -2;
 	pixel_y = -2
 	},
+/obj/structure/barricade/handrail/strata{
+	dir = 2;
+	pixel_y = -11;
+	layer = 3
+	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/cryo_lockers)
 "nuQ" = (
@@ -18677,7 +18669,7 @@
 /mob/living/simple_animal/hostile/retaliate/giant_lizard{
 	faction = "USCM";
 	name = "Storm";
-	desc = "A young male reptile with a small collar bearing his name, slightly larger than the average specimen.Oh, he'll make a mess. Thanks to Vikhr."
+	desc = "A young male reptile with a small collar bearing his name, slightly larger than the average specimen. Oh, he'll make a mess. Thanks to Vikhr."
 	},
 /turf/open/floor/prison/darkredcorners2/east,
 /area/scavenger_ship/staging_prep)
@@ -19326,6 +19318,7 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/hangar_maint)
 "ppQ" = (
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison/blue/north,
 /area/scavenger_ship/cryo_lockers)
 "pqk" = (
@@ -22793,7 +22786,6 @@
 /obj/item/storage/backpack/hydroponics{
 	pixel_x = -16;
 	pixel_y = -2;
-	anchored = 1;
 	layer = 3.5
 	},
 /turf/open/floor/prison,
@@ -24514,6 +24506,14 @@
 /obj/item/reagent_container/glass/rag{
 	pixel_x = 3;
 	pixel_y = 1
+	},
+/obj/item/prop/helmetgarb/chaplain_patch{
+	pixel_x = 0;
+	pixel_y = 7
+	},
+/obj/structure/barricade/handrail/strata{
+	dir = 1;
+	pixel_y = 5
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/cryo_lockers)

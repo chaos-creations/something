@@ -227,6 +227,121 @@
 
 // noise tv redone over //
 
+// organ harvester & case //
+
+/obj/item/device/orgna_harvester
+	name = "organ harvester"
+	desc = "A crude surgical tool for ripping out organs. It is designed for rapid organ extraction, but unfortunately, due to its compact size and technology, it can only be used a very limited number of times."
+	icon_state = "mendoza_scanner"
+	w_class = SIZE_SMALL
+	in_use = FALSE
+
+	var/uses_left = 3
+	var/list/organs_possible = list(
+		/obj/item/organ/heart,
+		/obj/item/organ/heart/prosthetic,
+		/obj/item/organ/liver,
+		/obj/item/organ/liver/prosthetic,
+		/obj/item/organ/brain,
+		/obj/item/organ/lungs,
+		/obj/item/organ/lungs/prosthetic,
+		/obj/item/organ/kidneys,
+		/obj/item/organ/kidneys/prosthetic,
+		/obj/item/organ/eyes,
+		/obj/item/organ/eyes/prosthetic
+	)
+
+	var/broken = FALSE
+
+/obj/item/device/orgna_harvester/Initialize()
+	. = ..()
+	update_icon()
+
+/obj/item/device/orgna_harvester/get_examine_text(mob/user)
+	. = ..()
+	. += "It has [uses_left] charge remaining."
+
+/obj/item/device/orgna_harvester/update_icon()
+	. = ..()
+	overlays.Cut()
+	overlays += image('icons/obj/items/devices.dmi', "+mendoza_scanner_value_flash")
+	if(broken)
+		overlays += image('icons/obj/items/devices.dmi', "+mendoza_scanner_flash")
+	if(in_use)
+		overlays += image('icons/obj/items/devices.dmi', "+mendoza_scanner_clamp_on")
+		overlays += image('icons/obj/items/devices.dmi', pick("+mendoza_scanner_value_red", "+mendoza_scanner_value_yellow", "+mendoza_scanner_value_orange", "+mendoza_scanner_value_green", "+mendoza_scanner_value_cyan", "+mendoza_scanner_value_white"))
+	else
+		overlays += image('icons/obj/items/devices.dmi', "+mendoza_scanner_clamp_off")
+
+/obj/item/device/orgna_harvester/attack(mob/living/carbon/human/target, mob/user)
+	if(!skillcheck(user, SKILL_SURGERY, SKILL_SURGERY_NOVICE))
+		to_chat(user, SPAN_WARNING("You do not know how to use the [name]."))
+		return
+
+	if(broken)
+		to_chat(user, SPAN_WARNING("The extractor is broken and useless."))
+		return
+
+	if(!uses_left)
+		to_chat(user, SPAN_WARNING("The extractor is broken and useless."))
+		return
+
+	if(!(target.stat == DEAD))
+		to_chat(user, "<span class='warning'>The target must be dead first!</span>")
+		return
+
+	if(issynth(target))
+		to_chat(user, SPAN_WARNING("You cannot extract organs from synthetics."))
+		return
+
+	if(in_use)
+		return
+
+	in_use = TRUE
+	update_icon()
+	playsound(user.loc, 'sound/surgery/saw.ogg', 25)
+	to_chat(user, SPAN_NOTICE("You begin extracting an organ..."))
+
+	if(!do_after(user, 15 SECONDS, INTERRUPT_NO_NEEDHAND, BUSY_ICON_HOSTILE))
+		to_chat(user, SPAN_NOTICE("You stop extracting."))
+		in_use = FALSE
+		update_icon()
+		return
+
+	var/organ_type = pick(organs_possible)
+	var/obj/item/organ/O = new organ_type(target.loc)
+	O.name = "[target.real_name]'s [O.name]"
+
+	visible_message(
+		SPAN_DANGER("[user] violently extracts an organ from [target]!"),
+		SPAN_NOTICE("You tear out [O.name] from [target].")
+	)
+	playsound(user.loc, pick('sound/surgery/organ1.ogg', 'sound/surgery/organ2.ogg'), 25)
+
+	uses_left--
+	if(uses_left <= 0)
+		broken = TRUE
+		playsound(user.loc, 'sound/effects/metal_shatter.ogg', 25)
+		to_chat(user, SPAN_WARNING("The organ extractor snaps apart after its final use!"))
+	in_use = FALSE
+	update_icon()
+
+// case //
+
+/obj/item/storage/firstaid/organ
+	name = "organ case"
+	desc = "It's a medical case for storing organs."
+	icon = 'something/icons/missed_stuff.dmi'
+	icon_state = "organ_case"
+	open_state = "organ_case_open"
+	storage_slots = 3
+	w_class = SIZE_SMALL
+	can_hold = list(
+		/obj/item/organ,
+	)
+
+// organ harvester & case over //
+
 #define JOB_UPP_SYNTH_ASCLEPIUS "Replicant"
 
 /obj/item/device/radio/headset/almayer/marine/solardevils/mari
