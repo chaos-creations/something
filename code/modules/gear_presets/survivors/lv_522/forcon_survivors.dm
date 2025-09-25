@@ -5,8 +5,8 @@
 	idtype = /obj/item/card/id/dogtag
 	role_comm_title = "FORECON"
 	rank = JOB_SURVIVOR
-	faction = FACTION_SCAV
-	faction_group = FACTION_LIST_SCAV
+	faction = FACTION_MARINE
+	faction_group = FACTION_LIST_UA
 	flags = EQUIPMENT_PRESET_EXTRA|EQUIPMENT_PRESET_MARINE
 	access = list(
 		ACCESS_CIVILIAN_PUBLIC,

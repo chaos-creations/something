@@ -1,284 +1,15 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"aaa" = (
-/obj/structure/barricade/razorwire{
-	dir = 1
-	},
-/turf/open/floor/prison/darkredfull2,
-/area/lv522/indoors/a_block/kitchen)
-"aab" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/clothing/head/helmet/riot,
-/turf/open/floor/prison/darkredfull2,
-/area/lv522/indoors/a_block/security)
-"aac" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/barricade/metal/plasteel/wired,
-/turf/open/floor/prison/darkredfull2,
-/area/lv522/indoors/a_block/security)
 "aad" = (
-/obj/structure/barricade/metal/plasteel/wired,
-/turf/open/floor/prison/darkredfull2,
-/area/lv522/indoors/a_block/security)
-"aae" = (
 /obj/structure/surface/table/almayer,
-/obj/item/ammo_box/magazine/shotgun/beanbag/empty{
-	pixel_x = -3;
-	pixel_y = -3
+/obj/item/reagent_container/food/drinks/coffee{
+	pixel_x = 7;
+	pixel_y = 4
+	},
+/obj/item/reagent_container/food/snacks/donut/jelly{
+	pixel_x = -6;
+	pixel_y = 4
 	},
 /turf/open/floor/prison/darkredfull2,
-/area/lv522/indoors/a_block/security)
-"aaf" = (
-/obj/structure/largecrate/supply/ammo/m41amk1/forecon,
-/obj/item/weapon/gun/rifle/m41aMK1/forecon,
-/turf/open/floor/prison/darkredfull2,
-/area/lv522/indoors/a_block/security)
-"aag" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/prop/colony/used_flare,
-/turf/open/floor/prison,
-/area/lv522/indoors/a_block/security)
-"aah" = (
-/obj/structure/barricade/metal/wired,
-/turf/open/floor/plating/plating_catwalk/prison,
-/area/lv522/indoors/a_block/security)
-"aai" = (
-/obj/structure/barricade/metal/wired{
-	dir = 8
-	},
-/turf/open/floor/plating/plating_catwalk/prison,
-/area/lv522/indoors/a_block/security)
-"aaj" = (
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
-	},
-/obj/structure/barricade/metal/wired{
-	dir = 4
-	},
-/turf/open/floor/plating/plating_catwalk/prison,
-/area/lv522/indoors/a_block/security)
-"aak" = (
-/obj/structure/pipes/standard/simple/hidden/green,
-/obj/structure/barricade/metal/wired{
-	dir = 1
-	},
-/turf/open/floor/plating/plating_catwalk/prison,
-/area/lv522/indoors/a_block/security)
-"aal" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/barricade/razorwire{
-	dir = 8
-	},
-/turf/open/floor/prison/darkredfull2,
-/area/lv522/indoors/a_block/security)
-"aam" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/prop/alien/hugger,
-/turf/open/floor/prison/darkredfull2,
-/area/lv522/indoors/a_block/security)
-"aan" = (
-/obj/structure/pipes/standard/simple/hidden/green,
-/obj/effect/decal/cleanable/dirt,
-/obj/item/prop/colony/used_flare,
-/turf/open/floor/prison,
-/area/lv522/indoors/a_block/security)
-"aao" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/power/port_gen/pacman,
-/turf/open/floor/prison/darkredfull2,
-/area/lv522/indoors/a_block/security)
-"aap" = (
-/obj/structure/filingcabinet{
-	pixel_x = -8
-	},
-/obj/structure/filingcabinet{
-	pixel_x = 8
-	},
-/turf/open/floor/prison/floor_plate,
-/area/lv522/indoors/a_block/security/glass)
-"aaq" = (
-/obj/structure/filingcabinet{
-	pixel_x = -8
-	},
-/obj/structure/filingcabinet{
-	pixel_x = 8
-	},
-/turf/open/floor/prison/darkredfull2,
-/area/lv522/indoors/a_block/security/glass)
-"aar" = (
-/obj/structure/barricade/metal/wired{
-	dir = 4
-	},
-/turf/open/floor/prison,
-/area/lv522/indoors/a_block/security)
-"aas" = (
-/obj/structure/barricade/deployable{
-	dir = 4
-	},
-/turf/open/floor/prison,
-/area/lv522/indoors/a_block/security/glass)
-"aat" = (
-/obj/item/prop/colony/used_flare,
-/turf/open/floor/prison,
-/area/lv522/indoors/a_block/security/glass)
-"aau" = (
-/obj/effect/decal/cleanable/blood,
-/turf/open/floor/prison,
-/area/lv522/indoors/a_block/security/glass)
-"aav" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/barricade/metal/wired{
-	dir = 4
-	},
-/turf/open/floor/prison,
-/area/lv522/indoors/a_block/security)
-"aaw" = (
-/obj/item/prop/colony/used_flare,
-/obj/effect/decal/cleanable/blood,
-/turf/open/floor/prison,
-/area/lv522/indoors/a_block/security/glass)
-"aax" = (
-/obj/structure/barricade/deployable{
-	dir = 4
-	},
-/turf/open/floor/prison/floor_plate,
-/area/lv522/indoors/a_block/security/glass)
-"aay" = (
-/obj/structure/barricade/metal/wired,
-/turf/open/floor/prison,
-/area/lv522/indoors/a_block/security/glass)
-"aaz" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/prop/colony/used_flare,
-/turf/open/floor/prison,
-/area/lv522/indoors/a_block/security/glass)
-"aaA" = (
-/obj/item/weapon/twohanded/fireaxe,
-/turf/open/floor/prison/darkredfull2,
-/area/lv522/indoors/a_block/security/glass)
-"aaB" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/ladder/hatch{
-	id = "forecon"
-	},
-/turf/open/floor/prison/floor_marked,
-/area/lv522/indoors/a_block/security/glass)
-"aaC" = (
-/obj/structure/filingcabinet{
-	density = 0;
-	pixel_x = -8;
-	pixel_y = 22
-	},
-/obj/structure/filingcabinet{
-	density = 0;
-	pixel_x = 8;
-	pixel_y = 22
-	},
-/obj/item/reagent_container/food/snacks/donut{
-	pixel_x = 4;
-	pixel_y = 3
-	},
-/turf/open/floor/prison/darkredfull2,
-/area/lv522/indoors/a_block/security/glass)
-"aaD" = (
-/obj/structure/filingcabinet{
-	density = 0;
-	pixel_x = -8;
-	pixel_y = 22
-	},
-/obj/structure/filingcabinet{
-	density = 0;
-	pixel_x = 8;
-	pixel_y = 22
-	},
-/obj/item/storage/donut_box/empty{
-	pixel_x = 1;
-	pixel_y = 8
-	},
-/turf/open/floor/prison/darkredfull2,
-/area/lv522/indoors/a_block/security/glass)
-"aaE" = (
-/turf/closed/wall/strata_ice/dirty,
-/area/lv522/indoors/a_block/security)
-"aaF" = (
-/turf/closed/wall/mineral/sandstone/runed/decor{
-	color = "#324975"
-	},
-/area/lv522/indoors/a_block/security)
-"aaG" = (
-/turf/closed/wall/mineral/sandstone/runed{
-	color = "#324975"
-	},
-/area/lv522/indoors/a_block/security)
-"aaH" = (
-/obj/effect/spider/stickyweb{
-	icon_state = "stickyweb2"
-	},
-/turf/open/auto_turf/snow,
-/area/lv522/indoors/a_block/security)
-"aaI" = (
-/obj/structure/platform/mineral/sandstone/runed{
-	dir = 4;
-	color = "#324975"
-	},
-/obj/effect/spider/stickyweb{
-	icon_state = "stickyweb2"
-	},
-/turf/open/auto_turf/snow,
-/area/lv522/indoors/a_block/security)
-"aaJ" = (
-/obj/structure/showcase{
-	color = "#95948B";
-	desc = "A grey statue dawned in ancient armor, it stares into your soul.";
-	icon = 'icons/mob/humans/species/r_synthetic.dmi';
-	icon_state = "Synthetic_Template";
-	name = "Eternal guardian"
-	},
-/obj/item/clothing/suit/armor/yautja_flavor{
-	anchored = 1;
-	icon_state = "halfarmor4_silver";
-	pixel_y = 0
-	},
-/obj/item/clothing/suit/armor/yautja_flavor{
-	anchored = 1;
-	icon_state = "y-boots2_silver"
-	},
-/obj/item/clothing/mask/gas/yautja/damaged{
-	icon_state = "pred_mask3_silver";
-	item_state_slots = list("wear_mask" = "pred_mask3_silver")
-	},
-/turf/open/floor/sandstone/runed{
-	color = "#324975"
-	},
-/area/lv522/indoors/a_block/security)
-"aaK" = (
-/obj/item/weapon/yautja/knife,
-/obj/item/clothing/yautja_cape,
-/obj/structure/closet/coffin/predator,
-/turf/open/floor/sandstone/runed{
-	color = "#324975"
-	},
-/area/lv522/indoors/a_block/security)
-"aaL" = (
-/turf/open/auto_turf/snow,
-/area/lv522/indoors/a_block/security)
-"aaM" = (
-/obj/structure/platform_decoration/mineral/sandstone/runed{
-	color = "#324975"
-	},
-/turf/open/auto_turf/snow,
-/area/lv522/indoors/a_block/security)
-"aaN" = (
-/obj/structure/platform/mineral/sandstone/runed{
-	color = "#324975"
-	},
-/obj/structure/prop/brazier/torch{
-	pixel_x = 32
-	},
-/turf/open/auto_turf/snow,
-/area/lv522/indoors/a_block/security)
-"aaO" = (
-/obj/effect/spider/stickyweb,
-/turf/open/auto_turf/snow,
 /area/lv522/indoors/a_block/security)
 "aaP" = (
 /obj/item/prop/helmetgarb/lucky_feather{
@@ -288,12 +19,6 @@
 /obj/item/device/implanter/subdermal_armor,
 /turf/open/floor/corsat/plate,
 /area/lv522/oob)
-"aaQ" = (
-/obj/effect/spider/stickyweb,
-/turf/open/floor/sandstone/runed{
-	color = "#324975"
-	},
-/area/lv522/indoors/a_block/security)
 "aaR" = (
 /obj/structure/prop/invuln/overhead/flammable_pipe/fly{
 	dir = 10;
@@ -301,10 +26,6 @@
 	},
 /turf/open/floor/corsat/plate,
 /area/lv522/atmos/east_reactor/north)
-"aaS" = (
-/obj/structure/tunnel,
-/turf/open/auto_turf/snow,
-/area/lv522/indoors/a_block/security)
 "aaT" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/structure/machinery/prop/almayer/computer/PC{
@@ -317,35 +38,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison/darkbrownfull2,
 /area/lv522/indoors/c_block/garage)
-"aaU" = (
-/obj/effect/spider/stickyweb{
-	icon_state = "stickyweb2"
-	},
-/mob/living/simple_animal/hostile/giant_spider,
-/turf/open/auto_turf/snow,
-/area/lv522/indoors/a_block/security)
-"aaV" = (
-/obj/effect/decal/remains/human,
-/turf/open/auto_turf/snow,
-/area/lv522/indoors/a_block/security)
-"aaW" = (
-/obj/effect/spider/stickyweb,
-/turf/closed/wall/strata_ice/dirty,
-/area/lv522/indoors/a_block/security)
 "aaX" = (
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/floor/prison,
 /area/lv522/outdoors/n_rockies)
-"aaY" = (
-/obj/effect/spider/stickyweb{
-	icon_state = "stickyweb2"
-	},
-/turf/closed/wall/strata_ice/dirty,
-/area/lv522/indoors/a_block/security)
-"aaZ" = (
-/mob/living/simple_animal/hostile/giant_spider,
-/turf/open/auto_turf/snow,
-/area/lv522/indoors/a_block/security)
 "aba" = (
 /obj/structure/stairs/perspective{
 	dir = 10;
@@ -354,88 +50,11 @@
 /obj/structure/largecrate/random/barrel/white,
 /turf/open/floor/plating,
 /area/lv522/landing_zone_1/tunnel/far)
-"abb" = (
-/obj/effect/decal/remains/human,
-/mob/living/simple_animal/hostile/giant_spider/hunter,
-/turf/open/auto_turf/snow,
-/area/lv522/indoors/a_block/security)
 "abc" = (
 /obj/structure/largecrate/random/barrel,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/lv522/landing_zone_1/tunnel/far)
-"abd" = (
-/obj/structure/ladder/rope{
-	pixel_x = 5;
-	pixel_y = 13;
-	layer = 3.1;
-	height = -1;
-	id = "s_cave"
-	},
-/turf/open/auto_turf/snow,
-/area/lv522/indoors/a_block/security)
-"abe" = (
-/obj/structure/surface/table/almayer,
-/obj/item/reagent_container/food/drinks/bottle/whiskey{
-	pixel_x = 12;
-	pixel_y = 8
-	},
-/obj/item/reagent_container/food/snacks/resin_fruit{
-	desc = "Never let Joes cook alien cuisine. Eugh.";
-	name = "arcturian curry";
-	pixel_x = -4;
-	pixel_y = 5
-	},
-/turf/open/floor/prison/floor_plate,
-/area/lv522/indoors/a_block/security)
-"abf" = (
-/obj/structure/surface/table/almayer,
-/obj/item/reagent_container/food/drinks/cup{
-	pixel_x = 8;
-	pixel_y = 15
-	},
-/obj/item/reagent_container/food/drinks/cup{
-	pixel_x = -7;
-	pixel_y = 6
-	},
-/obj/item/reagent_container/food/drinks/cup{
-	pixel_x = 8;
-	pixel_y = 15
-	},
-/obj/item/reagent_container/food/drinks/cup{
-	pixel_x = 6;
-	pixel_y = 1
-	},
-/turf/open/floor/prison/floor_plate,
-/area/lv522/indoors/a_block/security)
-"abg" = (
-/obj/structure/bed/chair{
-	can_buckle = 0;
-	dir = 1;
-	pixel_x = -4;
-	pixel_y = 6
-	},
-/turf/open/floor/prison,
-/area/lv522/indoors/a_block/security)
-"abh" = (
-/obj/structure/bed/chair{
-	can_buckle = 0;
-	dir = 1;
-	pixel_x = 6;
-	pixel_y = 11
-	},
-/obj/structure/bed/chair{
-	can_buckle = 0;
-	dir = 1;
-	pixel_x = -12;
-	pixel_y = 3
-	},
-/turf/open/floor/prison,
-/area/lv522/indoors/a_block/security)
-"abi" = (
-/obj/structure/machinery/light/small/red,
-/turf/open/floor/plating/plating_catwalk/prison,
-/area/lv522/indoors/a_block/security)
 "abj" = (
 /obj/structure/stairs/perspective{
 	dir = 9;
@@ -443,51 +62,6 @@
 	},
 /turf/open/floor/prison/darkpurplefull2,
 /area/lv522/indoors/a_block/dorms)
-"abk" = (
-/obj/structure/machinery/door/poddoor/almayer{
-	dir = 4;
-	id = "E_B_Door";
-	name = "\improper Emergency Blast Door";
-	unacidable = 1
-	},
-/turf/open/floor/corsat/marked,
-/area/lv522/indoors/a_block/security)
-"abl" = (
-/obj/structure/bed/chair{
-	can_buckle = 0;
-	dir = 1;
-	pixel_x = -7;
-	pixel_y = 6
-	},
-/obj/structure/bed/chair{
-	can_buckle = 0;
-	dir = 1;
-	pixel_x = 11;
-	pixel_y = -3
-	},
-/turf/open/floor/prison,
-/area/lv522/indoors/a_block/security)
-"abm" = (
-/obj/structure/bed/chair{
-	can_buckle = 0;
-	dir = 1;
-	pixel_x = 0;
-	pixel_y = 7
-	},
-/turf/open/floor/prison,
-/area/lv522/indoors/a_block/security)
-"abn" = (
-/obj/structure/platform{
-	dir = 1
-	},
-/obj/structure/platform{
-	dir = 8
-	},
-/obj/structure/platform_decoration/metal/almayer/northeast,
-/obj/structure/platform,
-/obj/structure/platform_decoration/metal/almayer/southwest,
-/turf/open/gm/river,
-/area/lv522/indoors/a_block/security)
 "abo" = (
 /turf/closed/wall/strata_outpost,
 /area/lv522/oob)
@@ -504,132 +78,15 @@
 /obj/structure/pipes/vents/pump,
 /turf/open/floor/prison/floor_plate,
 /area/lv522/indoors/b_block/bar)
-"abq" = (
-/obj/structure/prop/almayer/whiteboard{
-	pixel_y = 25;
-	density = 0
-	},
-/obj/structure/machinery/light/small/blue{
-	dir = 8
-	},
-/turf/open/floor/prison/cell_stripe,
-/area/lv522/indoors/a_block/security)
-"abr" = (
-/turf/open/floor/prison/cell_stripe,
-/area/lv522/indoors/a_block/security)
-"abs" = (
-/obj/structure/surface/table/almayer,
-/obj/structure/machinery/computer/custom_email{
-	dir = 8;
-	pixel_y = 5;
-	email_list = list(/datum/fluff_email/rover/komana);
-	name = "Major's Terminal"
-	},
-/turf/open/floor/prison/floor_plate,
-/area/lv522/indoors/a_block/security)
 "abt" = (
 /obj/effect/spawner/gibspawner/xeno,
 /turf/open/auto_turf/shale/layer2,
 /area/lv522/outdoors/w_rockies)
-"abu" = (
-/obj/structure/tunnel,
-/obj/structure/ladder/rope{
-	pixel_x = 2;
-	pixel_y = 8;
-	layer = 3.1;
-	id = "s_cave"
-	},
-/turf/open/auto_turf/snow,
-/area/lv522/indoors/a_block/security)
 "abv" = (
 /turf/closed/shuttle/dropship3/tornado{
 	icon_state = "100"
 	},
 /area/lv522/landing_zone_forecon/UD6_Tornado)
-"abw" = (
-/obj/structure/platform{
-	dir = 8
-	},
-/obj/structure/platform,
-/obj/structure/platform_decoration/metal/almayer/southwest,
-/turf/open/gm/river,
-/area/lv522/indoors/a_block/security)
-"abx" = (
-/obj/structure/platform/strata,
-/turf/open/gm/river/ocean,
-/area/lv522/indoors/a_block/security)
-"aby" = (
-/turf/open/gm/river/ocean,
-/area/lv522/indoors/a_block/security)
-"abz" = (
-/obj/structure/machinery/telecomms/bus/preset_one,
-/turf/open/floor/almayer/tcomms,
-/area/lv522/indoors/a_block/security)
-"abA" = (
-/obj/structure/machinery/door/airlock/almayer/maint{
-	dir = 1;
-	welded = 1
-	},
-/turf/open/floor/corsat/marked,
-/area/lv522/indoors/a_block/security)
-"abB" = (
-/obj/structure/device/broken_piano,
-/turf/open/floor/prison/darkyellow2,
-/area/lv522/indoors/a_block/security)
-"abC" = (
-/obj/item/broken_device,
-/turf/open/floor/prison/darkyellow2,
-/area/lv522/indoors/a_block/security)
-"abD" = (
-/obj/structure/closet/secure_closet/engineering_electrical,
-/turf/open/floor/prison/darkyellow2,
-/area/lv522/indoors/a_block/security)
-"abE" = (
-/obj/structure/platform{
-	dir = 8
-	},
-/turf/open/gm/river,
-/area/lv522/indoors/a_block/security)
-"abF" = (
-/obj/structure/machinery/power/reactor/colony{
-	pixel_x = -1;
-	pixel_y = -3
-	},
-/turf/open/floor/corsat/marked,
-/area/lv522/indoors/a_block/security)
-"abG" = (
-/obj/structure/machinery/door/airlock/almayer/maint{
-	dir = 4;
-	welded = 1
-	},
-/turf/open/floor/corsat/marked,
-/area/lv522/indoors/a_block/security)
-"abH" = (
-/obj/structure/machinery/light/small/blue{
-	dir = 8
-	},
-/obj/structure/prop/server_equipment/broken,
-/turf/open/floor/prison/darkyellow2/north,
-/area/lv522/indoors/a_block/security)
-"abI" = (
-/obj/structure/prop/server_equipment/yutani_server/broken,
-/turf/open/floor/prison/darkyellow2/north,
-/area/lv522/indoors/a_block/security)
-"abJ" = (
-/obj/structure/surface/rack,
-/obj/item/cell/hyper/empty{
-	pixel_x = -2;
-	pixel_y = -1
-	},
-/obj/item/circuitboard/computer{
-	pixel_x = 3;
-	pixel_y = 13
-	},
-/turf/open/floor/prison/darkyellow2/north,
-/area/lv522/indoors/a_block/security)
-"abK" = (
-/turf/closed/shuttle/elevator,
-/area/lv522/indoors/a_block/security)
 "abL" = (
 /obj/structure/platform{
 	dir = 1
@@ -642,230 +99,10 @@
 	},
 /turf/open/gm/river,
 /area/lv522/atmos/sewer)
-"abM" = (
-/obj/structure/prop/structure_lattice{
-	dir = 1;
-	health = 300;
-	icon = 'icons/turf/elevator.dmi';
-	icon_state = "wall_broke"
-	},
-/turf/open/gm/river,
-/area/lv522/indoors/a_block/security)
-"abN" = (
-/obj/structure/largecrate/random/mini{
-	pixel_x = -2;
-	pixel_y = -3
-	},
-/obj/item/prop/colony/usedbandage{
-	dir = 5;
-	pixel_y = 8
-	},
-/turf/open/floor/shiva/radiator_tile2,
-/area/lv522/indoors/a_block/security)
-"abO" = (
-/obj/structure/bed/bedroll{
-	dir = 10
-	},
-/obj/structure/machinery/light/small/red,
-/turf/open/floor/plating/plating_catwalk/prison,
-/area/lv522/indoors/a_block/security)
-"abP" = (
-/obj/item/trash/barcardine,
-/obj/item/tool/weldingtool,
-/turf/open/floor/shiva/radiator_tile2,
-/area/lv522/indoors/a_block/security)
-"abQ" = (
-/obj/structure/machinery/light/small/red{
-	dir = 8
-	},
-/turf/open/floor/prison/floor_plate,
-/area/lv522/indoors/a_block/security)
-"abR" = (
-/obj/item/stack/rods{
-	pixel_x = -19;
-	pixel_y = 11
-	},
-/obj/item/stack/rods{
-	pixel_x = 15;
-	pixel_y = -4
-	},
-/turf/open/gm/river,
-/area/lv522/indoors/a_block/security)
 "abS" = (
 /obj/effect/acid_hole,
 /turf/closed/wall/strata_ice/dirty,
 /area/lv522/oob)
-"abT" = (
-/obj/structure/platform/strata{
-	dir = 8
-	},
-/obj/structure/prop/invuln/pipe_water{
-	dir = 4;
-	pixel_y = 2;
-	pixel_x = -4
-	},
-/obj/structure/prop/invuln/pipe_water{
-	dir = 4;
-	pixel_y = -2;
-	pixel_x = -4
-	},
-/obj/structure/prop/invuln/pipe_water{
-	dir = 4;
-	pixel_y = 8;
-	pixel_x = -4
-	},
-/obj/structure/prop/invuln/pipe_water{
-	dir = 4;
-	pixel_y = 4;
-	pixel_x = -4
-	},
-/turf/open/gm/river/ocean,
-/area/lv522/indoors/a_block/security)
-"abU" = (
-/obj/item/trash/crushed_cup{
-	pixel_y = 12
-	},
-/obj/item/prop/colony/usedbandage{
-	dir = 1
-	},
-/turf/open/floor/shiva/radiator_tile2,
-/area/lv522/indoors/a_block/security)
-"abV" = (
-/obj/item/prop/colony/usedbandage{
-	dir = 10
-	},
-/turf/open/floor/prison/floor_plate,
-/area/lv522/indoors/a_block/security)
-"abW" = (
-/obj/item/ammo_box/magazine/misc/mre,
-/obj/item/prop/colony/usedbandage{
-	dir = 9;
-	pixel_x = 5;
-	pixel_y = 15
-	},
-/obj/item/trash/tray{
-	pixel_x = -16;
-	pixel_y = 13
-	},
-/turf/open/floor/shiva/radiator_tile2,
-/area/lv522/indoors/a_block/security)
-"abX" = (
-/obj/structure/bed/bedroll{
-	dir = 4;
-	pixel_x = -1;
-	pixel_y = 10
-	},
-/obj/structure/bed/bedroll{
-	dir = 4;
-	pixel_x = -1;
-	pixel_y = -3
-	},
-/obj/item/prop/colony/game{
-	pixel_y = 3;
-	pixel_x = 0
-	},
-/turf/open/floor/prison/darkbrown2,
-/area/lv522/indoors/a_block/security)
-"abY" = (
-/obj/structure/machinery/computer/cameras/wooden_tv/prop{
-	dir = 8;
-	layer = 3.2;
-	pixel_x = 11;
-	pixel_y = 0
-	},
-/turf/open/floor/prison/darkbrown2,
-/area/lv522/indoors/a_block/security)
-"abZ" = (
-/obj/structure/prop/structure_lattice{
-	health = 300;
-	icon = 'icons/turf/elevator.dmi';
-	icon_state = "wall_broke"
-	},
-/turf/open/gm/river,
-/area/lv522/indoors/a_block/security)
-"aca" = (
-/obj/item/trash/barcardine,
-/obj/structure/largecrate/random/mini{
-	pixel_x = -7;
-	pixel_y = 16
-	},
-/turf/open/floor/shiva/radiator_tile2,
-/area/lv522/indoors/a_block/security)
-"acb" = (
-/obj/item/trash/hotdog,
-/obj/item/reagent_container/food/drinks/cans/souto{
-	pixel_x = 8;
-	pixel_y = 19
-	},
-/obj/item/reagent_container/food/drinks/cans/souto{
-	pixel_x = -2;
-	pixel_y = 19
-	},
-/obj/item/reagent_container/food/drinks/cans/souto{
-	pixel_x = -11;
-	pixel_y = 12
-	},
-/turf/open/floor/shiva/radiator_tile2,
-/area/lv522/indoors/a_block/security)
-"acc" = (
-/obj/item/toy/plush/therapy/red{
-	desc = "A USCM approved plush doll. It's not soft and hardly comforting!";
-	force = 15;
-	layer = 4.1;
-	name = "Commando Huggs";
-	pixel_x = -7;
-	pixel_y = -6;
-	throwforce = 15
-	},
-/obj/item/clothing/head/cmcap{
-	layer = 4.1;
-	pixel_x = -8;
-	pixel_y = 1
-	},
-/obj/structure/sign/prop3{
-	pixel_x = -30
-	},
-/turf/open/floor/shiva/radiator_tile2,
-/area/lv522/indoors/a_block/security)
-"acd" = (
-/turf/open/floor/shiva/radiator_tile2,
-/area/lv522/indoors/a_block/security)
-"ace" = (
-/obj/structure/curtain/red,
-/turf/open/floor/corsat/marked,
-/area/lv522/indoors/a_block/security)
-"acf" = (
-/obj/item/clothing/shoes/marine/civilian/jungle{
-	pixel_x = 5;
-	pixel_y = 11
-	},
-/obj/item/prop/helmetgarb/rabbitsfoot{
-	pixel_x = -7;
-	pixel_y = -6
-	},
-/turf/open/floor/prison/darkbrown2/north,
-/area/lv522/indoors/a_block/security)
-"acg" = (
-/obj/structure/bed/bedroll{
-	dir = 1;
-	pixel_x = 1;
-	pixel_y = 10
-	},
-/obj/structure/bed/bedroll{
-	dir = 1;
-	pixel_x = 1;
-	pixel_y = -3
-	},
-/obj/item/toy/deck/uno{
-	pixel_x = -1;
-	pixel_y = 16
-	},
-/obj/item/clothing/head/cmcap/boonie/tan{
-	pixel_x = 1;
-	pixel_y = -2
-	},
-/turf/open/floor/prison/darkbrown2/north,
-/area/lv522/indoors/a_block/security)
 "ach" = (
 /turf/open/floor/corsat/squares,
 /area/lv522/atmos/reactor_garage)
@@ -873,52 +110,6 @@
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
 /turf/open/floor/corsat/brown/northwest,
 /area/lv522/atmos/east_reactor/south)
-"acj" = (
-/obj/structure/prop/invuln/overhead_pipe{
-	dir = 4;
-	pixel_x = -12;
-	pixel_y = 6
-	},
-/turf/open/floor/prison/darkyellow2,
-/area/lv522/indoors/a_block/security)
-"ack" = (
-/obj/structure/prop/invuln/overhead_pipe{
-	dir = 4;
-	pixel_x = -12;
-	pixel_y = 6
-	},
-/obj/structure/prop/invuln/overhead_pipe{
-	dir = 4;
-	pixel_x = 16;
-	pixel_y = 6
-	},
-/turf/open/floor/prison/darkyellow2,
-/area/lv522/indoors/a_block/security)
-"acl" = (
-/obj/structure/platform{
-	dir = 1
-	},
-/obj/structure/platform{
-	dir = 8
-	},
-/obj/structure/platform_decoration/metal/almayer/northeast,
-/turf/open/gm/river,
-/area/lv522/indoors/a_block/security)
-"acm" = (
-/obj/structure/machinery/door/poddoor/almayer{
-	dir = 4;
-	id = "E_B_Door";
-	name = "\improper Emergency Blast Door";
-	unacidable = 1
-	},
-/turf/closed/wall/strata_outpost,
-/area/lv522/indoors/a_block/security)
-"acn" = (
-/obj/structure/barricade/wooden{
-	dir = 8
-	},
-/turf/open/floor/plating/plating_catwalk/prison,
-/area/lv522/indoors/a_block/security)
 "aco" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison/floor_plate,
@@ -927,56 +118,47 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison,
 /area/lv522/landing_zone_2/ceiling)
-"acq" = (
-/obj/structure/machinery/light/small/red,
-/turf/open/floor/prison/floor_plate,
-/area/lv522/indoors/a_block/security)
-"acr" = (
-/obj/effect/acid_hole,
-/turf/closed/wall/strata_ice/dirty,
-/area/lv522/indoors/a_block/security)
-"acs" = (
-/obj/structure/platform,
-/obj/structure/platform{
-	dir = 4
-	},
-/obj/structure/platform_decoration{
-	dir = 6
-	},
-/turf/open/gm/river,
-/area/lv522/indoors/a_block/security)
 "act" = (
 /obj/structure/surface/table/almayer,
 /obj/item/clipboard,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison/darkpurplefull2,
 /area/lv522/indoors/a_block/dorms/glass)
-"acu" = (
-/obj/structure/ladder{
-	icon_state = "ladder10";
-	id = "forecon";
-	height = -1
+"acx" = (
+/obj/structure/surface/table/almayer,
+/obj/item/paper_bin/wy{
+	pixel_x = 7;
+	pixel_y = 7
 	},
-/turf/open/floor/plating/plating_catwalk/prison,
+/obj/item/paper/wy,
+/turf/open/floor/prison/darkredfull2,
 /area/lv522/indoors/a_block/security)
-"acv" = (
-/obj/structure/platform,
-/obj/structure/platform{
-	dir = 8
-	},
-/obj/structure/platform_decoration{
-	dir = 10
-	},
-/turf/open/gm/river,
+"acy" = (
+/obj/item/ammo_box/magazine/l42a/ap/empty,
+/turf/open/floor/prison,
 /area/lv522/indoors/a_block/security)
-"acw" = (
-/obj/structure/platform,
-/turf/open/gm/river,
+"acz" = (
+/obj/structure/surface/table/almayer,
+/obj/item/device/flashlight/lamp,
+/turf/open/floor/prison,
+/area/lv522/indoors/a_block/security)
+"acA" = (
+/obj/structure/bed/chair/comfy{
+	dir = 4
+	},
+/turf/open/floor/prison,
 /area/lv522/indoors/a_block/security)
 "acB" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/corsat/marked,
 /area/lv522/indoors/a_block/dorms)
+"acC" = (
+/obj/structure/bed/chair/comfy{
+	dir = 8
+	},
+/obj/item/prop/alien/hugger,
+/turf/open/floor/prison,
+/area/lv522/indoors/a_block/security)
 "acD" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/corsat,
@@ -985,6 +167,22 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/lv522/indoors/c_block/bridge)
+"acF" = (
+/obj/structure/surface/table/almayer,
+/obj/item/device/flashlight/lamp,
+/turf/open/floor/prison/darkredfull2,
+/area/lv522/indoors/a_block/security)
+"acG" = (
+/obj/structure/surface/table/almayer,
+/obj/item/reagent_container/food/drinks/coffee{
+	pixel_x = 7;
+	pixel_y = 10
+	},
+/obj/item/reagent_container/food/snacks/donut{
+	pixel_y = 3
+	},
+/turf/open/floor/prison/darkredfull2,
+/area/lv522/indoors/a_block/security)
 "acH" = (
 /obj/structure/surface/table/almayer,
 /obj/effect/decal/cleanable/dirt,
@@ -993,6 +191,15 @@
 	},
 /turf/open/floor/prison/darkpurplefull2,
 /area/lv522/indoors/a_block/dorms/glass)
+"acI" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/machinery/prop/almayer/computer/PC{
+	dir = 1;
+	layer = 3.1;
+	pixel_y = 6
+	},
+/turf/open/floor/prison,
+/area/lv522/indoors/a_block/security/glass)
 "acJ" = (
 /obj/structure/platform,
 /obj/structure/platform{
@@ -2976,8 +2183,18 @@
 /turf/open/asphalt/cement/cement3,
 /area/lv522/outdoors/colony_streets/south_west_street)
 "aYt" = (
+/obj/structure/filingcabinet{
+	density = 0;
+	pixel_x = -8;
+	pixel_y = 22
+	},
+/obj/structure/filingcabinet{
+	density = 0;
+	pixel_x = 8;
+	pixel_y = 22
+	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/prison/cell_stripe/east,
+/turf/open/floor/prison/darkredfull2,
 /area/lv522/indoors/a_block/security/glass)
 "aYD" = (
 /obj/effect/decal/cleanable/dirt,
@@ -3580,11 +2797,6 @@
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
 	},
-/obj/structure/machinery/defenses/sentry/premade/dumb{
-	desc = "A deployable, semi-automated turret with AI targeting capabilities. Armed with an M30 Autocannon and a high-capacity drum magazine. This one's IFF system has been fried via acid damage, and it will open fire on any targets within range.";
-	name = "Damaged UA-577 Gauss Turret";
-	dir = 4
-	},
 /turf/open/floor/prison,
 /area/lv522/indoors/a_block/security/glass)
 "bmk" = (
@@ -4026,7 +3238,6 @@
 /area/lv522/atmos/cargo_intake)
 "bwI" = (
 /obj/effect/decal/cleanable/generic,
-/obj/structure/barricade/metal/plasteel/wired,
 /turf/open/floor/prison/darkredfull2,
 /area/lv522/indoors/a_block/security)
 "bwT" = (
@@ -4318,9 +3529,7 @@
 /turf/open/floor/strata/white_cyan3/northwest,
 /area/lv522/indoors/a_block/medical/glass)
 "bFE" = (
-/obj/structure/barricade/razorwire{
-	dir = 8
-	},
+/obj/structure/barricade/deployable,
 /turf/open/floor/prison/darkredfull2,
 /area/lv522/indoors/a_block/security)
 "bFZ" = (
@@ -5230,7 +4439,10 @@
 /area/lv522/indoors/c_block/cargo)
 "cba" = (
 /obj/structure/surface/table/almayer,
-/obj/structure/barricade/metal/wired,
+/obj/item/storage/donut_box/empty{
+	pixel_x = 1;
+	pixel_y = 8
+	},
 /turf/open/floor/prison/darkredfull2,
 /area/lv522/indoors/a_block/security/glass)
 "cbj" = (
@@ -5652,10 +4864,6 @@
 /obj/structure/barricade/deployable,
 /turf/open/floor/prison/darkredfull2,
 /area/lv522/outdoors/colony_streets/north_street)
-"ckE" = (
-/obj/structure/surface/table/almayer,
-/turf/open/floor/prison/darkredfull2,
-/area/lv522/indoors/a_block/security)
 "ckL" = (
 /obj/effect/landmark/xeno_spawn,
 /turf/open/floor/corsat/browncorner,
@@ -7822,11 +7030,6 @@
 /obj/structure/machinery/light{
 	dir = 1
 	},
-/obj/structure/machinery/prop/almayer/computer/PC{
-	dir = 2;
-	layer = 3.1;
-	pixel_y = 6
-	},
 /turf/open/floor/prison/darkredfull2,
 /area/lv522/indoors/a_block/security/glass)
 "dpL" = (
@@ -9183,6 +8386,7 @@
 	pixel_x = -6;
 	pixel_y = 8
 	},
+/obj/item/clothing/head/fedora/brown,
 /obj/structure/pipes/vents/pump,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
@@ -9260,9 +8464,14 @@
 /turf/open/floor/corsat,
 /area/lv522/atmos/east_reactor/west)
 "dZx" = (
-/obj/item/storage/box/packet/high_explosive{
-	pixel_x = -5;
-	pixel_y = -14
+/obj/structure/surface/table/almayer,
+/obj/item/reagent_container/food/drinks/coffee{
+	pixel_x = -4;
+	pixel_y = 11
+	},
+/obj/item/reagent_container/food/snacks/donut{
+	pixel_x = 4;
+	pixel_y = 3
 	},
 /turf/open/floor/prison,
 /area/lv522/indoors/a_block/security)
@@ -9470,9 +8679,6 @@
 	icon_state = "lattice12";
 	pixel_x = 9;
 	pixel_y = 3
-	},
-/obj/structure/barricade/razorwire{
-	dir = 1
 	},
 /turf/open/floor/plating,
 /area/lv522/indoors/a_block/kitchen/damage)
@@ -9778,10 +8984,6 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/item/facepaint/sniper{
-	pixel_x = 8;
-	pixel_y = 2
-	},
 /turf/open/floor/prison/darkredfull2,
 /area/lv522/indoors/a_block/security)
 "eoq" = (
@@ -9857,10 +9059,16 @@
 /turf/open/floor/prison/greenfull/east,
 /area/lv522/indoors/a_block/fitness)
 "eru" = (
+/obj/structure/machinery/door/airlock/almayer/security/glass{
+	name = "\improper Marshal Office Armory"
+	},
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
 	},
-/obj/structure/machinery/door/airlock/puzzle/security,
+/obj/structure/machinery/door/poddoor/shutters/almayer{
+	dir = 4;
+	id = "Sec-Armoury-Lockdown"
+	},
 /turf/open/floor/corsat/marked,
 /area/lv522/indoors/a_block/security)
 "erA" = (
@@ -11372,9 +10580,6 @@
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
 	},
-/obj/structure/barricade/deployable{
-	dir = 4
-	},
 /turf/open/floor/prison/floor_plate,
 /area/lv522/indoors/a_block/security)
 "fcl" = (
@@ -12021,26 +11226,7 @@
 /area/lv522/atmos/cargo_intake)
 "fsW" = (
 /obj/structure/surface/table/almayer,
-/obj/item/weapon/gun/rifle/m49a/forecon{
-	pixel_x = 0;
-	pixel_y = 17
-	},
-/obj/item/ammo_magazine/rifle/m49a{
-	pixel_x = -10;
-	pixel_y = 13
-	},
-/obj/item/ammo_magazine/rifle/m49a/ext{
-	pixel_x = -5;
-	pixel_y = 4
-	},
-/obj/item/ammo_magazine/rifle/m49a{
-	pixel_x = 7;
-	pixel_y = 14
-	},
-/obj/item/ammo_magazine/rifle/m49a{
-	pixel_x = 8;
-	pixel_y = 3
-	},
+/obj/item/ammo_box/magazine/shotgun,
 /turf/open/floor/prison/darkredfull2,
 /area/lv522/indoors/a_block/security)
 "ftd" = (
@@ -12146,8 +11332,7 @@
 /obj/item/device/flashlight/lamp,
 /obj/effect/decal/cleanable/cobweb,
 /obj/structure/machinery/power/apc/power/north{
-	start_charge = 20;
-	cell_type = /obj/item/cell/hyper
+	start_charge = 20
 	},
 /turf/open/floor/prison/darkredfull2,
 /area/lv522/indoors/a_block/security)
@@ -13161,7 +12346,6 @@
 "fWI" = (
 /obj/structure/pipes/standard/simple/hidden/green,
 /obj/effect/decal/cleanable/dirt,
-/obj/item/prop/colony/used_flare,
 /turf/open/floor/prison/darkredfull2,
 /area/lv522/indoors/a_block/security)
 "fWV" = (
@@ -14053,10 +13237,6 @@
 /obj/structure/machinery/space_heater/radiator/red{
 	dir = 4
 	},
-/obj/structure/machinery/puzzle/keycard_panel/security{
-	dir = 4;
-	pixel_x = -26
-	},
 /turf/open/floor/prison/darkredfull2,
 /area/lv522/indoors/a_block/security)
 "gsX" = (
@@ -14875,8 +14055,9 @@
 /turf/open/floor/prison/floor_plate,
 /area/lv522/indoors/c_block/cargo)
 "gPN" = (
-/obj/structure/barricade/metal/plasteel/wired{
-	dir = 4
+/obj/structure/surface/table/almayer,
+/obj/structure/machinery/prop/almayer/computer/PC{
+	dir = 8
 	},
 /turf/open/floor/prison/darkredfull2,
 /area/lv522/indoors/a_block/security)
@@ -15383,9 +14564,6 @@
 	icon_state = "lattice12";
 	pixel_x = 9;
 	pixel_y = 3
-	},
-/obj/structure/barricade/razorwire{
-	dir = 1
 	},
 /turf/open/floor/prison/darkredfull2,
 /area/lv522/indoors/a_block/kitchen/damage)
@@ -22660,7 +21838,6 @@
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 10
 	},
-/obj/item/clothing/accessory/storage/black_vest,
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/lv522/indoors/a_block/security)
 "kBq" = (
@@ -23350,10 +22527,6 @@
 "kRb" = (
 /obj/item/weapon/telebaton,
 /obj/effect/decal/cleanable/dirt,
-/obj/item/clothing/head/helmet/riot{
-	pixel_x = 8;
-	pixel_y = 9
-	},
 /turf/open/floor/prison,
 /area/lv522/indoors/a_block/security)
 "kRg" = (
@@ -23907,7 +23080,17 @@
 /turf/open/floor/plating,
 /area/shuttle/drop1/lv522)
 "ldK" = (
-/turf/open/floor/prison/cell_stripe/west,
+/obj/structure/filingcabinet{
+	density = 0;
+	pixel_x = -8;
+	pixel_y = 22
+	},
+/obj/structure/filingcabinet{
+	density = 0;
+	pixel_x = 8;
+	pixel_y = 22
+	},
+/turf/open/floor/prison/darkredfull2,
 /area/lv522/indoors/a_block/security/glass)
 "ldM" = (
 /obj/structure/pipes/standard/simple/hidden/green{
@@ -24413,9 +23596,6 @@
 /area/lv522/atmos/cargo_intake)
 "lpY" = (
 /obj/structure/pipes/standard/manifold/hidden/green,
-/obj/structure/barricade/deployable{
-	dir = 4
-	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/lv522/indoors/a_block/security/glass)
 "lqb" = (
@@ -24721,10 +23901,7 @@
 /area/lv522/indoors/a_block/admin)
 "lxc" = (
 /obj/structure/surface/table/almayer,
-/obj/item/ammo_box/magazine/l42a/ap/empty{
-	pixel_x = 3;
-	pixel_y = 11
-	},
+/obj/item/ammo_box/magazine/shotgun/buckshot/empty,
 /turf/open/floor/prison/darkredfull2,
 /area/lv522/indoors/a_block/security)
 "lxd" = (
@@ -25263,9 +24440,6 @@
 /area/lv522/landing_zone_forecon/UD6_Tornado)
 "lJT" = (
 /obj/effect/decal/cleanable/generic,
-/obj/structure/barricade/razorwire{
-	dir = 1
-	},
 /turf/open/floor/prison/darkredfull2,
 /area/lv522/indoors/a_block/kitchen)
 "lJZ" = (
@@ -28371,7 +27545,6 @@
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 5
 	},
-/obj/structure/flag/plantable/usa,
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/lv522/indoors/a_block/security)
 "neT" = (
@@ -28572,14 +27745,8 @@
 /area/lv522/atmos/cargo_intake)
 "nhY" = (
 /obj/structure/surface/table/almayer,
-/obj/item/ammo_box/magazine/shotgun{
-	pixel_x = -4;
-	pixel_y = -6
-	},
-/obj/item/ammo_box/magazine/shotgun/buckshot/empty{
-	pixel_x = 0;
-	pixel_y = 11
-	},
+/obj/item/clothing/accessory/storage/black_vest,
+/obj/item/clothing/head/helmet/riot,
 /turf/open/floor/prison/darkredfull2,
 /area/lv522/indoors/a_block/security)
 "nip" = (
@@ -28967,9 +28134,6 @@
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
 	},
-/obj/structure/barricade/deployable{
-	dir = 4
-	},
 /turf/open/floor/prison/floor_plate,
 /area/lv522/indoors/a_block/security/glass)
 "ntq" = (
@@ -29284,8 +28448,6 @@
 "nAp" = (
 /obj/structure/pipes/vents/pump,
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/surface/rack,
-/obj/item/stack/sheet/mineral/phoron/small_stack,
 /turf/open/floor/prison/darkredfull2,
 /area/lv522/indoors/a_block/security)
 "nAy" = (
@@ -30739,14 +29901,10 @@
 /area/lv522/atmos/cargo_intake)
 "oja" = (
 /obj/structure/machinery/power/apc/power/north{
-	start_charge = 20;
-	cell_type = /obj/item/cell/hyper
+	start_charge = 20
 	},
 /obj/structure/pipes/vents/pump,
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/barricade/metal/wired{
-	dir = 4
-	},
 /turf/open/floor/prison,
 /area/lv522/indoors/a_block/security/glass)
 "ojh" = (
@@ -32348,26 +31506,7 @@
 /obj/structure/pipes/vents/pump,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/surface/table/almayer,
-/obj/item/facepaint/sniper{
-	pixel_x = 6;
-	pixel_y = 22
-	},
-/obj/item/prop/helmetgarb/prescription_bottle{
-	pixel_x = -8;
-	pixel_y = 25
-	},
-/obj/item/storage/box/guncase/heavy/hpr/recon{
-	pixel_y = 10;
-	pixel_x = 0
-	},
-/obj/item/clothing/accessory/patch/forecon{
-	pixel_x = -5;
-	pixel_y = -14
-	},
-/obj/item/clothing/suit/marine/rto/forecon{
-	pixel_x = 10;
-	pixel_y = -21
-	},
+/obj/item/ammo_box/magazine/shotgun/beanbag/empty,
 /turf/open/floor/prison/darkredfull2,
 /area/lv522/indoors/a_block/security)
 "paE" = (
@@ -32463,7 +31602,7 @@
 /area/lv522/landing_zone_forecon/UD6_Typhoon)
 "pcQ" = (
 /obj/effect/decal/cleanable/blood,
-/obj/structure/barricade/deployable,
+/obj/item/weapon/twohanded/fireaxe,
 /turf/open/floor/prison,
 /area/lv522/indoors/a_block/security/glass)
 "pcX" = (
@@ -37618,7 +36757,6 @@
 "rqM" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/cobweb,
-/obj/item/puzzle/keycard/security,
 /turf/open/floor/prison/darkredfull2,
 /area/lv522/indoors/a_block/security)
 "rqP" = (
@@ -39849,7 +38987,10 @@
 /area/lv522/indoors/b_block/bridge)
 "sxp" = (
 /obj/structure/surface/table/almayer,
-/obj/structure/barricade/metal/wired,
+/obj/item/reagent_container/food/snacks/donut{
+	pixel_x = 4;
+	pixel_y = 3
+	},
 /turf/open/floor/prison,
 /area/lv522/indoors/a_block/security/glass)
 "sxC" = (
@@ -40176,9 +39317,6 @@
 "sEU" = (
 /obj/item/stack/folding_barricade,
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/barricade/razorwire{
-	dir = 8
-	},
 /turf/open/floor/prison/darkredfull2,
 /area/lv522/indoors/a_block/security)
 "sFm" = (
@@ -45639,7 +44777,6 @@
 /obj/structure/machinery/space_heater/radiator/red{
 	dir = 8
 	},
-/obj/item/clothing/accessory/storage/black_vest,
 /turf/open/floor/prison/darkredfull2,
 /area/lv522/indoors/a_block/security)
 "vbW" = (
@@ -50988,9 +50125,6 @@
 "xCR" = (
 /obj/structure/machinery/light,
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/barricade/metal/wired{
-	dir = 4
-	},
 /turf/open/floor/prison/darkredfull2,
 /area/lv522/indoors/a_block/security/glass)
 "xCT" = (
@@ -71772,16 +70906,16 @@ sjy
 wKn
 fbR
 urM
-aav
-aar
-aao
+xxs
+uDb
+lCX
 sjy
 sjy
 lxc
 pan
 wTp
 fsW
-aae
+nhY
 nhY
 sjy
 gkK
@@ -72008,8 +71142,8 @@ kRb
 kBk
 iJu
 uDs
-uDb
-aab
+acy
+lCX
 sjy
 cNF
 oud
@@ -72228,14 +71362,14 @@ fWz
 sSP
 vgD
 sbK
-aap
+sbK
 sjy
 sjy
 kWo
 lYZ
 wIO
 vbR
-aaf
+hSf
 bxJ
 sjy
 sdb
@@ -72452,10 +71586,10 @@ xYV
 wxK
 qGC
 azl
-aaw
+qGC
 mqH
 mqH
-aaq
+wxK
 sjy
 sjy
 gzK
@@ -72682,7 +71816,7 @@ den
 xDP
 awK
 mqH
-aaq
+wxK
 sjy
 lJZ
 hSf
@@ -72902,7 +72036,7 @@ adh
 nJm
 uUd
 sjy
-aaB
+aYt
 qGC
 eSx
 dsA
@@ -73135,7 +72269,7 @@ kUo
 sjy
 oja
 lpY
-aas
+qGC
 xCR
 sjy
 bUy
@@ -73593,7 +72727,7 @@ mnU
 icX
 sjy
 fuH
-aam
+lCX
 kVe
 bub
 hsZ
@@ -73816,18 +72950,18 @@ tIW
 sjy
 lhK
 azl
-aat
+qGC
 uEM
 sjy
 xOF
 bRP
 xxs
 xxs
-uDb
-uDb
+acC
+acz
 bwI
 siL
-aaa
+oFn
 xGf
 hnk
 lxL
@@ -74040,19 +73174,19 @@ sjy
 lun
 kRZ
 sAU
-aay
+qGC
 jpc
 azl
-aau
+qGC
 wxK
 sjy
 sWI
 dZx
 uDb
-aai
+eUh
 uDb
-qDr
-aac
+uDb
+lCX
 siL
 lJT
 pli
@@ -74264,8 +73398,8 @@ adh
 uAa
 uUd
 sjy
-aaC
-aaz
+ldK
+mqH
 dsv
 pcQ
 sAU
@@ -74274,10 +73408,10 @@ xDP
 tsU
 eUe
 ndb
-aan
-aak
+jQk
+sLk
 nel
-aah
+eUh
 xxs
 kYv
 sjy
@@ -74491,8 +73625,8 @@ adh
 adh
 uUd
 sjy
-aaD
-aaA
+ldK
+wxK
 mqH
 sxp
 ukK
@@ -74503,10 +73637,10 @@ sjy
 mHx
 xxs
 xxs
-aaj
+nrP
 uDb
-aag
-aad
+xxs
+hSf
 siL
 haQ
 tiZ
@@ -74721,18 +73855,18 @@ sjy
 sjy
 dpJ
 vSZ
-sxp
-aat
+acI
+qGC
 bmj
 mqH
 dmz
 sjy
 swc
-qDr
+acA
 xxs
 mrM
 uDb
-qDr
+acA
 aad
 siL
 egW
@@ -74949,18 +74083,18 @@ sjy
 sjy
 pOB
 cba
-aax
+sbK
 nto
 xZe
 brV
 sjy
-ckE
+acF
 gPN
-gPN
+acG
 rUf
+acF
 gPN
-gPN
-hSf
+acx
 sjy
 rJH
 ogA
@@ -75409,8 +74543,8 @@ lCX
 lCX
 aUw
 hSf
-bFE
-aal
+hSf
+lCX
 aHs
 sEU
 bFE
@@ -91866,10 +91000,10 @@ bMX
 (174,1,1) = {"
 bMX
 cpy
-sjy
-acr
-acm
-sjy
+cpy
+cpy
+cpy
+cpy
 cpy
 cpy
 cpy
@@ -92093,10 +91227,10 @@ bMX
 (175,1,1) = {"
 bMX
 cpy
-sjy
-acs
-acn
-sjy
+cpy
+cpy
+cpy
+cpy
 cpy
 cpy
 cpy
@@ -92320,10 +91454,10 @@ bMX
 (176,1,1) = {"
 bMX
 cpy
-aaE
-acu
-eUh
-aaE
+cpy
+cpy
+cpy
+cpy
 cpy
 cpy
 cpy
@@ -92547,10 +91681,10 @@ bMX
 (177,1,1) = {"
 bMX
 cpy
-sjy
-acv
-eUh
-sjy
+cpy
+cpy
+cpy
+cpy
 cpy
 cpy
 cpy
@@ -92774,15 +91908,15 @@ bMX
 (178,1,1) = {"
 bMX
 cpy
-sjy
-acw
-acq
-sjy
-sjy
-sjy
-sjy
-sjy
-sjy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
 cpy
 cpy
 cpy
@@ -93001,15 +92135,15 @@ bMX
 (179,1,1) = {"
 bMX
 cpy
-sjy
-acw
-eUh
-acj
-sjy
-aca
-abU
-abN
-sjy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
 cpy
 cpy
 cpy
@@ -93228,15 +92362,15 @@ bMX
 (180,1,1) = {"
 bMX
 cpy
-aaE
-acw
-eUh
-ack
-abA
-eUh
-abV
-abO
-sjy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
 cpy
 cpy
 cpy
@@ -93455,20 +92589,6 @@ bMX
 (181,1,1) = {"
 bMX
 cpy
-sjy
-sjy
-abG
-sjy
-sjy
-acb
-abW
-abP
-sjy
-aaE
-sjy
-aaE
-sjy
-sjy
 cpy
 cpy
 cpy
@@ -93478,29 +92598,43 @@ cpy
 cpy
 cpy
 cpy
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
 cpy
 cpy
 cpy
@@ -93682,21 +92816,6 @@ bMX
 (182,1,1) = {"
 bMX
 cpy
-aaE
-acw
-eUh
-sjy
-sjy
-sjy
-sjy
-sjy
-sjy
-aaE
-abH
-abF
-abB
-sjy
-aaE
 cpy
 cpy
 cpy
@@ -93705,29 +92824,44 @@ cpy
 cpy
 cpy
 cpy
-aaE
-aaE
-aaE
-aaW
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaS
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
 cpy
 cpy
 cpy
@@ -93909,52 +93043,52 @@ bMX
 (183,1,1) = {"
 bMX
 cpy
-aaE
-acw
-eUh
-sjy
-acf
-acc
-abX
-sjy
-aaE
-aaE
-abI
-eUh
-abC
-abz
-aaE
-sjy
-sjy
-sjy
-aaE
-aaE
-aaE
 cpy
 cpy
-aaE
-aaE
-aaE
-aaV
-aaZ
-aaW
-aaE
-aaE
-aaE
-aaW
-aaW
-aaE
-aaE
-aaE
-aaE
-aaE
-aaO
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
 cpy
 cpy
 cpy
@@ -94136,52 +93270,52 @@ bMX
 (184,1,1) = {"
 bMX
 cpy
-sjy
-acw
-acq
-sjy
-acg
-acd
-abY
-sjy
-aaE
-sjy
-abJ
-fdP
-abD
-sjy
-sjy
-aaE
-abq
-abl
-abg
-sjy
-sjy
 cpy
 cpy
-aaE
-aaE
-aaY
-aaL
-aaE
-aaE
-aaE
-aaE
-aaL
-aaZ
-aaL
-aaE
-aaY
-aaE
-aaE
-aaV
-aaU
-aaE
-aaE
-aaG
-aaE
-aaE
-aaE
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
 cpy
 cpy
 cpy
@@ -94363,52 +93497,52 @@ bMX
 (185,1,1) = {"
 bMX
 cpy
-sjy
-acw
-eUh
-sjy
-sjy
-ace
-sjy
-sjy
-aaE
-sjy
-sjy
-abG
-sjy
-sjy
-aaE
-aaE
-abr
-abm
-abh
-abe
-sjy
 cpy
 cpy
-aaE
-aaE
-aaV
-aaL
-aaL
-aaY
-aaE
-aaL
-aaO
-aaE
-aaO
-aaV
-aaL
-aaE
-aaO
-aaH
-aaE
-aaE
-aaG
-aaK
-aaE
-aaE
-aaE
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
 cpy
 cpy
 cpy
@@ -94590,52 +93724,52 @@ bMX
 (186,1,1) = {"
 bMX
 cpy
-aaE
-acw
-eUh
-fdP
-eUh
-eUh
-eUh
-abQ
-eUh
-eUh
-eUh
-fdP
-eUh
-abA
-eUh
-eUh
-fdP
-eUh
-fdP
-abf
-aaE
 cpy
 cpy
-aaE
-abd
-aaL
-aaL
-aaL
-aaV
-aaO
-aaV
-aaE
-aaE
-aaE
-aaE
-aaH
-aaV
-aaL
-aaL
-aaO
-aaG
-aaO
-aaL
-aaH
-aaE
-aaE
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
 cpy
 cpy
 cpy
@@ -94817,52 +93951,52 @@ bMX
 (187,1,1) = {"
 bMX
 cpy
-aaE
-acw
-eUh
-acl
-abE
-abE
-abE
-abE
-abE
-abE
-abE
-abE
-abE
-aaE
-aaE
-abw
-fdP
-abn
-abi
-sjy
-aaE
 cpy
 cpy
-aaE
-aaE
-aaL
-aaV
-aaL
-aaE
-aaE
-aaL
-aaO
-aaV
-aaE
-aaE
-aaZ
-aaE
-aaH
-aaL
-aaV
-aaQ
-aaL
-aaM
-aaI
-aaF
-aaE
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
 cpy
 cpy
 cpy
@@ -95044,52 +94178,52 @@ bMX
 (188,1,1) = {"
 bMX
 cpy
-aaE
-sjy
-abk
-aaE
-sjy
-abK
-abZ
-abR
-abM
-abK
-sjy
-aaE
-sjy
-aaE
-aaE
-sjy
-abs
-aaE
-abk
-aaE
-aaE
 cpy
 cpy
-aaE
-aaE
-aaY
-aaL
-aaY
-aaE
-aaE
-aaY
-aaE
-aaL
-aaH
-aaL
-aaL
-aaW
-aaE
-aaO
-aaE
-aaE
-aaQ
-aaN
-aaJ
-aaG
-aaE
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
 cpy
 cpy
 cpy
@@ -95274,49 +94408,49 @@ cpy
 cpy
 cpy
 cpy
-aaE
-aaE
-aaE
-aaE
-abT
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-sjy
-sjy
 cpy
 cpy
 cpy
 cpy
 cpy
 cpy
-aaE
-aaE
-aaY
-aaL
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaY
-aaE
-aaE
-aaH
-aaE
-aaE
-aaE
-aaG
-aaE
-aaE
-aaE
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
 cpy
 cpy
 cpy
@@ -95501,49 +94635,49 @@ cpy
 cpy
 cpy
 cpy
-aaE
-aaE
-aby
-aby
-aby
-aby
-aby
-aaE
-aby
-aby
-aby
-aaE
-aaE
-aaE
-aaE
 cpy
 cpy
 cpy
 cpy
 cpy
-aaE
-aaE
-aaE
-abb
-aaY
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaU
-aaV
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
 cpy
 cpy
 cpy
@@ -95728,49 +94862,49 @@ cpy
 cpy
 cpy
 cpy
-aaE
-aby
-aby
-aby
-aaE
-aaE
-aby
-aby
-aby
-aaE
-aby
-aby
-abx
-abu
-aaE
 cpy
 cpy
 cpy
 cpy
 cpy
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaS
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
 cpy
 cpy
 cpy
@@ -95955,49 +95089,49 @@ cpy
 cpy
 cpy
 cpy
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
 cpy
 cpy
 cpy
 cpy
 cpy
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
-aaE
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
+cpy
 cpy
 cpy
 cpy
