@@ -48,6 +48,17 @@
 	icon_state = "photo_corridor"
 	w_class = SIZE_SMALL
 
+// weapon //
+
+/obj/item/weapon/gun/rifle/l42a/sniper
+	starting_attachment_types = list(/obj/item/attachable/stock/carbine, /obj/item/attachable/scope/mini)
+
+/obj/item/weapon/gun/pkp/standard
+	current_mag = /obj/item/ammo_magazine/pkp/standard_fmj
+
+/obj/item/weapon/gun/rifle/lw317/dmr/standard
+	current_mag = /obj/item/ammo_magazine/rifle/lw317
+
 // Squad specialization
 
 /obj/item/pamphlet/skill/specialization

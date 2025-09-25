@@ -83,6 +83,7 @@
 		/datum/equipment_preset/royal_marine/sniper::name = /datum/equipment_preset/royal_marine/sniper/ai,
 		/datum/equipment_preset/colonist/security/guard/marksman::name = /datum/equipment_preset/colonist/security/guard/marksman,
 		/datum/equipment_preset/mercenary/infiltrator::name = /datum/equipment_preset/mercenary/infiltrator,
+		/datum/equipment_preset/scav/sniper_light::name = /datum/equipment_preset/scav/sniper_light,
 		/datum/equipment_preset/scav/sniper::name = /datum/equipment_preset/scav/sniper,
 	)
 

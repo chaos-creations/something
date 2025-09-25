@@ -26,6 +26,11 @@
 	desc = "An advanced CQC scav that always has good armor and a helmet, plus grenades and better meds. Uses either an Ithaca 37, KS-29, or M120 shotgun."
 	path = /datum/equipment_preset/scav/shotgun/elite
 
+/datum/human_ai_equipment_preset/scav/machinegun_light
+	name = "Scav, Marauder (Light)"
+	desc = "An advanced scav that excels in defending fortified locations. Always has good armor and a helmet, plus grenades and better meds. Uses either a ISL or MAR-LMG machine gun."
+	path = /datum/equipment_preset/scav/machinegun_light
+
 /datum/human_ai_equipment_preset/scav/machinegun
 	name = "Scav, Marauder (Heavy)"
 	desc = "An advanced scav that excels in defending fortified locations. Always has good armor and a helmet, plus grenades and better meds. Uses either a ISL or M60 machine gun."
@@ -36,7 +41,12 @@
 	desc = "A scav that excels in breaching sieges; he always has good armor and a helmet, alongside better meds. Uses either an AR-10, M16, M20A, F903A1, or LW-317 rifle, and additionally always starts with a SADAR."
 	path = /datum/equipment_preset/scav/antitank
 
+/datum/human_ai_equipment_preset/scav/sniper_light
+	name = "Scav, Sniper (Light)"
+	desc = "A scav that excels in sniping, sometimes he has basic armor and sometimes has a helmet. Uses either an ABR-40, L42A or LW/RS-317."
+	path = /datum/equipment_preset/scav/sniper_light
+
 /datum/human_ai_equipment_preset/scav/sniper
-	name = "Scav, Sniper"
-	desc = "A scav that excels in sniping; he never wears armor and carries nothing except his rifle. Uses either an SVD, M42A or L64A3."
+	name = "Scav, Sniper (Heavy)"
+	desc = "An advanced sniper scav that always has good armor and a helmet, plus grenades and better meds. Uses either an SVD, M42A or L64A3."
 	path = /datum/equipment_preset/scav/sniper
