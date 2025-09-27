@@ -3,6 +3,7 @@
 	desc = "It looks like it probably just plopped out."
 	icon = 'icons/obj/items/organs.dmi'
 	icon_state = "appendix"
+	w_class = SIZE_SMALL
 
 	/// Process() ticks before death.
 	health = 100

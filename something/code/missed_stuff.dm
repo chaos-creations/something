@@ -501,3 +501,29 @@
 	name = "Construction Materials Pack"
 	desc = "A bundle of raw supplies: metal sheets, insulation rolls, adhesives, and sealing compounds. Provides the base resources needed for room restoration."
 	icon_state = "box_z"
+
+// pets //
+
+/mob/living/simple_animal/hostile/retaliate/giant_lizard/storm
+	name = "Storm"
+	desc = "A wolf-sized lizard wearing a collar. He has a very naughty character and loves to constantly litter everywhere, most of his time he just sleeps in a mountain of trash that he himself creates."
+	icon = 'something/icons/storm.dmi'
+	icon_state = "Storm Running"
+	icon_living = "Storm Running"
+	maxHealth = 700
+	health = 700
+	faction = FACTION_LIST_UA
+	melee_damage_lower = 0
+	melee_damage_upper = 0
+
+/mob/living/simple_animal/hostile/retaliate/giant_lizard/storm/update_transform(instant_update = FALSE)
+	if(stat == DEAD)
+		icon_state = icon_dead
+	else if(body_position == LYING_DOWN)
+		if(!HAS_TRAIT(src, TRAIT_INCAPACITATED) && !HAS_TRAIT(src, TRAIT_FLOORED))
+			icon_state = "Storm Sleeping"
+		else
+			icon_state = "Giant Lizard Knocked Down"
+	else
+		icon_state = icon_living
+	return ..()
