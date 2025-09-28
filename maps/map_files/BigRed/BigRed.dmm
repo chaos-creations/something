@@ -8,132 +8,33 @@
 	icon_state = "pwall"
 	},
 /area/space)
-"aac" = (
-/turf/closed/wall/solaris/reinforced/hull,
-/area/space)
-"aad" = (
-/turf/open/floor/plating,
-/area/space)
 "aae" = (
 /turf/closed/wall/solaris/reinforced,
 /area/bigredv2/outside/space_port)
-"aaf" = (
-/obj/structure/machinery/door/poddoor/almayer/locked{
-	name = "\improper Other Section";
-	desc = "You never know where they lead.";
-	dir = 1
-	},
-/turf/open/floor/almayer/test_floor4,
-/area/space)
-"aag" = (
-/obj/structure/prop/server_equipment/broken,
-/turf/open/floor/darkish,
-/area/space)
 "aah" = (
 /turf/open/floor/plating,
 /area/bigredv2/outside/space_port)
-"aai" = (
-/obj/structure/surface/table,
-/obj/item/storage/firstaid/regular{
-	pixel_x = 0;
-	pixel_y = 3
-	},
-/turf/open/floor/darkish,
-/area/space)
-"aaj" = (
-/obj/structure/surface/table,
-/obj/item/weapon/gun/pistol/skorpion,
-/obj/item/ammo_magazine/pistol/skorpion{
-	pixel_x = -13;
-	pixel_y = 4
-	},
-/turf/open/floor/darkish,
-/area/space)
-"aak" = (
-/obj/structure/machinery/light/small/red{
-	dir = 8
-	},
-/turf/open/floor/plating,
-/area/space)
-"aal" = (
-/obj/structure/machinery/door/airlock/almayer/engineering/colony{
-	dir = 4
-	},
-/turf/open/floor/almayer/test_floor4,
-/area/space)
-"aam" = (
-/obj/item/ammo_magazine/pistol/skorpion,
-/turf/open/floor/darkish,
-/area/space)
-"aan" = (
-/turf/open/floor/podhatchfloor,
-/area/space)
 "aao" = (
 /turf/closed/wall/solaris/rock,
 /area/bigredv2/caves)
-"aap" = (
-/obj/structure/bed/roller,
-/obj/item/bodybag/cryobag,
-/turf/open/floor/darkish,
-/area/space)
 "aaq" = (
 /obj/structure/sign/safety/hazard,
 /turf/closed/wall/solaris/reinforced,
 /area/bigredv2/outside/space_port)
-"aar" = (
-/obj/structure/machinery/door/poddoor/almayer/open,
-/turf/open/floor/almayer/test_floor4,
-/area/space)
-"aas" = (
-/obj/structure/bed/chair{
-	dir = 4
-	},
-/obj/item/ammo_magazine/pistol/skorpion{
-	pixel_x = 14;
-	pixel_y = 0
-	},
-/turf/open/floor/darkish,
-/area/space)
-"aat" = (
-/obj/item/paper{
-	info = "Я свою часть сделки сделал, теперь он несёт в себе этого монстра. Осталось только донести его до места встречи и я смогу наконец-то выкупить свою семью у того ублюдка...";
-	color = "red"
-	},
-/turf/open/floor/darkish,
-/area/space)
-"aau" = (
-/obj/structure/computerframe,
-/obj/item/ammo_magazine/pistol/skorpion{
-	pixel_x = -13;
-	pixel_y = -16
-	},
-/turf/open/floor/darkish,
-/area/space)
-"aav" = (
-/obj/structure/ladder{
-	id = "s_quest";
-	height = -1
-	},
-/turf/open/floor/plating,
-/area/space)
 "aaw" = (
 /turf/closed/wall/solaris,
 /area/bigredv2/outside/space_port)
-"aax" = (
-/obj/structure/ladder/hatch{
-	id = "s_quest"
-	},
-/turf/open/floor/plating,
-/area/bigredv2/outside/admin_building)
-"aay" = (
-/obj/structure/prop/server_equipment/yutani_server{
-	density = 0;
-	pixel_y = 16;
-	name = "Hatch System Terminal";
-	desc = "do your job, hacker man"
-	},
-/turf/open/floor/plating,
-/area/bigredv2/outside/admin_building)
+"aaz" = (
+/obj/structure/surface/table,
+/obj/item/trash/kepler,
+/obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
+/turf/open/floor,
+/area/bigredv2/outside/marshal_office)
+"aaA" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/clothing/head/fedora/brown,
+/turf/open/floor/wood,
+/area/bigredv2/outside/marshal_office)
 "aaF" = (
 /obj/structure/machinery/camera/autoname/lz_camera,
 /turf/open/floor/plating,
@@ -565,7 +466,6 @@
 /area/bigredv2/outside/marshal_office)
 "aje" = (
 /obj/structure/pipes/vents/pump/on,
-/obj/structure/resource_node,
 /turf/open/floor,
 /area/bigredv2/outside/marshal_office)
 "ajg" = (
@@ -576,7 +476,6 @@
 "ajh" = (
 /obj/structure/surface/table,
 /obj/item/clothing/suit/armor/det_suit,
-/obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
 /turf/open/floor,
 /area/bigredv2/outside/marshal_office)
 "aji" = (
@@ -611,10 +510,10 @@
 /area/bigredv2/outside/marshal_office)
 "ajP" = (
 /obj/structure/surface/table,
+/obj/item/trash/kepler,
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
 	},
-/obj/item/trash/kepler,
 /turf/open/floor,
 /area/bigredv2/outside/marshal_office)
 "ajQ" = (
@@ -10148,7 +10047,6 @@
 	dir = 4
 	},
 /obj/item/paper/bigred/crazy,
-/obj/item/trash/kepler,
 /turf/open/floor,
 /area/bigredv2/outside/marshal_office)
 "gAA" = (
@@ -51121,8 +51019,8 @@ ukS
 unH
 etB
 aof
-aay
-aax
+aTa
+aTa
 aof
 vwM
 etB
@@ -52588,14 +52486,14 @@ jGz
 acq
 iIV
 srl
-hKY
+aaA
 dAj
 hhf
 acp
 adS
 adk
-adS
-adS
+aiO
+aaz
 ajN
 akt
 acr
@@ -65997,13 +65895,13 @@ aao
 aao
 aao
 aab
-aac
-aac
-aac
-aac
-aac
-aac
-aac
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -66214,13 +66112,13 @@ aao
 aao
 aao
 aab
-aac
-aav
-aar
-aak
-aaf
-aad
-aac
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -66431,13 +66329,13 @@ aao
 aao
 aao
 aab
-aac
-aac
-aac
-aal
-aac
-aac
-aac
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -66648,13 +66546,13 @@ aao
 aao
 aao
 aab
-tHB
-aac
-aas
-aam
-aag
-aac
-tHB
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -66865,13 +66763,13 @@ aao
 aao
 aao
 aab
-tHB
-aac
-aat
-aan
-aai
-aac
-tHB
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -67082,12 +66980,12 @@ aao
 aao
 aao
 aab
-tHB
-aac
-aau
-aap
-aaj
-aac
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -67299,12 +67197,12 @@ aao
 aao
 aao
 aab
-tHB
-aac
-aac
-aac
-aac
-aac
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aaa
 aaa
 aaa
