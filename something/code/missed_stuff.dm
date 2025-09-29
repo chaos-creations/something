@@ -240,7 +240,7 @@
 
 // organ harvester & case //
 
-/obj/item/device/orgna_harvester
+/obj/item/device/organ_harvester
 	name = "organ harvester"
 	desc = "A crude surgical tool for ripping out organs. It is designed for rapid organ extraction, but unfortunately, due to its compact size and technology, it can only be used a very limited number of times."
 	icon_state = "mendoza_scanner"
@@ -264,15 +264,15 @@
 
 	var/broken = FALSE
 
-/obj/item/device/orgna_harvester/Initialize()
+/obj/item/device/organ_harvester/Initialize()
 	. = ..()
 	update_icon()
 
-/obj/item/device/orgna_harvester/get_examine_text(mob/user)
+/obj/item/device/organ_harvester/get_examine_text(mob/user)
 	. = ..()
 	. += "It has [uses_left] charge remaining."
 
-/obj/item/device/orgna_harvester/update_icon()
+/obj/item/device/organ_harvester/update_icon()
 	. = ..()
 	overlays.Cut()
 	overlays += image('icons/obj/items/devices.dmi', "+mendoza_scanner_value_flash")
@@ -284,7 +284,7 @@
 	else
 		overlays += image('icons/obj/items/devices.dmi', "+mendoza_scanner_clamp_off")
 
-/obj/item/device/orgna_harvester/attack(mob/living/carbon/human/target, mob/user)
+/obj/item/device/organ_harvester/attack(mob/living/carbon/human/target, mob/user)
 	if(!skillcheck(user, SKILL_SURGERY, SKILL_SURGERY_NOVICE))
 		to_chat(user, SPAN_WARNING("You do not know how to use the [name]."))
 		return
@@ -507,12 +507,11 @@
 /mob/living/simple_animal/hostile/retaliate/giant_lizard/storm
 	name = "Storm"
 	desc = "A wolf-sized lizard wearing a collar. He has a very naughty character and loves to constantly litter everywhere, most of his time he just sleeps in a mountain of trash that he himself creates."
-	icon = 'something/icons/storm.dmi'
 	icon_state = "Storm Running"
 	icon_living = "Storm Running"
 	maxHealth = 700
 	health = 700
-	faction = FACTION_LIST_UA
+	faction = "USCM"
 	melee_damage_lower = 0
 	melee_damage_upper = 0
 
