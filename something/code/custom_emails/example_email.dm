@@ -95,3 +95,23 @@
 <hr>
 <center><i><small>Если со мной что-то случится, то завещаю своего Commando Huggs'а нашему майору, может это поможет ему.</small></i></center>
 	"}
+
+/obj/item/tape/nomad/one
+	flipped_name = "Dusty Tape"
+	storedinfo = list("Unknown Voice says - \"Когда-то мы были морпехами, служили на US-crrrt Su-tzz-z\" ",
+		"Unknown Voice  says - \"--zz-err и потом они просто закрыли эту программу, якобы не оправдывает их ожидания.\" ",
+		"Unknown Voice says - \"А людей они просто оставили тут вариться, просто потому что не хотят придать огласке всё это.\" ",
+		"Unknown Voice says - \"...--tzz-ee они поплатятся все если я смогу вынести документацию обо всём за границу, но...\" ",
+		"Unknown Voice says - \"...Не знаю, не думаю что это когда-либо случится, слишком уж они --errr\" ",
+		"Unknown Voice says - \"А ты что думаешь, Морроу?\" ",
+		"Unknown Voice says - \"...как и всегда...\" ")
+	timestamp = list(30, 80, 170, 220, 300, 370, 450)
+	unflipped_name = "Dusty Tape"
+	storedinfo_otherside = list("Unknown Voice says - \"Когда-то мы были морпехами, служили на US-crrrt Su-tzz-z\" ",
+		"Unknown Voice  says - \"--zz-err и потом они просто закрыли эту программу, якобы не оправдывает их ожидания.\" ",
+		"Unknown Voice says - \"А людей они просто оставили тут вариться, просто потому что не хотят придать огласке всё это.\" ",
+		"Unknown Voice says - \"...--tzz-ee они поплатятся все если я смогу вынести документацию обо всём за границу, но...\" ",
+		"Unknown Voice says - \"...Не знаю, не думаю что это когда-либо случится, слишком уж они --errr\" ",
+		"Unknown Voice says - \"А ты что думаешь, Морроу?\" ",
+		"Unknown Voice says - \"...как и всегда...\" ")
+	timestamp_otherside = list(30, 80, 170, 220, 300, 370, 450)
