@@ -48,6 +48,44 @@
 	icon_state = "photo_corridor"
 	w_class = SIZE_SMALL
 
+/obj/item/prop/almayer/jaguar_book
+	name = "Faded Notepad"
+	desc = "Some old notebook, it seems there are notes in it..."
+	icon = 'icons/obj/items/notepads.dmi'
+	icon_state = "notebook_red"
+	w_class = SIZE_SMALL
+	var/pointer = 0
+	var/lore_blurb = 1
+
+/obj/item/prop/almayer/jaguar_book/attack_self(mob/user)
+	. = ..()
+	pointer++
+	playsound(src, "paper_writing", 15, 1)
+	switch(lore_blurb)
+		if(1)
+			switch(pointer)
+				if(1)
+					to_chat(user, SPAN_NOTICE("Мой отряд мёртв, а я остался один. Улицы завалены телами, пахнет гарью и расплавленным металлом. Это больше не город, а склеп."))
+				if(2)
+					to_chat(user, SPAN_NOTICE("Бывшие охранники Вейланд-Ютани держат периметр у какой-то лаборатории. Их патрули беспощадны. Дикие рвут всё, что выходит за стены. Я между ними, как крыса."))
+				if(3)
+					to_chat(user, SPAN_NOTICE("Ночью слышал стрельбу — автоматные очереди и крики. Скорее всего, Дикие налетели на гарнизон ТВЕ. Если ещё кто-то выжил — они держатся из последних сил."))
+				if(4)
+					to_chat(user, SPAN_NOTICE("Патронов мало. Один выстрел — одно тело. Если промахнусь — завтра меня не станет."))
+				if(5)
+					to_chat(user, SPAN_NOTICE("Нахожу старые журналы Вейланд-Ютани в подвалах. Все про «перспективные исследования», «долгосрочные активы». Интересно, где эти активы сейчас? На орбите — в виде ржавого металлолома."))
+				if(6)
+					to_chat(user, SPAN_WARNING("Дикие смеются. Слышно, как они жгут трупы прямо на площади. Иногда они поют. Песни тех, у кого нет ничего, кроме ярости."))
+				if(7)
+					to_chat(user, SPAN_NOTICE("Склады пусты. Всё, что осталось — ловушки, мины и запах смерти. Корпорация знала, что город обречён. Нам дали приказ держаться, а снабжения не было. Никогда не было."))
+				if(8)
+					to_chat(user, SPAN_WARNING("Ночью дождь. Смывает кровь, но запах остаётся. Я мечтаю, чтобы он смыл и меня."))
+				if(9)
+					to_chat(user, SPAN_NOTICE("Если кто-то найдёт этот блокнот: Я был в отряде 'Ночных Сов', мы пришли на помощь гарнизону, но мы так и не дошли до него, теперь этот город наша могила."))
+				if(10)
+					to_chat(user, SPAN_NOTICE("Больше нету записей..."))
+					pointer = 0
+
 // weapon //
 
 /obj/item/weapon/gun/rifle/l42a/sniper
@@ -588,3 +626,11 @@
 	desc = "A 5.56mm ammunition box. Used to refill M16 magazines. It comes with a leather strap allowing to wear it on the back."
 	caliber = "5.56mm"
 	default_ammo = /datum/ammo/bullet/rifle/m16
+
+// quest items //
+
+/obj/item/prop/almayer/synth_disk
+	name = "Synthetic Repair Data Disk"
+	desc = "A data disk containing repair protocols for synthetic units. It appears to be encrypted with proprietary Weyland-Yutani software."
+	icon = 'icons/obj/items/disk.dmi'
+	icon_state = "disk2"
