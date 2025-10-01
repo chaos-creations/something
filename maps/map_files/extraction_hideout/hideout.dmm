@@ -189,15 +189,9 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/galleyburned/prep)
 "cT" = (
-/obj/structure/window/reinforced/ultra{
-	dir = 4
-	},
-/obj/structure/window/reinforced/ultra{
-	dir = 8
-	},
-/obj/structure/machinery/door/window/southright,
-/turf/open/floor/almayer/plate,
-/area/galleyburned/requisition)
+/obj/structure/window/framed/almayer,
+/turf/open/floor/almayer,
+/area/galleyburned/memorial)
 "db" = (
 /obj/structure/largecrate/random/mini/small_case/c{
 	pixel_x = -26;
@@ -758,7 +752,6 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/galleyburned/residential)
 "ka" = (
-/obj/structure/closet/crate/alpha,
 /obj/structure/machinery/light/double/blue/golden_arrow{
 	dir = 8;
 	light_power = 0.7
@@ -767,7 +760,15 @@
 	pixel_y = 28;
 	pixel_x = 15
 	},
-/turf/open/floor/almayer/cargo,
+/obj/structure/personal_stash,
+/obj/structure/window/reinforced/ultra{
+	dir = 1
+	},
+/obj/structure/window/reinforced/ultra{
+	dir = 8
+	},
+/obj/structure/window/reinforced/ultra,
+/turf/open/floor/almayer/plate,
 /area/galleyburned/requisition)
 "kd" = (
 /obj/effect/decal/cleanable/blood/oil,
@@ -1003,6 +1004,16 @@
 	icon_state = "103"
 	},
 /area/galleyburned/residential)
+"ne" = (
+/obj/structure/window/reinforced/ultra{
+	dir = 1
+	},
+/obj/structure/window/reinforced/ultra{
+	dir = 8
+	},
+/obj/structure/machinery/door/window/southright,
+/turf/open/floor/plating/plating_catwalk,
+/area/galleyburned/requisition)
 "ns" = (
 /obj/structure/machinery/prop/almayer/CICmap/table/horizontal/segment/two,
 /turf/open/floor/plating/plating_catwalk,
@@ -1219,20 +1230,13 @@
 /turf/open/shuttle/dropship/light_grey_single_wide_up_to_down,
 /area/galleyburned/residential)
 "qL" = (
-/obj/structure/inventory_machine{
-	color = "#ff2222";
-	name = "Outdated ColMarTech Personal Stash Access Point"
-	},
 /obj/structure/window/reinforced/ultra{
 	dir = 4
 	},
-/obj/structure/window/reinforced/ultra{
-	dir = 4
+/obj/structure/machinery/door/poddoor/railing{
+	id = "supply_elevator_railing"
 	},
-/obj/structure/window/reinforced/ultra{
-	dir = 8
-	},
-/turf/open/floor/almayer/plate,
+/turf/open/floor/plating/plating_catwalk,
 /area/galleyburned/requisition)
 "qX" = (
 /obj/structure/machinery/cm_vending/sorted/marine_food,
@@ -1288,7 +1292,12 @@
 	dir = 4;
 	light_power = 0.7
 	},
-/turf/open/floor/almayer/cargo,
+/obj/structure/personal_stash,
+/obj/structure/window/reinforced/ultra{
+	dir = 1
+	},
+/obj/structure/window/reinforced/ultra,
+/turf/open/floor/almayer/plate,
 /area/galleyburned/requisition)
 "rQ" = (
 /obj/effect/decal/hybrisa/warning/redandwhite_S,
@@ -1645,11 +1654,11 @@
 /turf/open/floor/almayer/cargo,
 /area/galleyburned/requisition)
 "xP" = (
-/obj/structure/closet/crate/charlie,
 /obj/structure/machinery/light/double/blue/golden_arrow{
 	dir = 8;
 	light_power = 0.7
 	},
+/obj/structure/closet/crate/charlie,
 /turf/open/floor/almayer/cargo,
 /area/galleyburned/requisition)
 "xV" = (
@@ -1720,45 +1729,24 @@
 /area/galleyburned/requisition)
 "zd" = (
 /obj/structure/machinery/light/double/blue/golden_arrow{
-	light_power = 0.3
+	dir = 4;
+	light_power = 0.7
 	},
-/obj/structure/prop/hybrisa/misc/trash{
-	name = "automated ammunition press";
-	desc = "A modified autolathe which slowly produces ammunition every deployment. It can produce up to four magazines of nearly any gun."
-	},
-/obj/item/ammo_magazine/rifle/xm51{
-	pixel_x = -1;
-	pixel_y = 14
-	},
-/obj/item/ammo_magazine/rifle/xm51{
-	pixel_x = -1;
-	pixel_y = 14
-	},
-/obj/item/ammo_magazine/rifle/xm51{
-	pixel_x = -1;
-	pixel_y = 14
-	},
-/obj/item/ammo_magazine/rifle/xm51{
-	pixel_x = -1;
-	pixel_y = 14
-	},
-/turf/open/floor/plating,
-/area/galleyburned/residential)
+/obj/structure/closet/crate/alpha,
+/turf/open/floor/almayer/cargo,
+/area/galleyburned/requisition)
 "zl" = (
 /turf/open/floor/almayer/empty/requisitions,
 /area/supply/station)
 "zo" = (
 /obj/structure/window/reinforced/ultra{
+	dir = 1
+	},
+/obj/structure/window/reinforced/ultra{
 	dir = 4
 	},
-/obj/structure/window/reinforced/ultra{
-	dir = 8
-	},
-/obj/structure/window/reinforced/ultra{
-	dir = 8
-	},
-/obj/structure/machinery/door/window/southright,
-/turf/open/floor/almayer/plate,
+/obj/structure/machinery/door/window/southleft,
+/turf/open/floor/plating/plating_catwalk,
 /area/galleyburned/requisition)
 "zG" = (
 /obj/effect/decal/warning_stripes{
@@ -2179,6 +2167,12 @@
 "EM" = (
 /turf/closed/wall/almayer/outer,
 /area/galleyburned/canteen)
+"ES" = (
+/obj/structure/machinery/door/poddoor/railing{
+	id = "supply_elevator_railing"
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/galleyburned/requisition)
 "ET" = (
 /obj/structure/closet/secure_closet/marine_personal/rifleman{
 	pixel_x = -7
@@ -4065,7 +4059,7 @@ Jf
 Jf
 db
 XD
-dM
+zo
 Tl
 Tl
 XD
@@ -4235,7 +4229,7 @@ zl
 zl
 zl
 qL
-cT
+DN
 DN
 mX
 lk
@@ -4338,8 +4332,8 @@ zl
 zl
 zl
 zl
-qL
-zo
+ES
+DN
 DN
 mX
 lk
@@ -4481,7 +4475,7 @@ Jf
 Jf
 UZ
 wF
-dM
+ne
 Tl
 Tl
 XD
@@ -4535,7 +4529,7 @@ UZ
 XD
 rK
 ea
-rK
+zd
 XD
 aV
 MB
@@ -4813,7 +4807,7 @@ kG
 eJ
 LR
 kF
-kG
+cT
 MW
 Im
 Im
@@ -4865,7 +4859,7 @@ kG
 hE
 jj
 dJ
-kG
+cT
 jp
 Im
 Im
@@ -5618,7 +5612,7 @@ rC
 yC
 yC
 yC
-zd
+rj
 JF
 Xx
 yC

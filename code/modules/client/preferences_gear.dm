@@ -1706,21 +1706,18 @@ GLOBAL_LIST_EMPTY(gear_datums_by_name)
 	display_name = "USCM issue sunscreen"
 	path = /obj/item/facepaint/sunscreen_stick
 	cost = 1 //The cadmium poisoning pays for the discounted cost longterm
-	allowed_origins = USCM_ORIGINS
 
 /datum/gear/misc/dogtags
 	display_name = "Attachable Dogtags"
 	path = /obj/item/clothing/accessory/dogtags
 	cost = 0
 	slot = WEAR_IN_ACCESSORY
-	allowed_origins = USCM_ORIGINS
 
 /datum/gear/misc/patch_uscm
 	display_name = "USCM shoulder patch"
 	path = /obj/item/clothing/accessory/patch
 	cost = 0
 	slot = WEAR_IN_ACCESSORY
-	allowed_origins = USCM_ORIGINS
 
 /datum/gear/misc/patch_uscm/devils
 	display_name = "Solar Devils shoulder patch"
@@ -1731,7 +1728,6 @@ GLOBAL_LIST_EMPTY(gear_datums_by_name)
 	path = /obj/item/clothing/accessory/patch/ua
 	cost = 0
 	slot = WEAR_IN_ACCESSORY
-	allowed_origins = USCM_ORIGINS
 
 /datum/gear/misc/patch_uscm/usa
 	display_name = "United States flag shoulder patch" //no limited allowed_origins, a non-USCM could have the patch to show their original country
@@ -1755,7 +1751,6 @@ GLOBAL_LIST_EMPTY(gear_datums_by_name)
 	path = /obj/item/clothing/accessory/patch/royal_marines
 	cost = 0
 	slot = WEAR_IN_ACCESSORY
-	allowed_origins = TWE_ORIGINS
 
 /datum/gear/misc/patch_rmc/twe
 	display_name = "Three World Empire shoulder patch"
