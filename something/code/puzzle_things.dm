@@ -3,6 +3,7 @@
 	desc = "This feels like it belongs to a door."
 	icon = 'something/icons/puzzle_things.dmi'
 	icon_state = "keycard"
+	w_class = SIZE_SMALL
 	force = 0
 	throwforce = 0
 	throw_speed = 1

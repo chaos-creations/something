@@ -293,7 +293,7 @@
 	icon = 'icons/effects/new_acid.dmi'
 	icon_state = "hole_0"
 	climb_sound = 'sound/effects/metal_creaking.ogg'
-	climb_time = 4
+	climb_time = 40
 
 /obj/structure/ladder/hole/update_icon()
 	return
@@ -626,6 +626,21 @@
 	desc = "A 5.56mm ammunition box. Used to refill M16 magazines. It comes with a leather strap allowing to wear it on the back."
 	caliber = "5.56mm"
 	default_ammo = /datum/ammo/bullet/rifle/m16
+
+// keys //
+
+/obj/item/storage/box/keys
+	name = "key box"
+	desc = "A small box for storing keys."
+	storage_slots = 3
+	w_class = SIZE_SMALL
+	can_hold = list(
+		/obj/item/puzzle/keycard,
+	)
+
+/obj/item/storage/box/keys/freelancer/fill_preset_inventory()
+	new /obj/item/puzzle/keycard/freelancer(src)
+	new /obj/item/puzzle/keycard/workshop(src)
 
 // quest items //
 

@@ -3511,6 +3511,26 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison/darkredfull2,
 /area/scavenger_ship/staging_prep)
+"ahg" = (
+/obj/structure/curtain/black{
+	alpha = 200;
+	icon = 'icons/turf/areas.dmi';
+	icon_state = "dark128";
+	indestructible = 1;
+	mouse_opacity = 0;
+	name = "darkness";
+	opacity = 0
+	},
+/obj/structure/blocker/invisible_wall,
+/obj/structure/stairs/perspective{
+	color = "#82827a";
+	dir = 8
+	},
+/turf/open/gm/empty{
+	density = 0;
+	name = "empty space no density"
+	},
+/area/scavenger_ship/staging_workshop)
 "ahh" = (
 /obj/structure/machinery/cryopod/big{
 	pixel_x = -7;
@@ -5147,7 +5167,8 @@
 	name = "\improper Area of Operation Map";
 	desc = "A satellite printout of the Area of Operation.";
 	needs_power = 0;
-	icon = 'icons/obj/items/marine-items.dmi'
+	icon = 'icons/obj/items/marine-items.dmi';
+	density = 0
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/item/paper_bin{
@@ -5191,7 +5212,8 @@
 	pixel_x = 4;
 	pixel_y = -4;
 	dir = 8;
-	layer = 2.9
+	layer = 2.9;
+	anchored = 1
 	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_maint)
@@ -6914,8 +6936,8 @@
 	},
 /obj/structure/machinery/puzzle/keycard_panel/freelancer{
 	dir = 1;
-	pixel_x = 0;
-	pixel_y = -25
+	pixel_y = -25;
+	pixel_x = 10
 	},
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/logistics_maint)
@@ -26295,7 +26317,8 @@
 	desc = "The M20 Claymore is a directional anti-personnel smart mine of the USCMC. Generates 120 degree cone of shrapnel if a valid target crosses before or over it. On its face, it reads \"FRONT TOWARD ENEMY\".";
 	pixel_x = 9;
 	pixel_y = 12;
-	dir = 8
+	dir = 8;
+	anchored = 1
 	},
 /turf/open/floor/hybrisa/wood/greywood,
 /area/scavenger_ship/logistics_maint)
@@ -27222,7 +27245,8 @@
 	name = "\improper Area of Operation Map";
 	desc = "A satellite printout of the Area of Operation.";
 	needs_power = 0;
-	icon = 'icons/obj/items/marine-items.dmi'
+	icon = 'icons/obj/items/marine-items.dmi';
+	density = 0
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison/floor_plate/southwest,
@@ -37081,8 +37105,8 @@ fZa
 rxV
 rte
 ydw
-xKD
-xKD
+ahg
+ahg
 xKD
 xKD
 xKD
