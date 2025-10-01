@@ -238,6 +238,28 @@
 
 // noise tv redone over //
 
+// decor //
+
+/obj/structure/bed/chair/wood/divan
+	icon = 'something/icons/missed_stuff.dmi'
+	icon_state = "sofa_l"
+	name = "wooden sofa"
+	desc = "Old is never too old to not be in fashion."
+
+/obj/structure/bed/chair/wood/divan/r
+	icon_state = "sofa_r"
+
+/obj/structure/ladder/hole
+	name = "suspicious hole"
+	desc = "Definitely a very ordinary hole, it seems even an adult could crawl through it."
+	icon = 'icons/effects/new_acid.dmi'
+	icon_state = "hole_0"
+	climb_sound = 'sound/effects/metal_creaking.ogg'
+	climb_time = 4
+
+/obj/structure/ladder/hole/update_icon()
+	return
+
 // organ harvester & case //
 
 /obj/item/device/organ_harvester
@@ -526,3 +548,43 @@
 	else
 		icon_state = icon_living
 	return ..()
+
+/mob/living/simple_animal/mouse/rat/white/freelancer
+	name = "War Boss"
+	desc = "A combat mouse who had fought in more than one cheese war on this godforsaken ship. He was captured after being caught red-handed stealing cheese from the freelancers' secret storage behind the washing machine."
+	gender = MALE
+	response_help = "pets"
+	response_disarm = "gently pushes aside"
+	response_harm = "splats"
+	holder_type = /obj/item/holder/rat/white/Milky
+
+/obj/item/holder/rat/white/freelancer
+	name = "War Boss"
+	desc = "A combat mouse who had fought in more than one cheese war on this godforsaken ship. He was captured after being caught red-handed stealing cheese from the freelancers' secret storage behind the washing machine."
+
+// evil stanki //
+
+/obj/item/ammo_box/rounds/random
+	var/min_random = 100
+	var/max_random = 600
+
+/obj/item/ammo_box/rounds/random/Initialize()
+	. = ..()
+	if(empty)
+		bullet_amount = 0
+	else
+		// here we go
+		bullet_amount = rand(min_random, max_random)
+	// huh?
+	if(bullet_amount > max_bullet_amount)
+		bullet_amount = max_bullet_amount
+	if(bullet_amount < 0)
+		bullet_amount = 0
+
+	update_icon()
+
+/obj/item/ammo_box/rounds/random/m16
+	name = "\improper rifle ammunition box (5.56)"
+	desc = "A 5.56mm ammunition box. Used to refill M16 magazines. It comes with a leather strap allowing to wear it on the back."
+	caliber = "5.56mm"
+	default_ammo = /datum/ammo/bullet/rifle/m16

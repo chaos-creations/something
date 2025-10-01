@@ -75,4 +75,10 @@
 	desc = "An old but reliable machine connected to the local network. The display shows a rotating list of available tasks — ranging from deliveries and repairs to escort missions and clearances. \
 	The interface is simple: contract title, a brief description, estimated difficulty, and payout."
 	icon_state = "overwatch"
-	email_list = list(/datum/fluff_email/rover/mission1, /datum/fluff_email/rover/mission2, /datum/fluff_email/rover/mission3)
+	email_list = list(/datum/fluff_email/nomad/mission1, /datum/fluff_email/nomad/mission2, /datum/fluff_email/nomad/mission3)
+
+/obj/structure/machinery/computer/custom_email/freelancers
+	name = "Freelancer's Terminal"
+	desc = "A small desktop computer. The screen appears to have some blood stains and a couple of cracks, but these don't seem to interfere with its operation."
+	email_list = list(/datum/fluff_email/nomad/freelancers)
+	icon_state = "alert:2"

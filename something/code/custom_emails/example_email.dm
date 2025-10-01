@@ -29,7 +29,7 @@
 				</html>
 				"}
 
-/datum/fluff_email/rover/mission1
+/datum/fluff_email/nomad/mission1
 	title = "Добыча местоположения аванпоста"
 	entry_text = {"<html>
 					Нам удалось раздобыть информацию о выживших силах USCM на одной из заброшенных колоний Вейланд-Ютани.
@@ -41,7 +41,7 @@
 				</html>
 				"}
 
-/datum/fluff_email/rover/mission2
+/datum/fluff_email/nomad/mission2
 	title = "Чёрный ящик"
 	entry_text = {"<html>
 					В колонии два разбитых челнока FORECON, в них определённо должны быть чёрные ящики, которые обладают ценной информацией.
@@ -52,7 +52,7 @@
 				</html>
 				"}
 
-/datum/fluff_email/rover/mission3
+/datum/fluff_email/nomad/mission3
 	title = "Боевой синтетик Вейланд-Ютани"
 	entry_text = {"<html>
 					В этой колонии был обнаружен сигнал бедствия от одного из боевых синтетиков Вейланд-Ютани.
@@ -63,21 +63,53 @@
 				</html>
 				"}
 
-/datum/fluff_email/rover/komana
-	title = "Location 'Rallypoint Delta'"
-	entry_text = {"<html>
-					DATA IS CORRUPTED.
-					PLEASE CONTACT YOUR SYSTEM ADMINISTRATOR.
-					<hr>
-					<p><small>ENCRYPTED PAYLOAD — DECODING REQUIRED</small></p>
-					<br>
-					Boxllpywzt Qevhm - Bnso qaoedsbmtrs: 17.482X, 44.193S - Eeptyf: Mrx Byfqayic, Vmntab 3
-					<br>
-					<p><em>Integrity: SHA1  ·  3f:ab:9c:... (truncated)</em></p>
-				</html>
-				"}
+/datum/fluff_email/nomad/freelancers
+	title = "Freelancer Manifest"
+	entry_text = {"
+	<html>
+		<head>
+			<style>
+				.mailbox {
+					max-height: 350px;
+					overflow-y: auto;
+					word-wrap: break-word;
+					overflow-wrap: break-word;
+					font-family: Verdana, sans-serif;
+					font-size: 11px;
+				}
+				table {
+					width: 100%;
+					border-collapse: collapse;
+					table-layout: fixed;
+				}
+				th, td {
+					border: 1px solid #444;
+					padding: 3px;
+					text-align: left;
+					font-size: 11px;
+				}
+				.active { color: green; font-weight: bold; }
+				.inactive { color: red; font-weight: bold; }
+			</style>
+		</head>
+		<body>
+			<center><b>✦ FREELANCER MANIFEST ✦</b></center>
+			<p><small>ENCRYPTED PAYLOAD — DECRYPTION LEVEL: PARTIAL</small></p>
+			<p><em>Integrity Hash: SHA1 · 3f:ab:9c:... (truncated)</em></p>
+			<div class='mailbox'>
+				<table>
+					<tr><th>Name</th><th>Role</th><th>Status</th></tr>
+					<tr><td>Jebediah 'MAD' Logstreet</td><td>Warlord</td><td class='active'>ACTIVE</td></tr>
+					<tr><td>Klein 'Rat' Moretti</td><td>Enforcer</td><td class='active'>ACTIVE</td></tr>
+				</table>
+			</div>
+			<hr>
+			<i><small>// Note: Some entries may be corrupted or redacted.</small></i>
+		</body>
+	</html>
+	"}
 
-/obj/item/paper/rover/dnevnik
+/obj/item/paper/nomad/dnevnik
 	name = "Day Report N104"
 	info = {"
 <center>

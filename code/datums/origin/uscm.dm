@@ -26,7 +26,7 @@
 /datum/origin/uscm/aw
 	name = ORIGIN_USCM_AW
 	desc = "You were a product of an experimental military programme that sought to breed the perfect supersoldier. In some aspects, they've succeeded."
-	tag_icon = "usa"
+	tag_icon = "usa_aw"
 
 /datum/origin/uscm/aw/generate_human_name(gender = MALE)
 	return pick(gender == MALE ? GLOB.first_names_male : GLOB.first_names_female) + " A.W. " + pick(GLOB.weapon_surnames)
