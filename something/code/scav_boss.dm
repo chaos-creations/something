@@ -192,11 +192,11 @@
 	access = list(ACCESS_LIST_CLF_BASE)
 
 /datum/equipment_preset/scav/jaguar/get_assignment(mob/living/carbon/human/new_human)
-	return "Remnant Anti-Vehicle Sniper"
+	return "Remnant Sniper"
 
 /datum/equipment_preset/scav/jaguar/load_gear(mob/living/carbon/human/new_human)
 	//back
-	new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/boltaction/vulture/skillless(new_human), WEAR_BACK)
+	new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/rifle/sniper/M42A(new_human), WEAR_BACK)
 	//uniform
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/marine/veteran/scavs/jaguar(new_human), WEAR_BODY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/storage/holster/waist(new_human), WEAR_ACCESSORY)
@@ -213,8 +213,8 @@
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/veteran/scavs/jaguar(new_human), WEAR_ACCESSORY)
 	//waist
 	new_human.equip_to_slot_or_del(new /obj/item/storage/belt/marine/veteran/scavs/jaguar(new_human), WEAR_WAIST)
-	new_human.equip_to_slot_or_del(new /obj/item/device/vulture_spotter_scope/skillless(new_human), WEAR_IN_BELT)
-	new_human.equip_to_slot_or_del(new /obj/item/device/vulture_spotter_tripod(new_human), WEAR_IN_BELT)
+	new_human.equip_to_slot_or_del(new /obj/item/device/binoculars/range/designator/spotter(new_human), WEAR_IN_BELT)
+	new_human.equip_to_slot_or_del(new /obj/item/storage/box/mre/twe(new_human), WEAR_IN_BELT)
 	new_human.equip_to_slot_or_del(new /obj/item/storage/box/mre/twe(new_human), WEAR_IN_BELT)
 	new_human.equip_to_slot_or_del(new /obj/item/book/codebook/twe(new_human), WEAR_IN_BELT)
 	new_human.equip_to_slot_or_del(new /obj/item/prop/helmetgarb/gunoil(new_human), WEAR_IN_BELT)
@@ -234,6 +234,6 @@
 	new_human.equip_to_slot_or_del(new /obj/item/reagent_container/blood/OMinus, WEAR_IN_L_STORE)
 	new_human.equip_to_slot_or_del(new /obj/item/reagent_container/blood/saline, WEAR_IN_L_STORE)
 	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/magazine, WEAR_R_STORE)
-	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/boltaction/vulture, WEAR_IN_R_STORE)
-	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/boltaction/vulture, WEAR_IN_R_STORE)
-	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/boltaction/vulture, WEAR_IN_R_STORE)
+	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/sniper/incendiary, WEAR_IN_R_STORE)
+	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/sniper/flak, WEAR_IN_R_STORE)
+	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/sniper/basic, WEAR_IN_R_STORE)
