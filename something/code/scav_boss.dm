@@ -62,7 +62,7 @@
 	flags_inv_hide = HIDEEARS
 	flags_marine_helmet = HELMET_DAMAGE_OVERLAY|HELMET_GARB_OVERLAY
 
-//hybrisa jaguar STATUS: ALIVE
+//hybrisa jaguar STATUS: ELIMINATED
 
 /obj/item/clothing/head/helmet/marine/veteran/scavs/jaguar
 	name = "Remnant Recon Helmet"

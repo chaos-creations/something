@@ -209,7 +209,7 @@
 /obj/structure/machinery/prop/almayer/computer/noisetv
 	name = "transmission center"
 	desc = "A device assembled from a variety parts, waiting to receive a transmission."
-	icon = 'something/icons/missed_stuff.dmi'
+	icon = 'something/icons/noise.dmi'
 	icon_state = "tvnoise"
 	anchored = TRUE
 	density = TRUE
@@ -274,6 +274,30 @@
 	desc = "An old TV. You doubt that it still works."
 	icon_state = "tvnoiseold"
 
+/turf/closed/noise
+	name = "distant noise"
+	desc = "In these days, electrical noise follows people everywhere. Not always intelligible, but always unstoppable. It is like radio interference. It seems to intensify as it approaches the boundary of known space. Sometimes you can make out words in the noise. A strange whisper that makes no sense."
+	icon = 'something/icons/noise.dmi'
+	icon_state = "noise1"
+	var/on = TRUE //virubator 3000
+
+	light_range = 3
+	light_power = 0.8
+	light_color = "#ffffff"
+
+/turf/closed/noise/Initialize(mapload, ...)
+	. = ..()
+	icon_state = "noise[rand(1,3)]"
+	addtimer(CALLBACK(src, .proc/playnoise), rand(10,20) SECONDS)
+
+/turf/closed/noise/proc/playnoise()
+	if(QDELETED(src) || !on)
+		return
+
+	playsound(src, pick('something/sounds/noise.ogg', 'something/sounds/noise2.ogg','something/sounds/noise3.ogg'), 25, 0, 4)
+
+	addtimer(CALLBACK(src, .proc/playnoise), rand(10,20) SECONDS)
+
 // noise tv redone over //
 
 // decor //
@@ -297,6 +321,25 @@
 
 /obj/structure/ladder/hole/update_icon()
 	return
+
+/obj/structure/ladder/scav_raider
+	name = "Vehicle Door"
+	desc = "Door from scavenger vehicle, it seems you can climb through it."
+	layer = BELOW_MOB_LAYER
+	icon = 'something/icons/missed_stuff.dmi'
+	icon_state = "scav_door"
+	climb_sound = 'sound/effects/metal_door_open.ogg'
+	climb_time = 15
+
+/obj/structure/ladder/scav_raider/update_icon()
+	return
+
+/obj/structure/ladder/scav_raider/other
+	icon_state = "scav_door_other"
+
+/obj/structure/ladder/scav_raider/other/update_icon()
+	return
+
 
 // organ harvester & case //
 
@@ -412,6 +455,139 @@
 	)
 
 // organ harvester & case over //
+
+// other torkovec //
+
+/obj/structure/prop/invuln/scav_raider
+	name = "\improper M577 Obedience"
+	desc = "A large, armored behemoth capable of ferrying marines around. \n This one looks a little battered and seems to already belong to someone."
+	layer = BELOW_MOB_LAYER
+	icon = 'something/icons/scav_vehicle.dmi'
+	icon_state = "scav_raider"
+
+// dlya remonta
+
+/obj/item/prop/almayer/repair
+	name = "placeholder"
+	desc = "placeholder"
+	icon = 'something/icons/missed_stuff.dmi'
+	icon_state = "box_crate"
+	w_class = SIZE_LARGE
+
+/obj/item/prop/almayer/repair/repair_kit
+	name = "Universal Repair Kit"
+	desc = "A compact toolbox containing basic and advanced tools, along with standard consumables. Suitable for patching walls, fixing floors, and handling general maintenance tasks."
+	icon_state = "box_crate"
+
+/obj/item/prop/almayer/repair/rk_structural
+	name = "Structural Repair Pack"
+	desc = "A package of prefabricated wall panels, floor tiles, paint, and cosmetic trims. Designed for restoring both stability and the original look of rooms."
+	icon_state = "box_w"
+
+/obj/item/prop/almayer/repair/rk_electronics
+	name = "Electronic Repair Set"
+	desc = "A container with circuit boards, wiring spools, stabilizers, and control modules. Used to restore damaged terminals, power lines, and automated systems."
+	icon_state = "box_ecrate"
+
+/obj/item/prop/almayer/repair/rk_material
+	name = "Construction Materials Pack"
+	desc = "A bundle of raw supplies: metal sheets, insulation rolls, adhesives, and sealing compounds. Provides the base resources needed for room restoration."
+	icon_state = "box_z"
+
+// pets //
+
+/mob/living/simple_animal/hostile/retaliate/giant_lizard/storm
+	name = "Storm"
+	desc = "A wolf-sized lizard wearing a collar. He has a very naughty character and loves to constantly litter everywhere, most of his time he just sleeps in a mountain of trash that he himself creates."
+	icon_state = "Storm Running"
+	icon_living = "Storm Running"
+	maxHealth = 700
+	health = 700
+	faction = "USCM"
+	melee_damage_lower = 0
+	melee_damage_upper = 0
+
+/mob/living/simple_animal/hostile/retaliate/giant_lizard/storm/update_transform(instant_update = FALSE)
+	if(stat == DEAD)
+		icon_state = icon_dead
+	else if(body_position == LYING_DOWN)
+		if(!HAS_TRAIT(src, TRAIT_INCAPACITATED) && !HAS_TRAIT(src, TRAIT_FLOORED))
+			icon_state = "Storm Sleeping"
+		else
+			icon_state = "Giant Lizard Knocked Down"
+	else
+		icon_state = icon_living
+	return ..()
+
+/mob/living/simple_animal/mouse/rat/white/freelancer
+	name = "War Boss"
+	desc = "A combat mouse who had fought in more than one cheese war on this godforsaken ship. He was captured after being caught red-handed stealing cheese from the freelancers' secret storage behind the washing machine."
+	gender = MALE
+	response_help = "pets"
+	response_disarm = "gently pushes aside"
+	response_harm = "splats"
+	holder_type = /obj/item/holder/rat/white/Milky
+
+/obj/item/holder/rat/white/freelancer
+	name = "War Boss"
+	desc = "A combat mouse who had fought in more than one cheese war on this godforsaken ship. He was captured after being caught red-handed stealing cheese from the freelancers' secret storage behind the washing machine."
+
+// evil stanki //
+
+/obj/item/ammo_box/rounds/random
+	var/min_random = 100
+	var/max_random = 600
+
+/obj/item/ammo_box/rounds/random/Initialize()
+	. = ..()
+	if(empty)
+		bullet_amount = 0
+	else
+		// here we go
+		bullet_amount = rand(min_random, max_random)
+	// huh?
+	if(bullet_amount > max_bullet_amount)
+		bullet_amount = max_bullet_amount
+	if(bullet_amount < 0)
+		bullet_amount = 0
+
+	update_icon()
+
+/obj/item/ammo_box/rounds/random/m16
+	name = "\improper rifle ammunition box (5.56)"
+	desc = "A 5.56mm ammunition box. Used to refill M16 magazines. It comes with a leather strap allowing to wear it on the back."
+	caliber = "5.56mm"
+	default_ammo = /datum/ammo/bullet/rifle/m16
+
+// keys //
+
+/obj/item/storage/box/keys
+	name = "key box"
+	desc = "A small box for storing keys."
+	storage_slots = 3
+	w_class = SIZE_SMALL
+	can_hold = list(
+		/obj/item/puzzle/keycard,
+	)
+
+/obj/item/storage/box/keys/freelancer/fill_preset_inventory()
+	new /obj/item/puzzle/keycard/freelancer(src)
+	new /obj/item/puzzle/keycard/workshop(src)
+
+/obj/item/storage/box/keys/freelancer/less/fill_preset_inventory()
+	new /obj/item/puzzle/keycard/workshop(src)
+
+// quest items //
+
+/obj/item/prop/almayer/synth_disk
+	name = "Synthetic Repair Data Disk"
+	desc = "A data disk containing repair protocols for synthetic units. It appears to be encrypted with proprietary Weyland-Yutani software."
+	icon = 'icons/obj/items/disk.dmi'
+	icon_state = "disk_2"
+
+// unused stuff //
+
+/*
 
 #define JOB_UPP_SYNTH_ASCLEPIUS "Replicant"
 
@@ -533,119 +709,4 @@
 			new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/explosive/upp, WEAR_L_STORE)
 			new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/tools/uppsynth, WEAR_R_STORE)
 
-// dlya remonta
-
-/obj/item/prop/almayer/repair
-	name = "placeholder"
-	desc = "placeholder"
-	icon = 'something/icons/missed_stuff.dmi'
-	icon_state = "box_crate"
-	w_class = SIZE_LARGE
-
-/obj/item/prop/almayer/repair/repair_kit
-	name = "Universal Repair Kit"
-	desc = "A compact toolbox containing basic and advanced tools, along with standard consumables. Suitable for patching walls, fixing floors, and handling general maintenance tasks."
-	icon_state = "box_crate"
-
-/obj/item/prop/almayer/repair/rk_structural
-	name = "Structural Repair Pack"
-	desc = "A package of prefabricated wall panels, floor tiles, paint, and cosmetic trims. Designed for restoring both stability and the original look of rooms."
-	icon_state = "box_w"
-
-/obj/item/prop/almayer/repair/rk_electronics
-	name = "Electronic Repair Set"
-	desc = "A container with circuit boards, wiring spools, stabilizers, and control modules. Used to restore damaged terminals, power lines, and automated systems."
-	icon_state = "box_ecrate"
-
-/obj/item/prop/almayer/repair/rk_material
-	name = "Construction Materials Pack"
-	desc = "A bundle of raw supplies: metal sheets, insulation rolls, adhesives, and sealing compounds. Provides the base resources needed for room restoration."
-	icon_state = "box_z"
-
-// pets //
-
-/mob/living/simple_animal/hostile/retaliate/giant_lizard/storm
-	name = "Storm"
-	desc = "A wolf-sized lizard wearing a collar. He has a very naughty character and loves to constantly litter everywhere, most of his time he just sleeps in a mountain of trash that he himself creates."
-	icon_state = "Storm Running"
-	icon_living = "Storm Running"
-	maxHealth = 700
-	health = 700
-	faction = "USCM"
-	melee_damage_lower = 0
-	melee_damage_upper = 0
-
-/mob/living/simple_animal/hostile/retaliate/giant_lizard/storm/update_transform(instant_update = FALSE)
-	if(stat == DEAD)
-		icon_state = icon_dead
-	else if(body_position == LYING_DOWN)
-		if(!HAS_TRAIT(src, TRAIT_INCAPACITATED) && !HAS_TRAIT(src, TRAIT_FLOORED))
-			icon_state = "Storm Sleeping"
-		else
-			icon_state = "Giant Lizard Knocked Down"
-	else
-		icon_state = icon_living
-	return ..()
-
-/mob/living/simple_animal/mouse/rat/white/freelancer
-	name = "War Boss"
-	desc = "A combat mouse who had fought in more than one cheese war on this godforsaken ship. He was captured after being caught red-handed stealing cheese from the freelancers' secret storage behind the washing machine."
-	gender = MALE
-	response_help = "pets"
-	response_disarm = "gently pushes aside"
-	response_harm = "splats"
-	holder_type = /obj/item/holder/rat/white/Milky
-
-/obj/item/holder/rat/white/freelancer
-	name = "War Boss"
-	desc = "A combat mouse who had fought in more than one cheese war on this godforsaken ship. He was captured after being caught red-handed stealing cheese from the freelancers' secret storage behind the washing machine."
-
-// evil stanki //
-
-/obj/item/ammo_box/rounds/random
-	var/min_random = 100
-	var/max_random = 600
-
-/obj/item/ammo_box/rounds/random/Initialize()
-	. = ..()
-	if(empty)
-		bullet_amount = 0
-	else
-		// here we go
-		bullet_amount = rand(min_random, max_random)
-	// huh?
-	if(bullet_amount > max_bullet_amount)
-		bullet_amount = max_bullet_amount
-	if(bullet_amount < 0)
-		bullet_amount = 0
-
-	update_icon()
-
-/obj/item/ammo_box/rounds/random/m16
-	name = "\improper rifle ammunition box (5.56)"
-	desc = "A 5.56mm ammunition box. Used to refill M16 magazines. It comes with a leather strap allowing to wear it on the back."
-	caliber = "5.56mm"
-	default_ammo = /datum/ammo/bullet/rifle/m16
-
-// keys //
-
-/obj/item/storage/box/keys
-	name = "key box"
-	desc = "A small box for storing keys."
-	storage_slots = 3
-	w_class = SIZE_SMALL
-	can_hold = list(
-		/obj/item/puzzle/keycard,
-	)
-
-/obj/item/storage/box/keys/freelancer/fill_preset_inventory()
-	new /obj/item/puzzle/keycard/freelancer(src)
-	new /obj/item/puzzle/keycard/workshop(src)
-
-// quest items //
-
-/obj/item/prop/almayer/synth_disk
-	name = "Synthetic Repair Data Disk"
-	desc = "A data disk containing repair protocols for synthetic units. It appears to be encrypted with proprietary Weyland-Yutani software."
-	icon = 'icons/obj/items/disk.dmi'
-	icon_state = "disk2"
+*/

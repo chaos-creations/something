@@ -352,6 +352,8 @@
 	"}
 
 /obj/item/tape/nomad/one
+	name = "Dusty Tape"
+	desc = "Some old recordings"
 	flipped_name = "Dusty Tape"
 	storedinfo = list("Unknown Voice says - \"Когда-то мы были морпехами, служили на US-crrrt Su-tzz-z\" ",
 		"Unknown Voice  says - \"--zz-err и потом они просто закрыли эту программу, якобы не оправдывает их ожидания.\" ",
@@ -369,4 +371,30 @@
 		"Unknown Voice says - \"...Не знаю, не думаю что это когда-либо случится, слишком уж они --errr\" ",
 		"Unknown Voice says - \"А ты что думаешь, Морроу?\" ",
 		"Unknown Voice says - \"...как и всегда...\" ")
+	timestamp_otherside = list(30, 80, 170, 220, 300, 370, 450)
+
+/obj/item/tape/nomad/two
+	name = "Dusty Tape #2"
+	desc = "Some old recordings"
+	flipped_name = "Dusty Tape #2"
+	storedinfo = list(
+		"Unknown Voice says - \"Сего--zz-ня мы должны отпра--zzz--ться на одну из забр--крр--шенных колоний, кот--тzz--рая когд--zz--та была на хорошем счё--чч--ту у Вейланд-Ютани.\" ",
+		"Unknown Voice says - \"Бра--ррр--ун говорит, что там до--zzz--вольно хорошая наж--ж--ива, хоть и оп--шш--ная.\" ",
+		"Other Unknown Voice says - \"Да тут всё опа--крр--сное!\" ",
+		"Unknown Voice says - \"Да зат--zzz--кнись ты, это мой аудио-д--жж--вник. Собс--шш--твен--zzz--но...\" ",
+		"Unknown Voice says - \"...Бо--крр--юсь я немного, хоть и хо--zzz--тся добы--шш--ть это бо--крр--гатство.\" ",
+		"Unknown Voice says - \"Бла--жж--го, нас повед--zzz--т Морроу, я ем--м--у дове--крр--ряю, с ним у нас всё до--zzz--вольно хоро--шш--о вы--zzz--ходит.\" ",
+		"Unknown Voice says - \"На--крр--деюсь у--zzz--дача нам и с--шш--годня у--zzz--лыбнётся...\" "
+	)
+	timestamp = list(30, 80, 170, 220, 300, 370, 450)
+	unflipped_name = "Dusty Tape #2"
+	storedinfo_otherside = list(
+		"Unknown Voice says - \"Сего--zz-ня мы должны отпра--zzz--ться на одну из забр--крр--шенных колоний, кот--тzz--рая когд--zz--та была на хорошем счё--чч--ту у Вейланд-Ютани.\" ",
+		"Unknown Voice says - \"Бра--ррр--ун говорит, что там до--zzz--вольно хорошая наж--ж--ива, хоть и оп--шш--ная.\" ",
+		"Other Unknown Voice says - \"Да тут всё опа--крр--сное!\" ",
+		"Unknown Voice says - \"Да зат--zzz--кнись ты, это мой аудио-д--жж--вник. Собс--шш--твен--zzz--но...\" ",
+		"Unknown Voice says - \"...Бо--крр--юсь я немного, хоть и хо--zzz--тся добы--шш--ть это бо--крр--гатство.\" ",
+		"Unknown Voice says - \"Бла--жж--го, нас повед--zzz--т Морроу, я ем--м--у дове--крр--ряю, с ним у нас всё до--zzz--вольно хоро--шш--о вы--zzz--ходит.\" ",
+		"Unknown Voice says - \"На--крр--деюсь у--zzz--дача нам и с--шш--годня у--zzz--лыбнётся...\" "
+	)
 	timestamp_otherside = list(30, 80, 170, 220, 300, 370, 450)
