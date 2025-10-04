@@ -10,7 +10,8 @@
 /obj/structure/ladder/scav_raider{
 	pixel_x = 16;
 	pixel_y = 23;
-	id = "scav_obed"
+	id = "scav_obed";
+	layer = 3.76
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison/cell_stripe,

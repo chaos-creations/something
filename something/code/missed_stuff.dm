@@ -325,7 +325,7 @@
 /obj/structure/ladder/scav_raider
 	name = "Vehicle Door"
 	desc = "Door from scavenger vehicle, it seems you can climb through it."
-	layer = BELOW_MOB_LAYER
+	layer = 3.76
 	icon = 'something/icons/missed_stuff.dmi'
 	icon_state = "scav_door"
 	climb_sound = 'sound/effects/metal_door_open.ogg'
@@ -335,6 +335,7 @@
 	return
 
 /obj/structure/ladder/scav_raider/other
+	layer = BELOW_MOB_LAYER
 	icon_state = "scav_door_other"
 
 /obj/structure/ladder/scav_raider/other/update_icon()
