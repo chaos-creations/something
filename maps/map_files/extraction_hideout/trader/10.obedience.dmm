@@ -458,9 +458,7 @@
 /turf/open/floor/prison/floor_plate/southwest,
 /area/scavenger_ship/staging_maint)
 "xK" = (
-/obj/structure/machinery/door/window/ultra{
-	req_access_txt = "26"
-	},
+/obj/structure/machinery/door/window/ultra,
 /obj/structure/surface/rack{
 	color = "#98a3ab";
 	pixel_y = 22;
