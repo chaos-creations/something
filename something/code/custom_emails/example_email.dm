@@ -165,16 +165,16 @@
 		<div class='meta'>SOURCE: W-Y / HYBRISA ARCHIVE · SECTOR: HYBRISA PROSPERA · SIG: 0xJAG-304</div>
 
 		<div class='section'>
-			<b>OBJECTIVE:</b> Recover encrypted data disk containing partial reconstruction routine for synthetic unit <span class='important'>XJ-9 / "JAGUAR"</span>.<br>
-			<small>Disk believed stored in secured cache within Lab Complex 12 (W-Y logistic annex). Last seen after supply raid, unknown custody.</small>
+			<b>OBJECTIVE:</b> Recover encrypted data disk containing partial reconstruction routine for synthetic unit <span class='important'>UN-10 / "Freeform"</span>.<br>
+			<small>Disk believed stored in secured cache within logistic ship (W-Y Corporate Security). Last seen after supply raid, unknown custody.</small>
 		</div>
 
 		<div class='section'>
 			<b>RISK ASSESSMENT:</b>
 			<ul>
-				<li class='danger'>Hostiles: Weyland corporate sec, local militia remnants, "Wild" marauders.</li>
-				<li>Environmental: collapsed decks, active mines, intermittent comm jamming.</li>
-				<li>Complication: disk contains prototype subroutine flagged by W-Y as "bio-adaptive" — high corporate interest.</li>
+				<li class='danger'>Hostiles: Weyland corporate sec.</li>
+				<li>Environmental: Active mines, intermittent comm jamming.</li>
+				<li>Complication: Disk contains prototype subroutine flagged by W-Y as "bio-adaptive" — high corporate interest.</li>
 			</ul>
 		</div>
 
@@ -196,7 +196,7 @@
 
 		<div class='section'>
 			<div class='code'>
-				// XJ-9 : adaptive targeting / stealth assist (truncated)<br>
+				// UN-10 : adaptive targeting / stealth assist (truncated)<br>
 				INIT >> LOAD | SENS: {optic: 0x1B, thermal: 0x0C} <br>
 				BEHAVIOR.TEMPLATE = 'PREDATOR_RUN' ; // mobility bias: high<br>
 				RESTRICT = (/** WEYLAND-CLASS: BIO-LOCK **/) <br>
@@ -206,7 +206,7 @@
 		</div>
 
 		<div class='section'>
-			<b>TARGET LOCATION (last known):</b> Lab Complex 12 — Sublevel B (archive vault 4). Coordinates (approx): <span class='code'>34.11N · 118.8E · HYB-B12</span>
+			<b>TARGET LOCATION (last known):</b> USCSS Lotos  — Deck A (archive vault 4). Coordinates (approx): <span class='code'>34.11N · 118.8E · HYB-B12</span>
 		</div>
 
 		<div class='footer'>
@@ -223,23 +223,23 @@
 
 		<div class='section'>
 			<b>OPERATOR LOG:</b>
-			<p class='small'><i>"Reconstruction requires live sample. If disk intact, XJ-9 can be bootstrapped with scavenged actuators. Heavy attention from Weyland — don't let them take it. If you read this, you know the stakes. — C." </i></p>
+			<p class='small'><i>"Reconstruction requires live sample. If disk intact, UN-10 can be bootstrapped with scavenged actuators. Heavy attention from Weyland — don't let them take it. If you read this, you know the stakes. — C." </i></p>
 		</div>
 
 		<div class='section'>
 			<b>ACTION ITEM:</b>
 			<ol>
-				<li>Infiltrate Lab Complex 12 — avoid active patrol routes.</li>
-				<li>Locate vault 4 — bypass thermal locks (EMP will lock permanently).</li>
+				<li>Infiltrate USCSS Lotos — avoid active patrol routes.</li>
+				<li>Locate Deck A — bypass thermal locks (EMP will lock permanently).</li>
 				<li>Extract disk — keep media intact; damage reduces reward to scrap value.</li>
 			</ol>
 		</div>
 
 		<div class='section'>
-			<b>FINAL NOTE:</b> Returning disk to Nomad handlers grants highest payout; delivering to Weyland will void any freelance reward and mark team as corporate asset. Choose wisely.</div>
+			<b>FINAL NOTE:</b> Returning disk to Nomad handlers grants the first part on creating a synthetic; delivering to Weyland will void any freelance reward and mark team as corporate asset. Choose wisely.</div>
 
 		<div class='footer'>
-			<small>END OF RECORD. FRAGMENT ID: /ART/LIFE/XJ9/304 — (3/3)</small>
+			<small>END OF RECORD. FRAGMENT ID: /ART/LIFE/UN-10/304 — (3/3)</small>
 		</div>
 	</div>
 

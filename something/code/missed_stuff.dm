@@ -546,13 +546,12 @@
 	var/max_points = 3
 	var/current_points = 3
 	var/current_tab = "ammo" // "ammo", "magazines", "shells", "revolver"
+	var/fixed_category = null  // stores a category that has already been repaired
 
 	/// Recipe list: [name] = list(type, price, quantity, category)
 	var/list/recipes = list(
 		"Ammo box (10x24mm)" = list(/obj/item/ammo_box/rounds, 3, 1, "ammo"),
-//		"SMG Ammo Box (9mm)" = list(/obj/item/ammo_box/rounds/smg, 3, 1, "ammo"),
-//		"Rifle magazines (M41A)" = list(/obj/item/ammo_magazine/rifle, 1, 2, "magazines"),
-//		"SMG magazines (M39)" = list(/obj/item/ammo_magazine/smg/m39, 1, 2, "magazines"),
+		"SMG Ammo Box (9mm)" = list(/obj/item/ammo_box/rounds/smg, 3, 1, "ammo"),
 		"Pistol magazines (VP70, 9x19mm)" = list(/obj/item/ammo_magazine/pistol/vp70, 1, 3, "magazines"),
 		"Pistol magazines, Extended (VP70, 9x19mm)" = list(/obj/item/ammo_magazine/pistol/vp70/extended, 1, 2, "magazines"),
 		"Pistol magazines (M4A3, 9x19mm)" = list(/obj/item/ammo_magazine/pistol, 1, 3, "magazines"),
@@ -607,24 +606,30 @@
 			if(data[4] == category)
 				available += name
 
-		if(length(available))
-			// base chance is about 25%
-			var/prob_broken = 0.25
+		if(!length(available))
+			continue
 
-			// For categories with a small number of recipes (<5), we will add a 30-70% chance
-			if(length(available) < 5)
-				prob_broken = rand(30, 70) / 100
+		// base chance of breakage (depending on the number of recipes)
+		// the more recipes, the higher the chance, but the maximum is 60%.
+		var/prob_broken = 0.15 + (length(available) * 0.02)
+		prob_broken = clamp(prob_broken, 0.25, 0.6)
 
-			var/num_broken = round(length(available) * prob_broken)
+		// calculating the number of broken recipes
+		var/num_broken = round(length(available) * prob_broken)
 
-			// guarantee the possibility of at least 1 broken one with a length >0
-			if(num_broken == 0 && prob(50))
-				num_broken = 1
+		// at least one recipe must be broken, if there are very few of them
+		if(num_broken == 0 && prob(80))
+			num_broken = 1
 
-			while(num_broken-- > 0 && length(available) > 0)
-				var/pickname = pick(available)
-				broken_recipes[category] += pickname
-				available -= pickname
+		// sometimes the old mechanism breaks even a little more
+		if(prob(15))
+			num_broken += 1
+
+		// determine which recipes will be broken
+		while(num_broken-- > 0 && length(available) > 0)
+			var/pickname = pick(available)
+			broken_recipes[category] += pickname
+			available -= pickname
 
 /obj/structure/ammunition_fabricator/attack_hand(mob/user)
 	if(!Adjacent(user) || usr.stat)
@@ -635,6 +640,7 @@
 	var/html = "<html><body style='background-color:#1b1b1b; color:#d0d0d0; font-family:Verdana; font-size:13px;'>"
 	html += "<h2 style='text-align:center; color:#f0f0f0;'>Ammunition Fabricator</h2>"
 	html += "<p style='text-align:center;'>Fabrication points: <b>[current_points]</b> / [max_points]</p>"
+
 	html += "<div style='text-align:center; margin-bottom:8px;'>"
 	html += "<a href='?src=\ref[src];tab=ammo' style='color:[current_tab=="ammo"?"#80ff80":"#888"]; text-decoration:none; margin-right:10px;'>Ammo Boxes</a>"
 	html += "<a href='?src=\ref[src];tab=magazines' style='color:[current_tab=="magazines"?"#80ff80":"#888"]; text-decoration:none; margin-right:10px;'>Magazines</a>"
@@ -646,11 +652,17 @@
 	html += "<tr style='color:#aaaaaa;'>"
 	html += "<th align='left'>Item</th><th align='right'>Cost</th><th align='center'>Quantity</th><th align='center'>Action</th></tr>"
 
+	var/total = 0
+	var/broken = 0
+
 	for(var/name in recipes)
 		var/data = recipes[name]
 		var/category = data[4]
 		if(category != current_tab)
 			continue
+		total++
+		if(name in broken_recipes[current_tab])
+			broken++
 
 		var/cost = data[2]
 		var/is_broken = (name in broken_recipes[current_tab])
@@ -674,10 +686,60 @@
 		html += "</tr>"
 
 	html += "</table><hr style='border:1px solid #444;'>"
+
+	// calculation of the degree of damage
+	var/integrity = round(((total - broken) / max(1, total)) * 100)
+	var/status_color = (integrity >= 80 ? "#80ff80" : integrity >= 50 ? "#ffff80" : "#ff6666")
+	html += "<p style='text-align:center; color:[status_color]; font-size:14px;'>System Integrity: [integrity]%"
+	if(broken)
+		html += " | Critical Data Loss Detected"
+	html += "</p>"
+
+	if(fixed_category)
+		html += "<p style='text-align:center; color:#999;'>Repair system used on: <b>[fixed_category]</b> tab</p>"
+
 	html += "<p style='text-align:center;'><i>There is a note visible on the edge of the machine interface screen that says 'refurbished batch number ###'.</i></p>"
 	html += "</body></html>"
 
 	user << browse(html, "window=ammunition_fabricator;size=620x620")
+
+
+/obj/structure/ammunition_fabricator/attackby(obj/item/W, mob/user)
+	if(HAS_TRAIT(W, TRAIT_TOOL_MULTITOOL) || ispath(W, /obj/item/device/multitool))
+		var/category = current_tab
+
+		// prohibit repeated repairs altogether
+		if(fixed_category)
+			to_chat(user, "<span class='warning'>The repair subsystem has already been activated for the [fixed_category] tab. Further access is locked.</span>")
+			return TRUE
+
+		var/list/broken = broken_recipes[category]
+		if(!length(broken))
+			to_chat(user, "<span class='notice'>Nothing appears corrupted in the [category] tab.</span>")
+			return TRUE
+
+		to_chat(user, "<span class='notice'>You start repairing the [category] system...</span>")
+		playsound(src, 'sound/machines/scanning.ogg', 30, TRUE)
+
+		if(!do_after(user, rand(3, 6) SECONDS, INTERRUPT_ALL|BEHAVIOR_IMMOBILE, BUSY_ICON_BUILD))
+			to_chat(user, "<span class='warning'>You stop repairing the fabricator.</span>")
+			return FALSE
+
+		var/n_total = length(broken)
+		var/restore_count = max(1, round(n_total * rand(0.25, 0.5))) // restores 25-50% of broken
+
+		for(var/i = 1 to restore_count)
+			var/which = pick(broken)
+			broken_recipes[category] -= which
+
+		fixed_category = category
+		playsound(src, 'sound/machines/switch.ogg', 35, TRUE)
+		to_chat(user, "<span class='notice'>Repair complete — restored [restore_count] recipe(s) in [category].</span>")
+
+		ui_open(user)
+		return TRUE
+
+	return ..()
 
 /obj/structure/ammunition_fabricator/Topic(href, href_list)
 	. = ..()
