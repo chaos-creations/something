@@ -1,0 +1,306 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/closed/wall/strata_outpost/reinforced,
+/area/scavenger_ship/staging_prep)
+"b" = (
+/obj/structure/machinery/door/airlock/almayer/marine/alpha{
+	dir = 1;
+	req_one_access = null;
+	req_access = null;
+	name = "\improper Squad Preparations"
+	},
+/obj/structure/disposalpipe/segment,
+/obj/structure/machinery/door/firedoor/border_only/almayer{
+	dir = 2
+	},
+/turf/open/floor/corsat/marked,
+/area/scavenger_ship/staging_prep)
+"c" = (
+/obj/structure/machinery/door/airlock/almayer/marine/alpha{
+	dir = 4;
+	req_one_access = null;
+	req_access = null;
+	name = "\improper Squad Preparations"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/machinery/door/firedoor/border_only/almayer,
+/turf/open/floor/corsat/marked,
+/area/scavenger_ship/staging_prep)
+"d" = (
+/turf/closed/wall/strata_outpost,
+/area/scavenger_ship/staging_prep)
+"j" = (
+/turf/closed/wall/strata_outpost/reinforced/hull,
+/area/scavenger_ship/staging_prep)
+"m" = (
+/obj/structure/surface/table/almayer{
+	color = "#EBD9B7"
+	},
+/obj/structure/prop/server_equipment/laptop/closed{
+	pixel_x = -1;
+	pixel_y = 8
+	},
+/obj/item/reagent_container/food/drinks/h_chocolate{
+	pixel_x = -9;
+	pixel_y = -1
+	},
+/obj/item/device/radio/headset{
+	pixel_x = 8;
+	pixel_y = 3
+	},
+/turf/open/floor/prison/darkred2/southwest,
+/area/scavenger_ship/staging_prep)
+"q" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/light/double{
+	dir = 2;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5
+	},
+/obj/item/paper/crumpled/bloody{
+	pixel_x = 9;
+	pixel_y = 4
+	},
+/obj/structure/largecrate/random/mini/small_case{
+	pixel_x = -8;
+	pixel_y = -3;
+	layer = 2.9
+	},
+/obj/item/clothing/head/soft/ferret{
+	pixel_x = -9;
+	pixel_y = -3
+	},
+/turf/open/floor/prison/darkred2,
+/area/scavenger_ship/staging_prep)
+"s" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/weapon/twohanded/folded_metal_chair{
+	pixel_x = 1;
+	pixel_y = 5
+	},
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/prison/darkred2,
+/area/scavenger_ship/staging_prep)
+"t" = (
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/prison/darkred2/southeast,
+/area/scavenger_ship/staging_prep)
+"w" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/pipes/vents/pump_hybrisa/on,
+/obj/item/reagent_container/food/drinks/bottle/vodka{
+	pixel_x = -3;
+	pixel_y = 19
+	},
+/obj/item/paper/crumpled{
+	pixel_x = 10;
+	pixel_y = -8
+	},
+/turf/open/floor/prison/floor_plate/southwest,
+/area/scavenger_ship/staging_prep)
+"z" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_4";
+	pixel_y = 1;
+	pixel_x = -1
+	},
+/turf/open/floor/prison/darkred2/west,
+/area/scavenger_ship/staging_prep)
+"B" = (
+/obj/effect/hybrisa/misc/fake/wire/red{
+	dir = 4;
+	pixel_y = 4
+	},
+/obj/effect/hybrisa/misc/fake/wire/blue{
+	dir = 4;
+	pixel_y = -4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/bedsheetbin{
+	pixel_x = 1;
+	pixel_y = 16
+	},
+/obj/item/tool/hand_labeler{
+	pixel_x = 2;
+	pixel_y = 24
+	},
+/turf/open/floor/plating/plating_catwalk/prison,
+/area/scavenger_ship/staging_prep)
+"C" = (
+/obj/structure/bed/hybrisa/bunkbed3{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/item/device/cassette_tape/aesthetic{
+	pixel_x = -1;
+	pixel_y = 11
+	},
+/turf/open/floor/prison/floor_plate/southwest,
+/area/scavenger_ship/staging_prep)
+"J" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/sign/poster/clf{
+	pixel_x = 29;
+	pixel_y = -2
+	},
+/obj/structure/bed/hybrisa/bunkbed3{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/item/reagent_container/food/drinks/cans/beer,
+/obj/item/reagent_container/food/drinks/cans/beer,
+/obj/item/reagent_container/food/drinks/cans/beer,
+/obj/structure/closet/crate/freezer/cooler{
+	density = 0;
+	pixel_x = -4;
+	pixel_y = 19;
+	layer = 3;
+	anchored = 1
+	},
+/turf/open/floor/prison/floor_plate/southwest,
+/area/scavenger_ship/staging_prep)
+"K" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/crate/explosives,
+/obj/structure/reagent_dispensers/water_cooler/stacks{
+	density = 0;
+	pixel_x = -7;
+	pixel_y = 11
+	},
+/obj/structure/barricade/handrail/strata{
+	dir = 4
+	},
+/turf/open/floor/prison/darkred2/north,
+/area/scavenger_ship/staging_prep)
+"M" = (
+/obj/structure/machinery/disposal/delivery{
+	density = 0;
+	desc = "A pneumatic delivery unit. Sends items to the requisitions.";
+	icon_state = "delivery_engi";
+	name = "Requisitions Delivery Unit";
+	pixel_y = 28;
+	pixel_x = -8
+	},
+/obj/structure/disposaloutlet{
+	density = 0;
+	desc = "An outlet for the pneumatic delivery system.";
+	icon_state = "delivery_outlet";
+	name = "delivery outlet";
+	pixel_x = 7;
+	pixel_y = 28;
+	range = 0
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/surface/table/almayer{
+	color = "#EBD9B7"
+	},
+/obj/structure/machinery/computer/ares_console{
+	desc = "A console built to interface with APOLLO, allowing for 1:1 communication.";
+	dir = 8;
+	name = "APOLLO Interface";
+	pixel_x = 0;
+	pixel_y = 5
+	},
+/turf/open/floor/prison/darkred2/north,
+/area/scavenger_ship/staging_prep)
+"O" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/junction{
+	dir = 2
+	},
+/turf/open/floor/prison/darkred2/east,
+/area/scavenger_ship/staging_prep)
+"S" = (
+/obj/item/device/radio/intercom{
+	freerange = 1;
+	name = "General Listening Channel";
+	pixel_y = 28;
+	layer = 4;
+	pixel_x = 6
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/bed/chair{
+	dir = 4;
+	pixel_y = 4
+	},
+/turf/open/floor/prison/darkred2/northwest,
+/area/scavenger_ship/staging_prep)
+"U" = (
+/obj/structure/disposalpipe/segment,
+/obj/effect/decal/cleanable/flour,
+/turf/open/floor/prison/darkred2/northeast,
+/area/scavenger_ship/staging_prep)
+"Y" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/power/apc/almayer/east,
+/obj/effect/decal/cleanable/generic,
+/turf/open/floor/prison/floor_plate/southwest,
+/area/scavenger_ship/staging_prep)
+
+(1,1,1) = {"
+a
+d
+c
+d
+a
+"}
+(2,1,1) = {"
+a
+S
+z
+m
+a
+"}
+(3,1,1) = {"
+a
+M
+w
+s
+a
+"}
+(4,1,1) = {"
+d
+K
+B
+q
+d
+"}
+(5,1,1) = {"
+b
+U
+O
+t
+b
+"}
+(6,1,1) = {"
+d
+J
+Y
+C
+d
+"}
+(7,1,1) = {"
+j
+j
+j
+j
+j
+"}

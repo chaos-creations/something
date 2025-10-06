@@ -535,30 +535,201 @@
 
 // evil stanki //
 
-/obj/item/ammo_box/rounds/random
-	var/min_random = 100
-	var/max_random = 600
+/obj/structure/ammunition_fabricator
+	name = "ammunition fabricator"
+	desc = "An old ammunition fabricator that runs on a good word, it seems to have a limited number of charges."
+	icon = 'something/icons/missed_stuff.dmi'
+	icon_state = "os_autolathe"
+	density = TRUE
+	anchored = TRUE
 
-/obj/item/ammo_box/rounds/random/Initialize()
+	var/max_points = 3
+	var/current_points = 3
+	var/current_tab = "ammo" // "ammo", "magazines", "shells", "revolver"
+
+	/// Recipe list: [name] = list(type, price, quantity, category)
+	var/list/recipes = list(
+		"Ammo box (10x24mm)" = list(/obj/item/ammo_box/rounds, 3, 1, "ammo"),
+//		"SMG Ammo Box (9mm)" = list(/obj/item/ammo_box/rounds/smg, 3, 1, "ammo"),
+//		"Rifle magazines (M41A)" = list(/obj/item/ammo_magazine/rifle, 1, 2, "magazines"),
+//		"SMG magazines (M39)" = list(/obj/item/ammo_magazine/smg/m39, 1, 2, "magazines"),
+		"Pistol magazines (VP70, 9x19mm)" = list(/obj/item/ammo_magazine/pistol/vp70, 1, 3, "magazines"),
+		"Pistol magazines, Extended (VP70, 9x19mm)" = list(/obj/item/ammo_magazine/pistol/vp70/extended, 1, 2, "magazines"),
+		"Pistol magazines (M4A3, 9x19mm)" = list(/obj/item/ammo_magazine/pistol, 1, 3, "magazines"),
+		"Pistol magazines (M1911, .45)" = list(/obj/item/ammo_magazine/pistol/m1911, 1, 3, "magazines"),
+		"SMG magazines (MAC-15, 9mm)" = list(/obj/item/ammo_magazine/smg/mac15, 1, 3, "magazines"),
+		"SMG magazines, Extended (MAC-15, 9mm)" = list(/obj/item/ammo_magazine/smg/mac15/extended, 1, 3, "magazines"),
+		"Rifle magazines (AR-10, 9mm)" = list(/obj/item/ammo_magazine/rifle/ar10, 1, 2, "magazines"),
+		"Ammo Packet, Slugs (12g)" = list(/obj/item/ammo_magazine/shotgun, 1, 2, "shells"),
+		"Ammo Packet, Buckshot (12g)" = list(/obj/item/ammo_magazine/shotgun/buckshot, 2, 2, "shells"),
+		"Pistol magazines (VP78, 9x19mm)" = list(/obj/item/ammo_magazine/pistol/vp78, 1, 2, "magazines"),
+		"Pistol magazines, Armor-Piercing (VP70, 9x19mm)" = list(/obj/item/ammo_magazine/pistol/vp70/ap, 2, 2, "magazines"),
+		"Pistol magazines, Incendiary (VP70, 9x19mm)" = list(/obj/item/ammo_magazine/pistol/vp70/incendiary, 2, 2, "magazines"),
+		"Revolver speed loader (M44, .44)" = list(/obj/item/ammo_magazine/revolver, 1, 2, "revolver"),
+		"Revolver speed loader, Heavy (M44, .44)" = list(/obj/item/ammo_magazine/revolver/heavy, 2, 2, "revolver"),
+		"SMG magazines (UZI, 9x21mm)" = list(/obj/item/ammo_magazine/smg/uzi, 1, 3, "magazines"),
+		"SMG magazines, Extended (UZI, 9x21mm)" = list(/obj/item/ammo_magazine/smg/uzi/extended, 2, 2, "magazines"),
+		"SMG magazines (Viper 9, 9mm)" = list(/obj/item/ammo_magazine/smg/m39, 1, 2, "magazines"),
+		"SMG magazines, Extended (Viper 9, 9mm)" = list(/obj/item/ammo_magazine/smg/m39/extended, 2, 2, "magazines"),
+		"SMG magazines, Armor-Piercing (Viper 9, 9mm)" = list(/obj/item/ammo_magazine/smg/m39/ap, 2, 2, "magazines"),
+		"Rifle magazines (M16, 5.56x45mm)" = list(/obj/item/ammo_magazine/rifle/m16, 1, 2, "magazines"),
+		"Rifle magazines, Extended (M16, 5.56x45mm)" = list(/obj/item/ammo_magazine/rifle/m16/extended, 2, 2, "magazines"),
+		"Ammo Packet, Flechette (12g)" = list(/obj/item/ammo_magazine/shotgun/flechette, 2, 2, "shells"),
+	)
+
+	var/list/broken_recipes = list()
+
+/obj/structure/ammunition_fabricator/Initialize()
 	. = ..()
-	if(empty)
-		bullet_amount = 0
-	else
-		// here we go
-		bullet_amount = rand(min_random, max_random)
-	// huh?
-	if(bullet_amount > max_bullet_amount)
-		bullet_amount = max_bullet_amount
-	if(bullet_amount < 0)
-		bullet_amount = 0
+	update_broken_recipes()
 
-	update_icon()
+/obj/structure/ammunition_fabricator/proc/glitch_text(text)
+	var/glitched = ""
+	for(var/i = 1, i <= length(text), i++)
+		var/char = copytext(text, i, i+1)
+		if(prob(25))
+			char = pick("#", "%", "&", "~", "@", "¤", "§", "µ", "ø", "þ", "æ", "÷", "×", "¤", "¿", "¡", "¶", "£", "¢", "¥", "¤", "Φ", "Ξ", "╳", "Δ", "Ω")
+		glitched += char
+	return glitched
 
-/obj/item/ammo_box/rounds/random/m16
-	name = "\improper rifle ammunition box (5.56)"
-	desc = "A 5.56mm ammunition box. Used to refill M16 magazines. It comes with a leather strap allowing to wear it on the back."
-	caliber = "5.56mm"
-	default_ammo = /datum/ammo/bullet/rifle/m16
+/obj/structure/ammunition_fabricator/proc/update_broken_recipes()
+	broken_recipes = list(
+		"ammo" = list(),
+		"magazines" = list(),
+		"shells" = list(),
+		"revolver" = list(),
+	)
+
+	for(var/category in broken_recipes)
+		var/list/available = list()
+		for(var/name in recipes)
+			var/data = recipes[name]
+			if(data[4] == category)
+				available += name
+
+		if(length(available))
+			// base chance is about 25%
+			var/prob_broken = 0.25
+
+			// For categories with a small number of recipes (<5), we will add a 30-70% chance
+			if(length(available) < 5)
+				prob_broken = rand(30, 70) / 100
+
+			var/num_broken = round(length(available) * prob_broken)
+
+			// guarantee the possibility of at least 1 broken one with a length >0
+			if(num_broken == 0 && prob(50))
+				num_broken = 1
+
+			while(num_broken-- > 0 && length(available) > 0)
+				var/pickname = pick(available)
+				broken_recipes[category] += pickname
+				available -= pickname
+
+/obj/structure/ammunition_fabricator/attack_hand(mob/user)
+	if(!Adjacent(user) || usr.stat)
+		return
+	ui_open(user)
+
+/obj/structure/ammunition_fabricator/proc/ui_open(mob/user)
+	var/html = "<html><body style='background-color:#1b1b1b; color:#d0d0d0; font-family:Verdana; font-size:13px;'>"
+	html += "<h2 style='text-align:center; color:#f0f0f0;'>Ammunition Fabricator</h2>"
+	html += "<p style='text-align:center;'>Fabrication points: <b>[current_points]</b> / [max_points]</p>"
+	html += "<div style='text-align:center; margin-bottom:8px;'>"
+	html += "<a href='?src=\ref[src];tab=ammo' style='color:[current_tab=="ammo"?"#80ff80":"#888"]; text-decoration:none; margin-right:10px;'>Ammo Boxes</a>"
+	html += "<a href='?src=\ref[src];tab=magazines' style='color:[current_tab=="magazines"?"#80ff80":"#888"]; text-decoration:none; margin-right:10px;'>Magazines</a>"
+	html += "<a href='?src=\ref[src];tab=shells' style='color:[current_tab=="shells"?"#80ff80":"#888"]; text-decoration:none; margin-right:10px;'>Shells</a>"
+	html += "<a href='?src=\ref[src];tab=revolver' style='color:[current_tab=="revolver"?"#80ff80":"#888"]; text-decoration:none;'>Speed Loaders</a>"
+	html += "</div><hr style='border:1px solid #444;'>"
+
+	html += "<table style='width:100%; border-collapse:collapse;'>"
+	html += "<tr style='color:#aaaaaa;'>"
+	html += "<th align='left'>Item</th><th align='right'>Cost</th><th align='center'>Quantity</th><th align='center'>Action</th></tr>"
+
+	for(var/name in recipes)
+		var/data = recipes[name]
+		var/category = data[4]
+		if(category != current_tab)
+			continue
+
+		var/cost = data[2]
+		var/is_broken = (name in broken_recipes[current_tab])
+
+		html += "<tr style='border-bottom:1px solid #333;'>"
+		if(is_broken)
+			var/glitched = glitch_text(name)
+			var/glitch_status = glitch_text("(ERROR)")
+			html += "<td style='color:#993333;'>[glitched]</td>"
+			html += "<td align='right'>???</td>"
+			html += "<td align='center'><span style='color:#663333;'>[glitch_status]</span></td>"
+			html += "<td align='center'><span style='color:#663333;'>N/A</span></td>"
+		else
+			html += "<td>[name]</td>"
+			html += "<td align='right'>[cost]</td>"
+			html += "<td align='center'>[data[3]]</td>"
+			if(current_points >= cost)
+				html += "<td align='center'><a href='?src=\ref[src];make=[name]' style='color:#80ff80; text-decoration:none;'>Fabricate</a></td>"
+			else
+				html += "<td align='center'><span style='color:#888;'>Insufficient</span></td>"
+		html += "</tr>"
+
+	html += "</table><hr style='border:1px solid #444;'>"
+	html += "<p style='text-align:center;'><i>There is a note visible on the edge of the machine interface screen that says 'refurbished batch number ###'.</i></p>"
+	html += "</body></html>"
+
+	user << browse(html, "window=ammunition_fabricator;size=620x620")
+
+/obj/structure/ammunition_fabricator/Topic(href, href_list)
+	. = ..()
+	if(href_list["tab"])
+		current_tab = href_list["tab"]
+		ui_open(usr)
+		return
+
+	if(href_list["make"])
+		var/choice = href_list["make"]
+		var/list/data = recipes[choice]
+		if(!data)
+			return
+
+		var/category = data[4]
+		if(choice in broken_recipes[category])
+			to_chat(usr, "<span class='warning'>ERROR: Fabrication data corrupted — cannot print [choice].</span>")
+			return
+
+		var/typepath = data[1]
+		var/cost = data[2]
+		var/amount = data[3]
+
+		if(current_points < cost)
+			to_chat(usr, "<span class='warning'>Not enough fabrication points!</span>")
+			return
+
+		var/confirm = alert(usr, "Fabricate [choice] for [cost] point(s)?", "Confirm Fabrication", "Yes", "No")
+		if(confirm != "Yes")
+			return
+
+		current_points -= cost
+
+		to_chat(usr, "<span class='notice'>Fabricator is printing [choice]...</span>")
+		playsound(src, 'sound/machines/print.ogg', 25, TRUE)
+		sleep(rand(30, 60)) // sleep
+
+		playsound(src, 'sound/machines/print_off.ogg', 25, TRUE)
+		for(var/i in 1 to amount)
+			var/obj/item/I = new typepath(get_turf(src))
+			if(istype(I, /obj/item/ammo_magazine))
+				var/obj/item/ammo_magazine/M = I
+				M.current_rounds = rand(5, M.max_rounds)
+				M.update_icon()
+			else if(istype(I, /obj/item/ammo_box/rounds))
+				var/obj/item/ammo_box/rounds/B = I
+				B.bullet_amount = rand(100, B.max_bullet_amount)
+				B.update_icon()
+
+		to_chat(usr, "<span class='notice'>The fabricator produces [amount]x [choice].</span>")
+		to_chat(usr, "<span class='notice'>Fabricator points left: [current_points]/[max_points]</span>")
+		ui_open(usr)
 
 // keys //
 
@@ -585,6 +756,61 @@
 	desc = "A data disk containing repair protocols for synthetic units. It appears to be encrypted with proprietary Weyland-Yutani software."
 	icon = 'icons/obj/items/disk.dmi'
 	icon_state = "disk_2"
+
+// army scav //
+
+/datum/equipment_preset/usa/sapper/scav
+	name = "Army Scav"
+	assignment = JOB_ARMY_ENGI
+	rank = JOB_ARMY_ENGI
+	paygrades = list(PAY_SHORT_SCAV = JOB_PLAYTIME_TIER_0)
+	role_comm_title = "Scav"
+	flags = EQUIPMENT_PRESET_EXTRA
+	skills = /datum/skills/sapper
+	origin_override = ORIGIN_USCM
+
+/datum/equipment_preset/usa/sapper/scav/load_name(mob/living/carbon/human/new_human, randomise)
+	new_human.gender = FEMALE
+	var/datum/preferences/A = new
+	A.randomize_appearance(new_human)
+	new_human.r_hair = 48
+	new_human.g_hair = 38
+	new_human.b_hair = 18
+	new_human.r_eyes = 40
+	new_human.g_eyes = 61
+	new_human.b_eyes = 39
+	new_human.h_style = "Ponytail 4"
+	new_human.skin_color = "cmp1"
+	new_human.change_real_name(new_human, "Ines Bormann")
+	new_human.age = rand(20,35)
+
+/datum/equipment_preset/usa/sapper/scav/load_gear(mob/living/carbon/human/new_human)
+	new_human.equip_to_slot_or_del(new headset_type(new_human), WEAR_L_EAR)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/marine/rto/army(new_human), WEAR_HEAD)
+	add_army_helmet_accessory(new_human)
+	add_army_helmet_eyewear(new_human)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/marine/standard/army(new_human), WEAR_BODY)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/gloves/marine(new_human), WEAR_HANDS)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/glasses/sunglasses/big/orange(new_human), WEAR_EYES)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/marine/army/knife(new_human), WEAR_FEET)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/patch/army(new_human), WEAR_ACCESSORY)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/patch/army/infantry(new_human), WEAR_ACCESSORY)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/armband/engine(new_human), WEAR_ACCESSORY)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/storage/tool_webbing/equipped(new_human), WEAR_ACCESSORY)
+
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/marine/medium/rto/army/medium(new_human), WEAR_JACKET)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/storage/webbing/m3/small/army/alt(new_human), WEAR_ACCESSORY)
+
+	new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/shotgun/pump/stock(new_human), WEAR_J_STORE)
+
+	new_human.equip_to_slot_or_del(new /obj/item/storage/belt/shotgun/full/random(new_human), WEAR_WAIST)
+
+	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/construction/full_barbed_wire(new_human), WEAR_L_STORE)
+	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/firstaid/full/alternate(new_human), WEAR_R_STORE)
+	new_human.equip_to_slot_or_del(new /obj/item/storage/backpack/marine/engineerpack/welder_chestrig(new_human), WEAR_BACK)
+	new_human.equip_to_slot_or_del(new /obj/item/storage/box/flare(new_human), WEAR_IN_BACK)
+	new_human.equip_to_slot_or_del(new /obj/item/storage/toolkit/full(new_human), WEAR_IN_BACK)
+	spawn_army_mask_items(new_human)
 
 // unused stuff //
 

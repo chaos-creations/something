@@ -30,117 +30,78 @@
 				"}
 
 /datum/fluff_email/nomad/mission1
-	title = "Конкурент"
+	title = "XX-121"
 	entry_text = {"<html>
 	<head>
 	<style>
-		body { font-family: 'Verdana', sans-serif; color:#222; background:#f7f6f3; font-size:13px; padding:10px; }
-		.panel { border:1px solid #cfcfcf; border-radius:6px; padding:10px; background:linear-gradient(#ffffff,#f0efec); box-shadow:0 2px 4px rgba(0,0,0,0.04); }
-		h1 { margin:0 0 6px 0; font-size:16px; color:#2b2b2b; }
-		.meta { font-size:11px; color:#666; margin-bottom:8px; }
-		.row { display:flex; gap:8px; }
-		.col { flex:1; }
-		.field { background:#fbfbfb; border:1px solid #e6e6e6; padding:8px; border-radius:4px; margin-bottom:8px; }
-		.field b { display:block; margin-bottom:4px; color:#333; }
-		.reward { font-weight:700; color:#0b6b3a; }
-		.warn { color:#a33; font-weight:600; }
-		.muted { color:#777; font-size:12px; }
-		.actions { margin-top:8px; text-align:right; }
-		.btn { display:inline-block; padding:8px 12px; border-radius:4px; border:1px solid #bdbdbd; cursor:default; margin-left:6px; background:#fff; font-weight:600; }
-		.btn-accept { background:linear-gradient(#e8fff0,#dff7ea); border-color:#a7d9b0; color:#0a5d37; }
-		.btn-decline { background:linear-gradient(#fff5f5,#fff0f0); border-color:#e1a3a3; color:#8a2b2b; }
-		.small { font-size:11px; color:#6b6b6b; }
+		body { font-family: 'Verdana', sans-serif; color:#eaeaea; background:#071018; font-size:12px; padding:10px; }
+		.card { background: linear-gradient(90deg,#071018,#0b1a22); border:1px solid #163040; padding:10px; border-radius:6px; }
+		h1 { font-size:14px; margin:0 0 6px 0; color:#8be9fd; }
+		.meta { font-size:11px; color:#9fb7c7; margin-bottom:8px; }
+		.section { margin:8px 0; padding:6px; background:#071a16; border-radius:4px; border:1px solid #0f3026; }
+		.danger { color:#ff8b6b; font-weight:bold; }
+		.code { font-family:monospace; font-size:12px; color:#b8f2d6; background:#051210; padding:6px; border-radius:4px; }
+		.footer { font-size:11px; color:#9aaabb; margin-top:8px; }
+		.important { color:#ffd479; font-weight:600; }
 	</style>
 	</head>
 	<body>
-	<div class='panel'>
-		<h1>CONTRACT · «КОНКУРЕНТ»</h1>
-		<div class='meta'>Client: Confidential (local influencer) · Location: Hybrisa Prospera — Casino District</div>
+	<div class='card'>
+		<h1>ХХ-121 · Биологические данные</h1>
+		<div class='meta'>SOURCE: TWE / BOSENMORI ARCHIVE · SECTOR: BOSENMORI BASHO · SIG: 0xOZE-102</div>
 
-		<div class='field'>
-			<b>BRIEF</b>
-			На этой планете есть город Hybrisa Prospera. Раньше он держался дольше других, но пал. Сейчас здесь бродят мародёры и «Дикие». Клиент просит обеспечить «чистку» — убрать конкурирующие группы в местном казино.
+		<div class='section'>
+			<b>OBJECTIVE:</b> Необходимо "конфисковать" биологические исследования ХХ-121, которые потребовались заказчику.<br>
+			<small>Под биологическими исследованиями подразумеваются любые обьекты которые относятся к ХХ-121.</small>
 		</div>
 
-		<div class='row'>
-			<div class='col field'>
-				<b>TASK</b>
-				Добраться до казино «Чёрный Жемчуг» и нейтрализовать всех, кого встретите внутри. Ожидается плотная зачистка помещений и возможные перестрелки с бандитами и контрагентами.
-			</div>
-			<div class='col field'>
-				<b>REWARD</b>
-				<div class='reward'>40 RP (вся сумма выдается лидеру отряда)</div>
-				<div class='small'>Оплата производится после подтверждения выполнения заказчиком.</div>
-			</div>
+		<div class='section'>
+			<b>CONTRACTOR LOG:</b>
+			<p class='small'><i>Чтобы определить местоположение лаборатории в колонии, вам необходимо проследить за одним из его работников. Один из них был замечен за частым навещенем одного и того же места, данное место будет отмечено на карте. </i></p>
 		</div>
 
-		<div class='field'>
-			<b>RISK ASSESSMENT</b>
-			<div class='muted'>Высокий риск: засадные группы «Диких», возможны трофейные мины и патрули. Рекомендуется план отхода.</div>
+		<div class='section'>
+			<b>REWARD:</b> За каждый обьект связанный с ХХ-121 - 10 RP.
 		</div>
 
-		<div class='field'>
-			<b>NOTES</b>
-			Клиент не раскрывает личность. Платёж — наличными через доверенное лицо на борту «Скитальца». Действия на территории корпорации или их охраны повлекут штраф и аннулирование контракта.
-		</div>
-
-	</div>
 	</body>
 	</html>
 	"}
 
 /datum/fluff_email/nomad/mission2
-	title = "Ягуар"
+	title = "Буровые установки"
 	entry_text = {"<html>
 	<head>
 	<style>
-		body { font-family:'Verdana', sans-serif; color:#eef0f1; background:#0f1213; font-size:13px; padding:10px; }
-		.panel { border-radius:6px; padding:12px; background:linear-gradient(#121416,#0b0d0e); border:1px solid #1f2324; box-shadow:0 2px 6px rgba(0,0,0,0.6); }
-		h1 { margin:0 0 6px 0; font-size:16px; color:#ffd18a; }
-		.meta { font-size:11px; color:#9aa0a2; margin-bottom:8px; }
-		.field { padding:8px; border-radius:4px; margin-bottom:8px; background:#0d1112; border:1px solid #161a1b; }
-		.bounty { color:#ffd18a; font-weight:700; }
-		.danger { color:#ff8b8b; font-weight:600; }
-		.small { font-size:11px; color:#98a0a2; }
-		.actions { text-align:right; margin-top:8px; }
-		.btn { display:inline-block; padding:7px 12px; border-radius:4px; border:1px solid #2a2e2f; cursor:default; margin-left:6px; background:#0f1415; color:#dfe6e7; font-weight:600; }
-		.btn-accept { background:#183226; border-color:#2f5b3f; color:#bff0c9; }
-		.btn-decline { background:#2b0f0f; border-color:#5a2a2a; color:#ffbfbf; }
+		body { font-family: 'Verdana', sans-serif; color:#eaeaea; background:#071018; font-size:12px; padding:10px; }
+		.card { background: linear-gradient(90deg,#071018,#0b1a22); border:1px solid #163040; padding:10px; border-radius:6px; }
+		h1 { font-size:14px; margin:0 0 6px 0; color:#8be9fd; }
+		.meta { font-size:11px; color:#9fb7c7; margin-bottom:8px; }
+		.section { margin:8px 0; padding:6px; background:#071a16; border-radius:4px; border:1px solid #0f3026; }
+		.danger { color:#ff8b6b; font-weight:bold; }
+		.code { font-family:monospace; font-size:12px; color:#b8f2d6; background:#051210; padding:6px; border-radius:4px; }
+		.footer { font-size:11px; color:#9aaabb; margin-top:8px; }
+		.important { color:#ffd479; font-weight:600; }
 	</style>
 	</head>
 	<body>
-	<div class='panel'>
-		<h1>BOUNTY · «ЯГУАР»</h1>
-		<div class='meta'>Target: Ex-military marksman (alias "Jaguar") · Zone: Hybrisa Prospera — residential/rooftops</div>
+	<div class='card'>
+		<h1>Буровые установки</h1>
+		<div class='meta'>SOURCE: TWE / BOSENMORI ARCHIVE · SECTOR: BOSENMORI BASHO · SIG: 0xHYX-22</div>
 
-		<div class='field'>
-			<b>PROFILE</b>
-			Jaguar — бывший военнослужащий, прозванный так за привычку перемещаться бегом и использовать высоты. Исключительно меток, мастер скрытности. Обвинён в убийстве сына местной банды — теперь они ищут его смерть.
+		<div class='section'>
+			<b>OBJECTIVE:</b>наши запасы буровых установок иссякли и их необходимо пополнить, для этого вы заберёте уже собранные на колонии.<br>
+			<small>Disk believed stored in secured cache within Lab Complex 12 (W-Y logistic annex). Last seen after supply raid, unknown custody.</small>
 		</div>
 
-		<div class='field'>
-			<b>TASK</b>
-			Найти и ликвидировать цель. Ожидается, что цель не будет оставаться на одном месте, использует снайперские позиции и покидные маршруты. Рекомендуется отряд с наблюдением и разведкой.
+		<div class='section'>
+			<b>CONTRACTOR LOG:</b>
+			<p class='small'><i>На колонии несколько складов, чтобы определить точное местоположение буров необходимо добраться до администрации в колонии и определить их местоположение с помощью карты. Администрация будет отмечена на карте.</i></p>
+		</div>
+		<div class='section'>
+			<b>REWARD:</b> За одну буровую установку 3 LC (QM), дополнительные буровые установки - 8 RP за каждую.
 		</div>
 
-		<div class='row' style='display:flex; gap:8px;'>
-			<div style='flex:1' class='field'>
-				<b>REWARD</b>
-				<div class='bounty'>3 LC(QM)</div>
-				<div class='small'>Доп. бонусы обсуждаются отдельно при успешной доставке полной инвентаризации цели.</div>
-			</div>
-			<div style='width:180px' class='field'>
-				<b>THREAT</b>
-				<div class='danger'>High — trained marksman, rooftop ambushes, possible corporate trackers.</div>
-			</div>
-		</div>
-
-		<div class='field'>
-			<b>EXTRA</b>
-			Цель может иметь при себе документы/хранилище с данными — сдача этого материала может принести дополнительную плату.
-		</div>
-
-	</div>
 	</body>
 	</html>
 	"}

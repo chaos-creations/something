@@ -95,6 +95,10 @@
 	pixel_x = -10;
 	pixel_y = 16
 	},
+/obj/item/defenses/handheld/sentry/flamer/wy{
+	pixel_x = 14;
+	pixel_y = 15
+	},
 /turf/open/shuttle/vehicle/floor_1_3,
 /area/interior/vehicle/apc)
 "ff" = (
@@ -768,27 +772,23 @@
 /obj/structure/surface/table/almayer{
 	color = "#8B9490"
 	},
-/obj/item/attachable/reflex/upp{
+/obj/effect/decal/cleanable/dirt,
+/obj/item/weapon/gun/rifle/sharp{
+	pixel_x = -1;
+	pixel_y = 15
+	},
+/obj/item/ammo_magazine/rifle/sharp/explosive{
 	pixel_x = -7;
-	pixel_y = 13
-	},
-/obj/item/attachable/burstfire_assembly{
-	pixel_x = 7;
-	pixel_y = 13
-	},
-/obj/item/attachable/stock/rifle{
-	pixel_x = -12;
 	pixel_y = 3
 	},
-/obj/item/attachable/verticalgrip{
-	pixel_x = 4;
-	pixel_y = 4
+/obj/item/ammo_magazine/rifle/sharp/explosive{
+	pixel_x = 0;
+	pixel_y = 1
 	},
-/obj/item/attachable/lasersight/upp{
-	pixel_x = 6;
-	pixel_y = 0
+/obj/item/ammo_magazine/rifle/sharp/explosive{
+	pixel_x = 7;
+	pixel_y = -1
 	},
-/obj/effect/decal/cleanable/dirt,
 /turf/open/shuttle/vehicle/floor_1_4,
 /area/interior/vehicle/apc)
 "Px" = (

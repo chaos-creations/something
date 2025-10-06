@@ -39,6 +39,12 @@
 /obj/structure/blocker/invisible_wall,
 /turf/open/floor/corsat,
 /area/scavenger_ship/hangar_hallway)
+"aaf" = (
+/obj/effect/landmark/nightmare{
+	insert_tag = "prep_other"
+	},
+/turf/closed/wall/strata_outpost/reinforced,
+/area/scavenger_ship/staging_prep)
 "aag" = (
 /obj/structure/machinery/cm_vending/gear/extraction{
 	pixel_y = -32;
@@ -91,10 +97,17 @@
 	},
 /turf/open/floor/prison/darkredfull2,
 /area/scavenger_ship/staging_prep)
+"aak" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7;
+	dir = 1
+	},
+/turf/open/floor/prison,
+/area/scavenger_ship/hangar_deck)
 "aaE" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2-4";
-	color = null
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy4{
+	plane = -7
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/logistics_engo)
@@ -349,11 +362,6 @@
 /obj/structure/barricade/handrail/strata{
 	dir = 1
 	},
-/obj/structure/cable/heavyduty{
-	icon_state = "4-8";
-	color = null;
-	pixel_y = -6
-	},
 /obj/structure/cable/white{
 	color = "#9f8700";
 	icon_state = "4-8";
@@ -362,6 +370,11 @@
 	pixel_y = 7
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	dir = 4;
+	plane = -7;
+	pixel_y = -6
+	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/hangar_synth)
 "acb" = (
@@ -371,17 +384,17 @@
 /obj/structure/barricade/handrail/strata{
 	dir = 4
 	},
-/obj/structure/cable/heavyduty{
-	icon_state = "2-8";
-	pixel_y = -6;
-	color = null
-	},
 /obj/structure/cable/white{
 	color = "#9f8700";
 	icon_state = "4-8";
 	layer = 5;
 	level = 2;
 	pixel_y = 7
+	},
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy3{
+	dir = 2;
+	plane = -7;
+	pixel_y = -6
 	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/hangar_synth)
@@ -399,12 +412,6 @@
 /obj/structure/barricade/handrail/strata{
 	dir = 8
 	},
-/obj/structure/cable/heavyduty{
-	icon_state = "2-4";
-	color = null;
-	layer = 3;
-	pixel_y = -6
-	},
 /obj/structure/cable/white{
 	color = "#007740";
 	icon_state = "4-8";
@@ -412,16 +419,16 @@
 	level = 2;
 	pixel_y = 7
 	},
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy3{
+	dir = 1;
+	plane = -7;
+	pixel_y = -6
+	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/hangar_synth)
 "acf" = (
 /obj/structure/barricade/handrail/strata{
 	dir = 1
-	},
-/obj/structure/cable/heavyduty{
-	icon_state = "4-8";
-	color = null;
-	pixel_y = -6
 	},
 /obj/structure/cable/white{
 	color = "#007740";
@@ -431,6 +438,11 @@
 	pixel_y = 7
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	dir = 4;
+	plane = -7;
+	pixel_y = -6
+	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/hangar_synth)
 "acg" = (
@@ -1294,11 +1306,9 @@
 	pixel_y = -7;
 	pixel_x = -8
 	},
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null;
-	pixel_x = 2;
-	pixel_y = 0
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7;
+	pixel_x = 2
 	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/hangar_synth)
@@ -1451,11 +1461,9 @@
 	pixel_y = -7;
 	pixel_x = -8
 	},
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null;
-	pixel_x = 2;
-	pixel_y = 0
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7;
+	pixel_x = 2
 	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/hangar_synth)
@@ -3110,16 +3118,11 @@
 /obj/structure/prop/hybrisa/Factory/Conveyor_belt{
 	layer = 2.8
 	},
-/obj/structure/prop/invuln{
-	icon = 'something/icons/missed_stuff.dmi';
-	icon_state = "os_autolathe";
-	dir = 4;
-	name = "\improper UA 512-M mini sentry";
-	pixel_x = 15;
-	pixel_y = 7;
-	layer = 3
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/ammunition_fabricator{
+	pixel_x = 15;
+	pixel_y = 7
+	},
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/staging_workshop)
 "ahv" = (
@@ -3817,20 +3820,15 @@
 /obj/structure/prop/hybrisa/Factory/Conveyor_belt{
 	layer = 2.8
 	},
-/obj/structure/prop/invuln{
-	icon = 'something/icons/missed_stuff.dmi';
-	icon_state = "os_autolathe";
-	dir = 4;
-	name = "\improper UA 512-M mini sentry";
-	pixel_x = 15;
-	pixel_y = 7;
-	layer = 3
-	},
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/prop/invuln/lattice_prop{
 	icon_state = "lattice2";
 	pixel_x = 0;
 	pixel_y = 20
+	},
+/obj/structure/ammunition_fabricator{
+	pixel_x = 15;
+	pixel_y = 7
 	},
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/staging_workshop)
@@ -3902,18 +3900,13 @@
 /obj/structure/prop/hybrisa/Factory/Conveyor_belt{
 	layer = 2.8
 	},
-/obj/structure/prop/invuln{
-	icon = 'something/icons/missed_stuff.dmi';
-	icon_state = "os_autolathe";
-	dir = 4;
-	name = "\improper UA 512-M mini sentry";
-	pixel_x = 15;
-	pixel_y = 7;
-	layer = 3
-	},
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/prop/hybrisa/misc/graffiti/graffiti4{
 	pixel_y = -2
+	},
+/obj/structure/ammunition_fabricator{
+	pixel_x = 15;
+	pixel_y = 7
 	},
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/staging_workshop)
@@ -5115,9 +5108,9 @@
 	dir = 1
 	},
 /obj/structure/platform/strata/metal,
-/obj/structure/cable/heavyduty{
-	icon_state = "4-8";
-	color = null;
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7;
+	dir = 4;
 	pixel_y = -5
 	},
 /turf/open/floor/corsat,
@@ -5127,16 +5120,16 @@
 	dir = 1
 	},
 /obj/structure/platform/strata/metal,
-/obj/structure/cable/heavyduty{
-	icon_state = "4-8";
-	color = null;
-	pixel_y = -5
-	},
 /obj/structure/machinery/light/double{
 	dir = 2;
 	light_color = "#e7c0a4";
 	light_power = 0.8;
 	light_range = 5
+	},
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7;
+	dir = 4;
+	pixel_y = -5
 	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/staging_maint)
@@ -5148,9 +5141,9 @@
 /obj/structure/platform/strata/metal{
 	dir = 4
 	},
-/obj/structure/cable/heavyduty{
-	icon_state = "4-8";
-	color = null;
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7;
+	dir = 4;
 	pixel_y = -5
 	},
 /turf/open/floor/corsat,
@@ -5176,9 +5169,9 @@
 /obj/structure/platform/strata/metal{
 	dir = 8
 	},
-/obj/structure/cable/heavyduty{
-	icon_state = "4-8";
-	color = null;
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7;
+	dir = 4;
 	pixel_y = -5
 	},
 /turf/open/floor/corsat,
@@ -6264,9 +6257,9 @@
 /turf/open/floor/prison/cell_stripe/north,
 /area/scavenger_ship/logistics_elevator)
 "arB" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2-8";
-	color = null
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy4{
+	dir = 1;
+	plane = -7
 	},
 /turf/open/floor/prison,
 /area/scavenger_ship/hangar_deck)
@@ -6319,15 +6312,14 @@
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/ssv_asclepius)
 "atU" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
-	},
 /obj/structure/machinery/light/double{
 	dir = 4;
 	light_color = "#e7c0a4";
 	light_power = 0.8;
 	light_range = 5
+	},
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
 	},
 /turf/open/floor/prison,
 /area/scavenger_ship/hangar_deck)
@@ -6477,7 +6469,9 @@
 	dir = 4;
 	pixel_y = 0
 	},
-/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
+	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_bay)
 "aHq" = (
@@ -6527,10 +6521,6 @@
 	dir = 8;
 	layer = 3
 	},
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
-	},
 /obj/structure/platform/strata/metal{
 	dir = 1
 	},
@@ -6538,6 +6528,9 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
+	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_hallway)
 "aIg" = (
@@ -6560,7 +6553,6 @@
 /turf/open/floor/prison/darkred2,
 /area/scavenger_ship/hangar_storbays)
 "aJk" = (
-/obj/structure/surface/table/almayer,
 /obj/item/ammo_box/magazine/nailgun{
 	pixel_x = -6;
 	pixel_y = 2
@@ -6588,6 +6580,9 @@
 /obj/item/ammo_magazine/smg/nailgun{
 	pixel_x = 12;
 	pixel_y = -3
+	},
+/obj/structure/surface/table/almayer{
+	color = "#8B9490"
 	},
 /turf/open/floor/prison/floor_plate/southwest,
 /area/scavenger_ship/staging_requisition)
@@ -7123,12 +7118,7 @@
 /obj/structure/platform/strata/metal{
 	dir = 8
 	},
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
-	},
 /obj/structure/platform/strata/metal,
-/obj/effect/decal/cleanable/dirt,
 /obj/structure/prop/invuln/lattice_prop{
 	icon_state = "lattice3";
 	pixel_y = 14;
@@ -7150,6 +7140,10 @@
 	pixel_y = 3
 	},
 /obj/structure/pipes/standard/tank/carbon_dioxide,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
+	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_hallway)
 "bbY" = (
@@ -7194,10 +7188,6 @@
 	dir = 4;
 	layer = 3
 	},
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
-	},
 /obj/structure/platform/strata/metal{
 	dir = 1
 	},
@@ -7207,6 +7197,9 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/camera/autoname/golden_arrow{
 	dir = 4
+	},
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
 	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_hallway)
@@ -7243,11 +7236,11 @@
 	name = "\improper Weapons Bay One Blast Door";
 	id = "weaponsbay1"
 	},
-/obj/structure/cable/heavyduty{
-	icon_state = "4-8";
-	color = null
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7;
+	dir = 4
+	},
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/hangar_storbays)
 "bfA" = (
@@ -7423,15 +7416,15 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/service_hallway)
 "bnr" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-8";
-	color = null
-	},
 /obj/structure/barricade/handrail/wire{
 	dir = 2
 	},
 /obj/structure/barricade/handrail/wire{
 	dir = 4
+	},
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy3{
+	dir = 8;
+	plane = -7
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/logistics_engo)
@@ -8292,7 +8285,9 @@
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/service_janitor)
 "ccg" = (
-/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy4,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy4{
+	plane = -7
+	},
 /obj/structure/prop/invuln/overhead/flammable_pipe/fly{
 	dir = 8;
 	pixel_y = 6
@@ -8517,12 +8512,6 @@
 /area/scavenger_ship/residential_gym)
 "cjR" = (
 /obj/structure/roof/cargocrane_tracks/vertical,
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2-8";
-	pixel_y = -5;
-	color = null;
-	pixel_x = 5
-	},
 /turf/open/floor/prison/floor_plate/southwest,
 /area/scavenger_ship/hangar_hallway)
 "ckk" = (
@@ -8693,12 +8682,6 @@
 /area/scavenger_ship/logistics_engo)
 "cqN" = (
 /obj/structure/platform/strata/metal,
-/obj/structure/cable/heavyduty{
-	icon_state = "4-8";
-	color = null;
-	pixel_x = 13;
-	pixel_y = -6
-	},
 /obj/structure/prop/invuln/overhead_pipe{
 	dir = 4;
 	pixel_x = -8;
@@ -8709,14 +8692,20 @@
 	pixel_y = 7;
 	pixel_x = -7
 	},
-/obj/structure/cable/heavyduty{
-	icon_state = "4-8";
-	color = null;
-	pixel_x = -11;
-	pixel_y = -6
-	},
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	pixel_x = 16;
+	pixel_y = -6;
+	dir = 4;
+	plane = -7
+	},
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	pixel_x = -8;
+	pixel_y = -6;
+	dir = 4;
+	plane = -7
+	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/hangar_synth)
 "cqP" = (
@@ -8859,15 +8848,14 @@
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/cryo_lockers)
 "czg" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
-	},
 /obj/structure/machinery/light/double{
 	dir = 8;
 	light_color = "#e7c0a4";
 	light_power = 0.8;
 	light_range = 5
+	},
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
 	},
 /turf/open/floor/prison,
 /area/scavenger_ship/hangar_deck)
@@ -9313,17 +9301,12 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_engo)
 "cWF" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
-	},
 /obj/structure/platform/strata/metal{
 	dir = 1
 	},
 /obj/structure/platform/strata/metal{
 	dir = 8
 	},
-/obj/effect/decal/cleanable/dirt,
 /obj/structure/prop/invuln/overhead_pipe{
 	dir = 10;
 	pixel_x = -2
@@ -9333,6 +9316,10 @@
 	icon_state = "lattice11";
 	pixel_x = 2
 	},
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
+	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_hallway)
 "cXM" = (
@@ -9437,7 +9424,9 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/obj/structure/surface/table/almayer,
+/obj/structure/surface/table/almayer{
+	color = "#8B9490"
+	},
 /turf/open/floor/prison/darkbrownfull2,
 /area/scavenger_ship/staging_requisition)
 "ded" = (
@@ -9537,7 +9526,7 @@
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
 	},
-/obj/item/holder/rat/white/freelancer,
+/mob/living/simple_animal/mouse/rat/white/freelancer,
 /turf/open/floor/hybrisa/wood/greywood,
 /area/scavenger_ship/logistics_maint)
 "dhj" = (
@@ -9624,11 +9613,11 @@
 /turf/open/floor/prison/darkbrown2/east,
 /area/scavenger_ship/logistics_bay)
 "dkz" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "2-4";
-	color = null
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy3{
+	dir = 1;
+	plane = -7
+	},
 /turf/open/floor/prison,
 /area/scavenger_ship/hangar_deck)
 "dkT" = (
@@ -9741,9 +9730,9 @@
 /turf/open/floor/prison/darkbrownfull2,
 /area/scavenger_ship/hangar_hallway)
 "dnd" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2-4";
-	color = null
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy4{
+	dir = 2;
+	plane = -7
 	},
 /turf/open/floor/prison,
 /area/scavenger_ship/hangar_storbays)
@@ -9756,11 +9745,11 @@
 /turf/open/floor/dark2,
 /area/scavenger_ship/residential_bridge)
 "dno" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "4-8";
-	color = null
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7;
+	dir = 4
+	},
 /turf/open/floor/prison,
 /area/scavenger_ship/hangar_deck)
 "dnq" = (
@@ -10049,16 +10038,14 @@
 	icon_state = "lattice3";
 	pixel_y = 20
 	},
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null;
-	pixel_x = 16
-	},
 /obj/effect/hybrisa/misc/fake/pipes/pipe2{
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/liquid_fuel,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	pixel_x = 16
+	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/hangar_hallway)
 "dzv" = (
@@ -10739,11 +10726,12 @@
 	name = "\improper Fuel Pump";
 	layer = 4
 	},
-/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy1{
-	dir = 1
-	},
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy1{
+	plane = -7;
+	dir = 1
+	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_bay)
 "ebx" = (
@@ -10928,7 +10916,9 @@
 	dir = 4;
 	pixel_y = 0
 	},
-/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
+	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_bay)
@@ -10948,10 +10938,6 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/service_hallway)
 "eko" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
-	},
 /obj/effect/decal/cleanable/hybrisa/trash{
 	icon_state = "trash_2";
 	pixel_y = 3;
@@ -10962,6 +10948,9 @@
 	},
 /obj/structure/sign/safety/bulkhead_door{
 	pixel_x = 34
+	},
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/hangar_deck)
@@ -11034,15 +11023,15 @@
 /turf/open/floor/prison/darkbrown2/north,
 /area/scavenger_ship/hangar_storbays)
 "emV" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-4";
-	color = null
-	},
 /obj/structure/barricade/handrail/wire{
 	dir = 2
 	},
 /obj/structure/barricade/handrail/wire{
 	dir = 8
+	},
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy3{
+	dir = 4;
+	plane = -7
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/logistics_engo)
@@ -11187,14 +11176,12 @@
 	icon_state = "lattice3";
 	pixel_y = 20
 	},
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null;
-	pixel_x = 16
-	},
 /obj/effect/hybrisa/misc/fake/pipes/pipe1,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/liquid_fuel,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	pixel_x = 16
+	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/hangar_hallway)
 "exB" = (
@@ -11356,11 +11343,10 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/staging_hallway)
 "eCA" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
-	},
 /obj/effect/decal/cleanable/liquid_fuel,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
+	},
 /turf/open/floor/prison,
 /area/scavenger_ship/hangar_deck)
 "eCL" = (
@@ -11387,7 +11373,9 @@
 /turf/open/floor/prison/floor_plate/southwest,
 /area/scavenger_ship/residential_memorial)
 "eDn" = (
-/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
+	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_bay)
@@ -11397,10 +11385,10 @@
 	},
 /area/scavenger_ship/hangar_deck)
 "eEa" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-8";
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy3{
+	dir = 8;
 	pixel_y = -10;
-	color = null
+	plane = -7
 	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/cryo_cells)
@@ -11848,11 +11836,11 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/ssv_asclepius)
 "eWH" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2-8";
-	color = null
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy4{
+	dir = 1;
+	plane = -7
+	},
 /turf/open/floor/prison,
 /area/scavenger_ship/hangar_storbays)
 "eXg" = (
@@ -11903,12 +11891,12 @@
 /turf/open/floor/prison/blue/northeast,
 /area/scavenger_ship/cryo_lockers)
 "eXS" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "2-8";
-	pixel_y = -10;
-	color = null
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy3{
+	dir = 2;
+	pixel_y = -10;
+	plane = -7
+	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/cryo_cells)
 "eYc" = (
@@ -12380,12 +12368,11 @@
 /obj/structure/platform/strata/metal{
 	dir = 4
 	},
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
-	},
 /obj/structure/cryofeed{
 	layer = 2.9
+	},
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
 	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/hangar_hallway)
@@ -12641,11 +12628,11 @@
 /turf/open/floor/prison,
 /area/scavenger_ship/residential_gym)
 "fHM" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "4-8";
-	color = null
-	},
 /obj/effect/decal/cleanable/flour,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7;
+	dir = 4
+	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/hangar_deck)
 "fIl" = (
@@ -12755,15 +12742,10 @@
 /obj/structure/platform/strata/metal{
 	dir = 4
 	},
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
-	},
 /obj/structure/platform/strata/metal,
 /obj/structure/platform_decoration/strata/metal{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/dirt,
 /obj/structure/prop/invuln/lattice_prop{
 	icon_state = "lattice3";
 	pixel_y = 14;
@@ -12784,6 +12766,10 @@
 	pixel_y = 3
 	},
 /obj/structure/pipes/standard/tank,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
+	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_hallway)
 "fOE" = (
@@ -12924,9 +12910,9 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/cryo_lockersaban)
 "fUN" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "4-8";
-	color = null
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7;
+	dir = 4
 	},
 /turf/open/floor/prison,
 /area/scavenger_ship/hangar_deck)
@@ -13087,14 +13073,14 @@
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/logistics_maint)
 "gdo" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "4-8";
-	color = null
-	},
 /obj/structure/machinery/door/poddoor/almayer{
 	dir = 4;
 	name = "\improper Storage Bay Two Blast Door";
 	id = "cargobay2"
+	},
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7;
+	dir = 4
 	},
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/hangar_storbays)
@@ -13329,8 +13315,9 @@
 /turf/open/floor/prison/sterile_white,
 /area/scavenger_ship/ssv_asclepius)
 "goG" = (
-/obj/structure/cable/heavyduty{
-	color = null
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy1{
+	plane = -7;
+	dir = 1
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/hangar_storbays)
@@ -13507,10 +13494,11 @@
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/staging_requisition)
 "gzO" = (
-/obj/structure/cable/heavyduty{
-	color = null
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy1{
+	plane = -7;
+	dir = 1
+	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/hangar_storbays)
 "gzT" = (
@@ -13611,14 +13599,9 @@
 /obj/structure/platform/strata/metal{
 	dir = 4
 	},
-/obj/structure/cable/heavyduty{
-	icon_state = "1-4";
-	color = null
-	},
 /obj/structure/platform_decoration/strata/metal{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/dirt,
 /obj/structure/prop/invuln/overhead_pipe{
 	dir = 1;
 	pixel_x = -5
@@ -13628,6 +13611,11 @@
 	pixel_y = 0;
 	pixel_x = -2
 	},
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy3{
+	dir = 4;
+	plane = -7
+	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_hallway)
 "gDf" = (
@@ -13957,11 +13945,6 @@
 /obj/structure/platform/strata/metal{
 	dir = 8
 	},
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
-	},
-/obj/effect/decal/cleanable/dirt,
 /obj/structure/prop/invuln/overhead_pipe{
 	dir = 1;
 	pixel_x = -2
@@ -13971,6 +13954,10 @@
 	pixel_y = 0;
 	pixel_x = 2
 	},
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
+	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_hallway)
 "gPW" = (
@@ -14612,13 +14599,13 @@
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/ssv_asclepius)
 "huY" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-4";
-	color = null
-	},
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/platform_decoration/strata/metal{
 	dir = 1
+	},
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy3{
+	dir = 4;
+	plane = -7
 	},
 /turf/open/floor/prison/darkbrowncorners3/west,
 /area/scavenger_ship/hangar_deck)
@@ -14626,15 +14613,14 @@
 /obj/structure/platform/strata/metal{
 	dir = 8
 	},
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
-	},
 /obj/structure/cryofeed/right{
 	name = "\improper coolant feed";
 	pixel_x = 0;
 	pixel_y = 0;
 	layer = 2.9
+	},
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
 	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/hangar_hallway)
@@ -14883,14 +14869,14 @@
 /turf/open/floor/wood/ship,
 /area/scavenger_ship/logistics_engo)
 "hIy" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-8";
-	color = null
+/obj/effect/decal/cleanable/liquid_fuel,
+/obj/effect/decal/cleanable/liquid_fuel,
+/obj/effect/decal/cleanable/liquid_fuel,
+/obj/effect/decal/cleanable/liquid_fuel,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy3{
+	dir = 8;
+	plane = -7
 	},
-/obj/effect/decal/cleanable/liquid_fuel,
-/obj/effect/decal/cleanable/liquid_fuel,
-/obj/effect/decal/cleanable/liquid_fuel,
-/obj/effect/decal/cleanable/liquid_fuel,
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/logistics_engo)
 "hIQ" = (
@@ -14942,10 +14928,6 @@
 /turf/open/floor/wood/wood_broken7,
 /area/scavenger_ship/logistics_engo)
 "hKA" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
-	},
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/structure/machinery/light/double{
 	dir = 4;
@@ -14955,6 +14937,9 @@
 	},
 /obj/structure/sign/safety/four{
 	pixel_x = 39
+	},
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/hangar_deck)
@@ -15085,7 +15070,9 @@
 	dir = 4;
 	pixel_y = 0
 	},
-/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
+	},
 /obj/effect/decal/cleanable/liquid_fuel,
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_bay)
@@ -15850,9 +15837,9 @@
 	name = "\improper Weapons Bay Two Blast Door";
 	id = "weaponsbay2"
 	},
-/obj/structure/cable/heavyduty{
-	icon_state = "4-8";
-	color = null
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7;
+	dir = 4
 	},
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/hangar_storbays)
@@ -16069,13 +16056,13 @@
 /turf/open/floor/prison/cell_stripe/north,
 /area/scavenger_ship/cryo_lockersaban)
 "iDO" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2-8";
-	pixel_y = -10;
-	color = null
-	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/generic,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy3{
+	dir = 8;
+	pixel_y = -10;
+	plane = -7
+	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/cryo_cells)
 "iDQ" = (
@@ -16086,11 +16073,11 @@
 /turf/open/auto_turf/strata_grass/layer0_mud,
 /area/scavenger_ship/ssv_asclepius)
 "iEd" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "4-8";
-	color = null
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7;
+	dir = 4
+	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/hangar_deck)
 "iEv" = (
@@ -16364,9 +16351,8 @@
 /obj/effect/decal/cleanable/cobweb{
 	dir = 8
 	},
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
 	},
 /turf/open/floor/prison/darkyellowcorners2/east,
 /area/scavenger_ship/hangar_deck)
@@ -16401,9 +16387,8 @@
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/logistics_engo)
 "iRB" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/logistics_engo)
@@ -16440,7 +16425,6 @@
 /turf/open/floor/hybrisa/wood/blackwood,
 /area/scavenger_ship/logistics_maint)
 "iTF" = (
-/obj/structure/surface/table/almayer,
 /obj/item/stack/sandbags_empty{
 	pixel_y = -2;
 	layer = 3.2;
@@ -16463,6 +16447,9 @@
 /obj/item/tool/shovel/etool/upp{
 	pixel_x = 4;
 	pixel_y = 5
+	},
+/obj/structure/surface/table/almayer{
+	color = "#8B9490"
 	},
 /turf/open/floor/prison/floor_plate/southwest,
 /area/scavenger_ship/staging_requisition)
@@ -16513,11 +16500,10 @@
 /turf/open/floor/prison/darkred2/west,
 /area/scavenger_ship/staging_prep)
 "iYG" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "0-2";
-	color = null
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy1{
+	plane = -7
+	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/hangar_storbays)
 "iYX" = (
@@ -16528,13 +16514,11 @@
 	icon_state = "lattice3";
 	pixel_y = 20
 	},
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null;
-	pixel_x = 16
-	},
 /obj/effect/hybrisa/misc/fake/pipes/pipe1,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	pixel_x = 16
+	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/hangar_hallway)
 "iZE" = (
@@ -16558,7 +16542,6 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/item/holder/rat/brown/Old_Timmy,
 /turf/open/floor/prison/floor_plate/southwest,
 /area/scavenger_ship/cryo_lockersaban)
 "jbS" = (
@@ -16608,7 +16591,6 @@
 /turf/open/floor/prison/darkbrown3/west,
 /area/scavenger_ship/logistics_elevator)
 "jeh" = (
-/obj/structure/surface/table/reinforced/prison,
 /obj/item/prop/tableflag{
 	pixel_x = -16;
 	pixel_y = 13
@@ -16628,6 +16610,9 @@
 /obj/item/reagent_container/food/drinks/cans/waterbottle/upp{
 	pixel_x = -4;
 	pixel_y = 10
+	},
+/obj/structure/surface/table/almayer{
+	color = "#EBD9B7"
 	},
 /turf/open/floor/prison/floor_plate/southwest,
 /area/scavenger_ship/staging_prep)
@@ -16743,14 +16728,12 @@
 	icon_state = "lattice3";
 	pixel_y = 20
 	},
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null;
-	pixel_x = 16
-	},
 /obj/effect/hybrisa/misc/fake/pipes/pipe1,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt/greenglow,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	pixel_x = 16
+	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/hangar_hallway)
 "jiJ" = (
@@ -16809,13 +16792,12 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/cryo_hallway)
 "jlS" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
-	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
+	},
 /turf/open/floor/prison,
 /area/scavenger_ship/hangar_deck)
 "jmb" = (
@@ -17074,14 +17056,13 @@
 /turf/open/floor/strata/floor3,
 /area/scavenger_ship/ssv_asclepius)
 "juY" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
-	},
 /obj/effect/decal/cleanable/hybrisa/trash{
 	icon_state = "trash_4";
 	pixel_y = 4;
 	pixel_x = -4
+	},
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
 	},
 /turf/open/floor/prison,
 /area/scavenger_ship/hangar_deck)
@@ -17147,12 +17128,6 @@
 /turf/open/floor/prison/darkyellowfull2/east,
 /area/scavenger_ship/hangar_deck)
 "jwx" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "0-2";
-	color = null;
-	pixel_x = 7;
-	pixel_y = 7
-	},
 /obj/structure/prop/invuln/overhead_pipe{
 	dir = 1;
 	pixel_x = -8;
@@ -17163,16 +17138,18 @@
 	pixel_y = 7;
 	pixel_x = -7
 	},
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null;
-	pixel_x = 7;
-	pixel_y = -17
+/obj/effect/decal/cleanable/liquid_fuel{
+	pixel_x = 0;
+	pixel_y = 0
 	},
-/obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/light/small/red{
 	dir = 8
+	},
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy1{
+	plane = -7;
+	pixel_x = 7;
+	pixel_y = 7
 	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/hangar_synth)
@@ -17342,12 +17319,12 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/staging_requisition)
 "jFX" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2-8";
-	color = null
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy4{
+	dir = 1;
+	plane = -7
 	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison,
 /area/scavenger_ship/hangar_storbays)
 "jGF" = (
@@ -17645,10 +17622,6 @@
 /turf/open/floor/prison/blue/east,
 /area/scavenger_ship/cryo_lockers)
 "jTY" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
-	},
 /obj/structure/sign/safety/bulkhead_door{
 	pixel_x = -30
 	},
@@ -17666,6 +17639,9 @@
 	light_color = "#e7c0a4";
 	light_power = 0.8;
 	light_range = 5
+	},
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/hangar_deck)
@@ -17702,14 +17678,14 @@
 /turf/open/floor/strata/cyan4/north,
 /area/scavenger_ship/ssv_asclepius)
 "kbe" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "4-8";
-	color = null
-	},
 /obj/structure/machinery/door/poddoor/almayer{
 	dir = 4;
 	name = "\improper Storage Bay One Blast Door";
 	id = "cargobay1"
+	},
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7;
+	dir = 4
 	},
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/hangar_storbays)
@@ -17882,9 +17858,7 @@
 /turf/open/floor/prison,
 /area/scavenger_ship/hangar_deck)
 "klb" = (
-/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2,
 /obj/effect/decal/cleanable/liquid_fuel,
-/obj/effect/decal/cleanable/dirt,
 /obj/structure/prop/invuln{
 	density = 0;
 	desc = "some sparks";
@@ -17892,6 +17866,10 @@
 	icon = 'icons/effects/effects.dmi';
 	icon_state = "sparks"
 	},
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
+	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_bay)
 "klu" = (
@@ -18107,9 +18085,9 @@
 /turf/open/shuttle/dropship/light_grey_single_wide_up_to_down,
 /area/scavenger_ship/hangar_deck)
 "kuf" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "4-8";
-	color = null
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7;
+	dir = 4
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/hangar_deck)
@@ -18324,15 +18302,13 @@
 /turf/open/floor/prison/darkbrownfull2,
 /area/scavenger_ship/staging_hallway)
 "kDu" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "2-8";
-	pixel_y = 0;
-	color = null;
-	pixel_x = 0
-	},
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/camera/autoname/golden_arrow{
 	dir = 2
+	},
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy3{
+	dir = 2;
+	plane = -7
 	},
 /turf/open/floor/prison/darkbrown2/north,
 /area/scavenger_ship/hangar_hallway)
@@ -18685,11 +18661,11 @@
 /turf/open/floor/prison/darkbrown2/southwest,
 /area/scavenger_ship/logistics_elevator)
 "kPo" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2-8";
-	color = null
-	},
 /obj/effect/decal/cleanable/liquid_fuel,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy4{
+	plane = -7;
+	dir = 1
+	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/logistics_engo)
 "kPv" = (
@@ -18758,14 +18734,9 @@
 /obj/structure/platform/strata/metal{
 	dir = 4
 	},
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
-	},
 /obj/structure/platform/strata/metal{
 	dir = 8
 	},
-/obj/effect/decal/cleanable/dirt,
 /obj/structure/prop/invuln/overhead_pipe{
 	dir = 1;
 	pixel_x = -5
@@ -18775,6 +18746,10 @@
 	pixel_y = 0;
 	pixel_x = -2
 	},
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
+	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_hallway)
 "kUb" = (
@@ -19172,14 +19147,9 @@
 /obj/structure/platform/strata/metal{
 	dir = 4
 	},
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
-	},
 /obj/structure/platform/strata/metal{
 	dir = 8
 	},
-/obj/effect/decal/cleanable/dirt,
 /obj/structure/prop/invuln/lattice_prop{
 	icon_state = "lattice3";
 	pixel_y = 14;
@@ -19188,6 +19158,10 @@
 /obj/structure/pipes/binary/pump{
 	pixel_y = 3
 	},
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
+	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_hallway)
 "lmr" = (
@@ -19727,7 +19701,9 @@
 	name = "\improper Fuel Pump";
 	layer = 4
 	},
-/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy1,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy1{
+	plane = -7
+	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_bay)
@@ -19740,15 +19716,15 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/hangar_hallway)
 "lNU" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2-4";
-	color = null
-	},
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/decal/cleanable/hybrisa/trash{
 	icon_state = "trash_2";
 	pixel_y = 12
+	},
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy4{
+	dir = 2;
+	plane = -7
 	},
 /turf/open/floor/prison,
 /area/scavenger_ship/hangar_deck)
@@ -19942,7 +19918,6 @@
 /area/scavenger_ship/hangar_deck)
 "lZd" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/power/apc/almayer/south,
 /turf/open/floor/prison/darkred2,
 /area/scavenger_ship/staging_prep)
 "lZl" = (
@@ -20424,9 +20399,9 @@
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/residential_hallway)
 "muL" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "2-8";
-	color = null
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy3{
+	dir = 2;
+	plane = -7
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/hangar_deck)
@@ -20496,10 +20471,6 @@
 /turf/open/floor/prison/darkbrown3,
 /area/scavenger_ship/hangar_deck)
 "myb" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
-	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/flour,
 /obj/structure/machinery/light/double{
@@ -20510,6 +20481,9 @@
 	},
 /obj/structure/sign/safety/three{
 	pixel_x = 39
+	},
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/hangar_deck)
@@ -20753,21 +20727,6 @@
 /obj/effect/decal/cleanable/liquid_fuel,
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_engo)
-"mNX" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "4-8";
-	pixel_x = 17;
-	pixel_y = -5
-	},
-/obj/structure/cable/heavyduty{
-	icon_state = "2-4";
-	color = null;
-	pixel_x = -6;
-	pixel_y = -6;
-	layer = 3
-	},
-/turf/open/floor/prison/ramptop/east,
-/area/scavenger_ship/hangar_hallway)
 "mOf" = (
 /obj/structure/platform/strata/metal{
 	dir = 1
@@ -21014,16 +20973,6 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/hangar_hallway)
 "nbg" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2-4";
-	pixel_y = -10;
-	color = null
-	},
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	pixel_y = 22;
-	color = null
-	},
 /obj/structure/prop/invuln/lattice_prop{
 	icon_state = "lattice2";
 	pixel_x = 16;
@@ -21036,6 +20985,14 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/cobweb,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy4{
+	pixel_y = -10;
+	plane = -7
+	},
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	pixel_y = 22;
+	plane = -7
+	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/cryo_cells)
 "nbC" = (
@@ -21308,13 +21265,11 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_engo)
 "nqv" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-4";
-	color = null;
-	pixel_y = 0;
-	pixel_x = 0
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy3{
+	dir = 4;
+	plane = -7
+	},
 /turf/open/floor/prison/darkbrowncorners2/north,
 /area/scavenger_ship/hangar_hallway)
 "nrm" = (
@@ -21327,13 +21282,13 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/hangar_deck)
 "nsd" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2-4";
-	color = null
-	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy4{
+	dir = 2;
+	plane = -7
+	},
 /turf/open/floor/prison,
 /area/scavenger_ship/hangar_deck)
 "nsw" = (
@@ -21502,11 +21457,10 @@
 /turf/open/floor/prison/darkbrown2,
 /area/scavenger_ship/service_hallway)
 "nAI" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
+	},
 /turf/open/floor/prison,
 /area/scavenger_ship/hangar_deck)
 "nAO" = (
@@ -21751,11 +21705,6 @@
 /obj/structure/platform/strata/metal{
 	dir = 8
 	},
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
-	},
-/obj/effect/decal/cleanable/dirt,
 /obj/structure/prop/invuln/lattice_prop{
 	icon_state = "lattice3";
 	pixel_y = 14;
@@ -21784,6 +21733,10 @@
 	pixel_x = 0;
 	pixel_y = 27
 	},
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
+	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_hallway)
 "nMg" = (
@@ -21807,13 +21760,11 @@
 	icon_state = "lattice3";
 	pixel_y = 20
 	},
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null;
-	pixel_x = 16
-	},
 /obj/effect/hybrisa/misc/fake/pipes/pipe1,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	pixel_x = 16
+	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/hangar_hallway)
 "nMz" = (
@@ -21835,12 +21786,11 @@
 /turf/open/floor/prison/darkyellowcorners2,
 /area/scavenger_ship/logistics_maint)
 "nNP" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "0-2";
-	color = null
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy1{
+	plane = -7
 	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/hangar_storbays)
 "nOm" = (
@@ -22458,11 +22408,11 @@
 /turf/open/floor/prison/ramptop/east,
 /area/scavenger_ship/logistics_engo)
 "ooO" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2-4";
-	color = null
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy4{
+	dir = 2;
+	plane = -7
+	},
 /turf/open/floor/prison,
 /area/scavenger_ship/hangar_storbays)
 "ope" = (
@@ -22568,7 +22518,6 @@
 	color = "#a6aeab"
 	},
 /obj/structure/window/reinforced,
-/obj/structure/surface/table/almayer,
 /obj/item/clothing/accessory/medal/bronze/heart{
 	pixel_x = -5;
 	pixel_y = 5
@@ -22576,6 +22525,9 @@
 /obj/item/clothing/accessory/medal/bronze/service{
 	pixel_x = 6;
 	pixel_y = 16
+	},
+/obj/structure/surface/table/almayer{
+	color = "#8B9490"
 	},
 /turf/open/floor/prison/darkbrownfull2,
 /area/scavenger_ship/staging_requisition)
@@ -22680,12 +22632,11 @@
 	dir = 4;
 	pixel_y = 4
 	},
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
 	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/hangar_hallway)
 "oxa" = (
@@ -23127,7 +23078,6 @@
 /turf/open/floor/prison/darkredcorners2/east,
 /area/scavenger_ship/staging_prep)
 "oMe" = (
-/obj/structure/surface/table/reinforced/prison,
 /obj/item/reagent_container/food/drinks/flask/barflask{
 	pixel_x = -5;
 	pixel_y = 15
@@ -23145,6 +23095,9 @@
 	pixel_y = 4
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/surface/table/almayer{
+	color = "#EBD9B7"
+	},
 /turf/open/floor/prison/floor_plate/southwest,
 /area/scavenger_ship/staging_prep)
 "oMu" = (
@@ -23355,11 +23308,11 @@
 /turf/open/floor/prison/blue,
 /area/scavenger_ship/logistics_engoffice)
 "oXg" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-8";
-	color = null
-	},
 /obj/effect/decal/cleanable/generic,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy3{
+	dir = 8;
+	plane = -7
+	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/hangar_deck)
 "oXh" = (
@@ -23386,7 +23339,6 @@
 /turf/open/floor/prison/blue/west,
 /area/scavenger_ship/cryo_lockers)
 "oYl" = (
-/obj/structure/surface/table/almayer,
 /obj/item/prop/almayer/repair/rk_structural{
 	pixel_x = -11;
 	pixel_y = 17
@@ -23398,6 +23350,9 @@
 /obj/item/prop/almayer/repair/rk_material{
 	pixel_x = -5;
 	pixel_y = -2
+	},
+/obj/structure/surface/table/almayer{
+	color = "#8B9490"
 	},
 /turf/open/floor/prison/floor_plate/southwest,
 /area/scavenger_ship/staging_requisition)
@@ -23495,12 +23450,6 @@
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/logistics_engoffice)
 "pdn" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null;
-	pixel_x = 5;
-	pixel_y = -6
-	},
 /obj/structure/roof/cargocrane_tracks/vertical,
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/decal/cleanable/dirt,
@@ -23839,15 +23788,14 @@
 /obj/structure/platform_decoration/strata/metal{
 	dir = 8
 	},
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
-	},
 /obj/structure/barricade/handrail/wire{
 	dir = 4
 	},
 /obj/structure/machinery/light/small/red{
 	dir = 8
+	},
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/logistics_engo)
@@ -23947,17 +23895,16 @@
 /obj/structure/platform/strata/metal{
 	dir = 8
 	},
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
-	},
-/obj/effect/decal/cleanable/dirt,
 /obj/structure/prop/invuln/lattice_prop{
 	icon_state = "lattice3";
 	pixel_y = 14;
 	pixel_x = -14
 	},
 /obj/structure/pipes/binary/passive_gate,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
+	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_hallway)
 "pyB" = (
@@ -23965,10 +23912,6 @@
 /turf/open/floor/prison/darkredcorners2/west,
 /area/scavenger_ship/staging_prep)
 "pyH" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
-	},
 /obj/structure/sign/safety/two{
 	pixel_y = 0;
 	pixel_x = -25
@@ -23977,6 +23920,9 @@
 	icon_state = "trash_15";
 	pixel_y = 10;
 	pixel_x = -3
+	},
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/hangar_deck)
@@ -24090,7 +24036,9 @@
 /obj/structure/barricade/handrail/strata{
 	dir = 4
 	},
-/obj/structure/surface/table/almayer,
+/obj/structure/surface/table/almayer{
+	color = "#8B9490"
+	},
 /turf/open/floor/prison/darkbrownfull2,
 /area/scavenger_ship/staging_requisition)
 "pEy" = (
@@ -24222,14 +24170,13 @@
 	dir = 4;
 	layer = 3
 	},
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
-	},
 /obj/structure/platform/strata/metal{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
+	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_hallway)
 "pLW" = (
@@ -24267,16 +24214,15 @@
 	},
 /area/scavenger_ship/hangar_deck)
 "pNa" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
-	},
 /obj/effect/decal/cleanable/ash,
 /obj/structure/sign/safety/bulkhead_door{
 	pixel_x = 34
 	},
 /obj/structure/sign/safety/hazard{
 	pixel_x = 47
+	},
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/hangar_deck)
@@ -24332,9 +24278,9 @@
 /turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
 /area/scavenger_ship/hangar_deck)
 "pQB" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-4";
-	color = null
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy3{
+	dir = 4;
+	plane = -7
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/logistics_engo)
@@ -24349,12 +24295,11 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/hangar_hallway)
 "pRN" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
+/obj/effect/decal/cleanable/liquid_fuel,
+/obj/effect/decal/cleanable/liquid_fuel,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
 	},
-/obj/effect/decal/cleanable/liquid_fuel,
-/obj/effect/decal/cleanable/liquid_fuel,
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/logistics_engo)
 "pSd" = (
@@ -24560,21 +24505,20 @@
 /turf/open/floor/prison/darkbrown2/west,
 /area/scavenger_ship/residential_hallway)
 "pZd" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2-8";
-	pixel_y = -10;
-	color = null
-	},
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	pixel_y = 22;
-	color = null
-	},
 /obj/item/weapon/wirerod{
 	pixel_x = 2;
 	pixel_y = -10
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	pixel_y = 22;
+	plane = -7
+	},
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy4{
+	pixel_y = -10;
+	dir = 1;
+	plane = -7
+	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/cryo_cells)
 "pZK" = (
@@ -24940,11 +24884,10 @@
 /turf/open/floor/almayer/dark_sterile,
 /area/scavenger_ship/cryo_cells)
 "qpZ" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "0-2";
-	color = null
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy1{
+	plane = -7
+	},
 /turf/open/floor/prison/darkyellow2/west,
 /area/scavenger_ship/hangar_deck)
 "qqe" = (
@@ -25041,11 +24984,10 @@
 /turf/open/floor/prison/darkred2/northwest,
 /area/scavenger_ship/staging_prep)
 "qtn" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
-	},
 /obj/effect/decal/cleanable/flour,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
+	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/logistics_engo)
 "qtI" = (
@@ -25071,11 +25013,10 @@
 	dir = 4;
 	pixel_y = 4
 	},
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
+	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/hangar_hallway)
 "quE" = (
@@ -25149,12 +25090,11 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/cryo_maint)
 "qyh" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
-	},
 /obj/structure/machinery/camera/autoname/golden_arrow{
 	dir = 4
+	},
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/logistics_engo)
@@ -25223,20 +25163,19 @@
 /obj/structure/platform/strata/metal{
 	dir = 4
 	},
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
-	},
 /obj/structure/platform_decoration/strata/metal{
 	dir = 1
 	},
-/obj/effect/decal/cleanable/dirt,
 /obj/structure/prop/invuln/lattice_prop{
 	icon_state = "lattice3";
 	pixel_y = 14;
 	pixel_x = 14
 	},
 /obj/structure/pipes/unary/freezer,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
+	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_hallway)
 "qAY" = (
@@ -25364,14 +25303,13 @@
 	dir = 8;
 	layer = 3
 	},
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
-	},
 /obj/structure/platform/strata/metal{
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
+	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_hallway)
 "qJp" = (
@@ -25387,15 +25325,14 @@
 /turf/open/floor/prison/darkbrown2/northeast,
 /area/scavenger_ship/staging_hallway)
 "qKG" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
-	},
 /obj/effect/decal/cleanable/generic{
 	color = "#5d524b";
 	alpha = 155
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
+	},
 /turf/open/floor/prison,
 /area/scavenger_ship/hangar_deck)
 "qKW" = (
@@ -25581,22 +25518,20 @@
 /obj/structure/platform/strata/metal{
 	dir = 8
 	},
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
-	},
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/prop/invuln/lattice_prop{
 	icon_state = "lattice3";
 	pixel_y = 14;
 	pixel_x = -14
 	},
-/obj/effect/decal/cleanable/dirt,
 /obj/structure/pipes/unary/freezer,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
+	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_hallway)
 "qVY" = (
-/obj/structure/surface/table/almayer,
 /obj/structure/machinery/hybrisa/coffee_machine{
 	pixel_x = -5;
 	pixel_y = 1
@@ -25612,6 +25547,9 @@
 /obj/item/reagent_container/food/drinks/coffeecup{
 	pixel_x = -7;
 	pixel_y = 16
+	},
+/obj/structure/surface/table/almayer{
+	color = "#8B9490"
 	},
 /turf/open/floor/prison/floor_plate/southwest,
 /area/scavenger_ship/staging_requisition)
@@ -25743,9 +25681,8 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_engo)
 "qYF" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
 	},
 /turf/open/floor/prison/darkbrown2,
 /area/scavenger_ship/hangar_hallway)
@@ -26414,11 +26351,6 @@
 /obj/structure/platform/strata/metal{
 	dir = 8
 	},
-/obj/structure/cable/heavyduty{
-	icon_state = "1-8";
-	color = null
-	},
-/obj/effect/decal/cleanable/dirt,
 /obj/structure/prop/invuln/overhead_pipe{
 	dir = 1;
 	pixel_x = -2
@@ -26428,11 +26360,15 @@
 	pixel_y = 0;
 	pixel_x = 2
 	},
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy3{
+	dir = 8;
+	plane = -7
+	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_hallway)
 "rGA" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/surface/table/reinforced/prison,
 /obj/item/prop/magazine/book{
 	desc = "A copy of La Fumée, a UPP magazine that mostly circulates in its French-influenced territories, though this particular print has been translated to reach a wider audience. On the cover is a stylized depiction of a deadman's head with white antlers growing out the sides.";
 	name = "La Fumée, Vol. 4 No. 15";
@@ -26453,6 +26389,9 @@
 	light_color = "#e7c0a4";
 	light_power = 0.8;
 	light_range = 5
+	},
+/obj/structure/surface/table/almayer{
+	color = "#EBD9B7"
 	},
 /turf/open/floor/prison/darkbrown2,
 /area/scavenger_ship/staging_hallway)
@@ -26729,7 +26668,6 @@
 	pixel_x = 10;
 	pixel_y = -9
 	},
-/obj/structure/surface/table/reinforced/prison,
 /obj/effect/decal/cleanable/dirt,
 /obj/item/toy/deck{
 	pixel_y = 2;
@@ -26738,6 +26676,9 @@
 /obj/item/device/flashlight/lamp/green{
 	pixel_x = -7;
 	pixel_y = 5
+	},
+/obj/structure/surface/table/almayer{
+	color = "#EBD9B7"
 	},
 /turf/open/floor/prison/darkbrown2,
 /area/scavenger_ship/staging_hallway)
@@ -27007,11 +26948,10 @@
 /turf/open/floor/prison/darkyellow2/west,
 /area/scavenger_ship/hangar_deck)
 "sjJ" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
+	},
 /turf/open/floor/prison/darkyellow2/west,
 /area/scavenger_ship/hangar_deck)
 "sjU" = (
@@ -27037,7 +26977,9 @@
 /turf/open/floor/prison/darkbrown2/southeast,
 /area/scavenger_ship/residential_memorial)
 "ske" = (
-/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy3,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy3{
+	plane = -7
+	},
 /obj/effect/hybrisa/misc/fake/wire/blue{
 	pixel_x = -8;
 	dir = 5;
@@ -27051,7 +26993,6 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_bay)
 "skm" = (
-/obj/structure/surface/table/reinforced/prison,
 /obj/structure/phone_base/rotary{
 	name = "Squad Preparations Telephone";
 	phone_category = "USS Nomad";
@@ -27070,6 +27011,9 @@
 	density = 0
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/surface/table/almayer{
+	color = "#EBD9B7"
+	},
 /turf/open/floor/prison/floor_plate/southwest,
 /area/scavenger_ship/staging_prep)
 "skG" = (
@@ -27376,12 +27320,6 @@
 /obj/structure/barricade/handrail/strata{
 	dir = 8
 	},
-/obj/structure/cable/heavyduty{
-	icon_state = "1-8";
-	color = null;
-	pixel_x = -25;
-	pixel_y = -6
-	},
 /obj/item/toy/blink{
 	pixel_x = 4;
 	pixel_y = 3
@@ -27537,7 +27475,9 @@
 /obj/structure/machinery/door/window/eastleft{
 	req_access_txt = "26"
 	},
-/obj/structure/surface/table/almayer,
+/obj/structure/surface/table/almayer{
+	color = "#8B9490"
+	},
 /turf/open/floor/prison/darkbrownfull2,
 /area/scavenger_ship/staging_requisition)
 "sJb" = (
@@ -27731,11 +27671,6 @@
 /turf/open/floor/strata/floor3,
 /area/scavenger_ship/ssv_asclepius)
 "sQR" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-4";
-	color = null;
-	pixel_y = -10
-	},
 /obj/structure/prop/invuln/lattice_prop{
 	icon_state = "lattice3";
 	pixel_x = 16;
@@ -27744,6 +27679,11 @@
 /obj/item/trash/chunk{
 	pixel_x = -2;
 	pixel_y = 7
+	},
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy3{
+	dir = 4;
+	pixel_y = -10;
+	plane = -7
 	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/cryo_cells)
@@ -27855,20 +27795,19 @@
 /obj/structure/platform/strata/metal{
 	dir = 4
 	},
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
-	},
 /obj/structure/platform/strata/metal{
 	dir = 8
 	},
-/obj/effect/decal/cleanable/dirt,
 /obj/structure/prop/invuln/lattice_prop{
 	icon_state = "lattice3";
 	pixel_y = 14;
 	pixel_x = 14
 	},
 /obj/structure/pipes/binary/passive_gate,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
+	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_hallway)
 "sZt" = (
@@ -27939,10 +27878,9 @@
 /turf/open/floor/prison/darkbrownfull2,
 /area/scavenger_ship/staging_requisition)
 "tdj" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "2-4";
-	color = null;
-	layer = 3
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy3{
+	dir = 1;
+	plane = -7
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/logistics_engo)
@@ -28028,7 +27966,9 @@
 /turf/open/floor/almayer_hull/outerhull_dir/southwest,
 /area/scavenger_ship/staging_workshop)
 "tix" = (
-/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy4,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy4{
+	plane = -7
+	},
 /obj/structure/prop/invuln/overhead/flammable_pipe/fly{
 	dir = 8;
 	pixel_y = 6
@@ -28280,11 +28220,6 @@
 /turf/open/floor/prison/floor_marked,
 /area/scavenger_ship/hangar_hallway)
 "toH" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2-4";
-	pixel_y = -10;
-	color = null
-	},
 /obj/structure/prop/invuln/lattice_prop{
 	icon_state = "lattice1";
 	pixel_x = 16;
@@ -28293,6 +28228,11 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy3{
+	dir = 4;
+	pixel_y = -10;
+	plane = -7
+	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/cryo_cells)
 "tpG" = (
@@ -28354,13 +28294,11 @@
 	icon_state = "lattice3";
 	pixel_y = 20
 	},
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null;
-	pixel_x = 16
-	},
 /obj/effect/hybrisa/misc/fake/pipes/pipe3,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	pixel_x = 16
+	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/hangar_hallway)
 "ttw" = (
@@ -28611,10 +28549,6 @@
 /turf/open/floor/prison/darkbrown2/north,
 /area/scavenger_ship/residential_memorial)
 "tGy" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
-	},
 /obj/structure/sign/safety/bulkhead_door{
 	pixel_x = -30
 	},
@@ -28622,6 +28556,9 @@
 	pixel_x = -17
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
+	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/hangar_deck)
 "tHb" = (
@@ -28658,9 +28595,6 @@
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/cryo_cells)
 "tIf" = (
-/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy3{
-	dir = 8
-	},
 /obj/effect/hybrisa/misc/fake/wire/blue{
 	pixel_x = -8;
 	dir = 6;
@@ -28671,6 +28605,10 @@
 	pixel_y = 6
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy3{
+	dir = 8;
+	plane = -7
+	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_bay)
 "tIl" = (
@@ -28717,15 +28655,14 @@
 /obj/structure/platform_decoration/strata/metal{
 	dir = 4
 	},
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
-	},
 /obj/structure/barricade/handrail/wire{
 	dir = 8
 	},
 /obj/structure/machinery/light/small/red{
 	dir = 4
+	},
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/logistics_engo)
@@ -28954,11 +28891,9 @@
 /turf/open/floor/prison/darkbrown2/southeast,
 /area/scavenger_ship/service_hallway)
 "tWS" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-8";
-	pixel_y = 0;
-	color = null;
-	pixel_x = 0
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy3{
+	dir = 8;
+	plane = -7
 	},
 /turf/open/floor/prison/darkbrowncorners2/east,
 /area/scavenger_ship/hangar_hallway)
@@ -29093,12 +29028,12 @@
 /turf/open/floor/prison/darkbrown2/east,
 /area/scavenger_ship/service_janitor)
 "uaw" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "2-4";
-	color = null
-	},
 /obj/structure/machinery/camera/autoname/golden_arrow{
 	dir = 2
+	},
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy3{
+	dir = 1;
+	plane = -7
 	},
 /turf/open/floor/prison/darkbrown2/north,
 /area/scavenger_ship/hangar_hallway)
@@ -29510,10 +29445,6 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/service_canteen)
 "uAD" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
-	},
 /obj/structure/platform/strata/metal{
 	dir = 1
 	},
@@ -29523,7 +29454,6 @@
 /obj/structure/platform_decoration/strata/metal{
 	dir = 1
 	},
-/obj/effect/decal/cleanable/dirt,
 /obj/structure/prop/invuln/overhead_pipe{
 	dir = 6;
 	pixel_x = -5
@@ -29534,6 +29464,10 @@
 	pixel_x = -2;
 	pixel_y = 0
 	},
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
+	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_hallway)
 "uAS" = (
@@ -29749,11 +29683,11 @@
 /turf/open/floor/prison,
 /area/scavenger_ship/staging_requisition)
 "uOl" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2-8";
-	color = null
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy4{
+	dir = 1;
+	plane = -7
+	},
 /turf/open/floor/prison,
 /area/scavenger_ship/hangar_deck)
 "uOJ" = (
@@ -30237,11 +30171,6 @@
 /turf/open/floor/prison/whitepurple/north,
 /area/scavenger_ship/ssv_asclepius)
 "vlR" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "2-4";
-	pixel_y = -10;
-	color = null
-	},
 /obj/structure/prop/invuln/lattice_prop{
 	icon_state = "lattice3";
 	pixel_x = 16;
@@ -30250,6 +30179,11 @@
 /obj/item/tool/wirecutters{
 	pixel_x = -2;
 	pixel_y = 8
+	},
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy3{
+	dir = 1;
+	pixel_y = -10;
+	plane = -7
 	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/cryo_cells)
@@ -30291,9 +30225,9 @@
 /turf/open/floor/prison/cell_stripe/north,
 /area/scavenger_ship/hangar_deck)
 "voM" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "4-8";
-	color = null
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7;
+	dir = 4
 	},
 /turf/open/floor/prison,
 /area/scavenger_ship/hangar_storbays)
@@ -30318,10 +30252,6 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_engo)
 "vpM" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
-	},
 /obj/structure/sign/safety/one{
 	pixel_x = -25
 	},
@@ -30330,6 +30260,9 @@
 	light_color = "#e7c0a4";
 	light_power = 0.8;
 	light_range = 5
+	},
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/hangar_deck)
@@ -30423,18 +30356,6 @@
 /area/scavenger_ship/hangar_hallway)
 "vAk" = (
 /obj/structure/roof/cargocrane_tracks/tjoint2,
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null;
-	pixel_x = 5;
-	pixel_y = -6
-	},
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null;
-	pixel_x = 5;
-	pixel_y = 25
-	},
 /obj/effect/decal/cleanable/liquid_fuel,
 /turf/open/floor/prison/floor_plate/southwest,
 /area/scavenger_ship/hangar_hallway)
@@ -30482,9 +30403,8 @@
 /turf/open/floor/hybrisa/tile/tilewhitecheckered/blue,
 /area/scavenger_ship/service_canteen)
 "vCn" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
 	},
 /turf/open/floor/prison/darkyellowcorners2/north,
 /area/scavenger_ship/hangar_deck)
@@ -30597,9 +30517,9 @@
 	},
 /area/scavenger_ship/hangar_maint)
 "vGR" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-4-8";
-	color = null
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy4{
+	dir = 4;
+	plane = -7
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/hangar_deck)
@@ -30610,12 +30530,11 @@
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/logistics_engoffice)
 "vHG" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
-	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/generic,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
+	},
 /turf/open/floor/prison,
 /area/scavenger_ship/hangar_deck)
 "vHK" = (
@@ -30793,9 +30712,8 @@
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/logistics_elevator)
 "vQL" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "0-2";
-	color = null
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy1{
+	plane = -7
 	},
 /turf/open/floor/prison/darkyellow2/east,
 /area/scavenger_ship/hangar_deck)
@@ -31810,13 +31728,11 @@
 	icon_state = "lattice3";
 	pixel_y = -12
 	},
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null;
-	pixel_x = 16
-	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/liquid_fuel,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	pixel_x = 16
+	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/hangar_hallway)
 "wNr" = (
@@ -32011,9 +31927,9 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/staging_hallway)
 "wVz" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "2-8";
-	color = null
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy3{
+	dir = 2;
+	plane = -7
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/logistics_engo)
@@ -32124,6 +32040,17 @@
 	pixel_x = -7
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	pixel_x = 7;
+	pixel_y = 17;
+	plane = -7
+	},
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy3{
+	dir = 8;
+	plane = -7;
+	pixel_x = 7;
+	pixel_y = -6
+	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/hangar_synth)
 "wZr" = (
@@ -32518,12 +32445,12 @@
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/logistics_engo)
 "xqZ" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "4-8";
-	color = null
-	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/ash,
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7;
+	dir = 4
+	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/hangar_deck)
 "xrd" = (
@@ -32613,9 +32540,8 @@
 /turf/open/floor/prison/floor_plate/southwest,
 /area/scavenger_ship/cryo_cells)
 "xtX" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
 	},
 /turf/open/floor/prison,
 /area/scavenger_ship/hangar_deck)
@@ -32848,7 +32774,6 @@
 /turf/open/floor/prison/darkred2/east,
 /area/scavenger_ship/staging_prep)
 "xDp" = (
-/obj/structure/surface/table/reinforced/prison,
 /obj/item/prop/magazine/dirty{
 	desc = "A copy of Playboy magazine. On the cover is photo of guitarist Sadie Summers, with the headline 'Sadie Summers tells ALL'. The article itself focuses on Sadie's many carnal exploits while on tour as well as her very public brawl at an LA nightclub that occured two years prior to the date of this issue. Flipping through the magazine you see article titles such as 'Jungle Mercenary: Life as an Ex-UPP commando', 'The whys and hows of choosing synthetic girls'.";
 	icon_state = "poster3";
@@ -32861,6 +32786,9 @@
 	pixel_y = 6
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/surface/table/almayer{
+	color = "#EBD9B7"
+	},
 /turf/open/floor/prison/floor_plate/southwest,
 /area/scavenger_ship/staging_prep)
 "xDs" = (
@@ -33126,9 +33054,8 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_engo)
 "xPt" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null
+/obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
+	plane = -7
 	},
 /turf/open/floor/prison/darkyellow2/east,
 /area/scavenger_ship/hangar_deck)
@@ -38064,7 +37991,7 @@ vxZ
 eyw
 bME
 eyw
-vxZ
+aaf
 wTK
 wTK
 vxZ
@@ -43869,7 +43796,7 @@ czg
 nAI
 vHG
 pyH
-nAI
+aak
 uOl
 xtX
 jTY
@@ -45438,7 +45365,7 @@ acL
 jDe
 wZr
 sej
-mNX
+llC
 hoK
 acL
 acL
