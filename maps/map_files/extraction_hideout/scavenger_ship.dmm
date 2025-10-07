@@ -69,6 +69,7 @@
 	pixel_x = 10;
 	pixel_y = 14
 	},
+/obj/structure/ship_ammo/laser_battery,
 /turf/open/floor/prison/darkred2,
 /area/scavenger_ship/staging_prep)
 "aai" = (
@@ -3102,7 +3103,6 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/staging_workshop)
 "ahs" = (
-/obj/effect/step_trigger/clone_cleaner,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/staging_workshop)
@@ -3241,6 +3241,7 @@
 /obj/structure/machinery/light/small/red{
 	dir = 8
 	},
+/obj/effect/step_trigger/clone_cleaner,
 /turf/open/floor/prison/cell_stripe{
 	dir = 2
 	},
@@ -3253,6 +3254,7 @@
 /obj/structure/machinery/light/small/red{
 	dir = 4
 	},
+/obj/effect/step_trigger/clone_cleaner,
 /turf/open/floor/corsat,
 /area/scavenger_ship/staging_workshop)
 "ahE" = (
@@ -3410,10 +3412,10 @@
 	pixel_y = 18;
 	pixel_x = 8
 	},
+/obj/effect/step_trigger/clone_cleaner,
 /turf/open/floor/prison/darkbrowncorners2/west,
 /area/scavenger_ship/staging_workshop)
 "ahP" = (
-/obj/effect/step_trigger/clone_cleaner,
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/staging_workshop)
 "ahQ" = (
@@ -3456,6 +3458,7 @@
 	req_one_access = null;
 	name = "\improper Abandoned Bay"
 	},
+/obj/effect/step_trigger/clone_cleaner,
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/staging_workshop)
 "ahU" = (
@@ -3759,6 +3762,7 @@
 /area/scavenger_ship/staging_workshop)
 "ait" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/step_trigger/clone_cleaner,
 /turf/open/floor/prison/cell_stripe/west,
 /area/scavenger_ship/staging_workshop)
 "aiu" = (
@@ -3915,6 +3919,7 @@
 /obj/structure/machinery/light/small/red{
 	dir = 1
 	},
+/obj/effect/step_trigger/clone_cleaner,
 /turf/open/floor/corsat,
 /area/scavenger_ship/staging_workshop)
 "aiH" = (
@@ -3964,6 +3969,7 @@
 	},
 /obj/structure/blocker/invisible_wall,
 /obj/structure/barricade/handrail/strata,
+/obj/effect/step_trigger/clone_cleaner,
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/staging_workshop)
 "aiL" = (
@@ -4035,6 +4041,7 @@
 	color = "#82827a";
 	dir = 8
 	},
+/obj/effect/step_trigger/clone_cleaner,
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/staging_workshop)
 "aiR" = (
@@ -9660,7 +9667,6 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/cryo_lockersaban)
 "dlC" = (
-/obj/effect/step_trigger/clone_cleaner,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/corsat,
 /area/scavenger_ship/staging_workshop)
@@ -9806,6 +9812,7 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/step_trigger/clone_cleaner,
 /turf/open/floor/prison/darkbrown2/west,
 /area/scavenger_ship/staging_workshop)
 "dpM" = (
@@ -15377,6 +15384,7 @@
 /area/scavenger_ship/residential_hallway)
 "ibz" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/step_trigger/clone_cleaner,
 /turf/open/floor/prison/darkbrown2/north,
 /area/scavenger_ship/staging_workshop)
 "ibK" = (
@@ -19793,7 +19801,6 @@
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/service_canteen)
 "lSU" = (
-/obj/effect/step_trigger/clone_cleaner,
 /obj/effect/decal/cleanable/dirt,
 /obj/item/tool/wet_sign{
 	pixel_x = -14;
@@ -19994,6 +20001,14 @@
 /area/scavenger_ship/cryo_lockersaban)
 "mbz" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/door_control{
+	dir = 1;
+	id = "tc02";
+	name = "Door Release";
+	normaldoorcontrol = 1;
+	pixel_x = -28;
+	pixel_y = 23
+	},
 /turf/open/floor/prison/darkbrown2/north,
 /area/scavenger_ship/logistics_hallway)
 "mcb" = (
@@ -28429,16 +28444,7 @@
 /turf/open/floor/prison/darkbrown2/southeast,
 /area/scavenger_ship/residential_hallway)
 "tzZ" = (
-/obj/structure/machinery/computer/arcade{
-	density = 0;
-	pixel_y = 13;
-	layer = 3.21;
-	pixel_x = -1
-	},
-/obj/item/prop/helmetgarb/spacejam_tickets{
-	pixel_x = 6;
-	pixel_y = -12
-	},
+/obj/structure/ship_ammo/laser_battery,
 /turf/open/floor/prison/darkred2/northwest,
 /area/scavenger_ship/staging_prep)
 "tAj" = (
@@ -29106,7 +29112,8 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/door/airlock/almayer/marine{
 	dir = 4;
-	name = "\improper Storage Bay"
+	name = "\improper Storage Bay";
+	no_panel = 1
 	},
 /obj/structure/machinery/door/firedoor/border_only/almayer,
 /turf/open/floor/corsat/marked,

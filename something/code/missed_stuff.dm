@@ -31,6 +31,18 @@
 /obj/item/clothing/suit/storage/marine/MP/CO/extraction
 	name = "\improper B4 army armor"
 
+/obj/item/ammo_box/rounds/m16
+	name = "\improper rifle ammunition box (5.56x45mm)"
+	desc = "A 5.56x45mm ammunition box. It comes with a leather strap allowing to wear it on the back."
+	caliber = "5.56x45mm"
+	default_ammo = /datum/ammo/bullet/rifle/m16
+
+/obj/item/ammo_box/rounds/mar
+	name = "\improper rifle ammunition box (8.8x29mm)"
+	desc = "A 8.8x29mm ammunition box. It comes with a leather strap allowing to wear it on the back."
+	caliber = "8.8x29mm"
+	default_ammo = /datum/ammo/bullet/rifle/mar40
+
 /obj/effect/spawner/prop_gun/memorial
 	prop_gun_type = /obj/item/weapon/gun/rifle/m41aMK1/navy
 	custom_gun_name = "\improper GUU-71/A pulse rifle 'Ashes'"
@@ -543,37 +555,48 @@
 	density = TRUE
 	anchored = TRUE
 
-	var/max_points = 3
-	var/current_points = 3
+	var/max_points = 4
+	var/current_points = 4
 	var/current_tab = "ammo" // "ammo", "magazines", "shells", "revolver"
 	var/fixed_category = null  // stores a category that has already been repaired
+	var/is_busy = FALSE
 
 	/// Recipe list: [name] = list(type, price, quantity, category)
 	var/list/recipes = list(
-		"Ammo box (10x24mm)" = list(/obj/item/ammo_box/rounds, 3, 1, "ammo"),
+		// round box
+		"Rifle Ammo box (10x24mm)" = list(/obj/item/ammo_box/rounds, 3, 1, "ammo"),
+		"Rifle Ammo box (5.56x45mm)" = list(/obj/item/ammo_box/rounds/m16, 3, 1, "ammo"),
+		"Rifle Ammo Box (8.8x29mm)" = list(/obj/item/ammo_box/rounds/mar, 3, 1 , "ammo"),
 		"SMG Ammo Box (9mm)" = list(/obj/item/ammo_box/rounds/smg, 3, 1, "ammo"),
+		// handgun
 		"Pistol magazines (VP70, 9x19mm)" = list(/obj/item/ammo_magazine/pistol/vp70, 1, 3, "magazines"),
 		"Pistol magazines, Extended (VP70, 9x19mm)" = list(/obj/item/ammo_magazine/pistol/vp70/extended, 1, 2, "magazines"),
 		"Pistol magazines (M4A3, 9x19mm)" = list(/obj/item/ammo_magazine/pistol, 1, 3, "magazines"),
 		"Pistol magazines (M1911, .45)" = list(/obj/item/ammo_magazine/pistol/m1911, 1, 3, "magazines"),
-		"SMG magazines (MAC-15, 9mm)" = list(/obj/item/ammo_magazine/smg/mac15, 1, 3, "magazines"),
-		"SMG magazines, Extended (MAC-15, 9mm)" = list(/obj/item/ammo_magazine/smg/mac15/extended, 1, 3, "magazines"),
-		"Rifle magazines (AR-10, 9mm)" = list(/obj/item/ammo_magazine/rifle/ar10, 1, 2, "magazines"),
-		"Ammo Packet, Slugs (12g)" = list(/obj/item/ammo_magazine/shotgun, 1, 2, "shells"),
-		"Ammo Packet, Buckshot (12g)" = list(/obj/item/ammo_magazine/shotgun/buckshot, 2, 2, "shells"),
 		"Pistol magazines (VP78, 9x19mm)" = list(/obj/item/ammo_magazine/pistol/vp78, 1, 2, "magazines"),
 		"Pistol magazines, Armor-Piercing (VP70, 9x19mm)" = list(/obj/item/ammo_magazine/pistol/vp70/ap, 2, 2, "magazines"),
 		"Pistol magazines, Incendiary (VP70, 9x19mm)" = list(/obj/item/ammo_magazine/pistol/vp70/incendiary, 2, 2, "magazines"),
-		"Revolver speed loader (M44, .44)" = list(/obj/item/ammo_magazine/revolver, 1, 2, "revolver"),
-		"Revolver speed loader, Heavy (M44, .44)" = list(/obj/item/ammo_magazine/revolver/heavy, 2, 2, "revolver"),
-		"SMG magazines (UZI, 9x21mm)" = list(/obj/item/ammo_magazine/smg/uzi, 1, 3, "magazines"),
-		"SMG magazines, Extended (UZI, 9x21mm)" = list(/obj/item/ammo_magazine/smg/uzi/extended, 2, 2, "magazines"),
-		"SMG magazines (Viper 9, 9mm)" = list(/obj/item/ammo_magazine/smg/m39, 1, 2, "magazines"),
-		"SMG magazines, Extended (Viper 9, 9mm)" = list(/obj/item/ammo_magazine/smg/m39/extended, 2, 2, "magazines"),
-		"SMG magazines, Armor-Piercing (Viper 9, 9mm)" = list(/obj/item/ammo_magazine/smg/m39/ap, 2, 2, "magazines"),
+		"Revolver speed loader (M44, .44)" = list(/obj/item/ammo_magazine/revolver, 1, 3, "revolver"),
+		"Revolver speed loader, Heavy (M44, .44)" = list(/obj/item/ammo_magazine/revolver/heavy, 2, 3, "revolver"),
+		// main weapon
+		"Rifle magazines (AR-10, 9mm)" = list(/obj/item/ammo_magazine/rifle/ar10, 1, 2, "magazines"),
 		"Rifle magazines (M16, 5.56x45mm)" = list(/obj/item/ammo_magazine/rifle/m16, 1, 2, "magazines"),
 		"Rifle magazines, Extended (M16, 5.56x45mm)" = list(/obj/item/ammo_magazine/rifle/m16/extended, 2, 2, "magazines"),
+		"Rifle magazines, (MAR-40, 8.8x29mm)" = list(/obj/item/ammo_magazine/rifle/mar40, 1, 2, "magazines"),
+		"Rifle magazines, Extended (MAR-40, 8.8x29mm)" = list(/obj/item/ammo_magazine/rifle/mar40/extended, 2, 2, "magazines"),
+		"Rifle magazines, (ABR-40, 10x24mm)" = list(/obj/item/ammo_magazine/rifle/l42a/abr40, 1, 2, "magazines"),
+		"SMG magazines (MAC-15, 9mm)" = list(/obj/item/ammo_magazine/smg/mac15, 1, 3, "magazines"),
+		"SMG magazines, Extended (MAC-15, 9mm)" = list(/obj/item/ammo_magazine/smg/mac15/extended, 1, 3, "magazines"),
+		"SMG magazines (UZI, 9x21mm)" = list(/obj/item/ammo_magazine/smg/uzi, 1, 3, "magazines"),
+		"SMG magazines, Extended (UZI, 9x21mm)" = list(/obj/item/ammo_magazine/smg/uzi/extended, 2, 2, "magazines"),
+		"SMG magazines (Viper 9, 9mm)" = list(/obj/item/ammo_magazine/smg/m39, 1, 3, "magazines"),
+		"SMG magazines, Extended (Viper 9, 9mm)" = list(/obj/item/ammo_magazine/smg/m39/extended, 2, 2, "magazines"),
+		"SMG magazines, Armor-Piercing (Viper 9, 9mm)" = list(/obj/item/ammo_magazine/smg/m39/ap, 2, 2, "magazines"),
+		// shotgun
+		"Ammo Packet, Slugs (12g)" = list(/obj/item/ammo_magazine/shotgun, 1, 2, "shells"),
+		"Ammo Packet, Buckshot (12g)" = list(/obj/item/ammo_magazine/shotgun/buckshot, 1, 2, "shells"),
 		"Ammo Packet, Flechette (12g)" = list(/obj/item/ammo_magazine/shotgun/flechette, 2, 2, "shells"),
+		// corrupted
 	)
 
 	var/list/broken_recipes = list()
@@ -637,6 +660,10 @@
 	ui_open(user)
 
 /obj/structure/ammunition_fabricator/proc/ui_open(mob/user)
+	if(is_busy)
+		user << browse("<html><body><h3 style='text-align:center; color:red;'>Fabricator busy...</h3></body></html>", "window=ammunition_fabricator;size=300x100")
+		return
+
 	var/html = "<html><body style='background-color:#1b1b1b; color:#d0d0d0; font-family:Verdana; font-size:13px;'>"
 	html += "<h2 style='text-align:center; color:#f0f0f0;'>Ammunition Fabricator</h2>"
 	html += "<p style='text-align:center;'>Fabrication points: <b>[current_points]</b> / [max_points]</p>"
@@ -743,20 +770,31 @@
 
 /obj/structure/ammunition_fabricator/Topic(href, href_list)
 	. = ..()
+	if(is_busy)
+		to_chat(usr, "<span class='warning'>Fabricator is busy. Please wait...</span>")
+		return
+
 	if(href_list["tab"])
 		current_tab = href_list["tab"]
 		ui_open(usr)
 		return
 
 	if(href_list["make"])
+		if(is_busy)
+			to_chat(usr, "<span class='warning'>Fabricator is busy. Please wait...</span>")
+			return
+
+		is_busy = TRUE
 		var/choice = href_list["make"]
 		var/list/data = recipes[choice]
 		if(!data)
+			is_busy = FALSE
 			return
 
 		var/category = data[4]
 		if(choice in broken_recipes[category])
 			to_chat(usr, "<span class='warning'>ERROR: Fabrication data corrupted — cannot print [choice].</span>")
+			is_busy = FALSE
 			return
 
 		var/typepath = data[1]
@@ -765,17 +803,19 @@
 
 		if(current_points < cost)
 			to_chat(usr, "<span class='warning'>Not enough fabrication points!</span>")
+			is_busy = FALSE
 			return
 
 		var/confirm = alert(usr, "Fabricate [choice] for [cost] point(s)?", "Confirm Fabrication", "Yes", "No")
 		if(confirm != "Yes")
+			is_busy = FALSE
 			return
 
 		current_points -= cost
-
 		to_chat(usr, "<span class='notice'>Fabricator is printing [choice]...</span>")
 		playsound(src, 'sound/machines/print.ogg', 25, TRUE)
-		sleep(rand(30, 60)) // sleep
+
+		sleep(rand(30, 60))
 
 		playsound(src, 'sound/machines/print_off.ogg', 25, TRUE)
 		for(var/i in 1 to amount)
@@ -791,6 +831,8 @@
 
 		to_chat(usr, "<span class='notice'>The fabricator produces [amount]x [choice].</span>")
 		to_chat(usr, "<span class='notice'>Fabricator points left: [current_points]/[max_points]</span>")
+
+		is_busy = FALSE
 		ui_open(usr)
 
 // keys //
