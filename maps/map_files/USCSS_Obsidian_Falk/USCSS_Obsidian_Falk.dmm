@@ -1497,8 +1497,15 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/firefly/cryo_cell)
 "aen" = (
-/obj/structure/closet/secure_closet/marine_personal/pmc/squad_leader,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/secure_closet/marine_personal/pmc/rifleman{
+	pixel_x = -8;
+	pixel_y = -2
+	},
+/obj/structure/closet/secure_closet/marine_personal/pmc/rifleman{
+	pixel_x = 9;
+	pixel_y = -2
+	},
 /turf/open/floor/corsat/plate,
 /area/firefly/cryo_cell)
 "aeo" = (
@@ -1556,6 +1563,10 @@
 	},
 /turf/open/floor/corsat/squares,
 /area/firefly/hangar)
+"aeu" = (
+/obj/structure/machinery/faxmachine,
+/turf/closed/wall/almayer/aicore/hull,
+/area/firefly/ares)
 "aev" = (
 /turf/closed/wall/r_wall/biodome/biodome_unmeltable,
 /area/firefly/briefing)
@@ -1587,7 +1598,14 @@
 /turf/open/floor/corsat/plate,
 /area/firefly/squad_omega)
 "aez" = (
-/obj/structure/closet/secure_closet/marine_personal/pmc/smartgunner,
+/obj/structure/closet/secure_closet/marine_personal/pmc/squad_leader{
+	pixel_x = -8;
+	pixel_y = -2
+	},
+/obj/structure/closet/secure_closet/marine_personal/pmc/squad_leader{
+	pixel_x = 9;
+	pixel_y = -2
+	},
 /turf/open/floor/corsat/plate,
 /area/firefly/cryo_cell)
 "aeA" = (
@@ -5194,12 +5212,15 @@
 /turf/open/floor/corsat/green/east,
 /area/firefly/cryo_cell)
 "aoj" = (
-/obj/structure/closet/secure_closet/marine_personal/pmc/rifleman,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/corsat/plate,
-/area/firefly/cryo_cell)
-"aok" = (
-/obj/structure/closet/secure_closet/marine_personal/pmc/rifleman,
+/obj/structure/closet/secure_closet/marine_personal/pmc/squad_leader{
+	pixel_x = -8;
+	pixel_y = -2
+	},
+/obj/structure/closet/secure_closet/marine_personal/pmc/squad_leader{
+	pixel_x = 9;
+	pixel_y = -2
+	},
 /turf/open/floor/corsat/plate,
 /area/firefly/cryo_cell)
 "aol" = (
@@ -5449,6 +5470,27 @@
 	},
 /turf/open/floor/corsat/red/west,
 /area/firefly/cafeteria)
+"aoO" = (
+/obj/structure/closet/secure_closet{
+	name = "heavy weapons specialist locker";
+	req_access_txt = "208;217"
+	},
+/obj/item/weapon/gun/smartgun/dirty,
+/obj/item/smartgun_battery,
+/obj/item/clothing/suit/storage/marine/smartgunner/veteran/pmc,
+/obj/item/clothing/head/helmet/marine/veteran/pmc/gunner,
+/obj/item/clothing/glasses/night/m56_goggles/no_nightvision,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/ammo_magazine/smartgun,
+/obj/item/ammo_magazine/smartgun,
+/obj/item/ammo_magazine/smartgun,
+/obj/item/ammo_magazine/smartgun,
+/obj/item/ammo_magazine/smartgun,
+/obj/item/ammo_magazine/smartgun,
+/obj/item/storage/belt/marine/smartgunner,
+/obj/item/smartgun_battery,
+/turf/open/floor/corsat/cargo,
+/area/firefly/hangar)
 "aoP" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/corsat/white/east,
@@ -5524,9 +5566,24 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/corsat/white/east,
 /area/firefly/cafeteria)
+"aoY" = (
+/obj/structure/closet/secure_closet/marine_personal/pmc/corpsman{
+	pixel_x = -8
+	},
+/obj/structure/closet/secure_closet/marine_personal/pmc/corpsman{
+	pixel_x = 9
+	},
+/turf/open/floor/corsat/plate,
+/area/firefly/cryo_cell)
 "aoZ" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer/dark_sterile,
+/area/firefly/cafeteria)
+"apa" = (
+/obj/structure/machinery/door/poddoor/almayer/locked{
+	name = "Blast Door"
+	},
+/turf/open/floor/corsat/marked,
 /area/firefly/cafeteria)
 "apb" = (
 /obj/effect/decal/cleanable/dirt,
@@ -7866,12 +7923,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer/aicore/glowing/no_build,
 /area/firefly/ares)
-"auI" = (
-/obj/structure/platform{
-	dir = 4
-	},
-/turf/closed/wall/almayer/aicore/hull,
-/area/firefly/ares)
 "auJ" = (
 /obj/structure/window/reinforced/toughened,
 /obj/effect/decal/cleanable/dirt,
@@ -8176,7 +8227,7 @@
 /area/firefly/supply)
 "avE" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/closet/secure_closet/marine_personal/pmc/corpsman,
+/obj/structure/closet/secure_closet/marine_personal/pmc/platoon_commander,
 /turf/open/floor/corsat/plate,
 /area/firefly/cryo_cell)
 "avF" = (
@@ -8732,8 +8783,8 @@
 /turf/open/floor/corsat/squares,
 /area/firefly/hangar)
 "awX" = (
-/obj/structure/closet/secure_closet/marine_personal/pmc/platoon_commander,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/secure_closet/marine_personal/pmc/platoon_leader,
 /turf/open/floor/corsat/plate,
 /area/firefly/cryo_cell)
 "awY" = (
@@ -9424,7 +9475,14 @@
 /turf/open/floor/corsat/plate,
 /area/firefly/supply)
 "aUO" = (
-/obj/structure/closet/secure_closet/marine_personal/pmc/squad_leader,
+/obj/structure/closet/secure_closet/marine_personal/pmc/rifleman{
+	pixel_x = -8;
+	pixel_y = -2
+	},
+/obj/structure/closet/secure_closet/marine_personal/pmc/rifleman{
+	pixel_x = 9;
+	pixel_y = -2
+	},
 /turf/open/floor/corsat/plate,
 /area/firefly/cryo_cell)
 "aUZ" = (
@@ -13953,7 +14011,12 @@
 /turf/open/floor/corsat/marked,
 /area/firefly/supply)
 "fYe" = (
-/obj/structure/closet/secure_closet/marine_personal/pmc/platoon_leader,
+/obj/structure/closet/secure_closet/marine_personal/pmc/smartgunner{
+	pixel_x = -8
+	},
+/obj/structure/closet/secure_closet/marine_personal/pmc/smartgunner{
+	pixel_x = 9
+	},
 /turf/open/floor/corsat/plate,
 /area/firefly/cryo_cell)
 "fYg" = (
@@ -15611,11 +15674,6 @@
 	},
 /turf/open/floor/corsat/red/west,
 /area/firefly/cafeteria)
-"hAk" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/closet/secure_closet/marine_personal/pmc/rifleman,
-/turf/open/floor/corsat/plate,
-/area/firefly/cryo_cell)
 "hAn" = (
 /obj/structure/pipes/vents/pump,
 /obj/structure/machinery/light/double/blue/golden_arrow{
@@ -25305,7 +25363,10 @@
 	desc = "A bed of cotton fabric, purposely made for a cat to comfortably sleep on.";
 	name = "cat bed"
 	},
-/mob/living/simple_animal/cat/kitten,
+/mob/living/simple_animal/cat/kitten{
+	name = "Yapper";
+	desc = "He yaps"
+	},
 /turf/open/floor/wood/ship,
 /area/firefly/co)
 "svw" = (
@@ -28491,12 +28552,6 @@
 	},
 /turf/open/floor/wood/ship,
 /area/firefly/co)
-"wcF" = (
-/obj/structure/platform{
-	dir = 8
-	},
-/turf/closed/wall/almayer/aicore/hull,
-/area/firefly/ares)
 "wcI" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
 /obj/effect/decal/cleanable/dirt,
@@ -33649,17 +33704,17 @@ ijT
 adw
 adw
 fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
+acQ
+acQ
+acQ
+acQ
+acQ
+acQ
+acQ
+acQ
+acQ
+acQ
+acQ
 fDZ
 acW
 awN
@@ -33811,17 +33866,17 @@ dIb
 qmo
 adw
 fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
+acQ
+avw
+avs
+avr
+avn
+avo
+acQ
+adk
+adk
+adk
+acQ
 fDZ
 acW
 awN
@@ -33973,17 +34028,17 @@ nqj
 anL
 adw
 fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
+acQ
+adk
+adk
+adk
+avq
+adk
+acQ
+adk
+adk
+adk
+acQ
 fDZ
 acW
 awN
@@ -34135,17 +34190,17 @@ anY
 anM
 adw
 fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
+acQ
+avx
+axV
+adk
+adk
+adk
+acQ
+adk
+adk
+adk
+acQ
 fDZ
 acW
 awN
@@ -34297,17 +34352,17 @@ asK
 eTs
 adw
 fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
+acQ
+acQ
+acQ
+acQ
+acQ
+acQ
+acQ
+acQ
+acQ
+acQ
+acQ
 fDZ
 acW
 awM
@@ -34459,17 +34514,17 @@ wau
 anL
 adw
 fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
+acQ
+adk
+adk
+adk
+adk
+adk
+acQ
+adk
+adk
+adk
+acQ
 fDZ
 acW
 awM
@@ -34621,17 +34676,17 @@ xsN
 iea
 adw
 fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
+acQ
+adk
+adk
+adk
+adk
+adk
+acQ
+adk
+adk
+adk
+acQ
 fDZ
 acW
 awN
@@ -34783,17 +34838,17 @@ iIo
 iea
 adw
 fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
+acQ
+axV
+adk
+adk
+adk
+adk
+acQ
+adk
+adk
+adk
+acQ
 fDZ
 acW
 awM
@@ -34945,17 +35000,17 @@ wfK
 anN
 adw
 fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
+acQ
+acQ
+acQ
+acQ
+acQ
+acQ
+acQ
+acQ
+acQ
+acQ
+acQ
 fDZ
 acW
 awN
@@ -35107,17 +35162,17 @@ bjk
 iea
 adw
 fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
+acQ
+adk
+adk
+adk
+adk
+adk
+acQ
+adk
+adk
+adk
+acQ
 fDZ
 acW
 awN
@@ -35269,17 +35324,17 @@ bjk
 anL
 adw
 fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
+acQ
+adk
+adk
+adk
+adk
+adk
+acQ
+adk
+adk
+adk
+acQ
 fDZ
 acW
 awN
@@ -35431,17 +35486,17 @@ btJ
 anL
 adw
 fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
+acQ
+adk
+adk
+adk
+adk
+adk
+acQ
+adk
+adk
+adk
+acQ
 fDZ
 acW
 awN
@@ -35593,17 +35648,17 @@ anZ
 anM
 adw
 fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
+acQ
+adk
+adk
+adk
+adk
+adk
+acQ
+adk
+adk
+adk
+acQ
 fDZ
 acW
 awS
@@ -35755,17 +35810,17 @@ nMH
 hta
 adw
 fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
+acQ
+adk
+adk
+adk
+adk
+adk
+acQ
+adk
+adk
+adk
+acQ
 fDZ
 acW
 acW
@@ -35917,17 +35972,17 @@ adE
 adz
 adw
 fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
+acQ
+adk
+adk
+adk
+adk
+adk
+acQ
+adk
+adk
+adk
+acQ
 fDZ
 fDZ
 acW
@@ -36062,7 +36117,7 @@ acQ
 acQ
 acQ
 adw
-aez
+aoY
 aKv
 aoE
 anL
@@ -36079,17 +36134,17 @@ adA
 adA
 adw
 fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
-fDZ
+acQ
+acQ
+acQ
+acQ
+acQ
+acQ
+acQ
+acQ
+acQ
+acQ
+acQ
 fDZ
 fDZ
 fDZ
@@ -36351,17 +36406,17 @@ fDZ
 fDZ
 fDZ
 fDZ
-acQ
-acQ
-acQ
-acQ
-acQ
-acQ
-acQ
-acQ
-acQ
-acQ
-acQ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
 fDZ
 lSv
 tXy
@@ -36513,17 +36568,17 @@ fDZ
 fDZ
 fDZ
 fDZ
-acQ
-avw
-avs
-avr
-avn
-avo
-acQ
-adk
-adk
-adk
-acQ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
 fDZ
 lSv
 tXy
@@ -36675,17 +36730,17 @@ fDZ
 fDZ
 fDZ
 fDZ
-acQ
-adk
-adk
-adk
-avq
-adk
-acQ
-adk
-adk
-adk
-acQ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
 fDZ
 lSv
 tXy
@@ -36710,13 +36765,13 @@ aqc
 aeV
 aeV
 adw
-aok
+fYe
 cFL
 iCh
 iea
-hAk
+aen
 adA
-aok
+aUO
 aKv
 adY
 anL
@@ -36837,17 +36892,17 @@ fDZ
 fDZ
 fDZ
 fDZ
-acQ
-avx
-axV
-adk
-adk
-adk
-acQ
-adk
-adk
-adk
-acQ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
 fDZ
 lSv
 tXy
@@ -36999,17 +37054,17 @@ fDZ
 fDZ
 fDZ
 fDZ
-acQ
-acQ
-acQ
-acQ
-acQ
-acQ
-acQ
-acQ
-acQ
-acQ
-acQ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
 fDZ
 lSv
 tXy
@@ -37161,17 +37216,17 @@ fDZ
 fDZ
 fDZ
 fDZ
-acQ
-adk
-adk
-adk
-adk
-adk
-acQ
-adk
-adk
-adk
-acQ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
 fDZ
 lSv
 tXy
@@ -37323,17 +37378,17 @@ fDZ
 fDZ
 fDZ
 fDZ
-acQ
-adk
-adk
-adk
-adk
-adk
-acQ
-adk
-adk
-adk
-acQ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
 fDZ
 lSv
 tXy
@@ -37485,17 +37540,17 @@ fDZ
 fDZ
 fDZ
 fDZ
-acQ
-axV
-adk
-adk
-adk
-adk
-acQ
-adk
-adk
-adk
-acQ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
 fDZ
 lSv
 tXy
@@ -37647,17 +37702,17 @@ fDZ
 fDZ
 fDZ
 fDZ
-acQ
-acQ
-acQ
-acQ
-acQ
-acQ
-acQ
-acQ
-acQ
-acQ
-acQ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
 fDZ
 lSv
 tXy
@@ -37809,17 +37864,17 @@ fDZ
 fDZ
 fDZ
 fDZ
-acQ
-adk
-adk
-adk
-adk
-adk
-acQ
-adk
-adk
-adk
-acQ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
 fDZ
 gto
 aFa
@@ -37971,17 +38026,17 @@ fDZ
 fDZ
 fDZ
 fDZ
-acQ
-adk
-adk
-adk
-adk
-adk
-acQ
-adk
-adk
-adk
-acQ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
 fDZ
 fDZ
 fDZ
@@ -38133,17 +38188,17 @@ fDZ
 fDZ
 fDZ
 fDZ
-acQ
-adk
-adk
-adk
-adk
-adk
-acQ
-adk
-adk
-adk
-acQ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
 fDZ
 fDZ
 fDZ
@@ -38295,17 +38350,17 @@ fDZ
 fDZ
 fDZ
 fDZ
-acQ
-adk
-adk
-adk
-adk
-adk
-acQ
-adk
-adk
-adk
-acQ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
 fDZ
 fDZ
 fDZ
@@ -38457,17 +38512,17 @@ fDZ
 fDZ
 fDZ
 fDZ
-acQ
-adk
-adk
-adk
-adk
-adk
-acQ
-adk
-adk
-adk
-acQ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
 fDZ
 fDZ
 fDZ
@@ -38619,17 +38674,17 @@ fDZ
 fDZ
 fDZ
 fDZ
-acQ
-adk
-adk
-adk
-adk
-adk
-acQ
-adk
-adk
-adk
-acQ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
 fDZ
 fDZ
 fDZ
@@ -38781,17 +38836,17 @@ fDZ
 fDZ
 fDZ
 fDZ
-acQ
-acQ
-acQ
-acQ
-acQ
-acQ
-acQ
-acQ
-acQ
-acQ
-acQ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
+fDZ
 fDZ
 fDZ
 fDZ
@@ -39934,7 +39989,7 @@ omw
 omw
 qcB
 acQ
-agj
+apa
 afV
 agw
 afn
@@ -40096,7 +40151,7 @@ niw
 niw
 jyw
 acQ
-agj
+apa
 afW
 agx
 afo
@@ -40258,7 +40313,7 @@ tPB
 tPB
 bwd
 acQ
-agj
+apa
 afX
 agy
 afp
@@ -45965,8 +46020,8 @@ oqa
 anm
 acZ
 pJx
-acT
-acT
+aoO
+aoO
 nEy
 amg
 acR
@@ -46128,7 +46183,7 @@ ann
 acZ
 pJx
 acT
-acT
+amg
 nEy
 amw
 acR
@@ -47465,7 +47520,7 @@ atZ
 atZ
 atZ
 atZ
-atZ
+aeu
 atZ
 atZ
 atZ
@@ -48431,7 +48486,7 @@ atZ
 atZ
 atZ
 atZ
-auI
+atZ
 atZ
 xkr
 jUo
@@ -49727,7 +49782,7 @@ atZ
 atZ
 atZ
 atZ
-wcF
+atZ
 atZ
 xkr
 jUo
