@@ -69,7 +69,6 @@
 	pixel_x = 10;
 	pixel_y = 14
 	},
-/obj/structure/ship_ammo/laser_battery,
 /turf/open/floor/prison/darkred2,
 /area/scavenger_ship/staging_prep)
 "aai" = (

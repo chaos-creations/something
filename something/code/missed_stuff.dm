@@ -596,7 +596,6 @@
 		"Ammo Packet, Slugs (12g)" = list(/obj/item/ammo_magazine/shotgun, 1, 2, "shells"),
 		"Ammo Packet, Buckshot (12g)" = list(/obj/item/ammo_magazine/shotgun/buckshot, 1, 2, "shells"),
 		"Ammo Packet, Flechette (12g)" = list(/obj/item/ammo_magazine/shotgun/flechette, 2, 2, "shells"),
-		// corrupted
 	)
 
 	var/list/broken_recipes = list()
@@ -728,7 +727,7 @@
 	html += "<p style='text-align:center;'><i>There is a note visible on the edge of the machine interface screen that says 'refurbished batch number ###'.</i></p>"
 	html += "</body></html>"
 
-	user << browse(html, "window=ammunition_fabricator;size=620x620")
+	user << browse(html, "window=ammunition_fabricator;size=640x640")
 
 
 /obj/structure/ammunition_fabricator/attackby(obj/item/W, mob/user)
@@ -753,7 +752,8 @@
 			return FALSE
 
 		var/n_total = length(broken)
-		var/restore_count = max(1, round(n_total * rand(0.25, 0.5))) // restores 25-50% of broken
+		var/restore_fraction = rand(25, 60) / 100
+		var/restore_count = max(1, round(n_total * restore_fraction)) // restores 25–60%
 
 		for(var/i = 1 to restore_count)
 			var/which = pick(broken)
