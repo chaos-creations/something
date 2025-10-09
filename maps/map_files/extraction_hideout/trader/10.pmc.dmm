@@ -1,0 +1,491 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/structure/tent_curtain,
+/obj/structure/machinery/door/window/ultra{
+	dir = 2;
+	req_access_txt = "200"
+	},
+/turf/open/floor/corsat/plate,
+/area/scavenger_ship/staging_maint)
+"c" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/corsat/officetiles,
+/area/scavenger_ship/staging_maint)
+"d" = (
+/turf/template_noop,
+/area/template_noop)
+"e" = (
+/turf/open/floor/corsat/officesquares,
+/area/scavenger_ship/staging_maint)
+"f" = (
+/obj/structure/surface/rack{
+	color = "#6b675e";
+	layer = 2.79
+	},
+/obj/structure/machinery/cm_vending/sorted/coins{
+	icon = 'icons/obj/structures/props/server_equipment.dmi';
+	icon_state = "laptop_on";
+	pixel_x = 0;
+	pixel_y = 6
+	},
+/obj/item/spacecash/ewallet{
+	pixel_x = 2;
+	pixel_y = 2
+	},
+/turf/open/floor/corsat/cargo,
+/area/scavenger_ship/staging_maint)
+"g" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/clothing/suit/storage/marine/veteran/pmc/light/synth{
+	pixel_x = -7;
+	pixel_y = 14
+	},
+/obj/item/clothing/under/marine/veteran/pmc/corporate/hybrisa/lead{
+	pixel_x = -6;
+	pixel_y = 1
+	},
+/obj/item/clothing/under/marine/veteran/pmc/corporate/hybrisa{
+	pixel_x = 7;
+	pixel_y = 7
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/corsat/plate,
+/area/scavenger_ship/staging_maint)
+"h" = (
+/obj/structure/bed/chair/wood{
+	dir = 4
+	},
+/obj/item/storage/toolbox/mechanical{
+	pixel_y = 16;
+	pixel_x = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/corsat/squares,
+/area/scavenger_ship/staging_maint)
+"i" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/structure/window/reinforced/ultra,
+/obj/structure/tent_curtain,
+/turf/open/floor/corsat/plate,
+/area/scavenger_ship/staging_maint)
+"j" = (
+/turf/open/floor/corsat/sigma,
+/area/scavenger_ship/staging_maint)
+"k" = (
+/turf/open/floor/corsat/box,
+/area/scavenger_ship/staging_maint)
+"l" = (
+/obj/structure/machinery/door/airlock/almayer/generic{
+	dir = 1
+	},
+/turf/open/floor/corsat/marked,
+/area/scavenger_ship/staging_maint)
+"m" = (
+/obj/structure/surface/rack{
+	color = "#6b675e";
+	layer = 2.79
+	},
+/obj/item/storage/box/guncase/nsg23_marine/pve{
+	pixel_y = -4
+	},
+/obj/item/storage/box/guncase/nsg23_marine/pve{
+	pixel_y = 5
+	},
+/obj/structure/sign/safety/elevator{
+	pixel_x = 7;
+	pixel_y = 30
+	},
+/turf/open/floor/corsat/cargo,
+/area/scavenger_ship/staging_maint)
+"n" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison/cell_stripe,
+/area/scavenger_ship/staging_maint)
+"o" = (
+/obj/structure/surface/rack{
+	color = "#6b675e";
+	layer = 2.79
+	},
+/obj/item/weapon/gun/rifle/m41aMK1/elite/unloaded/platoon,
+/obj/item/weapon/gun/rifle/m41aMK1/elite/unloaded/platoon,
+/turf/open/floor/corsat/cargo,
+/area/scavenger_ship/staging_maint)
+"p" = (
+/turf/closed/wall/r_wall/biodome/biodome_unmeltable,
+/area/scavenger_ship/staging_maint)
+"q" = (
+/obj/structure/machinery/door/poddoor/hybrisa/secure_red_door,
+/turf/open/floor/corsat/marked,
+/area/scavenger_ship/staging_maint)
+"r" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/storage/box/guncase/heavy/fuel/pmc{
+	pixel_x = 0;
+	pixel_y = 19
+	},
+/obj/item/storage/box/explosive_mines/pmc{
+	pixel_x = 2;
+	pixel_y = 3
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/corsat/plate,
+/area/scavenger_ship/staging_maint)
+"s" = (
+/turf/closed/wall/strata_outpost/reinforced/hull,
+/area/scavenger_ship/staging_maint)
+"t" = (
+/turf/open/floor/corsat/officetiles,
+/area/scavenger_ship/staging_maint)
+"u" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/structure/machinery/door/window/ultra{
+	dir = 2;
+	req_access_txt = "200"
+	},
+/obj/structure/tent_curtain,
+/turf/open/floor/corsat/plate,
+/area/scavenger_ship/staging_maint)
+"v" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/clothing/head/helmet/marine/veteran/pmc/gunner{
+	pixel_x = -7;
+	pixel_y = 11
+	},
+/obj/item/clothing/head/helmet/marine/veteran/pmc{
+	pixel_x = 6;
+	pixel_y = 11
+	},
+/obj/item/clothing/suit/storage/marine/smartgunner/veteran/pmc{
+	pixel_x = -7;
+	pixel_y = -1
+	},
+/obj/item/clothing/suit/storage/marine/veteran/pmc{
+	pixel_x = 7;
+	pixel_y = 0
+	},
+/obj/item/clothing/suit/storage/marine/veteran/pmc/light{
+	pixel_x = 6;
+	pixel_y = -12
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/corsat/plate,
+/area/scavenger_ship/staging_maint)
+"w" = (
+/obj/structure/droppod/container,
+/obj/structure/machinery/light/double/blue/golden_arrow{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/corsat/cargo,
+/area/scavenger_ship/staging_maint)
+"x" = (
+/obj/structure/closet/emcloset,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/corsat/cargo,
+/area/scavenger_ship/staging_maint)
+"y" = (
+/obj/structure/machinery/cm_vending/sorted/cargo_guns/squad/pmc,
+/turf/open/floor/corsat/plate,
+/area/scavenger_ship/staging_maint)
+"z" = (
+/turf/closed/wall/r_wall/biodome,
+/area/scavenger_ship/staging_maint)
+"A" = (
+/turf/open/floor/corsat/squares,
+/area/scavenger_ship/staging_maint)
+"C" = (
+/obj/structure/machinery/cm_vending/sorted/uniform_supply/squad_prep/pmc{
+	req_access = null
+	},
+/turf/open/floor/corsat/plate,
+/area/scavenger_ship/staging_maint)
+"D" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/corsat/squares,
+/area/scavenger_ship/staging_maint)
+"E" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/weapon/gun/pistol/es4{
+	pixel_x = 2;
+	pixel_y = 12
+	},
+/obj/item/ammo_magazine/pistol/es4{
+	pixel_x = 6;
+	pixel_y = 0
+	},
+/obj/item/ammo_magazine/pistol/es4{
+	pixel_x = -3;
+	pixel_y = 0
+	},
+/turf/open/floor/corsat/plate,
+/area/scavenger_ship/staging_maint)
+"H" = (
+/obj/structure/window/framed/corsat,
+/turf/open/floor/corsat/marked,
+/area/scavenger_ship/staging_maint)
+"J" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass{
+	name = "\improper Operations Wing"
+	},
+/turf/open/floor/corsat/marked,
+/area/scavenger_ship/staging_maint)
+"K" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/corsat/box,
+/area/scavenger_ship/staging_maint)
+"L" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_14";
+	pixel_y = -7;
+	pixel_x = 20
+	},
+/turf/open/floor/prison/ramptop/east,
+/area/scavenger_ship/staging_maint)
+"M" = (
+/obj/structure/flora/pottedplant{
+	icon_state = "pottedplant_29"
+	},
+/obj/structure/barricade/handrail/medical{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/corsat/officesquares,
+/area/scavenger_ship/staging_maint)
+"N" = (
+/obj/structure/machinery/light/double/blue/golden_arrow{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/corsat/theta,
+/area/scavenger_ship/staging_maint)
+"O" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison/darkbrown2/east,
+/area/scavenger_ship/staging_maint)
+"P" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison/darkbrown2/west,
+/area/scavenger_ship/staging_maint)
+"Q" = (
+/obj/structure/bed/chair/dropship{
+	dir = 1;
+	pixel_x = -9;
+	pixel_y = 4
+	},
+/obj/structure/bed/chair/dropship{
+	dir = 1;
+	pixel_x = 8;
+	pixel_y = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/corsat/officesquares,
+/area/scavenger_ship/staging_maint)
+"R" = (
+/obj/structure/machinery/light/small/blue/golden_arrow{
+	dir = 8
+	},
+/turf/open/floor/corsat/squares,
+/area/scavenger_ship/staging_maint)
+"S" = (
+/obj/structure/machinery/light/double/blue/golden_arrow{
+	dir = 8
+	},
+/turf/open/floor/corsat/theta,
+/area/scavenger_ship/staging_maint)
+"T" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/corsat/officesquares,
+/area/scavenger_ship/staging_maint)
+"U" = (
+/obj/structure/flora/pottedplant{
+	icon_state = "pottedplant_10";
+	pixel_x = 4;
+	pixel_y = 2
+	},
+/obj/structure/barricade/handrail/medical{
+	dir = 8
+	},
+/turf/open/floor/corsat/officesquares,
+/area/scavenger_ship/staging_maint)
+"V" = (
+/obj/structure/machinery/light/small/blue/golden_arrow{
+	dir = 1
+	},
+/turf/open/floor/prison/ramptop/east,
+/area/scavenger_ship/staging_maint)
+"W" = (
+/obj/structure/dropship_equipment/electronics/spotlights,
+/turf/open/floor/corsat/cargo,
+/area/scavenger_ship/staging_maint)
+"X" = (
+/obj/structure/machinery/light/small/red{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/corsat/squares,
+/area/scavenger_ship/staging_maint)
+"Y" = (
+/turf/open/floor/corsat/marked,
+/area/scavenger_ship/staging_maint)
+"Z" = (
+/obj/structure/surface/rack{
+	color = "#6b675e";
+	layer = 2.79
+	},
+/obj/item/defenses/handheld/sentry/pmc_platoon{
+	pixel_x = 0;
+	pixel_y = 9
+	},
+/obj/structure/sign/safety/ammunition{
+	pixel_y = 30;
+	pixel_x = 7
+	},
+/obj/item/explosive/grenade/high_explosive/pmc{
+	pixel_x = -4;
+	pixel_y = -3
+	},
+/obj/item/explosive/grenade/high_explosive/pmc{
+	pixel_x = 6;
+	pixel_y = -3
+	},
+/turf/open/floor/corsat/cargo,
+/area/scavenger_ship/staging_maint)
+
+(1,1,1) = {"
+p
+p
+p
+p
+p
+d
+p
+p
+p
+p
+p
+p
+p
+p
+s
+"}
+(2,1,1) = {"
+p
+y
+D
+h
+p
+p
+p
+v
+g
+S
+i
+T
+Q
+H
+P
+"}
+(3,1,1) = {"
+p
+C
+A
+D
+D
+l
+R
+D
+D
+D
+i
+t
+M
+z
+V
+"}
+(4,1,1) = {"
+p
+p
+W
+w
+x
+z
+Z
+f
+D
+K
+u
+t
+t
+J
+n
+"}
+(5,1,1) = {"
+d
+p
+z
+z
+z
+z
+m
+o
+A
+k
+a
+c
+c
+Y
+n
+"}
+(6,1,1) = {"
+p
+p
+D
+X
+D
+l
+D
+D
+D
+A
+i
+c
+U
+z
+L
+"}
+(7,1,1) = {"
+j
+q
+D
+p
+p
+p
+p
+E
+r
+N
+i
+e
+Q
+H
+O
+"}
+(8,1,1) = {"
+p
+p
+p
+p
+d
+d
+p
+p
+p
+p
+p
+p
+p
+p
+s
+"}
