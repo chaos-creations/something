@@ -1,0 +1,18 @@
+{
+    "map_name": "USCSS Lotos",
+    "short_name": "Lotos",
+    "map_path": "map_files/synth",
+    "map_file": "synth.dmm",
+    "map_item_type": "/obj/item/map/taipei",
+    "traits": [{ "ground": true}],
+    "camouflage": "jungle",
+    "environment_traits": {},
+    "announce_text": "Cargo ship detected, commencing approach...",
+    "gamemodes": [
+        "Distress Signal",
+        "Hunter Games",
+        "Hive Wars",
+        "Faction Clash",
+        "Infection"
+    ]
+}

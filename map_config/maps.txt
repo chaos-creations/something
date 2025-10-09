@@ -128,3 +128,6 @@ endmap
 
 map derelict_almayer_infested
 endmap
+
+map synth
+endmap

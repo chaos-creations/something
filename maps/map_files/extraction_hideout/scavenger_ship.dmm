@@ -71,15 +71,6 @@
 	},
 /turf/open/floor/prison/darkred2,
 /area/scavenger_ship/staging_prep)
-"aai" = (
-/obj/structure/prop/invuln{
-	desc = "An inflated membrane. This one is puncture proof. Wow!";
-	icon = 'icons/obj/items/inflatable.dmi';
-	icon_state = "wall"
-	},
-/obj/structure/blocker/invisible_wall,
-/turf/open/floor/plating/kutjevo,
-/area/scavenger_ship/staging_port)
 "aaj" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -97,6 +88,20 @@
 	},
 /turf/open/floor/prison/darkredfull2,
 /area/scavenger_ship/staging_prep)
+"aak" = (
+/obj/structure/machinery/door/firedoor/border_only/almayer{
+	dir = 2
+	},
+/obj/structure/machinery/door/airlock/strata/maintenance/autoname{
+	dir = 1;
+	health = 100000;
+	no_panel = 1;
+	unslashable = 1;
+	unacidable = 1;
+	locked = 1
+	},
+/turf/open/floor/corsat/marked,
+/area/scavenger_ship/staging_port)
 "aal" = (
 /turf/open/floor/almayer_hull/outerhull_dir/southwest,
 /area/space)
@@ -7933,10 +7938,6 @@
 /obj/structure/platform_decoration/metal/hybrisa/metalplatformdeco6/north,
 /turf/open/space/basic,
 /area/space)
-"aqp" = (
-/obj/structure/machinery/door/airlock/strata,
-/turf/open/space/basic,
-/area/space)
 "aqT" = (
 /turf/closed/shuttle/midway{
 	icon_state = "24"
@@ -10758,28 +10759,6 @@
 /obj/effect/decal/cleanable/molten_item,
 /turf/open/floor/plating/kutjevo,
 /area/scavenger_ship/logistics_engo)
-"cLQ" = (
-/obj/structure/prop/invuln/lattice_prop{
-	icon = 'icons/turf/floors/catwalks.dmi';
-	icon_state = "catwalk0";
-	layer = 0.5
-	},
-/obj/structure/prop/invuln{
-	desc = "An inflated membrane. This one is puncture proof. Wow!";
-	icon = 'icons/obj/items/inflatable.dmi';
-	icon_state = "wall"
-	},
-/obj/structure/blocker/invisible_wall,
-/obj/structure/prop/invuln/lattice_prop{
-	icon_state = "lattice-simple";
-	pixel_y = 14
-	},
-/obj/structure/prop/invuln/lattice_prop{
-	icon_state = "lattice-simple";
-	pixel_y = -18
-	},
-/turf/open/space/basic,
-/area/scavenger_ship/staging_port)
 "cMi" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/power/apc/almayer/west,
@@ -14225,24 +14204,6 @@
 	},
 /turf/open/floor/prison/floor_plate/southwest,
 /area/scavenger_ship/logistics_engo)
-"fCV" = (
-/obj/structure/prop/invuln/lattice_prop{
-	icon = 'icons/turf/floors/catwalks.dmi';
-	icon_state = "catwalk0";
-	layer = 0.5
-	},
-/obj/structure/prop/invuln{
-	desc = "An inflated membrane. This one is puncture proof. Wow!";
-	icon = 'icons/obj/items/inflatable.dmi';
-	icon_state = "wall"
-	},
-/obj/structure/blocker/invisible_wall,
-/obj/structure/prop/invuln/lattice_prop{
-	icon_state = "lattice-simple";
-	pixel_y = -18
-	},
-/turf/open/space/basic,
-/area/scavenger_ship/staging_port)
 "fEn" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -14270,24 +14231,6 @@
 	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_engo)
-"fFl" = (
-/obj/structure/prop/invuln/lattice_prop{
-	icon = 'icons/turf/floors/catwalks.dmi';
-	icon_state = "catwalk0";
-	layer = 0.5
-	},
-/obj/structure/prop/invuln{
-	desc = "An inflated membrane. This one is puncture proof. Wow!";
-	icon = 'icons/obj/items/inflatable.dmi';
-	icon_state = "wall"
-	},
-/obj/structure/blocker/invisible_wall,
-/obj/structure/prop/invuln/lattice_prop{
-	icon_state = "lattice6";
-	pixel_y = 14
-	},
-/turf/open/space/basic,
-/area/scavenger_ship/staging_port)
 "fFp" = (
 /obj/structure/prop/hybrisa/misc/cabinet{
 	pixel_x = -9;
@@ -20304,15 +20247,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/strata/floor2,
 /area/scavenger_ship/ssv_asclepius)
-"kLW" = (
-/obj/item/device/flashlight/lamp/tripod{
-	light_color = "#e7c0a4";
-	anchored = 1;
-	pixel_y = 10;
-	light_range = 3
-	},
-/turf/open/floor/plating/kutjevo,
-/area/scavenger_ship/staging_port)
 "kMw" = (
 /obj/structure/prop/invuln{
 	desc = "Spare tool vendor. What? Did you expect some witty description?";
@@ -25237,9 +25171,6 @@
 "pdJ" = (
 /turf/open/floor/prison/whitegreenfull,
 /area/scavenger_ship/ssv_asclepius)
-"per" = (
-/turf/open/floor/plating/kutjevo/platingdmg3,
-/area/scavenger_ship/staging_port)
 "peC" = (
 /obj/structure/barricade/handrail/strata{
 	dir = 4
@@ -28574,14 +28505,6 @@
 	},
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/hangar_hallway)
-"sbC" = (
-/obj/structure/prop/invuln/lattice_prop{
-	icon_state = "lattice5";
-	pixel_y = 14;
-	pixel_x = 0
-	},
-/turf/open/space/basic,
-/area/space)
 "scm" = (
 /obj/structure/platform_decoration/strata/metal{
 	dir = 8
@@ -28945,24 +28868,6 @@
 	},
 /turf/open/floor/hybrisa/wood/blackwood,
 /area/scavenger_ship/logistics_maint)
-"srZ" = (
-/obj/structure/prop/invuln/lattice_prop{
-	icon = 'icons/turf/floors/catwalks.dmi';
-	icon_state = "catwalk0";
-	layer = 0.5
-	},
-/obj/structure/prop/invuln{
-	desc = "An inflated membrane. This one is puncture proof. Wow!";
-	icon = 'icons/obj/items/inflatable.dmi';
-	icon_state = "wall"
-	},
-/obj/structure/blocker/invisible_wall,
-/obj/structure/prop/invuln/lattice_prop{
-	icon_state = "lattice-simple";
-	pixel_y = 14
-	},
-/turf/open/space/basic,
-/area/scavenger_ship/staging_port)
 "ssh" = (
 /obj/structure/machinery/medical_pod/sleeper{
 	pixel_y = 20
@@ -29211,13 +29116,6 @@
 	},
 /turf/open/floor/prison/whitegreen,
 /area/scavenger_ship/ssv_asclepius)
-"sEV" = (
-/obj/structure/prop/invuln/lattice_prop{
-	icon_state = "lattice9";
-	pixel_y = 14
-	},
-/turf/open/space/basic,
-/area/space)
 "sFM" = (
 /turf/open/floor/corsat,
 /area/scavenger_ship/hangar_deck)
@@ -29313,25 +29211,6 @@
 	},
 /turf/open/floor/prison/floor_plate/southwest,
 /area/scavenger_ship/residential_memorial)
-"sJL" = (
-/obj/structure/prop/invuln/lattice_prop{
-	icon = 'icons/turf/floors/catwalks.dmi';
-	icon_state = "catwalk0";
-	layer = 0.5
-	},
-/obj/structure/prop/invuln{
-	desc = "An inflated membrane. This one is puncture proof. Wow!";
-	icon = 'icons/obj/items/inflatable.dmi';
-	icon_state = "wall"
-	},
-/obj/structure/blocker/invisible_wall,
-/obj/structure/prop/invuln/lattice_prop{
-	icon_state = "lattice10";
-	pixel_y = 14;
-	pixel_x = 0
-	},
-/turf/open/space/basic,
-/area/scavenger_ship/staging_port)
 "sJZ" = (
 /obj/structure/ship_ammo/heavygun,
 /obj/structure/ship_ammo/heavygun{
@@ -31080,15 +30959,6 @@
 /obj/structure/pipes/standard/manifold/fourway/visible,
 /turf/open/floor/almayer_hull,
 /area/scavenger_ship/logistics_engo)
-"uts" = (
-/obj/structure/prop/invuln{
-	desc = "An inflated membrane. This one is puncture proof. Wow!";
-	icon = 'icons/obj/items/inflatable.dmi';
-	icon_state = "wall"
-	},
-/obj/structure/blocker/invisible_wall,
-/turf/open/floor/plating/kutjevo/platingdmg1,
-/area/scavenger_ship/staging_port)
 "utM" = (
 /obj/item/trash/cigbutt{
 	pixel_x = -3;
@@ -33373,9 +33243,6 @@
 	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/cryo_hallway)
-"wBO" = (
-/turf/open/floor/plating/kutjevo,
-/area/scavenger_ship/staging_port)
 "wDi" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "W"
@@ -34603,9 +34470,6 @@
 	},
 /turf/open/floor/prison/floor_plate/southwest,
 /area/scavenger_ship/staging_prep)
-"xDs" = (
-/turf/open/floor/plating/kutjevo/panelscorched,
-/area/scavenger_ship/staging_port)
 "xDv" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -37726,7 +37590,7 @@ rhS
 rhS
 rhS
 rhS
-aqp
+rhS
 rhS
 rhS
 rhS
@@ -38994,7 +38858,7 @@ rhS
 rhS
 rhS
 rhS
-rhS
+anN
 anN
 rhS
 rhS
@@ -39304,7 +39168,7 @@ hZR
 nfH
 sOy
 sOy
-sbC
+rhS
 rhS
 rhS
 rhS
@@ -39476,9 +39340,9 @@ oCd
 vFm
 fHd
 sOy
-sJL
-cLQ
-fCV
+rhS
+rhS
+rhS
 rhS
 rhS
 rhS
@@ -39648,9 +39512,9 @@ akx
 akx
 nlN
 sOy
-wBO
-per
-aai
+rhS
+rhS
+rhS
 rhS
 rhS
 rhS
@@ -39819,10 +39683,10 @@ jwQ
 pwV
 cGK
 vFm
-qPP
-wBO
-kLW
-aai
+aak
+rhS
+rhS
+rhS
 rhS
 rhS
 rhS
@@ -39992,9 +39856,9 @@ akx
 akx
 jwQ
 sOy
-xDs
-wBO
-uts
+rhS
+rhS
+rhS
 rhS
 rhS
 rhS
@@ -40164,9 +40028,9 @@ jwQ
 qyG
 kBk
 sOy
-fFl
-srZ
-cLQ
+rhS
+rhS
+rhS
 rhS
 rhS
 rhS
@@ -40336,7 +40200,7 @@ dBu
 wuV
 sOy
 sOy
-sEV
+rhS
 rhS
 rhS
 rhS
