@@ -71,6 +71,19 @@
 	},
 /turf/open/floor/prison/darkred2,
 /area/scavenger_ship/staging_prep)
+"aai" = (
+/obj/structure/prop/structure_lattice{
+	dir = 1;
+	pixel_y = 0;
+	pixel_x = 2
+	},
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 4
+	},
+/obj/structure/blocker/invisible_wall,
+/turf/open/floor/corsat,
+/area/scavenger_ship/hangar_hallway)
 "aaj" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -1388,14 +1401,11 @@
 	pixel_y = 2;
 	anchored = 1
 	},
-/obj/item/disk/data{
-	pixel_x = 6;
-	pixel_y = 0;
-	name = "Broken Synthetic Repair Data Disk";
-	desc = "A broken Weyland-Yutani data disk that once held schematics for synthetic repairs, now corrupted and unusable.";
-	icon_state = "datadisk6"
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/item/prop/almayer/synth_disk{
+	pixel_x = 9;
+	pixel_y = 0
+	},
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/hangar_synth)
 "ads" = (
@@ -5206,6 +5216,10 @@
 /obj/effect/step_trigger/clone_cleaner,
 /turf/open/floor/prison/darkbrown2/west,
 /area/scavenger_ship/hangar_synth)
+"ajY" = (
+/obj/structure/blocker/invisible_wall,
+/turf/open/floor/prison/darkbrown2/north,
+/area/scavenger_ship/hangar_hallway)
 "ajZ" = (
 /obj/structure/ladder{
 	id = "vehicle_tunnel"
@@ -7938,6 +7952,16 @@
 /obj/structure/platform_decoration/metal/hybrisa/metalplatformdeco6/north,
 /turf/open/space/basic,
 /area/space)
+"aqp" = (
+/obj/effect/decal/cleanable/liquid_fuel,
+/obj/structure/blocker/invisible_wall,
+/turf/open/floor/prison/darkbrown2/north,
+/area/scavenger_ship/hangar_hallway)
+"aqq" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/blocker/invisible_wall,
+/turf/open/floor/prison/darkbrown2/north,
+/area/scavenger_ship/hangar_hallway)
 "aqT" = (
 /turf/closed/shuttle/midway{
 	icon_state = "24"
@@ -9091,6 +9115,7 @@
 	},
 /obj/structure/prop/dam/truck/mining,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/blocker/invisible_wall,
 /turf/open/floor/prison/darkbrown2/north,
 /area/scavenger_ship/hangar_hallway)
 "blF" = (
@@ -9920,6 +9945,7 @@
 	},
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/decal/cleanable/liquid_fuel,
+/obj/structure/blocker/invisible_wall,
 /turf/open/floor/prison/darkbrown2/north,
 /area/scavenger_ship/hangar_hallway)
 "bXb" = (
@@ -11770,6 +11796,7 @@
 	pixel_y = 22;
 	layer = 6
 	},
+/obj/structure/blocker/invisible_wall,
 /turf/open/floor/prison/darkbrown2/north,
 /area/scavenger_ship/hangar_hallway)
 "dzF" = (
@@ -32733,6 +32760,7 @@
 	pixel_y = 4
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/blocker/invisible_wall,
 /turf/open/floor/corsat,
 /area/scavenger_ship/hangar_hallway)
 "wct" = (
@@ -36519,7 +36547,7 @@ xgl
 nhX
 vVs
 lTE
-amx
+ajY
 uCc
 uUE
 lTE
@@ -36863,7 +36891,7 @@ hgX
 riR
 ogI
 ojG
-mVV
+aqp
 obZ
 uUE
 vdV
@@ -38069,7 +38097,7 @@ fco
 lTE
 fBE
 iTS
-ily
+aai
 acT
 eMF
 hgY
@@ -38583,7 +38611,7 @@ qAH
 xNn
 vVs
 lTE
-rXj
+aqq
 mHR
 hDQ
 lTE
