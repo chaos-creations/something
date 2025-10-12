@@ -101,6 +101,18 @@
 	},
 /turf/open/floor/prison/darkredfull2,
 /area/scavenger_ship/staging_prep)
+"aak" = (
+/obj/effect/decal/cleanable/liquid_fuel{
+	name = "water";
+	desc = "blue think, water you know.";
+	color = "#40a1b6"
+	},
+/obj/structure/largecrate/random/mini/ammo{
+	pixel_x = -8;
+	pixel_y = -3
+	},
+/turf/open/floor/prison/darkbrownfull2,
+/area/scavenger_ship/staging_requisition)
 "aal" = (
 /turf/open/floor/almayer_hull/outerhull_dir/southwest,
 /area/space)
@@ -3395,6 +3407,18 @@
 	name = "empty space no density"
 	},
 /area/scavenger_ship/staging_workshop)
+"ahh" = (
+/obj/effect/decal/cleanable/liquid_fuel{
+	name = "water";
+	desc = "blue think, water you know.";
+	color = "#40a1b6"
+	},
+/obj/structure/largecrate/random/mini/wooden{
+	pixel_x = 4;
+	pixel_y = -11
+	},
+/turf/open/floor/corsat,
+/area/scavenger_ship/staging_requisition)
 "ahj" = (
 /obj/structure/roof/cargocrane_tracks/vertical/endcap2{
 	pixel_x = 16
@@ -8757,6 +8781,10 @@
 	name = "water";
 	desc = "blue think, water you know.";
 	color = "#40a1b6"
+	},
+/obj/structure/largecrate/random/mini/small_case{
+	pixel_x = -18;
+	pixel_y = 9
 	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/staging_requisition)
@@ -17814,6 +17842,10 @@
 	pixel_y = 8
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/largecrate/random/mini/med{
+	pixel_x = 10;
+	pixel_y = 5
+	},
 /turf/open/floor/prison/floor_marked,
 /area/scavenger_ship/staging_requisition)
 "idB" = (
@@ -28398,6 +28430,7 @@
 	desc = "blue think, water you know.";
 	color = "#40a1b6"
 	},
+/obj/structure/largecrate/random,
 /turf/open/floor/prison/darkbrownfull2,
 /area/scavenger_ship/staging_requisition)
 "rsX" = (
@@ -40341,9 +40374,9 @@ fZC
 kwH
 jgX
 arY
+ahh
 arV
-arV
-rsP
+aak
 aCD
 nWp
 sCU
