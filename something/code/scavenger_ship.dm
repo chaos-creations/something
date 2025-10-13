@@ -167,3 +167,22 @@
 	name = "\improper Storage Bays"
 	icon_state = "req"
 
+/area/scavenger_ship/living_deck
+	name = "\improper Living Deck - Hallway"
+	icon_state = "port"
+
+/area/scavenger_ship/living_room
+	name = "\improper Residential"
+	icon_state = "dark"
+
+/area/scavenger_ship/living_scholar
+	name = "\improper Scholar Shop"
+	icon_state = "ab_shared"
+
+/area/scavenger_ship/living_scholar_room
+	name = "\improper Scholar Room"
+	icon_state = "alpha"
+
+/area/scavenger_ship/living_scholar_room
+	name = "\improper Scholar Room"
+	icon_state = "alpha"
