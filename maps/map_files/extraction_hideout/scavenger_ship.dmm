@@ -1336,7 +1336,8 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/item/prop/almayer/synth_disk{
 	pixel_x = 9;
-	pixel_y = 0
+	pixel_y = 0;
+	anchored = 1
 	},
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/hangar_synth)
