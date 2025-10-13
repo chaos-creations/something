@@ -30,222 +30,62 @@
 				"}
 
 /datum/fluff_email/nomad/mission1
-	title = "XX-121"
-	entry_text = {"<html>
-	<head>
-	<style>
-		body { font-family: 'Verdana', sans-serif; color:#eaeaea; background:#071018; font-size:12px; padding:10px; }
-		.card { background: linear-gradient(90deg,#071018,#0b1a22); border:1px solid #163040; padding:10px; border-radius:6px; }
-		h1 { font-size:14px; margin:0 0 6px 0; color:#8be9fd; }
-		.meta { font-size:11px; color:#9fb7c7; margin-bottom:8px; }
-		.section { margin:8px 0; padding:6px; background:#071a16; border-radius:4px; border:1px solid #0f3026; }
-		.danger { color:#ff8b6b; font-weight:bold; }
-		.code { font-family:monospace; font-size:12px; color:#b8f2d6; background:#051210; padding:6px; border-radius:4px; }
-		.footer { font-size:11px; color:#9aaabb; margin-top:8px; }
-		.important { color:#ffd479; font-weight:600; }
-	</style>
-	</head>
-	<body>
-	<div class='card'>
-		<h1>ХХ-121 · Биологические данные</h1>
-		<div class='meta'>SOURCE: TWE / BOSENMORI ARCHIVE · SECTOR: BOSENMORI BASHO · SIG: 0xOZE-102</div>
+    title = "Contract: O12"
+    entry_text = {"<html>
+    <head>
+    <style>
+        body { font-family:'Courier New', monospace; background:#000; color:#00ff99; font-size:12px; padding:10px; }
+        .card { background:#010d09; border:1px solid #033; border-radius:4px; padding:10px; box-shadow:0 0 8px #033 inset; }
+        h1 { color:#00ffaa; font-size:14px; text-shadow:0 0 5px #0f8; margin:0 0 6px 0; }
+        .meta { font-size:10px; color:#0f6; margin-bottom:6px; }
+        .section { margin-top:6px; border-top:1px dashed #066; padding-top:6px; }
+        .code { color:#fff; background:#022; padding:4px; border-radius:3px; display:inline-block; }
+        .warning { color:#ff6666; font-weight:600; margin-top:8px; }
+        .footer { font-size:10px; color:#0f6; margin-top:10px; text-align:center; opacity:0.9; }
+    </style>
+    </head>
+    <body>
+    <div class='card'>
+        <h1>BLACKNET CONTRACT #O12</h1>
+        <div class='meta'>ROUTE: ENCRYPTED 44.9.2 · NODE: 9X·HOLLOW</div>
 
-		<div class='section'>
-			<b>OBJECTIVE:</b> Необходимо "конфисковать" биологические исследования ХХ-121, которые потребовались заказчику.<br>
-			<small>Под биологическими исследованиями подразумеваются любые обьекты которые относятся к ХХ-121.</small>
-		</div>
+        <div class='section'>
+            <b>OBJECTIVE:</b><br>
+            Найти «чёрный ящик» в научном комплексе, извлечь ключ шифрования и отправить данные на указанный спутник на орбите планеты. <br>
+            Выплаты: за каждый завершённый этап вы получаете 1LC(QM). Вы можете покинуть зону операции в любой момент между этапами, но оплата возможна только при условии сохранности объекта первого этапа.
+        </div>
 
-		<div class='section'>
-			<b>CONTRACTOR LOG:</b>
-			<p class='small'><i>Чтобы определить местоположение лаборатории в колонии, вам необходимо проследить за одним из его работников. Один из них был замечен за частым навещенем одного и того же места, данное место будет отмечено на карте. </i></p>
-		</div>
+        <div class='section'>
+            <b>NOTES:</b><br>
+            <i>Автоматическая охрана комплекса может быть всё ещё активна.<br>
+            На орбите находится множество спутников — потребуется точно знать название целевого спутника перед передачей.</i>
+        </div>
 
-		<div class='section'>
-			<b>REWARD:</b> За каждый обьект связанный с ХХ-121 - 10 RP.
-		</div>
+        <div class='section warning'>
+            ⚠ If the black box containing the information is lost, payment will not be issued.
+        </div>
 
-	</body>
-	</html>
-	"}
+        <div class='footer'>TRANSMISSION ENDS · SIGNAL LOST...</div>
+    </div>
+    </body>
+    </html>
+    "}
 
 /datum/fluff_email/nomad/mission2
-	title = "Буровые установки"
+	title = "Contract: ???"
 	entry_text = {"<html>
-	<head>
-	<style>
-		body { font-family: 'Verdana', sans-serif; color:#eaeaea; background:#071018; font-size:12px; padding:10px; }
-		.card { background: linear-gradient(90deg,#071018,#0b1a22); border:1px solid #163040; padding:10px; border-radius:6px; }
-		h1 { font-size:14px; margin:0 0 6px 0; color:#8be9fd; }
-		.meta { font-size:11px; color:#9fb7c7; margin-bottom:8px; }
-		.section { margin:8px 0; padding:6px; background:#071a16; border-radius:4px; border:1px solid #0f3026; }
-		.danger { color:#ff8b6b; font-weight:bold; }
-		.code { font-family:monospace; font-size:12px; color:#b8f2d6; background:#051210; padding:6px; border-radius:4px; }
-		.footer { font-size:11px; color:#9aaabb; margin-top:8px; }
-		.important { color:#ffd479; font-weight:600; }
-	</style>
-	</head>
-	<body>
-	<div class='card'>
-		<h1>Буровые установки</h1>
-		<div class='meta'>SOURCE: TWE / BOSENMORI ARCHIVE · SECTOR: BOSENMORI BASHO · SIG: 0xHYX-22</div>
-
-		<div class='section'>
-			<b>OBJECTIVE:</b>наши запасы буровых установок иссякли и их необходимо пополнить, для этого вы заберёте уже собранные на колонии.<br>
-			<small>Disk believed stored in secured cache within Lab Complex 12 (W-Y logistic annex). Last seen after supply raid, unknown custody.</small>
-		</div>
-
-		<div class='section'>
-			<b>CONTRACTOR LOG:</b>
-			<p class='small'><i>На колонии несколько складов, чтобы определить точное местоположение буров необходимо добраться до администрации в колонии и определить их местоположение с помощью карты. Администрация будет отмечена на карте.</i></p>
-		</div>
-		<div class='section'>
-			<b>REWARD:</b> За одну буровую установку 3 LC (QM), дополнительные буровые установки - 8 RP за каждую.
-		</div>
-
-	</body>
-	</html>
-	"}
+					DATA IS CORRUPTED.
+					PLEASE CONTACT YOUR SYSTEM ADMINISTRATOR.
+				</html>
+				"}
 
 /datum/fluff_email/nomad/mission3
-	title = "Err- Mess- 304"
+	title = "Contract: ???"
 	entry_text = {"<html>
-		<head>
-		<style>
-			body { font-family: 'Verdana', monospace; font-size:12px; color:#ddd; background:#060608; }
-			.container { padding:8px; }
-			.banner { text-align:center; font-weight:bold; color:#ff6b6b; }
-			.corrupt { color:#ff4d4d; background:#1b0b0b; padding:6px; border-radius:4px; }
-			.hex { font-family:monospace; font-size:11px; color:#9fd; background:#07100a; padding:6px; border-radius:4px; margin-top:6px; }
-			.prompt { margin-top:8px; color:#bbb; }
-			.choice { display:inline-block; padding:6px 10px; margin-right:6px; border:1px solid #333; border-radius:4px; cursor:default; }
-			.warn { color:#ffb86b; font-style:italic; margin-top:6px; }
-			.small { font-size:11px; color:#9aa; }
-		</style>
-		</head>
-		<body>
-		<div class='container'>
-			<div class='banner'>ERR- MESS- 304 · DATA PARTIALLY CORRUPTED</div>
-			<p class='corrupt'><b>DATA IS CORRUPTED.</b><br>PLEASE CONTACT YOUR SYSTEM ADMINISTRATOR.</p>
-
-			<div class='hex'>
-				0x4A 0x41 0x47 0x55 0x41 0x52 0x2E 0x64 0x69 0x73 0x6B 0x00 <span class='small'>&nbsp;&nbsp;// signature truncated</span><br>
-				0x3F 0xA8 0x?? 0x-- 0x2B 0x9C 0xE1 0x7D 0x()..) <span class='small'>&nbsp;&nbsp;// payload sectors missing</span>
-			</div>
-
-			<p class='prompt'>Attempt to attempt recovery?<br>
-			<span class='choice'>(Yes — Initiate Partial Decrypt)</span>
-			<span class='choice'>(No — Exit)</span></p>
-
-			<p class='warn'>WARNING: Partial restores may expose classified Weyland headers. Hostile interest probable.</p>
-			<p class='small'>Status: <b style='color:#7fffd4'>READ-ONLY</b> · Decryption Level: <b style='color:#7fffd4'>PARTIAL</b></p>
-		</div>
-		</body>
-		</html>
-	"}
-
-/datum/fluff_email/nomad/secret
-	title = "Artificial Life — (1/3)"
-	entry_text = {"<html>
-	<head>
-	<style>
-		body { font-family: 'Verdana', sans-serif; color:#eaeaea; background:#071018; font-size:12px; padding:10px; }
-		.card { background: linear-gradient(90deg,#071018,#0b1a22); border:1px solid #163040; padding:10px; border-radius:6px; }
-		h1 { font-size:14px; margin:0 0 6px 0; color:#8be9fd; }
-		.meta { font-size:11px; color:#9fb7c7; margin-bottom:8px; }
-		.section { margin:8px 0; padding:6px; background:#071a16; border-radius:4px; border:1px solid #0f3026; }
-		.danger { color:#ff8b6b; font-weight:bold; }
-		.code { font-family:monospace; font-size:12px; color:#b8f2d6; background:#051210; padding:6px; border-radius:4px; }
-		.footer { font-size:11px; color:#9aaabb; margin-top:8px; }
-		.important { color:#ffd479; font-weight:600; }
-	</style>
-	</head>
-	<body>
-	<div class='card'>
-		<h1>ARTIFICIAL LIFE — (1/3) · RECOVERED SEGMENT</h1>
-		<div class='meta'>SOURCE: W-Y / HYBRISA ARCHIVE · SECTOR: HYBRISA PROSPERA · SIG: 0xJAG-304</div>
-
-		<div class='section'>
-			<b>OBJECTIVE:</b> Recover encrypted data disk containing partial reconstruction routine for synthetic unit <span class='important'>UN-10 / "Freeform"</span>.<br>
-			<small>Disk believed stored in secured cache within logistic ship (W-Y Corporate Security). Last seen after supply raid, unknown custody.</small>
-		</div>
-
-		<div class='section'>
-			<b>RISK ASSESSMENT:</b>
-			<ul>
-				<li class='danger'>Hostiles: Weyland corporate sec.</li>
-				<li>Environmental: Active mines, intermittent comm jamming.</li>
-				<li>Complication: Disk contains prototype subroutine flagged by W-Y as "bio-adaptive" — high corporate interest.</li>
-			</ul>
-		</div>
-
-		<div class='section'>
-			<b>REWARD:</b> One functional synth-rebuild token OR 10 LC(QM) (upon verified handover).
-		</div>
-
-		<div class='footer'>
-			<b>NOTE:</b> This file is fragmentary. Continue recovery to unlock next segments (2/3 & 3/3). Unauthorized duplication prohibited by Weyland statute. — <span style='color:#7fffd4'>ARCHIVE CHECKSUM: 3f:a9:xx:..</span>
-		</div>
-	</div>
-
-	<hr style='border:none;height:8px;background:linear-gradient(90deg,#071018,#08303c);'>
-
-	<!-- PART 2 -->
-	<div class='card' style='margin-top:10px;'>
-		<h1>ARTIFICIAL LIFE — (2/3) · CODE FRAGMENT</h1>
-		<div class='meta'>DECRYPT: 58% · INTEGRITY: PARTIAL</div>
-
-		<div class='section'>
-			<div class='code'>
-				// UN-10 : adaptive targeting / stealth assist (truncated)<br>
-				INIT >> LOAD | SENS: {optic: 0x1B, thermal: 0x0C} <br>
-				BEHAVIOR.TEMPLATE = 'PREDATOR_RUN' ; // mobility bias: high<br>
-				RESTRICT = (/** WEYLAND-CLASS: BIO-LOCK **/) <br>
-				...<i>sector fragments removed</i>...
-			</div>
-			<small class='small'>Interpretation: unit combines long-range ballistics assist with low-detect stealth modes. Not intended for civilian deployment.</small>
-		</div>
-
-		<div class='section'>
-			<b>TARGET LOCATION (last known):</b> USCSS Lotos  — Deck A (archive vault 4). Coordinates (approx): <span class='code'>34.11N · 118.8E · HYB-B12</span>
-		</div>
-
-		<div class='footer'>
-			<small>WARNING: Code fragment contains behavioral vectors which may modify operator rulesets. Recovery teams must expect Weyland retrieval squadrons.</small>
-		</div>
-	</div>
-
-	<hr style='border:none;height:8px;background:linear-gradient(90deg,#071018,#08303c);'>
-
-	<!-- PART 3 -->
-	<div class='card' style='margin-top:10px;'>
-		<h1>ARTIFICIAL LIFE — (3/3) · PERSONNEL LOG / PAYLOAD</h1>
-		<div class='meta'>DECRYPT: 92% · SIGNATURE VALID</div>
-
-		<div class='section'>
-			<b>OPERATOR LOG:</b>
-			<p class='small'><i>"Reconstruction requires live sample. If disk intact, UN-10 can be bootstrapped with scavenged actuators. Heavy attention from Weyland — don't let them take it. If you read this, you know the stakes. — C." </i></p>
-		</div>
-
-		<div class='section'>
-			<b>ACTION ITEM:</b>
-			<ol>
-				<li>Infiltrate USCSS Lotos — avoid active patrol routes.</li>
-				<li>Locate Deck A — bypass thermal locks (EMP will lock permanently).</li>
-				<li>Extract disk — keep media intact; damage reduces reward to scrap value.</li>
-			</ol>
-		</div>
-
-		<div class='section'>
-			<b>FINAL NOTE:</b> Returning disk to Nomad handlers grants the first part on creating a synthetic; delivering to Weyland will void any freelance reward and mark team as corporate asset. Choose wisely.</div>
-
-		<div class='footer'>
-			<small>END OF RECORD. FRAGMENT ID: /ART/LIFE/UN-10/304 — (3/3)</small>
-		</div>
-	</div>
-
-	</body>
-	</html>
-	"}
+					DATA IS CORRUPTED.
+					PLEASE CONTACT YOUR SYSTEM ADMINISTRATOR.
+				</html>
+				"}
 
 /datum/fluff_email/nomad/freelancers
 	title = "Freelancer Manifest"
