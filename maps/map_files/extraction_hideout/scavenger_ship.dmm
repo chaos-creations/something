@@ -16034,7 +16034,7 @@
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/item/trash/USCMtray{
 	pixel_x = 3;
-	pixel_y = 4
+	pixel_y = 6
 	},
 /turf/open/floor/prison/floor_marked,
 /area/scavenger_ship/staging_requisition)
@@ -24796,9 +24796,10 @@
 "nyF" = (
 /obj/structure/surface/table/almayer,
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/obj/item/trash/USCMtray{
-	pixel_x = -1;
-	pixel_y = 14
+/obj/item/device/cassette_tape/quartermaster,
+/obj/item/device/walkman/red{
+	pixel_x = -5;
+	pixel_y = 17
 	},
 /turf/open/floor/prison/floor_marked,
 /area/scavenger_ship/staging_requisition)
@@ -31399,7 +31400,7 @@
 /turf/open/space/basic,
 /area/space)
 "tzZ" = (
-/obj/structure/ship_ammo/laser_battery,
+/obj/structure/machinery/cm_vending/sorted/walkman,
 /turf/open/floor/prison/darkred2/northwest,
 /area/scavenger_ship/staging_prep)
 "tAj" = (
