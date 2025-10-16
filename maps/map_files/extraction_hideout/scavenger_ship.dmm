@@ -7481,14 +7481,6 @@
 /obj/structure/blocker/invisible_wall,
 /turf/open/floor/almayer/test_floor4,
 /area/space)
-"apb" = (
-/obj/effect/decal/cleanable/hybrisa/dirt,
-/obj/item/tool/dumbbell{
-	pixel_y = 0;
-	pixel_x = -19
-	},
-/turf/open/floor/corsat,
-/area/scavenger_ship/residential_rooms)
 "apc" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/structure/machinery/treadmill/console{
@@ -7513,9 +7505,21 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/residential_rooms)
 "apg" = (
-/obj/item/tool/dumbbell{
-	pixel_y = 2;
-	pixel_x = 7
+/obj/structure/machinery/elevator_strut/top{
+	layer = 6;
+	name = "\improper TURNIK";
+	desc = "mega pizdatii turnik";
+	pixel_x = -16;
+	pixel_y = 24
+	},
+/obj/item/tool/dumbbell/alt{
+	drop_sound = 'sound/handling/wrench_drop.ogg';
+	equip_sounds = 'sound/handling/wrench_pickup.ogg';
+	force = 10;
+	hitsound = 'sound/weapons/metal_chair_clang.ogg';
+	throwforce = 15;
+	pixel_x = 8;
+	pixel_y = -10
 	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/residential_rooms)
@@ -7553,14 +7557,6 @@
 	},
 /turf/open/space/basic,
 /area/space)
-"apl" = (
-/obj/effect/decal/cleanable/hybrisa/dirt,
-/obj/item/tool/dumbbell{
-	pixel_y = -11;
-	pixel_x = -14
-	},
-/turf/open/floor/corsat,
-/area/scavenger_ship/residential_rooms)
 "apm" = (
 /obj/structure/blocker/invisible_wall,
 /turf/open/floor/almayer/test_floor4,
@@ -7578,17 +7574,18 @@
 	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/living_room)
-"app" = (
-/obj/effect/decal/cleanable/hybrisa/dirt,
-/obj/item/tool/dumbbell{
-	pixel_y = 5;
-	pixel_x = 3
-	},
-/turf/open/floor/corsat,
-/area/scavenger_ship/residential_rooms)
 "apq" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/structure/weightmachine/weightlifter,
+/obj/item/tool/dumbbell/alt{
+	drop_sound = 'sound/handling/wrench_drop.ogg';
+	equip_sounds = 'sound/handling/wrench_pickup.ogg';
+	force = 10;
+	hitsound = 'sound/weapons/metal_chair_clang.ogg';
+	throwforce = 15;
+	pixel_x = -19;
+	pixel_y = 10
+	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/residential_rooms)
 "apr" = (
@@ -7597,6 +7594,18 @@
 	pixel_y = 30;
 	name = "door lock";
 	id = "m1"
+	},
+/turf/open/floor/corsat,
+/area/scavenger_ship/residential_rooms)
+"aps" = (
+/obj/item/tool/dumbbell{
+	force = 15;
+	throwforce = 20;
+	hitsound = 'sound/weapons/metal_chair_clang.ogg';
+	drop_sound = 'sound/handling/wrench_drop.ogg';
+	equip_sounds = 'sound/handling/wrench_pickup.ogg';
+	pixel_y = 5;
+	pixel_x = -16
 	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/residential_rooms)
@@ -7626,6 +7635,38 @@
 	},
 /turf/open/floor/almayer/test_floor4,
 /area/space)
+"apw" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/machinery/treadmill/console{
+	dir = 4
+	},
+/turf/open/floor/corsat,
+/area/scavenger_ship/residential_rooms)
+"apx" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/item/tool/dumbbell{
+	force = 15;
+	throwforce = 20;
+	hitsound = 'sound/weapons/metal_chair_clang.ogg';
+	drop_sound = 'sound/handling/wrench_drop.ogg';
+	equip_sounds = 'sound/handling/wrench_pickup.ogg';
+	pixel_y = 5;
+	pixel_x = 6
+	},
+/turf/open/floor/corsat,
+/area/scavenger_ship/residential_rooms)
+"apy" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/item/tool/dumbbell{
+	force = 15;
+	throwforce = 20;
+	hitsound = 'sound/weapons/metal_chair_clang.ogg';
+	drop_sound = 'sound/handling/wrench_drop.ogg';
+	equip_sounds = 'sound/handling/wrench_pickup.ogg';
+	pixel_y = -18
+	},
+/turf/open/floor/corsat,
+/area/scavenger_ship/residential_rooms)
 "apz" = (
 /turf/closed/wall/strata_outpost/reinforced,
 /area/scavenger_ship/living_room)
@@ -7633,6 +7674,17 @@
 /obj/structure/machinery/door/airlock/prison_hatch/autoname,
 /turf/open/floor/almayer/test_floor4,
 /area/space)
+"apB" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/item/tool/dumbbell/alt{
+	drop_sound = 'sound/handling/wrench_drop.ogg';
+	equip_sounds = 'sound/handling/wrench_pickup.ogg';
+	force = 10;
+	hitsound = 'sound/weapons/metal_chair_clang.ogg';
+	throwforce = 15
+	},
+/turf/open/floor/corsat,
+/area/scavenger_ship/residential_rooms)
 "apD" = (
 /obj/structure/machinery/door/firedoor/border_only/almayer{
 	dir = 2
@@ -9805,9 +9857,14 @@
 	light_power = 0.8;
 	light_range = 5
 	},
-/obj/item/tool/dumbbell{
-	pixel_y = 5;
-	pixel_x = 6
+/obj/item/tool/dumbbell/alt{
+	drop_sound = 'sound/handling/wrench_drop.ogg';
+	equip_sounds = 'sound/handling/wrench_pickup.ogg';
+	force = 10;
+	hitsound = 'sound/weapons/metal_chair_clang.ogg';
+	throwforce = 15;
+	pixel_x = -16;
+	pixel_y = 15
 	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/residential_rooms)
@@ -9825,6 +9882,12 @@
 /obj/structure/machinery/treadmill{
 	dir = 8
 	},
+/obj/item/paper{
+	pixel_x = 8;
+	pixel_y = 10;
+	name = "raspisanie";
+	info = "[b][center][uscm][br]УТРОМ[/center][/b][br]1. ПРЕСС КАЧАТ[br]2. Т) БЕГИТ[br]3.    ТУРНИК[br][b][center]ВЕЧЕРОМ[/b][/center][br]1. ПРЕСС КАЧАТ[br]2. БЕГИТ[br]3. ТУРНИК[br]4. АНЖУМАНЯ[br]5. ГАНТЕЛИ"
+	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/residential_rooms)
 "atZ" = (
@@ -9832,19 +9895,14 @@
 /obj/effect/decal/cleanable/hybrisa/trash{
 	icon_state = "trash_10"
 	},
-/obj/item/tool/dumbbell{
-	pixel_y = -13;
-	pixel_x = 5
+/obj/structure/machinery/treadmill{
+	dir = 4
 	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/residential_rooms)
 "aua" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/effect/decal/cleanable/dirt/greenglow,
-/obj/item/tool/dumbbell{
-	pixel_y = -1;
-	pixel_x = -17
-	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/residential_rooms)
 "aub" = (
@@ -32104,6 +32162,15 @@
 /turf/open/floor/prison/floor_plate/southwest,
 /area/scavenger_ship/hangar_deck)
 "ukf" = (
+/obj/item/tool/dumbbell{
+	force = 15;
+	throwforce = 20;
+	hitsound = 'sound/weapons/metal_chair_clang.ogg';
+	drop_sound = 'sound/handling/wrench_drop.ogg';
+	equip_sounds = 'sound/handling/wrench_pickup.ogg';
+	pixel_y = 6;
+	pixel_x = 9
+	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/residential_rooms)
 "ukm" = (
@@ -38793,8 +38860,8 @@ cBz
 wNr
 cSG
 pXl
-app
 dez
+apx
 apc
 ukf
 pXl
@@ -38968,7 +39035,7 @@ pXl
 apq
 aua
 atY
-apb
+dez
 pXl
 vlY
 lTE
@@ -39310,7 +39377,7 @@ hgY
 lTa
 pXl
 aub
-dez
+apy
 atZ
 atX
 pXl
@@ -39481,10 +39548,10 @@ gKa
 yhX
 hXe
 pXl
+apB
 dez
-apl
-dez
-ukf
+apw
+aps
 pXl
 vlY
 lTE
