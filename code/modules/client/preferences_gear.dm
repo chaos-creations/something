@@ -1553,7 +1553,7 @@ GLOBAL_LIST_EMPTY(gear_datums_by_name)
 				Smoking
 //================================================
 */
-
+/*
 /datum/gear/smoking
 	category = "Smoking"
 	allowed_origins = NON_UPP_ORIGINS
@@ -1666,7 +1666,7 @@ GLOBAL_LIST_EMPTY(gear_datums_by_name)
 	display_name = "Electronic cigar"
 	path = /obj/item/clothing/mask/electronic_cigarette/cigar
 	cost = 3
-
+*/
 /*
 //================================================
 				Miscellaneous

@@ -152,6 +152,15 @@
 	group = "Quartermaster LL1"
 	qm_llone = TRUE
 
+/datum/supply_packs/qm_sebb
+	name = "Weapon: G2 Electroshock grenade"
+	contains = list(/obj/item/explosive/grenade/sebb)
+	cost = 20
+	containertype = /obj/structure/closet/crate/explosives
+	containername = "\improper G2 grenade crate"
+	group = "Quartermaster LL1"
+	qm_llone = TRUE
+
 // armor
 /datum/supply_packs/qm_mthelmet
 	name = "Armor: M10 Pattern Technician Helmet"

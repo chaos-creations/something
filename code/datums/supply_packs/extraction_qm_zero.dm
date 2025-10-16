@@ -103,6 +103,22 @@
 	containername = "\improper HEFA grenade crate"
 	group = "Quartermaster LL0"
 
+/datum/supply_packs/qm_tn13
+	name = "Weapon: TN13 vintage mine"
+	contains = list(/obj/item/explosive/mine/tn13)
+	cost = 15
+	containertype = /obj/structure/closet/crate/explosives
+	containername = "\improper TN13 mines crate"
+	group = "Quartermaster LL0"
+
+/datum/supply_packs/qm_m5a2
+	name = "Weapon: M5A2 bounding mine"
+	contains = list(/obj/item/explosive/mine/m5a3betty)
+	cost = 10
+	containertype = /obj/structure/closet/crate/explosives
+	containername = "\improper M5A2 mines crate"
+	group = "Quartermaster LL0"
+
 // armor
 /datum/supply_packs/qm_mhelmet
 	name = "Armor: M10 Pattern Ballistic Helmet"

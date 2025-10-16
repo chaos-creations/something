@@ -81,6 +81,7 @@
 	width = 3
 
 	id = MOBILE_SHUTTLE_SHIPMAP_ELEVATOR_SCAVENGER
+	area_type = /area/scavenger_ship/elevator
 
 /obj/docking_port/stationary/shipmap_elevator/scavenger/one
 	name = "Service Lift"

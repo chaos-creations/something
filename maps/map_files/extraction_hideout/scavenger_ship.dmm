@@ -7481,6 +7481,21 @@
 /obj/structure/blocker/invisible_wall,
 /turf/open/floor/almayer/test_floor4,
 /area/space)
+"apb" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/item/tool/dumbbell{
+	pixel_y = 0;
+	pixel_x = -19
+	},
+/turf/open/floor/corsat,
+/area/scavenger_ship/residential_rooms)
+"apc" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/machinery/treadmill/console{
+	dir = 8
+	},
+/turf/open/floor/corsat,
+/area/scavenger_ship/residential_rooms)
 "apd" = (
 /turf/open/floor/prison/darkpurple2/southwest,
 /area/scavenger_ship/hangar_synth)
@@ -7492,6 +7507,18 @@
 	},
 /turf/closed/wall/strata_outpost,
 /area/scavenger_ship/cryo_maint)
+"apf" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/punching_bag,
+/turf/open/floor/corsat,
+/area/scavenger_ship/residential_rooms)
+"apg" = (
+/obj/item/tool/dumbbell{
+	pixel_y = 2;
+	pixel_x = 7
+	},
+/turf/open/floor/corsat,
+/area/scavenger_ship/residential_rooms)
 "aph" = (
 /obj/structure/platform_decoration/stone/mineral{
 	color = "#3f3f3f"
@@ -7526,6 +7553,14 @@
 	},
 /turf/open/space/basic,
 /area/space)
+"apl" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/item/tool/dumbbell{
+	pixel_y = -11;
+	pixel_x = -14
+	},
+/turf/open/floor/corsat,
+/area/scavenger_ship/residential_rooms)
 "apm" = (
 /obj/structure/blocker/invisible_wall,
 /turf/open/floor/almayer/test_floor4,
@@ -7543,6 +7578,28 @@
 	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/living_room)
+"app" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/item/tool/dumbbell{
+	pixel_y = 5;
+	pixel_x = 3
+	},
+/turf/open/floor/corsat,
+/area/scavenger_ship/residential_rooms)
+"apq" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/weightmachine/weightlifter,
+/turf/open/floor/corsat,
+/area/scavenger_ship/residential_rooms)
+"apr" = (
+/obj/structure/machinery/door_control{
+	pixel_x = -32;
+	pixel_y = 30;
+	name = "door lock";
+	id = "m1"
+	},
+/turf/open/floor/corsat,
+/area/scavenger_ship/residential_rooms)
 "apt" = (
 /obj/structure/prop/invuln/lattice_prop{
 	icon_state = "lattice8"
@@ -9748,6 +9805,10 @@
 	light_power = 0.8;
 	light_range = 5
 	},
+/obj/item/tool/dumbbell{
+	pixel_y = 5;
+	pixel_x = 6
+	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/residential_rooms)
 "atX" = (
@@ -9761,6 +9822,9 @@
 	pixel_y = 0;
 	pixel_x = -18
 	},
+/obj/structure/machinery/treadmill{
+	dir = 8
+	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/residential_rooms)
 "atZ" = (
@@ -9768,11 +9832,19 @@
 /obj/effect/decal/cleanable/hybrisa/trash{
 	icon_state = "trash_10"
 	},
+/obj/item/tool/dumbbell{
+	pixel_y = -13;
+	pixel_x = 5
+	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/residential_rooms)
 "aua" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/effect/decal/cleanable/dirt/greenglow,
+/obj/item/tool/dumbbell{
+	pixel_y = -1;
+	pixel_x = -17
+	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/residential_rooms)
 "aub" = (
@@ -9782,13 +9854,19 @@
 	pixel_y = 10;
 	pixel_x = -3
 	},
+/obj/structure/weightmachine/stacklifter,
 /turf/open/floor/corsat,
 /area/scavenger_ship/residential_rooms)
 "auc" = (
 /obj/structure/machinery/door/airlock/almayer/secure/reinforced{
 	dir = 2;
-	name = "\improper Medium Room [VACANT]";
+	name = "\improper M-01 [G. MARSHALL]";
 	req_access = null
+	},
+/obj/structure/machinery/door/poddoor/shutters/almayer/open{
+	name = "Privacy Shutter";
+	id = "m1";
+	dir = 1
 	},
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/residential_rooms)
@@ -11967,18 +12045,18 @@
 "bJQ" = (
 /obj/structure/filingcabinet{
 	pixel_x = 8;
-	pixel_y = 2;
+	pixel_y = 7;
 	color = "#8B7B5B"
 	},
 /obj/structure/filingcabinet/chestdrawer{
 	can_block_movement = 0;
 	color = "#8B7B5B";
 	pixel_x = -8;
-	pixel_y = 2
+	pixel_y = 7
 	},
 /obj/item/frame/camera{
 	pixel_x = 8;
-	pixel_y = 15
+	pixel_y = 19
 	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/prison/darkbrown3/north,
@@ -20211,12 +20289,7 @@
 	name = "Logistics Deck - Supply Bay";
 	id = "scavenger_elevator"
 	},
-/obj/effect/step_trigger/teleporter_vector/damage{
-	vector_x = -98;
-	vector_y = 19;
-	damage = 80
-	},
-/turf/open/floor/almayer/empty/golden_arrow,
+/turf/open/floor/almayer/empty/golden_arrow/elevator,
 /area/scavenger_ship/logistics_elevator)
 "jhW" = (
 /obj/structure/closet/secure_closet/marine_personal/rifleman{
@@ -21145,9 +21218,9 @@
 "jUv" = (
 /obj/docking_port/stationary/trijent_elevator/shipmap_elevator/scavenger{
 	roundstart_template = /datum/map_template/shuttle/trijent_elevator/golden_arrow/scavenger;
-	elevator_network = "ScavengerLift";
+	id = "scavenger_elevator";
 	name = "Hangar Deck - Shitfuck Den";
-	id = "scavenger_elevator"
+	elevator_network = "ScavengerLift"
 	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/hangar_hallway)
@@ -25729,12 +25802,7 @@
 /turf/open/floor/prison/darkbrown2,
 /area/scavenger_ship/hangar_hallway)
 "oto" = (
-/obj/effect/step_trigger/teleporter_vector/damage{
-	vector_x = -98;
-	vector_y = 19;
-	damage = 80
-	},
-/turf/open/floor/almayer/empty/golden_arrow,
+/turf/open/floor/almayer/empty/golden_arrow/elevator,
 /area/scavenger_ship/logistics_elevator)
 "ots" = (
 /obj/structure/barricade/handrail/strata{
@@ -38724,9 +38792,9 @@ cBz
 wNr
 cSG
 pXl
+app
 dez
-dez
-dez
+apc
 ukf
 pXl
 vlY
@@ -38896,10 +38964,10 @@ dWX
 gEi
 wUH
 pXl
-dez
+apq
 aua
 atY
-dez
+apb
 pXl
 vlY
 lTE
@@ -39068,9 +39136,9 @@ eMF
 hgY
 hQs
 auc
-ukf
-ukf
-dez
+apr
+apg
+apf
 atW
 pXl
 vlY
@@ -39413,7 +39481,7 @@ yhX
 hXe
 pXl
 dez
-dez
+apl
 dez
 ukf
 pXl

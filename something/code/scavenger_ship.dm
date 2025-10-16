@@ -186,3 +186,9 @@
 /area/scavenger_ship/living_scholar_room
 	name = "\improper Scholar Room"
 	icon_state = "alpha"
+
+/area/scavenger_ship/elevator
+	name = "\improper Elevator"
+
+/turf/open/floor/almayer/empty/golden_arrow/elevator
+	area_type = /area/scavenger_ship/elevator

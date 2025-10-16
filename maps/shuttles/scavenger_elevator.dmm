@@ -7,7 +7,7 @@
 	},
 /obj/docking_port/mobile/trijent_elevator/shipmap_elevator/scavenger,
 /turf/open/floor/plating/prison,
-/area/golden_arrow/vehicle_shuttle)
+/area/scavenger_ship/elevator)
 "C" = (
 /obj/structure/barricade/handrail/strata{
 	pixel_y = 0;
@@ -15,14 +15,14 @@
 	layer = 3
 	},
 /turf/open/floor/plating/prison,
-/area/golden_arrow/vehicle_shuttle)
+/area/scavenger_ship/elevator)
 "Q" = (
 /obj/structure/machinery/computer/shuttle/elevator_controller/railing{
 	pixel_y = 22;
 	shuttleId = "scavenger_elevator"
 	},
 /turf/open/floor/plating/prison,
-/area/golden_arrow/vehicle_shuttle)
+/area/scavenger_ship/elevator)
 
 (1,1,1) = {"
 a
