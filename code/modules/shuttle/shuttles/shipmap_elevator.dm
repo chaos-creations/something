@@ -74,3 +74,20 @@
 	name = "Cargo Elevator"
 	height = 6
 	width = 8
+
+/obj/docking_port/mobile/trijent_elevator/shipmap_elevator/scavenger
+	name = "Service Lift"
+	height = 1
+	width = 3
+
+	id = MOBILE_SHUTTLE_SHIPMAP_ELEVATOR_SCAVENGER
+
+/obj/docking_port/stationary/shipmap_elevator/scavenger/one
+	name = "Service Lift"
+
+/obj/docking_port/stationary/shipmap_elevator/scavenger
+	height = 1
+	width = 3
+
+/obj/docking_port/stationary/trijent_elevator/shipmap_elevator/scavenger
+	name = "Service Lift"

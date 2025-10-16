@@ -140,3 +140,8 @@
 	elevator_network = "garrow_cargo"
 	shuttle_id = MOBILE_SHUTTLE_SHIPMAP_ELEVATOR_CARGO
 	elevator_network = "ArrowCargo"
+
+/datum/map_template/shuttle/trijent_elevator/golden_arrow/scavenger
+	name = "Service Lift"
+	shuttle_id = MOBILE_SHUTTLE_SHIPMAP_ELEVATOR_SCAVENGER
+	elevator_network = "ScavengerLift"

@@ -1177,10 +1177,10 @@
 /area/scavenger_ship/logistics_bay)
 "acQ" = (
 /turf/closed/wall/strata_outpost/reinforced,
-/area/scavenger_ship/logistics_engoffice)
+/area/scavenger_ship/logistics_elevator)
 "acR" = (
 /turf/closed/wall/strata_outpost,
-/area/scavenger_ship/logistics_engoffice)
+/area/scavenger_ship/logistics_elevator)
 "acS" = (
 /turf/closed/wall/strata_outpost,
 /area/scavenger_ship/hangar_maint)
@@ -2384,11 +2384,6 @@
 /turf/open/floor/prison/darkbrowncorners2/north,
 /area/scavenger_ship/hangar_synth)
 "afj" = (
-/obj/vehicle/powerloader{
-	dir = 8;
-	pixel_x = -14;
-	pixel_y = 8
-	},
 /obj/structure/barricade/handrail/strata{
 	dir = 4
 	},
@@ -2669,11 +2664,10 @@
 /turf/open/floor/prison/darkbrownfull2,
 /area/scavenger_ship/hangar_synth)
 "afK" = (
-/obj/structure/surface/rack{
-	color = "#6b675e";
-	density = 0
+/obj/item/frame/rack{
+	color = "#6b675e"
 	},
-/turf/open/floor/prison/darkbrownfull2,
+/turf/open/floor/corsat,
 /area/scavenger_ship/hangar_synth)
 "afL" = (
 /obj/structure/largecrate/empty{
@@ -2687,7 +2681,7 @@
 	pixel_x = 3
 	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/prison/darkbrownfull2,
+/turf/open/floor/corsat,
 /area/scavenger_ship/hangar_synth)
 "afM" = (
 /obj/structure/barricade/handrail/strata{
@@ -2739,11 +2733,11 @@
 /obj/structure/machinery/light/small/red{
 	dir = 8
 	},
-/turf/open/floor/prison/darkbrownfull2,
+/turf/open/floor/corsat,
 /area/scavenger_ship/hangar_synth)
 "afR" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/prison/darkbrown2/southwest,
+/turf/open/floor/corsat,
 /area/scavenger_ship/hangar_synth)
 "afS" = (
 /obj/structure/machinery/door/airlock/almayer/maint{
@@ -2847,21 +2841,13 @@
 /obj/structure/barricade/handrail/strata{
 	dir = 4
 	},
-/obj/structure/machinery/recharge_station{
-	pixel_y = 4;
-	pixel_x = -2
-	},
-/turf/open/floor/bluegrid,
+/turf/open/floor/corsat,
 /area/scavenger_ship/hangar_synth)
 "agd" = (
 /obj/structure/barricade/handrail/strata{
 	dir = 8
 	},
-/obj/structure/prop/invuln/joey{
-	pixel_y = 4;
-	pixel_x = 1
-	},
-/turf/open/floor/bluegrid,
+/turf/open/floor/corsat,
 /area/scavenger_ship/hangar_synth)
 "age" = (
 /obj/structure/disposalpipe/segment{
@@ -2869,6 +2855,10 @@
 	icon_state = "pipe-c"
 	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/item/trash/tray{
+	pixel_x = 3;
+	pixel_y = 11
+	},
 /turf/open/floor/prison/darkbrown3/southwest,
 /area/scavenger_ship/staging_requisition)
 "agf" = (
@@ -4016,18 +4006,18 @@
 /turf/open/floor/prison/floor_marked,
 /area/scavenger_ship/staging_workshop)
 "aic" = (
-/obj/structure/prop/structure_lattice{
-	dir = 1;
-	pixel_y = 0;
-	pixel_x = -2
+/obj/structure/surface/table/almayer{
+	color = "#EBD9B7"
 	},
-/obj/structure/prop/invuln/lattice_prop{
-	icon_state = "lattice12";
-	pixel_y = 4
+/obj/structure/machinery/computer/card{
+	dir = 8
 	},
-/obj/structure/barricade/handrail/strata,
-/obj/structure/platform/strata/metal,
-/turf/open/floor/corsat,
+/obj/item/clothing/accessory/holobadge/cord{
+	pixel_x = -6;
+	pixel_y = 0
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/prison/floor_plate/southwest,
 /area/scavenger_ship/hangar_deck)
 "aid" = (
 /obj/effect/decal/warning_stripes{
@@ -4982,6 +4972,7 @@
 	light_power = 0.6;
 	light_range = 3
 	},
+/mob/living/simple_animal/mouse/rat/white/freelancer,
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_maint)
 "ajz" = (
@@ -5727,6 +5718,10 @@
 "alj" = (
 /obj/structure/machinery/gear{
 	id = "garrow_vehicle_elevator_one"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "SE-out";
+	pixel_x = 1
 	},
 /turf/open/floor/prison/darkyellow2/northwest,
 /area/golden_arrow/vehicle_shuttle/upper)
@@ -7262,6 +7257,12 @@
 	alpha = 155
 	},
 /obj/structure/machinery/door/firedoor/border_only/almayer,
+/obj/structure/machinery/light/double{
+	dir = 2;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5
+	},
 /turf/open/floor/prison/darkbrown2/southwest,
 /area/scavenger_ship/living_deck)
 "aoB" = (
@@ -7359,6 +7360,12 @@
 	},
 /obj/structure/machinery/door/firedoor/border_only/almayer,
 /obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/machinery/light/double{
+	dir = 1;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5
+	},
 /turf/open/floor/prison/darkbrown2/northeast,
 /area/scavenger_ship/living_deck)
 "aoM" = (
@@ -7810,18 +7817,18 @@
 /turf/open/space/basic,
 /area/space)
 "aqv" = (
-/obj/structure/foamed_metal,
+/obj/structure/foamed_metal/iron,
 /turf/open/floor/prison/darkbrown2/west,
 /area/scavenger_ship/service_hallway)
 "aqw" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/effect/decal/cleanable/generic,
-/obj/structure/foamed_metal,
+/obj/structure/foamed_metal/iron,
 /turf/open/floor/prison/darkbrown2/west,
 /area/scavenger_ship/service_hallway)
 "aqx" = (
 /obj/structure/disposalpipe/segment,
-/obj/structure/foamed_metal,
+/obj/structure/foamed_metal/iron,
 /turf/open/floor/prison/darkbrown2/east,
 /area/scavenger_ship/service_hallway)
 "aqy" = (
@@ -7862,15 +7869,6 @@
 /area/space)
 "aqD" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/obj/item/reagent_container/syringe/drugs{
-	pixel_x = 15;
-	pixel_y = -5
-	},
-/obj/item/clothing/glasses/hud/health{
-	pixel_x = -20;
-	pixel_y = -2;
-	anchored = 1
-	},
 /turf/open/floor/prison/darkbrown2,
 /area/scavenger_ship/service_hallway)
 "aqE" = (
@@ -8357,24 +8355,11 @@
 /turf/open/floor/hybrisa/tile/tilewhitecheckered/biege,
 /area/space)
 "arx" = (
-/obj/structure/barricade/handrail/strata{
-	dir = 1;
-	pixel_y = 0
+/obj/structure/machinery/camera/autoname/golden_arrow{
+	dir = 2
 	},
-/obj/effect/decal/cleanable/hybrisa/dirt,
-/obj/structure/prop/invuln/overhead_pipe{
-	icon = 'icons/obj/structures/props/almayer_props.dmi';
-	icon_state = "wallpipe_2";
-	pixel_y = 2;
-	dir = 8;
-	pixel_x = -13
-	},
-/obj/structure/cargo_container/hybrisa/containersextended{
-	pixel_x = 0;
-	pixel_y = -2
-	},
-/turf/open/floor/prison/cell_stripe/north,
-/area/scavenger_ship/logistics_elevator)
+/turf/open/floor/prison,
+/area/scavenger_ship/logistics_engoffice)
 "ary" = (
 /turf/open/floor/prison/darkbrown2/southwest,
 /area/space)
@@ -8705,9 +8690,12 @@
 "asg" = (
 /obj/structure/largecrate/random/mini{
 	pixel_x = 6;
-	pixel_y = 14
+	pixel_y = 5
 	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/vehicle_locker/cabinet/utensils/flip{
+	pixel_x = 32
+	},
 /turf/open/floor/prison,
 /area/scavenger_ship/staging_requisition)
 "ash" = (
@@ -8721,6 +8709,9 @@
 "asi" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/vehicle/powerloader{
+	dir = 1
+	},
 /turf/open/floor/plating/prison,
 /area/scavenger_ship/hangar_deck)
 "asj" = (
@@ -9554,13 +9545,11 @@
 /turf/open/floor/prison/whitegreenfull/southwest,
 /area/scavenger_ship/living_scholar)
 "atA" = (
-/obj/structure/machinery/door_control{
-	id = "cargolock";
-	name = "GM cargo lock control";
-	needs_power = 0
+/obj/structure/machinery/camera/autoname/golden_arrow{
+	dir = 1
 	},
-/turf/open/floor/corsat,
-/area/scavenger_ship/logistics_elevator)
+/turf/open/floor/prison/ramptop/east,
+/area/space)
 "atB" = (
 /obj/effect/decal/cleanable/ash,
 /obj/structure/machinery/firealarm{
@@ -9927,6 +9916,12 @@
 	pixel_x = -1;
 	pixel_y = 8
 	},
+/obj/structure/machinery/light/double{
+	dir = 2;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5
+	},
 /turf/open/floor/prison/darkbrown2/southwest,
 /area/scavenger_ship/living_deck)
 "aux" = (
@@ -9953,6 +9948,12 @@
 /obj/structure/largecrate/random/mini{
 	pixel_x = -5;
 	pixel_y = -2
+	},
+/obj/structure/machinery/light/double{
+	dir = 2;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5
 	},
 /turf/open/floor/prison/darkbrown2/southeast,
 /area/scavenger_ship/living_deck)
@@ -10303,6 +10304,12 @@
 	pixel_y = 28;
 	pixel_x = 14
 	},
+/obj/structure/machinery/light/double{
+	dir = 8;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5
+	},
 /turf/open/floor/prison/floor_plate/southwest,
 /area/scavenger_ship/living_deck)
 "avm" = (
@@ -10526,6 +10533,15 @@
 	},
 /turf/open/space/basic,
 /area/space)
+"azk" = (
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_16";
+	pixel_y = 7;
+	pixel_x = -13
+	},
+/obj/structure/machinery/light_construct,
+/turf/open/floor/corsat,
+/area/scavenger_ship/logistics_maint)
 "azD" = (
 /turf/open/floor/prison/darkbrown3,
 /area/scavenger_ship/staging_requisition)
@@ -10855,7 +10871,6 @@
 	color = "#5d524b";
 	alpha = 155
 	},
-/obj/structure/closet/bodybag,
 /turf/open/floor/prison/darkbrown2/southwest,
 /area/scavenger_ship/service_hallway)
 "aNZ" = (
@@ -10997,11 +11012,28 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_engo)
 "aRj" = (
-/obj/structure/machinery/camera/autoname/golden_arrow{
-	dir = 1
+/obj/structure/machinery/light/double{
+	dir = 2;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5
 	},
-/turf/open/floor/prison/ramptop/east,
-/area/scavenger_ship/logistics_engoffice)
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/prison/darkbrown2/east,
+/area/scavenger_ship/logistics_elevator)
+"aSg" = (
+/obj/structure/bed/stool{
+	pixel_x = -1;
+	pixel_y = -5
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/effect/decal/cleanable/liquid_fuel{
+	name = "yellow water";
+	desc = "dont consume";
+	color = "#ffff00"
+	},
+/turf/open/floor/hybrisa/wood/greywood,
+/area/scavenger_ship/logistics_maint)
 "aSE" = (
 /obj/effect/hybrisa/misc/fake/wire/red{
 	dir = 4;
@@ -11183,6 +11215,21 @@
 	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/hangar_deck)
+"aYe" = (
+/obj/structure/machinery/landinglight/ds2/delayone{
+	dir = 8
+	},
+/obj/structure/barricade/table/almayer{
+	color = "#8B9490";
+	dir = 2
+	},
+/obj/item/shard{
+	icon_state = "medium";
+	pixel_x = 3;
+	pixel_y = -5
+	},
+/turf/open/floor/hybrisa/tile,
+/area/scavenger_ship/logistics_maint)
 "aYr" = (
 /obj/effect/decal/cleanable/hybrisa/trash{
 	icon_state = "trash_9";
@@ -11191,6 +11238,18 @@
 	},
 /turf/open/floor/corsat,
 /area/space)
+"aZK" = (
+/obj/structure/bed/chair{
+	pixel_x = 5;
+	pixel_y = 5
+	},
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_9";
+	pixel_x = -14;
+	pixel_y = 12
+	},
+/turf/open/floor/prison/darkbrown3,
+/area/scavenger_ship/staging_requisition)
 "ban" = (
 /obj/structure/platform/strata/metal{
 	dir = 8
@@ -11242,19 +11301,8 @@
 /area/scavenger_ship/logistics_elevator)
 "bdT" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/obj/structure/machinery/portable_atmospherics/canister/empty{
-	pixel_x = 0;
-	pixel_y = 5
-	},
-/obj/structure/prop/invuln/overhead_pipe{
-	icon = 'icons/obj/structures/props/almayer_props.dmi';
-	icon_state = "wallpipe_2";
-	pixel_y = 2;
-	dir = 8;
-	pixel_x = -13
-	},
-/turf/open/floor/prison/floor_marked,
-/area/scavenger_ship/logistics_elevator)
+/turf/open/floor/prison/ramptop/north,
+/area/scavenger_ship/logistics_engoffice)
 "bee" = (
 /obj/structure/machinery/door/airlock/almayer/marine/requisitions{
 	dir = 4;
@@ -11336,25 +11384,15 @@
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/hangar_storbays)
 "bfA" = (
-/obj/effect/decal/hybrisa/tiretrack{
-	dir = 8;
-	pixel_y = 7
+/obj/structure/machinery/door/airlock/almayer/maint{
+	dir = 1;
+	req_one_access = list()
 	},
-/obj/effect/decal/cleanable/hybrisa/dirt,
-/obj/effect/decal/cleanable/generic{
-	color = "#5d524b";
-	alpha = 155
+/obj/structure/machinery/door/firedoor/border_only/almayer{
+	dir = 2
 	},
-/obj/effect/hybrisa/misc/fake/wire/red{
-	dir = 4;
-	pixel_y = 4
-	},
-/obj/effect/hybrisa/misc/fake/wire/blue{
-	dir = 4;
-	pixel_y = -4
-	},
-/turf/open/floor/plating/plating_catwalk/prison,
-/area/scavenger_ship/logistics_elevator)
+/turf/open/floor/corsat/marked,
+/area/scavenger_ship/logistics_maint)
 "bgl" = (
 /obj/structure/janitorialcart,
 /obj/item/tool/mop,
@@ -11765,6 +11803,25 @@
 /obj/structure/pipes/vents/pump_hybrisa/on,
 /turf/open/floor/prison,
 /area/scavenger_ship/cryo_cells)
+"bEb" = (
+/obj/effect/decal/siding{
+	icon_state = "siding4"
+	},
+/obj/item/prop/helmetgarb/prescription_bottle{
+	pixel_x = 0;
+	pixel_y = -9
+	},
+/obj/item/clothing/mask/cigarette/weed{
+	pixel_x = 2;
+	pixel_y = 18
+	},
+/obj/item/shard{
+	icon_state = "large";
+	pixel_x = -14;
+	pixel_y = -13
+	},
+/turf/open/floor/hybrisa/tile,
+/area/scavenger_ship/logistics_maint)
 "bEl" = (
 /obj/item/stack/sheet/metal,
 /turf/open/floor/corsat,
@@ -11824,12 +11881,13 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_engo)
 "bGv" = (
-/obj/structure/window/framed/strata/reinforced,
-/obj/structure/machinery/door/poddoor/hybrisa/secure_red_door{
-	dir = 4
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/item/paper/crumpled{
+	pixel_x = -2;
+	pixel_y = 1
 	},
-/turf/open/floor/corsat,
-/area/scavenger_ship/logistics_elevator)
+/turf/open/floor/prison/ramptop/north,
+/area/scavenger_ship/logistics_engoffice)
 "bGZ" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/structure/machinery/light/small{
@@ -12191,9 +12249,10 @@
 /turf/open/floor/strata/multi_tiles/west,
 /area/scavenger_ship/ssv_asclepius)
 "bSW" = (
-/obj/structure/machinery/door/airlock/almayer/generic/glass{
-	dir = 4;
-	name = "\improper Cryogenics Bay"
+/obj/structure/machinery/door/poddoor/almayer/locked{
+	name = "\improper Other Section";
+	desc = "You never know where they lead.";
+	dir = 4
 	},
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/staging_requisition)
@@ -12260,6 +12319,31 @@
 	},
 /turf/open/floor/prison/cell_stripe/east,
 /area/scavenger_ship/cryo_lockersaban)
+"bXv" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_9";
+	pixel_x = 18;
+	pixel_y = 21
+	},
+/obj/item/stack/sheet/hairlesshide{
+	name = "tiger hide";
+	desc = "ostatki togo, chto bilo kovrom";
+	layer = 3.02;
+	pixel_x = -10;
+	pixel_y = 6
+	},
+/obj/item/stack/sheet/wood{
+	pixel_x = -22;
+	pixel_y = 9
+	},
+/obj/effect/decal/cleanable/liquid_fuel{
+	name = "water";
+	desc = "blue think, water you know.";
+	color = "#40a1b6"
+	},
+/turf/open/floor/corsat,
+/area/scavenger_ship/logistics_maint)
 "bXV" = (
 /obj/structure/platform/strata/metal{
 	dir = 4;
@@ -12521,27 +12605,13 @@
 /turf/open/floor/almayer/empty/golden_arrow/vehicle_one,
 /area/golden_arrow/vehicle_shuttle/upper)
 "cjG" = (
-/obj/structure/prop/structure_lattice{
-	dir = 4;
-	pixel_y = 0
+/obj/item/storage/briefcase{
+	pixel_x = -13;
+	pixel_y = 14
 	},
-/obj/structure/prop/structure_lattice{
-	dir = 4;
-	pixel_y = 13;
-	layer = 3.1
-	},
-/obj/structure/barricade/handrail/strata{
-	pixel_y = 0;
-	dir = 8;
-	layer = 3
-	},
-/obj/structure/barricade/handrail/strata{
-	pixel_y = 0;
-	dir = 2;
-	layer = 3.1
-	},
-/turf/open/floor/corsat,
-/area/scavenger_ship/staging_requisition)
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/prison,
+/area/scavenger_ship/hangar_deck)
 "cjR" = (
 /obj/structure/roof/cargocrane_tracks/vertical,
 /turf/open/floor/prison/floor_plate/southwest,
@@ -12612,16 +12682,15 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/cryo_hallway)
 "cmX" = (
-/obj/effect/decal/cleanable/hybrisa/dirt,
-/obj/structure/prop/invuln/overhead_pipe{
-	icon = 'icons/obj/structures/props/almayer_props.dmi';
-	icon_state = "wallpipe_2";
-	pixel_y = 2;
-	dir = 8;
-	pixel_x = -13
+/obj/structure/machinery/big_computers/messaging_server/brown{
+	dir = 1;
+	pixel_y = 18
 	},
-/turf/open/floor/prison/darkbrown2/west,
-/area/scavenger_ship/logistics_elevator)
+/obj/structure/machinery/big_computers/computerbrown/computer5{
+	pixel_y = 1
+	},
+/turf/open/floor/corsat/marked,
+/area/space)
 "cny" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/effect/decal/cleanable/hybrisa/dirt,
@@ -12636,15 +12705,6 @@
 	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/structure/surface/table/reinforced/almayer_B,
-/obj/effect/spawner/random/powercell{
-	layer = 5;
-	pixel_x = -2;
-	pixel_y = 9
-	},
-/obj/item/tool/shovel/etool/folded{
-	pixel_x = 9;
-	pixel_y = 10
-	},
 /obj/structure/machinery/recharger{
 	pixel_x = -1;
 	pixel_y = 0
@@ -12792,13 +12852,15 @@
 /turf/open/floor/prison/floor_plate/southwest,
 /area/scavenger_ship/logistics_elevator)
 "cwe" = (
-/obj/structure/prop/invuln/lattice_prop{
-	icon_state = "lattice12";
-	pixel_y = 4
+/obj/structure/surface/table/almayer{
+	color = "#EBD9B7"
 	},
-/obj/structure/barricade/handrail/strata,
-/obj/structure/platform/strata/metal,
-/turf/open/floor/corsat,
+/obj/structure/flora/pottedplant{
+	icon_state = "pottedplant_21";
+	pixel_x = -1;
+	pixel_y = 11
+	},
+/turf/open/floor/prison/floor_plate/southwest,
 /area/scavenger_ship/hangar_deck)
 "cxg" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
@@ -12840,6 +12902,26 @@
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/structure/blocker/invisible_wall,
 /turf/open/floor/prison/darkyellow2,
+/area/scavenger_ship/logistics_maint)
+"cyt" = (
+/obj/structure/bed/stool{
+	pixel_x = 4;
+	pixel_y = -13
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/flora/pottedplant{
+	icon_state = "pottedplant_17";
+	pixel_x = -10;
+	pixel_y = 12;
+	layer = 3.03
+	},
+/obj/item/toy/plush/therapy/blue{
+	pixel_x = 7;
+	pixel_y = -2;
+	name = "Warlord";
+	desc = "A therapeutic toy to assist mercenaries in recovering from mental and behavioral disorders after a failed mission in which they didn't earn a penny."
+	},
+/turf/open/floor/hybrisa/wood/greywood,
 /area/scavenger_ship/logistics_maint)
 "cyx" = (
 /obj/structure/machinery/door/airlock/almayer/secure{
@@ -12897,6 +12979,10 @@
 	},
 /turf/open/floor/prison/ramptop/east,
 /area/scavenger_ship/logistics_engo)
+"cDq" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/prison,
+/area/scavenger_ship/staging_requisition)
 "cDr" = (
 /obj/structure/platform/metal/stair_cut/strata_left,
 /obj/structure/stairs/perspective{
@@ -12921,7 +13007,7 @@
 /obj/structure/machinery/light/small/red{
 	dir = 1
 	},
-/turf/open/floor/prison/cell_stripe/west,
+/turf/open/floor/prison/floor_plate/southwest,
 /area/scavenger_ship/hangar_hallway)
 "cGK" = (
 /obj/structure/reagent_dispensers/fueltank/oxygentank,
@@ -12993,11 +13079,6 @@
 /obj/effect/decal/cleanable/molten_item,
 /turf/open/floor/plating/kutjevo,
 /area/scavenger_ship/logistics_engo)
-"cMi" = (
-/obj/effect/decal/cleanable/hybrisa/dirt,
-/obj/structure/machinery/power/apc/almayer/west,
-/turf/open/floor/corsat,
-/area/space)
 "cMx" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/structure/machinery/light/small{
@@ -13352,6 +13433,16 @@
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_engo)
+"deo" = (
+/obj/structure/platform/strata/metal{
+	dir = 4
+	},
+/obj/item/reagent_container/food/drinks/cup{
+	pixel_x = -1;
+	pixel_y = -1
+	},
+/turf/open/floor/corsat,
+/area/scavenger_ship/logistics_maint)
 "dez" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/corsat,
@@ -13660,8 +13751,12 @@
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/item/prop/colony/usedbandage{
 	dir = 10;
-	pixel_x = -1;
-	pixel_y = 15
+	pixel_x = -9;
+	pixel_y = 4
+	},
+/obj/item/clothing/head/hardhat{
+	pixel_x = 13;
+	pixel_y = 11
 	},
 /turf/open/floor/prison/darkbrown2,
 /area/scavenger_ship/service_hallway)
@@ -13716,34 +13811,38 @@
 /turf/open/floor/prison/darkbrown3,
 /area/scavenger_ship/logistics_bay)
 "dqO" = (
-/obj/structure/prop/structure_lattice{
-	dir = 1;
-	pixel_y = 0;
-	pixel_x = 2
+/obj/structure/barricade/handrail/strata{
+	dir = 8
 	},
-/obj/structure/prop/invuln/lattice_prop{
-	icon_state = "lattice12";
-	pixel_y = 4
+/obj/structure/barricade/handrail/strata{
+	dir = 4
 	},
-/obj/structure/barricade/handrail/strata,
-/obj/structure/platform_decoration/strata/metal{
-	dir = 1
-	},
-/turf/open/floor/corsat,
+/turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/hangar_deck)
 "drl" = (
 /turf/open/floor/prison/darkbrowncorners2,
 /area/scavenger_ship/cryo_hallway)
 "dru" = (
-/obj/structure/machinery/gear{
-	id = "garrow_vehicle_elevator_one";
-	pixel_x = -1;
-	pixel_y = 0
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_14";
+	pixel_y = 3;
+	pixel_x = 15
 	},
-/turf/open/floor/prison/floor_plate/southwest,
-/area/scavenger_ship/hangar_hallway)
+/turf/open/floor/prison/bluecorner/east,
+/area/scavenger_ship/hangar_deck)
 "drz" = (
 /turf/open/floor/prison/darkyellow2/east,
+/area/scavenger_ship/hangar_deck)
+"drJ" = (
+/obj/structure/platform/strata/metal{
+	dir = 4
+	},
+/obj/structure/cable/heavyduty{
+	icon_state = "1-2";
+	color = null
+	},
+/turf/open/floor/corsat,
 /area/scavenger_ship/hangar_deck)
 "dsk" = (
 /obj/structure/barricade/handrail/strata{
@@ -13944,6 +14043,11 @@
 	},
 /turf/open/floor/prison/darkbrowncorners3/north,
 /area/scavenger_ship/staging_requisition)
+"dzG" = (
+/obj/structure/closet/firecloset,
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/prison/floor_marked,
+/area/scavenger_ship/hangar_deck)
 "dzS" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/item/shard/shrapnel,
@@ -14195,9 +14299,9 @@
 /turf/closed/shuttle/ert,
 /area/scavenger_ship/hangar_deck)
 "dLS" = (
-/obj/structure/ladder,
-/turf/open/floor/plating/kutjevo,
-/area/scavenger_ship/logistics_maint)
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/prison/ramptop/east,
+/area/space)
 "dMm" = (
 /obj/structure/shuttle/part/midway/transparent{
 	icon_state = "66"
@@ -14239,23 +14343,12 @@
 /turf/open/floor/prison/green,
 /area/scavenger_ship/service_janitor)
 "dNu" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null;
-	pixel_x = 10
-	},
-/obj/effect/hybrisa/misc/fake/wire/red{
-	pixel_x = -10
-	},
-/obj/effect/hybrisa/misc/fake/wire/blue{
-	pixel_x = -13
-	},
-/obj/structure/prop/invuln/lattice_prop{
-	icon_state = "lattice3";
-	pixel_y = 20
+/obj/structure/window/framed/strata/hull,
+/obj/structure/machinery/door/poddoor/hybrisa/open_shutters{
+	dir = 4
 	},
 /turf/open/floor/corsat,
-/area/scavenger_ship/staging_requisition)
+/area/scavenger_ship/hangar_deck)
 "dOB" = (
 /obj/effect/decal/cleanable/hybrisa/trash{
 	icon_state = "trash_8";
@@ -14387,16 +14480,22 @@
 /turf/open/floor/prison/darkred2/southwest,
 /area/scavenger_ship/staging_prep)
 "dWX" = (
-/obj/structure/droppod/container{
-	pixel_x = 0;
-	pixel_y = 5
-	},
-/obj/effect/decal/warning_stripes/asteroid,
 /obj/structure/prop/hybrisa/misc/buildinggreeblies/greeble9{
 	pixel_x = 17;
 	pixel_y = 6
 	},
-/turf/open/floor/prison/floor_plate/southwest,
+/obj/structure/prop/hybrisa/misc/buildinggreebliessmall/smallvent3{
+	pixel_x = -17;
+	pixel_y = 28
+	},
+/obj/structure/machinery/gear{
+	id = "scavenger_elevator"
+	},
+/obj/structure/blocker/invisible_wall,
+/obj/structure/barricade/handrail/strata{
+	dir = 8
+	},
+/turf/open/floor/prison/floor_marked,
 /area/scavenger_ship/hangar_hallway)
 "dXw" = (
 /obj/structure/surface/rack{
@@ -14408,6 +14507,11 @@
 "dZi" = (
 /obj/structure/machinery/gear{
 	id = "garrow_vehicle_elevator_one"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "NE-out";
+	pixel_y = 1;
+	pixel_x = 1
 	},
 /turf/open/floor/prison/darkyellow2/southwest,
 /area/golden_arrow/vehicle_shuttle/upper)
@@ -14633,14 +14737,21 @@
 /turf/open/floor/almayer/dark_sterile,
 /area/scavenger_ship/cryo_cells)
 "efD" = (
-/obj/structure/machinery/light/double/blue/golden_arrow{
-	dir = 8;
-	light_power = 0.7;
-	color = "#C02526";
-	light_color = "#C02526"
+/obj/structure/filingcabinet/security{
+	pixel_x = 7
 	},
-/turf/open/floor/tdome/northeast,
-/area/scavenger_ship/staging_requisition)
+/obj/structure/surface/rack{
+	color = "#6b675e";
+	pixel_x = -15;
+	pixel_y = -2
+	},
+/obj/item/clothing/glasses/material{
+	pixel_x = -15;
+	pixel_y = 8
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/prison,
+/area/scavenger_ship/hangar_deck)
 "egk" = (
 /obj/structure/stairs/perspective{
 	color = "#6e6e6e";
@@ -14813,6 +14924,9 @@
 /turf/open/floor/strata/red3/east,
 /area/scavenger_ship/ssv_asclepius)
 "enT" = (
+/obj/structure/machinery/door/poddoor/railing{
+	id = "garrow_vehicle_elevator_one"
+	},
 /turf/open/floor/prison/darkyellow2,
 /area/golden_arrow/vehicle_shuttle/upper)
 "epl" = (
@@ -14957,6 +15071,26 @@
 /obj/structure/barricade/handrail/strata,
 /turf/open/floor/prison/darkbrownfull2,
 /area/scavenger_ship/service_janitor)
+"exG" = (
+/obj/structure/platform/strata/metal{
+	dir = 4
+	},
+/obj/item/ashtray/plastic{
+	icon_state = "ashtray_full_bl";
+	pixel_x = -10;
+	pixel_y = -10
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/item/device/flashlight/lamp{
+	pixel_x = 1;
+	pixel_y = 13
+	},
+/obj/item/trash/cigbutt{
+	pixel_x = -13;
+	pixel_y = 3
+	},
+/turf/open/floor/hybrisa/wood/blackwood,
+/area/scavenger_ship/logistics_maint)
 "eyj" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/corsat,
@@ -15069,10 +15203,8 @@
 /area/scavenger_ship/hangar_deck)
 "eAK" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/obj/structure/bed/roller/hospital/bloody,
-/obj/item/stack/cable_coil/random{
-	pixel_x = -1;
-	pixel_y = 7
+/obj/item/prop/colony/usedbandage{
+	dir = 9
 	},
 /turf/open/floor/prison/darkbrown2/north,
 /area/scavenger_ship/service_hallway)
@@ -15335,6 +15467,7 @@
 /obj/structure/barricade/handrail/strata{
 	dir = 4
 	},
+/obj/structure/blocker/invisible_wall,
 /turf/open/floor/prison/floor_plate/southwest,
 /area/scavenger_ship/hangar_hallway)
 "eMG" = (
@@ -15446,16 +15579,9 @@
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/hangar_storbays)
 "eQK" = (
-/obj/effect/decal/cleanable/hybrisa/dirt,
-/obj/structure/prop/invuln/overhead_pipe{
-	icon = 'icons/obj/structures/props/almayer_props.dmi';
-	icon_state = "wallpipe_2";
-	pixel_y = 2;
-	dir = 8;
-	pixel_x = -13
-	},
-/turf/open/floor/prison/ramptop/north,
-/area/scavenger_ship/logistics_elevator)
+/obj/structure/machinery/power/apc/almayer/south,
+/turf/open/floor/prison/ramptop/east,
+/area/space)
 "eRl" = (
 /obj/structure/sign/nosmoking_1{
 	pixel_x = -32;
@@ -15590,6 +15716,28 @@
 "eVN" = (
 /turf/open/floor/corsat,
 /area/scavenger_ship/ssv_asclepius)
+"eWs" = (
+/obj/structure/barricade/handrail/strata{
+	pixel_y = 0;
+	dir = 8;
+	layer = 3
+	},
+/obj/item/stack/sheet/wood{
+	pixel_x = 7;
+	pixel_y = -3
+	},
+/obj/effect/decal/cleanable/liquid_fuel{
+	name = "yellow water";
+	desc = "dont consume";
+	color = "#ffff00"
+	},
+/obj/item/shard{
+	icon_state = "large";
+	pixel_x = -1;
+	pixel_y = 16
+	},
+/turf/open/floor/hybrisa/wood/greywood,
+/area/scavenger_ship/logistics_maint)
 "eWH" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/structure/cable/heavyduty{
@@ -15806,18 +15954,9 @@
 "fln" = (
 /obj/structure/surface/table/almayer,
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/obj/item/reagent_container/food/drinks/bottle/whiskey{
-	pixel_x = 8;
-	pixel_y = 6
-	},
-/obj/item/reagent_container/food/drinks/drinkingglass{
-	icon_state = "shotglass";
+/obj/item/trash/USCMtray{
 	pixel_x = 3;
-	pixel_y = 17
-	},
-/obj/item/device/radio/off{
-	pixel_x = -7;
-	pixel_y = -5
+	pixel_y = 4
 	},
 /turf/open/floor/prison/floor_marked,
 /area/scavenger_ship/staging_requisition)
@@ -15885,6 +16024,9 @@
 /obj/structure/machinery/gear{
 	id = "garrow_vehicle_elevator_one"
 	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "SW-out"
+	},
 /turf/open/floor/prison/darkyellow2/northeast,
 /area/golden_arrow/vehicle_shuttle/upper)
 "foV" = (
@@ -15929,18 +16071,14 @@
 /turf/open/shuttle/dropship/light_grey_single_wide_up_to_down,
 /area/scavenger_ship/hangar_deck)
 "frl" = (
-/obj/effect/decal/cleanable/hybrisa/dirt,
-/obj/structure/prop/invuln/overhead_pipe{
-	icon = 'icons/obj/structures/props/almayer_props.dmi';
-	icon_state = "wallpipe_2";
-	pixel_y = 2;
-	dir = 8;
-	pixel_x = -13
+/obj/effect/decal/warning_stripes{
+	icon_state = "NE-out";
+	pixel_y = 1;
+	pixel_x = 1
 	},
-/obj/structure/machinery/power/apc/almayer/south,
-/obj/structure/largecrate/random/case/small,
-/turf/open/floor/prison/floor_marked,
-/area/scavenger_ship/logistics_elevator)
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/prison/blue,
+/area/space)
 "frx" = (
 /obj/structure/bed{
 	icon_state = "psychbed"
@@ -16128,6 +16266,12 @@
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/strata/multi_tiles/west,
 /area/scavenger_ship/ssv_asclepius)
+"fzY" = (
+/obj/structure/machinery/door/airlock/strata{
+	dir = 1
+	},
+/turf/open/floor/corsat/marked,
+/area/scavenger_ship/hangar_deck)
 "fAf" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/structure/machinery/light/small{
@@ -16449,15 +16593,13 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_bay)
 "fRf" = (
-/obj/structure/machinery/door_control{
-	id = "lowervehiclebay1";
-	needs_power = 0;
-	pixel_y = 11;
-	name = "Elevator 1 door-control";
-	pixel_x = -4
+/obj/structure/barricade/handrail/strata{
+	dir = 8
 	},
-/obj/item/toy/plush/moth,
-/turf/open/floor/corsat,
+/obj/structure/barricade/handrail/strata{
+	dir = 4
+	},
+/turf/open/floor/prison/ramptop,
 /area/scavenger_ship/hangar_deck)
 "fRC" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
@@ -16478,7 +16620,7 @@
 /area/scavenger_ship/ssv_asclepius)
 "fSn" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/obj/structure/foamed_metal,
+/obj/structure/foamed_metal/iron,
 /turf/open/floor/prison/darkbrown2/west,
 /area/scavenger_ship/service_hallway)
 "fSo" = (
@@ -16639,9 +16781,10 @@
 /turf/open/floor/prison/darkbrown2/east,
 /area/scavenger_ship/service_hallway)
 "gdb" = (
-/obj/structure/machinery/door/airlock/prison_hatch,
-/turf/open/floor/corsat/marked,
-/area/scavenger_ship/logistics_maint)
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/effect/decal/cleanable/generic,
+/turf/open/floor/prison/ramptop/north,
+/area/scavenger_ship/logistics_engoffice)
 "gdo" = (
 /obj/structure/machinery/door/poddoor/almayer{
 	dir = 4;
@@ -16905,6 +17048,15 @@
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_bay)
+"grx" = (
+/obj/structure/platform/strata/metal{
+	dir = 8
+	},
+/obj/effect/hybrisa/misc/fake/pipes/pipe1{
+	dir = 1
+	},
+/turf/open/floor/corsat,
+/area/scavenger_ship/hangar_deck)
 "grO" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/structure/machinery/disposal{
@@ -17286,9 +17438,13 @@
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/logistics_engo)
 "gJR" = (
-/obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/prison/darkbrown2,
-/area/scavenger_ship/logistics_elevator)
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	layer = 3.33;
+	pixel_x = 1
+	},
+/turf/open/floor/prison/blue/southwest,
+/area/scavenger_ship/logistics_engoffice)
 "gJT" = (
 /obj/structure/dropship_equipment/electronics/spotlights,
 /obj/structure/machinery/light/double{
@@ -17452,18 +17608,11 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_hallway)
 "gPW" = (
-/obj/effect/decal/hybrisa/tiretrack,
+/obj/item/frame/rack,
+/obj/item/stack/sheet/cardboard/small_stack,
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/obj/effect/hybrisa/misc/fake/wire/red{
-	dir = 4;
-	pixel_y = 4
-	},
-/obj/effect/hybrisa/misc/fake/wire/blue{
-	dir = 4;
-	pixel_y = -4
-	},
-/turf/open/floor/plating/plating_catwalk/prison,
-/area/scavenger_ship/logistics_elevator)
+/turf/open/floor/prison/floor_plate/southwest,
+/area/space)
 "gRp" = (
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/decal/cleanable/liquid_fuel,
@@ -17482,14 +17631,15 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/staging_hallway)
 "gRE" = (
-/obj/structure/machinery/suit_storage_unit/pressure_suit/uscm{
-	pixel_x = -1
-	},
 /obj/structure/machinery/light/double{
 	dir = 8;
 	light_color = "#e7c0a4";
 	light_power = 0.8;
 	light_range = 5
+	},
+/obj/structure/dropship_equipment/paradrop_system{
+	pixel_x = 0;
+	pixel_y = 4
 	},
 /turf/open/floor/prison/floor_marked/west,
 /area/scavenger_ship/hangar_deck)
@@ -17822,6 +17972,28 @@
 "him" = (
 /turf/closed/wall/strata_outpost,
 /area/scavenger_ship/service_library)
+"hiQ" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/item/toy/handcard/uno_reverse_yellow{
+	pixel_x = 17;
+	pixel_y = 0
+	},
+/obj/item/stack/sheet/wood{
+	pixel_x = -9;
+	pixel_y = 0
+	},
+/obj/effect/decal/cleanable/liquid_fuel{
+	name = "water";
+	desc = "blue think, water you know.";
+	color = "#40a1b6"
+	},
+/obj/item/prop/helmetgarb/compass{
+	desc = "An ancient tool that helped navigate in the distant centuries before you. But at the moment, this compass is always pointing towards your mom.";
+	pixel_x = -1;
+	pixel_y = 7
+	},
+/turf/open/floor/corsat,
+/area/scavenger_ship/logistics_maint)
 "hiS" = (
 /obj/structure/barricade/handrail/strata{
 	pixel_y = 0;
@@ -18080,6 +18252,38 @@
 	},
 /turf/open/floor/prison/darkbrowncorners3/west,
 /area/scavenger_ship/hangar_deck)
+"hvj" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_4";
+	layer = 3.2;
+	pixel_x = 11;
+	pixel_y = -6
+	},
+/obj/item/prop{
+	name = "\improper M20 Claymore anti-personnel mine";
+	icon = 'icons/obj/items/weapons/grenade.dmi';
+	icon_state = "m20_active";
+	desc = "The M20 Claymore is a directional anti-personnel smart mine of the USCMC. Generates 120 degree cone of shrapnel if a valid target crosses before or over it. On its face, it reads \"FRONT TOWARD ENEMY\".";
+	pixel_x = 9;
+	pixel_y = 12;
+	dir = 8;
+	anchored = 1
+	},
+/obj/structure/bed/stool{
+	pixel_x = -12;
+	pixel_y = 5
+	},
+/obj/item/trash/buritto{
+	pixel_x = 20;
+	pixel_y = -17
+	},
+/obj/item/reagent_container/food/drinks/shaker{
+	pixel_x = -7;
+	pixel_y = 14
+	},
+/turf/open/floor/corsat,
+/area/scavenger_ship/logistics_maint)
 "hvs" = (
 /obj/structure/platform/strata/metal{
 	dir = 8
@@ -18327,6 +18531,21 @@
 	},
 /turf/open/floor/prison/darkred2/northwest,
 /area/scavenger_ship/staging_prep)
+"hFT" = (
+/obj/structure/machinery/landinglight/ds2/delayone{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/barricade/table/almayer{
+	color = "#8B9490";
+	dir = 8
+	},
+/obj/item/reagent_container/food/drinks/cup{
+	pixel_x = 14;
+	pixel_y = 2
+	},
+/turf/open/floor/hybrisa/tile,
+/area/scavenger_ship/logistics_maint)
 "hGM" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/wood/ship,
@@ -18552,13 +18771,9 @@
 /turf/open/floor/prison/cell_stripe/west,
 /area/scavenger_ship/cryo_lockersaban)
 "hSg" = (
-/obj/effect/decal/cleanable/hybrisa/dirt,
-/obj/structure/surface/table/reinforced/almayer_B,
-/obj/structure/machinery/camera/autoname/golden_arrow{
-	dir = 2
-	},
-/turf/open/floor/prison/darkbrown2/west,
-/area/scavenger_ship/logistics_elevator)
+/obj/structure/foamed_metal/iron,
+/turf/open/floor/corsat,
+/area/scavenger_ship/logistics_engoffice)
 "hSo" = (
 /obj/docking_port/stationary/trijent_elevator/shipmap_elevator/cargo{
 	id = "garrow_cargo_elevator_storage";
@@ -18643,16 +18858,15 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/hangar_maint)
 "hVA" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "E";
-	layer = 3.33;
-	pixel_x = 1
+/obj/structure/machinery/gear{
+	id = "scavenger_elevator"
 	},
-/obj/structure/bed/chair/office/light{
-	dir = 2
+/obj/structure/blocker/invisible_wall,
+/obj/structure/barricade/handrail/strata{
+	dir = 4
 	},
-/turf/open/floor/prison,
-/area/scavenger_ship/logistics_engoffice)
+/turf/open/floor/prison/floor_marked,
+/area/scavenger_ship/logistics_elevator)
 "hWb" = (
 /obj/effect/decal/cleanable/generic,
 /obj/structure/bed/chair/dropship/passenger/folded{
@@ -18695,17 +18909,7 @@
 /turf/open/floor/plating/prison,
 /area/scavenger_ship/hangar_deck)
 "hXq" = (
-/obj/structure/machinery/door/airlock/almayer/marine/requisitions{
-	dir = 4;
-	no_panel = 1;
-	not_weldable = 1;
-	req_one_access = null
-	},
-/obj/structure/machinery/door/poddoor/almayer/locked{
-	name = "\improper Recycler Lockdown";
-	id = "req_recycler";
-	dir = 4
-	},
+/obj/structure/curtain/open/red,
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/staging_requisition)
 "hXE" = (
@@ -18985,6 +19189,27 @@
 	},
 /turf/open/floor/prison/darkbrown2/west,
 /area/scavenger_ship/logistics_bay)
+"iji" = (
+/obj/structure/bed{
+	can_buckle = 0;
+	pixel_x = 21;
+	pixel_y = 0
+	},
+/obj/item/bedsheet/brown{
+	layer = 3.4;
+	pixel_x = 6;
+	pixel_y = 20
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/prop/holidays/string_lights{
+	dir = 4;
+	pixel_x = -28;
+	pixel_y = 16
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/hybrisa/wood/blackwood,
+/area/scavenger_ship/logistics_maint)
 "ijl" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/effect/decal/cleanable/hybrisa/dirt,
@@ -19191,25 +19416,16 @@
 /turf/open/floor/corsat,
 /area/space)
 "ith" = (
-/obj/effect/hybrisa/misc/fake/pipes/pipe5{
-	dir = 4;
-	pixel_y = -1
+/obj/item/storage/backpack{
+	pixel_x = -6;
+	pixel_y = 17
 	},
-/obj/structure/foamed_metal/iron{
-	pixel_x = -8
+/obj/item/reagent_container/food/drinks/cans/waterbottle{
+	pixel_x = -2;
+	pixel_y = 2
 	},
-/obj/structure/prop/invuln/lattice_prop{
-	icon_state = "lattice12";
-	pixel_y = 16;
-	pixel_x = -15
-	},
-/obj/structure/prop/invuln/lattice_prop{
-	icon_state = "lattice12";
-	pixel_y = 16;
-	pixel_x = 17
-	},
-/turf/open/floor/corsat,
-/area/scavenger_ship/staging_requisition)
+/turf/open/floor/prison/bluecorner/west,
+/area/scavenger_ship/hangar_deck)
 "its" = (
 /obj/structure/barricade/handrail/strata,
 /obj/structure/platform/strata/metal{
@@ -19364,16 +19580,15 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_engo)
 "iAn" = (
+/obj/structure/machinery/gear{
+	id = "scavenger_elevator"
+	},
+/obj/structure/blocker/invisible_wall,
+/obj/structure/barricade/handrail/strata{
+	dir = 8
+	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/obj/structure/prop/almayer/computers/sensor_computer1{
-	name = "colonial operations terminal";
-	color = "#8B9490"
-	},
-/obj/structure/prop/server_equipment/laptop/on{
-	pixel_x = 6;
-	pixel_y = 18
-	},
-/turf/open/floor/prison/southwest,
+/turf/open/floor/prison/floor_marked,
 /area/scavenger_ship/logistics_elevator)
 "iAB" = (
 /obj/effect/decal/warning_stripes{
@@ -19398,12 +19613,11 @@
 	layer = 3.33;
 	pixel_x = 1
 	},
-/obj/item/paper/crumpled{
-	pixel_x = -4;
-	pixel_y = -4
+/obj/structure/bed/chair/office/light{
+	dir = 2
 	},
 /turf/open/floor/prison,
-/area/scavenger_ship/logistics_engoffice)
+/area/space)
 "iBA" = (
 /obj/structure/stairs/perspective{
 	color = "#6e6e6e";
@@ -19417,15 +19631,15 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/service_hallway)
 "iCr" = (
-/obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/structure/machinery/light/double{
 	dir = 2;
 	light_color = "#e7c0a4";
 	light_power = 0.8;
 	light_range = 5
 	},
-/turf/open/floor/prison/ramptop/east,
-/area/scavenger_ship/logistics_engoffice)
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/prison/darkbrown2/west,
+/area/scavenger_ship/logistics_elevator)
 "iCV" = (
 /obj/structure/cryofeed/right,
 /obj/effect/decal/cleanable/hybrisa/dirt,
@@ -19483,15 +19697,9 @@
 /turf/open/floor/corsat/officetiles,
 /area/scavenger_ship/hangar_synth)
 "iGc" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "NW-out";
-	layer = 2.5;
-	pixel_y = 1
-	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/obj/effect/decal/cleanable/generic,
-/turf/open/floor/prison/blue/southeast,
-/area/scavenger_ship/logistics_engoffice)
+/turf/open/floor/prison/darkbrowncorners2/southwest,
+/area/scavenger_ship/logistics_elevator)
 "iGe" = (
 /obj/structure/platform/strata/metal{
 	dir = 1
@@ -19718,18 +19926,9 @@
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/logistics_engo)
 "iRT" = (
-/obj/structure/cryofeed,
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null;
-	pixel_x = 10
-	},
-/obj/structure/prop/invuln/lattice_prop{
-	icon_state = "lattice3";
-	pixel_y = 20
-	},
-/turf/open/floor/corsat,
-/area/scavenger_ship/staging_requisition)
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/prison/cell_stripe/west,
+/area/scavenger_ship/hangar_deck)
 "iRZ" = (
 /obj/structure/shuttle/engine/propulsion/burst/left{
 	dir = 1;
@@ -19786,6 +19985,22 @@
 "iVN" = (
 /turf/open/floor/prison/darkbrown2/southeast,
 /area/scavenger_ship/hangar_hallway)
+"iWj" = (
+/obj/structure/barricade/handrail/strata{
+	pixel_y = 0;
+	dir = 4;
+	layer = 3
+	},
+/obj/structure/prop/invuln{
+	icon = 'icons/obj/structures/machinery/defenses/sentry.dmi';
+	icon_state = "Mini uac_sentry_destroyed";
+	dir = 4;
+	pixel_x = 5;
+	pixel_y = 1;
+	name = "\improper UA 512-M mini sentry"
+	},
+/turf/open/floor/prison/floor_marked,
+/area/scavenger_ship/logistics_maint)
 "iWn" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	color = "#999900";
@@ -19891,6 +20106,19 @@
 	},
 /turf/open/floor/prison/darkbrown3/west,
 /area/scavenger_ship/logistics_elevator)
+"jdV" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/effect/decal/cleanable/liquid_fuel{
+	name = "water";
+	desc = "blue think, water you know.";
+	color = "#40a1b6"
+	},
+/obj/item/trash/cigbutt{
+	pixel_x = -13;
+	pixel_y = 3
+	},
+/turf/open/floor/corsat,
+/area/scavenger_ship/logistics_maint)
 "jeh" = (
 /obj/item/prop/tableflag{
 	pixel_x = -16;
@@ -19978,33 +20206,18 @@
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/hangar_storbays)
 "jhH" = (
-/obj/structure/surface/table/reinforced/prison{
-	color = "#b7b8b2"
+/obj/docking_port/stationary/trijent_elevator/shipmap_elevator/scavenger{
+	elevator_network = "ScavengerLift";
+	name = "Logistics Deck - Supply Bay";
+	id = "scavenger_elevator"
 	},
-/obj/structure/machinery/computer/disk_reader{
-	dir = 8
+/obj/effect/step_trigger/teleporter_vector/damage{
+	vector_x = -98;
+	vector_y = 19;
+	damage = 80
 	},
-/obj/structure/noticeboard{
-	pixel_y = 32;
-	pixel_x = 16
-	},
-/obj/structure/noticeboard{
-	pixel_y = 33;
-	icon_state = "notices_5";
-	desc = null;
-	name = "sticky notes";
-	pixel_x = 16
-	},
-/obj/item/device/radio/headset{
-	pixel_x = 8;
-	pixel_y = -1
-	},
-/obj/item/reagent_container/food/drinks/coffee{
-	pixel_x = -6;
-	pixel_y = 14
-	},
-/turf/open/floor/prison/floor_plate/southwest,
-/area/scavenger_ship/logistics_engoffice)
+/turf/open/floor/almayer/empty/golden_arrow,
+/area/scavenger_ship/logistics_elevator)
 "jhW" = (
 /obj/structure/closet/secure_closet/marine_personal/rifleman{
 	pixel_x = 9
@@ -20020,6 +20233,20 @@
 "jib" = (
 /turf/open/floor/prison/darkbrown2/north,
 /area/scavenger_ship/staging_hallway)
+"jih" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
+/obj/item/weapon/twohanded/folded_metal_chair,
+/obj/item/bedsheet/brown{
+	pixel_y = 18;
+	pixel_x = -13
+	},
+/obj/item/trash/cigbutt{
+	pixel_x = -13;
+	pixel_y = 3
+	},
+/turf/open/floor/corsat,
+/area/scavenger_ship/logistics_maint)
 "jir" = (
 /obj/structure/prop/invuln/lattice_prop{
 	icon_state = "lattice3";
@@ -20185,21 +20412,51 @@
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/strata/red4/east,
 /area/scavenger_ship/ssv_asclepius)
+"jpJ" = (
+/obj/structure/bedsheetbin{
+	pixel_y = 6
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/effect/decal/cleanable/liquid_fuel{
+	name = "water";
+	desc = "blue think, water you know.";
+	color = "#40a1b6"
+	},
+/obj/structure/machinery/light_construct{
+	dir = 1
+	},
+/turf/open/floor/corsat,
+/area/scavenger_ship/logistics_maint)
 "jqd" = (
 /turf/closed/wall/strata_outpost,
 /area/scavenger_ship/cryo_maint)
 "jqh" = (
-/obj/structure/prop/hybrisa/misc/buildinggreebliessmall/smallvent3{
-	pixel_x = 15;
-	pixel_y = 28
+/obj/item/trash/cigbutt/ucigbutt{
+	layer = 3.7;
+	pixel_x = 7;
+	pixel_y = 11
 	},
-/obj/structure/machinery/gear{
-	id = "garrow_vehicle_elevator_one";
-	pixel_x = 0;
-	pixel_y = 0
+/obj/item/trash/cigbutt{
+	pixel_x = -7;
+	pixel_y = 13
 	},
-/turf/open/floor/prison/floor_plate/southwest,
-/area/scavenger_ship/hangar_hallway)
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/item/reagent_container/food/drinks/cup{
+	pixel_x = -10;
+	pixel_y = 11
+	},
+/obj/effect/decal/cleanable/liquid_fuel{
+	name = "yellow water";
+	desc = "dont consume";
+	color = "#ffff00"
+	},
+/obj/item/bedsheet/rd{
+	layer = 3.4;
+	pixel_x = 11;
+	pixel_y = -11
+	},
+/turf/open/floor/corsat,
+/area/scavenger_ship/logistics_maint)
 "jqA" = (
 /obj/structure/machinery/power/apc/almayer/west,
 /obj/structure/blocker/invisible_wall,
@@ -20488,6 +20745,40 @@
 	},
 /turf/open/floor/prison/darkyellow2,
 /area/scavenger_ship/hangar_deck)
+"jCi" = (
+/obj/item/tool/mop{
+	pixel_x = 10;
+	pixel_y = 22
+	},
+/obj/item/weapon/dart{
+	pixel_y = 26;
+	pixel_x = 6
+	},
+/obj/item/weapon/dart/green{
+	pixel_y = 32;
+	pixel_x = 5
+	},
+/obj/item/weapon/dart/green{
+	pixel_y = -5
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/effect/decal/cleanable/ash,
+/obj/structure/dartboard{
+	pixel_y = 31;
+	pixel_x = 0
+	},
+/obj/structure/barricade/handrail/strata{
+	pixel_y = 0;
+	dir = 8;
+	layer = 3
+	},
+/obj/effect/decal/cleanable/liquid_fuel{
+	name = "yellow water";
+	desc = "dont consume";
+	color = "#ffff00"
+	},
+/turf/open/floor/corsat,
+/area/scavenger_ship/logistics_maint)
 "jDe" = (
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/decal/cleanable/ash{
@@ -20684,12 +20975,8 @@
 /turf/open/floor/prison/darkbrownfull2,
 /area/scavenger_ship/service_janitor)
 "jMo" = (
-/obj/effect/decal/hybrisa/tiretrack{
-	dir = 8;
-	pixel_y = 7
-	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/prison/darkbrown2/west,
+/turf/open/floor/prison/darkbrown2/southeast,
 /area/scavenger_ship/logistics_elevator)
 "jOd" = (
 /obj/structure/surface/table/almayer{
@@ -20855,6 +21142,15 @@
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/hangar_deck)
+"jUv" = (
+/obj/docking_port/stationary/trijent_elevator/shipmap_elevator/scavenger{
+	roundstart_template = /datum/map_template/shuttle/trijent_elevator/golden_arrow/scavenger;
+	elevator_network = "ScavengerLift";
+	name = "Hangar Deck - Shitfuck Den";
+	id = "scavenger_elevator"
+	},
+/turf/open/floor/corsat,
+/area/scavenger_ship/hangar_hallway)
 "jVu" = (
 /turf/closed/wall/strata_outpost/reinforced/hull,
 /area/scavenger_ship/staging_hallway)
@@ -21241,24 +21537,8 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/staging_hallway)
 "ktA" = (
-/obj/structure/surface/table/reinforced/prison{
-	color = "#b7b8b2"
-	},
-/obj/item/reagent_container/food/drinks/coffee{
-	pixel_x = 7;
-	pixel_y = 18
-	},
-/obj/item/clipboard{
-	pixel_x = -3;
-	pixel_y = 4
-	},
-/obj/item/pamphlet/engineer{
-	pixel_x = -4;
-	pixel_y = 6
-	},
-/obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/prison/floor_plate/southwest,
-/area/scavenger_ship/logistics_engoffice)
+/turf/open/floor/prison/cell_stripe/north,
+/area/scavenger_ship/logistics_elevator)
 "ktW" = (
 /obj/structure/platform_decoration{
 	dir = 4
@@ -21426,6 +21706,18 @@
 	},
 /turf/open/floor/prison/darkbrown2,
 /area/scavenger_ship/service_janitor)
+"kBi" = (
+/obj/structure/curtain/open/colorable{
+	color = "#56769a"
+	},
+/obj/structure/window_frame/upp/grey,
+/obj/item/shard{
+	icon_state = "large";
+	pixel_x = -1;
+	pixel_y = 5
+	},
+/turf/open/floor/corsat,
+/area/scavenger_ship/logistics_maint)
 "kBk" = (
 /obj/item/tank/emergency_oxygen/engi{
 	pixel_x = 4;
@@ -21615,27 +21907,15 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/cryo_hallway)
 "kGT" = (
-/obj/structure/barricade/handrail/strata,
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/obj/structure/extinguisher_cabinet/alt{
-	pixel_x = -7;
-	pixel_y = 28
-	},
-/obj/structure/phone_base{
-	pixel_x = 6;
-	pixel_y = 31;
-	phone_category = "USS Nomad";
-	phone_id = "Deep Storage Bay";
-	name = "Cargo Storage Telephone"
-	},
-/obj/structure/machinery/light/small{
-	dir = 8;
+/obj/structure/machinery/light/double{
+	dir = 2;
 	light_color = "#e7c0a4";
 	light_power = 0.8;
-	light_range = 4
+	light_range = 5
 	},
-/turf/open/floor/prison/cell_stripe,
-/area/scavenger_ship/logistics_elevator)
+/turf/open/floor/prison/ramptop/east,
+/area/space)
 "kGX" = (
 /obj/structure/roof/cargocrane_tracks/vertical{
 	pixel_y = 0;
@@ -21700,6 +21980,10 @@
 /turf/open/floor/prison/darkbrown3/west,
 /area/scavenger_ship/staging_requisition)
 "kKR" = (
+/obj/structure/machinery/door/poddoor/railing{
+	dir = 4;
+	id = "garrow_vehicle_elevator_one"
+	},
 /turf/open/floor/prison/darkyellow2/west,
 /area/golden_arrow/vehicle_shuttle/upper)
 "kKW" = (
@@ -21800,18 +22084,22 @@
 /turf/open/floor/strata/cyan4/north,
 /area/scavenger_ship/ssv_asclepius)
 "kOO" = (
-/obj/effect/decal/cleanable/hybrisa/dirt,
-/obj/structure/surface/table/reinforced/almayer_B,
-/obj/item/prop/magazine/sof{
-	pixel_x = -4;
-	pixel_y = 15
+/obj/structure/surface/table/reinforced/prison{
+	color = "#b7b8b2"
 	},
-/obj/item/prop/helmetgarb/gunoil{
-	pixel_x = 3;
-	pixel_y = 2
+/obj/structure/machinery/computer/disk_reader{
+	dir = 8
 	},
-/turf/open/floor/prison/darkbrown2/southwest,
-/area/scavenger_ship/logistics_elevator)
+/obj/item/device/radio/headset{
+	pixel_x = 8;
+	pixel_y = -1
+	},
+/obj/item/reagent_container/food/drinks/coffee{
+	pixel_x = -6;
+	pixel_y = 14
+	},
+/turf/open/floor/prison/floor_plate/southwest,
+/area/scavenger_ship/logistics_engoffice)
 "kPo" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "1-2-8";
@@ -21866,9 +22154,26 @@
 /turf/open/floor/strata/cyan4,
 /area/scavenger_ship/ssv_asclepius)
 "kSQ" = (
-/obj/structure/largecrate/empty/case/double,
-/turf/open/floor/prison,
-/area/scavenger_ship/hangar_deck)
+/obj/structure/barricade/handrail/strata{
+	pixel_y = 0;
+	dir = 8;
+	layer = 3
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/item/clothing/mask/cigarette/weed{
+	pixel_x = 0;
+	pixel_y = 10
+	},
+/obj/item/storage/fancy/cigar/matchbook{
+	pixel_x = 1;
+	pixel_y = 16
+	},
+/obj/item/weapon/pole/fancy_cane{
+	pixel_x = 12;
+	pixel_y = -7
+	},
+/turf/open/floor/hybrisa/wood/greywood,
+/area/scavenger_ship/logistics_maint)
 "kTG" = (
 /obj/structure/platform/strata/metal{
 	dir = 4
@@ -21906,9 +22211,32 @@
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/corsat,
 /area/scavenger_ship/ssv_asclepius)
-"kVb" = (
+"kUM" = (
+/obj/structure/barricade/table/almayer{
+	color = "#8B9490";
+	dir = 4
+	},
+/obj/effect/decal/cleanable/liquid_fuel{
+	name = "water";
+	desc = "blue think, water you know.";
+	color = "#40a1b6"
+	},
+/obj/item/prop/magazine/playboy{
+	name = "Hustler";
+	desc = "A copy of Hustler magazine. It's been damaged with water. Damn.";
+	pixel_x = -15;
+	pixel_y = 3
+	},
+/obj/item/trash/cigbutt{
+	pixel_x = -13;
+	pixel_y = 3
+	},
 /turf/open/floor/corsat,
-/area/scavenger_ship/logistics_elevator)
+/area/scavenger_ship/logistics_maint)
+"kVb" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/closed/wall/upp_wall/grey/hull,
+/area/scavenger_ship/logistics_maint)
 "kVn" = (
 /obj/structure/shuttle/part/midway/transparent{
 	icon_state = "15"
@@ -22050,6 +22378,15 @@
 /obj/effect/decal/cleanable/liquid_fuel,
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_engo)
+"ldv" = (
+/obj/structure/bed/chair{
+	dir = 1;
+	pixel_x = -2;
+	pixel_y = 14
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/prison/darkbrown3/north,
+/area/scavenger_ship/staging_requisition)
 "ldC" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/plating/kutjevo,
@@ -22099,26 +22436,44 @@
 /turf/open/floor/prison/blue,
 /area/scavenger_ship/cryo_lockersaban)
 "lfo" = (
-/obj/effect/decal/hybrisa/tiretrack{
-	dir = 6;
-	pixel_x = -6
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	layer = 3.33;
+	pixel_x = 1
+	},
+/obj/structure/bed/chair/office/light{
+	dir = 2
 	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/obj/effect/hybrisa/misc/fake/wire/red{
-	dir = 4;
-	pixel_y = 4
+/obj/structure/noticeboard{
+	pixel_y = 32;
+	pixel_x = 16
 	},
-/obj/effect/hybrisa/misc/fake/wire/blue{
-	dir = 4;
-	pixel_y = -4
+/obj/structure/noticeboard{
+	pixel_y = 33;
+	icon_state = "notices_5";
+	desc = null;
+	name = "sticky notes";
+	pixel_x = 16
 	},
-/obj/effect/decal/cleanable/flour,
-/turf/open/floor/plating/plating_catwalk/prison,
-/area/scavenger_ship/logistics_elevator)
+/turf/open/floor/prison/blue/northwest,
+/area/scavenger_ship/logistics_engoffice)
 "lfz" = (
 /obj/effect/step_trigger/clone_cleaner,
 /turf/open/floor/prison/whitegreencorner/west,
 /area/scavenger_ship/ssv_asclepius)
+"lfF" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/item/reagent_container/glass/bucket{
+	pixel_x = -6;
+	pixel_y = 3
+	},
+/obj/structure/prop/ice_colony/hula_girl{
+	pixel_x = 4;
+	pixel_y = -7
+	},
+/turf/open/floor/hybrisa/wood/greywood,
+/area/scavenger_ship/logistics_maint)
 "lgd" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/prison/darkred2/northeast,
@@ -22160,15 +22515,15 @@
 /turf/open/floor/strata/cyan3/north,
 /area/scavenger_ship/ssv_asclepius)
 "ljd" = (
-/obj/structure/machinery/washing_machine{
-	pixel_x = 0;
-	pixel_y = 19
-	},
 /obj/item/trash/crushed_cup{
 	pixel_y = 7;
 	pixel_x = -22
 	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/machinery/cm_vending/sorted/marine_food{
+	pixel_y = 21;
+	density = 0
+	},
 /turf/open/floor/prison/floor_marked,
 /area/scavenger_ship/staging_requisition)
 "lkg" = (
@@ -22315,8 +22670,9 @@
 /turf/open/floor/prison/cell_stripe/north,
 /area/scavenger_ship/hangar_hallway)
 "ltj" = (
-/obj/item/toy/plush/moth,
-/turf/open/floor/corsat,
+/obj/structure/closet/emcloset,
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/prison/floor_marked,
 /area/scavenger_ship/hangar_deck)
 "luu" = (
 /obj/structure/machinery/cm_vending/clothing/senior_officer{
@@ -22340,6 +22696,17 @@
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/prison/ramptop/east,
 /area/scavenger_ship/logistics_maint)
+"lvk" = (
+/obj/structure/curtain/open/colorable{
+	color = "#56769a"
+	},
+/obj/structure/window_frame/upp/grey,
+/turf/open/floor/corsat,
+/area/scavenger_ship/logistics_maint)
+"lvF" = (
+/obj/structure/machinery/cm_vending/sorted/marine_food,
+/turf/open/floor/prison/darkbrown3/west,
+/area/scavenger_ship/staging_requisition)
 "lvI" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -22690,6 +23057,10 @@
 	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/cryo_hallway)
+"lKG" = (
+/obj/structure/ore_box,
+/turf/open/floor/prison,
+/area/scavenger_ship/hangar_deck)
 "lLZ" = (
 /obj/structure/prop/invuln{
 	desc = "It is a machine that pumps fuel around the ship.";
@@ -22963,14 +23334,6 @@
 /area/scavenger_ship/cryo_lockersaban)
 "mbz" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/obj/structure/machinery/door_control{
-	dir = 1;
-	id = "tc02";
-	name = "Door Release";
-	normaldoorcontrol = 1;
-	pixel_x = -28;
-	pixel_y = 23
-	},
 /turf/open/floor/prison/darkbrown2/north,
 /area/scavenger_ship/logistics_hallway)
 "mcb" = (
@@ -23008,6 +23371,22 @@
 	},
 /turf/open/floor/prison/darkbrown2,
 /area/scavenger_ship/staging_hallway)
+"mcX" = (
+/obj/structure/platform/strata/metal{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/bed{
+	buckling_y = 13;
+	pixel_y = 14;
+	pixel_x = -6
+	},
+/obj/item/trash/cigbutt{
+	pixel_x = -13;
+	pixel_y = 3
+	},
+/turf/open/floor/hybrisa/wood/blackwood,
+/area/scavenger_ship/logistics_maint)
 "mdN" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "1-2";
@@ -23113,13 +23492,24 @@
 /turf/open/floor/prison/floor_plate/southwest,
 /area/scavenger_ship/cryo_lockersaban)
 "mgL" = (
-/obj/effect/decal/hybrisa/tiretrack{
-	dir = 8;
-	pixel_y = 7
+/obj/structure/surface/table/reinforced/prison{
+	color = "#b7b8b2"
+	},
+/obj/item/reagent_container/food/drinks/coffee{
+	pixel_x = 7;
+	pixel_y = 18
+	},
+/obj/item/clipboard{
+	pixel_x = -3;
+	pixel_y = 4
+	},
+/obj/item/pamphlet/engineer{
+	pixel_x = -4;
+	pixel_y = 6
 	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/prison/ramptop/east,
-/area/scavenger_ship/logistics_elevator)
+/turf/open/floor/prison/floor_plate/southwest,
+/area/space)
 "mhe" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/structure/platform/strata/metal{
@@ -23221,19 +23611,18 @@
 	pixel_x = -16;
 	pixel_y = 6
 	},
+/obj/structure/blocker/invisible_wall,
 /turf/open/floor/prison/floor_plate/southwest,
 /area/scavenger_ship/hangar_hallway)
 "mox" = (
-/obj/structure/bed/chair/office/light{
-	dir = 8;
-	pixel_x = -6
+/obj/structure/surface/table/reinforced/prison{
+	color = "#b7b8b2"
 	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "W"
+/obj/structure/machinery/computer/communications/simple{
+	dir = 4
 	},
-/obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/prison/blue/east,
-/area/scavenger_ship/logistics_engoffice)
+/turf/open/floor/prison/floor_plate/southwest,
+/area/space)
 "mpE" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/effect/decal/cleanable/hybrisa/dirt,
@@ -23393,6 +23782,15 @@
 /obj/structure/bed/chair/office/light{
 	dir = 2
 	},
+/obj/item/reagent_container/food/drinks/bottle/whiskey{
+	pixel_x = 12;
+	pixel_y = 14
+	},
+/obj/item/reagent_container/food/drinks/drinkingglass{
+	icon_state = "shotglass";
+	pixel_x = 8;
+	pixel_y = 6
+	},
 /turf/open/floor/prison/darkbrown3/northeast,
 /area/scavenger_ship/staging_requisition)
 "mxa" = (
@@ -23494,6 +23892,22 @@
 /obj/structure/stairs,
 /turf/open/floor/corsat,
 /area/scavenger_ship/cryo_hallway)
+"mAa" = (
+/obj/structure/bed/stool{
+	pixel_x = 5;
+	pixel_y = -1
+	},
+/obj/item/reagent_container/food/drinks/cup{
+	pixel_x = -4;
+	pixel_y = -15
+	},
+/obj/effect/decal/cleanable/liquid_fuel{
+	name = "yellow water";
+	desc = "dont consume";
+	color = "#ffff00"
+	},
+/turf/open/floor/corsat,
+/area/scavenger_ship/logistics_maint)
 "mAm" = (
 /obj/structure/foamed_metal/iron,
 /turf/open/floor/corsat,
@@ -23671,16 +24085,13 @@
 /turf/open/floor/prison/floor_plate,
 /area/scavenger_ship/staging_requisition)
 "mPd" = (
-/obj/effect/hybrisa/misc/fake/pipes/pipe3{
+/obj/structure/machinery/door/poddoor/almayer/locked{
+	name = "\improper Other Section";
+	desc = "You never know where they lead.";
 	dir = 4
 	},
-/obj/structure/prop/invuln/lattice_prop{
-	icon_state = "lattice12";
-	pixel_y = 16;
-	pixel_x = 17
-	},
-/turf/open/floor/corsat,
-/area/scavenger_ship/staging_requisition)
+/turf/open/floor/corsat/marked,
+/area/scavenger_ship/hangar_deck)
 "mQi" = (
 /obj/structure/platform_decoration/strata/metal{
 	dir = 1
@@ -23731,27 +24142,15 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/cryo_maint)
 "mSx" = (
-/obj/structure/barricade/handrail/strata{
-	pixel_y = 0;
-	dir = 1;
-	layer = 3
-	},
-/obj/structure/prop/structure_lattice{
-	dir = 4;
-	pixel_y = 0
-	},
-/obj/structure/prop/structure_lattice{
-	dir = 4;
-	pixel_y = 13;
-	layer = 3.1
-	},
-/obj/structure/barricade/handrail/strata{
-	pixel_y = 0;
-	dir = 8;
-	layer = 3
+/obj/structure/machinery/door_control{
+	id = "lowervehiclebay1";
+	needs_power = 0;
+	pixel_y = 11;
+	name = "Elevator 1 door-control";
+	pixel_x = -4
 	},
 /turf/open/floor/corsat,
-/area/scavenger_ship/staging_requisition)
+/area/scavenger_ship/hangar_deck)
 "mSQ" = (
 /obj/structure/surface/table/almayer{
 	color = "#8B9490"
@@ -23809,18 +24208,14 @@
 /turf/closed/wall/strata_outpost/reinforced,
 /area/scavenger_ship/logistics_bay)
 "mXe" = (
-/obj/structure/reagent_dispensers/fueltank{
-	pixel_x = 4;
-	pixel_y = 0
+/obj/structure/surface/table/almayer{
+	color = "#EBD9B7"
 	},
-/obj/item/tool/extinguisher{
+/obj/item/reagent_container/food/drinks/coffeecup/uscm{
 	pixel_x = -4;
-	pixel_y = 15
+	pixel_y = 10
 	},
-/obj/structure/barricade/handrail{
-	dir = 8;
-	layer = 3
-	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/staging_requisition)
 "mXC" = (
@@ -23833,6 +24228,44 @@
 	},
 /turf/open/floor/prison/darkyellow2/north,
 /area/scavenger_ship/hangar_deck)
+"mXR" = (
+/obj/structure/machinery/computer/custom_email/freelancers{
+	dir = 2;
+	pixel_x = 8;
+	pixel_y = 13
+	},
+/obj/item/stack/sheet/hairlesshide{
+	name = "tiger hide";
+	desc = "ostatki togo, chto bilo kovrom";
+	layer = 3.02;
+	pixel_x = 6;
+	pixel_y = -11
+	},
+/obj/item/weapon/twohanded/folded_metal_chair{
+	pixel_x = 4;
+	pixel_y = -15
+	},
+/obj/effect/decal/cleanable/ash,
+/obj/effect/decal/cleanable/liquid_fuel{
+	name = "water";
+	desc = "blue think, water you know.";
+	color = "#40a1b6"
+	},
+/obj/item/bedsheet/green{
+	pixel_x = 11;
+	pixel_y = 23
+	},
+/obj/item/trash/semki{
+	layer = 2;
+	pixel_x = -12;
+	pixel_y = 10
+	},
+/obj/item/trash/cigbutt{
+	pixel_x = -13;
+	pixel_y = 3
+	},
+/turf/open/floor/corsat,
+/area/scavenger_ship/logistics_maint)
 "mXW" = (
 /obj/structure/shuttle/part/midway/transparent{
 	icon_state = "2"
@@ -24008,6 +24441,15 @@
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
 /area/scavenger_ship/hangar_deck)
+"nfG" = (
+/obj/structure/machinery/light/double{
+	dir = 4;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5
+	},
+/turf/open/floor/prison/floor_plate/southwest,
+/area/scavenger_ship/living_deck)
 "nfH" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/structure/machinery/constructable_frame,
@@ -24281,9 +24723,9 @@
 "nyF" = (
 /obj/structure/surface/table/almayer,
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/obj/item/trash/tray{
-	pixel_x = 3;
-	pixel_y = 11
+/obj/item/trash/USCMtray{
+	pixel_x = -1;
+	pixel_y = 14
 	},
 /turf/open/floor/prison/floor_marked,
 /area/scavenger_ship/staging_requisition)
@@ -24424,9 +24866,16 @@
 	},
 /area/scavenger_ship/hangar_deck)
 "nGQ" = (
-/obj/effect/landmark/start/requisition,
-/turf/open/floor/tdome/northeast,
-/area/scavenger_ship/staging_requisition)
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/machinery/light/double{
+	dir = 4;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5;
+	invisibility = 100
+	},
+/turf/open/floor/prison/blue/west,
+/area/scavenger_ship/hangar_deck)
 "nGZ" = (
 /obj/structure/cargo_container/hd/right,
 /obj/item/facepaint/green{
@@ -25002,7 +25451,7 @@
 "oit" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/structure/disposalpipe/segment,
-/obj/structure/foamed_metal,
+/obj/structure/foamed_metal/iron,
 /turf/open/floor/prison/darkbrown2/east,
 /area/scavenger_ship/service_hallway)
 "oiv" = (
@@ -25013,6 +25462,32 @@
 	dir = 4
 	},
 /turf/open/floor/plating/kutjevo/platingdmg1,
+/area/scavenger_ship/logistics_maint)
+"oiD" = (
+/obj/structure/bed/stool{
+	pixel_x = 6;
+	pixel_y = -4
+	},
+/obj/structure/sign/ROsign{
+	desc = "1. It is forbidden to enter the room in the clothes of corporate mercenaries.\n 2. Do not take out or touch anything without the permission of the dweller of the room. \n 3. The last word remains with the freelancers cell of that room.\n 4. Please treat this freelancers with respect or go fuck off, we don't care.";
+	name = "\improper The Rules of the Freelancer Cell Room";
+	pixel_y = 31;
+	pixel_x = 21
+	},
+/obj/structure/ladder/hole{
+	pixel_y = 33;
+	id = "freelancers"
+	},
+/obj/structure/bed/chair/wheelchair{
+	dir = 4;
+	pixel_x = -4;
+	pixel_y = 14
+	},
+/obj/item/trash/cigbutt{
+	pixel_x = -13;
+	pixel_y = 3
+	},
+/turf/open/floor/hybrisa/wood/blackwood,
 /area/scavenger_ship/logistics_maint)
 "oiH" = (
 /obj/structure/bed/chair{
@@ -25134,16 +25609,6 @@
 	},
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/ssv_asclepius)
-"onx" = (
-/obj/docking_port/stationary/trijent_elevator/shipmap_elevator/cargo{
-	id = "garrow_cargo_elevator_upper";
-	name = "Cargo Elevator Upper";
-	elevator_network = "ArrowCargo";
-	airlock_exit = "north";
-	airlock_area = /area/golden_arrow/cargo_shuttle/upper
-	},
-/turf/open/floor/almayer/empty/golden_arrow,
-/area/golden_arrow/cargo_shuttle/upper)
 "ooi" = (
 /obj/structure/bedsheetbin{
 	pixel_x = 4;
@@ -25264,14 +25729,13 @@
 /turf/open/floor/prison/darkbrown2,
 /area/scavenger_ship/hangar_hallway)
 "oto" = (
-/obj/structure/surface/table/reinforced/prison{
-	color = "#b7b8b2"
+/obj/effect/step_trigger/teleporter_vector/damage{
+	vector_x = -98;
+	vector_y = 19;
+	damage = 80
 	},
-/obj/structure/machinery/computer/communications/simple{
-	dir = 4
-	},
-/turf/open/floor/prison/floor_plate/southwest,
-/area/scavenger_ship/logistics_engoffice)
+/turf/open/floor/almayer/empty/golden_arrow,
+/area/scavenger_ship/logistics_elevator)
 "ots" = (
 /obj/structure/barricade/handrail/strata{
 	dir = 8
@@ -25525,18 +25989,17 @@
 /turf/open/floor/prison/floor_plate/southwest,
 /area/space)
 "oCk" = (
-/obj/structure/prop/almayer/computers/mission_planning_system{
-	pixel_x = -6;
-	color = "#8B9490"
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
 	},
-/obj/structure/filingcabinet{
-	pixel_x = 9;
-	pixel_y = 4;
-	color = "#8B7B5B"
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_7";
+	pixel_x = -3;
+	pixel_y = -14
 	},
-/obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/prison/southwest,
-/area/scavenger_ship/logistics_elevator)
+/turf/open/floor/prison/blue,
+/area/space)
 "oCu" = (
 /obj/structure/machinery/light/double{
 	dir = 2;
@@ -25718,6 +26181,35 @@
 	},
 /turf/open/floor/prison/floor_plate/southwest,
 /area/scavenger_ship/hangar_hallway)
+"oHL" = (
+/obj/structure/bed/chair{
+	dir = 1;
+	pixel_x = 2;
+	pixel_y = 12
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_15";
+	pixel_y = 6;
+	pixel_x = -21
+	},
+/turf/open/floor/prison/darkbrown3/north,
+/area/scavenger_ship/staging_requisition)
+"oIU" = (
+/obj/structure/stairs/perspective{
+	color = "#6e6e6e";
+	dir = 8
+	},
+/obj/item/clothing/glasses/sunglasses/blindfold{
+	pixel_x = -3;
+	pixel_y = 17
+	},
+/obj/item/toy/deck{
+	pixel_x = 5;
+	pixel_y = 4
+	},
+/turf/open/floor/hybrisa/wood/blackwood,
+/area/scavenger_ship/logistics_maint)
 "oIV" = (
 /obj/structure/barricade/handrail/hybrisa/road/wood{
 	dir = 8;
@@ -25979,12 +26471,33 @@
 /turf/open/floor/prison/floor_plate/southwest,
 /area/scavenger_ship/hangar_hallway)
 "oTE" = (
-/obj/structure/machinery/door/airlock/almayer/maint{
-	dir = 1;
-	req_one_access = list()
+/obj/structure/surface/table/reinforced/prison{
+	color = "#b7b8b2"
 	},
-/turf/open/floor/corsat/marked,
-/area/scavenger_ship/logistics_maint)
+/obj/structure/machinery/computer/disk_reader{
+	dir = 8
+	},
+/obj/structure/noticeboard{
+	pixel_y = 32;
+	pixel_x = 16
+	},
+/obj/structure/noticeboard{
+	pixel_y = 33;
+	icon_state = "notices_5";
+	desc = null;
+	name = "sticky notes";
+	pixel_x = 16
+	},
+/obj/item/device/radio/headset{
+	pixel_x = 8;
+	pixel_y = -1
+	},
+/obj/item/reagent_container/food/drinks/coffee{
+	pixel_x = -6;
+	pixel_y = 14
+	},
+/turf/open/floor/prison/floor_plate/southwest,
+/area/space)
 "oVe" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/structure/machinery/light/small{
@@ -25999,14 +26512,14 @@
 /turf/open/floor/prison/cell_stripe/north,
 /area/scavenger_ship/cryo_lockersaban)
 "oVZ" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "NE-out";
-	pixel_y = 1;
-	pixel_x = 1
+/obj/structure/machinery/firealarm{
+	dir = 8;
+	pixel_x = -24;
+	pixel_y = 16
 	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/prison/blue,
-/area/scavenger_ship/logistics_engoffice)
+/turf/open/floor/prison/darkbrown2/southwest,
+/area/scavenger_ship/logistics_elevator)
 "oXg" = (
 /obj/effect/decal/cleanable/generic,
 /obj/structure/cable/heavyduty{
@@ -26051,17 +26564,9 @@
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/staging_requisition)
 "oZc" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "N";
-	pixel_y = 1
-	},
-/obj/item/paper/crumpled{
-	pixel_x = -11;
-	pixel_y = -8
-	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/prison/blue,
-/area/scavenger_ship/logistics_engoffice)
+/turf/open/floor/prison/floor_plate/southwest,
+/area/scavenger_ship/logistics_elevator)
 "oZI" = (
 /obj/item/storage/backpack/marine/satchel{
 	desc = "It's the heavy-duty black polymer kind. Time to take out the trash!";
@@ -26137,10 +26642,10 @@
 /turf/open/floor/prison/darkbrownfull2,
 /area/scavenger_ship/staging_requisition)
 "pdl" = (
-/obj/structure/machinery/door/airlock/almayer/maint{
-	dir = 4;
-	req_one_access = list(19,7)
+/obj/structure/machinery/door/airlock/almayer/engineering/glass{
+	dir = 4
 	},
+/obj/structure/machinery/door/firedoor/border_only/almayer,
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/logistics_engoffice)
 "pdn" = (
@@ -26257,27 +26762,8 @@
 /turf/open/floor/prison/darkyellow2,
 /area/scavenger_ship/logistics_maint)
 "pms" = (
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2";
-	color = null;
-	pixel_x = 10
-	},
-/obj/effect/hybrisa/misc/fake/wire/red{
-	pixel_x = -10
-	},
-/obj/effect/hybrisa/misc/fake/wire/blue{
-	pixel_x = -13
-	},
-/obj/structure/prop/invuln/lattice_prop{
-	icon_state = "lattice3";
-	pixel_y = 20
-	},
-/obj/structure/prop/invuln/lattice_prop{
-	icon_state = "lattice3";
-	pixel_y = -12
-	},
-/turf/open/floor/corsat,
-/area/scavenger_ship/staging_requisition)
+/turf/closed/wall/strata_outpost/reinforced,
+/area/scavenger_ship/hangar_deck)
 "pmu" = (
 /obj/structure/prop/hybrisa/misc/buildinggreebliessmall/smallvent3{
 	pixel_x = -2;
@@ -26341,80 +26827,10 @@
 	pixel_x = 4;
 	pixel_y = 11
 	},
-/obj/item/storage/firstaid/regular/empty{
-	pixel_x = 4;
-	pixel_y = -3;
-	anchored = 1
-	},
-/obj/structure/prop/hybrisa/supermart/souto_man_prop{
-	icon = 'icons/mob/humans/species/r_human.dmi';
-	icon_state = "cmp1_example";
-	dir = 2;
-	name = "\improper Doctor";
-	desc = "Another doctor on this ship, wow. He will definitely ignore you. ";
-	layer = 4.11;
-	pixel_y = 16;
-	pixel_x = -14
-	},
-/obj/item/prop{
-	icon_state = "boilersuit_lightblue";
-	mouse_opacity = 0;
-	icon = 'icons/mob/humans/onmob/uniform_0.dmi';
-	dir = 2;
-	layer = 4.11;
-	pixel_x = -14;
-	pixel_y = 16;
-	anchored = 1
-	},
-/obj/item/prop{
-	icon_state = "latex";
-	mouse_opacity = 0;
-	icon = 'icons/mob/humans/onmob/hands.dmi';
-	dir = 2;
-	pixel_x = -14;
-	pixel_y = 16;
-	layer = 4.11;
-	anchored = 1
-	},
-/obj/item/prop{
-	icon_state = "marine";
-	mouse_opacity = 0;
-	icon = 'icons/mob/humans/onmob/feet.dmi';
-	dir = 2;
-	layer = 4.11;
-	pixel_x = -14;
-	pixel_y = 16;
-	anchored = 1
-	},
-/obj/item/prop{
-	icon_state = "cc_green";
-	mouse_opacity = 0;
-	icon = 'icons/mob/humans/onmob/suit_1.dmi';
-	dir = 2;
-	layer = 4.11;
-	pixel_y = 16;
-	pixel_x = -14;
-	anchored = 1
-	},
-/obj/item/prop{
-	icon_state = "sterile";
-	mouse_opacity = 0;
-	icon = 'icons/mob/humans/onmob/mask.dmi';
-	dir = 2;
-	layer = 4.11;
-	pixel_x = -14;
-	pixel_y = 16;
-	anchored = 1
-	},
-/obj/item/prop{
-	icon_state = "med_helmet_white";
-	mouse_opacity = 0;
-	icon = 'icons/mob/humans/onmob/head_1.dmi';
-	dir = 2;
-	layer = 4.11;
-	pixel_x = -14;
-	pixel_y = 16;
-	anchored = 1
+/obj/item/prop/colony/usedbandage{
+	dir = 4;
+	pixel_x = -12;
+	pixel_y = 5
 	},
 /turf/open/floor/prison/darkbrown2/north,
 /area/scavenger_ship/service_hallway)
@@ -26447,6 +26863,10 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/hangar_hallway)
 "ppr" = (
+/obj/structure/machinery/door/poddoor/railing{
+	dir = 2;
+	id = "garrow_vehicle_elevator_one"
+	},
 /turf/open/floor/prison/darkyellow2/north,
 /area/golden_arrow/vehicle_shuttle/upper)
 "ppQ" = (
@@ -26695,15 +27115,15 @@
 /turf/open/floor/prison/darkbrown2/southeast,
 /area/scavenger_ship/logistics_hallway)
 "pCF" = (
-/obj/structure/bed/chair/comfy/orange{
-	dir = 8;
-	pixel_x = -1;
-	pixel_y = 15;
-	layer = 3.1
+/obj/effect/decal/warning_stripes{
+	icon_state = "NW-out";
+	layer = 2.5;
+	pixel_y = 1
 	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/prison/darkbrown2,
-/area/scavenger_ship/logistics_elevator)
+/obj/effect/decal/cleanable/generic,
+/turf/open/floor/prison/blue/southeast,
+/area/space)
 "pCT" = (
 /obj/structure/barricade/handrail/strata{
 	dir = 1;
@@ -26794,8 +27214,10 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/service_maint)
 "pGT" = (
-/turf/open/floor/plating/kutjevo,
-/area/scavenger_ship/logistics_maint)
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/effect/decal/cleanable/flour,
+/turf/open/floor/prison/darkbrown2/east,
+/area/scavenger_ship/logistics_elevator)
 "pHo" = (
 /mob/living/simple_animal/hostile/carp{
 	desc = "He is late for work.";
@@ -26803,6 +27225,27 @@
 	},
 /turf/open/floor/corsat,
 /area/space)
+"pHt" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/effect/decal/siding{
+	icon_state = "siding10"
+	},
+/obj/structure/machinery/power/apc/almayer/south,
+/obj/item/trash/merc_mre{
+	pixel_x = 15;
+	pixel_y = 6
+	},
+/obj/effect/decal/cleanable/liquid_fuel{
+	name = "yellow water";
+	desc = "dont consume";
+	color = "#ffff00"
+	},
+/obj/item/prop/magazine/book/warisaracket{
+	pixel_x = -4;
+	pixel_y = 4
+	},
+/turf/open/floor/hybrisa/tile,
+/area/scavenger_ship/logistics_maint)
 "pHJ" = (
 /obj/structure/surface/table/reinforced/almayer_B,
 /obj/effect/spawner/prop_gun/memorial{
@@ -26890,6 +27333,24 @@
 	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_hallway)
+"pLS" = (
+/obj/structure/prop/holidays/string_lights{
+	dir = 4;
+	pixel_x = -28
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/item/stack/sheet/hairlesshide{
+	name = "tiger hide";
+	desc = "ostatki togo, chto bilo kovrom";
+	layer = 3.02
+	},
+/obj/effect/decal/cleanable/liquid_fuel{
+	name = "water";
+	desc = "blue think, water you know.";
+	color = "#40a1b6"
+	},
+/turf/open/floor/corsat,
+/area/scavenger_ship/logistics_maint)
 "pLW" = (
 /turf/closed/wall/strata_outpost/reinforced/hull,
 /area/scavenger_ship/logistics_engo)
@@ -26908,14 +27369,9 @@
 	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/structure/surface/table/reinforced/almayer_B,
-/obj/item/stack/sheet/glass{
-	amount = 50;
-	pixel_x = -4;
-	pixel_y = 8
-	},
-/obj/item/tool/weldpack{
-	pixel_x = 7;
-	pixel_y = 5
+/obj/item/broken_device{
+	pixel_x = 0;
+	pixel_y = 6
 	},
 /turf/open/floor/prison/darkbrown2/northwest,
 /area/scavenger_ship/logistics_hallway)
@@ -26961,6 +27417,18 @@
 /area/scavenger_ship/staging_requisition)
 "pNP" = (
 /turf/open/floor/prison/darkbrown2/north,
+/area/scavenger_ship/staging_requisition)
+"pPa" = (
+/obj/structure/reagent_dispensers/water_cooler/walk_past{
+	pixel_x = -8;
+	pixel_y = 20
+	},
+/obj/structure/vehicle_locker/cabinet/cups/flip{
+	pixel_x = 6;
+	pixel_y = 31
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/prison/darkbrowncorners3,
 /area/scavenger_ship/staging_requisition)
 "pPO" = (
 /obj/structure/cargo_container/arious/right{
@@ -27069,14 +27537,33 @@
 /turf/open/floor/prison/darkbrown2/north,
 /area/scavenger_ship/residential_memorial)
 "pSS" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "W"
+/obj/structure/surface/table/reinforced/prison{
+	color = "#b7b8b2"
 	},
-/obj/item/paper/crumpled{
-	pixel_x = 5;
+/obj/item/trash/tray{
+	pixel_y = 18;
+	pixel_x = -2
+	},
+/obj/item/reagent_container/food/snacks/margheritaslice{
+	pixel_x = -4;
+	pixel_y = 18
+	},
+/obj/item/tool/kitchen/utensil/fork{
+	pixel_y = 7;
+	pixel_x = 10
+	},
+/obj/item/device/radio{
+	pixel_x = -1;
 	pixel_y = 7
 	},
-/turf/open/floor/prison/blue/east,
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/machinery/light/double{
+	dir = 4;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5
+	},
+/turf/open/floor/prison/floor_plate/southwest,
 /area/scavenger_ship/logistics_engoffice)
 "pTC" = (
 /obj/structure/machinery/suit_storage_unit/pressure_suit/upp{
@@ -27100,25 +27587,12 @@
 /turf/open/floor/prison/darkbrown2/southwest,
 /area/scavenger_ship/residential_memorial)
 "pUn" = (
-/obj/effect/decal/cleanable/hybrisa/dirt,
-/obj/effect/decal/cleanable/hybrisa/trash{
-	icon_state = "trash_2"
+/obj/structure/machinery/photocopier{
+	anchored = 0;
+	pixel_y = 3
 	},
-/obj/structure/prop/invuln/overhead_pipe{
-	icon = 'icons/obj/structures/props/almayer_props.dmi';
-	icon_state = "wallpipe_2";
-	pixel_y = 2;
-	dir = 8;
-	pixel_x = -13
-	},
-/obj/structure/machinery/light/double{
-	dir = 2;
-	light_color = "#e7c0a4";
-	light_power = 0.8;
-	light_range = 5
-	},
-/turf/open/floor/prison/darkbrown2/east,
-/area/scavenger_ship/logistics_elevator)
+/turf/open/floor/prison/floor_marked,
+/area/space)
 "pVe" = (
 /obj/docking_port/stationary/trijent_elevator/shipmap_elevator/one{
 	id = "garrow_vehicle_elevator_one";
@@ -27148,6 +27622,32 @@
 	},
 /turf/open/floor/prison/ramptop/north,
 /area/scavenger_ship/hangar_deck)
+"pWi" = (
+/obj/structure/bed{
+	can_buckle = 0
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/prop/holidays/string_lights{
+	dir = 4;
+	pixel_x = -28;
+	pixel_y = -16;
+	light_color = "#8aa1f6";
+	light_range = 1;
+	light_power = 0.5
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/effect/decal/cleanable/liquid_fuel{
+	name = "water";
+	desc = "blue think, water you know.";
+	color = "#40a1b6"
+	},
+/obj/structure/machinery/washing_machine{
+	pixel_x = 0;
+	pixel_y = 9;
+	density = 0
+	},
+/turf/open/floor/hybrisa/wood/blackwood,
+/area/scavenger_ship/logistics_maint)
 "pWE" = (
 /obj/structure/barricade/handrail/strata{
 	dir = 8
@@ -27428,9 +27928,13 @@
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/cryo_hallway)
 "qjy" = (
-/obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/prison/darkbrown2/east,
-/area/scavenger_ship/logistics_elevator)
+/obj/structure/machinery/disposal{
+	density = 0;
+	layer = 3.2;
+	pixel_y = 16
+	},
+/turf/open/floor/prison/floor_marked,
+/area/scavenger_ship/logistics_engoffice)
 "qkT" = (
 /obj/structure/bed/chair/wood/normal{
 	dir = 2
@@ -27599,14 +28103,8 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_engo)
 "qsD" = (
-/obj/effect/decal/hybrisa/tiretrack{
-	dir = 8;
-	pixel_y = 7
-	},
-/obj/effect/decal/cleanable/hybrisa/dirt,
-/obj/effect/decal/cleanable/generic,
-/turf/open/floor/prison/darkbrown2/west,
-/area/scavenger_ship/logistics_elevator)
+/turf/open/floor/prison/cell_stripe/east,
+/area/space)
 "qsR" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/darkblue2/southwest,
@@ -27730,8 +28228,9 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/hangar_deck)
 "qwx" = (
-/turf/open/floor/prison/darkbrown2,
-/area/scavenger_ship/hangar_synth)
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/plating/plating_catwalk/prison,
+/area/scavenger_ship/logistics_engoffice)
 "qwU" = (
 /obj/structure/shuttle/engine/propulsion/burst/right{
 	dir = 1;
@@ -27856,6 +28355,34 @@
 	},
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/ssv_asclepius)
+"qBN" = (
+/obj/structure/prop/holidays/string_lights{
+	dir = 4;
+	pixel_x = -28
+	},
+/obj/item/weapon/twohanded/folded_metal_chair{
+	pixel_x = 4;
+	pixel_y = -9
+	},
+/obj/effect/decal/cleanable/liquid_fuel{
+	name = "water";
+	desc = "blue think, water you know.";
+	color = "#40a1b6"
+	},
+/obj/item/prop{
+	name = "\improper armored Freelancer beret";
+	icon = 'icons/mob/humans/onmob/head_1.dmi';
+	icon_state = "freelancer_beret";
+	desc = "A sturdy freelancer's cap. More protective than it seems.";
+	pixel_x = -8;
+	pixel_y = -17
+	},
+/obj/item/trash/cigbutt{
+	pixel_x = -13;
+	pixel_y = 3
+	},
+/turf/open/floor/corsat,
+/area/scavenger_ship/logistics_maint)
 "qCc" = (
 /obj/structure/machinery/computer/turbine_computer{
 	pixel_y = 5
@@ -28388,11 +28915,15 @@
 	light_power = 0.8;
 	light_range = 5
 	},
+/obj/structure/machinery/door/poddoor/railing{
+	id = "garrow_vehicle_elevator_one"
+	},
 /turf/open/floor/prison/darkyellow2,
 /area/golden_arrow/vehicle_shuttle/upper)
 "rej" = (
-/turf/open/floor/prison/cell_stripe/east,
-/area/scavenger_ship/logistics_engoffice)
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/prison/darkbrownfull2,
+/area/scavenger_ship/logistics_elevator)
 "rfZ" = (
 /obj/structure/barricade/handrail/strata{
 	dir = 4
@@ -28409,12 +28940,15 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/ssv_asclepius)
 "rho" = (
-/obj/structure/machinery/door/poddoor/almayer/locked{
-	name = "\improper Cargo Elevator";
-	id = "cargolock"
+/obj/structure/surface/table/reinforced/prison{
+	color = "#b7b8b2"
 	},
-/turf/open/floor/prison/ramptop/north,
-/area/golden_arrow/cargo_shuttle/upper)
+/obj/structure/machinery/r_n_d/circuit_imprinter{
+	pixel_x = 0;
+	pixel_y = 6
+	},
+/turf/open/floor/prison/floor_plate/southwest,
+/area/space)
 "rhv" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/effect/decal/cleanable/hybrisa/dirt,
@@ -28577,7 +29111,7 @@
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/item/shard/shrapnel/upp,
 /obj/structure/disposalpipe/segment,
-/obj/structure/foamed_metal,
+/obj/structure/foamed_metal/iron,
 /turf/open/floor/prison/darkbrown2/east,
 /area/scavenger_ship/service_hallway)
 "roY" = (
@@ -29073,7 +29607,7 @@
 /area/scavenger_ship/service_hallway)
 "rSy" = (
 /obj/structure/machinery/light/small/red,
-/turf/open/floor/prison/cell_stripe/west,
+/turf/open/floor/prison/floor_plate/southwest,
 /area/scavenger_ship/hangar_hallway)
 "rTh" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
@@ -29659,13 +30193,12 @@
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/logistics_engo)
 "syo" = (
-/obj/structure/machinery/cryopod/big/flipped{
-	pixel_x = -14;
-	pixel_y = 4;
-	light_color = "#C02526"
+/obj/structure/bed/chair/office/dark{
+	dir = 1
 	},
-/turf/open/floor/tdome/tcomms,
-/area/scavenger_ship/staging_requisition)
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/prison/blue/west,
+/area/scavenger_ship/hangar_deck)
 "szs" = (
 /obj/effect/decal/siding{
 	icon_state = "siding6"
@@ -29770,6 +30303,43 @@
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/staging_hallway)
+"sCV" = (
+/obj/structure/machinery/landinglight/ds2/delaytwo{
+	dir = 1
+	},
+/obj/structure/machinery/landinglight/ds2/delayone{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/structure/machinery/chem_dispenser/soda/beer{
+	pixel_x = 0;
+	pixel_y = 6
+	},
+/obj/structure/sign/poster{
+	desc = "One of those hot, tanned babes back the beaches of good ol' Earth.";
+	icon_state = "poster12";
+	name = "Beach Babe Pinup";
+	pixel_x = 26;
+	pixel_y = 28;
+	serial_number = 12
+	},
+/obj/structure/sign/poster{
+	desc = "This poster features Audrey Rainwater standing in a jacuzzi. She was the July 2182 centerfold in Playboy Magazine. Don't ask how you know that.";
+	icon_state = "poster16";
+	name = "'Miss July' Pinup";
+	serial_number = 16;
+	pixel_x = 32;
+	pixel_y = 18
+	},
+/obj/structure/machinery/light/small{
+	dir = 4;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 3
+	},
+/turf/open/floor/hybrisa/tile,
+/area/scavenger_ship/logistics_maint)
 "sDP" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/closed/wall/upp_wall/grey/hull,
@@ -29805,9 +30375,16 @@
 /turf/open/floor/almayer_hull,
 /area/space)
 "sHT" = (
-/obj/structure/machinery/constructable_frame,
-/turf/open/floor/tdome/tcomms,
-/area/scavenger_ship/staging_requisition)
+/obj/structure/bed/chair/office/dark{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_4";
+	pixel_x = -2;
+	pixel_y = 10
+	},
+/turf/open/floor/prison/blue/west,
+/area/scavenger_ship/hangar_deck)
 "sIn" = (
 /obj/structure/pipes/valve{
 	dir = 4
@@ -29897,14 +30474,12 @@
 /turf/open/floor/prison/floor_marked,
 /area/scavenger_ship/hangar_storbays)
 "sKp" = (
-/obj/structure/bed/chair/office/light{
-	dir = 4;
-	pixel_x = 0;
-	pixel_y = 14;
-	layer = 3.1
-	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/prison/blue,
+/obj/item/paper/crumpled{
+	pixel_x = -4;
+	pixel_y = 16
+	},
+/turf/open/floor/prison/ramptop/east,
 /area/scavenger_ship/logistics_engoffice)
 "sKP" = (
 /obj/item/limb/head/synth{
@@ -30333,19 +30908,14 @@
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/service_hallway)
 "tiS" = (
-/obj/effect/decal/cleanable/hybrisa/dirt,
-/obj/structure/prop{
-	name = "\improper uncomfy case";
-	desc = "A regular case you'd sit on. The label says it's full of steel sheets. Probably empty now.";
-	icon_state = "case";
-	icon = 'icons/obj/structures/crates.dmi';
-	can_buckle = 1;
-	layer = 3.6;
-	pixel_y = 20;
-	pixel_x = -1
+/obj/structure/machinery/light/double{
+	dir = 2;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5
 	},
-/turf/open/floor/prison/darkbrown2/northwest,
-/area/scavenger_ship/logistics_elevator)
+/turf/open/floor/plating/plating_catwalk/prison,
+/area/scavenger_ship/logistics_engoffice)
 "tjc" = (
 /obj/structure/sign/safety/south{
 	pixel_x = -25;
@@ -30598,6 +31168,14 @@
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/strata/multi_tiles/west,
 /area/scavenger_ship/ssv_asclepius)
+"tsN" = (
+/obj/structure/bed/chair{
+	pixel_x = -1;
+	pixel_y = 5
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/prison/darkbrown3,
+/area/scavenger_ship/staging_requisition)
 "tsO" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S";
@@ -30965,14 +31543,17 @@
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/logistics_engo)
 "tJZ" = (
-/obj/effect/decal/cleanable/hybrisa/dirt,
-/obj/effect/decal/cleanable/hybrisa/trash{
-	icon_state = "trash_14";
-	pixel_y = 5;
-	pixel_x = 2
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
 	},
-/turf/open/floor/prison/darkbrown2/east,
-/area/scavenger_ship/logistics_elevator)
+/obj/item/paper/crumpled{
+	pixel_x = -11;
+	pixel_y = -8
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/prison/blue,
+/area/space)
 "tKL" = (
 /turf/closed/wall/strata_outpost/reinforced/hull,
 /area/scavenger_ship/cryo_cells)
@@ -30980,10 +31561,15 @@
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/logistics_elevator)
 "tLI" = (
-/obj/effect/decal/hybrisa/tiretrack,
+/obj/structure/bed/chair/office/light{
+	dir = 4;
+	pixel_x = 0;
+	pixel_y = 14;
+	layer = 3.1
+	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/prison/ramptop/north,
-/area/scavenger_ship/logistics_elevator)
+/turf/open/floor/prison/blue,
+/area/space)
 "tLQ" = (
 /obj/structure/bed/chair/comfy/bench/south,
 /obj/item/reagent_container/glass/rag{
@@ -31083,6 +31669,10 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_maint)
 "tPx" = (
+/obj/structure/machinery/door/poddoor/railing{
+	dir = 8;
+	id = "garrow_vehicle_elevator_one"
+	},
 /turf/open/floor/prison/darkyellow2/east,
 /area/golden_arrow/vehicle_shuttle/upper)
 "tPE" = (
@@ -31244,36 +31834,9 @@
 /turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
 /area/scavenger_ship/hangar_deck)
 "tYE" = (
-/obj/structure/surface/table/reinforced/prison{
-	color = "#b7b8b2"
-	},
-/obj/item/paper_bin{
-	pixel_x = 16;
-	pixel_y = 18
-	},
-/obj/item/tool/pen{
-	pixel_x = 15;
-	pixel_y = 14
-	},
-/obj/item/trash/tray{
-	pixel_y = 18;
-	pixel_x = -2
-	},
-/obj/item/reagent_container/food/snacks/margheritaslice{
-	pixel_x = -4;
-	pixel_y = 18
-	},
-/obj/item/tool/kitchen/utensil/fork{
-	pixel_y = 7;
-	pixel_x = 10
-	},
-/obj/item/device/radio{
-	pixel_x = -1;
-	pixel_y = 7
-	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/prison/floor_plate/southwest,
-/area/scavenger_ship/logistics_engoffice)
+/turf/open/floor/prison/cell_stripe/north,
+/area/scavenger_ship/logistics_elevator)
 "tYG" = (
 /obj/structure/window/framed/strata/hull,
 /obj/structure/machinery/door/poddoor/almayer/open{
@@ -31290,6 +31853,14 @@
 	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/service_maint)
+"tYX" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/item/trash/burger{
+	pixel_x = 0;
+	pixel_y = 8
+	},
+/turf/open/floor/prison,
+/area/scavenger_ship/staging_requisition)
 "tZi" = (
 /obj/structure/pipes/standard/simple/visible/scrubbers{
 	dir = 10
@@ -31438,8 +32009,9 @@
 	},
 /area/scavenger_ship/hangar_deck)
 "ugm" = (
-/turf/open/floor/tdome/northeast,
-/area/scavenger_ship/staging_requisition)
+/obj/structure/ladder,
+/turf/open/floor/corsat/marked,
+/area/scavenger_ship/hangar_deck)
 "uhy" = (
 /obj/effect/hybrisa/misc/fake/wire/red{
 	dir = 8
@@ -31489,6 +32061,16 @@
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/prison/darkbrown2/northwest,
 /area/scavenger_ship/service_janitor)
+"unf" = (
+/obj/structure/platform/strata/metal{
+	dir = 8
+	},
+/obj/structure/cable/heavyduty{
+	icon_state = "1-2";
+	color = null
+	},
+/turf/open/floor/corsat,
+/area/scavenger_ship/hangar_deck)
 "uny" = (
 /turf/closed/wall/strata_outpost/reinforced/hull,
 /area/scavenger_ship/service_canteen)
@@ -31616,11 +32198,20 @@
 /turf/open/floor/prison/darkbrown2/southeast,
 /area/scavenger_ship/service_hallway)
 "uyH" = (
-/obj/structure/machinery/light/small/red{
-	dir = 8
+/obj/structure/bed/chair/office/light{
+	dir = 4;
+	pixel_x = 0;
+	pixel_y = 14;
+	layer = 3.1
 	},
-/turf/open/floor/plating/kutjevo,
-/area/scavenger_ship/logistics_maint)
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/machinery/firealarm{
+	dir = 8;
+	pixel_x = -24;
+	pixel_y = 16
+	},
+/turf/open/floor/prison/blue/southeast,
+/area/scavenger_ship/logistics_engoffice)
 "uAh" = (
 /obj/structure/largecrate/empty{
 	pixel_x = -2;
@@ -31696,9 +32287,10 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_hallway)
 "uAV" = (
-/obj/structure/machinery/power/apc/almayer/south,
-/turf/open/floor/prison/ramptop/east,
-/area/scavenger_ship/logistics_engoffice)
+/obj/structure/machinery/power/apc/almayer/west,
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/prison/darkbrownfull2,
+/area/scavenger_ship/logistics_elevator)
 "uBr" = (
 /obj/structure/window/framed/strata/reinforced,
 /obj/structure/machinery/door/firedoor/border_only/almayer{
@@ -31706,6 +32298,23 @@
 	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_engo)
+"uBN" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/effect/decal/cleanable/liquid_fuel{
+	name = "yellow water";
+	desc = "dont consume";
+	color = "#ffff00"
+	},
+/obj/item/prop{
+	desc = "A handful of rounds to reload on the go.";
+	icon = 'icons/obj/items/weapons/guns/handful.dmi';
+	icon_state = "bullet_2";
+	name = "handful of pistol bullets (9mm)";
+	pixel_x = -1;
+	pixel_y = 1
+	},
+/turf/open/floor/corsat,
+/area/scavenger_ship/logistics_maint)
 "uCc" = (
 /obj/effect/hybrisa/misc/fake/wire/blue{
 	dir = 4;
@@ -31819,6 +32428,10 @@
 	light_power = 0.8;
 	light_range = 5
 	},
+/obj/structure/machinery/door/poddoor/railing{
+	dir = 2;
+	id = "garrow_vehicle_elevator_one"
+	},
 /turf/open/floor/prison/darkyellow2/north,
 /area/golden_arrow/vehicle_shuttle/upper)
 "uJa" = (
@@ -31896,6 +32509,10 @@
 	light_power = 0.8;
 	light_range = 5;
 	invisibility = 100
+	},
+/obj/item/device/radio/off{
+	pixel_x = 3;
+	pixel_y = 23
 	},
 /turf/open/floor/prison,
 /area/scavenger_ship/staging_requisition)
@@ -32042,7 +32659,13 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/cryo_lockersaban)
 "uVJ" = (
-/obj/structure/largecrate/random/case/double,
+/obj/structure/surface/table/almayer{
+	color = "#EBD9B7"
+	},
+/obj/item/ashtray/bronze{
+	pixel_x = -9;
+	pixel_y = 0
+	},
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/staging_requisition)
 "uXb" = (
@@ -32116,8 +32739,36 @@
 /turf/open/floor/prison/ramptop/east,
 /area/scavenger_ship/logistics_maint)
 "uYP" = (
-/turf/open/floor/almayer/empty/golden_arrow,
-/area/golden_arrow/cargo_shuttle/upper)
+/obj/structure/surface/table/reinforced/prison{
+	color = "#b7b8b2"
+	},
+/obj/item/paper_bin{
+	pixel_x = 16;
+	pixel_y = 18
+	},
+/obj/item/tool/pen{
+	pixel_x = 15;
+	pixel_y = 14
+	},
+/obj/item/trash/tray{
+	pixel_y = 18;
+	pixel_x = -2
+	},
+/obj/item/reagent_container/food/snacks/margheritaslice{
+	pixel_x = -4;
+	pixel_y = 18
+	},
+/obj/item/tool/kitchen/utensil/fork{
+	pixel_y = 7;
+	pixel_x = 10
+	},
+/obj/item/device/radio{
+	pixel_x = -1;
+	pixel_y = 7
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/prison/floor_plate/southwest,
+/area/space)
 "uYU" = (
 /turf/open/floor/prison/yellow,
 /area/scavenger_ship/logistics_engo)
@@ -32194,9 +32845,15 @@
 /turf/closed/wall/strata_outpost/reinforced/hull,
 /area/scavenger_ship/hangar_storbays)
 "vdv" = (
-/obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/prison/darkbrown2/north,
-/area/scavenger_ship/logistics_elevator)
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/obj/item/paper/crumpled{
+	pixel_x = 5;
+	pixel_y = 7
+	},
+/turf/open/floor/prison/blue/east,
+/area/space)
 "vdA" = (
 /obj/structure/machinery/firealarm{
 	pixel_x = 6;
@@ -32342,6 +32999,29 @@
 	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/cryo_lockersaban)
+"vli" = (
+/obj/structure/stairs/perspective{
+	color = "#6e6e6e";
+	dir = 4;
+	icon_state = "p_stair_sn_full_cap";
+	layer = 2.5
+	},
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/structure/machinery/landinglight/ds2/delaytwo{
+	dir = 1
+	},
+/obj/structure/machinery/landinglight/ds2/delayone{
+	dir = 8
+	},
+/obj/structure/sign/banners/usa_worn{
+	pixel_y = 32
+	},
+/obj/structure/machinery/constructable_frame{
+	pixel_x = 0;
+	pixel_y = 9
+	},
+/turf/open/floor/hybrisa/tile,
+/area/scavenger_ship/logistics_maint)
 "vlH" = (
 /turf/open/floor/prison/whitepurple/north,
 /area/scavenger_ship/ssv_asclepius)
@@ -32433,6 +33113,27 @@
 "vpO" = (
 /turf/open/floor/prison/cell_stripe/west,
 /area/scavenger_ship/hangar_hallway)
+"vpV" = (
+/obj/item/trash/cigbutt{
+	pixel_x = 4
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/item/trash/barcardine{
+	pixel_x = 3;
+	pixel_y = -19
+	},
+/obj/effect/decal/cleanable/ash,
+/obj/effect/decal/cleanable/liquid_fuel{
+	name = "yellow water";
+	desc = "dont consume";
+	color = "#ffff00"
+	},
+/obj/item/reagent_container/glass/rag{
+	pixel_x = -12;
+	pixel_y = 20
+	},
+/turf/open/floor/corsat,
+/area/scavenger_ship/logistics_maint)
 "vrk" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "SW-out";
@@ -32657,11 +33358,15 @@
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/hangar_deck)
 "vHf" = (
-/obj/structure/machinery/door/airlock/almayer/engineering/glass{
-	dir = 1
+/obj/structure/machinery/door/airlock/almayer/maint{
+	dir = 1;
+	req_one_access = list()
+	},
+/obj/structure/machinery/door/firedoor/border_only/almayer{
+	dir = 2
 	},
 /turf/open/floor/corsat/marked,
-/area/scavenger_ship/logistics_engoffice)
+/area/scavenger_ship/logistics_elevator)
 "vHG" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/effect/decal/cleanable/generic,
@@ -32721,17 +33426,10 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/staging_requisition)
 "vKS" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "N";
-	pixel_y = 1
-	},
-/obj/effect/decal/cleanable/hybrisa/trash{
-	icon_state = "trash_7";
-	pixel_x = -3;
-	pixel_y = -14
-	},
-/turf/open/floor/prison/blue,
-/area/scavenger_ship/logistics_engoffice)
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/effect/decal/cleanable/greenglow,
+/turf/open/floor/prison/darkbrowncorners2/west,
+/area/scavenger_ship/logistics_elevator)
 "vLw" = (
 /turf/open/floor/strata/floor2,
 /area/scavenger_ship/ssv_asclepius)
@@ -32794,21 +33492,10 @@
 /turf/open/floor/prison/darkbrown3/east,
 /area/scavenger_ship/logistics_elevator)
 "vOS" = (
-/obj/effect/decal/hybrisa/tiretrack{
-	dir = 6;
-	pixel_x = -6
-	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/obj/effect/hybrisa/misc/fake/wire/red{
-	dir = 4;
-	pixel_y = 4
-	},
-/obj/effect/hybrisa/misc/fake/wire/blue{
-	dir = 4;
-	pixel_y = -4
-	},
-/turf/open/floor/plating/plating_catwalk/prison,
-/area/scavenger_ship/logistics_elevator)
+/obj/structure/machinery/power/apc/almayer/north,
+/turf/open/floor/prison/floor_plate/southwest,
+/area/scavenger_ship/logistics_engoffice)
 "vOU" = (
 /obj/structure/sign/nosmoking_1{
 	pixel_y = -31;
@@ -32838,13 +33525,19 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_engo)
 "vQc" = (
-/obj/structure/machinery/door/poddoor/almayer/locked{
-	name = "\improper Storage Bay";
-	desc = "You never know where they lead.";
-	dir = 4
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	layer = 3.33;
+	pixel_x = 1
 	},
-/turf/open/floor/corsat/marked,
-/area/scavenger_ship/logistics_elevator)
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_7";
+	pixel_x = -10;
+	pixel_y = -15
+	},
+/turf/open/floor/prison/blue/west,
+/area/scavenger_ship/logistics_engoffice)
 "vQL" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "0-2";
@@ -33094,21 +33787,6 @@
 /obj/effect/step_trigger/clone_cleaner,
 /turf/open/floor/prison/whitepurplecorner/north,
 /area/scavenger_ship/ssv_asclepius)
-"wad" = (
-/obj/effect/decal/cleanable/hybrisa/dirt,
-/obj/structure/prop/invuln/overhead_pipe{
-	icon = 'icons/obj/structures/props/almayer_props.dmi';
-	icon_state = "wallpipe_2";
-	pixel_y = 2;
-	dir = 8;
-	pixel_x = -13
-	},
-/obj/structure/cargo_container/hybrisa/containersextended/blackwyright{
-	pixel_x = 0;
-	pixel_y = -2
-	},
-/turf/open/floor/prison/darkbrown2/west,
-/area/scavenger_ship/logistics_elevator)
 "waq" = (
 /obj/structure/barricade/handrail/strata{
 	layer = 4
@@ -33457,21 +34135,19 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_engo)
 "wsI" = (
-/obj/effect/hybrisa/misc/fake/pipes/pipe1{
-	dir = 4
+/obj/structure/surface/table/almayer{
+	color = "#EBD9B7"
 	},
-/obj/structure/prop/structure_lattice{
-	dir = 4;
-	pixel_y = 0;
-	pixel_x = 2
+/obj/structure/machinery/prop/almayer/computer{
+	dir = 8
 	},
-/obj/structure/prop/invuln/lattice_prop{
-	icon_state = "lattice12";
-	pixel_y = 16;
-	pixel_x = 17
+/obj/item/reagent_container/food/drinks/bottle/sake{
+	pixel_x = -8;
+	pixel_y = 21
 	},
-/turf/open/floor/corsat,
-/area/scavenger_ship/staging_requisition)
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/prison/floor_plate/southwest,
+/area/scavenger_ship/hangar_deck)
 "wsW" = (
 /obj/structure/barricade/handrail/wire{
 	dir = 4
@@ -33501,6 +34177,15 @@
 	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/cryo_hallway)
+"wvB" = (
+/obj/structure/platform/strata/metal{
+	dir = 4
+	},
+/obj/effect/hybrisa/misc/fake/pipes/pipe1{
+	dir = 1
+	},
+/turf/open/floor/corsat,
+/area/scavenger_ship/hangar_deck)
 "wxh" = (
 /obj/structure/sign/banners/usa_worn{
 	pixel_y = 30;
@@ -34135,15 +34820,17 @@
 /turf/open/floor/corsat,
 /area/space)
 "xeC" = (
-/obj/structure/prop/invuln/overhead_pipe{
-	icon = 'icons/obj/structures/props/almayer_props.dmi';
-	icon_state = "wallpipe_2";
-	pixel_y = 2;
-	dir = 8;
-	pixel_x = -13
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	layer = 3.33;
+	pixel_x = 1
 	},
-/turf/closed/wall/strata_outpost/reinforced/hull,
-/area/scavenger_ship/logistics_elevator)
+/obj/item/paper/crumpled{
+	pixel_x = -4;
+	pixel_y = -4
+	},
+/turf/open/floor/prison,
+/area/space)
 "xfK" = (
 /obj/structure/foamed_metal/iron,
 /turf/open/floor/corsat,
@@ -34420,12 +35107,18 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/hangar_maint)
 "xpu" = (
-/obj/structure/prop/hybrisa/misc/buildinggreeblies/greeble7{
-	pixel_x = -17;
-	pixel_y = 5
+/obj/structure/bed/chair{
+	dir = 4;
+	pixel_x = 6;
+	pixel_y = 6
 	},
-/turf/open/floor/prison/floor_plate/southwest,
-/area/scavenger_ship/hangar_hallway)
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/item/trash/buritto{
+	pixel_x = -14;
+	pixel_y = 23
+	},
+/turf/open/floor/prison/darkbrown3/east,
+/area/scavenger_ship/staging_requisition)
 "xqC" = (
 /obj/structure/platform/strata/metal{
 	dir = 8;
@@ -34478,12 +35171,14 @@
 	pixel_x = 15;
 	pixel_y = 28
 	},
-/obj/structure/dropship_equipment/paradrop_system{
-	pixel_x = 0;
-	pixel_y = 4
+/obj/structure/machinery/gear{
+	id = "scavenger_elevator"
 	},
-/obj/effect/decal/warning_stripes/asteroid,
-/turf/open/floor/prison/floor_plate/southwest,
+/obj/structure/blocker/invisible_wall,
+/obj/structure/barricade/handrail/strata{
+	dir = 4
+	},
+/turf/open/floor/prison/floor_marked,
 /area/scavenger_ship/hangar_hallway)
 "xsf" = (
 /obj/structure/machinery/door/poddoor/almayer/locked{
@@ -35072,6 +35767,10 @@
 /obj/structure/machinery/gear{
 	id = "garrow_vehicle_elevator_one"
 	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "NW-out";
+	pixel_y = 1
+	},
 /turf/open/floor/prison/darkyellow2/southeast,
 /area/golden_arrow/vehicle_shuttle/upper)
 "xSI" = (
@@ -35227,11 +35926,16 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/cryo_lockersaban)
 "ybL" = (
-/obj/structure/machinery/light/small/red{
-	dir = 4
+/obj/structure/bed/chair/office/light{
+	dir = 8;
+	pixel_x = -6
 	},
-/turf/open/floor/plating/kutjevo,
-/area/scavenger_ship/logistics_maint)
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/prison/blue/east,
+/area/space)
 "ydw" = (
 /turf/closed/wall/strata_outpost/reinforced/hull,
 /area/scavenger_ship/staging_workshop)
@@ -36114,7 +36818,7 @@ rhS
 lTE
 lTE
 lTE
-kSQ
+lKG
 gRE
 vul
 lTE
@@ -37672,7 +38376,7 @@ gDf
 fKq
 nLE
 lTE
-dru
+jUv
 wNr
 gbO
 ezj
@@ -37844,7 +38548,7 @@ cgt
 kmX
 wcd
 lTE
-xpu
+cBz
 nSU
 oya
 pXl
@@ -38016,7 +38720,7 @@ rXj
 klM
 oHc
 lTE
-jqh
+cBz
 wNr
 cSG
 pXl
@@ -38100,7 +38804,7 @@ avB
 avy
 aqi
 aud
-aud
+nfG
 ave
 ava
 auQ
@@ -39087,9 +39791,9 @@ mvy
 mZk
 mZk
 vSY
-mZk
+cDq
 iuj
-mZk
+tYX
 rEe
 vxZ
 vxZ
@@ -39259,8 +39963,8 @@ cRt
 xIv
 pzR
 aCD
-bKB
-cRt
+pPa
+xpu
 eyy
 rEe
 agQ
@@ -39431,9 +40135,9 @@ aCD
 lxW
 pzR
 aCD
-azD
+aZK
 mXe
-sro
+oHL
 rEe
 ahe
 ahd
@@ -39603,9 +40307,9 @@ aCD
 hoe
 aCD
 aCD
-azD
+tsN
 uVJ
-sro
+ldv
 rEe
 ahf
 agO
@@ -40278,7 +40982,7 @@ rhS
 aCD
 lxG
 vZn
-vZn
+lvF
 eaQ
 pzR
 aCD
@@ -40944,13 +41648,13 @@ rhS
 rhS
 rhS
 rhS
-lTE
-lTE
-lTE
-lTE
-lTE
-lTE
-lTE
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
 rhS
 rhS
 rhS
@@ -41116,13 +41820,13 @@ rhS
 rhS
 rhS
 rhS
-lTE
-sFM
-sFM
-sFM
-sFM
-rbB
-lTE
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
 rhS
 rhS
 rhS
@@ -41288,13 +41992,13 @@ rhS
 rhS
 rhS
 rhS
-lTE
-sFM
-sFM
-sFM
-sFM
-sFM
-lTE
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
 rhS
 rhS
 rhS
@@ -41460,13 +42164,13 @@ rhS
 rhS
 rhS
 rhS
-lTE
-sFM
-sFM
-sFM
-sFM
-sFM
-lTE
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
 rhS
 rhS
 rhS
@@ -41632,13 +42336,13 @@ rhS
 rhS
 rhS
 rhS
-lTE
-sFM
-sFM
-sFM
-sFM
-sFM
-lTE
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
 rhS
 rhS
 rhS
@@ -41804,13 +42508,13 @@ rhS
 rhS
 rhS
 rhS
-lTE
-sFM
-sFM
-sFM
-sFM
-sFM
-lTE
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
 rhS
 rhS
 rhS
@@ -41974,15 +42678,15 @@ rhS
 rhS
 rhS
 rhS
-lTE
-lTE
-lTE
-sFM
-sFM
-sFM
-sFM
-sFM
-lTE
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
 rhS
 rhS
 rhS
@@ -42146,15 +42850,15 @@ rhS
 rhS
 rhS
 rhS
-lTE
-hZH
-lTE
-sFM
-sFM
-sFM
-sFM
-sFM
-lTE
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
 rhS
 rhS
 rhS
@@ -42318,19 +43022,19 @@ rhS
 rhS
 rhS
 rhS
-lTE
-lTE
-lTE
-inV
-inV
-inV
-inV
-inV
-lTE
-lTE
-lTE
-lTE
-lTE
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
 rhS
 rhS
 rhS
@@ -42490,19 +43194,19 @@ rhS
 rhS
 rhS
 rhS
-lTE
-ltj
-ltj
-ltj
-ltj
-ltj
-ltj
-ltj
-fRf
-ltj
-ltj
-ltj
-lTE
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
 rhS
 rhS
 rhS
@@ -42620,7 +43324,7 @@ rhS
 dpv
 agd
 afY
-qwx
+acV
 afL
 dpv
 rhS
@@ -42662,19 +43366,6 @@ rhS
 rhS
 rhS
 rhS
-lTE
-ltj
-ltj
-ltj
-ltj
-ltj
-ltj
-ltj
-ltj
-ltj
-ltj
-ltj
-lTE
 rhS
 rhS
 rhS
@@ -42687,25 +43378,38 @@ rhS
 rhS
 rhS
 rhS
-aCD
-aCD
-aCD
-aCD
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
 rhS
 rhS
 rhS
 aCD
-ith
 aCD
-efD
-ugm
-ugm
 aCD
-bel
 aCD
-htn
-xmT
-nLM
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+lvI
 rhS
 rhS
 rhS
@@ -42834,19 +43538,6 @@ rhS
 rhS
 rhS
 rhS
-lTE
-ltj
-ltj
-ltj
-ltj
-ltj
-ltj
-ltj
-ltj
-ltj
-ltj
-ltj
-lTE
 rhS
 rhS
 rhS
@@ -42866,18 +43557,31 @@ rhS
 rhS
 rhS
 rhS
-aCD
-mPd
-tFh
-sHT
-ugm
-syo
-tFh
-oRl
-aCD
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
 lvI
-rhS
-rhS
 rhS
 rhS
 rhS
@@ -43006,19 +43710,6 @@ rhS
 rhS
 rhS
 rhS
-lTE
-ltj
-ltj
-ltj
-ltj
-ltj
-ltj
-ltj
-ltj
-ltj
-ltj
-ltj
-lTE
 rhS
 rhS
 rhS
@@ -43038,18 +43729,31 @@ rhS
 rhS
 rhS
 rhS
-aCD
-wsI
-aCD
-cjG
-nGQ
-mSx
-aCD
-wsI
-aCD
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
 lvI
-rhS
-rhS
 rhS
 rhS
 rhS
@@ -43178,19 +43882,6 @@ rhS
 rhS
 rhS
 rhS
-lTE
-ltj
-ltj
-ltj
-ltj
-ltj
-ltj
-ltj
-ltj
-ltj
-ltj
-ltj
-lTE
 rhS
 rhS
 rhS
@@ -43210,18 +43901,31 @@ rhS
 rhS
 rhS
 rhS
-aCD
-aCD
-aCD
-aCD
-syo
-aCD
-aCD
-aCD
-aCD
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
 lvI
-rhS
-rhS
 rhS
 rhS
 rhS
@@ -43350,19 +44054,6 @@ rhS
 rhS
 rhS
 rhS
-lTE
-lTE
-lTE
-lTE
-lTE
-lTE
-lTE
-lTE
-lTE
-lTE
-lTE
-lTE
-lTE
 rhS
 rhS
 rhS
@@ -43384,16 +44075,29 @@ rhS
 rhS
 rhS
 rhS
-aCD
-aCD
-tFh
-aCD
-aCD
-htn
-xmT
-nLM
 rhS
 rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+lvI
 rhS
 rhS
 rhS
@@ -43556,16 +44260,16 @@ rhS
 rhS
 rhS
 rhS
-aCD
-dNu
-iRT
-pms
-aCD
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
 lvI
-rhS
-rhS
-rhS
-rhS
 rhS
 rhS
 rhS
@@ -43728,16 +44432,16 @@ rhS
 rhS
 rhS
 rhS
-aCD
-aCD
-aCD
-aCD
-aCD
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
 lvI
-rhS
-rhS
-rhS
-rhS
 rhS
 rhS
 rhS
@@ -43896,7 +44600,11 @@ rEg
 rEg
 rEg
 rhS
-rhS
+lTE
+lTE
+mPd
+lTE
+lTE
 rhS
 rhS
 rhS
@@ -43906,10 +44614,6 @@ rhS
 rhS
 rhS
 lvI
-rhS
-rhS
-rhS
-rhS
 rhS
 rhS
 ydw
@@ -44067,9 +44771,13 @@ nMh
 dzf
 wMF
 rEg
-rhS
-rhS
-rhS
+lTE
+lTE
+ltj
+iRT
+dzG
+lTE
+lTE
 rhS
 rhS
 rhS
@@ -44078,10 +44786,6 @@ rhS
 rhS
 rhS
 lvI
-rhS
-rhS
-rhS
-rhS
 rhS
 rhS
 ydw
@@ -44239,21 +44943,21 @@ lxX
 nVZ
 oMu
 rEg
-rhS
-rhS
-rhS
-rhS
-rhS
+lTE
+ith
+sHT
+nGQ
+syo
+dru
+lTE
+lTE
+lTE
 rhS
 rhS
 rhS
 rhS
 rhS
 lvI
-rhS
-rhS
-rhS
-rhS
 rhS
 rhS
 ydw
@@ -44411,21 +45115,21 @@ aae
 rEg
 rEg
 rEg
-rhS
-rhS
-rhS
-rhS
-rhS
+lTE
+efD
+aic
+cwe
+wsI
+cjG
+lTE
+hzT
+lTE
 rhS
 rhS
 rhS
 rhS
 rhS
 lvI
-rhS
-rhS
-rhS
-rhS
 rhS
 rhS
 ydw
@@ -44582,22 +45286,22 @@ kHR
 kHR
 rEg
 xfK
+pms
+lTE
+lTE
+dNu
+dNu
+dNu
 lTE
 lTE
 lTE
 lTE
-lTE
-lTE
-lTE
-lTE
-lTE
+rhS
+rhS
+rhS
 rhS
 rhS
 lvI
-rhS
-rhS
-rhS
-rhS
 rhS
 rhS
 rhS
@@ -44754,7 +45458,7 @@ dwF
 dwF
 rEg
 xfK
-lTE
+pms
 alj
 kKR
 kKR
@@ -44762,14 +45466,14 @@ kKR
 kKR
 kKR
 dZi
+ezj
+lTE
+lTE
+lTE
 lTE
 rhS
 rhS
 lvI
-rhS
-rhS
-rhS
-rhS
 rhS
 rhS
 rhS
@@ -44926,7 +45630,7 @@ dwF
 fgu
 rEg
 xfK
-lTE
+pms
 ppr
 cjo
 cjo
@@ -44934,14 +45638,14 @@ cjo
 cjo
 pVe
 enT
+ezj
+wvB
+wvB
+wvB
+lTE
 lTE
 rhS
-rhS
 lvI
-rhS
-rhS
-rhS
-rhS
 rhS
 rhS
 rhS
@@ -45098,7 +45802,7 @@ llC
 llC
 rEg
 xfK
-lTE
+pms
 ppr
 cjo
 cjo
@@ -45106,14 +45810,14 @@ cjo
 cjo
 cjo
 enT
+fzY
+fRf
+dqO
+fRf
+ugm
 lTE
 rhS
-rhS
 lvI
-rhS
-rhS
-rhS
-rhS
 rhS
 rhS
 rhS
@@ -45270,7 +45974,7 @@ fFd
 fFd
 rEg
 xfK
-lTE
+pms
 ppr
 cjo
 cjo
@@ -45278,14 +45982,14 @@ cjo
 cjo
 cjo
 enT
+ezj
+unf
+unf
+unf
+lTE
 lTE
 rhS
-rhS
 lvI
-rhS
-rhS
-rhS
-rhS
 rhS
 rhS
 rhS
@@ -45442,7 +46146,7 @@ saN
 saN
 rEg
 rEg
-lTE
+pms
 uIv
 cjo
 cjo
@@ -45450,14 +46154,14 @@ cjo
 cjo
 cjo
 rcZ
+pms
+pms
+pms
+pms
 lTE
 rhS
 rhS
 lvI
-rhS
-rhS
-rhS
-rhS
 rhS
 rhS
 rhS
@@ -45613,8 +46317,8 @@ rwF
 rAi
 rAi
 acL
-rEg
-aic
+acK
+pms
 ppr
 cjo
 cjo
@@ -45622,14 +46326,14 @@ cjo
 cjo
 cjo
 enT
+ezj
+drJ
+drJ
+drJ
+lTE
 lTE
 rhS
-rhS
 lvI
-rhS
-rhS
-rhS
-rhS
 rhS
 rhS
 rhS
@@ -45785,8 +46489,8 @@ sej
 xys
 llC
 rOK
-rEg
-cwe
+acK
+pms
 ppr
 cjo
 cjo
@@ -45794,14 +46498,14 @@ cjo
 cjo
 cjo
 enT
+fzY
+fRf
+dqO
+fRf
+ugm
 lTE
 rhS
-rhS
 lvI
-rhS
-rhS
-rhS
-rhS
 rhS
 rhS
 rhS
@@ -45957,8 +46661,8 @@ pgu
 nph
 aPS
 pCT
-rEg
-cwe
+acK
+pms
 ppr
 cjo
 cjo
@@ -45966,14 +46670,14 @@ cjo
 cjo
 cjo
 enT
+ezj
+grx
+grx
+grx
 lTE
 lTE
-lTE
+rhS
 lvI
-rhS
-rhS
-rhS
-rhS
 rhS
 rhS
 rhS
@@ -46129,8 +46833,8 @@ tXA
 snL
 snL
 aMz
-rEg
-cwe
+acK
+pms
 fon
 tPx
 tPx
@@ -46138,14 +46842,14 @@ tPx
 tPx
 tPx
 xSf
+pms
+pms
+pms
+pms
 lTE
-hzT
-lTE
-tkt
-xmT
-xmT
-alh
 rhS
+rhS
+lvI
 rhS
 rhS
 rhS
@@ -46301,23 +47005,23 @@ qZL
 llC
 tHb
 xBg
-rEg
-dqO
-lTE
-lAl
+acK
+pms
+pms
+pms
 pSh
 lAl
 lAl
-lAl
-lTE
-lTE
+pms
+pms
+pms
+acx
+acx
+acx
 dpv
 dpv
-dpv
-dpv
-dpv
-tkt
-alh
+rhS
+lvI
 rhS
 rhS
 rhS
@@ -46473,9 +47177,9 @@ ell
 hgY
 bLm
 acL
-rEg
-rEg
-rEg
+acK
+acK
+acK
 cGD
 tnz
 vpO
@@ -46563,18 +47267,18 @@ rhS
 rhS
 rhS
 rhS
+hvA
+aiZ
+aiZ
 rhS
 rhS
 rhS
 rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
 rhS
 rhS
 rhS
@@ -46735,18 +47439,18 @@ rhS
 rhS
 rhS
 rhS
+hvA
+ajm
+aiZ
+aiZ
+aiZ
+aiZ
+aiZ
+aiZ
+axD
 rhS
 rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
+qWQ
 rhS
 rhS
 rhS
@@ -46907,18 +47611,18 @@ rhS
 rhS
 rhS
 rhS
+hvA
+ajm
+aiZ
+ajh
+ajf
+ajc
+ajb
+aiZ
+aal
+aiU
 rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
+qWQ
 rhS
 rhS
 rhS
@@ -47079,18 +47783,18 @@ rhS
 rhS
 rhS
 rhS
+hvA
+ajm
+aiZ
+aji
+qzp
+fWI
+srN
+aja
+aiW
 rhS
 rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
+qWQ
 rhS
 rhS
 rhS
@@ -47251,18 +47955,18 @@ rhS
 rhS
 rhS
 rhS
+hvA
+ajm
+aiZ
+ajj
+mEU
+kNr
+fWI
+aiZ
+aan
 rhS
 rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
+qWQ
 rhS
 rhS
 rhS
@@ -47423,18 +48127,18 @@ rhS
 rhS
 rhS
 rhS
+sDP
+aiZ
+aiZ
+ajk
+gSk
+ncJ
+iSE
+aiZ
+aiY
 rhS
 rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
+qWQ
 rhS
 rhS
 rhS
@@ -47595,18 +48299,18 @@ rhS
 rhS
 rhS
 rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
+sDP
+ajn
+aiZ
+ajl
+ajg
+ajd
+iZE
+aiZ
+qWQ
+qWQ
+qWQ
+qWQ
 rhS
 rhS
 rhS
@@ -47767,14 +48471,14 @@ rhS
 rhS
 rhS
 rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
+ajq
+aNZ
+aLM
+rtk
+dhf
+lHr
+bFa
+aiZ
 rhS
 rhS
 rhS
@@ -47939,14 +48643,14 @@ rhS
 rhS
 rhS
 rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
+ajq
+ajo
+aiZ
+rjf
+kAD
+gqt
+iZE
+aiZ
 rhS
 rhS
 rhS
@@ -48111,14 +48815,14 @@ rhS
 rhS
 rhS
 rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
+ajq
+phU
+aiZ
+ftr
+ggT
+pSl
+xJD
+aiZ
 rhS
 rhS
 rhS
@@ -48283,18 +48987,18 @@ rhS
 rhS
 rhS
 rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
+ajq
+bvq
+aiZ
+qWB
+kBH
+kyX
+lkz
+aiZ
+taW
+taW
+taW
+taW
 rhS
 rhS
 rhS
@@ -48455,18 +49159,18 @@ rhS
 rhS
 rhS
 rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
+ajq
+ajp
+aiZ
+aiZ
+eIv
+eIv
+aiZ
+aiZ
+qnR
+snH
+hku
+taW
 rhS
 rhS
 rhS
@@ -48627,18 +49331,18 @@ rhS
 rhS
 rhS
 rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
+spN
+prL
+iAa
+uAD
+kTG
+kTG
+gDc
+xUA
+aVe
+aVe
+xUA
+taW
 rhS
 rhS
 rhS
@@ -52141,9 +52845,9 @@ rhS
 rhS
 rhS
 rhS
-hvA
-hvA
-hvA
+rhS
+rhS
+rhS
 rhS
 rhS
 rhS
@@ -52313,14 +53017,14 @@ rhS
 rhS
 rhS
 rhS
-hvA
-atA
-hvA
-hvA
-hvA
-hvA
-hvA
-hvA
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+bvo
 aiZ
 aiZ
 rhS
@@ -52480,19 +53184,19 @@ ajt
 aiZ
 aiZ
 rhS
-hvA
-hvA
-hvA
-hvA
-hvA
-hvA
-hvA
-hvA
-kVb
-kVb
-kVb
-kVb
-hvA
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+bvo
 ajm
 aiZ
 aiZ
@@ -52652,25 +53356,25 @@ aiZ
 aiZ
 aiZ
 rhS
-hvA
-uYP
-uYP
-uYP
-uYP
-uYP
-onx
-hvA
-hvA
-vQc
-vQc
-hvA
-hvA
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+bvo
 ajm
 aiZ
-ajh
-ajf
-ajc
-ajb
+pWi
+qBN
+pLS
+iji
 aiZ
 aal
 aiU
@@ -52824,25 +53528,25 @@ aju
 aiZ
 aiZ
 rhS
-hvA
-uYP
-uYP
-uYP
-uYP
-uYP
-uYP
-hvA
-kGT
-mgL
-mgL
-arx
-hvA
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+bvo
 ajm
 aiZ
-aji
-qzp
-fWI
-srN
+jpJ
+bXv
+mXR
+jdV
 aja
 aiW
 rhS
@@ -52996,25 +53700,25 @@ ajv
 aiZ
 aiZ
 rhS
-hvA
-uYP
-uYP
-uYP
-uYP
-uYP
-uYP
-rho
-oeM
-qsD
-jMo
-wad
-hvA
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+bvo
 ajm
 aiZ
-ajj
-mEU
-kNr
-fWI
+oiD
+jih
+hiQ
+kUM
 aiZ
 aan
 rhS
@@ -53168,25 +53872,25 @@ aiZ
 aiZ
 aiZ
 rhS
-hvA
-uYP
-uYP
-uYP
-uYP
-uYP
-uYP
-rho
-tLI
-lfo
-bfA
-eQK
-sDP
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+kVb
 aiZ
 aiZ
-ajk
-gSk
-ncJ
-iSE
+mcX
+exG
+deo
+oIU
 aiZ
 aiY
 rhS
@@ -53320,14 +54024,6 @@ rhS
 rhS
 rhS
 rhS
-pLW
-pLW
-pLW
-pLW
-pLW
-pLW
-pLW
-pLW
 rhS
 rhS
 rhS
@@ -53340,25 +54036,33 @@ rhS
 rhS
 rhS
 rhS
-hvA
-uYP
-uYP
-uYP
-uYP
-uYP
-uYP
-rho
-tLI
-gPW
-vOS
-eQK
-sDP
-ajn
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+kVb
+iWj
 aiZ
-ajl
-ajg
-ajd
-iZE
+jCi
+eWs
+kSQ
+lfF
 aiZ
 qWQ
 qWQ
@@ -53492,13 +54196,6 @@ rhS
 rhS
 rhS
 rhS
-dVZ
-dhQ
-iAb
-gqE
-pLW
-pLW
-uqp
 pLW
 pLW
 pLW
@@ -53512,25 +54209,32 @@ rhS
 rhS
 rhS
 rhS
-hvA
-uYP
-uYP
-uYP
-uYP
-uYP
-uYP
-rho
-tJZ
-qjy
-qjy
-pUn
-ajq
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+aiZ
 aNZ
 aLM
-rtk
-dhf
-lHr
-bFa
+hvj
+jqh
+vpV
+azk
 aiZ
 rhS
 rhS
@@ -53664,45 +54368,45 @@ rhS
 rhS
 rhS
 rhS
+dVZ
+dhQ
+iAb
+gqE
 pLW
-ubP
-ldb
-krF
 pLW
-oCI
-qTT
-jJB
+uqp
 pLW
-oue
-oue
 pLW
-bPL
-xjO
+pLW
+pLW
+pLW
+pLW
+pLW
 pLW
 rhS
 rhS
 rhS
 rhS
 rhS
-hvA
-uYP
-uYP
-uYP
-uYP
-uYP
-uYP
-hvA
-hSg
-kOO
-tiS
-cmX
-ajq
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+aiZ
 ajo
 aiZ
-rjf
-kAD
-gqt
-iZE
+cyt
+aSg
+mAa
+uBN
 aiZ
 rhS
 rhS
@@ -53837,44 +54541,44 @@ rhS
 rhS
 rhS
 pLW
-rVj
-hYR
-mNu
+ubP
+ldb
+krF
 pLW
-ozp
-wfH
-bXb
+oCI
+qTT
+jJB
 pLW
 oue
 oue
 pLW
-hGM
-bIQ
+bPL
+xjO
 pLW
 rhS
 rhS
 rhS
 rhS
 rhS
-hvA
-uYP
-uYP
-uYP
-uYP
-uYP
-uYP
-hvA
-iAn
-pCF
-vdv
-bdT
-ajq
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+aiZ
 phU
 aiZ
-ftr
-ggT
-pSl
-xJD
+vli
+aYe
+hFT
+pHt
 aiZ
 rhS
 rhS
@@ -54007,45 +54711,45 @@ rhS
 rhS
 rhS
 rhS
+rhS
 pLW
+rVj
+hYR
+mNu
 pLW
+ozp
+wfH
+bXb
 pLW
-vSj
+oue
+oue
 pLW
-pLW
-pLW
-lBG
-mSW
-pLW
-pLW
-pLW
-pLW
-hKb
 hGM
+bIQ
 pLW
 rhS
 rhS
 rhS
 rhS
 rhS
-hvA
-hvA
-hvA
-hvA
-hvA
-hvA
-hvA
-hvA
-oCk
-gJR
-vdv
-frl
-ajq
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+aiZ
 bvq
 aiZ
-qWB
+sCV
 kBH
-kyX
+bEb
 lkz
 aiZ
 taW
@@ -54177,23 +54881,23 @@ rhS
 rhS
 rhS
 rhS
-pjU
-ueT
+rhS
+rhS
 pLW
-aoU
-dHz
-iMF
-pNs
-tNg
-xmR
-vRJ
-rVj
 pLW
-miA
-luu
 pLW
+vSj
+pLW
+pLW
+pLW
+lBG
 mSW
-vya
+pLW
+pLW
+pLW
+pLW
+hKb
+hGM
 pLW
 rhS
 rhS
@@ -54202,22 +54906,22 @@ rhS
 rhS
 rhS
 rhS
-jnW
-jnW
-tgv
-sKp
-olo
-acQ
 hvA
-bGv
-bGv
-xeC
-ajq
+hvA
+hvA
+hvA
+hvA
+hvA
+bvo
+bvo
+bvo
+bvo
+aiZ
 ajp
 aiZ
 aiZ
-eIv
-eIv
+lvk
+kBi
 aiZ
 aiZ
 qnR
@@ -54348,24 +55052,24 @@ rhS
 rhS
 rhS
 rhS
-mCK
-aJD
 rhS
-aab
-akg
-jyC
-mcb
-tIn
-lwa
-pAu
-qaG
-wsk
+pjU
+ueT
 pLW
-vdA
-hvO
-kIL
-hzP
-rJA
+aoU
+dHz
+iMF
+pNs
+tNg
+xmR
+vRJ
+rVj
+pLW
+miA
+luu
+pLW
+mSW
+vya
 pLW
 rhS
 rhS
@@ -54374,9 +55078,9 @@ rhS
 rhS
 rhS
 rhS
-jnW
+hvA
 hVA
-iBe
+oeM
 oVZ
 uAV
 acQ
@@ -54524,20 +55228,20 @@ mCK
 aJD
 rhS
 aab
-vpm
-rnc
-nva
-fcp
-bKI
-xoN
-hjb
-iMH
+akg
+jyC
+mcb
+tIn
+lwa
+pAu
+qaG
+wsk
 pLW
-nxR
-kGn
-iGC
-wdK
-acA
+vdA
+hvO
+kIL
+hzP
+rJA
 pLW
 rhS
 rhS
@@ -54546,7 +55250,7 @@ rhS
 rhS
 rhS
 rhS
-jnW
+hvA
 jhH
 tYE
 vKS
@@ -54697,32 +55401,32 @@ aJD
 rhS
 aab
 vpm
-cMM
-coO
-wIu
-mdO
-nzo
-wRF
-vEU
+rnc
+nva
+fcp
+bKI
+xoN
+hjb
+iMH
 pLW
-pMF
-dkY
-shO
-cqB
-vYL
+nxR
+kGn
+iGC
+wdK
+acA
 pLW
-bvo
-bvo
-bvo
-bvo
-bvo
-bvo
-bvo
-jnW
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+hvA
 oto
 ktA
 oZc
-stU
+oZc
 vHf
 mbz
 kbV
@@ -54864,35 +55568,35 @@ rhS
 rhS
 rhS
 rhS
+mCK
+aJD
 rhS
-xoy
-ueT
+aab
+vpm
+cMM
+coO
+wIu
+mdO
+nzo
+wRF
+vEU
 pLW
-bgB
-ozJ
-wIN
-qsy
-tZi
-eSp
-rvc
-jPE
+pMF
+dkY
+shO
+cqB
+vYL
 pLW
-wry
-jYb
-chD
-miz
-pLW
-pLW
-hxO
-oRU
-hUk
-vXe
-dnq
-nNC
 bvo
-jnW
-mox
-pSS
+bvo
+bvo
+bvo
+bvo
+bvo
+bvo
+bvo
+oto
+ktA
 iGc
 aRj
 acR
@@ -55037,35 +55741,35 @@ rhS
 rhS
 rhS
 rhS
-rhS
-rhS
+xoy
+ueT
+pLW
+bgB
+ozJ
+wIN
+qsy
+tZi
+eSp
+rvc
+jPE
+pLW
+wry
+jYb
+chD
+miz
 pLW
 pLW
-lJg
-twn
-kiB
-pLW
-tvL
-iMy
-cVr
-pLW
-pLW
-art
-pLW
-pLW
-pLW
-tMn
-dmB
-jTr
-dFK
-cFb
-rGH
-wiF
-nQz
-jnW
-jnW
-iPm
-irk
+hxO
+oRU
+hUk
+vXe
+dnq
+nNC
+bvo
+bvo
+iAn
+pGT
+jMo
 rej
 acQ
 qVq
@@ -55195,47 +55899,47 @@ rhS
 rhS
 rhS
 qWQ
-ueT
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
 pLW
-ueT
 pLW
-ueT
+lJg
+twn
+kiB
 pLW
-ueT
+tvL
+iMy
+cVr
 pLW
-ueT
 pLW
-ueT
+art
 pLW
-ueT
 pLW
-ueT
-ueT
-ico
 pLW
-qvi
-rIZ
-rIZ
-eLX
-aVk
-btu
-dhF
-pLW
-qCc
-dmD
-osO
-pLW
-fyh
-uSi
-hmx
-rJl
-bXV
-bSq
-fwz
-pks
-bwD
-kHN
-jnW
+tMn
+dmB
+jTr
+dFK
+cFb
+rGH
+wiF
+nQz
+bvo
+bvo
 jnW
 jnW
 pdl
@@ -55367,50 +56071,50 @@ rhS
 rhS
 rhS
 qWQ
+ueT
+pLW
+ueT
+pLW
+ueT
+pLW
+ueT
+pLW
+ueT
+pLW
+ueT
+pLW
+ueT
+pLW
+ueT
+ueT
 ico
-ico
-ico
-ico
-ico
-ico
-ico
-ico
-ico
-ico
-ico
-ico
-ico
-ico
-ico
-ico
-ico
-njq
-cKZ
-wzm
-ldC
-uJC
-hje
-fOp
-lVG
-uBr
-xnw
-oPk
-eNV
-xUw
-oiv
-gUD
-hdF
-jvV
-vEv
-pWE
-mHk
-tEm
-fGS
-jvV
-oTE
-pGT
+pLW
+qvi
+rIZ
+rIZ
+eLX
+aVk
+btu
+dhF
+pLW
+qCc
+dmD
+osO
+pLW
+fyh
+uSi
+hmx
+rJl
+bXV
+bSq
+fwz
+pks
+bwD
+kHN
+bvo
+tgv
 uyH
-pGT
+stU
 fZv
 lyC
 oEW
@@ -55539,50 +56243,50 @@ rhS
 rhS
 rhS
 qWQ
-ueT
-pLW
-ueT
-pLW
-ueT
-pLW
-ueT
-pLW
-ueT
-pLW
-ueT
-pLW
-ueT
-pLW
-ueT
-ueT
 ico
-pLW
-quA
-quA
-xaU
-eLX
-aVk
-awd
-ccN
-pLW
-ukm
-dmD
-kEE
-pLW
-dBB
-tPh
-kWv
-cyl
-lJV
-lJV
-aJT
-its
-gAK
-mdN
-bvo
-bvo
+ico
+ico
+ico
+ico
+ico
+ico
+ico
+ico
+ico
+ico
+ico
+ico
+ico
+ico
+ico
+ico
+njq
+cKZ
+wzm
+ldC
+uJC
+hje
+fOp
+lVG
+uBr
+xnw
+oPk
+eNV
+xUw
+oiv
+gUD
+hdF
+jvV
+vEv
+pWE
+mHk
+tEm
+fGS
+jvV
+bfA
+bdT
 gdb
-bvo
+tiS
 fZv
 vNO
 xNd
@@ -55711,50 +56415,50 @@ rhS
 rhS
 rhS
 qWQ
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
+ueT
 pLW
+ueT
 pLW
-aaa
-aaa
-aaa
+ueT
 pLW
-nek
-qeW
-cqc
+ueT
 pLW
+ueT
 pLW
-erL
+ueT
 pLW
+ueT
 pLW
+ueT
+ueT
+ico
 pLW
-bCI
-nKt
-uaX
-lux
-uYO
-dIw
-awF
-nQz
+quA
+quA
+xaU
+eLX
+aVk
+awd
+ccN
+pLW
+ukm
+dmD
+kEE
+pLW
+dBB
+tPh
+kWv
+cyl
+lJV
+lJV
+aJT
+its
+gAK
+mdN
 bvo
-bvo
-bvo
-ybL
-dLS
+arx
+olo
+irk
 fZv
 uTZ
 fAf
@@ -55897,36 +56601,36 @@ rhS
 rhS
 rhS
 rhS
-pjU
-ueT
-pLW
-bGr
-qKW
-ryw
-gZJ
-kDX
-qXO
-nqo
-eQm
-pLW
-fFp
-rXT
-pLW
-bZA
-pLW
-pLW
-gIS
-bkc
-kzn
-rLz
-xzK
-fok
-bvo
-bvo
 rhS
+rhS
+pLW
+pLW
+aaa
+aaa
+aaa
+pLW
+nek
+qeW
+cqc
+pLW
+pLW
+erL
+pLW
+pLW
+pLW
+bCI
+nKt
+uaX
+lux
+uYO
+dIw
+awF
+nQz
 bvo
 bvo
-bvo
+pdl
+jnW
+jnW
 fZv
 xIM
 kdx
@@ -56068,37 +56772,37 @@ rhS
 rhS
 rhS
 rhS
-mCK
-aJD
 rhS
-aab
-qLq
-aCV
-hmc
-bZy
-cfd
-eyt
-vVu
-xPg
+pjU
+ueT
 pLW
-cGX
-uqs
-qao
-dbz
-kbr
+bGr
+qKW
+ryw
+gZJ
+kDX
+qXO
+nqo
+eQm
 pLW
+fFp
+rXT
+pLW
+bZA
+pLW
+pLW
+gIS
+bkc
+kzn
+rLz
+xzK
+fok
 bvo
 bvo
-bvo
-bvo
-bvo
-bvo
-bvo
-rhS
-rhS
-rhS
-rhS
-rhS
+qjy
+sKp
+jnW
+hSg
 fZv
 lUQ
 dpM
@@ -56244,31 +56948,31 @@ mCK
 aJD
 rhS
 aab
-niR
-opK
-sjU
-gSt
-ipF
-lxd
-ded
-jbW
+qLq
+aCV
+hmc
+bZy
+cfd
+eyt
+vVu
+xPg
 pLW
-wkS
-fhy
+cGX
+uqs
+qao
+dbz
+kbr
 pLW
-pLW
-pLW
-pLW
-tdj
-qtn
-aaE
-qyh
-pQB
-hPv
-pLW
-rhS
-rhS
-rhS
+bvo
+bvo
+bvo
+bvo
+bvo
+bvo
+bvo
+vOS
+bGv
+qwx
 fZv
 fZv
 fZv
@@ -56416,31 +57120,31 @@ mCK
 aJD
 rhS
 aab
-fFg
-wHq
-ecv
-hdx
-oNf
-fOL
-lkS
-uqp
+niR
+opK
+sjU
+gSt
+ipF
+lxd
+ded
+jbW
 pLW
-ttb
-eNO
+wkS
+fhy
 pLW
-iPN
-gJK
-puj
-bnr
-pDo
-hmh
-vFf
-hmh
-wet
 pLW
-rhS
-rhS
-rhS
+pLW
+pLW
+tdj
+qtn
+aaE
+qyh
+pQB
+hPv
+pLW
+lfo
+vQc
+gJR
 fZv
 boV
 kGX
@@ -56584,35 +57288,35 @@ rhS
 rhS
 rhS
 rhS
+mCK
+aJD
 rhS
-xoy
-ueT
+aab
+fFg
+wHq
+ecv
+hdx
+oNf
+fOL
+lkS
+uqp
 pLW
-xlv
-cTo
-bCW
-gNU
-kGj
-cRu
-vPZ
-jGG
+ttb
+eNO
 pLW
-rpP
-ghs
-mSW
-rwf
-hEM
-rMN
-kjN
-vYH
-ikq
-ooL
-gTy
-cCg
+iPN
+gJK
+puj
+bnr
+pDo
+hmh
+vFf
+hmh
+wet
 pLW
-pLW
-rhS
-rhS
+kOO
+pSS
+iPm
 fZv
 uXE
 xsf
@@ -56757,34 +57461,34 @@ rhS
 rhS
 rhS
 rhS
-rhS
-rhS
+xoy
+ueT
+pLW
+xlv
+cTo
+bCW
+gNU
+kGj
+cRu
+vPZ
+jGG
+pLW
+rpP
+ghs
+mSW
+rwf
+hEM
+rMN
+kjN
+vYH
+ikq
+ooL
+gTy
+cCg
 pLW
 pLW
-ckk
-sIn
-ckk
-pLW
-pLW
-pLW
-rlR
-pLW
-alE
-iNn
-ixJ
-fCT
-iIy
-pVx
-uYU
-qUc
-lJc
-wDi
-aoG
-nOP
-qft
-pLW
-rhS
-rhS
+jnW
+jnW
 fZv
 fZv
 fZv
@@ -56848,7 +57552,7 @@ koM
 ooK
 aMK
 kDz
-cMi
+iaP
 qsw
 rhS
 rhS
@@ -56932,28 +57636,28 @@ rhS
 rhS
 rhS
 pLW
-hBW
-rVj
-vFx
-rVj
-hBW
 pLW
-cKa
-smw
+ckk
+sIn
+ckk
 pLW
-jrI
-uqs
 pLW
-efu
-hnR
-mOf
-eyr
-kAX
-xhm
-ooL
-oAg
-vNW
 pLW
+rlR
+pLW
+alE
+iNn
+ixJ
+fCT
+iIy
+pVx
+uYU
+qUc
+lJc
+wDi
+aoG
+nOP
+qft
 pLW
 rhS
 rhS
@@ -57104,29 +57808,29 @@ rhS
 rhS
 rhS
 pLW
-hWi
-oyb
-eiQ
-ebJ
-jaM
+hBW
+rVj
+vFx
+rVj
+hBW
 pLW
-uFt
-sCf
-blF
-arU
-owi
+cKa
+smw
 pLW
-xKZ
-xqC
-tJR
-emV
-wsW
-sAR
-aQI
-sAR
-xsp
+jrI
+uqs
 pLW
-rhS
+efu
+hnR
+mOf
+eyr
+kAX
+xhm
+ooL
+oAg
+vNW
+pLW
+pLW
 rhS
 rhS
 fZv
@@ -57276,27 +57980,27 @@ rhS
 rhS
 rhS
 pLW
-fFy
-lgt
-pDO
-gAD
-sgu
+hWi
+oyb
+eiQ
+ebJ
+jaM
 pLW
+uFt
+sCf
+blF
+arU
+owi
 pLW
-pLW
-pLW
-iaJ
-oBd
-pLW
-pLW
-pLW
-pLW
-wVz
-iRB
-kPo
-pRN
-hIy
-gRp
+xKZ
+xqC
+tJR
+emV
+wsW
+sAR
+aQI
+sAR
+xsp
 pLW
 rhS
 rhS
@@ -57448,27 +58152,27 @@ rhS
 rhS
 rhS
 pLW
-rVj
-cvD
-ctB
-oyb
-nSs
-pLW
-rhS
-rhS
-pLW
-syj
-syj
-pLW
-rhS
-rhS
+fFy
+lgt
+pDO
+gAD
+sgu
 pLW
 pLW
 pLW
 pLW
+iaJ
+oBd
 pLW
 pLW
 pLW
+pLW
+wVz
+iRB
+kPo
+pRN
+hIy
+gRp
 pLW
 rhS
 rhS
@@ -57620,28 +58324,28 @@ rhS
 rhS
 rhS
 pLW
-pLW
-ehY
-cHD
-cHD
-pLW
-pLW
-rhS
-rhS
-pLW
-pLW
-pLW
+rVj
+cvD
+ctB
+oyb
+nSs
 pLW
 rhS
 rhS
+pLW
+syj
+syj
+pLW
 rhS
 rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
+pLW
+pLW
+pLW
+pLW
+pLW
+pLW
+pLW
+pLW
 rhS
 rhS
 rhS
@@ -57791,19 +58495,19 @@ rhS
 rhS
 rhS
 rhS
-lZD
-ico
-atk
-ico
-ico
-ico
-ybd
+pLW
+pLW
+ehY
+cHD
+cHD
+pLW
+pLW
 rhS
 rhS
-rhS
-rhS
-rhS
-rhS
+pLW
+pLW
+pLW
+pLW
 rhS
 rhS
 rhS
@@ -57964,11 +58668,11 @@ rhS
 rhS
 rhS
 lZD
-jpz
-utq
-jjD
-jjD
-gmZ
+ico
+atk
+ico
+ico
+ico
 ybd
 rhS
 rhS
@@ -57981,10 +58685,10 @@ rhS
 rhS
 rhS
 rhS
-rhS
-rhS
-rhS
-rhS
+agl
+cmX
+tLI
+gPW
 rhS
 rhS
 rhS
@@ -58136,11 +58840,11 @@ rhS
 rhS
 rhS
 lZD
-ikW
-ikW
-ikW
-ikW
-ikW
+jpz
+utq
+jjD
+jjD
+gmZ
 ybd
 rhS
 rhS
@@ -58153,10 +58857,10 @@ rhS
 rhS
 rhS
 rhS
-rhS
-rhS
-rhS
-rhS
+iBe
+xeC
+frl
+eQK
 rhS
 rhS
 rhS
@@ -58307,13 +59011,13 @@ rhS
 rhS
 rhS
 rhS
-xoy
-pka
-pka
-pka
-pka
-pka
-eiX
+lZD
+ikW
+ikW
+ikW
+ikW
+ikW
+ybd
 rhS
 rhS
 rhS
@@ -58325,10 +59029,10 @@ rhS
 rhS
 rhS
 rhS
-rhS
-rhS
-rhS
-rhS
+oTE
+uYP
+oCk
+kGT
 rhS
 rhS
 rhS
@@ -58479,6 +59183,13 @@ rhS
 rhS
 rhS
 rhS
+xoy
+pka
+pka
+pka
+pka
+pka
+eiX
 rhS
 rhS
 rhS
@@ -58490,17 +59201,10 @@ rhS
 rhS
 rhS
 rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
+mox
+mgL
+tJZ
+dLS
 rhS
 rhS
 rhS
@@ -58588,7 +59292,7 @@ rhS
 rhS
 rhS
 rhS
-qWQ
+rhS
 rhS
 rhS
 rhS
@@ -58669,41 +59373,41 @@ rhS
 rhS
 rhS
 rhS
+ybL
+vdv
+pCF
+atA
 rhS
 rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
 qWQ
 rhS
 rhS
@@ -58760,7 +59464,7 @@ rhS
 rhS
 rhS
 rhS
-qWQ
+rhS
 rhS
 rhS
 rhS
@@ -58841,39 +59545,10 @@ rhS
 rhS
 rhS
 rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
+agl
+rho
+pUn
+qsD
 rhS
 rhS
 qWQ
@@ -58932,7 +59607,36 @@ rhS
 rhS
 rhS
 rhS
-qWQ
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
 rhS
 rhS
 rhS
@@ -59019,35 +59723,6 @@ rhS
 rhS
 rhS
 rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
 qWQ
 rhS
 rhS
@@ -59104,7 +59779,36 @@ rhS
 rhS
 rhS
 rhS
-qWQ
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
 rhS
 rhS
 rhS
@@ -59151,75 +59855,46 @@ rhS
 rhS
 rhS
 qWQ
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
+qWQ
 qWQ
 rhS
 rhS
@@ -59276,7 +59951,36 @@ rhS
 rhS
 rhS
 rhS
-qWQ
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
 rhS
 rhS
 rhS
@@ -59322,7 +60026,6 @@ rhS
 rhS
 rhS
 rhS
-qWQ
 rhS
 rhS
 rhS
@@ -59392,7 +60095,6 @@ rhS
 rhS
 rhS
 rhS
-qWQ
 rhS
 rhS
 rhS
@@ -59448,7 +60150,10329 @@ rhS
 rhS
 rhS
 rhS
-qWQ
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(141,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(142,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+lTE
+lTE
+lTE
+lTE
+lTE
+lTE
+lTE
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(143,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+lTE
+sFM
+sFM
+sFM
+sFM
+rbB
+lTE
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(144,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+lTE
+sFM
+sFM
+sFM
+sFM
+sFM
+lTE
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(145,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+lTE
+sFM
+sFM
+sFM
+sFM
+sFM
+lTE
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(146,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+lTE
+sFM
+sFM
+sFM
+sFM
+sFM
+lTE
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(147,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+lTE
+sFM
+sFM
+sFM
+sFM
+sFM
+lTE
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(148,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+lTE
+lTE
+lTE
+sFM
+sFM
+sFM
+sFM
+sFM
+lTE
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(149,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+lTE
+hZH
+lTE
+sFM
+sFM
+sFM
+sFM
+sFM
+lTE
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(150,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+lTE
+lTE
+lTE
+inV
+inV
+inV
+inV
+inV
+lTE
+lTE
+lTE
+lTE
+lTE
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(151,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+lTE
+sFM
+sFM
+sFM
+sFM
+sFM
+sFM
+sFM
+mSx
+sFM
+sFM
+sFM
+lTE
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(152,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+lTE
+sFM
+sFM
+sFM
+sFM
+sFM
+sFM
+sFM
+sFM
+sFM
+sFM
+sFM
+lTE
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(153,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+lTE
+sFM
+sFM
+sFM
+sFM
+sFM
+sFM
+sFM
+sFM
+sFM
+sFM
+sFM
+lTE
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(154,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+lTE
+sFM
+sFM
+sFM
+sFM
+sFM
+sFM
+sFM
+sFM
+sFM
+sFM
+sFM
+lTE
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(155,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+lTE
+sFM
+sFM
+sFM
+sFM
+sFM
+sFM
+sFM
+sFM
+sFM
+sFM
+sFM
+lTE
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(156,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+lTE
+lTE
+lTE
+lTE
+lTE
+lTE
+lTE
+lTE
+lTE
+lTE
+lTE
+lTE
+lTE
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(157,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(158,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(159,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(160,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(161,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(162,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(163,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(164,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(165,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(166,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(167,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(168,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(169,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(170,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(171,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(172,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(173,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(174,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(175,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(176,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(177,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(178,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(179,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(180,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(181,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(182,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(183,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(184,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(185,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(186,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(187,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(188,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(189,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(190,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(191,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(192,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(193,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(194,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(195,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(196,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(197,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(198,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(199,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+"}
+(200,1,1) = {"
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
 rhS
 rhS
 rhS
