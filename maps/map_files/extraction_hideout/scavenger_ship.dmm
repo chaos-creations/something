@@ -4327,6 +4327,11 @@
 	},
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/staging_workshop)
+"aiz" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/machinery/light_construct,
+/turf/open/floor/corsat,
+/area/prison/office2)
 "aiA" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "SE-out";
@@ -7495,10 +7500,9 @@
 /turf/open/floor/almayer/test_floor4,
 /area/space)
 "apb" = (
-/obj/structure/prop{
-	desc = "You never know where they lead.";
-	icon_state = "ladder11";
-	name = "ladder"
+/obj/structure/ladder{
+	id = "ship_scholar_garage";
+	height = -1
 	},
 /turf/open/floor/corsat/marked,
 /area/space)
@@ -7579,6 +7583,14 @@
 /turf/open/space/basic,
 /area/space)
 "apl" = (
+/obj/structure/machinery/door/airlock/strata/autoname{
+	dir = 1;
+	no_panel = 1;
+	unslashable = 1;
+	unacidable = 1;
+	health = 100000;
+	locked = 1
+	},
 /turf/open/floor/corsat/marked,
 /area/space)
 "apm" = (
@@ -7747,6 +7759,12 @@
 /obj/structure/machinery/door/firedoor/border_only/almayer,
 /turf/open/floor/almayer/test_floor4,
 /area/space)
+"apF" = (
+/obj/structure/machinery/light_construct/small{
+	dir = 1
+	},
+/turf/open/floor/corsat,
+/area/prison/office2)
 "apG" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "door_warning";
@@ -8389,21 +8407,18 @@
 /turf/open/floor/hybrisa/tile,
 /area/space)
 "arm" = (
-/obj/item/dartboard{
-	pixel_x = 0;
-	pixel_y = 32
-	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/obj/item/weapon/dart{
-	pixel_x = 7;
-	pixel_y = 32
-	},
 /obj/structure/prop/souto_land/streamer{
 	dir = 8;
 	pixel_x = -1;
 	pixel_y = 28
 	},
-/turf/open/floor/hybrisa/wood,
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_11";
+	pixel_x = 0;
+	pixel_y = 9
+	},
+/turf/open/floor/corsat,
 /area/scavenger_ship/service_library)
 "arn" = (
 /obj/structure/surface/table/reinforced/black,
@@ -9096,6 +9111,13 @@
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/corsat,
 /area/prison/atmos)
+"asC" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/machinery/light_construct/small{
+	dir = 1
+	},
+/turf/open/floor/corsat,
+/area/prison/office2)
 "asD" = (
 /turf/open/floor/corsat,
 /area/prison/atmos)
@@ -9141,6 +9163,15 @@
 	},
 /turf/open/floor/corsat,
 /area/prison/atmos)
+"asJ" = (
+/obj/item/frame/rack{
+	color = "#6b675e";
+	pixel_x = 13;
+	pixel_y = -1
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/corsat,
+/area/space)
 "asK" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/item/frame/rack{
@@ -9161,6 +9192,11 @@
 	},
 /turf/open/floor/corsat/marked,
 /area/prison/atmos)
+"asM" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/machinery/light_construct/small,
+/turf/open/floor/corsat,
+/area/space)
 "asN" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "NW-out";
@@ -9192,16 +9228,14 @@
 /turf/open/floor/corsat,
 /area/prison/atmos)
 "asQ" = (
-/obj/structure/prop{
-	desc = "You never know where they lead.";
-	icon_state = "ladder11";
-	name = "ladder"
-	},
 /obj/effect/decal/warning_stripes{
 	icon_state = "cargo";
 	pixel_x = 1
 	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/ladder{
+	id = "ship_scholar_garage"
+	},
 /turf/open/floor/corsat,
 /area/prison/atmos)
 "asR" = (
@@ -9353,6 +9387,10 @@
 	},
 /turf/open/floor/corsat,
 /area/prison/atmos)
+"ate" = (
+/obj/structure/machinery/light_construct/small,
+/turf/open/floor/corsat,
+/area/space)
 "atf" = (
 /obj/structure/machinery/door/airlock/strata/autoname{
 	dir = 1;
@@ -9510,6 +9548,13 @@
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/corsat,
 /area/prison/atmos)
+"atv" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/machinery/light_construct{
+	dir = 4
+	},
+/turf/open/floor/corsat,
+/area/space)
 "atw" = (
 /obj/item/frame/table/almayer{
 	color = "#8B9490";
@@ -10776,12 +10821,55 @@
 	},
 /turf/open/floor/corsat,
 /area/golden_arrow/motor_pool)
+"awA" = (
+/obj/item/frame/rack{
+	color = "#6b675e";
+	pixel_x = -14;
+	pixel_y = 16
+	},
+/turf/open/floor/corsat,
+/area/space)
+"awB" = (
+/obj/structure/platform/strata/metal{
+	dir = 1
+	},
+/turf/open/floor/corsat,
+/area/space)
+"awC" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/machinery/light_construct{
+	dir = 2
+	},
+/turf/open/floor/corsat,
+/area/space)
+"awD" = (
+/obj/structure/machinery/door/poddoor/almayer/locked{
+	name = "\improper Other Section";
+	desc = "You never know where they lead.";
+	dir = 4
+	},
+/turf/open/floor/corsat/marked,
+/area/space)
+"awE" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/machinery/light_construct{
+	dir = 8
+	},
+/turf/open/floor/corsat,
+/area/space)
 "awF" = (
 /obj/structure/barricade/handrail/strata,
 /obj/structure/prop/invuln/darkness,
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/prison/darkyellow2,
 /area/scavenger_ship/logistics_maint)
+"awG" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/machinery/light_construct{
+	dir = 1
+	},
+/turf/open/floor/corsat,
+/area/space)
 "axh" = (
 /obj/structure/closet/emcloset{
 	pixel_x = -7;
@@ -11213,7 +11301,7 @@
 	dir = 4;
 	pixel_x = 24
 	},
-/turf/open/floor/hybrisa/wood,
+/turf/open/floor/corsat,
 /area/scavenger_ship/service_library)
 "aQx" = (
 /obj/item/stool{
@@ -14126,7 +14214,7 @@
 /area/scavenger_ship/staging_prep)
 "dxN" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/hybrisa/wood/blackwood,
+/turf/open/floor/corsat,
 /area/scavenger_ship/service_library)
 "dxP" = (
 /obj/structure/bed/chair{
@@ -15007,13 +15095,7 @@
 /obj/structure/platform/strata/metal{
 	dir = 1
 	},
-/obj/structure/closet/coffin/woodencrate,
-/obj/structure/largecrate/random/mini/wooden{
-	layer = 3.2;
-	pixel_x = 4;
-	pixel_y = 6
-	},
-/turf/open/floor/hybrisa/wood/blackwood,
+/turf/open/floor/corsat,
 /area/scavenger_ship/service_library)
 "ell" = (
 /obj/structure/roof/cargocrane_tracks/horizontal,
@@ -18386,7 +18468,7 @@
 	pixel_x = -1;
 	pixel_y = 28
 	},
-/turf/open/floor/hybrisa/wood,
+/turf/open/floor/corsat,
 /area/scavenger_ship/service_library)
 "hxO" = (
 /obj/effect/decal/cleanable/ash{
@@ -18529,13 +18611,8 @@
 /area/supply/station)
 "hCS" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/obj/structure/bookcase{
-	icon_state = "book-5";
-	pixel_x = 2;
-	pixel_y = 0;
-	density = 0
-	},
-/turf/open/floor/hybrisa/wood/blackwood,
+/obj/structure/bookcase,
+/turf/open/floor/corsat,
 /area/scavenger_ship/service_library)
 "hDQ" = (
 /obj/effect/decal/cleanable/generic{
@@ -19219,7 +19296,7 @@
 	name = "General Listening Channel";
 	pixel_x = -28
 	},
-/turf/open/floor/hybrisa/wood,
+/turf/open/floor/corsat,
 /area/scavenger_ship/service_library)
 "ijR" = (
 /obj/structure/machinery/iv_drip{
@@ -19693,17 +19770,9 @@
 /obj/structure/platform/strata/metal{
 	dir = 1
 	},
-/obj/structure/bed/chair/wood/normal{
-	pixel_x = 10;
-	pixel_y = 3
-	},
-/obj/item/weapon/pole/wooden_cane{
-	pixel_x = 18;
-	pixel_y = -8
-	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/hybrisa/wood/blackwood,
+/turf/open/floor/corsat,
 /area/scavenger_ship/service_library)
 "iGC" = (
 /obj/structure/surface/rack{
@@ -20092,16 +20161,12 @@
 	pixel_x = 4;
 	pixel_y = -2
 	},
-/obj/item/reagent_container/food/drinks/bottle/holywater/bong{
-	pixel_x = 4;
-	pixel_y = 19
-	},
-/obj/item/reagent_container/food/drinks/cans/waterbottle/upp{
-	pixel_x = -4;
-	pixel_y = 10
-	},
 /obj/structure/surface/table/almayer{
 	color = "#EBD9B7"
+	},
+/obj/item/device/cotablet/no_access{
+	pixel_x = 4;
+	pixel_y = 16
 	},
 /turf/open/floor/prison/floor_plate/southwest,
 /area/scavenger_ship/staging_prep)
@@ -21104,7 +21169,7 @@
 "kgi" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/structure/machinery/power/apc/almayer/west,
-/turf/open/floor/hybrisa/wood/blackwood,
+/turf/open/floor/corsat,
 /area/scavenger_ship/service_library)
 "khY" = (
 /obj/structure/surface/table/almayer{
@@ -21329,7 +21394,11 @@
 	pixel_x = -1;
 	pixel_y = 28
 	},
-/turf/open/floor/hybrisa/wood,
+/obj/item/trash/cigbutt{
+	pixel_x = -13;
+	pixel_y = 3
+	},
+/turf/open/floor/corsat,
 /area/scavenger_ship/service_library)
 "krE" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
@@ -22278,7 +22347,7 @@
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/item/shard/shrapnel/upp/bits,
-/turf/open/floor/hybrisa/wood,
+/turf/open/floor/corsat,
 /area/scavenger_ship/service_library)
 "lhP" = (
 /obj/structure/machinery/door/airlock/almayer/secure/reinforced{
@@ -22315,18 +22384,6 @@
 	},
 /turf/open/floor/prison/floor_marked,
 /area/scavenger_ship/staging_requisition)
-"lkg" = (
-/obj/item/tool/carpenters_hammer{
-	pixel_x = 2;
-	pixel_y = 7
-	},
-/obj/item/stack/sheet/wood{
-	pixel_x = 1;
-	pixel_y = -5
-	},
-/obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/hybrisa/wood/blackwood,
-/area/scavenger_ship/service_library)
 "lkl" = (
 /obj/item/clothing/suit/bio_suit/wy_bio,
 /turf/open/floor/corsat,
@@ -27339,29 +27396,13 @@
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/scavenger_ship/logistics_hallway)
 "pZZ" = (
-/obj/structure/prop/hybrisa/furniture/tables/tablepool{
-	pixel_x = -17;
-	pixel_y = 0
-	},
 /obj/item/trash/cigbutt{
 	pixel_x = -13;
 	pixel_y = 3
 	},
-/obj/item/attachable/stock/carbine/wood{
-	pixel_x = 15;
-	pixel_y = 10
-	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/obj/structure/prop/hybrisa/supermart/souto_can_stack{
-	pixel_x = -9;
-	pixel_y = 15
-	},
-/obj/item/clothing/head/helmet/space/souto{
-	pixel_x = 5;
-	pixel_y = -2
-	},
-/turf/open/floor/hybrisa/wood,
+/turf/open/floor/corsat,
 /area/scavenger_ship/service_library)
 "qao" = (
 /obj/structure/machinery/door/airlock/prison_hatch{
@@ -31286,12 +31327,8 @@
 /area/scavenger_ship/staging_prep)
 "tXe" = (
 /obj/structure/barricade/handrail/strata,
-/obj/item/ashtray/bronze{
-	pixel_x = 7;
-	pixel_y = 14
-	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/hybrisa/wood,
+/turf/open/floor/corsat,
 /area/scavenger_ship/service_library)
 "tXA" = (
 /obj/structure/roof/cargocrane_tracks/tjoint3,
@@ -31810,7 +31847,7 @@
 /obj/effect/decal/cleanable/hybrisa/trash{
 	icon_state = "trash_10"
 	},
-/turf/open/floor/hybrisa/wood/blackwood,
+/turf/open/floor/corsat,
 /area/scavenger_ship/service_library)
 "uCu" = (
 /obj/structure/machinery/space_heater,
@@ -33406,7 +33443,7 @@
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/hybrisa/wood/blackwood,
+/turf/open/floor/corsat,
 /area/scavenger_ship/service_library)
 "whH" = (
 /obj/effect/decal/siding,
@@ -34888,8 +34925,8 @@
 	desc = "A copy of Playboy magazine. On the cover is photo of guitarist Sadie Summers, with the headline 'Sadie Summers tells ALL'. The article itself focuses on Sadie's many carnal exploits while on tour as well as her very public brawl at an LA nightclub that occured two years prior to the date of this issue. Flipping through the magazine you see article titles such as 'Jungle Mercenary: Life as an Ex-UPP commando', 'The whys and hows of choosing synthetic girls'.";
 	icon_state = "poster3";
 	name = "Playboy Magazine: Issue March 2182";
-	pixel_x = -4;
-	pixel_y = 7
+	pixel_x = -7;
+	pixel_y = 8
 	},
 /obj/item/reagent_container/food/drinks/cans/pepsi{
 	pixel_x = 7;
@@ -35193,7 +35230,7 @@
 	pixel_x = -9;
 	pixel_y = 4
 	},
-/turf/open/floor/hybrisa/wood,
+/turf/open/floor/corsat,
 /area/scavenger_ship/service_library)
 "xSf" = (
 /obj/structure/machinery/gear{
@@ -42199,15 +42236,15 @@ rhS
 rhS
 agl
 agl
-rhS
-rhS
-rhS
+iaP
+awE
+iaP
 agl
 agl
 agl
-aho
-aho
-aho
+iaP
+iaP
+iaP
 agl
 qWQ
 aaJ
@@ -42370,21 +42407,21 @@ rhS
 rhS
 rhS
 agl
-rhS
-rhS
-rhS
-rhS
-rhS
+aho
+aho
+iaP
+iaP
+iaP
 agl
 aho
-aho
-aho
+iaP
+asM
 agl
 agl
 aaJ
 aaJ
 aaJ
-abp
+apF
 abd
 abd
 abd
@@ -42542,16 +42579,16 @@ rhS
 rhS
 rhS
 agl
-rhS
 aho
 aho
 aho
-rhS
+iaP
+iaP
 apl
 aho
 aho
-aho
-aho
+iaP
+iaP
 apb
 aaJ
 asO
@@ -42560,7 +42597,7 @@ abp
 abp
 abp
 abd
-abd
+aiz
 aaJ
 ahi
 ahi
@@ -42714,21 +42751,21 @@ rhS
 rhS
 rhS
 agl
-rhS
+iaP
+iaP
 aho
 aho
 aho
-rhS
 agl
 aho
 aho
-aho
+ate
 agl
 agl
 aaJ
 aaJ
 aaJ
-abd
+asC
 abd
 abp
 abp
@@ -42886,11 +42923,11 @@ rhS
 rhS
 rhS
 agl
-rhS
+awG
+iaP
 aho
-aho
-aho
-rhS
+iaP
+awC
 agl
 agl
 aho
@@ -43058,12 +43095,12 @@ rhS
 rhS
 rhS
 agl
-rhS
+iaP
 aho
-aho
-aho
-rhS
-rhS
+iaP
+iaP
+iaP
+awB
 agl
 agl
 apl
@@ -43230,16 +43267,16 @@ rhS
 rhS
 rhS
 agl
-rhS
 aho
 aho
+iaP
+iaP
 aho
-rhS
-rhS
+awB
 agl
 aho
-aho
-aho
+iaP
+iaP
 agl
 qWQ
 ahi
@@ -43402,16 +43439,16 @@ rhS
 rhS
 rhS
 agl
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
+aho
+aho
+aho
+aho
+aho
+awB
 agl
-aho
-aho
-aho
+awA
+iaP
+asJ
 agl
 qWQ
 ahi
@@ -43575,14 +43612,14 @@ rhS
 rhS
 agl
 agl
+awD
+awD
+awD
 agl
 agl
 agl
-agl
-agl
-agl
-aho
-aho
+iaP
+atv
 aho
 agl
 qWQ
@@ -51476,7 +51513,7 @@ hxy
 aQs
 xQN
 ekR
-lkg
+dxN
 hCS
 him
 eAK
