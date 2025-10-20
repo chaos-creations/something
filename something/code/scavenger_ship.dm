@@ -175,16 +175,12 @@
 	name = "\improper Residential"
 	icon_state = "dark"
 
-/area/scavenger_ship/living_scholar
-	name = "\improper Scholar Shop"
+/area/scavenger_ship/living_shop
+	name = "\improper Abandoned Shop"
 	icon_state = "ab_shared"
 
-/area/scavenger_ship/living_scholar_room
-	name = "\improper Scholar Room"
-	icon_state = "alpha"
-
-/area/scavenger_ship/living_scholar_room
-	name = "\improper Scholar Room"
+/area/scavenger_ship/living_shop_room
+	name = "\improper Abandoned Room"
 	icon_state = "alpha"
 
 /area/scavenger_ship/elevator

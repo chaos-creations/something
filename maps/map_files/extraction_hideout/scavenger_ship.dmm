@@ -123,12 +123,20 @@
 /turf/open/floor/almayer_hull/outerhull_dir/southeast,
 /area/space)
 "aao" = (
+/obj/effect/projector{
+	vector_x = 21;
+	vector_y = -6
+	},
 /turf/open/floor/almayer_hull/corner/southwest,
 /area/space)
 "aap" = (
 /turf/open/floor/almayer_hull,
 /area/space)
 "aaq" = (
+/obj/effect/projector{
+	vector_x = 21;
+	vector_y = -6
+	},
 /turf/open/floor/almayer_hull/corner/southeast,
 /area/space)
 "aar" = (
@@ -178,7 +186,7 @@
 	dir = 2
 	},
 /turf/open/floor/corsat,
-/area/scavenger_ship/living_scholar)
+/area/prison/atmos)
 "aay" = (
 /turf/open/floor/almayer_hull/outerhull_dir/east,
 /area/space)
@@ -238,17 +246,17 @@
 /area/space)
 "aaI" = (
 /turf/closed/wall/strata_outpost/reinforced/hull,
-/area/scavenger_ship/living_scholar)
+/area/prison/atmos)
 "aaJ" = (
 /turf/closed/wall/strata_outpost/reinforced/hull,
-/area/scavenger_ship/living_scholar_room)
+/area/prison/office2)
 "aaK" = (
 /obj/structure/window/framed/strata/hull,
 /obj/structure/machinery/door/firedoor/border_only/almayer{
 	dir = 2
 	},
 /turf/open/floor/corsat,
-/area/scavenger_ship/living_scholar_room)
+/area/prison/office2)
 "aaL" = (
 /obj/structure/coatrack,
 /turf/open/floor/corsat,
@@ -328,7 +336,7 @@
 /obj/structure/window/framed/strata/hull,
 /obj/structure/machinery/door/firedoor/border_only/almayer,
 /turf/open/floor/corsat,
-/area/scavenger_ship/living_scholar)
+/area/prison/atmos)
 "aaZ" = (
 /turf/open/floor/hybrisa/engineership/engineer_floor13/southwest,
 /area/scavenger_ship/hangar_maint)
@@ -357,7 +365,7 @@
 "abd" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/corsat,
-/area/scavenger_ship/living_scholar_room)
+/area/prison/office2)
 "abe" = (
 /obj/item/fuel_cell/used{
 	pixel_x = 10;
@@ -422,10 +430,10 @@
 /obj/structure/window/framed/strata/hull,
 /obj/structure/machinery/door/firedoor/border_only/almayer,
 /turf/open/floor/corsat,
-/area/scavenger_ship/living_scholar_room)
+/area/prison/office2)
 "abp" = (
 /turf/open/floor/corsat,
-/area/scavenger_ship/living_scholar_room)
+/area/prison/office2)
 "abq" = (
 /obj/structure/cargo_container/kelland/left,
 /obj/structure/machinery/light/small{
@@ -1107,7 +1115,7 @@
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/structure/machinery/power/apc/almayer/north,
 /turf/open/floor/corsat,
-/area/scavenger_ship/living_scholar_room)
+/area/prison/office2)
 "acF" = (
 /obj/structure/foamed_metal/iron,
 /obj/effect/hybrisa/misc/fake/pipes/pipe1{
@@ -1983,7 +1991,7 @@
 /area/scavenger_ship/hangar_synth)
 "aez" = (
 /turf/closed/wall/strata_outpost/reinforced,
-/area/scavenger_ship/living_scholar)
+/area/prison/atmos)
 "aeA" = (
 /obj/structure/surface/table/almayer{
 	color = "#EBD9B7"
@@ -3960,8 +3968,8 @@
 /obj/structure/ladder{
 	id = "ship_scholar_room"
 	},
-/turf/open/floor/prison/sterile_white,
-/area/scavenger_ship/living_scholar)
+/turf/open/floor/corsat,
+/area/prison/atmos)
 "ahX" = (
 /obj/structure/cargo_container/hybrisa/containersextended/redright{
 	opacity = 0
@@ -4319,10 +4327,6 @@
 	},
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/staging_workshop)
-"aiz" = (
-/obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/prison/whitegreen/north,
-/area/scavenger_ship/living_scholar)
 "aiA" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "SE-out";
@@ -7598,9 +7602,14 @@
 /obj/structure/machinery/door/firedoor/border_only/almayer{
 	dir = 2
 	},
-/obj/structure/window/framed/strata/hull,
+/obj/structure/window_frame/strata/reinforced,
+/obj/item/shard{
+	icon_state = "large";
+	pixel_y = 15;
+	pixel_x = 1
+	},
 /turf/open/floor/corsat,
-/area/scavenger_ship/living_scholar)
+/area/prison/atmos)
 "apq" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/item/tool/dumbbell/alt{
@@ -7725,7 +7734,7 @@
 	locked = 1
 	},
 /turf/open/floor/corsat/marked,
-/area/scavenger_ship/living_scholar)
+/area/prison/atmos)
 "apD" = (
 /obj/structure/machinery/door/firedoor/border_only/almayer{
 	dir = 2
@@ -7738,12 +7747,6 @@
 /obj/structure/machinery/door/firedoor/border_only/almayer,
 /turf/open/floor/almayer/test_floor4,
 /area/space)
-"apF" = (
-/obj/structure/surface/table/almayer{
-	color = "#8B9490"
-	},
-/turf/open/floor/prison/sterile_white,
-/area/scavenger_ship/living_scholar)
 "apG" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "door_warning";
@@ -7810,6 +7813,13 @@
 "apQ" = (
 /obj/structure/platform_decoration/metal/hybrisa/metalplatformdeco6/east,
 /turf/open/space/basic,
+/area/space)
+"apR" = (
+/obj/effect/projector{
+	vector_x = 21;
+	vector_y = -6
+	},
+/turf/open/floor/almayer_hull/outerhull_dir/southwest,
 /area/space)
 "apS" = (
 /obj/item/prop/colony/usedbandage{
@@ -7881,6 +7891,13 @@
 	},
 /turf/open/space/basic,
 /area/space)
+"aqb" = (
+/obj/effect/projector{
+	vector_x = 21;
+	vector_y = -6
+	},
+/turf/open/floor/almayer_hull/outerhull_dir,
+/area/space)
 "aqc" = (
 /obj/structure/bed/chair/dropship/pilot{
 	dir = 1;
@@ -7892,6 +7909,20 @@
 	},
 /turf/open/floor/almayer/plating/northeast,
 /area/space)
+"aqd" = (
+/obj/effect/projector{
+	vector_x = 21;
+	vector_y = -6
+	},
+/turf/open/floor/almayer_hull/outerhull_dir/southeast,
+/area/space)
+"aqe" = (
+/obj/effect/projector{
+	vector_x = 21;
+	vector_y = -6
+	},
+/turf/open/floor/almayer_hull,
+/area/space)
 "aqf" = (
 /obj/structure/platform/metal/hybrisa/metalplatform6/east,
 /turf/open/space/basic,
@@ -7899,6 +7930,13 @@
 "aqg" = (
 /obj/structure/platform/metal/hybrisa/metalplatform6/west,
 /turf/open/space/basic,
+/area/space)
+"aqh" = (
+/obj/effect/projector{
+	vector_x = 21;
+	vector_y = -6
+	},
+/turf/open/floor/almayer_hull/outerhull_dir/west,
 /area/space)
 "aqi" = (
 /obj/structure/machinery/door/airlock/external/colony,
@@ -8198,6 +8236,13 @@
 	},
 /turf/open/floor/prison/darkbrown2/west,
 /area/scavenger_ship/service_hallway)
+"aqW" = (
+/obj/effect/projector{
+	vector_x = 21;
+	vector_y = -6
+	},
+/turf/open/floor/almayer_hull/outerhull_dir/east,
+/area/space)
 "aqX" = (
 /obj/structure/window/framed/strata/hull,
 /turf/open/floor/corsat,
@@ -8938,77 +8983,45 @@
 /turf/open/space/basic,
 /area/space)
 "asq" = (
-/obj/structure/surface/table/almayer{
-	color = "#8B9490"
-	},
-/obj/item/reagent_container/hypospray/autoinjector/dylovene/skillless{
-	pixel_y = 10
-	},
-/obj/item/reagent_container/hypospray/autoinjector/dylovene/skillless{
-	pixel_y = 10
-	},
-/obj/item/reagent_container/hypospray/autoinjector/emergency{
-	pixel_y = 3
-	},
-/obj/item/reagent_container/hypospray/autoinjector/tricord/skillless{
-	pixel_y = -4
-	},
-/obj/item/reagent_container/hypospray/autoinjector/tricord/skillless{
-	pixel_y = -4
-	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/prison/whitegreenfull,
-/area/scavenger_ship/living_scholar)
+/obj/item/frame/table/almayer{
+	color = "#8B9490";
+	pixel_x = 12;
+	pixel_y = 24
+	},
+/obj/effect/decal/cleanable/liquid_fuel{
+	name = "water";
+	desc = "blue think, water you know.";
+	color = "#40a1b6"
+	},
+/turf/open/floor/corsat,
+/area/prison/atmos)
 "asr" = (
-/obj/structure/surface/table/almayer{
-	color = "#8B9490"
-	},
-/obj/structure/machinery/light/double{
-	dir = 2;
-	light_color = "#e7c0a4";
-	light_power = 0.8;
-	light_range = 5
-	},
-/obj/item/explosive/grenade/phosphorus/upp{
-	pixel_x = -10;
-	pixel_y = 3
-	},
-/obj/item/explosive/grenade/phosphorus/upp{
-	pixel_x = 9;
-	pixel_y = 2
-	},
-/obj/item/explosive/grenade/phosphorus/upp{
-	pixel_x = 0;
-	pixel_y = 6
-	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/prison/whitegreenfull,
-/area/scavenger_ship/living_scholar)
+/obj/structure/machinery/light_construct{
+	dir = 2
+	},
+/obj/effect/decal/cleanable/liquid_fuel{
+	name = "water";
+	desc = "blue think, water you know.";
+	color = "#40a1b6"
+	},
+/turf/open/floor/corsat,
+/area/prison/atmos)
 "ass" = (
-/obj/structure/surface/table/almayer{
-	color = "#8B9490"
-	},
-/obj/item/reagent_container/hypospray/autoinjector/inaprovaline{
-	pixel_y = -4
-	},
-/obj/item/reagent_container/hypospray/autoinjector/inaprovaline{
-	pixel_y = -4
-	},
-/obj/item/reagent_container/hypospray/autoinjector/dexalinp{
-	pixel_y = 2
-	},
-/obj/item/reagent_container/hypospray/autoinjector/dexalinp{
-	pixel_y = 2
-	},
-/obj/item/reagent_container/hypospray/autoinjector/adrenaline{
-	pixel_y = 8
-	},
-/obj/item/reagent_container/hypospray/autoinjector/adrenaline{
-	pixel_y = 8
-	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/prison/whitegreenfull,
-/area/scavenger_ship/living_scholar)
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_8";
+	pixel_y = 11;
+	pixel_x = -16
+	},
+/obj/effect/decal/cleanable/liquid_fuel{
+	name = "water";
+	desc = "blue think, water you know.";
+	color = "#40a1b6"
+	},
+/turf/open/floor/corsat,
+/area/prison/atmos)
 "ast" = (
 /obj/structure/machinery/door_control/brbutton/alt{
 	id = "scholar_lockdown";
@@ -9017,111 +9030,75 @@
 /turf/open/space/basic,
 /area/space)
 "asu" = (
-/obj/structure/surface/rack{
-	color = "#6b675e";
-	layer = 2.79
-	},
-/obj/item/storage/pill_bottle/alkysine/skillless{
-	pixel_x = -3;
-	pixel_y = 14
-	},
-/obj/item/storage/pill_bottle/alkysine/skillless{
-	pixel_x = -3;
-	pixel_y = 14
-	},
-/obj/item/storage/pill_bottle/imidazoline/skillless{
-	pixel_x = 5;
-	pixel_y = 14
-	},
-/obj/item/storage/pill_bottle/imidazoline/skillless{
-	pixel_x = 5;
-	pixel_y = 14
-	},
-/obj/item/storage/pill_bottle/peridaxon/skillless{
-	pixel_y = 6
-	},
-/obj/item/storage/pill_bottle/peridaxon/skillless{
-	pixel_y = 6
-	},
-/obj/item/reagent_container/hypospray/autoinjector/oxycodone{
-	pixel_x = 1;
-	pixel_y = -7
-	},
-/obj/item/reagent_container/hypospray/autoinjector/oxycodone{
-	pixel_x = 1;
-	pixel_y = -7
-	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/prison/whitegreenfull,
-/area/scavenger_ship/living_scholar)
+/turf/open/floor/corsat,
+/area/prison/atmos)
 "asv" = (
-/turf/open/floor/prison/whitegreen,
-/area/scavenger_ship/living_scholar)
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_9";
+	pixel_x = -17;
+	pixel_y = 12
+	},
+/turf/open/floor/corsat,
+/area/prison/atmos)
 "asw" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/effect/decal/cleanable/molten_item,
-/turf/open/floor/prison/whitegreen,
-/area/scavenger_ship/living_scholar)
+/obj/effect/decal/cleanable/liquid_fuel{
+	name = "water";
+	desc = "blue think, water you know.";
+	color = "#40a1b6"
+	},
+/turf/open/floor/corsat,
+/area/prison/atmos)
 "asx" = (
-/obj/structure/surface/rack{
-	color = "#6b675e";
-	layer = 2.79
-	},
-/obj/item/reagent_container/hypospray/autoinjector/ultrazine{
-	pixel_x = 6;
-	pixel_y = 6
-	},
-/obj/item/reagent_container/hypospray/autoinjector/adrenaline_concentrated{
-	pixel_y = -7
-	},
-/obj/item/coin/vehicletoken/apc/med{
-	pixel_x = -4;
-	pixel_y = 13
-	},
-/obj/item/coin/vehicletoken/uppvan/medical{
-	pixel_x = -4;
-	pixel_y = 4
-	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/prison/whitegreenfull,
-/area/scavenger_ship/living_scholar)
+/obj/effect/decal/cleanable/liquid_fuel{
+	name = "water";
+	desc = "blue think, water you know.";
+	color = "#40a1b6"
+	},
+/turf/open/floor/corsat,
+/area/prison/atmos)
 "asy" = (
 /obj/structure/platform/metal/almayer/north,
-/turf/open/floor/prison/sterile_white,
-/area/scavenger_ship/living_scholar)
+/obj/structure/prop/invuln/overhead_pipe{
+	dir = 4;
+	pixel_y = 13
+	},
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 16
+	},
+/turf/open/floor/corsat,
+/area/prison/atmos)
 "asz" = (
 /obj/structure/stairs/perspective,
-/turf/open/floor/corsat/marked,
-/area/scavenger_ship/living_scholar)
-"asA" = (
-/obj/structure/barricade/handrail/medical,
-/obj/effect/decal/cleanable/hybrisa/dirt,
-/obj/structure/machinery/light/small{
-	dir = 8;
-	light_color = "#e7c0a4";
-	light_power = 0.8;
-	light_range = 3;
-	invisibility = 100
+/obj/structure/prop/invuln/overhead_pipe{
+	dir = 4;
+	pixel_y = 13
 	},
-/obj/structure/blocker/invisible_wall/directional,
-/turf/open/floor/prison/whitegreen/southwest,
-/area/scavenger_ship/living_scholar)
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 16
+	},
+/turf/open/floor/corsat/marked,
+/area/prison/atmos)
+"asA" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/machinery/light_construct/small{
+	dir = 8
+	},
+/turf/open/floor/corsat,
+/area/prison/atmos)
 "asB" = (
 /obj/structure/barricade/handrail/medical,
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/obj/structure/blocker/invisible_wall/directional,
-/turf/open/floor/prison/whitegreen,
-/area/scavenger_ship/living_scholar)
-"asC" = (
-/obj/effect/decal/cleanable/hybrisa/dirt,
-/obj/structure/blocker/invisible_wall,
-/turf/open/floor/prison/whitegreen,
-/area/scavenger_ship/living_scholar)
+/turf/open/floor/corsat,
+/area/prison/atmos)
 "asD" = (
-/obj/structure/barricade/handrail/medical,
-/obj/structure/blocker/invisible_wall/directional,
-/turf/open/floor/prison/whitegreen,
-/area/scavenger_ship/living_scholar)
+/turf/open/floor/corsat,
+/area/prison/atmos)
 "asE" = (
 /obj/structure/barricade/handrail/medical,
 /obj/structure/machinery/light/small{
@@ -9131,108 +9108,46 @@
 	light_range = 3;
 	invisibility = 100
 	},
-/obj/structure/blocker/invisible_wall/directional,
-/turf/open/floor/prison/whitegreen/southeast,
-/area/scavenger_ship/living_scholar)
+/turf/open/floor/corsat,
+/area/prison/atmos)
 "asF" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/prison/whitegreen/northwest,
-/area/scavenger_ship/living_scholar)
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_16";
+	pixel_y = -16;
+	pixel_x = 12
+	},
+/turf/open/floor/corsat,
+/area/prison/atmos)
 "asG" = (
-/obj/structure/surface/rack{
-	color = "#6b675e";
-	layer = 2.79;
-	pixel_y = 25;
-	density = 0
-	},
-/obj/item/storage/pouch/medkit{
-	pixel_x = -1;
-	pixel_y = 41
-	},
-/obj/item/storage/pouch/medkit{
-	pixel_x = -1;
-	pixel_y = 25
-	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/effect/decal/cleanable/generic,
-/turf/open/floor/prison/whitegreen/north,
-/area/scavenger_ship/living_scholar)
+/turf/open/floor/corsat,
+/area/prison/atmos)
 "asH" = (
-/turf/open/floor/prison/whitegreen/north,
-/area/scavenger_ship/living_scholar)
+/obj/item/reagent_container/pill/stox{
+	pixel_x = 15;
+	pixel_y = -7;
+	name = "funny floor pill";
+	icon_state = "pill"
+	},
+/turf/open/floor/corsat,
+/area/prison/atmos)
 "asI" = (
-/obj/item/storage/belt/medical/lifesaver{
-	pixel_x = 1;
-	pixel_y = 28
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_9";
+	pixel_x = 7;
+	pixel_y = 12
 	},
-/obj/structure/surface/rack{
-	color = "#6b675e";
-	layer = 2.79;
-	pixel_y = 25;
-	density = 0
-	},
-/obj/item/storage/belt/medical/lifesaver{
-	pixel_x = 1;
-	pixel_y = 37
-	},
-/turf/open/floor/prison/whitegreen/north,
-/area/scavenger_ship/living_scholar)
-"asJ" = (
-/obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/prison/whitegreen/northeast,
-/area/scavenger_ship/living_scholar)
+/turf/open/floor/corsat,
+/area/prison/atmos)
 "asK" = (
-/obj/structure/surface/rack{
-	color = "#6b675e";
-	layer = 2.79
-	},
-/obj/item/storage/pill_bottle/antitox/skillless{
-	pixel_x = -3;
-	pixel_y = 14
-	},
-/obj/item/storage/pill_bottle/antitox/skillless{
-	pixel_x = -3;
-	pixel_y = 14
-	},
-/obj/item/storage/pill_bottle/dexalin/skillless{
-	pixel_x = -3;
-	pixel_y = 6
-	},
-/obj/item/storage/pill_bottle/dexalin/skillless{
-	pixel_x = -3;
-	pixel_y = 6
-	},
-/obj/item/storage/pill_bottle/tricord{
-	pixel_x = 5;
-	pixel_y = 14;
-	skilllock = 0
-	},
-/obj/item/storage/pill_bottle/tricord{
-	pixel_x = 5;
-	pixel_y = 14;
-	skilllock = 0
-	},
-/obj/item/storage/pill_bottle/dexalinplus{
-	pixel_x = 5;
-	pixel_y = 6;
-	skilllock = 0
-	},
-/obj/item/storage/pill_bottle/dexalinplus{
-	pixel_x = 5;
-	pixel_y = 6;
-	skilllock = 0
-	},
-/obj/item/storage/pill_bottle/inaprovaline/skillless{
-	pixel_x = -3;
-	pixel_y = -2
-	},
-/obj/item/storage/pill_bottle/inaprovaline/skillless{
-	pixel_x = -3;
-	pixel_y = -2
-	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/prison/whitegreenfull,
-/area/scavenger_ship/living_scholar)
+/obj/item/frame/rack{
+	color = "#6b675e"
+	},
+/turf/open/floor/corsat,
+/area/prison/atmos)
 "asL" = (
 /obj/structure/machinery/door/firedoor/border_only/almayer{
 	dir = 2
@@ -9245,35 +9160,7 @@
 	name = "\improper Scholar Tier 2 & 3"
 	},
 /turf/open/floor/corsat/marked,
-/area/scavenger_ship/living_scholar)
-"asM" = (
-/obj/structure/surface/rack{
-	color = "#6b675e";
-	layer = 2.79
-	},
-/obj/item/clothing/mask/gas/military,
-/obj/item/clothing/mask/gas/military{
-	pixel_x = -4;
-	pixel_y = 0
-	},
-/obj/item/device/helmet_visor/medical{
-	pixel_y = 15
-	},
-/obj/item/explosive/grenade/nerve_gas{
-	pixel_x = 6;
-	pixel_y = 0
-	},
-/obj/item/explosive/grenade/nerve_gas{
-	pixel_x = 6;
-	pixel_y = 0
-	},
-/obj/item/explosive/grenade/nerve_gas{
-	pixel_x = 6;
-	pixel_y = 0
-	},
-/obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/prison/whitegreenfull,
-/area/scavenger_ship/living_scholar)
+/area/prison/atmos)
 "asN" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "NW-out";
@@ -9286,15 +9173,24 @@
 	pixel_x = 1
 	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/prison/whitegreen,
-/area/scavenger_ship/living_scholar)
+/obj/effect/decal/cleanable/mucus,
+/turf/open/floor/corsat,
+/area/prison/atmos)
 "asO" = (
 /obj/structure/ladder{
 	id = "ship_scholar_room";
 	height = 1
 	},
 /turf/open/floor/corsat/marked,
-/area/scavenger_ship/living_scholar_room)
+/area/prison/office2)
+"asP" = (
+/obj/effect/decal/cleanable/liquid_fuel{
+	name = "water";
+	desc = "blue think, water you know.";
+	color = "#40a1b6"
+	},
+/turf/open/floor/corsat,
+/area/prison/atmos)
 "asQ" = (
 /obj/structure/prop{
 	desc = "You never know where they lead.";
@@ -9306,8 +9202,8 @@
 	pixel_x = 1
 	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/prison/sterile_white,
-/area/scavenger_ship/living_scholar)
+/turf/open/floor/corsat,
+/area/prison/atmos)
 "asR" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "W";
@@ -9321,16 +9217,26 @@
 	pixel_x = 1
 	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/prison/sterile_white,
-/area/scavenger_ship/living_scholar)
+/obj/item/frame/bucket_sensor{
+	pixel_x = -7;
+	pixel_y = 10
+	},
+/turf/open/floor/corsat,
+/area/prison/atmos)
 "asS" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/prison/whitegreen,
-/area/scavenger_ship/living_scholar)
+/obj/item/weapon/broken_glass,
+/turf/open/floor/corsat,
+/area/prison/atmos)
 "asT" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/prison/whitegreen/southeast,
-/area/scavenger_ship/living_scholar)
+/obj/item/shard{
+	icon_state = "large";
+	pixel_y = 14;
+	pixel_x = -1
+	},
+/turf/open/floor/corsat,
+/area/prison/atmos)
 "asU" = (
 /obj/structure/machinery/door/firedoor/border_only/almayer,
 /obj/effect/decal/warning_stripes{
@@ -9340,7 +9246,7 @@
 	},
 /obj/structure/machinery/door/airlock/almayer/marine/autoname,
 /turf/open/floor/corsat/marked,
-/area/scavenger_ship/living_scholar)
+/area/prison/atmos)
 "asV" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S";
@@ -9348,8 +9254,8 @@
 	pixel_x = -1
 	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/prison/whitegreen/north,
-/area/scavenger_ship/living_scholar)
+/turf/open/floor/corsat,
+/area/prison/atmos)
 "asW" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "SW-out";
@@ -9362,8 +9268,8 @@
 	pixel_y = 0
 	},
 /obj/effect/decal/cleanable/flour,
-/turf/open/floor/prison/whitegreen/north,
-/area/scavenger_ship/living_scholar)
+/turf/open/floor/corsat,
+/area/prison/atmos)
 "asX" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S";
@@ -9375,8 +9281,8 @@
 	id = "scholar_lockdown_enter";
 	name = "\improper Entrance Lockdown"
 	},
-/turf/open/floor/prison/whitegreen/north,
-/area/scavenger_ship/living_scholar)
+/turf/open/floor/corsat,
+/area/prison/atmos)
 "asY" = (
 /obj/structure/machinery/door/firedoor/border_only/almayer,
 /obj/effect/decal/warning_stripes{
@@ -9386,7 +9292,7 @@
 	},
 /obj/structure/machinery/door/airlock/almayer/marine/autoname,
 /turf/open/floor/corsat/marked,
-/area/scavenger_ship/living_scholar)
+/area/prison/atmos)
 "asZ" = (
 /obj/item/storage/secure/briefcase{
 	pixel_x = -14;
@@ -9396,35 +9302,57 @@
 /area/scavenger_ship/ssv_asclepius)
 "ata" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/prison/whitegreen/southwest,
-/area/scavenger_ship/living_scholar)
-"atc" = (
-/obj/structure/surface/table/almayer{
-	color = "#8B9490"
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_16";
+	pixel_y = 6;
+	pixel_x = 4
 	},
-/obj/item/storage/surgical_case/regular{
-	pixel_x = 0;
+/turf/open/floor/corsat,
+/area/prison/atmos)
+"atb" = (
+/obj/structure/platform/metal/almayer/north,
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 16
+	},
+/obj/item/pipe{
+	dir = 4;
+	pixel_x = 9;
+	pixel_y = -13
+	},
+/obj/structure/prop/invuln/pipe_water{
+	pixel_x = -13;
 	pixel_y = 1
 	},
-/obj/item/weapon/gun/energy/rxfm5_eva{
-	pixel_x = -1;
-	pixel_y = 14
+/obj/structure/prop/invuln/pipe_water{
+	pixel_x = 15;
+	pixel_y = 2
 	},
+/obj/effect/decal/cleanable/liquid_fuel{
+	name = "water";
+	desc = "blue think, water you know.";
+	color = "#40a1b6"
+	},
+/turf/open/floor/corsat,
+/area/prison/atmos)
+"atc" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/prison/whitegreen/west,
-/area/scavenger_ship/living_scholar)
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_2";
+	pixel_y = 6;
+	pixel_x = 15
+	},
+/turf/open/floor/corsat,
+/area/prison/atmos)
 "atd" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/prison/sterile_white,
-/area/scavenger_ship/living_scholar)
-"ate" = (
-/obj/structure/surface/rack{
+/obj/item/frame/rack{
 	color = "#6b675e";
-	layer = 2.79
+	pixel_x = 13;
+	pixel_y = -1
 	},
-/obj/item/clothing/accessory/storage/surg_vest,
-/turf/open/floor/prison/whitegreen/east,
-/area/scavenger_ship/living_scholar)
+/turf/open/floor/corsat,
+/area/prison/atmos)
 "atf" = (
 /obj/structure/machinery/door/airlock/strata/autoname{
 	dir = 1;
@@ -9440,61 +9368,38 @@
 	dir = 1
 	},
 /turf/open/floor/corsat/marked,
-/area/scavenger_ship/living_scholar)
+/area/prison/atmos)
 "atg" = (
-/obj/structure/machinery/photocopier,
-/obj/item/clipboard{
-	pixel_x = -2;
-	pixel_y = 10
-	},
-/turf/open/floor/prison/whitegreen/west,
-/area/scavenger_ship/living_scholar)
+/obj/item/frame/camera,
+/turf/open/floor/corsat,
+/area/prison/atmos)
 "ath" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/effect/decal/cleanable/blackgoo,
-/turf/open/floor/prison/sterile_white,
-/area/scavenger_ship/living_scholar)
+/turf/open/floor/corsat,
+/area/prison/atmos)
 "ati" = (
-/obj/structure/surface/rack{
-	color = "#6b675e";
-	layer = 2.79
-	},
-/obj/item/storage/backpack/marine/medic/upp{
-	pixel_x = -1;
-	pixel_y = 2
-	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/prison/whitegreen/east,
-/area/scavenger_ship/living_scholar)
-"atj" = (
-/obj/structure/surface/table/almayer{
-	color = "#8B9490"
+/obj/item/reagent_container/pill/stox{
+	pixel_x = -10;
+	pixel_y = -1;
+	name = "funny floor pill";
+	icon_state = "pill"
 	},
-/obj/item/clothing/glasses/hud/sensor{
-	pixel_x = -6;
+/turf/open/floor/corsat,
+/area/prison/atmos)
+"atj" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/machinery/light_construct{
+	dir = 8
+	},
+/obj/item/shard{
+	icon_state = "large";
+	pixel_x = 7;
 	pixel_y = 8
 	},
-/obj/item/storage/belt/medical/upp{
-	pixel_x = 0;
-	pixel_y = -1
-	},
-/obj/item/clothing/glasses/hud/sensor{
-	pixel_x = -6;
-	pixel_y = 3
-	},
-/obj/item/coin/vehicletoken/boxvan/ambulance{
-	pixel_x = 8;
-	pixel_y = 7
-	},
-/obj/structure/machinery/light/double{
-	dir = 8;
-	light_color = "#e7c0a4";
-	light_power = 0.8;
-	light_range = 5
-	},
-/obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/prison/whitegreen/west,
-/area/scavenger_ship/living_scholar)
+/turf/open/floor/corsat,
+/area/prison/atmos)
 "atk" = (
 /obj/structure/pipes/standard/simple/visible{
 	dir = 4
@@ -9503,32 +9408,47 @@
 /area/scavenger_ship/logistics_engo)
 "atl" = (
 /obj/effect/decal/cleanable/generic,
-/turf/open/floor/prison/sterile_white,
-/area/scavenger_ship/living_scholar)
+/turf/open/floor/corsat,
+/area/prison/atmos)
 "atm" = (
-/obj/structure/surface/rack{
-	color = "#6b675e";
-	layer = 2.79
+/obj/item/shard{
+	icon_state = "large";
+	pixel_y = -12;
+	pixel_x = 3
 	},
-/obj/item/stack/medical/splint,
-/obj/item/stack/medical/splint,
-/obj/item/stack/medical/splint,
-/turf/open/floor/prison/whitegreen/east,
-/area/scavenger_ship/living_scholar)
+/turf/open/floor/corsat,
+/area/prison/atmos)
 "atn" = (
 /obj/structure/foamed_metal/iron,
 /turf/open/floor/corsat,
 /area/scavenger_ship/staging_requisition)
 "ato" = (
 /obj/structure/machinery/door/firedoor/border_only/almayer,
-/obj/structure/window/framed/strata/hull,
+/obj/structure/window_frame/strata/reinforced,
 /obj/structure/machinery/door/poddoor/almayer/open{
 	name = "\improper Scholar Lockdown";
 	id = "scholar_lockdown";
 	dir = 4
 	},
+/turf/open/floor/corsat/marked,
+/area/prison/atmos)
+"atp" = (
+/obj/structure/platform/metal/almayer/north,
+/obj/structure/prop/invuln/overhead_pipe{
+	dir = 4;
+	pixel_y = 13
+	},
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 16
+	},
+/obj/effect/decal/cleanable/liquid_fuel{
+	name = "water";
+	desc = "blue think, water you know.";
+	color = "#40a1b6"
+	},
 /turf/open/floor/corsat,
-/area/scavenger_ship/living_scholar)
+/area/prison/atmos)
 "atq" = (
 /obj/effect/decal/medical_decals{
 	icon_state = "cryotop";
@@ -9542,15 +9462,21 @@
 	invisibility = 100
 	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/prison/whitegreen,
-/area/scavenger_ship/living_scholar)
+/turf/open/floor/corsat,
+/area/prison/atmos)
+"atr" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/item/frame/rack{
+	color = "#6b675e";
+	pixel_x = -13;
+	pixel_y = 4
+	},
+/turf/open/floor/corsat,
+/area/prison/atmos)
 "ats" = (
 /obj/structure/machinery/door/firedoor/border_only/almayer,
 /obj/structure/machinery/door/window/northleft{
 	dir = 8
-	},
-/obj/structure/surface/table/almayer{
-	color = "#8B9490"
 	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/structure/machinery/door/poddoor/almayer/open{
@@ -9558,41 +9484,23 @@
 	id = "scholar_lockdown";
 	dir = 4
 	},
-/turf/open/floor/prison/whitegreenfull/southwest,
-/area/scavenger_ship/living_scholar)
+/turf/open/floor/corsat/marked,
+/area/prison/atmos)
 "att" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/prison/whitegreen/west,
-/area/scavenger_ship/living_scholar)
+/obj/item/frame/table/almayer{
+	color = "#8B9490";
+	pixel_x = 20;
+	pixel_y = 16
+	},
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_2";
+	pixel_x = 17;
+	pixel_y = -16
+	},
+/turf/open/floor/corsat,
+/area/prison/atmos)
 "atu" = (
-/obj/structure/surface/rack{
-	color = "#6b675e";
-	layer = 2.79
-	},
-/obj/item/storage/pill_bottle/mystery/skillless{
-	pixel_x = -4;
-	pixel_y = 14
-	},
-/obj/item/storage/pill_bottle/mystery/skillless{
-	pixel_x = 5;
-	pixel_y = 14
-	},
-/obj/item/reagent_container/hypospray/autoinjector/bicaridine/skillless{
-	pixel_x = 1;
-	pixel_y = 1
-	},
-/obj/item/reagent_container/hypospray/autoinjector/bicaridine/skillless{
-	pixel_x = 1;
-	pixel_y = 1
-	},
-/obj/item/reagent_container/hypospray/autoinjector/kelotane/skillless{
-	pixel_y = -7;
-	pixel_x = 1
-	},
-/obj/item/reagent_container/hypospray/autoinjector/kelotane/skillless{
-	pixel_y = -7;
-	pixel_x = 1
-	},
 /obj/structure/machinery/light/double{
 	dir = 4;
 	light_color = "#e7c0a4";
@@ -9600,105 +9508,40 @@
 	light_range = 5
 	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/prison/whitegreen/east,
-/area/scavenger_ship/living_scholar)
-"atv" = (
-/obj/structure/surface/table/almayer{
-	color = "#8B9490"
+/turf/open/floor/corsat,
+/area/prison/atmos)
+"atw" = (
+/obj/item/frame/table/almayer{
+	color = "#8B9490";
+	pixel_x = -10;
+	pixel_y = -19
 	},
-/obj/item/stack/medical/bruise_pack{
-	pixel_x = -7;
-	pixel_y = 9
+/turf/open/floor/corsat,
+/area/prison/atmos)
+"atx" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/item/weapon/twohanded/folded_metal_chair{
+	pixel_x = 2;
+	pixel_y = 12
 	},
-/obj/item/stack/medical/bruise_pack{
-	pixel_x = 0;
-	pixel_y = 5
+/obj/item/stack/rods{
+	pixel_x = 4;
+	pixel_y = -9
 	},
-/obj/item/stack/medical/bruise_pack{
-	pixel_x = 7;
-	pixel_y = 1
-	},
-/obj/item/stack/medical/ointment{
-	pixel_x = -9;
+/turf/open/floor/corsat,
+/area/prison/atmos)
+"aty" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/item/prop/scrap{
+	pixel_x = -5;
 	pixel_y = -8
 	},
-/obj/item/stack/medical/ointment{
-	pixel_x = 0;
-	pixel_y = -12
-	},
-/obj/item/stack/medical/ointment{
-	pixel_x = 10;
-	pixel_y = -10
-	},
-/obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/prison/whitegreen/west,
-/area/scavenger_ship/living_scholar)
-"atw" = (
-/obj/structure/surface/rack{
-	color = "#6b675e";
-	layer = 2.79
-	},
-/obj/item/clothing/accessory/health/research_plate/translator{
-	pixel_x = -2;
-	pixel_y = 16
-	},
-/obj/item/device/healthanalyzer{
-	pixel_x = 1;
-	pixel_y = 7
-	},
-/obj/item/device/healthanalyzer{
-	pixel_x = 1;
-	pixel_y = -1
-	},
-/turf/open/floor/prison/whitegreen/east,
-/area/scavenger_ship/living_scholar)
-"atx" = (
-/obj/structure/bed/chair/comfy/teal{
-	pixel_x = -7;
-	pixel_y = 19
-	},
-/obj/structure/bed/chair/comfy/teal{
-	pixel_x = 8;
-	pixel_y = 19
-	},
-/obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/prison/whitegreen/northwest,
-/area/scavenger_ship/living_scholar)
-"aty" = (
-/obj/structure/bed/chair/comfy/teal{
-	pixel_x = -7;
-	pixel_y = 19
-	},
-/obj/structure/bed/chair/comfy/teal{
-	pixel_x = 8;
-	pixel_y = 19
-	},
-/obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/prison/whitegreen/northeast,
-/area/scavenger_ship/living_scholar)
+/turf/open/floor/corsat,
+/area/prison/atmos)
 "atz" = (
 /obj/structure/machinery/door/firedoor/border_only/almayer,
 /obj/structure/window/reinforced/ultra{
 	dir = 8
-	},
-/obj/structure/surface/table/almayer{
-	color = "#8B9490"
-	},
-/obj/item/paper_bin{
-	pixel_x = 6;
-	pixel_y = 8
-	},
-/obj/item/tool/pen/blue/clicky{
-	pixel_x = 5;
-	pixel_y = 5
-	},
-/obj/item/tool/hand_labeler{
-	pixel_x = -6;
-	pixel_y = 11
-	},
-/obj/item/device/destTagger{
-	pixel_x = 1;
-	pixel_y = -5
 	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/structure/machinery/door/poddoor/almayer/open{
@@ -9706,8 +9549,8 @@
 	id = "scholar_lockdown";
 	dir = 4
 	},
-/turf/open/floor/prison/whitegreenfull/southwest,
-/area/scavenger_ship/living_scholar)
+/turf/open/floor/corsat/marked,
+/area/prison/atmos)
 "atA" = (
 /obj/structure/machinery/camera/autoname/golden_arrow{
 	dir = 1
@@ -9719,81 +9562,39 @@
 /obj/structure/machinery/firealarm{
 	pixel_y = 28
 	},
-/turf/open/floor/prison/whitegreen/west,
-/area/scavenger_ship/living_scholar)
+/turf/open/floor/corsat,
+/area/prison/atmos)
 "atC" = (
 /obj/effect/decal/cleanable/hybrisa/trash,
-/turf/open/floor/prison/sterile_white,
-/area/scavenger_ship/living_scholar)
+/turf/open/floor/corsat,
+/area/prison/atmos)
 "atD" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/structure/machinery/power/apc/almayer/east,
-/turf/open/floor/prison/whitegreen/east,
-/area/scavenger_ship/living_scholar)
+/turf/open/floor/corsat,
+/area/prison/atmos)
 "atE" = (
-/obj/structure/machinery/cm_vending/sorted/medical/blood/bolted{
-	name = "\improper MinZdrav Blood Dispenser";
-	desc = "The MinZdrav Blood Pack Dispensary is the premier, top-of-the-line blood dispenser of 2105! Get yours today!"
-	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/prison/whitegreen/west,
-/area/scavenger_ship/living_scholar)
+/obj/effect/decal/cleanable/vomit,
+/turf/open/floor/corsat,
+/area/prison/atmos)
+"atF" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/item/book/manual/medical_diagnostics_manual{
+	pixel_x = 18;
+	pixel_y = -9
+	},
+/turf/open/floor/corsat,
+/area/prison/atmos)
 "atG" = (
-/obj/structure/surface/rack{
-	color = "#6b675e";
-	layer = 2.79
-	},
-/obj/item/storage/pill_bottle/bicaridine/skillless{
-	pixel_x = -3;
-	pixel_y = 14
-	},
-/obj/item/storage/pill_bottle/bicaridine/skillless{
-	pixel_x = 5;
-	pixel_y = 14
-	},
-/obj/item/storage/pill_bottle/kelotane/skillless{
-	pixel_x = -3;
-	pixel_y = 6
-	},
-/obj/item/storage/pill_bottle/kelotane/skillless{
-	pixel_x = 5;
-	pixel_y = 6
-	},
-/obj/item/storage/pill_bottle/tramadol/skillless{
-	pixel_x = -3;
-	pixel_y = -2
-	},
-/obj/item/storage/pill_bottle/tramadol/skillless{
-	pixel_x = 5;
-	pixel_y = -2
-	},
-/obj/item/storage/pill_bottle/bicaridine/skillless{
-	pixel_x = -3;
-	pixel_y = 14
-	},
-/obj/item/storage/pill_bottle/bicaridine/skillless{
-	pixel_x = 5;
-	pixel_y = 14
-	},
-/obj/item/storage/pill_bottle/kelotane/skillless{
-	pixel_x = -3;
-	pixel_y = 6
-	},
-/obj/item/storage/pill_bottle/kelotane/skillless{
-	pixel_x = 5;
-	pixel_y = 6
-	},
-/obj/item/storage/pill_bottle/tramadol/skillless{
-	pixel_x = -3;
-	pixel_y = -2
-	},
-/obj/item/storage/pill_bottle/tramadol/skillless{
-	pixel_x = 5;
-	pixel_y = -2
-	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/prison/whitegreen/east,
-/area/scavenger_ship/living_scholar)
+/obj/item/frame/rack{
+	color = "#6b675e";
+	pixel_x = -15;
+	pixel_y = 9
+	},
+/turf/open/floor/corsat,
+/area/prison/atmos)
 "atH" = (
 /obj/structure/girder/displaced,
 /turf/open/floor/corsat,
@@ -10670,12 +10471,196 @@
 	},
 /turf/open/floor/corsat,
 /area/space)
+"avI" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/item/frame/rack{
+	color = "#6b675e";
+	pixel_x = -14;
+	pixel_y = 16
+	},
+/turf/open/floor/corsat,
+/area/prison/atmos)
+"avJ" = (
+/obj/structure/machinery/door/firedoor/border_only/almayer,
+/obj/structure/window/framed/strata/reinforced,
+/obj/structure/machinery/door/poddoor/almayer/open{
+	name = "\improper Scholar Lockdown";
+	id = "scholar_lockdown";
+	dir = 4
+	},
+/turf/open/floor/corsat/marked,
+/area/prison/atmos)
+"avK" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_4";
+	pixel_y = -28;
+	pixel_x = -14
+	},
+/obj/item/weapon/broken_bottle,
+/turf/open/floor/corsat,
+/area/prison/atmos)
+"avL" = (
+/obj/structure/machinery/door/firedoor/border_only/almayer{
+	dir = 2
+	},
+/obj/structure/window/framed/strata/reinforced,
+/turf/open/floor/corsat,
+/area/prison/atmos)
+"avM" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 8;
+	pixel_y = 12
+	},
+/turf/open/floor/prison/darkbrown2,
+/area/space)
+"avN" = (
+/obj/structure/roof/cargocrane_tracks/vertical/endcap2,
+/turf/open/space/basic,
+/area/space)
+"avO" = (
+/obj/structure/roof/cargocrane_tracks/horizontal{
+	pixel_y = 16
+	},
+/turf/open/floor/prison/floor_plate/southwest,
+/area/space)
+"avP" = (
+/obj/structure/roof/cargocrane_tracks/horizontal{
+	pixel_y = 16
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/plating/plating_catwalk/prison,
+/area/space)
+"avQ" = (
+/obj/structure/roof/cargocrane_tracks/horizontal{
+	pixel_y = 16
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/prison/floor_plate/southwest,
+/area/space)
+"avR" = (
+/obj/structure/machinery/door/poddoor/almayer/locked{
+	name = "\improper Other Section";
+	desc = "You never know where they lead.";
+	dir = 1
+	},
+/turf/open/floor/corsat/marked,
+/area/scavenger_ship/hangar_deck)
+"avS" = (
+/obj/structure/roof/cargocrane_tracks/vertical,
+/obj/structure/machinery/door/poddoor/almayer/locked{
+	name = "\improper Other Section";
+	desc = "You never know where they lead.";
+	dir = 1
+	},
+/turf/open/floor/corsat/marked,
+/area/scavenger_ship/hangar_deck)
+"avT" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 8
+	},
+/turf/open/floor/prison/darkbrown2/north,
+/area/space)
+"avU" = (
+/obj/structure/platform/strata/metal{
+	dir = 4
+	},
+/turf/open/floor/corsat,
+/area/scavenger_ship/hangar_deck)
+"avV" = (
+/turf/open/floor/prison/cell_stripe,
+/area/scavenger_ship/hangar_deck)
+"avW" = (
+/obj/structure/roof/cargocrane_tracks/vertical,
+/turf/open/floor/prison/cell_stripe,
+/area/scavenger_ship/hangar_deck)
+"avX" = (
+/obj/structure/platform/strata/metal{
+	dir = 8
+	},
+/turf/open/floor/corsat,
+/area/scavenger_ship/hangar_deck)
+"avY" = (
+/turf/open/floor/prison/darkbrown2/west,
+/area/scavenger_ship/hangar_deck)
+"avZ" = (
+/obj/structure/roof/cargocrane_tracks/vertical,
+/turf/open/floor/prison/floor_plate/southwest,
+/area/scavenger_ship/hangar_deck)
+"awa" = (
+/turf/open/floor/prison/darkbrown2/east,
+/area/scavenger_ship/hangar_deck)
+"awb" = (
+/obj/structure/roof/cargocrane_tracks/vertical,
+/turf/open/floor/plating/plating_catwalk/prison,
+/area/scavenger_ship/hangar_deck)
+"awc" = (
+/obj/structure/platform/strata/metal,
+/obj/structure/platform/strata/metal{
+	dir = 4
+	},
+/turf/open/floor/corsat,
+/area/scavenger_ship/hangar_deck)
 "awd" = (
 /obj/structure/pipes/standard/simple/visible/universal{
 	dir = 1
 	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_engo)
+"awe" = (
+/obj/structure/machinery/gear{
+	id = "garrow_vehicle_elevator_one"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "NE-out";
+	pixel_y = 1;
+	pixel_x = 1
+	},
+/turf/open/floor/prison/darkyellow2/southwest,
+/area/scavenger_ship/hangar_deck)
+"awf" = (
+/obj/structure/machinery/door/poddoor/railing{
+	id = "garrow_vehicle_elevator_one"
+	},
+/turf/open/floor/prison/darkyellow2,
+/area/scavenger_ship/hangar_deck)
+"awg" = (
+/obj/structure/machinery/light/double{
+	dir = 2;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5
+	},
+/obj/structure/machinery/door/poddoor/railing{
+	id = "garrow_vehicle_elevator_one"
+	},
+/turf/open/floor/prison/darkyellow2,
+/area/scavenger_ship/hangar_deck)
+"awh" = (
+/obj/structure/machinery/gear{
+	id = "garrow_vehicle_elevator_one"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "NW-out";
+	pixel_y = 1
+	},
+/turf/open/floor/prison/darkyellow2/southeast,
+/area/scavenger_ship/hangar_deck)
+"awi" = (
+/obj/structure/roof/cargocrane_tracks/vertical,
+/turf/open/floor/prison/ramptop/north,
+/area/scavenger_ship/hangar_deck)
+"awj" = (
+/obj/structure/platform/strata/metal{
+	dir = 1
+	},
+/obj/structure/platform/strata/metal{
+	dir = 8
+	},
+/turf/open/floor/corsat,
+/area/scavenger_ship/hangar_deck)
 "awk" = (
 /obj/structure/platform_decoration{
 	dir = 4
@@ -10688,6 +10673,109 @@
 	},
 /turf/open/shuttle/dropship/light_grey_single_wide_up_to_down,
 /area/scavenger_ship/hangar_deck)
+"awl" = (
+/obj/structure/machinery/door/poddoor/railing{
+	dir = 4;
+	id = "garrow_vehicle_elevator_one"
+	},
+/turf/open/floor/prison/darkyellow2/west,
+/area/scavenger_ship/hangar_deck)
+"awm" = (
+/obj/docking_port/stationary/trijent_elevator/shipmap_elevator/one{
+	id = "garrow_vehicle_elevator_one_storage";
+	name = "Vehicle Elevator One Storage";
+	roundstart_template = /datum/map_template/shuttle/trijent_elevator/golden_arrow/vehicleone;
+	elevator_network = "ArrowVehicleOne"
+	},
+/turf/open/floor/almayer/empty/golden_arrow/vehicle_one,
+/area/scavenger_ship/hangar_deck)
+"awn" = (
+/turf/open/floor/almayer/empty/golden_arrow/vehicle_one,
+/area/scavenger_ship/hangar_deck)
+"awo" = (
+/obj/structure/machinery/door/poddoor/railing{
+	dir = 8;
+	id = "garrow_vehicle_elevator_one"
+	},
+/turf/open/floor/prison/darkyellow2/east,
+/area/scavenger_ship/hangar_deck)
+"awp" = (
+/obj/structure/platform/strata/metal{
+	dir = 1
+	},
+/obj/structure/platform/strata/metal{
+	dir = 4
+	},
+/turf/open/floor/corsat,
+/area/scavenger_ship/hangar_deck)
+"awq" = (
+/turf/open/floor/prison/cell_stripe/east,
+/area/scavenger_ship/hangar_deck)
+"awr" = (
+/turf/open/floor/prison/cell_stripe/west,
+/area/scavenger_ship/hangar_deck)
+"aws" = (
+/obj/structure/platform/strata/metal,
+/obj/structure/platform/strata/metal{
+	dir = 8
+	},
+/turf/open/floor/corsat,
+/area/scavenger_ship/hangar_deck)
+"awt" = (
+/obj/structure/machinery/gear{
+	id = "garrow_vehicle_elevator_one"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "SE-out";
+	pixel_x = 1
+	},
+/turf/open/floor/prison/darkyellow2/northwest,
+/area/scavenger_ship/hangar_deck)
+"awu" = (
+/obj/structure/machinery/door/poddoor/railing{
+	dir = 2;
+	id = "garrow_vehicle_elevator_one"
+	},
+/turf/open/floor/prison/darkyellow2/north,
+/area/scavenger_ship/hangar_deck)
+"awv" = (
+/obj/structure/machinery/light/double{
+	dir = 1;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5
+	},
+/obj/structure/machinery/door/poddoor/railing{
+	dir = 2;
+	id = "garrow_vehicle_elevator_one"
+	},
+/turf/open/floor/prison/darkyellow2/north,
+/area/scavenger_ship/hangar_deck)
+"aww" = (
+/obj/structure/machinery/gear{
+	id = "garrow_vehicle_elevator_one"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "SW-out"
+	},
+/turf/open/floor/prison/darkyellow2/northeast,
+/area/scavenger_ship/hangar_deck)
+"awx" = (
+/obj/structure/roof/cargocrane_tracks/vertical,
+/turf/open/floor/prison/cell_stripe/north,
+/area/scavenger_ship/hangar_deck)
+"awy" = (
+/obj/structure/roof/cargocrane_tracks/vertical/endcap1,
+/turf/open/space/basic,
+/area/space)
+"awz" = (
+/obj/structure/prop{
+	desc = "You never know where they lead.";
+	icon_state = "ladder11";
+	name = "ladder"
+	},
+/turf/open/floor/corsat,
+/area/golden_arrow/motor_pool)
 "awF" = (
 /obj/structure/barricade/handrail/strata,
 /obj/structure/prop/invuln/darkness,
@@ -19211,14 +19299,6 @@
 	},
 /turf/open/floor/prison/whitegreenfull,
 /area/scavenger_ship/ssv_asclepius)
-"inV" = (
-/obj/structure/machinery/door/poddoor/almayer/locked{
-	name = "\improper Vehicle Bay";
-	id = "lowervehiclebay1";
-	dir = 8
-	},
-/turf/open/floor/corsat/marked,
-/area/scavenger_ship/hangar_deck)
 "ioI" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N";
@@ -23797,16 +23877,6 @@
 	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/cryo_maint)
-"mSx" = (
-/obj/structure/machinery/door_control{
-	id = "lowervehiclebay1";
-	needs_power = 0;
-	pixel_y = 11;
-	name = "Elevator 1 door-control";
-	pixel_x = -4
-	},
-/turf/open/floor/corsat,
-/area/scavenger_ship/hangar_deck)
 "mSQ" = (
 /obj/structure/surface/table/almayer{
 	color = "#8B9490"
@@ -28315,15 +28385,6 @@
 	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/hangar_deck)
-"rbB" = (
-/obj/docking_port/stationary/trijent_elevator/shipmap_elevator/one{
-	id = "garrow_vehicle_elevator_one_storage";
-	name = "Vehicle Elevator One Storage";
-	roundstart_template = /datum/map_template/shuttle/trijent_elevator/golden_arrow/vehicleone;
-	elevator_network = "ArrowVehicleOne"
-	},
-/turf/open/floor/corsat,
-/area/scavenger_ship/hangar_deck)
 "rbX" = (
 /obj/structure/surface/rack,
 /obj/item/tank/emergency_oxygen/double{
@@ -28387,6 +28448,8 @@
 	dir = 4;
 	id = "req_out"
 	},
+/obj/item/pizzabox/pizza_galaxy/mystery/stack,
+/obj/structure/closet/crate/freezer,
 /turf/open/floor/prison/floor_plate/southwest,
 /area/scavenger_ship/staging_requisition)
 "rcZ" = (
@@ -32077,10 +32140,6 @@
 "uVJ" = (
 /obj/structure/surface/table/almayer{
 	color = "#EBD9B7"
-	},
-/obj/item/pizzabox/pizza_galaxy/mystery{
-	pixel_x = -1;
-	pixel_y = 14
 	},
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/staging_requisition)
@@ -38012,20 +38071,20 @@ anw
 anw
 aaI
 atE
-atv
+asu
 atj
 atc
 aaI
 aaI
-aaw
-aaw
-aaw
-aaw
-aaw
-aaw
-aaw
-aaw
-aal
+aqh
+aqh
+aqh
+aqh
+aqh
+aqh
+aqh
+aqh
+apR
 rhS
 rhS
 rhS
@@ -38183,22 +38242,22 @@ anw
 asn
 anU
 aaI
-atd
-atd
+avK
+avI
 atl
 atd
 asS
 aaI
-aap
-aap
-aap
-aap
-aap
-aap
-aap
-aap
+aqe
+aqe
+aqe
+aqe
+aqe
+aqe
+aqe
+aqe
 aao
-aal
+apR
 rhS
 rhS
 rhS
@@ -38358,7 +38417,7 @@ aaI
 aaI
 atw
 atm
-ate
+asD
 asT
 aaI
 aaI
@@ -38368,9 +38427,9 @@ aaI
 aaI
 aaY
 aaI
-aap
-aap
-aam
+aqe
+aqe
+aqb
 rhS
 rhS
 rhS
@@ -38528,7 +38587,7 @@ aoI
 arz
 aoq
 aez
-ato
+avJ
 ato
 aez
 asU
@@ -38541,8 +38600,8 @@ asy
 asu
 aaI
 aaI
-aap
-aam
+aqe
+aqb
 rhS
 rhS
 rhS
@@ -38713,8 +38772,8 @@ asy
 asv
 asq
 aax
-aap
-aam
+aqe
+aqb
 rhS
 rhS
 rhS
@@ -38872,7 +38931,7 @@ aud
 aoC
 apG
 apC
-aiz
+asu
 atq
 atf
 asW
@@ -38880,13 +38939,13 @@ asR
 asN
 asL
 asH
-asC
+asu
 asz
-asv
+asP
 asr
 aaI
-aap
-aam
+aqe
+aqb
 rhS
 rhS
 rhS
@@ -39043,9 +39102,9 @@ aiX
 aoK
 aoD
 aiX
-app
+avL
 aty
-asT
+asu
 aez
 asX
 ahW
@@ -39053,12 +39112,12 @@ aaI
 aaI
 asI
 asD
-asy
+atb
 asw
 ass
 aax
-aap
-aam
+aqe
+aqb
 rhS
 rhS
 rhS
@@ -39222,15 +39281,15 @@ aez
 asY
 aez
 aaI
-asM
-asJ
+asu
+asu
 asE
-asy
+atp
 asx
 aaI
 aaI
-aap
-aam
+aqe
+aqb
 rhS
 rhS
 rhS
@@ -39391,7 +39450,7 @@ aaI
 atB
 att
 atg
-ata
+asu
 aaI
 aaI
 aaI
@@ -39400,9 +39459,9 @@ aaI
 aaI
 aaY
 aaI
-aap
-aap
-aam
+aqe
+aqe
+aqb
 rhS
 rhS
 rhS
@@ -39559,22 +39618,22 @@ anw
 arO
 arO
 aaI
-apF
+asD
 atC
-atd
+atF
 ath
-asS
+atr
 aaI
-aap
-aap
-aap
-aap
-aap
-aap
-aap
-aap
+aqe
+aqe
+aqe
+aqe
+aqe
+aqe
+aqe
+aqe
 aaq
-aan
+aqd
 rhS
 rhS
 rhS
@@ -39737,15 +39796,15 @@ atu
 ati
 aaI
 aaI
-aay
-aay
-aay
-aay
-aay
-aay
-aay
-aay
-aan
+aqW
+aqW
+aqW
+aqW
+aqW
+aqW
+aqW
+aqW
+aqd
 rhS
 rhS
 rhS
@@ -59040,7 +59099,7 @@ rTv
 qAA
 rTv
 rTv
-rgV
+awz
 rTv
 rTv
 ocZ
@@ -59746,13 +59805,13 @@ rhS
 rhS
 rhS
 rhS
-lTE
-lTE
-lTE
-lTE
-lTE
-lTE
-lTE
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
 rhS
 rhS
 rhS
@@ -59918,13 +59977,13 @@ rhS
 rhS
 rhS
 rhS
-lTE
-sFM
-sFM
-sFM
-sFM
-rbB
-lTE
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
 rhS
 rhS
 rhS
@@ -60090,13 +60149,13 @@ rhS
 rhS
 rhS
 rhS
-lTE
-sFM
-sFM
-sFM
-sFM
-sFM
-lTE
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
 rhS
 rhS
 rhS
@@ -60262,13 +60321,13 @@ rhS
 rhS
 rhS
 rhS
-lTE
-sFM
-sFM
-sFM
-sFM
-sFM
-lTE
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
 rhS
 rhS
 rhS
@@ -60434,13 +60493,13 @@ rhS
 rhS
 rhS
 rhS
-lTE
-sFM
-sFM
-sFM
-sFM
-sFM
-lTE
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
 rhS
 rhS
 rhS
@@ -60606,13 +60665,13 @@ rhS
 rhS
 rhS
 rhS
-lTE
-sFM
-sFM
-sFM
-sFM
-sFM
-lTE
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
 rhS
 rhS
 rhS
@@ -60776,15 +60835,15 @@ rhS
 rhS
 rhS
 rhS
-lTE
-lTE
-lTE
-sFM
-sFM
-sFM
-sFM
-sFM
-lTE
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
 rhS
 rhS
 rhS
@@ -60948,15 +61007,15 @@ rhS
 rhS
 rhS
 rhS
-lTE
-hZH
-lTE
-sFM
-sFM
-sFM
-sFM
-sFM
-lTE
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
 rhS
 rhS
 rhS
@@ -61120,19 +61179,19 @@ rhS
 rhS
 rhS
 rhS
-lTE
-lTE
-lTE
-inV
-inV
-inV
-inV
-inV
-lTE
-lTE
-lTE
-lTE
-lTE
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
 rhS
 rhS
 rhS
@@ -61292,19 +61351,19 @@ rhS
 rhS
 rhS
 rhS
-lTE
-sFM
-sFM
-sFM
-sFM
-sFM
-sFM
-sFM
-mSx
-sFM
-sFM
-sFM
-lTE
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
 rhS
 rhS
 rhS
@@ -61464,19 +61523,19 @@ rhS
 rhS
 rhS
 rhS
-lTE
-sFM
-sFM
-sFM
-sFM
-sFM
-sFM
-sFM
-sFM
-sFM
-sFM
-sFM
-lTE
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
 rhS
 rhS
 rhS
@@ -61636,19 +61695,19 @@ rhS
 rhS
 rhS
 rhS
-lTE
-sFM
-sFM
-sFM
-sFM
-sFM
-sFM
-sFM
-sFM
-sFM
-sFM
-sFM
-lTE
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
 rhS
 rhS
 rhS
@@ -61808,19 +61867,19 @@ rhS
 rhS
 rhS
 rhS
-lTE
-sFM
-sFM
-sFM
-sFM
-sFM
-sFM
-sFM
-sFM
-sFM
-sFM
-sFM
-lTE
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
 rhS
 rhS
 rhS
@@ -61980,19 +62039,19 @@ rhS
 rhS
 rhS
 rhS
-lTE
-sFM
-sFM
-sFM
-sFM
-sFM
-sFM
-sFM
-sFM
-sFM
-sFM
-sFM
-lTE
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
 rhS
 rhS
 rhS
@@ -62152,19 +62211,19 @@ rhS
 rhS
 rhS
 rhS
-lTE
-lTE
-lTE
-lTE
-lTE
-lTE
-lTE
-lTE
-lTE
-lTE
-lTE
-lTE
-lTE
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
+rhS
 rhS
 rhS
 rhS
@@ -62340,9 +62399,9 @@ rhS
 rhS
 rhS
 rhS
-rhS
-rhS
-rhS
+avT
+avO
+avM
 rhS
 rhS
 rhS
@@ -62512,9 +62571,9 @@ rhS
 rhS
 rhS
 rhS
-rhS
-rhS
-rhS
+avT
+avP
+avM
 rhS
 rhS
 rhS
@@ -62684,9 +62743,9 @@ rhS
 rhS
 rhS
 rhS
-rhS
-rhS
-rhS
+avT
+avQ
+avM
 rhS
 rhS
 rhS
@@ -64047,21 +64106,21 @@ rhS
 rhS
 rhS
 rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
+lTE
+lTE
+lTE
+lTE
+lTE
+lTE
+lTE
+lTE
+lTE
+lTE
+lTE
+lTE
+lTE
+lTE
+lTE
 rhS
 rhS
 rhS
@@ -64219,21 +64278,21 @@ rhS
 rhS
 rhS
 rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
+lTE
+avU
+avU
+avU
+avU
+avU
+avU
+avU
+avU
+avU
+avU
+avU
+avU
+avU
+lTE
 rhS
 rhS
 rhS
@@ -64391,21 +64450,21 @@ rhS
 rhS
 rhS
 rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
+avR
+voi
+avY
+avY
+avY
+jBF
+rlp
+rlp
+rlp
+jBF
+avY
+avY
+avY
+avV
+avR
 rhS
 rhS
 rhS
@@ -64562,23 +64621,23 @@ rhS
 rhS
 rhS
 rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
+awy
+avS
+awx
+avZ
+awb
+avZ
+awi
+avZ
+awb
+avZ
+awi
+avZ
+awb
+avZ
+avW
+avS
+avN
 rhS
 rhS
 rhS
@@ -64735,21 +64794,21 @@ rhS
 rhS
 rhS
 rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
+avR
+voi
+awa
+awa
+awa
+jBF
+rlp
+rlp
+rlp
+jBF
+awa
+awa
+awa
+avV
+avR
 rhS
 rhS
 rhS
@@ -64907,21 +64966,21 @@ rhS
 rhS
 rhS
 rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
+lTE
+avX
+avX
+avX
+avX
+aws
+awq
+awq
+awq
+awj
+avX
+avX
+avX
+avX
+lTE
 rhS
 rhS
 rhS
@@ -65079,21 +65138,21 @@ rhS
 rhS
 rhS
 rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
+lTE
+lTE
+lTE
+lTE
+lTE
+lTE
+anG
+anG
+anG
+lTE
+lTE
+lTE
+lTE
+lTE
+lTE
 rhS
 rhS
 rhS
@@ -65254,17 +65313,17 @@ rhS
 rhS
 rhS
 rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
+lTE
+awt
+awl
+awl
+awl
+awl
+awl
+awe
+lTE
+hZH
+lTE
 rhS
 rhS
 rhS
@@ -65426,17 +65485,17 @@ rhS
 rhS
 rhS
 rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
+lTE
+awu
+awn
+awn
+awn
+awn
+awm
+awf
+lTE
+lTE
+lTE
 rhS
 rhS
 rhS
@@ -65598,15 +65657,15 @@ rhS
 rhS
 rhS
 rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
+lTE
+awu
+awn
+awn
+awn
+awn
+awn
+awf
+lTE
 rhS
 rhS
 rhS
@@ -65770,15 +65829,15 @@ rhS
 rhS
 rhS
 rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
+lTE
+awu
+awn
+awn
+awn
+awn
+awn
+awf
+lTE
 rhS
 rhS
 rhS
@@ -65942,15 +66001,15 @@ rhS
 rhS
 rhS
 rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
+lTE
+awv
+awn
+awn
+awn
+awn
+awn
+awg
+lTE
 rhS
 rhS
 rhS
@@ -66114,15 +66173,15 @@ rhS
 rhS
 rhS
 rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
+lTE
+awu
+awn
+awn
+awn
+awn
+awn
+awf
+lTE
 rhS
 rhS
 rhS
@@ -66286,15 +66345,15 @@ rhS
 rhS
 rhS
 rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
+lTE
+awu
+awn
+awn
+awn
+awn
+awn
+awf
+lTE
 rhS
 rhS
 rhS
@@ -66458,15 +66517,15 @@ rhS
 rhS
 rhS
 rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
+lTE
+awu
+awn
+awn
+awn
+awn
+awn
+awf
+lTE
 rhS
 rhS
 rhS
@@ -66630,15 +66689,15 @@ rhS
 rhS
 rhS
 rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
+lTE
+aww
+awo
+awo
+awo
+awo
+awo
+awh
+lTE
 rhS
 rhS
 rhS
@@ -66802,15 +66861,15 @@ rhS
 rhS
 rhS
 rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
+lTE
+lTE
+lTE
+anG
+anG
+anG
+lTE
+lTE
+lTE
 rhS
 rhS
 rhS
@@ -66974,15 +67033,15 @@ rhS
 rhS
 rhS
 rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
-rhS
+awp
+avU
+awc
+awr
+awr
+awr
+awp
+avU
+awc
 rhS
 rhS
 rhS
