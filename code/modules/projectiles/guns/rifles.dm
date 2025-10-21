@@ -120,7 +120,7 @@
 	cocked_sound = 'sound/weapons/handling/nsg23_cocked.ogg'
 	aim_slowdown = SLOWDOWN_ADS_QUICK
 	wield_delay = WIELD_DELAY_VERY_FAST
-	flags_gun_features = GUN_AUTO_EJECTOR|GUN_CAN_POINTBLANK|GUN_AMMO_COUNTER|GUN_WY_RESTRICTED
+	flags_gun_features = GUN_AUTO_EJECTOR|GUN_CAN_POINTBLANK|GUN_AMMO_COUNTER
 	start_automatic = TRUE
 	current_mag = /obj/item/ammo_magazine/rifle/nsg23
 	attachable_allowed = list(
@@ -356,6 +356,12 @@
 /obj/item/weapon/gun/rifle/m41aMK1/tactical
 	starting_attachment_types = list(/obj/item/attachable/attached_gun/grenade/mk1/preloaded, /obj/item/attachable/suppressor, /obj/item/attachable/magnetic_harness, /obj/item/attachable/stock/rifle/collapsible)
 	current_mag = /obj/item/ammo_magazine/rifle/m41aMK1
+
+/obj/item/weapon/gun/rifle/m41aMK1/evan
+	name = "\improper M41A 'Golden God' pulse rifle"
+	desc = "Pulse action 10x24mm caseless assault rifle of the USCMC, personal friend of one drug addict in particular. Features a sick-ass golden paintjob, plus an old red rag around the handle. Because what's the point of committing war crimes if you don't look good while doing it?"
+	icon_state = "m41amk1_evan"
+	item_state = "m41amk1_evan"
 
 /obj/item/weapon/gun/rifle/m41aMK1/forecon
 	desc = "Pulse action 10x24mm caseless assault rifle of the USCMC, personal friend of any Marine. This one is painted in a fresh coat of the newer Humbrol 76 camouflage and is used by Force Reconnaissance & MARSOC units."
