@@ -1794,33 +1794,3 @@ GLOBAL_LIST_EMPTY(gear_datums_by_name)
 	display_name = "Compact can opener"
 	path = /obj/item/tool/kitchen/can_opener/compact
 	cost = 2
-
-/*
-//================================================
-				SPEC
-//================================================
-*/
-
-/datum/gear/spec
-	category = "specialization"
-
-/datum/gear/spec/comtech
-	display_name = "Comtech Book"
-	path = /obj/item/pamphlet/skill/specialization/comtech
-	cost = 2
-
-/datum/gear/spec/ammo
-	display_name = "Ammo Bearer Book"
-	path = /obj/item/pamphlet/skill/specialization/ammo_bearer
-	cost = 2
-
-/datum/gear/spec/sniper
-	display_name = "Sniper Book"
-	path = /obj/item/pamphlet/skill/specialization/sniper
-	cost = 2
-
-/datum/gear/spec/machinegunner
-	display_name = "Machine Gunner Book"
-	path = /obj/item/pamphlet/skill/specialization/machinegunner
-	cost = 2
-
