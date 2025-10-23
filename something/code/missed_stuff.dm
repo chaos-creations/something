@@ -353,6 +353,11 @@
 /obj/structure/ladder/scav_raider/other/update_icon()
 	return
 
+/obj/structure/sign/banners/freelancer
+	name = "\improper Freelance Cell Flag"
+	desc = "An old flag with a white skull on a blue and black background. The old logo of a well-known freelancers mercenaries cell in the Neroid sector. There is an inscription at the back of the skull: \"There is nothing more to me than myself.\""
+	icon = 'something/icons/banners.dmi'
+	icon_state = "freelanceflag"
 
 // organ harvester & case //
 

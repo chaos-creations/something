@@ -7505,7 +7505,7 @@
 	height = -1
 	},
 /turf/open/floor/corsat/marked,
-/area/space)
+/area/prison/medbay)
 "apc" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/structure/machinery/treadmill/console{
@@ -7592,7 +7592,7 @@
 	locked = 1
 	},
 /turf/open/floor/corsat/marked,
-/area/space)
+/area/prison/medbay)
 "apm" = (
 /obj/structure/blocker/invisible_wall,
 /turf/open/floor/almayer/test_floor4,
@@ -9171,7 +9171,7 @@
 	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/corsat,
-/area/space)
+/area/prison/medbay)
 "asK" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/item/frame/rack{
@@ -9196,7 +9196,7 @@
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/structure/machinery/light_construct/small,
 /turf/open/floor/corsat,
-/area/space)
+/area/prison/medbay)
 "asN" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "NW-out";
@@ -9390,7 +9390,7 @@
 "ate" = (
 /obj/structure/machinery/light_construct/small,
 /turf/open/floor/corsat,
-/area/space)
+/area/prison/medbay)
 "atf" = (
 /obj/structure/machinery/door/airlock/strata/autoname{
 	dir = 1;
@@ -9554,7 +9554,7 @@
 	dir = 4
 	},
 /turf/open/floor/corsat,
-/area/space)
+/area/prison/medbay)
 "atw" = (
 /obj/item/frame/table/almayer{
 	color = "#8B9490";
@@ -10259,11 +10259,11 @@
 /turf/open/floor/prison/darkbrown2/west,
 /area/scavenger_ship/living_deck)
 "ave" = (
-/obj/item/reagent_container/pill/stox{
-	pixel_x = 0;
-	pixel_y = 10;
-	name = "funny floor pill";
-	icon_state = "pill"
+/obj/item/reagent_container/pill/zombie_powder{
+	icon_state = "pill";
+	pixel_x = -16;
+	pixel_y = 6;
+	name = "funny pill"
 	},
 /turf/open/floor/prison/floor_plate/southwest,
 /area/scavenger_ship/living_deck)
@@ -10522,6 +10522,12 @@
 	color = "#6b675e";
 	pixel_x = -14;
 	pixel_y = 16
+	},
+/obj/item/reagent_container/pill/happy{
+	icon_state = "pill";
+	pixel_x = 16;
+	pixel_y = 7;
+	name = "funny pill"
 	},
 /turf/open/floor/corsat,
 /area/prison/atmos)
@@ -10828,20 +10834,20 @@
 	pixel_y = 16
 	},
 /turf/open/floor/corsat,
-/area/space)
+/area/prison/medbay)
 "awB" = (
 /obj/structure/platform/strata/metal{
 	dir = 1
 	},
 /turf/open/floor/corsat,
-/area/space)
+/area/prison/medbay)
 "awC" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/structure/machinery/light_construct{
 	dir = 2
 	},
 /turf/open/floor/corsat,
-/area/space)
+/area/prison/medbay)
 "awD" = (
 /obj/structure/machinery/door/poddoor/almayer/locked{
 	name = "\improper Other Section";
@@ -10849,14 +10855,14 @@
 	dir = 4
 	},
 /turf/open/floor/corsat/marked,
-/area/space)
+/area/prison/medbay)
 "awE" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/structure/machinery/light_construct{
 	dir = 8
 	},
 /turf/open/floor/corsat,
-/area/space)
+/area/prison/medbay)
 "awF" = (
 /obj/structure/barricade/handrail/strata,
 /obj/structure/prop/invuln/darkness,
@@ -10869,7 +10875,17 @@
 	dir = 1
 	},
 /turf/open/floor/corsat,
-/area/space)
+/area/prison/medbay)
+"awH" = (
+/turf/closed/wall/strata_outpost/reinforced/hull,
+/area/prison/medbay)
+"awI" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/corsat,
+/area/prison/medbay)
+"awJ" = (
+/turf/open/floor/corsat,
+/area/prison/medbay)
 "axh" = (
 /obj/structure/closet/emcloset{
 	pixel_x = -7;
@@ -16361,8 +16377,8 @@
 	pixel_x = -6;
 	pixel_y = 16
 	},
-/obj/structure/sign/banners/usa_worn{
-	pixel_y = 32
+/obj/structure/sign/banners/freelancer{
+	pixel_y = 33
 	},
 /turf/open/floor/hybrisa/tile,
 /area/scavenger_ship/logistics_maint)
@@ -42063,17 +42079,17 @@ rhS
 rhS
 rhS
 rhS
-agl
-agl
-agl
-agl
-agl
+awH
+awH
+awH
+awH
+awH
 rhS
-agl
-agl
-agl
-agl
-agl
+awH
+awH
+awH
+awH
+awH
 qWQ
 aaJ
 aaJ
@@ -42234,18 +42250,18 @@ rhS
 rhS
 rhS
 rhS
-agl
-agl
-iaP
+awH
+awH
+awI
 awE
-iaP
-agl
-agl
-agl
-iaP
-iaP
-iaP
-agl
+awI
+awH
+awH
+awH
+awI
+awI
+awI
+awH
 qWQ
 aaJ
 acE
@@ -42406,18 +42422,18 @@ rhS
 rhS
 rhS
 rhS
-agl
-aho
-aho
-iaP
-iaP
-iaP
-agl
-aho
-iaP
+awH
+awJ
+awJ
+awI
+awI
+awI
+awH
+awJ
+awI
 asM
-agl
-agl
+awH
+awH
 aaJ
 aaJ
 aaJ
@@ -42578,17 +42594,17 @@ rhS
 rhS
 rhS
 rhS
-agl
-aho
-aho
-aho
-iaP
-iaP
+awH
+awJ
+awJ
+awJ
+awI
+awI
 apl
-aho
-aho
-iaP
-iaP
+awJ
+awJ
+awI
+awI
 apb
 aaJ
 asO
@@ -42750,18 +42766,18 @@ rhS
 rhS
 rhS
 rhS
-agl
-iaP
-iaP
-aho
-aho
-aho
-agl
-aho
-aho
+awH
+awI
+awI
+awJ
+awJ
+awJ
+awH
+awJ
+awJ
 ate
-agl
-agl
+awH
+awH
 aaJ
 aaJ
 aaJ
@@ -42922,18 +42938,18 @@ rhS
 rhS
 rhS
 rhS
-agl
+awH
 awG
-iaP
-aho
-iaP
+awI
+awJ
+awI
 awC
-agl
-agl
-aho
-aho
-aho
-agl
+awH
+awH
+awJ
+awJ
+awJ
+awH
 qWQ
 aaJ
 abd
@@ -43094,18 +43110,18 @@ rhS
 rhS
 rhS
 rhS
-agl
-iaP
-aho
-iaP
-iaP
-iaP
+awH
+awI
+awJ
+awI
+awI
+awI
 awB
-agl
-agl
+awH
+awH
 apl
-agl
-agl
+awH
+awH
 qWQ
 aaJ
 aaJ
@@ -43266,18 +43282,18 @@ rhS
 rhS
 rhS
 rhS
-agl
-aho
-aho
-iaP
-iaP
-aho
+awH
+awJ
+awJ
+awI
+awI
+awJ
 awB
-agl
-aho
-iaP
-iaP
-agl
+awH
+awJ
+awI
+awI
+awH
 qWQ
 ahi
 ahi
@@ -43438,18 +43454,18 @@ rhS
 rhS
 rhS
 rhS
-agl
-aho
-aho
-aho
-aho
-aho
+awH
+awJ
+awJ
+awJ
+awJ
+awJ
 awB
-agl
+awH
 awA
-iaP
+awI
 asJ
-agl
+awH
 qWQ
 ahi
 ahi
@@ -43610,18 +43626,18 @@ rhS
 rhS
 rhS
 rhS
-agl
-agl
+awH
+awH
 awD
 awD
 awD
-agl
-agl
-agl
-iaP
+awH
+awH
+awH
+awI
 atv
-aho
-agl
+awJ
+awH
 qWQ
 qWQ
 qWQ
@@ -43788,12 +43804,12 @@ rhS
 rhS
 rhS
 rhS
-agl
-agl
-agl
-agl
-agl
-agl
+awH
+awH
+awH
+awH
+awH
+awH
 rhS
 rhS
 rhS
