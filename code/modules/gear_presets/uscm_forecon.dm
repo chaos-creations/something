@@ -4,9 +4,8 @@
 	paygrades = list(PAY_SHORT_ME5 = JOB_PLAYTIME_TIER_0)
 	idtype = /obj/item/card/id/dogtag
 	role_comm_title = "FORECON"
-	faction_group = FACTION_LIST_UA
+	faction = FACTION_SCAV
 	flags = EQUIPMENT_PRESET_EXTRA|EQUIPMENT_PRESET_MARINE
-	auto_squad_name = SQUAD_FORECON
 
 /datum/equipment_preset/uscm/forecon/New()
 	. = ..()
@@ -22,11 +21,11 @@
 	var/random_gun = rand(1,3)
 	switch(random_gun)
 		if(1 , 2)
-			new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/rifle/m41aMK1/forecon/preloaded(new_human), WEAR_L_HAND)
-			new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/storage/webbing/m3/recon/mk1(new_human), WEAR_ACCESSORY)
+			new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/rifle/m41a(new_human), WEAR_L_HAND)
+			new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/storage/webbing/m3/recon/mk2(new_human), WEAR_ACCESSORY)
 		if(3)
-			new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/rifle/m49a/forecon(new_human), WEAR_L_HAND)
-			new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/storage/webbing/m3/recon/m49(new_human), WEAR_ACCESSORY) //Basic model is not great with basic rounds, some HEAP makes it not quite as bad
+			new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/rifle/m41a(new_human), WEAR_L_HAND)
+			new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/storage/webbing/m3/recon/mk2(new_human), WEAR_ACCESSORY)
 
 /datum/equipment_preset/uscm/forecon/proc/spawn_random_headgear(mob/living/carbon/human/new_human)
 	var/i = rand(1,10)
@@ -219,7 +218,7 @@
 	add_forecon_uniform(new_human)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/ranks/marine/o1(new_human), WEAR_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/firstaid/full/alternate(new_human), WEAR_L_STORE)
-	new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/rifle/m41aMK1/tactical(new_human), WEAR_R_HAND)
+	new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/rifle/m41a/tactical(new_human), WEAR_R_HAND)
 	new_human.equip_to_slot_or_del(new /obj/item/storage/backpack/marine/satchel(new_human), WEAR_BACK)
 	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/firstaid/full(new_human), WEAR_R_STORE)
 	new_human.equip_to_slot_or_del(new /obj/item/reagent_container/food/drinks/flask/marine(new_human), WEAR_IN_ACCESSORY)

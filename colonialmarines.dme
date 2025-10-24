@@ -2112,6 +2112,7 @@
 #include "code\modules\mob\living\carbon\human\ai\ai_spawner\ai_presets_colonist.dm"
 #include "code\modules\mob\living\carbon\human\ai\ai_spawner\ai_presets_contractor.dm"
 #include "code\modules\mob\living\carbon\human\ai\ai_spawner\ai_presets_elite_mercs.dm"
+#include "code\modules\mob\living\carbon\human\ai\ai_spawner\ai_presets_forecon.dm"
 #include "code\modules\mob\living\carbon\human\ai\ai_spawner\ai_presets_freelancer.dm"
 #include "code\modules\mob\living\carbon\human\ai\ai_spawner\ai_presets_malfunction_synthetic.dm"
 #include "code\modules\mob\living\carbon\human\ai\ai_spawner\ai_presets_mercs.dm"
