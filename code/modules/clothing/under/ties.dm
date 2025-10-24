@@ -1764,15 +1764,6 @@
 	new /obj/item/ammo_magazine/rifle/m41aMK1(src)
 	new /obj/item/ammo_magazine/rifle/m41aMK1(src)
 
-/obj/item/clothing/accessory/storage/webbing/m3/recon/mk2
-	hold = /obj/item/storage/internal/accessory/webbing/m3mag/recon/mk2
-
-/obj/item/storage/internal/accessory/webbing/m3mag/recon/mk2/fill_preset_inventory()
-	new /obj/item/ammo_magazine/rifle(src)
-	new /obj/item/ammo_magazine/rifle(src)
-	new /obj/item/ammo_magazine/rifle(src)
-	new /obj/item/ammo_magazine/rifle(src)
-
 /obj/item/clothing/accessory/storage/webbing/m3/recon/m49
 	hold = /obj/item/storage/internal/accessory/webbing/m3mag/recon/m49
 
