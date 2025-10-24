@@ -387,10 +387,14 @@
 /area/galleyburned/residential)
 "eZ" = (
 /obj/item/prop/tableflag{
-	pixel_x = 6;
+	pixel_x = 0;
 	pixel_y = 15
 	},
 /obj/structure/machinery/prop/almayer/CICmap/table/horizontal/segment/five,
+/obj/item/pamphlet/skill/specialization/sniper{
+	pixel_x = 14;
+	pixel_y = 4
+	},
 /turf/open/floor/plating/plating_catwalk,
 /area/galleyburned/briefing)
 "fg" = (
@@ -519,21 +523,12 @@
 	},
 /area/galleyburned/residential)
 "gX" = (
-/obj/structure/surface/table/almayer,
-/obj/item/reagent_container/syringe/drugs,
-/obj/item/reagent_container/syringe/drugs,
-/obj/item/reagent_container/syringe/drugs,
+/obj/effect/decal/cleanable/dirt,
 /obj/item/reagent_container/syringe/drugs{
-	pixel_y = -4
+	pixel_y = 14
 	},
-/obj/item/reagent_container/syringe/drugs{
-	pixel_y = 11
-	},
-/obj/item/reagent_container/syringe/drugs{
-	pixel_y = 6
-	},
-/turf/open/floor/almayer/plate,
-/area/galleyburned/canteen)
+/turf/open/floor/plating,
+/area/galleyburned/maint)
 "gY" = (
 /turf/closed/shuttle/midway{
 	icon_state = "81"
@@ -1047,6 +1042,14 @@
 /area/galleyburned/residential)
 "ns" = (
 /obj/structure/machinery/prop/almayer/CICmap/table/horizontal/segment/two,
+/obj/item/pamphlet/skill/specialization{
+	pixel_x = 11;
+	pixel_y = 16
+	},
+/obj/item/pamphlet/skill/specialization{
+	pixel_x = 12;
+	pixel_y = 19
+	},
 /turf/open/floor/plating/plating_catwalk,
 /area/galleyburned/briefing)
 "nv" = (
@@ -1411,12 +1414,12 @@
 	},
 /area/galleyburned/residential)
 "tm" = (
-/obj/structure/window/framed/almayer,
-/obj/structure/sign/banners/happybirthdayevan{
-	pixel_y = 8
+/obj/item/reagent_container/syringe/drugs{
+	pixel_y = 15;
+	pixel_x = -8
 	},
-/turf/open/floor/almayer,
-/area/galleyburned/canteen)
+/turf/open/floor/plating,
+/area/galleyburned/maint)
 "tn" = (
 /obj/structure/flora/pottedplant/random,
 /turf/open/floor/almayer/plate,
@@ -2209,13 +2212,6 @@
 /area/galleyburned/prep)
 "EK" = (
 /obj/structure/surface/table/almayer,
-/obj/structure/reagent_dispensers/beerkeg/alt{
-	pixel_y = 8
-	},
-/obj/item/storage/box/cups{
-	pixel_y = 1;
-	pixel_x = -8
-	},
 /turf/open/floor/almayer/plate,
 /area/galleyburned/canteen)
 "EM" = (
@@ -2267,10 +2263,11 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/galleyburned/requisition)
 "Fv" = (
-/obj/structure/surface/table/almayer,
-/obj/item/reagent_container/food/snacks/sliceable/birthdaycake,
-/turf/open/floor/almayer/plate,
-/area/galleyburned/canteen)
+/obj/structure/sign/banners/happybirthdayevan{
+	pixel_y = 8
+	},
+/turf/closed/wall/almayer/outer,
+/area/galleyburned/maint)
 "FB" = (
 /obj/structure/machinery/light/double/blue/golden_arrow{
 	light_power = 0.7
@@ -2386,6 +2383,30 @@
 /area/galleyburned/hangar)
 "Hq" = (
 /obj/structure/machinery/prop/almayer/CICmap/table/horizontal/segment/six,
+/obj/item/pamphlet/skill/specialization/astl{
+	pixel_x = -7;
+	pixel_y = 5
+	},
+/obj/item/pamphlet/skill/specialization/machinegunner{
+	pixel_x = 4;
+	pixel_y = 5
+	},
+/obj/item/pamphlet/skill/specialization/comtech{
+	pixel_x = 0;
+	pixel_y = 9
+	},
+/obj/item/pamphlet/skill/specialization/pointman{
+	pixel_x = -11;
+	pixel_y = 9
+	},
+/obj/item/pamphlet/skill/specialization/supmed{
+	pixel_x = -5;
+	pixel_y = 12
+	},
+/obj/item/pamphlet/skill/specialization/vehcrew{
+	pixel_x = -4;
+	pixel_y = 15
+	},
 /turf/open/floor/plating/plating_catwalk,
 /area/galleyburned/briefing)
 "HG" = (
@@ -4176,7 +4197,7 @@ Jb
 Jb
 Jb
 Jb
-Jf
+Fv
 gH
 gH
 gH
@@ -4229,7 +4250,7 @@ Jb
 Jb
 Jb
 Jf
-gH
+gX
 XD
 XD
 XD
@@ -4281,7 +4302,7 @@ Jb
 Jb
 Jb
 Jf
-Te
+tm
 XD
 Cm
 hf
@@ -4307,7 +4328,7 @@ mX
 sm
 ny
 OY
-tm
+pL
 yO
 yE
 xv
@@ -4363,7 +4384,7 @@ hF
 pT
 yE
 xv
-Fv
+EK
 vg
 xv
 UR
@@ -4467,7 +4488,7 @@ AJ
 qX
 yE
 xv
-gX
+EK
 vg
 xv
 Qb
@@ -4597,7 +4618,7 @@ Jb
 Jb
 Jb
 Jf
-UZ
+Te
 XD
 Tp
 ea
