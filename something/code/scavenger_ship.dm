@@ -4,11 +4,11 @@
 	ceiling = CEILING_HULL_METAL
 	powernet_name = "golden_arrow"
 	sound_environment = SOUND_ENVIRONMENT_ROOM
-	soundscape_playlist = AMBIENCE_SHIP
-//	soundscape_playlist = SCAPE_PL_SCAVENGER
+//	soundscape_playlist = AMBIENCE_SHIP
+	soundscape_playlist = SCAPE_PL_SCAVENGER
 	soundscape_interval = 60
-	ambience_exterior = AMBIENCE_LAB
-//	ambience_exterior = AMBIENCE_SHIP_SCAVENGER
+//	ambience_exterior = AMBIENCE_LAB
+	ambience_exterior = AMBIENCE_SHIP_SCAVENGER
 	ceiling_muffle = FALSE
 
 /area/scavenger_ship/cryo_deck

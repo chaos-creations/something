@@ -1,3 +1,4 @@
+/*
 /mob/living/carbon/human/verb/roll_dice_ic()
 	set category = "IC"
 	set name = "Roll Dice"
@@ -28,7 +29,7 @@
 	message_admins("[src] rolled a dice: [(action_text && length(action_text)) ? action_text : "no action"] → [result] [ADMIN_JMP(src)]", 1)
 
 	return result
-
+*/
 /client/proc/roll_dices()
 	set name = "God's Dice"
 	set category = "Game Master"

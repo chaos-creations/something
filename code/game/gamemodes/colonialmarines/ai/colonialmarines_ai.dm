@@ -26,7 +26,7 @@
 
 	static_comms_amount = 0
 	requires_comms = FALSE
-	toggleable_flags = MODE_NO_JOIN_AS_XENO|MODE_HARDCORE_PERMA|MODE_DISABLE_FS_PORTRAIT
+	toggleable_flags = MODE_NO_JOIN_AS_XENO|MODE_DISABLE_FS_PORTRAIT
 
 /datum/game_mode/colonialmarines/ai/can_start()
 	return ..()
@@ -125,7 +125,6 @@ GLOBAL_LIST_INIT(platoon_to_jobs, list(/datum/squad/marine/alpha = list(/datum/j
 		/datum/squad/marine/extraction = list(
 		/datum/job/marine/leader/ai/extraction = JOB_SQUAD_LEADER,\
 		/datum/job/marine/medic/ai/extraction = JOB_SQUAD_MEDIC,\
-		/datum/equipment_preset/uscm/tl/extraction = JOB_SQUAD_TEAM_LEADER,\
 		/datum/job/marine/standard/ai/extraction = JOB_SQUAD_MARINE),\
 		/datum/job/civilian/synthetic/ai = JOB_SYNTH,\
 		/datum/squad/marine/rmc = list(/datum/job/command/bridge/ai/rmc = JOB_TWE_RMC_LIEUTENANT,\
