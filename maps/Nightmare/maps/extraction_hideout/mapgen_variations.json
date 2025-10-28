@@ -1,5 +1,4 @@
 [
 	{ "type": "map_sprinkle", "path": "sprinkles/" },
-    { "type": "map_variations",   "landmark": "trader",       "path": "trader/",                                "chance": 0.2 },
     { "type": "map_variations",   "landmark": "prep_other",          "path": "prep/",                                   "chance": 0.3 }
 ]
