@@ -462,118 +462,62 @@
 
 // evil stanki //
 
-/obj/structure/ammunition_fabricator
+/obj/structure/machinery/ammunition_fabricator
 	name = "ammunition fabricator"
 	desc = "An old ammunition fabricator that runs on a good word, it seems to have a limited number of charges."
-	icon = 'something/icons/missed_stuff.dmi'
-	icon_state = "os_autolathe"
+	icon_state = "armylathe"
+	var/base_state = "armylathe"
 	density = TRUE
 	anchored = TRUE
 
-	var/max_points = 4
-	var/current_points = 4
-	var/current_tab = "ammo" // "ammo", "magazines", "shells", "revolver"
-	var/fixed_category = null  // stores a category that has already been repaired
+	var/max_points = 2
+	var/current_points = 2
+	var/current_tab = "USCM" // "USCM", "UPP", "Outer Rim", "Small Arms"
 	var/is_busy = FALSE
 
 	/// Recipe list: [name] = list(type, price, quantity, category)
 	var/list/recipes = list(
-		// round box
-		"Rifle Ammo box (10x24mm)" = list(/obj/item/ammo_box/rounds, 3, 1, "ammo"),
-		"Rifle Ammo box (5.56x45mm)" = list(/obj/item/ammo_box/rounds/m16, 3, 1, "ammo"),
-		"Rifle Ammo Box (8.8x29mm)" = list(/obj/item/ammo_box/rounds/mar, 3, 1 , "ammo"),
-		"SMG Ammo Box (9mm)" = list(/obj/item/ammo_box/rounds/smg, 3, 1, "ammo"),
-		// handgun
-		"Pistol magazines (VP70, 9x19mm)" = list(/obj/item/ammo_magazine/pistol/vp70, 1, 3, "magazines"),
-		"Pistol magazines, Extended (VP70, 9x19mm)" = list(/obj/item/ammo_magazine/pistol/vp70/extended, 1, 2, "magazines"),
-		"Pistol magazines (M4A3, 9x19mm)" = list(/obj/item/ammo_magazine/pistol, 1, 3, "magazines"),
-		"Pistol magazines (M1911, .45)" = list(/obj/item/ammo_magazine/pistol/m1911, 1, 3, "magazines"),
-		"Pistol magazines (VP78, 9x19mm)" = list(/obj/item/ammo_magazine/pistol/vp78, 1, 2, "magazines"),
-		"Pistol magazines, Armor-Piercing (VP70, 9x19mm)" = list(/obj/item/ammo_magazine/pistol/vp70/ap, 2, 2, "magazines"),
-		"Pistol magazines, Incendiary (VP70, 9x19mm)" = list(/obj/item/ammo_magazine/pistol/vp70/incendiary, 2, 2, "magazines"),
-		"Revolver speed loader (M44, .44)" = list(/obj/item/ammo_magazine/revolver, 1, 3, "revolver"),
-		"Revolver speed loader, Heavy (M44, .44)" = list(/obj/item/ammo_magazine/revolver/heavy, 2, 3, "revolver"),
-		// main weapon
-		"Rifle magazines (AR-10, 9mm)" = list(/obj/item/ammo_magazine/rifle/ar10, 1, 2, "magazines"),
-		"Rifle magazines (M16, 5.56x45mm)" = list(/obj/item/ammo_magazine/rifle/m16, 1, 2, "magazines"),
-		"Rifle magazines, Extended (M16, 5.56x45mm)" = list(/obj/item/ammo_magazine/rifle/m16/extended, 2, 2, "magazines"),
-		"Rifle magazines, (MAR-40, 8.8x29mm)" = list(/obj/item/ammo_magazine/rifle/mar40, 1, 2, "magazines"),
-		"Rifle magazines, Extended (MAR-40, 8.8x29mm)" = list(/obj/item/ammo_magazine/rifle/mar40/extended, 2, 2, "magazines"),
-		"Rifle magazines, (ABR-40, 10x24mm)" = list(/obj/item/ammo_magazine/rifle/l42a/abr40, 1, 2, "magazines"),
-		"SMG magazines (MAC-15, 9mm)" = list(/obj/item/ammo_magazine/smg/mac15, 1, 3, "magazines"),
-		"SMG magazines, Extended (MAC-15, 9mm)" = list(/obj/item/ammo_magazine/smg/mac15/extended, 1, 3, "magazines"),
-		"SMG magazines (UZI, 9x21mm)" = list(/obj/item/ammo_magazine/smg/uzi, 1, 3, "magazines"),
-		"SMG magazines, Extended (UZI, 9x21mm)" = list(/obj/item/ammo_magazine/smg/uzi/extended, 2, 2, "magazines"),
-		"SMG magazines (Viper 9, 9mm)" = list(/obj/item/ammo_magazine/smg/m39, 1, 3, "magazines"),
-		"SMG magazines, Extended (Viper 9, 9mm)" = list(/obj/item/ammo_magazine/smg/m39/extended, 2, 2, "magazines"),
-		"SMG magazines, Armor-Piercing (Viper 9, 9mm)" = list(/obj/item/ammo_magazine/smg/m39/ap, 2, 2, "magazines"),
-		// shotgun
-		"Ammo Packet, Slugs (12g)" = list(/obj/item/ammo_magazine/shotgun, 1, 2, "shells"),
-		"Ammo Packet, Buckshot (12g)" = list(/obj/item/ammo_magazine/shotgun/buckshot, 1, 2, "shells"),
-		"Ammo Packet, Flechette (12g)" = list(/obj/item/ammo_magazine/shotgun/flechette, 2, 2, "shells"),
+		// USCM
+		"Rifle magazine (M41A-MK2, 10x24mm)" = list(/obj/item/ammo_magazine/rifle, 1, 1, "USCM"),
+		"Rifle magazine (M20A, 10x24mm)" = list(/obj/item/ammo_magazine/rifle/m20a, 1, 1, "USCM"),
+		"Rifle magazine (L42A, 10x24mm)" = list(/obj/item/ammo_magazine/rifle/l42a, 1, 1, "USCM"),
+		"Rifle magazine (M49A, 10x28mm)" = list(/obj/item/ammo_magazine/rifle/m49a, 1, 1, "USCM"),
+		"SMG magazine (Viper 9, 9mm)" = list(/obj/item/ammo_magazine/smg/m39, 1, 1, "USCM"),
+		// UPP
+		"Rifle magazine (Type 71, 10x27mm)" = list(/obj/item/ammo_magazine/rifle/type71, 1, 1, "UPP"),
+		"Rifle magazine (LW-317, 6x38mm)" = list(/obj/item/ammo_magazine/rifle/lw317, 1, 1, "UPP"),
+		"SMG helical magazine (Type 64, 7.62x19mm)" = list(/obj/item/ammo_magazine/smg/bizon, 1, 1, "UPP"),
+		"SMG stick magazine (Type-19, 7.62x25mm)" = list(/obj/item/ammo_magazine/smg/pps43, 1, 1, "UPP"),
+		"SMG drum magazine (Type-19, 7.62x25mm)" = list(/obj/item/ammo_magazine/smg/pps43/extended, 1, 2, "UPP"),
+		"SMG stick magazine (PPSh-17b, 7.62x25mm)" = list(/obj/item/ammo_magazine/smg/ppsh, 1, 1, "UPP"),
+		"SMG drum magazine (PPSh-17b, 7.62x25mm)" = list(/obj/item/ammo_magazine/smg/ppsh/extended, 1, 2, "UPP"),
+		// Outer Rim
+		"Rifle magazine (M16, 5.56x45mm)" = list(/obj/item/ammo_magazine/rifle/m16, 1, 1, "Outer Rim"),
+		"Rifle magazine (AR-10, 7.62x51mm)" = list(/obj/item/ammo_magazine/rifle/ar10, 1, 1, "Outer Rim"),
+		"Rifle magazine (MAR-40, 8.8x29mm)" = list(/obj/item/ammo_magazine/rifle/mar40, 1, 1, "Outer Rim"),
+		"Rifle magazine, Extended (MAR-40, 8.8x29mm)" = list(/obj/item/ammo_magazine/rifle/mar40/extended, 1, 2, "Outer Rim"),
+		"Rifle magazine (ABR-40, 10x24mm)" = list(/obj/item/weapon/gun/rifle/l42a/abr40, 1, 1, "Outer Rim"),
+		"SMG magazine (MP27, 4.6x30mm)" = list(/obj/item/ammo_magazine/smg/mp27, 1, 1, "Outer Rim"),
+		"SMG magazine (FN FP9000, 5.7x28mm)" = list(/obj/item/ammo_magazine/smg/fp9000, 1, 1, "Outer Rim"),
+		"SMG magazine (MP5, 9mm)" = list(/obj/item/ammo_magazine/smg/mp5, 1, 1, "Outer Rim"),
+		"Ammo Packet, Slugs (12g)" = list(/obj/item/ammo_magazine/shotgun, 1, 1, "Outer Rim"),
+		"Ammo Packet, Buckshot (12g)" = list(/obj/item/ammo_magazine/shotgun/buckshot, 1, 1, "Outer Rim"),
+		// Small Arms
+		"Pistol magazines (M4A3, 9x19mm)" = list(/obj/item/ammo_magazine/pistol, 1, 3, "Small Arms"),
+		"Pistol magazines (VP70, 9x19mm)" = list(/obj/item/ammo_magazine/pistol/vp70, 1, 3, "Small Arms"),
+		"Pistol magazines (VP78, 9x19mm)" = list(/obj/item/ammo_magazine/pistol/vp78, 1, 3, "Small Arms"),
+		"Pistol magazines (M1911, .45)" = list(/obj/item/ammo_magazine/pistol/m1911, 1, 3, "Small Arms"),
+		"Pistol magazines (HG-45, .45)" = list(/obj/item/ammo_magazine/pistol/highpower, 1, 3, "Small Arms"),
+		"Revolver speed loader (Spearhead, .357)" = list(/obj/item/ammo_magazine/revolver/spearhead, 1, 3, "Small Arms"),
+		"Revolver speed loader (M44, .44)" = list(/obj/item/ammo_magazine/revolver, 1, 3, "Small Arms"),
 	)
 
-	var/list/broken_recipes = list()
-
-/obj/structure/ammunition_fabricator/Initialize()
-	. = ..()
-	update_broken_recipes()
-
-/obj/structure/ammunition_fabricator/proc/glitch_text(text)
-	var/glitched = ""
-	for(var/i = 1, i <= length(text), i++)
-		var/char = copytext(text, i, i+1)
-		if(prob(25))
-			char = pick("#", "%", "&", "~", "@", "¤", "§", "µ", "ø", "þ", "æ", "÷", "×", "¤", "¿", "¡", "¶", "£", "¢", "¥", "¤", "Φ", "Ξ", "╳", "Δ", "Ω")
-		glitched += char
-	return glitched
-
-/obj/structure/ammunition_fabricator/proc/update_broken_recipes()
-	broken_recipes = list(
-		"ammo" = list(),
-		"magazines" = list(),
-		"shells" = list(),
-		"revolver" = list(),
-	)
-
-	for(var/category in broken_recipes)
-		var/list/available = list()
-		for(var/name in recipes)
-			var/data = recipes[name]
-			if(data[4] == category)
-				available += name
-
-		if(!length(available))
-			continue
-
-		// base chance of breakage (depending on the number of recipes)
-		// the more recipes, the higher the chance, but the maximum is 60%.
-		var/prob_broken = 0.15 + (length(available) * 0.02)
-		prob_broken = clamp(prob_broken, 0.25, 0.6)
-
-		// calculating the number of broken recipes
-		var/num_broken = round(length(available) * prob_broken)
-
-		// at least one recipe must be broken, if there are very few of them
-		if(num_broken == 0 && prob(80))
-			num_broken = 1
-
-		// sometimes the old mechanism breaks even a little more
-		if(prob(15))
-			num_broken += 1
-
-		// determine which recipes will be broken
-		while(num_broken-- > 0 && length(available) > 0)
-			var/pickname = pick(available)
-			broken_recipes[category] += pickname
-			available -= pickname
-
-/obj/structure/ammunition_fabricator/attack_hand(mob/user)
+/obj/structure/machinery/ammunition_fabricator/attack_hand(mob/user)
 	if(!Adjacent(user) || usr.stat)
 		return
 	ui_open(user)
 
-/obj/structure/ammunition_fabricator/proc/ui_open(mob/user)
+/obj/structure/machinery/ammunition_fabricator/proc/ui_open(mob/user)
 	if(is_busy)
 		user << browse("<html><body><h3 style='text-align:center; color:red;'>Fabricator busy...</h3></body></html>", "window=ammunition_fabricator;size=300x100")
 		return
@@ -583,107 +527,41 @@
 	html += "<p style='text-align:center;'>Fabrication points: <b>[current_points]</b> / [max_points]</p>"
 
 	html += "<div style='text-align:center; margin-bottom:8px;'>"
-	html += "<a href='?src=\ref[src];tab=ammo' style='color:[current_tab=="ammo"?"#80ff80":"#888"]; text-decoration:none; margin-right:10px;'>Ammo Boxes</a>"
-	html += "<a href='?src=\ref[src];tab=magazines' style='color:[current_tab=="magazines"?"#80ff80":"#888"]; text-decoration:none; margin-right:10px;'>Magazines</a>"
-	html += "<a href='?src=\ref[src];tab=shells' style='color:[current_tab=="shells"?"#80ff80":"#888"]; text-decoration:none; margin-right:10px;'>Shells</a>"
-	html += "<a href='?src=\ref[src];tab=revolver' style='color:[current_tab=="revolver"?"#80ff80":"#888"]; text-decoration:none;'>Speed Loaders</a>"
+	html += "<a href='?src=\ref[src];tab=USCM' style='color:[current_tab=="USCM"?"#80ff80":"#888"]; text-decoration:none; margin-right:10px;'>USCM</a>"
+	html += "<a href='?src=\ref[src];tab=UPP' style='color:[current_tab=="UPP"?"#80ff80":"#888"]; text-decoration:none; margin-right:10px;'>UPP</a>"
+	html += "<a href='?src=\ref[src];tab=Outer Rim' style='color:[current_tab=="Outer Rim"?"#80ff80":"#888"]; text-decoration:none; margin-right:10px;'>Outer Rim</a>"
+	html += "<a href='?src=\ref[src];tab=Small Arms' style='color:[current_tab=="Small Arms"?"#80ff80":"#888"]; text-decoration:none;'>Small Arms</a>"
 	html += "</div><hr style='border:1px solid #444;'>"
 
 	html += "<table style='width:100%; border-collapse:collapse;'>"
 	html += "<tr style='color:#aaaaaa;'>"
 	html += "<th align='left'>Item</th><th align='right'>Cost</th><th align='center'>Quantity</th><th align='center'>Action</th></tr>"
 
-	var/total = 0
-	var/broken = 0
-
 	for(var/name in recipes)
 		var/data = recipes[name]
-		var/category = data[4]
-		if(category != current_tab)
+		if(data[4] != current_tab)
 			continue
-		total++
-		if(name in broken_recipes[current_tab])
-			broken++
 
 		var/cost = data[2]
-		var/is_broken = (name in broken_recipes[current_tab])
-
 		html += "<tr style='border-bottom:1px solid #333;'>"
-		if(is_broken)
-			var/glitched = glitch_text(name)
-			var/glitch_status = glitch_text("(ERROR)")
-			html += "<td style='color:#993333;'>[glitched]</td>"
-			html += "<td align='right'>???</td>"
-			html += "<td align='center'><span style='color:#663333;'>[glitch_status]</span></td>"
-			html += "<td align='center'><span style='color:#663333;'>N/A</span></td>"
+		html += "<td>[name]</td>"
+		html += "<td align='right'>[cost]</td>"
+		html += "<td align='center'>[data[3]]</td>"
+		if(current_points >= cost)
+			html += "<td align='center'><a href='?src=\ref[src];make=[name]' style='color:#80ff80; text-decoration:none;'>Fabricate</a></td>"
 		else
-			html += "<td>[name]</td>"
-			html += "<td align='right'>[cost]</td>"
-			html += "<td align='center'>[data[3]]</td>"
-			if(current_points >= cost)
-				html += "<td align='center'><a href='?src=\ref[src];make=[name]' style='color:#80ff80; text-decoration:none;'>Fabricate</a></td>"
-			else
-				html += "<td align='center'><span style='color:#888;'>Insufficient</span></td>"
+			html += "<td align='center'><span style='color:#888;'>Insufficient</span></td>"
 		html += "</tr>"
 
 	html += "</table><hr style='border:1px solid #444;'>"
-
-	// calculation of the degree of damage
-	var/integrity = round(((total - broken) / max(1, total)) * 100)
-	var/status_color = (integrity >= 80 ? "#80ff80" : integrity >= 50 ? "#ffff80" : "#ff6666")
-	html += "<p style='text-align:center; color:[status_color]; font-size:14px;'>System Integrity: [integrity]%"
-	if(broken)
-		html += " | Critical Data Loss Detected"
-	html += "</p>"
-
-	if(fixed_category)
-		html += "<p style='text-align:center; color:#999;'>Repair system used on: <b>[fixed_category]</b> tab</p>"
-
-	html += "<p style='text-align:center;'><i>There is a note visible on the edge of the machine interface screen that says 'refurbished batch number ###'.</i></p>"
 	html += "</body></html>"
 
 	user << browse(html, "window=ammunition_fabricator;size=640x640")
 
-
-/obj/structure/ammunition_fabricator/attackby(obj/item/W, mob/user)
-	if(HAS_TRAIT(W, TRAIT_TOOL_MULTITOOL) || ispath(W, /obj/item/device/multitool))
-		var/category = current_tab
-
-		// prohibit repeated repairs altogether
-		if(fixed_category)
-			to_chat(user, "<span class='warning'>The repair subsystem has already been activated for the [fixed_category] tab. Further access is locked.</span>")
-			return TRUE
-
-		var/list/broken = broken_recipes[category]
-		if(!length(broken))
-			to_chat(user, "<span class='notice'>Nothing appears corrupted in the [category] tab.</span>")
-			return TRUE
-
-		to_chat(user, "<span class='notice'>You start repairing the [category] system...</span>")
-		playsound(src, 'sound/machines/scanning.ogg', 30, TRUE)
-
-		if(!do_after(user, rand(3, 6) SECONDS, INTERRUPT_ALL|BEHAVIOR_IMMOBILE, BUSY_ICON_BUILD))
-			to_chat(user, "<span class='warning'>You stop repairing the fabricator.</span>")
-			return FALSE
-
-		var/n_total = length(broken)
-		var/restore_fraction = rand(25, 60) / 100
-		var/restore_count = max(1, round(n_total * restore_fraction)) // restores 25–60%
-
-		for(var/i = 1 to restore_count)
-			var/which = pick(broken)
-			broken_recipes[category] -= which
-
-		fixed_category = category
-		playsound(src, 'sound/machines/switch.ogg', 35, TRUE)
-		to_chat(user, "<span class='notice'>Repair complete — restored [restore_count] recipe(s) in [category].</span>")
-
-		ui_open(user)
-		return TRUE
-
+/obj/structure/machinery/ammunition_fabricator/attackby(obj/item/W, mob/user)
 	return ..()
 
-/obj/structure/ammunition_fabricator/Topic(href, href_list)
+/obj/structure/machinery/ammunition_fabricator/Topic(href, href_list)
 	. = ..()
 	if(is_busy)
 		to_chat(usr, "<span class='warning'>Fabricator is busy. Please wait...</span>")
@@ -695,20 +573,10 @@
 		return
 
 	if(href_list["make"])
-		if(is_busy)
-			to_chat(usr, "<span class='warning'>Fabricator is busy. Please wait...</span>")
-			return
-
 		is_busy = TRUE
 		var/choice = href_list["make"]
 		var/list/data = recipes[choice]
 		if(!data)
-			is_busy = FALSE
-			return
-
-		var/category = data[4]
-		if(choice in broken_recipes[category])
-			to_chat(usr, "<span class='warning'>ERROR: Fabrication data corrupted — cannot print [choice].</span>")
 			is_busy = FALSE
 			return
 
@@ -728,21 +596,18 @@
 
 		current_points -= cost
 		to_chat(usr, "<span class='notice'>Fabricator is printing [choice]...</span>")
+		icon_state = "[base_state]_n"
 		playsound(src, 'sound/machines/print.ogg', 25, TRUE)
-
 		sleep(rand(30, 60))
-
 		playsound(src, 'sound/machines/print_off.ogg', 25, TRUE)
+		icon_state = "[base_state]"
+
 		for(var/i in 1 to amount)
 			var/obj/item/I = new typepath(get_turf(src))
 			if(istype(I, /obj/item/ammo_magazine))
 				var/obj/item/ammo_magazine/M = I
-				M.current_rounds = rand(5, M.max_rounds)
+				M.current_rounds = M.max_rounds
 				M.update_icon()
-			else if(istype(I, /obj/item/ammo_box/rounds))
-				var/obj/item/ammo_box/rounds/B = I
-				B.bullet_amount = rand(100, B.max_bullet_amount)
-				B.update_icon()
 
 		to_chat(usr, "<span class='notice'>The fabricator produces [amount]x [choice].</span>")
 		to_chat(usr, "<span class='notice'>Fabricator points left: [current_points]/[max_points]</span>")
