@@ -470,8 +470,8 @@
 	density = TRUE
 	anchored = TRUE
 
-	var/max_points = 2
-	var/current_points = 2
+	var/max_points = 4
+	var/current_points = 4
 	var/current_tab = "USCM" // "USCM", "UPP", "Outer Rim", "Small Arms"
 	var/is_busy = FALSE
 
@@ -488,9 +488,9 @@
 		"Rifle magazine (LW-317, 6x38mm)" = list(/obj/item/ammo_magazine/rifle/lw317, 1, 1, "UPP"),
 		"SMG helical magazine (Type 64, 7.62x19mm)" = list(/obj/item/ammo_magazine/smg/bizon, 1, 1, "UPP"),
 		"SMG stick magazine (Type-19, 7.62x25mm)" = list(/obj/item/ammo_magazine/smg/pps43, 1, 1, "UPP"),
-		"SMG drum magazine (Type-19, 7.62x25mm)" = list(/obj/item/ammo_magazine/smg/pps43/extended, 1, 2, "UPP"),
+		"SMG drum magazine (Type-19, 7.62x25mm)" = list(/obj/item/ammo_magazine/smg/pps43/extended, 2, 1, "UPP"),
 		"SMG stick magazine (PPSh-17b, 7.62x25mm)" = list(/obj/item/ammo_magazine/smg/ppsh, 1, 1, "UPP"),
-		"SMG drum magazine (PPSh-17b, 7.62x25mm)" = list(/obj/item/ammo_magazine/smg/ppsh/extended, 1, 2, "UPP"),
+		"SMG drum magazine (PPSh-17b, 7.62x25mm)" = list(/obj/item/ammo_magazine/smg/ppsh/extended, 2, 1, "UPP"),
 		// Outer Rim
 		"Rifle magazine (M16, 5.56x45mm)" = list(/obj/item/ammo_magazine/rifle/m16, 1, 1, "Outer Rim"),
 		"Rifle magazine (AR-10, 7.62x51mm)" = list(/obj/item/ammo_magazine/rifle/ar10, 1, 1, "Outer Rim"),
@@ -503,13 +503,13 @@
 		"Ammo Packet, Slugs (12g)" = list(/obj/item/ammo_magazine/shotgun, 1, 1, "Outer Rim"),
 		"Ammo Packet, Buckshot (12g)" = list(/obj/item/ammo_magazine/shotgun/buckshot, 1, 1, "Outer Rim"),
 		// Small Arms
-		"Pistol magazines (M4A3, 9x19mm)" = list(/obj/item/ammo_magazine/pistol, 1, 3, "Small Arms"),
-		"Pistol magazines (VP70, 9x19mm)" = list(/obj/item/ammo_magazine/pistol/vp70, 1, 3, "Small Arms"),
-		"Pistol magazines (VP78, 9x19mm)" = list(/obj/item/ammo_magazine/pistol/vp78, 1, 3, "Small Arms"),
-		"Pistol magazines (M1911, .45)" = list(/obj/item/ammo_magazine/pistol/m1911, 1, 3, "Small Arms"),
-		"Pistol magazines (HG-45, .45)" = list(/obj/item/ammo_magazine/pistol/highpower, 1, 3, "Small Arms"),
-		"Revolver speed loader (Spearhead, .357)" = list(/obj/item/ammo_magazine/revolver/spearhead, 1, 3, "Small Arms"),
-		"Revolver speed loader (M44, .44)" = list(/obj/item/ammo_magazine/revolver, 1, 3, "Small Arms"),
+		"Pistol magazines (M4A3, 9x19mm)" = list(/obj/item/ammo_magazine/pistol, 1, 2, "Small Arms"),
+		"Pistol magazines (VP70, 9x19mm)" = list(/obj/item/ammo_magazine/pistol/vp70, 1, 2, "Small Arms"),
+		"Pistol magazines (VP78, 9x19mm)" = list(/obj/item/ammo_magazine/pistol/vp78, 1, 2, "Small Arms"),
+		"Pistol magazines (M1911, .45)" = list(/obj/item/ammo_magazine/pistol/m1911, 1, 2, "Small Arms"),
+		"Pistol magazines (HG-45, .45)" = list(/obj/item/ammo_magazine/pistol/highpower, 1, 2, "Small Arms"),
+		"Revolver speed loader (Spearhead, .357)" = list(/obj/item/ammo_magazine/revolver/spearhead, 1, 2, "Small Arms"),
+		"Revolver speed loader (M44, .44)" = list(/obj/item/ammo_magazine/revolver, 1, 2, "Small Arms"),
 	)
 
 /obj/structure/machinery/ammunition_fabricator/attack_hand(mob/user)
