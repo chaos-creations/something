@@ -4571,13 +4571,6 @@
 	},
 /turf/open/space/basic,
 /area/space)
-"aiV" = (
-/obj/structure/surface/rack{
-	color = "#98a3ab"
-	},
-/obj/item/clothing/head/helmet/marine/veteran/scavs/baron,
-/turf/open/floor/prison/darkbrownfull2,
-/area/scavenger_ship/staging_requisition)
 "aiW" = (
 /obj/structure/prop/invuln/ice_prefab/roof_greeble{
 	pixel_x = -16;
@@ -4886,19 +4879,6 @@
 /obj/structure/machinery/door/airlock/puzzle/freelancer,
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/logistics_maint)
-"ajq" = (
-/obj/structure/surface/rack{
-	color = "#98a3ab"
-	},
-/obj/item/clothing/shoes/marine/veteran/scavs/jaguar/knife,
-/obj/item/clothing/under/marine/veteran/scavs/jaguar,
-/obj/item/clothing/suit/storage/marine/veteran/scavs/jaguar,
-/obj/item/clothing/head/helmet/marine/veteran/scavs/jaguar,
-/obj/item/clothing/gloves/marine/veteran/scavs/jaguar,
-/obj/item/clothing/accessory/veteran/scavs/jaguar,
-/obj/item/storage/belt/marine/veteran/scavs/jaguar,
-/turf/open/floor/prison/darkbrownfull2,
-/area/scavenger_ship/staging_requisition)
 "ajr" = (
 /obj/structure/platform/stone/mineral{
 	color = "#3f3f3f"
@@ -4998,7 +4978,6 @@
 	light_power = 0.6;
 	light_range = 3
 	},
-/mob/living/simple_animal/mouse/rat/white/freelancer,
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_maint)
 "ajz" = (
@@ -8237,6 +8216,60 @@
 	icon_state = "24"
 	},
 /area/scavenger_ship/hangar_deck)
+"aqU" = (
+/obj/structure/showcase{
+	icon = 'icons/mob/humans/species/r_synthetic.dmi';
+	icon_state = "Synthetic_Template";
+	dir = 2
+	},
+/obj/item/clothing/under/marine/veteran/scavs/jaguar{
+	anchored = 1
+	},
+/obj/item/clothing/shoes/marine/veteran/scavs/jaguar/knife{
+	icon = 'something/icons/feet_mob.dmi';
+	anchored = 1
+	},
+/obj/item/clothing/gloves/marine/veteran/scavs/jaguar{
+	icon = 'something/icons/gloves_mob.dmi';
+	anchored = 1
+	},
+/obj/item/storage/belt/marine/veteran/scavs/jaguar{
+	icon = 'something/icons/belt_mob.dmi';
+	layer = 3.03;
+	anchored = 1
+	},
+/obj/item/clothing/suit/storage/marine/veteran/scavs/jaguar{
+	icon = 'something/icons/suit_mob.dmi';
+	layer = 3.03;
+	anchored = 1
+	},
+/obj/item/clothing/accessory/veteran/scavs/jaguar{
+	icon = 'something/icons/ties_mob.dmi';
+	layer = 3.03;
+	anchored = 1
+	},
+/obj/item/clothing/head/helmet/marine/veteran/scavs/jaguar{
+	icon = 'something/icons/head_mob.dmi';
+	layer = 3.03;
+	anchored = 1
+	},
+/obj/item/prop{
+	icon_state = "vulture";
+	mouse_opacity = 0;
+	icon = 'icons/mob/humans/onmob/back.dmi';
+	dir = 2
+	},
+/obj/structure/prop/ice_colony/ground_wire{
+	dir = 8
+	},
+/obj/structure/prop/ice_colony/ground_wire{
+	dir = 4
+	},
+/obj/structure/prop/ice_colony/ground_wire{
+	dir = 1
+	},
+/turf/open/floor/corsat/marked,
+/area/scavenger_ship/staging_requisition)
 "aqV" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/structure/machinery/firealarm{
@@ -11635,7 +11668,10 @@
 	no_panel = 1;
 	not_weldable = 1;
 	req_one_access = null;
-	req_access_txt = "26"
+	req_access_txt = "26";
+	unacidable = 1;
+	unslashable = 1;
+	health = 9000
 	},
 /obj/structure/machinery/door/poddoor/almayer/open{
 	name = "\improper Requisitions Lockdown";
@@ -17279,10 +17315,6 @@
 	pixel_x = 0;
 	pixel_y = 9
 	},
-/obj/item/stack/sheet/metal/med_small_stack{
-	pixel_x = 0;
-	pixel_y = 3
-	},
 /turf/open/floor/corsat,
 /area/scavenger_ship/service_hallway)
 "gsp" = (
@@ -18314,12 +18346,17 @@
 	dir = 4;
 	req_access = null;
 	req_access_txt = "26";
-	name = "\improper Recycler"
+	name = "\improper Museum";
+	no_panel = 1;
+	health = 9000;
+	unacidable = 1;
+	unslashable = 1;
+	not_weldable = 1
 	},
-/obj/structure/machinery/door/poddoor/almayer/locked{
+/obj/structure/machinery/door/poddoor/almayer/open{
 	name = "\improper Museum Lockdown";
 	id = "req_museum";
-	dir = 8
+	dir = 4
 	},
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/staging_requisition)
@@ -23590,8 +23627,45 @@
 /turf/open/floor/prison/darkbrown2,
 /area/scavenger_ship/hangar_hallway)
 "mvy" = (
-/obj/structure/surface/table/almayer{
-	color = "#8B9490"
+/obj/structure/prop/ice_colony/ground_wire{
+	dir = 8
+	},
+/obj/structure/prop/ice_colony/ground_wire{
+	dir = 4
+	},
+/obj/structure/prop/ice_colony/ground_wire{
+	dir = 2;
+	layer = 3.1
+	},
+/obj/structure/showcase{
+	icon = 'icons/mob/humans/species/r_synthetic.dmi';
+	icon_state = "Synthetic_Template";
+	dir = 2
+	},
+/obj/item/clothing/head/helmet/marine/veteran/scavs/baron{
+	icon = 'something/icons/head_mob.dmi';
+	anchored = 1;
+	layer = 3.03
+	},
+/obj/item/prop{
+	icon_state = "upp_uniform_naval";
+	mouse_opacity = 0;
+	icon = 'icons/mob/humans/onmob/uniform_0.dmi';
+	dir = 2;
+	anchored = 1
+	},
+/obj/item/prop{
+	icon_state = "marine";
+	mouse_opacity = 0;
+	icon = 'icons/mob/humans/onmob/feet.dmi';
+	dir = 2;
+	anchored = 1
+	},
+/obj/item/prop{
+	icon_state = "m56";
+	mouse_opacity = 0;
+	icon = 'icons/mob/humans/onmob/back.dmi';
+	dir = 2
 	},
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/staging_requisition)
@@ -31049,6 +31123,10 @@
 	force = 10
 	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/item/tool/hand_labeler{
+	pixel_x = 1;
+	pixel_y = 1
+	},
 /turf/open/floor/prison/darkred2/north,
 /area/scavenger_ship/staging_prep)
 "tIn" = (
@@ -33079,10 +33157,9 @@
 	req_access = null;
 	name = "\improper Museum"
 	},
-/obj/structure/machinery/door/poddoor/almayer/locked{
+/obj/structure/machinery/door/poddoor/almayer/open{
 	name = "\improper Museum Lockdown";
-	id = "req_museum";
-	dir = 2
+	id = "req_museum"
 	},
 /turf/open/floor/corsat/marked,
 /area/scavenger_ship/staging_requisition)
@@ -38919,9 +38996,9 @@ rhS
 rhS
 aCD
 aCD
-ajq
+ptY
 wUG
-aiV
+ptY
 sro
 aCD
 aCD
@@ -39264,7 +39341,7 @@ rhS
 aCD
 agM
 sro
-mvy
+aqU
 mvy
 mZk
 mZk

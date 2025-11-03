@@ -35,21 +35,7 @@
 /turf/closed/wall/strata_outpost/reinforced/hull,
 /area/scavenger_ship/staging_prep)
 "m" = (
-/obj/structure/surface/table/almayer{
-	color = "#EBD9B7"
-	},
-/obj/structure/prop/server_equipment/laptop/closed{
-	pixel_x = -1;
-	pixel_y = 8
-	},
-/obj/item/reagent_container/food/drinks/h_chocolate{
-	pixel_x = -9;
-	pixel_y = -1
-	},
-/obj/item/device/radio/headset{
-	pixel_x = 8;
-	pixel_y = 3
-	},
+/obj/structure/machinery/ammunition_fabricator,
 /turf/open/floor/prison/darkred2/southwest,
 /area/scavenger_ship/staging_prep)
 "q" = (
