@@ -461,7 +461,7 @@
 	desc = "A combat mouse who had fought in more than one cheese war on this godforsaken ship. He was captured after being caught red-handed stealing cheese from the freelancers' secret storage behind the washing machine."
 
 // evil stanki //
-
+/*
 /obj/structure/machinery/ammunition_fabricator
 	name = "ammunition fabricator"
 	desc = "An old ammunition fabricator that runs on a good word, it seems to have a limited number of charges."
@@ -614,7 +614,7 @@
 
 		is_busy = FALSE
 		ui_open(usr)
-
+*/
 // keys //
 
 /obj/item/storage/box/keys
