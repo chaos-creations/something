@@ -235,4 +235,63 @@
 
 //OUTFIT PRESETS
 
-//...
+/datum/equipment_preset/faction_ascent/alate/soldier
+	name = "Bay12 | Alate | Soldier"
+	idtype = null
+	languages = list(LANGUAGE_ENGLISH) //Let's keep it simple for now
+	faction = FACTION_ASCENT
+	faction_group = (FACTION_ASCENT)
+	uses_special_name = TRUE
+	skills = /datum/skills/pfc
+	flags = EQUIPMENT_PRESET_START_OF_ROUND
+
+/datum/equipment_preset/faction_ascent/alate/soldier/load_id(mob/living/carbon/human/new_human)
+	new_human.faction = faction
+	new_human.faction_group = faction_group
+
+/datum/equipment_preset/faction_ascent/alate/soldier/load_name(mob/living/carbon/human/new_human, randomise)
+	. = ..()
+	var/new_name = "Ascent Soldier ([rand(1, 9)][rand(1, 9)][rand(1, 9)])"
+	new_human.change_real_name(new_human, new_name)
+
+/datum/equipment_preset/faction_ascent/alate/soldier/load_race(mob/living/carbon/human/new_human, client/mob_client)
+	new_human.set_species(SPECIES_ALATE)
+	new_human.body_type = "alate"
+
+/datum/equipment_preset/faction_ascent/alate/soldier/load_gear(mob/living/carbon/human/new_human)
+
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/rank/faction_ascent/alate/utility(new_human), WEAR_BODY)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/faction_ascent/alate/exosuit, WEAR_HEAD)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/jackboots/faction_ascent/alate/exosuit, WEAR_FEET)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/gloves/combat/faction_ascent/alate/exosuit, WEAR_HANDS)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/armor/storage/faction_ascent/alate/exosuit, WEAR_JACKET)
+
+/datum/equipment_preset/faction_ascent/alate/engineer
+	name = "Bay12 | Alate | Engineer"
+	idtype = null
+	languages = list(LANGUAGE_ENGLISH) //Let's keep it simple for now
+	faction = FACTION_ASCENT
+	faction_group = (FACTION_ASCENT)
+	uses_special_name = TRUE
+	skills = /datum/skills/pfc
+	flags = EQUIPMENT_PRESET_START_OF_ROUND
+
+/datum/equipment_preset/faction_ascent/alate/engineer/load_id(mob/living/carbon/human/new_human)
+	new_human.faction = faction
+	new_human.faction_group = faction_group
+
+/datum/equipment_preset/faction_ascent/alate/engineer/load_name(mob/living/carbon/human/new_human, randomise)
+	. = ..()
+	var/new_name = "Ascent Trainee ([rand(1, 9)][rand(1, 9)][rand(1, 9)])"
+	new_human.change_real_name(new_human, new_name)
+
+/datum/equipment_preset/faction_ascent/alate/engineer/load_race(mob/living/carbon/human/new_human, client/mob_client)
+	new_human.set_species(SPECIES_ALATE)
+	new_human.body_type = "alate"
+
+/datum/equipment_preset/faction_ascent/alate/engineer/load_gear(mob/living/carbon/human/new_human)
+
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/rank/faction_ascent/alate/utility(new_human), WEAR_BODY)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/faction_ascent/alate/utility, WEAR_HEAD)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/jackboots/faction_ascent/alate/utility, WEAR_FEET)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/armor/storage/faction_ascent/alate/utility, WEAR_JACKET)
