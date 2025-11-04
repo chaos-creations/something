@@ -2717,4 +2717,10 @@
 #include "something\code\custom_emails\custom_email.dm"
 #include "something\code\custom_emails\example_email.dm"
 #include "something\code\custom_items\custom_include.dm"
+#include "faction_ascent\code\alate.dm"
+#include "faction_ascent\code\ascent_faction.dm"
+#include "faction_ascent\code\gyne.dm"
+#include "faction_ascent\code\monarch.dm"
+#include "faction_ascent\code\tajaran.dm"
+#include "faction_ascent\code\weapons.dm"
 // END_INCLUDE

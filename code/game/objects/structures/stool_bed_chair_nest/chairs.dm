@@ -20,6 +20,8 @@
 	if(!can_rotate)
 		verbs.Remove(/obj/structure/bed/chair/verb/rotate)
 
+	addtimer(CALLBACK(src, PROC_REF(setup_buckle_offsets)), 1 SECONDS)
+
 /obj/structure/bed/chair/initialize_pass_flags(datum/pass_flags_container/PF)
 	if(PF)
 		PF.flags_can_pass_all = PASS_AROUND|PASS_UNDER

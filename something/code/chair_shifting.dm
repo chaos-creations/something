@@ -6,10 +6,10 @@
 	var/buckle_offset_y = 0
 	var/mob_old_y = 0
 
-/obj/structure/bed/chair/Initialize()
+/*/obj/structure/bed/chair/Initialize()
 	..()
 
-	addtimer(CALLBACK(src, PROC_REF(setup_buckle_offsets)), 1 SECONDS)
+	addtimer(CALLBACK(src, PROC_REF(setup_buckle_offsets)), 1 SECONDS)*/
 
 /obj/structure/bed/chair/proc/setup_buckle_offsets()
 	if(pixel_x != 0)

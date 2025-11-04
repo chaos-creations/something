@@ -91,6 +91,12 @@
 	mob.next_delay_update = world.time + mob.next_delay_delay
 
 /client/Move(n, direct)
+	if(mob.shifting)
+		mob.pixel_shift(direct)
+		return FALSE
+
+	mob.unpixel_shift()
+
 	var/mob/living/living_mob
 	if(isliving(mob))
 		living_mob = mob

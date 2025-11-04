@@ -11,6 +11,7 @@
 
 	var/icobase = 'icons/mob/humans/species/r_human.dmi' // Normal icon set.
 	var/deform = 'icons/mob/humans/species/r_def_human.dmi' // Mutated icon set.
+	var/eye_icon_location = 'icons/mob/humans/onmob/human_face.dmi'
 	var/icobase_source // if we want to use sourcing system
 	var/deform_source
 	var/eyes = "eyes_s"   // Icon for eyes.

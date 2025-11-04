@@ -602,6 +602,7 @@
 
 /// Proc to append behavior related to lying down.
 /mob/living/proc/on_lying_down(new_lying_angle)
+	unpixel_shift()
 //	if(layer == initial(layer)) //to avoid things like hiding larvas.
 //		layer = LYING_MOB_LAYER //so mob lying always appear behind standing mobs
 	add_traits(list(/*TRAIT_UI_BLOCKED, TRAIT_PULL_BLOCKED,*/ TRAIT_UNDENSE), LYING_DOWN_TRAIT)

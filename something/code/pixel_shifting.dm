@@ -81,17 +81,17 @@
 	REMOVE_TRAIT(src, TRAIT_UNDENSE, "pixel-shift")
 
 ///overrides
-/client/Move(n, direct)
+/*/client/Move(n, direct)
 	if(mob.shifting)
 		mob.pixel_shift(direct)
 		return FALSE
 
 	mob.unpixel_shift()
-	. = ..()
+	. = ..()*/
 
-/mob/living/on_lying_down(new_lying_angle)
+/*/mob/living/on_lying_down(new_lying_angle)
 	unpixel_shift()
-	. = ..()
+	. = ..()*/
 
 /mob/Move(n, direct)
 	unpixel_shift()
