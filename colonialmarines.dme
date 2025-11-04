@@ -2709,6 +2709,7 @@
 #include "something\code\chair_shifting.dm"
 #include "something\code\decorations.dm"
 #include "something\code\dice.dm"
+#include "something\code\layer_shifting.dm"
 #include "something\code\pixel_shifting.dm"
 #include "something\code\pixel_shifting_items.dm"
 #include "something\code\puzzle_things.dm"
