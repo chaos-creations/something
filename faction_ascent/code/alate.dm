@@ -158,7 +158,7 @@
 
 	flags_armor_protection = BODY_FLAG_CHEST|BODY_FLAG_GROIN
 	armor_melee = CLOTHING_ARMOR_ULTRAHIGH
-	armor_bullet = CLOTHING_ARMOR_HIGH
+	armor_bullet = CLOTHING_ARMOR_GIGAHIGH
 	armor_laser = CLOTHING_ARMOR_ULTRAHIGH
 	armor_energy = CLOTHING_ARMOR_ULTRAHIGH
 	armor_bomb = CLOTHING_ARMOR_HIGH
@@ -180,7 +180,7 @@
 
 	flags_armor_protection = BODY_FLAG_HEAD|BODY_FLAG_FACE|BODY_FLAG_EYES
 	armor_melee = CLOTHING_ARMOR_GIGAHIGH
-	armor_bullet = CLOTHING_ARMOR_ULTRAHIGH
+	armor_bullet = CLOTHING_ARMOR_GIGAHIGH
 	armor_laser = CLOTHING_ARMOR_GIGAHIGH
 	armor_energy = CLOTHING_ARMOR_GIGAHIGH
 	armor_bomb = CLOTHING_ARMOR_HIGH
@@ -262,6 +262,74 @@
 /datum/equipment_preset/faction_ascent/alate/soldier/load_gear(mob/living/carbon/human/new_human)
 
 	new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/energy/ascent/carbine, WEAR_R_HAND)
+
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/rank/faction_ascent/alate/utility(new_human), WEAR_BODY)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/faction_ascent/alate/exosuit, WEAR_HEAD)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/jackboots/faction_ascent/alate/exosuit, WEAR_FEET)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/gloves/combat/faction_ascent/alate/exosuit, WEAR_HANDS)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/armor/storage/faction_ascent/alate/exosuit, WEAR_JACKET)
+
+/datum/equipment_preset/faction_ascent/alate/gunner
+	name = "Bay12 | Alate | Gunner"
+	idtype = null
+	languages = list(LANGUAGE_ENGLISH) //Let's keep it simple for now
+	faction = FACTION_ASCENT
+	faction_group = (FACTION_ASCENT)
+	uses_special_name = TRUE
+	skills = /datum/skills/pfc
+	flags = EQUIPMENT_PRESET_START_OF_ROUND
+
+/datum/equipment_preset/faction_ascent/alate/gunner/load_id(mob/living/carbon/human/new_human)
+	new_human.faction = faction
+	new_human.faction_group = faction_group
+
+/datum/equipment_preset/faction_ascent/alate/gunner/load_name(mob/living/carbon/human/new_human, randomise)
+	. = ..()
+	var/new_name = "Ascent Gunner ([rand(1, 9)][rand(1, 9)][rand(1, 9)])"
+	new_human.change_real_name(new_human, new_name)
+
+/datum/equipment_preset/faction_ascent/alate/gunner/load_race(mob/living/carbon/human/new_human, client/mob_client)
+	new_human.set_species(SPECIES_ALATE)
+	new_human.body_type = "alate"
+
+/datum/equipment_preset/faction_ascent/alate/gunner/load_gear(mob/living/carbon/human/new_human)
+
+	new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/energy/ascent/machinegun, WEAR_R_HAND)
+	new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/energy/ascent/pistol, WEAR_WAIST)
+
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/rank/faction_ascent/alate/utility(new_human), WEAR_BODY)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/faction_ascent/alate/exosuit, WEAR_HEAD)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/jackboots/faction_ascent/alate/exosuit, WEAR_FEET)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/gloves/combat/faction_ascent/alate/exosuit, WEAR_HANDS)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/armor/storage/faction_ascent/alate/exosuit, WEAR_JACKET)
+
+/datum/equipment_preset/faction_ascent/alate/artillery
+	name = "Bay12 | Alate | Artillery"
+	idtype = null
+	languages = list(LANGUAGE_ENGLISH) //Let's keep it simple for now
+	faction = FACTION_ASCENT
+	faction_group = (FACTION_ASCENT)
+	uses_special_name = TRUE
+	skills = /datum/skills/pfc
+	flags = EQUIPMENT_PRESET_START_OF_ROUND
+
+/datum/equipment_preset/faction_ascent/alate/artillery/load_id(mob/living/carbon/human/new_human)
+	new_human.faction = faction
+	new_human.faction_group = faction_group
+
+/datum/equipment_preset/faction_ascent/alate/artillery/load_name(mob/living/carbon/human/new_human, randomise)
+	. = ..()
+	var/new_name = "Ascent Artillery ([rand(1, 9)][rand(1, 9)][rand(1, 9)])"
+	new_human.change_real_name(new_human, new_name)
+
+/datum/equipment_preset/faction_ascent/alate/artillery/load_race(mob/living/carbon/human/new_human, client/mob_client)
+	new_human.set_species(SPECIES_ALATE)
+	new_human.body_type = "alate"
+
+/datum/equipment_preset/faction_ascent/alate/artillery/load_gear(mob/living/carbon/human/new_human)
+
+	new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/energy/ascent/launcher, WEAR_R_HAND)
+	new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/energy/ascent/pistol, WEAR_WAIST)
 
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/rank/faction_ascent/alate/utility(new_human), WEAR_BODY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/faction_ascent/alate/exosuit, WEAR_HEAD)

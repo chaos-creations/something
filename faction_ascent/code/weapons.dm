@@ -269,8 +269,45 @@
 	max_range = 40
 	shell_speed = AMMO_SPEED_TIER_8
 	scatter = SCATTER_AMOUNT_NONE
-	accuracy = HIT_ACCURACY_TIER_6
+	accuracy = HIT_ACCURACY_TIER_10
 	damage_falloff = DAMAGE_FALLOFF_TIER_10
+
+/datum/ammo/energy/ascent/explosive
+	damage = 100
+	shell_speed = AMMO_SPEED_TIER_6
+	accuracy = HIT_ACCURACY_TIER_8
+
+	flags_ammo_behavior = AMMO_EXPLOSIVE|AMMO_ENERGY|AMMO_ROCKET|AMMO_STRIKES_SURFACE
+
+/datum/ammo/energy/ascent/explosive/set_bullet_traits()
+	. = ..()
+	LAZYADD(traits_to_give, list(
+		BULLET_TRAIT_ENTRY(/datum/element/bullet_trait_incendiary)
+	))
+
+/datum/ammo/energy/ascent/explosive/drop_flame(turf/turf, datum/cause_data/cause_data)
+	playsound(turf, 'sound/weapons/gun_flamethrower3.ogg', 75, 1, 7)
+	if(!istype(turf)) return
+	var/datum/reagent/napalm/blue/reagent = new()
+	new /obj/flamer_fire(turf, cause_data, reagent, 3)
+
+/datum/ammo/energy/ascent/explosive/on_hit_mob(mob/mob, obj/projectile/projectile)
+	if(iscarbon(mob)) // Doesn't matter how built-different you are, it's an explosive rocket-propelled projectile hitting you.
+		mob.ex_act(650, null, projectile.weapon_cause_data, 100)
+	cell_explosion(get_turf(mob), 250, 40, EXPLOSION_FALLOFF_SHAPE_EXPONENTIAL, null, projectile.weapon_cause_data)
+	drop_flame(get_turf(mob), projectile.weapon_cause_data)
+
+/datum/ammo/energy/ascent/explosive/on_hit_obj(obj/object, obj/projectile/projectile)
+	cell_explosion(get_turf(object), 250, 40, EXPLOSION_FALLOFF_SHAPE_EXPONENTIAL, null, projectile.weapon_cause_data)
+	drop_flame(get_turf(object), projectile.weapon_cause_data)
+
+/datum/ammo/energy/ascent/explosive/on_hit_turf(turf/turf, obj/projectile/projectile)
+	cell_explosion(turf, 250, 40, EXPLOSION_FALLOFF_SHAPE_EXPONENTIAL, null, projectile.weapon_cause_data)
+	drop_flame(get_turf(turf), projectile.weapon_cause_data)
+
+/datum/ammo/energy/ascent/explosive/do_at_max_range(obj/projectile/projectile)
+	cell_explosion(get_turf(projectile), 250, 40, EXPLOSION_FALLOFF_SHAPE_EXPONENTIAL, null, projectile.weapon_cause_data)
+	drop_flame(get_turf(projectile), projectile.weapon_cause_data)
 
 /obj/item/weapon/gun/energy/ascent
 	ammo = /datum/ammo/energy/ascent
@@ -289,14 +326,13 @@
 		)
 	charge_icon = "pistol"
 
-	flags_equip_slot = SLOT_WAIST
-
 /obj/item/weapon/gun/energy/ascent/pistol
-	name = "Ascent E-Pistol"
+	name = "Ascent E-Gun"
 	desc = "An standart energy weapon, issued to every alate worker and soldier."
 	charge_cost = 500
 
 	flags_gun_features = GUN_UNUSUAL_DESIGN|GUN_CAN_POINTBLANK|GUN_ONE_HAND_WIELDED
+	flags_equip_slot = SLOT_WAIST
 
 /obj/item/weapon/gun/energy/ascent/pistol/set_gun_config_values()
 	set_fire_delay(FIRE_DELAY_TIER_6)
@@ -312,6 +348,8 @@
 	charge_icon = "carbine"
 
 	wield_delay = WIELD_DELAY_NORMAL
+	start_semiauto = FALSE
+	start_burstfire = TRUE
 
 /obj/item/weapon/gun/energy/ascent/carbine/set_gun_config_values()
 	set_fire_delay(FIRE_DELAY_TIER_SMG2)
@@ -320,3 +358,45 @@
 	set_burst_amount(BURST_AMOUNT_TIER_3)
 	set_burst_delay(FIRE_DELAY_TIER_SMG2)
 	scatter_unwielded = SCATTER_AMOUNT_TIER_4
+
+/obj/item/weapon/gun/energy/ascent/machinegun
+	name = "Ascent Destroyer"
+	desc = "Heavy looking energy-based rotary gun, able to provide so viable support to other members of the group."
+	charge_cost = 50
+
+	icon_state = "machinegun"
+	item_state = "machinegun"
+	charge_icon = "machinegun"
+
+	wield_delay = WIELD_DELAY_SLOW
+	flags_gun_features = GUN_UNUSUAL_DESIGN|GUN_CAN_POINTBLANK|GUN_WIELDED_FIRING_ONLY
+	start_semiauto = FALSE
+	start_automatic = TRUE
+
+	w_class = SIZE_LARGE
+
+/obj/item/weapon/gun/energy/ascent/machinegun/set_gun_config_values()
+	set_fire_delay(FIRE_DELAY_TIER_SG)
+	scatter = SCATTER_AMOUNT_NONE
+	burst_scatter_mult = SCATTER_AMOUNT_NONE
+	scatter_unwielded = SCATTER_AMOUNT_TIER_4
+	damage_mult = BULLET_DAMAGE_MULT_TIER_6
+
+/obj/item/weapon/gun/energy/ascent/launcher
+	name = "Ascent Plasmas Launcher"
+	desc = "Heavy looking energy-based launcher, used to melt vehicle."
+
+	icon_state = "gl"
+	item_state = "gl"
+	charge_icon = "gl"
+
+	wield_delay = WIELD_DELAY_SLOW
+	flags_gun_features = GUN_UNUSUAL_DESIGN|GUN_CAN_POINTBLANK|GUN_WIELDED_FIRING_ONLY
+
+	ammo = /datum/ammo/energy/ascent/explosive
+	w_class = SIZE_LARGE
+	charge_cost = 5000
+
+/obj/item/weapon/gun/energy/ascent/launcher/set_gun_config_values()
+	set_fire_delay(FIRE_DELAY_TIER_1)
+	scatter = SCATTER_AMOUNT_NONE
