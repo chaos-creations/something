@@ -262,7 +262,7 @@
 /datum/ammo/energy/ascent
 	name = "laser bolt"
 	icon_state = "omnilaser_new"
-	flags_ammo_behavior = AMMO_ENERGY
+	flags_ammo_behavior = AMMO_LASER
 	damage = 60
 	accurate_range = 20
 	effective_range_max = 30
@@ -326,6 +326,30 @@
 		)
 	charge_icon = "pistol"
 
+	var/self_charging = FALSE
+	var/charging = FALSE
+
+/obj/item/weapon/gun/energy/ascent/Initialize(mapload, spawn_empty)
+	. = ..()
+	if(self_charging)
+		START_PROCESSING(SSobj, src)
+
+/obj/item/weapon/gun/energy/ascent/process()
+	if(cell.charge <= 0 & !charging)
+		charging = TRUE
+		add_filter("recharge_outline", 1, list("type" = "outline", "color" = "#67fce8", "size" = 1))
+		add_filter("recharge_blur", 1, list("type" = "blur", "size" = 1))
+		color = "#67fce8"
+		addtimer(CALLBACK(src, PROC_REF(restore_energy)), 5 SECONDS, TIMER_UNIQUE|TIMER_OVERRIDE)
+
+/obj/item/weapon/gun/energy/ascent/proc/restore_energy()
+	remove_filter("recharge_outline")
+	remove_filter("recharge_blur")
+	color = COLOR_WHITE
+
+	cell.charge = cell.maxcharge
+	charging = FALSE
+
 /obj/item/weapon/gun/energy/ascent/pistol
 	name = "Ascent E-Gun"
 	desc = "An standart energy weapon, issued to every alate worker and soldier."
@@ -333,6 +357,8 @@
 
 	flags_gun_features = GUN_UNUSUAL_DESIGN|GUN_CAN_POINTBLANK|GUN_ONE_HAND_WIELDED
 	flags_equip_slot = SLOT_WAIST
+
+	self_charging = TRUE
 
 /obj/item/weapon/gun/energy/ascent/pistol/set_gun_config_values()
 	set_fire_delay(FIRE_DELAY_TIER_6)
@@ -350,6 +376,8 @@
 	wield_delay = WIELD_DELAY_NORMAL
 	start_semiauto = FALSE
 	start_burstfire = TRUE
+
+	self_charging = TRUE
 
 /obj/item/weapon/gun/energy/ascent/carbine/set_gun_config_values()
 	set_fire_delay(FIRE_DELAY_TIER_SMG2)

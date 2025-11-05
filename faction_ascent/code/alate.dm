@@ -39,7 +39,7 @@
 	total_health = 60 //это буквально ходячее стекло - что вы хотите от него?
 
 	brute_mod = 1.2 // нам очень больно от кинетики
-	burn_mod = 0.02 // но в целом чхать мы хотели на лазеры и огонь - кремниевые не горят
+	burn_mod = 0.2 // но в целом чхать мы хотели на лазеры и огонь - кремниевые не горят
 
 	bloodsplatter_type = /obj/effect/temp_visual/dir_setting/bloodsplatter/kharmaani
 
@@ -158,10 +158,10 @@
 
 	flags_armor_protection = BODY_FLAG_CHEST|BODY_FLAG_GROIN
 	armor_melee = CLOTHING_ARMOR_ULTRAHIGH
-	armor_bullet = CLOTHING_ARMOR_GIGAHIGH
+	armor_bullet = CLOTHING_ARMOR_GIGAHIGHDOUBLEPLUSGOOD
 	armor_laser = CLOTHING_ARMOR_ULTRAHIGH
 	armor_energy = CLOTHING_ARMOR_ULTRAHIGH
-	armor_bomb = CLOTHING_ARMOR_HIGH
+	armor_bomb = CLOTHING_ARMOR_GIGAHIGHDOUBLEPLUSGOOD
 
 	armor_bio = CLOTHING_ARMOR_GIGAHIGH
 	armor_rad = CLOTHING_ARMOR_GIGAHIGH
@@ -180,10 +180,10 @@
 
 	flags_armor_protection = BODY_FLAG_HEAD|BODY_FLAG_FACE|BODY_FLAG_EYES
 	armor_melee = CLOTHING_ARMOR_GIGAHIGH
-	armor_bullet = CLOTHING_ARMOR_GIGAHIGH
+	armor_bullet = CLOTHING_ARMOR_GIGAHIGHDOUBLEPLUSGOOD
 	armor_laser = CLOTHING_ARMOR_GIGAHIGH
 	armor_energy = CLOTHING_ARMOR_GIGAHIGH
-	armor_bomb = CLOTHING_ARMOR_HIGH
+	armor_bomb = CLOTHING_ARMOR_GIGAHIGHDOUBLEPLUSGOOD
 
 	armor_bio = CLOTHING_ARMOR_GIGAHIGH
 	armor_rad = CLOTHING_ARMOR_GIGAHIGH
@@ -239,7 +239,7 @@
 /datum/equipment_preset/faction_ascent/alate/soldier
 	name = "Bay12 | Alate | Soldier"
 	idtype = null
-	languages = list(LANGUAGE_ENGLISH) //Let's keep it simple for now
+	languages = list(LANGUAGE_YAUTJA) //Let's keep it simple for now
 	faction = FACTION_ASCENT
 	faction_group = (FACTION_ASCENT)
 	uses_special_name = TRUE
@@ -272,7 +272,7 @@
 /datum/equipment_preset/faction_ascent/alate/gunner
 	name = "Bay12 | Alate | Gunner"
 	idtype = null
-	languages = list(LANGUAGE_ENGLISH) //Let's keep it simple for now
+	languages = list(LANGUAGE_YAUTJA) //Let's keep it simple for now
 	faction = FACTION_ASCENT
 	faction_group = (FACTION_ASCENT)
 	uses_special_name = TRUE
@@ -306,7 +306,7 @@
 /datum/equipment_preset/faction_ascent/alate/artillery
 	name = "Bay12 | Alate | Artillery"
 	idtype = null
-	languages = list(LANGUAGE_ENGLISH) //Let's keep it simple for now
+	languages = list(LANGUAGE_YAUTJA) //Let's keep it simple for now
 	faction = FACTION_ASCENT
 	faction_group = (FACTION_ASCENT)
 	uses_special_name = TRUE
@@ -340,7 +340,7 @@
 /datum/equipment_preset/faction_ascent/alate/engineer
 	name = "Bay12 | Alate | Engineer"
 	idtype = null
-	languages = list(LANGUAGE_ENGLISH) //Let's keep it simple for now
+	languages = list(LANGUAGE_YAUTJA) //Let's keep it simple for now
 	faction = FACTION_ASCENT
 	faction_group = (FACTION_ASCENT)
 	uses_special_name = TRUE

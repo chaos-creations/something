@@ -156,11 +156,11 @@
 /obj/item/clothing/head/helmet/faction_ascent/taj/militia/officer
 	name = "Golden-Trimmed Cap"
 	desc = "An armored cap, worn by Tajaran Militia officers."
-	icon = 'faction_ascent/icons/tajaran/tajara_items.dmi'
-	icon_state = "space_commissar_hat_he"
-	item_state = "space_commissar_hat_he"
+	icon = 'faction_ascent/icons/tajaran/clothing_inv.dmi'
+	icon_state = "peaked"
+	item_state = "peaked"
 	item_icons = list(
-		WEAR_HEAD = 'faction_ascent/icons/tajaran/tajara_items.dmi'
+		WEAR_HEAD = 'faction_ascent/icons/tajaran/clothing_onmob.dmi'
 	)
 
 	flags_armor_protection = BODY_FLAG_HEAD
@@ -178,11 +178,11 @@
 /obj/item/clothing/suit/armor/storage/faction_ascent/taj/militia/officer
 	name = "Armored Trenchcoat"
 	desc = "An dusted trench with armored plates attached to it."
-	icon = 'faction_ascent/icons/tajaran/tajara_items.dmi'
-	icon_state = "hunter_coat_su"
-	item_state = "hunter_coat_su"
+	icon = 'faction_ascent/icons/tajaran/clothing_onmob.dmi'
+	icon_state = "officer_coat"
+	item_state = "officer_coat"
 	item_icons = list(
-		WEAR_JACKET = 'faction_ascent/icons/tajaran/tajara_items.dmi'
+		WEAR_JACKET = 'faction_ascent/icons/tajaran/clothing_onmob.dmi'
 	)
 
 	flags_armor_protection = BODY_FLAG_CHEST|BODY_FLAG_GROIN|BODY_FLAG_ARMS|BODY_FLAG_LEGS
@@ -381,7 +381,7 @@
 /datum/equipment_preset/faction_ascent/taj/soldier
 	name = "Bay12 | Tajaran | Soldier"
 	idtype = null
-	languages = list(LANGUAGE_ENGLISH) //Let's keep it simple for now
+	languages = list(LANGUAGE_YAUTJA) //Let's keep it simple for now
 	faction = FACTION_ASCENT
 	faction_group = (FACTION_ASCENT)
 	uses_special_name = TRUE
@@ -506,7 +506,7 @@
 /datum/equipment_preset/faction_ascent/taj/heavy_soldier
 	name = " Bay12 | Tajaran | Heavy Trooper"
 	idtype = null
-	languages = list(LANGUAGE_ENGLISH) //Let's keep it simple for now
+	languages = list(LANGUAGE_YAUTJA) //Let's keep it simple for now
 	faction = FACTION_ASCENT
 	faction_group = (FACTION_ASCENT)
 	uses_special_name = TRUE
@@ -554,7 +554,7 @@
 /datum/equipment_preset/faction_ascent/taj/officer
 	name = "Bay12 | Tajaran | Officer"
 	idtype = null
-	languages = list(LANGUAGE_ENGLISH) //Let's keep it simple for now
+	languages = list(LANGUAGE_YAUTJA) //Let's keep it simple for now
 	faction = FACTION_ASCENT
 	faction_group = (FACTION_ASCENT)
 	uses_special_name = TRUE

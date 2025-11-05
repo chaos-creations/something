@@ -35,7 +35,7 @@
 	slowdown = 0.5 //тяжёлая хуёвина
 	total_health = 200 //но гораздо толще
 
-	brute_mod = 1.2 // резисты те же
+	brute_mod = 1
 	burn_mod = 0.02
 
 	bloodsplatter_type = /obj/effect/temp_visual/dir_setting/bloodsplatter/kharmaani

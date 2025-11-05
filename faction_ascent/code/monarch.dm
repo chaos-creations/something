@@ -38,7 +38,7 @@
 	slowdown = -1.5 //ебанутый хищник убивца, быстрее чем алат
 	total_health = 200 //крепок как гиина
 
-	brute_mod = 0.5 // хитин крепкий, но всё ещё простреливаемый
+	brute_mod = 0.2 // хитин крепкий, но всё ещё простреливаемый
 	burn_mod = 1.5 // ЖГИ ЕГО!!! ЖГИ!!!
 
 	bloodsplatter_type = /obj/effect/temp_visual/dir_setting/bloodsplatter/monarch
@@ -158,4 +158,70 @@
 
 //OUTFIT PRESETS
 
-//...
+/datum/equipment_preset/faction_ascent/monarch/gunner
+	name = "Bay12 | Monarch | Gunner"
+	idtype = null
+	languages = list(LANGUAGE_YAUTJA) //Let's keep it simple for now
+	faction = FACTION_ASCENT
+	faction_group = (FACTION_ASCENT)
+	uses_special_name = TRUE
+	skills = /datum/skills/pfc
+	flags = EQUIPMENT_PRESET_START_OF_ROUND
+
+/datum/equipment_preset/faction_ascent/monarch/gunner/load_id(mob/living/carbon/human/new_human)
+	new_human.faction = faction
+	new_human.faction_group = faction_group
+
+/datum/equipment_preset/faction_ascent/monarch/gunner/load_name(mob/living/carbon/human/new_human, randomise)
+	. = ..()
+	var/new_name = "Ascent Gunner ([rand(1, 9)][rand(1, 9)][rand(1, 9)])"
+	new_human.change_real_name(new_human, new_name)
+
+/datum/equipment_preset/faction_ascent/monarch/gunner/load_race(mob/living/carbon/human/new_human, client/mob_client)
+	new_human.set_species(SPECIES_MONARCH)
+	new_human.body_type = "monarch"
+
+/datum/equipment_preset/faction_ascent/monarch/gunner/load_gear(mob/living/carbon/human/new_human)
+
+	new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/energy/ascent/machinegun, WEAR_R_HAND)
+	new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/energy/ascent/pistol, WEAR_WAIST)
+
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/rank/faction_ascent/monarch(new_human), WEAR_BODY)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/faction_ascent/monarch/exosuit, WEAR_HEAD)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/jackboots/faction_ascent/monarch/exosuit, WEAR_FEET)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/gloves/combat/faction_ascent/monarch/exosuit, WEAR_HANDS)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/armor/storage/faction_ascent/monarch/exosuit, WEAR_JACKET)
+
+/datum/equipment_preset/faction_ascent/monarch/specialist
+	name = "Bay12 | Monarch | Specialist"
+	idtype = null
+	languages = list(LANGUAGE_YAUTJA) //Let's keep it simple for now
+	faction = FACTION_ASCENT
+	faction_group = (FACTION_ASCENT)
+	uses_special_name = TRUE
+	skills = /datum/skills/pfc
+	flags = EQUIPMENT_PRESET_START_OF_ROUND
+
+/datum/equipment_preset/faction_ascent/monarch/specialist/load_id(mob/living/carbon/human/new_human)
+	new_human.faction = faction
+	new_human.faction_group = faction_group
+
+/datum/equipment_preset/faction_ascent/monarch/specialist/load_name(mob/living/carbon/human/new_human, randomise)
+	. = ..()
+	var/new_name = "Ascent Specialist ([rand(1, 9)][rand(1, 9)][rand(1, 9)])"
+	new_human.change_real_name(new_human, new_name)
+
+/datum/equipment_preset/faction_ascent/monarch/specialist/load_race(mob/living/carbon/human/new_human, client/mob_client)
+	new_human.set_species(SPECIES_MONARCH)
+	new_human.body_type = "monarch"
+
+/datum/equipment_preset/faction_ascent/monarch/specialist/load_gear(mob/living/carbon/human/new_human)
+
+	new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/energy/ascent/launcher, WEAR_R_HAND)
+	new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/energy/ascent/pistol, WEAR_WAIST)
+
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/rank/faction_ascent/monarch(new_human), WEAR_BODY)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/faction_ascent/monarch/exosuit, WEAR_HEAD)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/jackboots/faction_ascent/monarch/exosuit, WEAR_FEET)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/gloves/combat/faction_ascent/monarch/exosuit, WEAR_HANDS)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/armor/storage/faction_ascent/monarch/exosuit, WEAR_JACKET)
