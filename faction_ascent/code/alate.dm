@@ -77,6 +77,7 @@
 	)
 
 	color = COLOR_GRAY
+	flags_jumpsuit = null
 
 /obj/item/clothing/suit/armor/storage/faction_ascent/alate/utility
 	name = "Ascent utility suit"
@@ -260,6 +261,8 @@
 
 /datum/equipment_preset/faction_ascent/alate/soldier/load_gear(mob/living/carbon/human/new_human)
 
+	new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/energy/ascent/carbine, WEAR_R_HAND)
+
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/rank/faction_ascent/alate/utility(new_human), WEAR_BODY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/faction_ascent/alate/exosuit, WEAR_HEAD)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/jackboots/faction_ascent/alate/exosuit, WEAR_FEET)
@@ -290,6 +293,8 @@
 	new_human.body_type = "alate"
 
 /datum/equipment_preset/faction_ascent/alate/engineer/load_gear(mob/living/carbon/human/new_human)
+
+	new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/energy/ascent/pistol, WEAR_R_HAND)
 
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/rank/faction_ascent/alate/utility(new_human), WEAR_BODY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/faction_ascent/alate/utility, WEAR_HEAD)

@@ -251,3 +251,72 @@
 	effective_range_max = 10
 	max_range = 30
 	penetration = ARMOR_PENETRATION_TIER_8
+
+// Ascents
+
+/datum/firearm_appraisal/energy_ascent
+	gun_types = list(/obj/item/weapon/gun/energy/ascent)
+	disposable = TRUE
+	primary_weight = 10
+
+/datum/ammo/energy/ascent
+	name = "laser bolt"
+	icon_state = "omnilaser_new"
+	flags_ammo_behavior = AMMO_ENERGY
+	damage = 60
+	accurate_range = 20
+	effective_range_max = 30
+	max_range = 40
+	shell_speed = AMMO_SPEED_TIER_8
+	scatter = SCATTER_AMOUNT_NONE
+	accuracy = HIT_ACCURACY_TIER_6
+	damage_falloff = DAMAGE_FALLOFF_TIER_10
+
+/obj/item/weapon/gun/energy/ascent
+	ammo = /datum/ammo/energy/ascent
+	w_class = SIZE_MEDIUM
+	charge_cost = 100
+
+	muzzleflash_iconstate = "muzzle_flash_blue"
+	muzzle_flash_color = COLOR_CYAN
+
+	icon = 'faction_ascent/icons/weapons_inv.dmi'
+	icon_state = "pistol"
+	item_state = "pistol"
+	item_icons = list(
+		WEAR_L_HAND = 'faction_ascent/icons/weapons_onmob_l.dmi',
+		WEAR_R_HAND = 'faction_ascent/icons/weapons_onmob_r.dmi',
+		)
+	charge_icon = "pistol"
+
+	flags_equip_slot = SLOT_WAIST
+
+/obj/item/weapon/gun/energy/ascent/pistol
+	name = "Ascent E-Pistol"
+	desc = "An standart energy weapon, issued to every alate worker and soldier."
+	charge_cost = 500
+
+	flags_gun_features = GUN_UNUSUAL_DESIGN|GUN_CAN_POINTBLANK|GUN_ONE_HAND_WIELDED
+
+/obj/item/weapon/gun/energy/ascent/pistol/set_gun_config_values()
+	set_fire_delay(FIRE_DELAY_TIER_6)
+	scatter = SCATTER_AMOUNT_NONE
+
+/obj/item/weapon/gun/energy/ascent/carbine
+	name = "Ascent E-Rifle"
+	desc = "An more complex version of energy pistol, used on long range. Pretty light for it's size."
+	charge_cost = 200
+
+	icon_state = "carbine"
+	item_state = "carbine"
+	charge_icon = "carbine"
+
+	wield_delay = WIELD_DELAY_NORMAL
+
+/obj/item/weapon/gun/energy/ascent/carbine/set_gun_config_values()
+	set_fire_delay(FIRE_DELAY_TIER_SMG2)
+	scatter = SCATTER_AMOUNT_NONE
+	burst_scatter_mult = SCATTER_AMOUNT_NONE
+	set_burst_amount(BURST_AMOUNT_TIER_3)
+	set_burst_delay(FIRE_DELAY_TIER_SMG2)
+	scatter_unwielded = SCATTER_AMOUNT_TIER_4
