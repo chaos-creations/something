@@ -91,9 +91,58 @@
 	color = "#818181"
 	},
 /area/space)
+"aH" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/bed/chair/wood/normal,
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/floor/plating/wood,
+/area/space)
 "aI" = (
 /obj/structure/flora/grass/tallgrass/ice,
 /turf/open/auto_turf/snow/brown_base/layer3,
+/area/space)
+"aJ" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/bed{
+	can_buckle = 0;
+	desc = "A lightweight support lattice.";
+	icon = 'icons/obj/structures/structures.dmi';
+	icon_state = "latticefull";
+	layer = 2.1;
+	name = "lattice"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/turf/open/floor/plating,
 /area/space)
 "aN" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -116,6 +165,25 @@
 	pixel_x = -9
 	},
 /obj/effect/decal/cleanable/dirt,
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
+"aW" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/girder/displaced{
+	anchored = 1
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt2{
 	color = "#818181"
 	},
@@ -144,6 +212,44 @@
 	color = "#818181"
 	},
 /area/space)
+"bd" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/bed{
+	can_buckle = 0;
+	desc = "A lightweight support lattice.";
+	icon = 'icons/obj/structures/structures.dmi';
+	icon_state = "latticefull";
+	layer = 2.1;
+	name = "lattice"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
+"bh" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/bed{
+	can_buckle = 0;
+	desc = "A lightweight support lattice.";
+	icon = 'icons/obj/structures/structures.dmi';
+	icon_state = "latticefull";
+	layer = 2.1;
+	name = "lattice"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
 "bk" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -157,6 +263,10 @@
 /turf/open/gm/dirt2{
 	color = "#818181"
 	},
+/area/space)
+"bl" = (
+/obj/item/device/flashlight/lamp/tripod/grey,
+/turf/open/floor/plating/wood,
 /area/space)
 "bx" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -177,6 +287,25 @@
 /turf/open/gm/dirt2{
 	color = "#818181"
 	},
+/area/space)
+"bD" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/structure/platform_decoration/kutjevo/smooth{
+	dir = 1
+	},
+/obj/structure/platform_decoration/kutjevo/smooth,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/gm/dirt2,
 /area/space)
 "bK" = (
 /turf/open/auto_turf/sand_white/layer1{
@@ -219,6 +348,26 @@
 	layer = 2.99
 	},
 /obj/structure/platform/kutjevo/smooth,
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
+"bT" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/girder/displaced{
+	anchored = 1
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/gm/dirt2{
 	color = "#818181"
 	},
@@ -323,6 +472,13 @@
 	color = "#818181"
 	},
 /area/space)
+"cw" = (
+/obj/structure/platform_decoration/kutjevo/smooth,
+/obj/structure/platform_decoration/kutjevo/smooth{
+	dir = 1
+	},
+/turf/open/gm/dirt2,
+/area/space)
 "cy" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 4;
@@ -359,6 +515,23 @@
 	},
 /turf/open/floor/plating/wood,
 /area/space)
+"cE" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/girder/displaced{
+	anchored = 1
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/gm/dirt2,
+/area/space)
 "cO" = (
 /obj/structure/machinery/m56d_hmg/auto{
 	dir = 4
@@ -370,9 +543,28 @@
 /obj/item/tool/screwdriver{
 	pixel_y = -22
 	},
+/obj/item/storage/backpack/marine/satchel{
+	desc = "It's the heavy-duty black polymer kind. Time to take out the trash!";
+	icon = 'icons/obj/janitor.dmi';
+	icon_state = "trashbag3";
+	layer = 3.1;
+	name = "trash bag";
+	pixel_x = -17;
+	pixel_y = 42
+	},
 /turf/open/gm/dirt2{
 	color = "#818181"
 	},
+/area/space)
+"cR" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/wood,
 /area/space)
 "cV" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -419,11 +611,60 @@
 /obj/structure/prop/rock/brown,
 /turf/open/auto_turf/snow/brown_base/layer0,
 /area/space)
+"dh" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/turf/open/floor/plating,
+/area/space)
 "di" = (
 /obj/structure/platform/kutjevo/smooth,
 /turf/open/gm/dirt2{
 	color = "#818181"
 	},
+/area/space)
+"dn" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/girder/displaced{
+	anchored = 1
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/floor/plating/wood,
+/area/space)
+"dt" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/platform/kutjevo/smooth,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
+"du" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/platform_decoration/kutjevo/smooth,
+/turf/open/floor/plating/wood,
 /area/space)
 "dF" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -585,6 +826,26 @@
 	color = "#818181"
 	},
 /area/space)
+"es" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/structure/surface/rack,
+/obj/item/ammo_magazine/m2c{
+	pixel_y = 6;
+	pixel_x = 4
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/wood,
+/area/space)
 "et" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -672,6 +933,17 @@
 	},
 /turf/open/gm/dirt2,
 /area/space)
+"eT" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/crate/supply,
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/floor/plating/wood,
+/area/space)
 "eU" = (
 /turf/open/auto_turf/snow/brown_base/layer0,
 /area/space)
@@ -699,6 +971,31 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/gm/dirt2,
+/area/space)
+"eY" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating/wood,
+/area/space)
+"eZ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
 /area/space)
 "fa" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -728,6 +1025,31 @@
 /turf/open/gm/dirt2{
 	color = "#818181"
 	},
+/area/space)
+"fl" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/platform_decoration/kutjevo/smooth{
+	dir = 1
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/turf/open/floor/plating/wood,
 /area/space)
 "fo" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -806,6 +1128,15 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/wood,
 /area/space)
+"fA" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating/wood_broken2,
+/area/space)
 "fB" = (
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/auto_turf/snow/brown_base/layer2,
@@ -824,6 +1155,7 @@
 "fH" = (
 /obj/structure/platform/kutjevo/smooth,
 /obj/effect/decal/cleanable/blood,
+/obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt2{
 	color = "#818181"
 	},
@@ -870,6 +1202,28 @@
 /obj/structure/ladder{
 	height = 1;
 	id = "cic_trench1"
+	},
+/turf/open/gm/dirt2,
+/area/space)
+"ga" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/platform/kutjevo/smooth,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/platform_decoration/kutjevo/smooth{
+	dir = 8
+	},
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
 	},
 /turf/open/gm/dirt2,
 /area/space)
@@ -925,15 +1279,87 @@
 	color = "#818181"
 	},
 /area/space)
+"go" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/obj/item/device/flashlight/lamp/tripod/grey{
+	pixel_y = 9
+	},
+/turf/open/floor/plating/wood_broken4,
+/area/space)
+"gp" = (
+/obj/structure/barricade/wooden{
+	dir = 1;
+	pixel_y = 19;
+	layer = 4.12
+	},
+/turf/open/auto_turf/snow/brown_base/layer4,
+/area/space)
 "gq" = (
 /obj/structure/flora/tree/dead/tree_5,
 /turf/open/auto_turf/snow/brown_base/layer2,
+/area/space)
+"gr" = (
+/obj/structure/barricade/wooden{
+	dir = 4
+	},
+/turf/open/auto_turf/strata_grass/layer0_mud_alt,
+/area/space)
+"gs" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/platform/kutjevo/smooth,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/turf/open/floor/plating/wood_broken2,
+/area/space)
+"gy" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/obj/structure/closet/crate/upp,
+/obj/effect/vehicle_roof/pizza_van,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/gm/dirt2,
 /area/space)
 "gA" = (
 /obj/structure/flora/grass/tallgrass/ice/corner{
 	dir = 5
 	},
 /turf/open/auto_turf/snow/brown_base/layer3,
+/area/space)
+"gD" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/obj/structure/girder/displaced{
+	anchored = 1
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/gm/dirt2,
 /area/space)
 "gG" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -996,6 +1422,29 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/wood,
 /area/space)
+"gV" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/gm/dirt2,
+/area/space)
 "hc" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 4;
@@ -1008,6 +1457,20 @@
 /turf/open/gm/dirt2{
 	color = "#818181"
 	},
+/area/space)
+"hg" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/wood_broken2,
 /area/space)
 "hh" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -1048,6 +1511,26 @@
 	},
 /turf/open/gm/dirt2,
 /area/space)
+"hl" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/structure/surface/rack,
+/obj/item/ammo_magazine/m2c{
+	pixel_y = -2
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
 "hm" = (
 /obj/item/prop/helmetgarb/rosary{
 	pixel_x = 5
@@ -1056,6 +1539,16 @@
 	pixel_y = -13
 	},
 /turf/open/gm/dirt2,
+/area/space)
+"hq" = (
+/obj/structure/platform_decoration/kutjevo/smooth{
+	dir = 1
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
 /area/space)
 "hs" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -1097,6 +1590,26 @@
 	color = "#818181"
 	},
 /area/space)
+"hH" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/wood_broken5,
+/area/space)
+"hI" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/girder/displaced{
+	anchored = 1
+	},
+/turf/open/gm/dirt2,
+/area/space)
 "hJ" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -1111,6 +1624,20 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/gm/dirt2,
 /area/space)
+"hK" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/closet/crate/supply,
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/obj/item/stack/sandbags/large_stack,
+/obj/item/stack/sandbags/large_stack,
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
 "hO" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -1120,9 +1647,53 @@
 /obj/structure/surface/rack,
 /turf/open/gm/dirt2,
 /area/space)
+"hQ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/platform_decoration/kutjevo/smooth{
+	dir = 1
+	},
+/turf/open/floor/plating/wood_broken3,
+/area/space)
 "hT" = (
 /obj/structure/platform/kutjevo/smooth,
 /turf/open/floor/plating/wood,
+/area/space)
+"hV" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/wood_broken6,
+/area/space)
+"hX" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/bed{
+	can_buckle = 0;
+	desc = "A lightweight support lattice.";
+	icon = 'icons/obj/structures/structures.dmi';
+	icon_state = "latticefull";
+	layer = 2.1;
+	name = "lattice"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/turf/open/floor/plating,
 /area/space)
 "hZ" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -1131,6 +1702,14 @@
 	layer = 2.99
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/structure/girder/displaced{
+	anchored = 1
+	},
 /turf/open/floor/plating/wood_broken2,
 /area/space)
 "ic" = (
@@ -1165,11 +1744,58 @@
 	},
 /turf/open/floor/plating/wood,
 /area/space)
+"il" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/obj/structure/girder/reinforced,
+/turf/open/floor/plating/wood,
+/area/space)
 "in" = (
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/decal/cleanable/liquid_fuel,
 /turf/open/floor/plating/wood,
+/area/space)
+"io" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/turf/open/gm/dirt2,
+/area/space)
+"iq" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/closet/bodybag{
+	pixel_y = 4
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/item/storage/backpack/marine/satchel{
+	desc = "It's the heavy-duty black polymer kind. Time to take out the trash!";
+	icon = 'icons/obj/janitor.dmi';
+	icon_state = "trashbag3";
+	layer = 3.1;
+	name = "trash bag";
+	pixel_x = -11;
+	pixel_y = -5
+	},
+/turf/open/gm/dirt2,
+/area/space)
+"iu" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/wood_broken6,
 /area/space)
 "iy" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -1187,6 +1813,29 @@
 	dir = 4
 	},
 /turf/open/gm/dirt2,
+/area/space)
+"iz" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/floor/plating/wood,
 /area/space)
 "iA" = (
 /obj/structure/barricade/table/wood/poor{
@@ -1206,6 +1855,20 @@
 "iR" = (
 /obj/structure/prop/rock/brown,
 /turf/open/auto_turf/snow/brown_base/layer3,
+/area/space)
+"iT" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/wood,
 /area/space)
 "iU" = (
 /obj/structure/stairs/perspective/kutjevo{
@@ -1228,6 +1891,24 @@
 	},
 /turf/open/floor/plating/wood_broken5,
 /area/space)
+"iZ" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/girder/displaced{
+	anchored = 1
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
 "jc" = (
 /obj/structure/surface/table/woodentable/poor,
 /obj/item/storage/pouch/tools/mortar{
@@ -1240,6 +1921,9 @@
 "jd" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/mortar/fixed,
+/obj/item/device/flashlight/lamp/tripod/grey{
+	pixel_y = 20
+	},
 /turf/open/floor/plating/wood,
 /area/space)
 "je" = (
@@ -1284,6 +1968,18 @@
 	pixel_x = -9
 	},
 /obj/effect/vehicle_roof/pizza_van,
+/turf/open/gm/dirt2,
+/area/space)
+"jw" = (
+/obj/structure/stairs/perspective/kutjevo,
+/obj/structure/platform/kutjevo/rock{
+	dir = 4;
+	color = "#999999"
+	},
+/obj/structure/platform/kutjevo/rock{
+	dir = 8;
+	color = "#999999"
+	},
 /turf/open/gm/dirt2,
 /area/space)
 "jx" = (
@@ -1364,6 +2060,43 @@
 	color = "#818181"
 	},
 /area/space)
+"jH" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/gm/dirt2,
+/area/space)
+"jJ" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/turf/open/gm/dirt2,
+/area/space)
 "jL" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -1409,6 +2142,12 @@
 	color = "#818181"
 	},
 /area/space)
+"jX" = (
+/obj/structure/platform_decoration/kutjevo/smooth,
+/obj/effect/vehicle_roof/pizza_van,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/gm/dirt2,
+/area/space)
 "jZ" = (
 /obj/structure/platform/kutjevo/smooth,
 /obj/effect/decal/cleanable/dirt,
@@ -1452,6 +2191,36 @@
 	},
 /turf/open/gm/dirt2,
 /area/space)
+"kg" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/floor/plating/wood,
+/area/space)
+"ki" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/wood_broken6,
+/area/space)
+"kk" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/device/flashlight/lamp/tripod/grey,
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
 "kp" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 8;
@@ -1468,12 +2237,27 @@
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood,
 /area/space)
+"kv" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/turf/open/floor/plating/wood_broken2,
+/area/space)
 "kA" = (
 /obj/structure/platform/kutjevo/smooth,
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt2{
 	color = "#818181"
 	},
+/area/space)
+"kC" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/platform_decoration/kutjevo/smooth{
+	dir = 1
+	},
+/turf/open/gm/dirt2,
 /area/space)
 "kD" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -1498,6 +2282,31 @@
 	layer = 4.12
 	},
 /turf/open/auto_turf/strata_grass/layer0_mud_alt,
+/area/space)
+"kJ" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/turf/open/floor/plating,
+/area/space)
+"kQ" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/turf/open/floor/plating/wood_broken6,
 /area/space)
 "kS" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1565,6 +2374,58 @@
 	},
 /turf/open/gm/dirt2,
 /area/space)
+"lf" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/bed{
+	layer = 2.9
+	},
+/obj/structure/bed{
+	buckling_y = 13;
+	layer = 3.5;
+	pixel_y = 13
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/floor/plating/wood,
+/area/space)
+"li" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/obj/structure/bed{
+	can_buckle = 0;
+	desc = "A lightweight support lattice.";
+	icon = 'icons/obj/structures/structures.dmi';
+	icon_state = "latticefull";
+	layer = 2.1;
+	name = "lattice"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/space)
 "ls" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -1581,6 +2442,19 @@
 	pixel_y = 17
 	},
 /turf/open/gm/dirt2,
+/area/space)
+"lz" = (
+/obj/structure/barricade/wooden{
+	dir = 1;
+	pixel_y = 19;
+	layer = 4.12
+	},
+/obj/structure/platform_decoration/kutjevo/smooth{
+	dir = 8
+	},
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
 /area/space)
 "lB" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -1616,6 +2490,37 @@
 	},
 /obj/structure/largecrate/random/barrel,
 /turf/open/gm/dirt2,
+/area/space)
+"lD" = (
+/obj/structure/platform_decoration/kutjevo/rock{
+	dir = 8;
+	color = "#999999"
+	},
+/obj/structure/platform_decoration/kutjevo/rock{
+	dir = 4;
+	color = "#999999"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/wood,
+/area/space)
+"lE" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/girder/displaced{
+	anchored = 1
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
 /area/space)
 "lI" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -1683,6 +2588,15 @@
 	},
 /turf/open/auto_turf/snow/brown_base/layer0,
 /area/space)
+"mk" = (
+/obj/structure/platform_decoration/kutjevo/smooth{
+	dir = 4
+	},
+/obj/structure/barricade/wooden{
+	dir = 8
+	},
+/turf/open/floor/plating/wood,
+/area/space)
 "mp" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 8;
@@ -1706,6 +2620,22 @@
 /turf/open/gm/dirt2{
 	color = "#818181"
 	},
+/area/space)
+"mD" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/girder/displaced{
+	anchored = 1
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/turf/open/floor/plating/wood,
 /area/space)
 "mF" = (
 /obj/structure/barricade/wooden{
@@ -1767,6 +2697,46 @@
 	color = "#818181"
 	},
 /area/space)
+"na" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/girder/displaced{
+	anchored = 1
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
+"ne" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/girder/displaced{
+	anchored = 1
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/floor/plating/wood_broken2,
+/area/space)
 "ni" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
 	dir = 1
@@ -1783,6 +2753,7 @@
 	dir = 8;
 	color = "#999999"
 	},
+/obj/item/device/flashlight/lamp/tripod/grey,
 /turf/open/floor/plating/wood,
 /area/space)
 "nn" = (
@@ -1811,6 +2782,17 @@
 	},
 /turf/open/auto_turf/snow/brown_base/layer3,
 /area/space)
+"nB" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
 "nJ" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 4;
@@ -1819,8 +2801,46 @@
 /obj/effect/decal/cleanable/blood,
 /turf/open/gm/dirt2,
 /area/space)
+"nM" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/stairs/perspective/kutjevo{
+	dir = 1
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
 "nP" = (
 /turf/open/auto_turf/snow/brown_base/layer4,
+/area/space)
+"nQ" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
 /area/space)
 "nR" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -1839,6 +2859,7 @@
 	pixel_y = -11
 	},
 /obj/effect/vehicle_roof/pizza_van,
+/obj/item/device/flashlight/lamp/tripod/grey,
 /turf/open/gm/dirt2,
 /area/space)
 "nS" = (
@@ -1856,6 +2877,41 @@
 /turf/open/gm/dirt2{
 	color = "#818181"
 	},
+/area/space)
+"nW" = (
+/obj/structure/platform_decoration/kutjevo/smooth{
+	dir = 4
+	},
+/obj/structure/barricade/wooden{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/gm/dirt2,
+/area/space)
+"nY" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/stairs/perspective/kutjevo,
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
+"oh" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/wood,
 /area/space)
 "ol" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -1896,6 +2952,14 @@
 /turf/open/gm/dirt2{
 	color = "#818181"
 	},
+/area/space)
+"oA" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/turf/open/floor/plating/wood_broken5,
 /area/space)
 "oB" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -1949,6 +3013,11 @@
 /obj/structure/flora/tree/dead/tree_1,
 /turf/open/auto_turf/snow/brown_base/layer3,
 /area/space)
+"oS" = (
+/obj/effect/vehicle_roof/pizza_van,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/gm/dirt2,
+/area/space)
 "oZ" = (
 /obj/structure/platform/kutjevo/smooth,
 /obj/effect/decal/cleanable/dirt,
@@ -1995,6 +3064,24 @@
 	},
 /turf/open/floor/plating/wood,
 /area/space)
+"pp" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/turf/open/floor/plating/wood,
+/area/space)
 "pq" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 4;
@@ -2012,6 +3099,28 @@
 	},
 /turf/open/floor/plating/wood_broken2,
 /area/space)
+"pt" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/platform_decoration/kutjevo/smooth{
+	dir = 4
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
 "pD" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 8;
@@ -2028,6 +3137,46 @@
 	},
 /turf/open/gm/dirt2,
 /area/space)
+"pG" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/bed{
+	can_buckle = 0;
+	desc = "A lightweight support lattice.";
+	icon = 'icons/obj/structures/structures.dmi';
+	icon_state = "latticefull";
+	layer = 2.1;
+	name = "lattice"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/space)
+"pI" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/wood_broken4,
+/area/space)
 "pJ" = (
 /obj/structure/platform/kutjevo/smooth,
 /obj/structure/barricade/sandbags/wired{
@@ -2037,6 +3186,26 @@
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/blood/gibs/core,
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
+"pK" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/girder/displaced{
+	anchored = 1
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/gm/dirt2{
 	color = "#818181"
 	},
@@ -2054,6 +3223,10 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/wood,
+/area/space)
+"pQ" = (
+/obj/item/device/flashlight/lamp/tripod/grey,
+/turf/open/gm/dirt2,
 /area/space)
 "pW" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -2121,6 +3294,31 @@
 	},
 /turf/open/floor/plating,
 /area/space)
+"qm" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/bed{
+	can_buckle = 0;
+	desc = "A lightweight support lattice.";
+	icon = 'icons/obj/structures/structures.dmi';
+	icon_state = "latticefull";
+	layer = 2.1;
+	name = "lattice"
+	},
+/turf/open/floor/plating,
+/area/space)
 "qr" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -2146,6 +3344,16 @@
 /turf/open/gm/dirt2{
 	color = "#818181"
 	},
+/area/space)
+"qv" = (
+/obj/structure/platform_decoration/kutjevo/smooth{
+	dir = 4
+	},
+/obj/structure/platform_decoration/kutjevo/smooth{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/blood,
+/turf/open/gm/dirt2,
 /area/space)
 "qz" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -2184,6 +3392,24 @@
 	color = "#818181"
 	},
 /area/space)
+"qN" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/obj/structure/girder/displaced{
+	anchored = 1
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/gm/dirt2,
+/area/space)
 "qP" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 4;
@@ -2209,6 +3435,14 @@
 "qR" = (
 /obj/structure/bed/chair/wood/normal,
 /turf/open/gm/dirt2,
+/area/space)
+"qS" = (
+/obj/structure/girder/displaced{
+	anchored = 1
+	},
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
 /area/space)
 "qT" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -2298,6 +3532,23 @@
 	color = "#818181"
 	},
 /area/space)
+"rh" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/turf/open/gm/dirt2,
+/area/space)
 "rk" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/auto_turf/snow/brown_base/layer2,
@@ -2345,6 +3596,29 @@
 /turf/open/gm/dirt2{
 	color = "#818181"
 	},
+/area/space)
+"rq" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/structure/bed{
+	can_buckle = 0;
+	desc = "A lightweight support lattice.";
+	icon = 'icons/obj/structures/structures.dmi';
+	icon_state = "latticefull";
+	layer = 2.1;
+	name = "lattice"
+	},
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plating,
 /area/space)
 "ru" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -2407,14 +3681,84 @@
 /obj/structure/flora/tree/pine,
 /turf/open/auto_turf/snow/brown_base/layer2,
 /area/space)
+"rM" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/structure/barricade/table/wood/poor{
+	dir = 4
+	},
+/turf/open/gm/dirt2,
+/area/space)
 "rO" = (
 /obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/wood,
+/area/space)
+"rS" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/girder/displaced{
+	anchored = 1
+	},
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
+"rT" = (
+/obj/structure/platform_decoration/kutjevo/smooth{
+	dir = 8
+	},
+/obj/structure/stairs/perspective/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/kutjevo/rock{
+	color = "#999999";
+	dir = 4;
+	layer = 2.9
+	},
+/turf/open/gm/dirt2,
+/area/space)
+"rV" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/girder/displaced{
+	anchored = 1
+	},
+/obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood,
 /area/space)
 "rY" = (
 /turf/closed/wall/strata_ice/jungle{
 	color = "#818181"
 	},
+/area/space)
+"sc" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/stairs/perspective/kutjevo,
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/gm/dirt2,
 /area/space)
 "sj" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -2450,6 +3794,26 @@
 /turf/open/gm/dirt2{
 	color = "#818181"
 	},
+/area/space)
+"su" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/bed{
+	can_buckle = 0;
+	desc = "A lightweight support lattice.";
+	icon = 'icons/obj/structures/structures.dmi';
+	icon_state = "latticefull";
+	layer = 2.1;
+	name = "lattice"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
 /area/space)
 "sG" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -2503,6 +3867,55 @@
 	color = "#818181"
 	},
 /area/space)
+"sM" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/item/device/flashlight/lamp/tripod/grey,
+/turf/open/gm/dirt2,
+/area/space)
+"sQ" = (
+/obj/structure/platform_decoration/kutjevo/smooth{
+	dir = 1
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/gm/dirt2,
+/area/space)
+"sR" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/structure/closet/crate/upp,
+/obj/item/ammo_magazine/m2c,
+/obj/item/ammo_magazine/m2c,
+/obj/effect/vehicle_roof/pizza_van,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/wood,
+/area/space)
 "tb" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -2524,6 +3937,36 @@
 	pixel_y = 17
 	},
 /turf/open/gm/dirt2,
+/area/space)
+"td" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/surface/rack,
+/obj/item/tool/shovel/etool/upp{
+	pixel_y = 11;
+	pixel_x = -5
+	},
+/obj/item/tool/shovel/etool/upp{
+	pixel_y = 5
+	},
+/obj/item/tool/shovel/etool/upp{
+	pixel_x = 5
+	},
+/obj/item/tool/shovel/etool/upp{
+	pixel_y = 11;
+	pixel_x = -5
+	},
+/obj/item/tool/shovel/etool/upp{
+	pixel_y = 5
+	},
+/obj/item/tool/shovel/etool/upp{
+	pixel_x = 5
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/floor/plating/wood,
 /area/space)
 "tg" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -2555,6 +3998,22 @@
 /turf/open/gm/dirt2{
 	color = "#818181"
 	},
+/area/space)
+"tu" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/girder/displaced{
+	anchored = 1
+	},
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/turf/open/gm/dirt2,
+/area/space)
+"tv" = (
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/floor/plating/wood_broken6,
 /area/space)
 "tx" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -2632,6 +4091,31 @@
 	color = "#818181"
 	},
 /area/space)
+"tM" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/floor/plating/wood,
+/area/space)
+"tP" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/girder/displaced{
+	anchored = 1
+	},
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/turf/open/gm/dirt2,
+/area/space)
 "tS" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -2701,6 +4185,24 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/gm/dirt2,
 /area/space)
+"ui" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/platform_decoration/kutjevo/rock{
+	color = "#999999"
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
 "uk" = (
 /obj/structure/barricade/wooden{
 	dir = 1;
@@ -2710,6 +4212,18 @@
 /obj/structure/barricade/wooden,
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/auto_turf/strata_grass/layer0_mud_alt,
+/area/space)
+"ul" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/obj/structure/machinery/m56d_hmg/auto,
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
 /area/space)
 "um" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -2744,6 +4258,124 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/wood_broken4,
+/area/space)
+"us" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/bed{
+	can_buckle = 0;
+	desc = "A lightweight support lattice.";
+	icon = 'icons/obj/structures/structures.dmi';
+	icon_state = "latticefull";
+	layer = 2.1;
+	name = "lattice"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/turf/open/floor/plating,
+/area/space)
+"uu" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/obj/structure/closet/crate/freezer/cooler{
+	pixel_x = 13;
+	pixel_y = 14
+	},
+/obj/item/reagent_container/food/drinks/bottle/beer/craft/reaper{
+	pixel_x = 11;
+	pixel_y = 26
+	},
+/obj/item/reagent_container/food/drinks/bottle/beer/craft/reaper{
+	pixel_x = 16;
+	pixel_y = 21
+	},
+/obj/structure/bed/chair/wood/normal{
+	dir = 4;
+	pixel_x = -8
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/gm/dirt2,
+/area/space)
+"uw" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/structure/prop/brazier/campfire{
+	pixel_x = 11;
+	pixel_y = -11
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
+"ux" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/girder/displaced{
+	anchored = 1
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/turf/open/gm/dirt2,
+/area/space)
+"uA" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/wood_broken2,
+/area/space)
+"uB" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/bed{
+	can_buckle = 0;
+	desc = "A lightweight support lattice.";
+	icon = 'icons/obj/structures/structures.dmi';
+	icon_state = "latticefull";
+	layer = 2.1;
+	name = "lattice"
+	},
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plating,
 /area/space)
 "uC" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -2880,6 +4512,14 @@
 	color = "#818181"
 	},
 /area/space)
+"vg" = (
+/obj/structure/barricade/wooden{
+	dir = 4
+	},
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
 "vi" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 4;
@@ -2902,6 +4542,12 @@
 	layer = 3.04
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood,
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
 /turf/open/floor/plating/wood_broken4,
 /area/space)
 "vu" = (
@@ -2909,6 +4555,39 @@
 /obj/structure/prop/brazier/campfire,
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt2,
+/area/space)
+"vv" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/girder/displaced{
+	anchored = 1
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/turf/open/gm/dirt2,
+/area/space)
+"vy" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/girder/displaced{
+	anchored = 1
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/turf/open/floor/plating/wood,
 /area/space)
 "vB" = (
 /obj/effect/decal/cleanable/dirt,
@@ -2927,7 +4606,36 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
 /turf/open/floor/plating/wood_broken4,
+/area/space)
+"vK" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/bed{
+	can_buckle = 0;
+	desc = "A lightweight support lattice.";
+	icon = 'icons/obj/structures/structures.dmi';
+	icon_state = "latticefull";
+	layer = 2.1;
+	name = "lattice"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plating,
 /area/space)
 "vP" = (
 /obj/structure/platform/kutjevo/rock{
@@ -2940,6 +4648,47 @@
 /turf/open/gm/dirt2{
 	color = "#818181"
 	},
+/area/space)
+"vQ" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/wooden{
+	dir = 1;
+	pixel_y = 19;
+	layer = 4.12
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
+"wa" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/obj/item/tool/screwdriver{
+	pixel_y = 18;
+	pixel_x = 14
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
+"wb" = (
+/obj/effect/vehicle_roof/pizza_van,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/wood_broken6,
 /area/space)
 "wc" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -2981,6 +4730,35 @@
 	color = "#818181"
 	},
 /area/space)
+"wm" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/bed/chair/wood/normal{
+	dir = 1;
+	pixel_x = -5;
+	pixel_y = 17
+	},
+/obj/structure/bed/chair/wood/normal{
+	dir = 1;
+	pixel_x = 9;
+	pixel_y = 5
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/floor/plating/wood,
+/area/space)
 "wo" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 4;
@@ -3017,6 +4795,21 @@
 	},
 /turf/open/floor/plating/wood_broken4,
 /area/space)
+"wv" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/structure/surface/rack,
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/gm/dirt2,
+/area/space)
 "wx" = (
 /obj/structure/flora/tree/dead/tree_2,
 /turf/open/auto_turf/snow/brown_base/layer3,
@@ -3032,6 +4825,22 @@
 	dir = 8;
 	climb_delay = 1;
 	layer = 2.99
+	},
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
+"wA" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/largecrate/random/secure{
+	pixel_y = -2
+	},
+/obj/structure/largecrate/random{
+	pixel_y = 15
 	},
 /turf/open/gm/dirt2{
 	color = "#818181"
@@ -3090,6 +4899,23 @@
 	},
 /turf/open/floor/plating,
 /area/space)
+"wI" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
+"wK" = (
+/obj/effect/vehicle_roof/pizza_van,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/wood,
+/area/space)
 "wN" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 4;
@@ -3105,6 +4931,32 @@
 	color = "#818181"
 	},
 /area/space)
+"wS" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/turf/open/floor/plating/wood,
+/area/space)
+"wZ" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/girder/displaced{
+	anchored = 1
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/floor/plating/wood,
+/area/space)
 "xa" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -3117,6 +4969,12 @@
 	pixel_y = -11
 	},
 /turf/open/gm/dirt2,
+/area/space)
+"xb" = (
+/obj/structure/barricade/wooden{
+	dir = 8
+	},
+/turf/open/auto_turf/snow/brown_base/layer0,
 /area/space)
 "xe" = (
 /obj/structure/flora/tree/pine,
@@ -3184,6 +5042,44 @@
 	color = "#818181"
 	},
 /area/space)
+"xD" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
+"xQ" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/platform/kutjevo/smooth,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
 "xT" = (
 /obj/structure/prop/rock/brown,
 /turf/open/auto_turf/snow/brown_base/layer2,
@@ -3191,7 +5087,30 @@
 "xU" = (
 /obj/structure/platform/kutjevo/smooth,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
 /turf/open/floor/plating/wood_broken2,
+/area/space)
+"xV" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/structure/girder/displaced{
+	anchored = 1
+	},
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
 /area/space)
 "ya" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -3234,7 +5153,63 @@
 /obj/structure/platform/kutjevo/smooth,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
 /turf/open/floor/plating/wood,
+/area/space)
+"yn" = (
+/obj/structure/stairs/perspective/kutjevo{
+	dir = 4
+	},
+/obj/structure/platform_decoration/kutjevo/smooth,
+/obj/structure/platform_decoration/kutjevo/smooth{
+	dir = 8
+	},
+/obj/structure/platform/kutjevo/rock{
+	color = "#999999";
+	dir = 1;
+	layer = 2.9
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
+"yp" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/effect/decal/cleanable/blood,
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
+"yx" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/bed{
+	can_buckle = 0;
+	desc = "A lightweight support lattice.";
+	icon = 'icons/obj/structures/structures.dmi';
+	icon_state = "latticefull";
+	layer = 2.1;
+	name = "lattice"
+	},
+/obj/structure/disposalpipe/segment,
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/turf/open/floor/plating,
 /area/space)
 "yz" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -3257,6 +5232,45 @@
 	pixel_x = -9
 	},
 /turf/open/gm/dirt2,
+/area/space)
+"yC" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/surface/table/gamblingtable,
+/obj/item/toy/deck,
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/floor/plating/wood,
+/area/space)
+"yD" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/obj/structure/machinery/m56d_hmg/auto,
+/turf/open/floor/plating/wood,
+/area/space)
+"yF" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
 /area/space)
 "yI" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -3283,6 +5297,25 @@
 	},
 /turf/open/floor/plating/wood,
 /area/space)
+"yQ" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/wood_broken3,
+/area/space)
 "yR" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 8;
@@ -3305,6 +5338,23 @@
 /turf/open/gm/dirt2{
 	color = "#818181"
 	},
+/area/space)
+"yT" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/disposalpipe/segment,
+/obj/structure/bed{
+	can_buckle = 0;
+	desc = "A lightweight support lattice.";
+	icon = 'icons/obj/structures/structures.dmi';
+	icon_state = "latticefull";
+	layer = 2.1;
+	name = "lattice"
+	},
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/turf/open/floor/plating,
 /area/space)
 "yW" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -3348,9 +5398,96 @@
 	color = "#818181"
 	},
 /area/space)
+"zc" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/girder/displaced{
+	anchored = 1
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
+"ze" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/obj/structure/girder/displaced{
+	anchored = 1
+	},
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
 "zi" = (
 /obj/structure/flora/tree/dead/tree_4,
 /turf/open/auto_turf/snow/brown_base/layer3,
+/area/space)
+"zm" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
+"zq" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/structure/largecrate/random/barrel/yellow{
+	pixel_x = 8
+	},
+/obj/structure/largecrate/random/mini/wooden{
+	pixel_x = -10
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/gm/dirt2,
+/area/space)
+"zr" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/turf/open/floor/plating/wood_broken2,
 /area/space)
 "zB" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -3378,6 +5515,18 @@
 "zJ" = (
 /obj/effect/decal/cleanable/liquid_fuel,
 /turf/open/gm/dirt2,
+/area/space)
+"zK" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/barricade/wooden{
+	dir = 1;
+	pixel_y = 19;
+	layer = 4.12
+	},
+/turf/open/floor/plating/wood,
 /area/space)
 "zR" = (
 /turf/open/gm/dirt2,
@@ -3430,6 +5579,19 @@
 	color = "#818181"
 	},
 /area/space)
+"Am" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/effect/decal/cleanable/blood/gibs/core,
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/turf/open/floor/plating/wood_broken5,
+/area/space)
 "Ao" = (
 /obj/structure/flora/tree/dead/tree_2,
 /turf/open/auto_turf/snow/brown_base/layer2,
@@ -3459,6 +5621,29 @@
 	pixel_x = -4
 	},
 /turf/open/gm/dirt2,
+/area/space)
+"Ay" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/turf/open/floor/plating/wood,
 /area/space)
 "AC" = (
 /obj/effect/decal/cleanable/dirt,
@@ -3522,6 +5707,15 @@
 	},
 /turf/open/floor/plating/wood_broken4,
 /area/space)
+"AR" = (
+/obj/structure/barricade/wooden{
+	dir = 1;
+	pixel_y = 19;
+	layer = 4.12
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/gm/dirt2,
+/area/space)
 "AU" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 4;
@@ -3544,6 +5738,14 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
+/area/space)
+"AW" = (
+/obj/structure/barricade/wooden{
+	dir = 1;
+	pixel_y = 19;
+	layer = 4.12
+	},
+/turf/open/auto_turf/snow/brown_base/layer3,
 /area/space)
 "Ba" = (
 /obj/structure/stairs/perspective/kutjevo{
@@ -3626,6 +5828,25 @@
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood,
 /area/space)
+"Bo" = (
+/obj/structure/platform_decoration/kutjevo/smooth{
+	dir = 8
+	},
+/obj/structure/stairs/perspective/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform_decoration/kutjevo/smooth{
+	dir = 4;
+	layer = 3.01
+	},
+/obj/structure/platform/kutjevo/rock{
+	color = "#999999";
+	dir = 8
+	},
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
 "Bv" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 8;
@@ -3639,6 +5860,76 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/wood_broken4,
+/area/space)
+"Bw" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/largecrate/random{
+	layer = 3.2;
+	pixel_x = 3
+	},
+/obj/structure/barricade/wooden{
+	dir = 8;
+	layer = 4
+	},
+/turf/open/floor/plating/wood,
+/area/space)
+"By" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/turf/open/floor/plating/wood_broken2,
+/area/space)
+"BA" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/turf/open/floor/plating,
+/area/space)
+"BF" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/turf/open/floor/plating/wood_broken6,
+/area/space)
+"BG" = (
+/obj/structure/bed/chair/wood/normal{
+	dir = 1;
+	pixel_x = 22
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/gm/dirt2,
 /area/space)
 "BI" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -3690,6 +5981,21 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/gm/dirt2,
 /area/space)
+"BX" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/effect/decal/cleanable/blood/gibs/down,
+/obj/effect/decal/cleanable/blood/gibs/limb,
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/turf/open/floor/plating/wood,
+/area/space)
 "BY" = (
 /obj/structure/flora/grass/tallgrass/ice,
 /turf/open/auto_turf/snow/brown_base/layer2,
@@ -3713,8 +6019,120 @@
 	color = "#818181"
 	},
 /area/space)
+"Cc" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/structure/barricade/wooden{
+	dir = 8
+	},
+/turf/open/floor/plating/wood,
+/area/space)
+"Cf" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/bed{
+	can_buckle = 0;
+	desc = "A lightweight support lattice.";
+	icon = 'icons/obj/structures/structures.dmi';
+	icon_state = "latticefull";
+	layer = 2.1;
+	name = "lattice"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/turf/open/floor/plating,
+/area/space)
+"Cg" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/wood_broken2,
+/area/space)
+"Co" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/girder/displaced{
+	anchored = 1
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/floor/plating/wood,
+/area/space)
 "Cv" = (
 /turf/open/auto_turf/snow/brown_base/layer3,
+/area/space)
+"Cx" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/turf/open/floor/plating/wood,
+/area/space)
+"CA" = (
+/obj/structure/platform_decoration/kutjevo/smooth{
+	dir = 8
+	},
+/obj/structure/platform_decoration/kutjevo/smooth{
+	dir = 4
+	},
+/turf/open/gm/dirt2,
+/area/space)
+"CC" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/wooden{
+	dir = 4
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/turf/open/floor/plating/wood,
 /area/space)
 "CD" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -3748,6 +6166,22 @@
 /turf/open/gm/dirt2{
 	color = "#818181"
 	},
+/area/space)
+"CG" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/structure/girder/displaced{
+	anchored = 1
+	},
+/turf/open/floor/plating/wood_broken4,
 /area/space)
 "CK" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -3824,6 +6258,85 @@
 	color = "#818181"
 	},
 /area/space)
+"Do" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/turf/open/gm/dirt2,
+/area/space)
+"Dp" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/platform/kutjevo/smooth,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/bed{
+	can_buckle = 0;
+	desc = "A lightweight support lattice.";
+	icon = 'icons/obj/structures/structures.dmi';
+	icon_state = "latticefull";
+	layer = 2.1;
+	name = "lattice"
+	},
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plating,
+/area/space)
+"DB" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
+"DD" = (
+/obj/structure/stairs/perspective/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/turf/open/gm/dirt2,
+/area/space)
 "DE" = (
 /obj/structure/platform/kutjevo/smooth,
 /obj/structure/barricade/sandbags/wired{
@@ -3843,6 +6356,55 @@
 /turf/open/gm/dirt2{
 	color = "#818181"
 	},
+/area/space)
+"DI" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/wood_broken6,
+/area/space)
+"DJ" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/bed{
+	can_buckle = 0;
+	desc = "A lightweight support lattice.";
+	icon = 'icons/obj/structures/structures.dmi';
+	icon_state = "latticefull";
+	layer = 2.1;
+	name = "lattice"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/barricade/table/wood/poor{
+	dir = 4
+	},
+/obj/structure/largecrate/random/secure{
+	pixel_x = -3
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/space)
+"DQ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/turf/open/gm/dirt2,
 /area/space)
 "DR" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -3864,6 +6426,126 @@
 	color = "#818181"
 	},
 /area/space)
+"DU" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/structure/bed/chair/wood/normal{
+	dir = 8;
+	pixel_x = 8
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
+"DY" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/girder/displaced{
+	anchored = 1
+	},
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/wood,
+/area/space)
+"Ea" = (
+/obj/structure/bed{
+	can_buckle = 0;
+	desc = "A lightweight support lattice.";
+	icon = 'icons/obj/structures/structures.dmi';
+	icon_state = "latticefull";
+	layer = 2.1;
+	name = "lattice"
+	},
+/obj/structure/disposalpipe/segment,
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/wooden{
+	dir = 4
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/turf/open/floor/plating,
+/area/space)
+"Ee" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/obj/structure/platform/kutjevo/rock{
+	dir = 1;
+	color = "#999999"
+	},
+/obj/structure/barricade/wooden{
+	dir = 1;
+	pixel_y = 19;
+	layer = 4.12
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/gm/dirt2,
+/area/space)
+"Eh" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/obj/structure/machinery/m56d_hmg/auto,
+/obj/effect/vehicle_roof/pizza_van,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/wood_broken4,
+/area/space)
+"Ek" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/barricade/wooden{
+	dir = 8
+	},
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
+"Ep" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/wood,
+/area/space)
 "Ey" = (
 /obj/structure/flora/tree/dead/tree_3,
 /turf/open/auto_turf/snow/brown_base/layer2,
@@ -3871,6 +6553,15 @@
 "EB" = (
 /obj/structure/flora/tree/dead/tree_4,
 /turf/open/auto_turf/snow/brown_base/layer2,
+/area/space)
+"ED" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/platform_decoration/kutjevo/smooth{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/gm/dirt2,
 /area/space)
 "EN" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -3899,6 +6590,72 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/wood_broken4,
 /area/space)
+"ER" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/structure/girder/displaced{
+	anchored = 1
+	},
+/turf/open/floor/plating/wood,
+/area/space)
+"ES" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/platform/kutjevo/rock{
+	color = "#999999";
+	dir = 8;
+	layer = 2.9
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/obj/item/device/flashlight/lamp/tripod/grey,
+/turf/open/gm/dirt2,
+/area/space)
+"ET" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/bed{
+	can_buckle = 0;
+	desc = "A lightweight support lattice.";
+	icon = 'icons/obj/structures/structures.dmi';
+	icon_state = "latticefull";
+	layer = 2.1;
+	name = "lattice"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/space)
 "EW" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
 	dir = 1
@@ -3918,6 +6675,24 @@
 	layer = 3.04
 	},
 /turf/open/floor/plating/wood,
+/area/space)
+"Fd" = (
+/obj/structure/stairs/perspective/kutjevo{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
 /area/space)
 "Fe" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -3948,6 +6723,19 @@
 	},
 /turf/open/auto_turf/snow/brown_base/layer2,
 /area/space)
+"Fo" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/platform_decoration/kutjevo/smooth{
+	dir = 1
+	},
+/obj/structure/largecrate/random/mini{
+	pixel_y = 13;
+	pixel_x = 9
+	},
+/turf/open/gm/dirt2,
+/area/space)
 "Fp" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -3957,6 +6745,54 @@
 /turf/open/gm/dirt2{
 	color = "#818181"
 	},
+/area/space)
+"Fq" = (
+/obj/structure/stairs/perspective/kutjevo{
+	dir = 4
+	},
+/obj/structure/platform_decoration/kutjevo/smooth,
+/obj/structure/platform/kutjevo/rock{
+	color = "#999999";
+	layer = 2.9
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/floor/plating/wood,
+/area/space)
+"Fr" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/effect/decal/ammo_casing{
+	icon_state = "cartridge_2_1";
+	layer = 2
+	},
+/obj/effect/decal/ammo_casing{
+	dir = 5;
+	icon_state = "cartridge_10";
+	pixel_y = 40;
+	pixel_x = -15
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/turf/open/gm/dirt2,
+/area/space)
+"Fu" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/turf/open/floor/plating/wood_broken2,
 /area/space)
 "Fw" = (
 /obj/structure/flora/grass/tallgrass/ice/corner{
@@ -3995,6 +6831,20 @@
 /obj/structure/flora/tree/dead/tree_6,
 /turf/open/auto_turf/snow/brown_base/layer3,
 /area/space)
+"FL" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/effect/decal/cleanable/blood,
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/turf/open/gm/dirt2,
+/area/space)
 "FN" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -4008,6 +6858,54 @@
 /turf/open/gm/dirt2{
 	color = "#818181"
 	},
+/area/space)
+"FQ" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/structure/bed/chair/wood/normal{
+	pixel_x = -7
+	},
+/obj/item/device/flashlight/lamp/tripod/grey{
+	pixel_x = 11;
+	pixel_y = -13
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/gm/dirt2,
+/area/space)
+"FX" = (
+/obj/structure/bed{
+	can_buckle = 0;
+	desc = "A lightweight support lattice.";
+	icon = 'icons/obj/structures/structures.dmi';
+	icon_state = "latticefull";
+	layer = 2.1;
+	name = "lattice"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/turf/open/floor/plating,
+/area/space)
+"Ge" = (
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/gm/dirt2,
 /area/space)
 "Gf" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -4123,6 +7021,48 @@
 	},
 /turf/open/floor/plating/wood,
 /area/space)
+"GG" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/blood,
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
+"GP" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/barricade/wooden{
+	dir = 4
+	},
+/obj/structure/largecrate/random/barrel/black{
+	pixel_y = 8;
+	pixel_x = -3
+	},
+/obj/structure/largecrate/random/barrel/black,
+/obj/structure/largecrate/random/barrel/medical{
+	pixel_x = -33;
+	pixel_y = 7
+	},
+/obj/structure/largecrate/random/barrel/brown{
+	pixel_x = -21;
+	pixel_y = 3
+	},
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/wood,
+/area/space)
 "GX" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 8;
@@ -4192,6 +7132,18 @@
 	color = "#818181"
 	},
 /area/space)
+"Hb" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/stairs/perspective/kutjevo{
+	dir = 4
+	},
+/turf/open/gm/dirt2,
+/area/space)
 "Hc" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 8;
@@ -4229,6 +7181,14 @@
 	color = "#818181"
 	},
 /area/space)
+"Hl" = (
+/obj/effect/vehicle_roof/pizza_van,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
 "Hn" = (
 /obj/structure/flora/tree/dead/tree_1,
 /turf/open/auto_turf/snow/brown_base/layer2,
@@ -4254,6 +7214,18 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/gm/dirt2,
 /area/space)
+"Hr" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/turf/open/floor/plating/wood_broken5,
+/area/space)
 "Hy" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -4275,6 +7247,35 @@
 /turf/open/gm/dirt2{
 	color = "#818181"
 	},
+/area/space)
+"HQ" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/bed{
+	can_buckle = 0;
+	desc = "A lightweight support lattice.";
+	icon = 'icons/obj/structures/structures.dmi';
+	icon_state = "latticefull";
+	layer = 2.1;
+	name = "lattice"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/turf/open/floor/plating,
 /area/space)
 "HU" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -4309,6 +7310,42 @@
 	},
 /turf/open/gm/dirt2,
 /area/space)
+"Ie" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/turf/open/floor/plating/wood,
+/area/space)
+"Ih" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/stairs/perspective/kutjevo{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/turf/open/gm/dirt2,
+/area/space)
 "Ii" = (
 /obj/structure/flora/grass/tallgrass/ice/corner{
 	dir = 10
@@ -4340,6 +7377,50 @@
 /obj/structure/platform_decoration/kutjevo/smooth{
 	dir = 8
 	},
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
+"Ir" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/platform_decoration/kutjevo/smooth,
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
+"Is" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/gm/dirt2{
 	color = "#818181"
 	},
@@ -4391,6 +7472,55 @@
 	},
 /turf/open/floor/plating,
 /area/space)
+"IY" = (
+/obj/structure/platform_decoration/kutjevo/smooth{
+	dir = 4
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/gm/dirt2,
+/area/space)
+"Je" = (
+/obj/structure/bed{
+	can_buckle = 0;
+	desc = "A lightweight support lattice.";
+	icon = 'icons/obj/structures/structures.dmi';
+	icon_state = "latticefull";
+	layer = 2.1;
+	name = "lattice"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/machinery/m56d_hmg/auto{
+	pixel_y = 10
+	},
+/obj/structure/barricade/deployable,
+/turf/open/floor/plating,
+/area/space)
+"Jh" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/platform/kutjevo/rock{
+	dir = 1;
+	color = "#999999"
+	},
+/obj/structure/barricade/wooden{
+	dir = 1;
+	pixel_y = 19;
+	layer = 4.12
+	},
+/obj/effect/decal/cleanable/blood,
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
 "Ji" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 8;
@@ -4423,6 +7553,30 @@
 /turf/open/gm/dirt2{
 	color = "#818181"
 	},
+/area/space)
+"Jn" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/platform_decoration/kutjevo/smooth{
+	dir = 4
+	},
+/obj/structure/stairs/perspective/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform_decoration/kutjevo/smooth{
+	dir = 8;
+	layer = 3.01
+	},
+/obj/structure/platform/kutjevo/rock{
+	color = "#999999";
+	dir = 4
+	},
+/turf/open/gm/dirt2,
+/area/space)
+"Jp" = (
+/obj/structure/platform_decoration/kutjevo/smooth{
+	dir = 4
+	},
+/turf/open/floor/plating/wood,
 /area/space)
 "Jy" = (
 /obj/structure/flora/grass/tallgrass/ice/corner{
@@ -4459,6 +7613,45 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/wood_broken4,
+/area/space)
+"JB" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/item/storage/backpack/marine/satchel{
+	desc = "It's the heavy-duty black polymer kind. Time to take out the trash!";
+	icon = 'icons/obj/janitor.dmi';
+	icon_state = "trashbag3";
+	layer = 3.1;
+	name = "trash bag";
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
+"JH" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/platform/kutjevo/smooth,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/turf/open/floor/plating/wood,
 /area/space)
 "JT" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -4603,6 +7796,15 @@
 	},
 /turf/open/floor/plating/wood_broken5,
 /area/space)
+"Ky" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/obj/structure/machinery/m56d_hmg/auto,
+/turf/open/gm/dirt2,
+/area/space)
 "Kz" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 8;
@@ -4628,6 +7830,115 @@
 /turf/open/gm/dirt2{
 	color = "#818181"
 	},
+/area/space)
+"KB" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/obj/structure/largecrate/random/barrel/red{
+	pixel_x = -6;
+	pixel_y = 12
+	},
+/obj/structure/largecrate/random/case/small{
+	pixel_y = 2
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/floor/plating/wood,
+/area/space)
+"KC" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/bed{
+	can_buckle = 0;
+	desc = "A lightweight support lattice.";
+	icon = 'icons/obj/structures/structures.dmi';
+	icon_state = "latticefull";
+	layer = 2.1;
+	name = "lattice"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/turf/open/floor/plating,
+/area/space)
+"KD" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/obj/structure/girder/displaced{
+	anchored = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
+"KE" = (
+/obj/structure/platform_decoration/kutjevo/smooth{
+	dir = 8
+	},
+/obj/structure/barricade/wooden{
+	dir = 4
+	},
+/turf/open/gm/dirt2,
+/area/space)
+"KL" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/obj/effect/decal/ammo_casing{
+	icon_state = "cartridge_2_1";
+	layer = 2
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/turf/open/floor/plating/wood_broken2,
+/area/space)
+"KP" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/floor/plating/wood,
 /area/space)
 "KQ" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -4677,12 +7988,113 @@
 	color = "#818181"
 	},
 /area/space)
+"Lj" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/largecrate/random/secure{
+	pixel_x = 3
+	},
+/obj/structure/largecrate/random/case/small{
+	pixel_y = 18;
+	layer = 4.12;
+	pixel_x = 3
+	},
+/obj/structure/largecrate/random/case/double{
+	pixel_y = -14;
+	pixel_x = 3
+	},
+/obj/structure/barricade/wooden{
+	dir = 8;
+	layer = 4.13
+	},
+/turf/open/gm/dirt2,
+/area/space)
 "Ll" = (
 /turf/closed/wall/wood,
+/area/space)
+"Lq" = (
+/obj/structure/stairs/perspective/kutjevo{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/gm/dirt2,
+/area/space)
+"Lt" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/obj/structure/barricade/table/wood/poor{
+	dir = 4
+	},
+/turf/open/floor/plating/wood,
+/area/space)
+"Lu" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/turf/open/floor/plating/wood,
 /area/space)
 "LA" = (
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood_broken2,
+/area/space)
+"LB" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/effect/decal/cleanable/blood,
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
+"LD" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
 /area/space)
 "LF" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -4743,6 +8155,38 @@
 	},
 /turf/open/floor/plating/wood_broken4,
 /area/space)
+"LU" = (
+/obj/structure/stairs/perspective/kutjevo,
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
+"Ma" = (
+/obj/structure/stairs/perspective/kutjevo{
+	dir = 8
+	},
+/obj/structure/bed/chair/wood/normal{
+	dir = 8;
+	pixel_y = 16;
+	pixel_x = -7
+	},
+/obj/item/device/flashlight/lamp/tripod/grey,
+/obj/effect/vehicle_roof/pizza_van,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
 "Mc" = (
 /obj/structure/platform_decoration/kutjevo/smooth,
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -4750,6 +8194,32 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/gm/dirt2,
+/area/space)
+"Md" = (
+/obj/structure/platform_decoration/kutjevo/smooth,
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/floor/plating/wood,
+/area/space)
+"Me" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/platform/kutjevo/smooth,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
 /area/space)
 "Mm" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -4797,6 +8267,22 @@
 	color = "#818181"
 	},
 /area/space)
+"Mp" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/stairs/perspective/kutjevo,
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
 "Mr" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 8;
@@ -4809,6 +8295,32 @@
 	pixel_x = -9
 	},
 /turf/open/floor/plating/wood_broken4,
+/area/space)
+"Mt" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/floor/plating/wood,
+/area/space)
+"Mu" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/platform_decoration/kutjevo/smooth{
+	dir = 1
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/turf/open/floor/plating/wood,
 /area/space)
 "MD" = (
 /obj/structure/largecrate/random/case/double{
@@ -4852,6 +8364,16 @@
 	color = "#818181"
 	},
 /area/space)
+"MS" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/gm/dirt2,
+/area/space)
 "MU" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/largecrate/supply/explosives/mortar_he,
@@ -4873,6 +8395,23 @@
 	},
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plating,
+/area/space)
+"Na" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/girder/displaced{
+	anchored = 1
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
 /area/space)
 "Nc" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -4909,6 +8448,59 @@
 	},
 /turf/open/floor/plating/wood,
 /area/space)
+"Nd" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/turf/open/gm/dirt2,
+/area/space)
+"Nh" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/girder/displaced{
+	anchored = 1
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
+"Nm" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/turf/open/floor/plating/wood,
+/area/space)
 "Nn" = (
 /turf/open/auto_turf/snow/brown_base/layer2,
 /area/space)
@@ -4942,6 +8534,25 @@
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/auto_turf/snow/brown_base/layer2,
 /area/space)
+"NC" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/bed{
+	can_buckle = 0;
+	desc = "A lightweight support lattice.";
+	icon = 'icons/obj/structures/structures.dmi';
+	icon_state = "latticefull";
+	layer = 2.1;
+	name = "lattice"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/space)
 "NE" = (
 /obj/structure/prop/rock/black_ground/dense,
 /turf/open/auto_turf/strata_grass/layer0_mud_alt,
@@ -4949,6 +8560,33 @@
 "NI" = (
 /obj/structure/prop/rock/brown,
 /turf/open/auto_turf/strata_grass/layer0_mud_alt,
+/area/space)
+"NK" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/platform_decoration/kutjevo/smooth,
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
+"NM" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/stairs/perspective/kutjevo,
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
 /area/space)
 "NQ" = (
 /obj/structure/platform_decoration/kutjevo/smooth,
@@ -4959,6 +8597,82 @@
 	color = "#818181"
 	},
 /area/space)
+"NS" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/bed{
+	can_buckle = 0;
+	desc = "A lightweight support lattice.";
+	icon = 'icons/obj/structures/structures.dmi';
+	icon_state = "latticefull";
+	layer = 2.1;
+	name = "lattice"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/space)
+"NW" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/bed/bedroll{
+	pixel_x = -2;
+	pixel_y = -5;
+	layer = 2.9
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/item/prop/helmetgarb/prescription_bottle{
+	pixel_x = -14;
+	pixel_y = -11
+	},
+/obj/item/reagent_container/food/drinks/flask/canteen{
+	pixel_x = -7;
+	pixel_y = 22;
+	layer = 4.12
+	},
+/obj/item/prop/helmetgarb/cartridge{
+	pixel_y = 17;
+	pixel_x = -1;
+	layer = 4.12
+	},
+/obj/item/prop/helmetgarb/cartridge{
+	pixel_y = 17;
+	pixel_x = 3;
+	layer = 4.12
+	},
+/obj/item/prop/helmetgarb/cartridge{
+	pixel_y = 17;
+	pixel_x = 5;
+	layer = 4.12
+	},
+/obj/item/clothing/head/cmcap/boonie/tan{
+	pixel_x = 7
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/gm/dirt2,
+/area/space)
 "NY" = (
 /obj/structure/platform/kutjevo/smooth,
 /obj/structure/barricade/sandbags/wired{
@@ -4967,6 +8681,16 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/wood,
+/area/space)
+"NZ" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/obj/structure/largecrate/random/case/double,
+/turf/open/gm/dirt2,
 /area/space)
 "Ob" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -4978,6 +8702,28 @@
 /turf/open/gm/dirt2{
 	color = "#818181"
 	},
+/area/space)
+"Og" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/turf/open/gm/dirt2,
 /area/space)
 "Oj" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -5026,6 +8772,20 @@
 	color = "#818181"
 	},
 /area/space)
+"OA" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/turf/open/floor/plating/wood_broken6,
+/area/space)
 "OC" = (
 /obj/structure/platform/kutjevo/smooth,
 /obj/structure/platform/kutjevo/smooth{
@@ -5046,6 +8806,15 @@
 	},
 /turf/open/floor/plating/wood,
 /area/space)
+"OE" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/gm/dirt2,
+/area/space)
 "OF" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -5058,6 +8827,39 @@
 	pixel_y = 17
 	},
 /turf/open/floor/plating/wood,
+/area/space)
+"OJ" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating/wood_broken2,
+/area/space)
+"OK" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/obj/structure/barricade/wooden{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
 /area/space)
 "OL" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -5094,6 +8896,20 @@
 	pixel_x = -9
 	},
 /turf/open/gm/dirt2,
+/area/space)
+"OP" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/obj/structure/machinery/m56d_hmg/auto,
+/obj/item/reagent_container/food/drinks/bottle/beer/craft/reaper{
+	pixel_x = -26;
+	pixel_y = 9
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/floor/plating/wood,
 /area/space)
 "OQ" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -5170,6 +8986,71 @@
 	color = "#818181"
 	},
 /area/space)
+"Pd" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/turf/open/gm/dirt2,
+/area/space)
+"Pe" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/platform_decoration/kutjevo/smooth,
+/turf/open/gm/dirt2,
+/area/space)
+"Pm" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/girder/displaced{
+	anchored = 1
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/wood,
+/area/space)
+"Pr" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
 "Ps" = (
 /turf/open/floor/plating/wood_broken5,
 /area/space)
@@ -5184,6 +9065,19 @@
 	color = "#818181"
 	},
 /area/space)
+"Pu" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/obj/structure/barricade/wooden{
+	dir = 1;
+	pixel_y = 19;
+	layer = 4.12
+	},
+/turf/open/gm/dirt2,
+/area/space)
 "Px" = (
 /obj/structure/platform/kutjevo/smooth,
 /turf/open/gm/dirt2,
@@ -5194,6 +9088,22 @@
 /turf/open/gm/dirt2{
 	color = "#818181"
 	},
+/area/space)
+"PE" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/wooden{
+	dir = 8
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/turf/open/gm/dirt2,
 /area/space)
 "PG" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -5275,6 +9185,19 @@
 	},
 /turf/open/floor/plating/wood,
 /area/space)
+"Qf" = (
+/obj/structure/stairs/perspective/kutjevo{
+	dir = 1
+	},
+/obj/structure/platform/kutjevo/rock{
+	dir = 4;
+	color = "#999999"
+	},
+/obj/structure/platform_decoration/kutjevo/smooth{
+	dir = 8
+	},
+/turf/open/gm/dirt2,
+/area/space)
 "Qi" = (
 /obj/structure/barricade/wooden,
 /turf/open/floor/plating/wood,
@@ -5310,6 +9233,67 @@
 	},
 /turf/open/floor/plating/wood,
 /area/space)
+"QG" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/bed{
+	can_buckle = 0;
+	desc = "A lightweight support lattice.";
+	icon = 'icons/obj/structures/structures.dmi';
+	icon_state = "latticefull";
+	layer = 2.1;
+	name = "lattice"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/turf/open/floor/plating,
+/area/space)
+"QH" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/bed{
+	layer = 2.9
+	},
+/obj/structure/bed{
+	buckling_y = 13;
+	layer = 3.5;
+	pixel_y = 13
+	},
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
 "QN" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 4;
@@ -5326,6 +9310,44 @@
 	climb_delay = 1;
 	layer = 2.99
 	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/wood,
+/area/space)
+"QT" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/platform/kutjevo/rock{
+	color = "#999999"
+	},
+/turf/open/gm/dirt2,
+/area/space)
+"QZ" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/gm/dirt2,
+/area/space)
+"Rc" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/platform/kutjevo/rock{
+	color = "#999999";
+	dir = 4;
+	layer = 2.9
+	},
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/turf/open/gm/dirt2,
+/area/space)
+"Rj" = (
+/obj/structure/platform_decoration/kutjevo/smooth{
+	dir = 1
+	},
+/obj/effect/vehicle_roof/pizza_van,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/wood,
 /area/space)
@@ -5415,6 +9437,24 @@
 	color = "#818181"
 	},
 /area/space)
+"RI" = (
+/obj/structure/stairs/perspective/kutjevo{
+	dir = 8
+	},
+/obj/structure/platform/kutjevo/rock{
+	color = "#999999";
+	layer = 2.9;
+	dir = 1
+	},
+/obj/structure/platform_decoration/kutjevo/smooth{
+	dir = 4
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
 "RK" = (
 /obj/effect/decal/cleanable/blood,
 /obj/structure/girder/displaced{
@@ -5464,6 +9504,43 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
+"RW" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/bed/chair/wood/normal{
+	pixel_y = 13
+	},
+/obj/item/weapon/gun/revolver/small{
+	pixel_y = -10
+	},
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/blood/gibs/up,
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/item/prop/helmetgarb/rosary{
+	pixel_x = 5;
+	pixel_y = -10
+	},
+/obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt2{
 	color = "#818181"
 	},
@@ -5518,11 +9595,46 @@
 	color = "#818181"
 	},
 /area/space)
+"Sz" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/stairs/perspective/kutjevo{
+	dir = 8
+	},
+/obj/structure/platform/kutjevo/rock{
+	color = "#999999"
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
 "SA" = (
 /obj/structure/barricade/wooden{
 	dir = 8
 	},
 /turf/open/auto_turf/snow/brown_base/layer2,
+/area/space)
+"SB" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/turf/open/gm/dirt2,
 /area/space)
 "SF" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -5562,14 +9674,37 @@
 /obj/structure/prop/rock/black_ground/dense,
 /turf/open/auto_turf/snow/brown_base/layer2,
 /area/space)
+"SQ" = (
+/obj/structure/barricade/wooden{
+	dir = 8
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/auto_turf/snow/brown_base/layer2,
+/area/space)
 "SR" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
 	dir = 1
 	},
 /turf/open/floor/plating/wood,
 /area/space)
-"Td" = (
+"SU" = (
+/obj/structure/stairs/perspective/kutjevo{
+	dir = 8
+	},
+/obj/structure/platform/kutjevo/rock{
+	color = "#999999";
+	layer = 2.9
+	},
+/obj/structure/platform_decoration/kutjevo/smooth{
+	dir = 1
+	},
+/obj/effect/vehicle_roof/pizza_van,
 /obj/effect/decal/cleanable/dirt,
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
+"Td" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 8;
 	climb_delay = 1;
@@ -5586,6 +9721,95 @@
 	layer = 2.1;
 	name = "lattice"
 	},
+/turf/open/floor/plating,
+/area/space)
+"Tg" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
+"Th" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/item/tool/weldingtool{
+	pixel_x = 10
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
+"Ti" = (
+/obj/structure/barricade/wooden{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/wood,
+/area/space)
+"Tl" = (
+/obj/structure/bed{
+	can_buckle = 0;
+	desc = "A lightweight support lattice.";
+	icon = 'icons/obj/structures/structures.dmi';
+	icon_state = "latticefull";
+	layer = 2.1;
+	name = "lattice"
+	},
+/obj/structure/disposalpipe/segment,
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/turf/open/floor/plating,
+/area/space)
+"Tp" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/bed{
+	can_buckle = 0;
+	desc = "A lightweight support lattice.";
+	icon = 'icons/obj/structures/structures.dmi';
+	icon_state = "latticefull";
+	layer = 2.1;
+	name = "lattice"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/barricade/wooden{
+	dir = 8
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/space)
 "Tr" = (
@@ -5638,6 +9862,13 @@
 "TB" = (
 /turf/open/floor/plating/wood_broken2,
 /area/space)
+"TC" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/platform_decoration/kutjevo/smooth{
+	dir = 1
+	},
+/turf/open/floor/plating/wood,
+/area/space)
 "TD" = (
 /obj/structure/platform/kutjevo/smooth,
 /obj/structure/barricade/sandbags/wired{
@@ -5650,6 +9881,149 @@
 	color = "#818181"
 	},
 /area/space)
+"TF" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/turf/open/floor/plating/wood_broken3,
+/area/space)
+"TG" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/obj/structure/bed/chair/wood/normal{
+	dir = 8;
+	pixel_y = 12;
+	pixel_x = 5
+	},
+/obj/item/device/flashlight/lamp/tripod/grey{
+	pixel_x = -10;
+	pixel_y = 5
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
+"TH" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/platform_decoration/kutjevo/smooth,
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/turf/open/floor/plating/wood,
+/area/space)
+"TJ" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/girder/displaced{
+	anchored = 1
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
+"TK" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/girder/displaced{
+	anchored = 1
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/turf/open/floor/plating/wood,
+/area/space)
+"TP" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/obj/structure/barricade/wooden,
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
+"TQ" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/platform/kutjevo/smooth,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
+"TU" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/turf/open/floor/plating/wood_broken3,
+/area/space)
 "TV" = (
 /obj/structure/flora/tree/dead/tree_6,
 /turf/open/auto_turf/snow/brown_base/layer1,
@@ -5657,6 +10031,18 @@
 "TW" = (
 /obj/structure/flora/tree/dead/tree_6,
 /turf/open/auto_turf/snow/brown_base/layer2,
+/area/space)
+"TY" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/blood,
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
 /area/space)
 "TZ" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -5677,9 +10063,111 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/gm/dirt2,
 /area/space)
+"Uc" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
+"Ud" = (
+/obj/structure/bed{
+	can_buckle = 0;
+	desc = "A lightweight support lattice.";
+	icon = 'icons/obj/structures/structures.dmi';
+	icon_state = "latticefull";
+	layer = 2.1;
+	name = "lattice"
+	},
+/obj/structure/disposalpipe/segment,
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/turf/open/floor/plating,
+/area/space)
 "Uh" = (
 /obj/structure/flora/grass/tallgrass/ice/corner,
 /turf/open/auto_turf/snow/brown_base/layer2,
+/area/space)
+"Ui" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/surface/rack,
+/obj/item/stack/barbed_wire/full_stack,
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/floor/plating/wood,
+/area/space)
+"Uk" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/turf/open/gm/dirt2,
+/area/space)
+"Um" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/obj/structure/platform_decoration/kutjevo/smooth{
+	dir = 1
+	},
+/turf/open/gm/dirt2,
 /area/space)
 "Uq" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -5696,6 +10184,78 @@
 /turf/open/gm/dirt2{
 	color = "#818181"
 	},
+/area/space)
+"Uv" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/blood,
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
+"UD" = (
+/obj/structure/bed{
+	can_buckle = 0;
+	desc = "A lightweight support lattice.";
+	icon = 'icons/obj/structures/structures.dmi';
+	icon_state = "latticefull";
+	layer = 2.1;
+	name = "lattice"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/turf/open/floor/plating,
+/area/space)
+"UL" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/bed{
+	can_buckle = 0;
+	desc = "A lightweight support lattice.";
+	icon = 'icons/obj/structures/structures.dmi';
+	icon_state = "latticefull";
+	layer = 2.1;
+	name = "lattice"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/girder/displaced{
+	anchored = 1
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/space)
+"UN" = (
+/turf/open/floor/plating,
+/area/space)
+"UO" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/wood,
 /area/space)
 "UR" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -5715,6 +10275,31 @@
 	color = "#818181"
 	},
 /area/space)
+"US" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/bed{
+	can_buckle = 0;
+	desc = "A lightweight support lattice.";
+	icon = 'icons/obj/structures/structures.dmi';
+	icon_state = "latticefull";
+	layer = 2.1;
+	name = "lattice"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/space)
 "UU" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 8;
@@ -5726,9 +10311,38 @@
 	layer = 3.04
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
 /turf/open/gm/dirt2{
 	color = "#818181"
 	},
+/area/space)
+"UY" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/gm/dirt2,
 /area/space)
 "Va" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -5811,6 +10425,24 @@
 	color = "#818181"
 	},
 /area/space)
+"Vt" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/obj/structure/bed{
+	can_buckle = 0;
+	desc = "A lightweight support lattice.";
+	icon = 'icons/obj/structures/structures.dmi';
+	icon_state = "latticefull";
+	layer = 2.1;
+	name = "lattice"
+	},
+/obj/structure/disposalpipe/segment,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/space)
 "VE" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 8;
@@ -5830,6 +10462,19 @@
 "VM" = (
 /obj/structure/prop/rock/black_ground/dense,
 /turf/open/auto_turf/snow/brown_base/layer0,
+/area/space)
+"VP" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/turf/open/gm/dirt2,
 /area/space)
 "VQ" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -5885,6 +10530,28 @@
 	color = "#818181"
 	},
 /area/space)
+"Wg" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/obj/structure/largecrate/random/case/double{
+	pixel_y = 18;
+	pixel_x = 4
+	},
+/obj/structure/largecrate/random/barrel/purewhite{
+	pixel_y = 2
+	},
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
 "Wj" = (
 /obj/structure/bed{
 	can_buckle = 0;
@@ -5898,6 +10565,23 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
+/area/space)
+"Wm" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/wooden{
+	dir = 8
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/wood_broken2,
 /area/space)
 "Wn" = (
 /obj/structure/largecrate/random/mini/ammo{
@@ -5946,6 +10630,24 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plating,
 /area/space)
+"WF" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9
+	},
+/obj/effect/decal/ammo_casing{
+	dir = 5;
+	icon_state = "cartridge_10"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/gm/dirt2,
+/area/space)
 "WJ" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 4;
@@ -5969,6 +10671,24 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/gm/dirt2,
+/area/space)
+"WM" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/girder/displaced{
+	anchored = 1
+	},
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/floor/plating/wood,
+/area/space)
+"WP" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/largecrate/random/mini,
+/turf/open/floor/plating/wood,
 /area/space)
 "WR" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -6000,6 +10720,31 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/wood_broken2,
+/area/space)
+"WY" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/obj/structure/bed/chair/wood/normal,
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
+"Xc" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/turf/open/floor/plating/wood_broken6,
 /area/space)
 "Xf" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -6052,6 +10797,60 @@
 	color = "#818181"
 	},
 /area/space)
+"Xv" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/largecrate/random/barrel/black{
+	pixel_y = 6;
+	pixel_x = -13
+	},
+/obj/structure/largecrate/random/case/small,
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
+"Xy" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/wooden{
+	dir = 4
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/turf/open/gm/dirt2,
+/area/space)
+"XB" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/bed{
+	can_buckle = 0;
+	desc = "A lightweight support lattice.";
+	icon = 'icons/obj/structures/structures.dmi';
+	icon_state = "latticefull";
+	layer = 2.1;
+	name = "lattice"
+	},
+/obj/structure/disposalpipe/segment,
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/turf/open/floor/plating,
+/area/space)
 "XC" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -6083,6 +10882,48 @@
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt2,
 /area/space)
+"XE" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/turf/open/floor/plating/wood_broken2,
+/area/space)
+"XJ" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/turf/open/floor/plating/wood,
+/area/space)
+"XQ" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/platform/kutjevo/smooth,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/turf/open/gm/dirt2,
+/area/space)
 "XV" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 4;
@@ -6101,6 +10942,13 @@
 /turf/open/gm/dirt2{
 	color = "#818181"
 	},
+/area/space)
+"XX" = (
+/obj/structure/platform_decoration/kutjevo/smooth{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/gm/dirt2,
 /area/space)
 "XY" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -6178,6 +11026,38 @@
 	color = "#818181"
 	},
 /area/space)
+"Yo" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/bed{
+	can_buckle = 0;
+	desc = "A lightweight support lattice.";
+	icon = 'icons/obj/structures/structures.dmi';
+	icon_state = "latticefull";
+	layer = 2.1;
+	name = "lattice"
+	},
+/turf/open/floor/plating,
+/area/space)
+"Yp" = (
+/obj/structure/platform/kutjevo/smooth,
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/floor/plating/wood_broken5,
+/area/space)
 "Yu" = (
 /turf/open/auto_turf/strata_grass/layer0_mud_alt{
 	color = "#818181"
@@ -6201,6 +11081,10 @@
 	},
 /turf/open/gm/dirt2,
 /area/space)
+"YR" = (
+/obj/structure/platform/kutjevo/smooth,
+/turf/open/floor/plating,
+/area/space)
 "YT" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -6214,6 +11098,24 @@
 	},
 /obj/effect/decal/cleanable/blood,
 /turf/open/gm/dirt2,
+/area/space)
+"YV" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/girder/displaced{
+	anchored = 1
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
 /area/space)
 "YW" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -6250,6 +11152,10 @@
 /obj/structure/bed/bedroll{
 	pixel_y = -16
 	},
+/obj/item/device/flashlight/lamp/tripod/grey{
+	pixel_y = 9;
+	pixel_x = -18
+	},
 /turf/open/gm/dirt2{
 	color = "#818181"
 	},
@@ -6268,6 +11174,70 @@
 /turf/open/gm/dirt2{
 	color = "#818181"
 	},
+/area/space)
+"Zk" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/wooden{
+	dir = 8
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
+"Zl" = (
+/obj/structure/bed{
+	can_buckle = 0;
+	desc = "A lightweight support lattice.";
+	icon = 'icons/obj/structures/structures.dmi';
+	icon_state = "latticefull";
+	layer = 2.1;
+	name = "lattice"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/platform_decoration/kutjevo/smooth{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/space)
+"Zr" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/gm/dirt2,
+/area/space)
+"Zu" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/platform/kutjevo/smooth,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/sandbags/wired{
+	layer = 4.12;
+	pixel_y = -11
+	},
+/turf/open/gm/dirt2,
+/area/space)
+"ZB" = (
+/obj/structure/prop/rock/black_ground/dense,
+/obj/structure/barricade/wooden{
+	dir = 1;
+	pixel_y = 19;
+	layer = 4.12
+	},
+/turf/open/auto_turf/snow/brown_base/layer2,
 /area/space)
 "ZC" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -6291,6 +11261,24 @@
 /obj/structure/stairs/perspective/kutjevo,
 /turf/open/gm/dirt2,
 /area/space)
+"ZF" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/obj/structure/girder/displaced{
+	anchored = 1
+	},
+/obj/structure/largecrate/random/case/small{
+	pixel_y = -17
+	},
+/turf/open/gm/dirt2,
+/area/space)
 "ZL" = (
 /obj/structure/bed/chair/wood/normal{
 	dir = 4;
@@ -6298,6 +11286,22 @@
 	pixel_x = -7
 	},
 /obj/effect/decal/cleanable/dirt,
+/turf/open/gm/dirt2{
+	color = "#818181"
+	},
+/area/space)
+"ZN" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.12;
+	pixel_y = 17
+	},
 /turf/open/gm/dirt2{
 	color = "#818181"
 	},
@@ -6336,6 +11340,20 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/plating/wood,
+/area/space)
+"ZS" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9
+	},
+/turf/open/floor/plating/wood_broken3,
 /area/space)
 "ZW" = (
 /obj/structure/platform_decoration/kutjevo/smooth,
@@ -6707,8 +11725,8 @@ eU
 eU
 eU
 Ll
-tG
-tG
+sG
+sr
 Ll
 eU
 eU
@@ -6909,8 +11927,8 @@ eU
 mO
 eU
 eU
-tG
-tG
+Ea
+Tl
 eU
 eU
 eU
@@ -7111,10 +12129,10 @@ mO
 mO
 eU
 eU
-tG
-tG
-tG
-nP
+mD
+SR
+zc
+gp
 eU
 eU
 eU
@@ -7313,9 +12331,9 @@ eU
 eU
 eU
 eU
-tG
-tG
-tG
+OF
+zR
+sr
 Cv
 eU
 eU
@@ -7515,9 +12533,9 @@ eU
 eU
 eU
 eU
-tG
-tG
-tG
+qa
+gf
+yD
 Cv
 eU
 eU
@@ -7717,9 +12735,9 @@ eU
 eU
 eU
 nP
-tG
-tG
-tG
+qa
+zR
+yP
 nP
 Cv
 eU
@@ -7814,13 +12832,13 @@ Nn
 Nn
 YA
 YA
-YA
-YA
-YA
-Nn
-Nn
-eU
-eU
+tG
+tG
+tG
+tG
+tG
+tG
+tG
 tG
 tG
 tG
@@ -7919,10 +12937,10 @@ eU
 Cv
 Cv
 Cv
-tG
-tG
-tG
-eU
+vv
+Kn
+iZ
+ek
 eU
 Cv
 eU
@@ -8015,14 +13033,14 @@ eU
 eU
 eU
 Nn
-Nn
-Nn
-YA
-YA
-Nn
-Nn
-eU
-eU
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
 tG
 tG
 tG
@@ -8121,8 +13139,8 @@ Cv
 eU
 eU
 Cv
-tG
-tG
+PE
+sr
 eU
 eU
 eU
@@ -8217,16 +13235,16 @@ eU
 eU
 eU
 eU
-eU
-eU
-Nn
-Nn
-Nn
-Nn
-eU
-eU
 tG
 tG
+tG
+Nn
+Nn
+Nn
+eU
+eU
+eU
+eU
 eU
 eU
 mO
@@ -8323,8 +13341,8 @@ nP
 Cv
 Cv
 eU
-tG
-tG
+sG
+zB
 eU
 eU
 eU
@@ -8419,16 +13437,16 @@ mO
 mO
 eU
 eU
-eU
-eU
-Cv
+tG
+tG
+tG
 Cv
 Cv
 Cv
 Nn
 Nn
-tG
-tG
+eU
+eU
 eU
 eU
 eU
@@ -8525,8 +13543,8 @@ Cv
 eU
 eU
 eU
-tG
-tG
+OF
+sr
 eU
 eU
 eU
@@ -8621,16 +13639,16 @@ eU
 eU
 eU
 mO
-mO
-eU
-eU
+tG
+tG
+tG
 Nn
 Nn
 Cv
 Cv
 Cv
-tG
-tG
+Nn
+eU
 eU
 tG
 tG
@@ -8724,18 +13742,18 @@ eU
 eU
 tG
 tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
+UD
+fy
+OM
+je
+gf
+fy
+OM
+xy
+fy
+fy
+fy
+az
 eU
 eU
 eU
@@ -8823,14 +13841,14 @@ eU
 eU
 eU
 mO
-mO
-mO
-mO
-eU
-eU
-Cv
-Cv
-Cv
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
 tG
 tG
 tG
@@ -8926,18 +13944,18 @@ eU
 mO
 tG
 tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
+FX
+Ns
+Ns
+wo
+xt
+xt
+xt
+xt
+Ns
+wo
+hk
+zB
 eU
 eU
 eU
@@ -9026,13 +14044,13 @@ eU
 eU
 eU
 mO
-mO
-mO
-eU
-eU
-Cv
-Cv
-Cv
+tG
+tG
+tG
+tG
+tG
+tG
+tG
 tG
 tG
 Nn
@@ -9138,8 +14156,8 @@ eU
 eU
 Nn
 Nn
-tG
-tG
+qa
+zB
 eU
 eU
 eU
@@ -9340,8 +14358,8 @@ eU
 eU
 Nn
 Nn
-tG
-tG
+Ud
+Tl
 Cv
 eU
 eU
@@ -9542,8 +14560,8 @@ eU
 eU
 Nn
 Nn
-tG
-tG
+OF
+sr
 Nn
 Nn
 Nn
@@ -9744,8 +14762,8 @@ Nn
 Nn
 Nn
 Cv
-tG
-tG
+CC
+zB
 Nn
 Cv
 Cv
@@ -9876,8 +14894,8 @@ TW
 Nn
 Nn
 Nn
-OQ
-zB
+uB
+lB
 Nn
 Nn
 Nn
@@ -9946,10 +14964,10 @@ Nn
 Nn
 Nn
 Cv
-tG
-tG
-tG
-Cv
+mD
+SR
+vy
+AW
 Cv
 Cv
 Cv
@@ -10148,9 +15166,9 @@ Nn
 Nn
 Nn
 Nn
-tG
-tG
-tG
+qa
+gf
+zB
 Nn
 Os
 Fj
@@ -10350,9 +15368,9 @@ Nn
 Nn
 Nn
 Nn
+sG
 tG
-tG
-tG
+yD
 Nn
 Nn
 Nn
@@ -10552,9 +15570,9 @@ YA
 nP
 nP
 YA
-tG
-tG
-tG
+sG
+zR
+sr
 Nn
 Nn
 YA
@@ -10754,10 +15772,10 @@ YA
 nP
 Cv
 Cv
-tG
-tG
-tG
-Nn
+mD
+AH
+iZ
+jP
 Nn
 YA
 YA
@@ -10891,11 +15909,11 @@ GB
 jP
 Nn
 Nn
-wC
-Gf
-Gf
-Gf
-Gf
+Uc
+xy
+xy
+xy
+dh
 tG
 tG
 tG
@@ -10956,8 +15974,8 @@ YA
 YA
 Cv
 Cv
-tG
-tG
+Zk
+sr
 Nn
 Nn
 Nn
@@ -11092,18 +16110,18 @@ OF
 GY
 Nn
 Nn
-Nn
+tF
 oO
 AH
+Ns
+Ns
+kJ
 lI
 lI
 lI
-tG
-tG
-tG
-tG
-tG
-tG
+lI
+lI
+lI
 tG
 tG
 Nn
@@ -11158,8 +16176,8 @@ nP
 Nn
 YA
 YA
-tG
-tG
+OF
+yP
 YA
 Nn
 Nn
@@ -11294,9 +16312,9 @@ OF
 CQ
 xT
 Nn
-Nn
+tF
 Fp
-Px
+zB
 Nn
 Ey
 Nn
@@ -11306,7 +16324,7 @@ Nn
 Nn
 Nn
 Nn
-tG
+Fp
 tG
 tG
 tG
@@ -11360,8 +16378,8 @@ Nn
 Nn
 Nn
 Nn
-tG
-tG
+OF
+yP
 Cv
 Cv
 Nn
@@ -11496,10 +16514,10 @@ JV
 pj
 Nn
 Nn
-Ll
-Fp
-Px
-Ll
+uD
+WY
+dd
+uD
 Nn
 Nn
 Nn
@@ -11508,10 +16526,10 @@ Nn
 Nn
 Nn
 Nn
-tG
-tG
-tG
-tG
+FN
+lI
+lI
+lI
 tG
 tG
 Nn
@@ -11562,8 +16580,8 @@ Nn
 Nn
 Nn
 Nn
-tG
-tG
+qa
+yP
 nP
 YA
 YA
@@ -11697,11 +16715,11 @@ Nn
 OQ
 kD
 Nn
-Ll
-Ll
-Fp
-Px
-Nn
+uD
+uD
+Xv
+QZ
+NB
 rY
 rY
 Nn
@@ -11714,8 +16732,8 @@ Nn
 Nn
 Nn
 Nn
-tG
-tG
+BA
+UN
 Nn
 Nn
 Nn
@@ -11764,8 +16782,8 @@ mO
 mO
 eU
 eU
-tG
-tG
+OF
+yP
 Cv
 YA
 YA
@@ -11898,12 +16916,12 @@ Nn
 Nn
 qa
 Tr
-Gf
-mp
-Gf
-je
+xy
+tM
+kp
+IY
 fH
-Nn
+NB
 rY
 rY
 rY
@@ -11916,7 +16934,7 @@ Nn
 Nn
 Nn
 Nn
-tG
+Fp
 tG
 tG
 tG
@@ -11966,8 +16984,8 @@ mO
 mO
 mO
 eU
-tG
-tG
+OF
+yP
 YA
 YA
 Nn
@@ -12100,31 +17118,31 @@ Nn
 Nn
 wD
 iN
-ax
-le
-le
+xt
+jH
+XD
+jx
+TG
+uD
+Nn
+rY
+rY
+Nn
+Nn
+Nn
+Nn
+Nn
+Nn
+Nn
+Nn
+Nn
+FN
 lI
-MF
-Ll
-Nn
-rY
-rY
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-tG
-tG
-tG
-tG
-tG
-tG
-tG
+lI
+lI
+lI
+lI
+lI
 tG
 tG
 Nn
@@ -12168,8 +17186,8 @@ eU
 mO
 mO
 eU
-tG
-tG
+OF
+sr
 YA
 nP
 Nn
@@ -12303,11 +17321,11 @@ Nn
 lM
 tq
 Nn
-Ll
-Ll
-Nn
-Ll
-Ll
+uD
+uD
+SQ
+uD
+uD
 Nn
 rY
 Nn
@@ -12327,8 +17345,8 @@ Nn
 Nn
 Ll
 Ll
-tG
-tG
+Fp
+di
 Nn
 Nn
 tG
@@ -12369,9 +17387,9 @@ eU
 eU
 eU
 eU
-tG
-tG
-tG
+oF
+je
+sr
 Ao
 YA
 Nn
@@ -12529,8 +17547,8 @@ Nn
 Nn
 Nn
 Ll
-tG
-tG
+Fp
+di
 Nn
 Nn
 Nn
@@ -12571,9 +17589,9 @@ eU
 mO
 Nn
 Nn
-tG
-tG
-tG
+qa
+zR
+zB
 Nn
 gN
 Nn
@@ -12731,8 +17749,8 @@ Nn
 Nn
 Nn
 Nn
-tG
-tG
+Fp
+di
 Nn
 Nn
 Nn
@@ -12773,9 +17791,9 @@ mO
 mO
 Nn
 Nn
-tG
-tG
-tG
+sG
+zR
+zB
 Nn
 Nn
 Nn
@@ -12933,8 +17951,8 @@ Nn
 Nn
 Nn
 Nn
-tG
-tG
+Fp
+di
 Nn
 Nn
 Nn
@@ -12975,9 +17993,9 @@ mO
 mO
 Nn
 Nn
+sG
 tG
-tG
-tG
+sr
 Nn
 Nn
 Hn
@@ -13135,8 +18153,8 @@ rY
 Nn
 Nn
 Nn
-tG
-tG
+Fp
+di
 Nn
 Nn
 Nn
@@ -13175,16 +18193,16 @@ tG
 tG
 tG
 tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
+UD
+OM
+je
+zR
+SR
+xy
+OM
+fy
+fy
+Cx
 Nn
 Nn
 Nn
@@ -13337,8 +18355,8 @@ rY
 Nn
 Nn
 Ll
-tG
-tG
+Fp
+di
 Ll
 Nn
 Nn
@@ -13377,16 +18395,16 @@ tG
 tG
 tG
 tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
+FX
+Ns
+Ns
+Ns
+wo
+xt
+xt
+xt
+hk
+zB
 Nn
 Nn
 Nn
@@ -13539,8 +18557,8 @@ Nn
 Nn
 Nn
 Ll
-tG
-tG
+Fp
+di
 Ll
 Nn
 Nn
@@ -13587,8 +18605,8 @@ Nn
 Nn
 Nn
 Nn
-tG
-tG
+Ud
+Tl
 Nn
 Nn
 Nn
@@ -13741,8 +18759,8 @@ Nn
 Nn
 Nn
 Ll
-tG
-tG
+BA
+YR
 Nn
 Nn
 Nn
@@ -13789,8 +18807,8 @@ Nn
 Nn
 Cv
 Nn
-tG
-tG
+Xy
+yP
 Nn
 Nn
 Nn
@@ -13902,7 +18920,7 @@ Ll
 fU
 jk
 EQ
-Dm
+kk
 yP
 Ll
 Nn
@@ -13943,8 +18961,8 @@ Nn
 Nn
 Nn
 Ll
-tG
-tG
+Fp
+di
 Ll
 Nn
 Nn
@@ -13991,10 +19009,10 @@ Cv
 Nn
 Cv
 Nn
-tG
-tG
-tG
-Nn
+mD
+SR
+vy
+jP
 Nn
 Nn
 Nn
@@ -14141,12 +19159,12 @@ Nn
 Nn
 Nn
 Nn
-Nn
-Nn
-Nn
+Vd
+Vd
+Vd
 Ll
-tG
-tG
+Fp
+di
 Ll
 Ll
 Nn
@@ -14193,9 +19211,9 @@ Nn
 Cv
 Cv
 Nn
-tG
-tG
-tG
+OF
+gf
+yP
 Nn
 Nn
 Nn
@@ -14338,22 +19356,22 @@ AI
 Ke
 xy
 Wc
-Wc
+qm
 xy
 Wc
 OM
 OM
+io
+Hc
+mp
 OM
+Hq
+AJ
+xy
+sc
 Ke
-fy
-OM
-zR
-tG
-tG
-tG
-tG
-tG
-tG
+US
+yQ
 Nn
 Nn
 Nn
@@ -14395,9 +19413,9 @@ Nn
 Cv
 Cv
 Cv
-tG
-tG
-tG
+OF
+gf
+yD
 Nn
 Nn
 Nn
@@ -14540,7 +19558,7 @@ Gy
 Sg
 wo
 Ns
-Ns
+Yo
 wo
 Ns
 Ns
@@ -14548,14 +19566,14 @@ wo
 hk
 on
 vt
-ax
-tG
-tG
-tG
-tG
-tG
-tG
-tG
+xt
+lI
+Gy
+tY
+Mp
+hH
+Zl
+yP
 Nn
 Nn
 Nn
@@ -14597,9 +19615,9 @@ Nn
 Nn
 Cv
 Cv
-tG
-tG
-tG
+OF
+gf
+yP
 Nn
 Nn
 Nn
@@ -14747,17 +19765,17 @@ Nn
 Nn
 Nn
 Nn
-qa
-fz
+JB
+wS
 Nn
 Nn
 Nn
+SA
 Nn
 Nn
 Nn
-Nn
-tG
-tG
+Cf
+yP
 Nn
 Nn
 Nn
@@ -14799,10 +19817,10 @@ Cv
 Nn
 Nn
 Nn
-tG
-tG
-tG
-Nn
+mD
+Kn
+TK
+jP
 Nn
 Nn
 Nn
@@ -14918,7 +19936,7 @@ Dm
 eW
 gf
 gf
-gf
+bl
 zR
 hm
 YB
@@ -14950,16 +19968,16 @@ fB
 uD
 uD
 bQ
-Px
+zB
+Nn
+Nn
+Cv
+Cv
 Nn
 Nn
 Nn
-Nn
-Nn
-Nn
-Nn
-tG
-tG
+DJ
+yP
 Nn
 Nn
 Nn
@@ -14997,12 +20015,12 @@ Cv
 tG
 tG
 tG
-tG
-tG
-tG
-tG
-tG
-tG
+OM
+fy
+fy
+OM
+mk
+di
 Cv
 Cv
 Cv
@@ -15152,16 +20170,16 @@ kp
 fa
 uD
 jC
-Vp
+tg
+Nn
+Nn
+Cv
+Cv
 Nn
 Nn
 Nn
-Nn
-Nn
-Nn
-Nn
-tG
-tG
+UL
+NY
 Nn
 Nn
 Nn
@@ -15200,11 +20218,11 @@ tG
 tG
 tG
 tG
-tG
-tG
-tG
-tG
-tG
+wo
+wo
+xt
+hs
+Px
 Cv
 Cv
 Cv
@@ -15354,16 +20372,16 @@ LA
 kt
 uD
 OQ
-Rw
+nB
 Nn
 Nn
+Cv
+Fj
+Cv
+Cv
 Nn
-Nn
-Nn
-Nn
-Nn
-tG
-tG
+Tp
+sr
 Nn
 Nn
 Nn
@@ -15405,8 +20423,8 @@ Nn
 Cv
 Cv
 Cv
-tG
-tG
+Xy
+hT
 Nn
 Cv
 Cv
@@ -15522,7 +20540,7 @@ xp
 tG
 gf
 tG
-zR
+pQ
 jk
 zR
 Wa
@@ -15556,16 +20574,16 @@ vB
 vB
 DR
 ZC
-Px
+zB
 Nn
 Nn
+xe
+Cv
+Cv
+Cv
 Nn
-Nn
-Nn
-Nn
-Nn
-tG
-tG
+Cf
+GY
 Nn
 Nn
 Nn
@@ -15607,10 +20625,10 @@ Nn
 Cv
 Cv
 Cv
-tG
-tG
-tG
-Nn
+YV
+AJ
+zc
+jP
 Cv
 Nn
 Nn
@@ -15758,16 +20776,16 @@ qc
 Us
 vi
 VR
-Vp
+tg
+TW
 Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-tG
-tG
+Cv
+Cv
+xe
+Cv
+tF
+bh
+NY
 Nn
 Nn
 Nn
@@ -15809,9 +20827,9 @@ Nn
 Nn
 Nn
 Nn
+sG
 tG
-tG
-tG
+yP
 Cv
 Cv
 Nn
@@ -15934,11 +20952,11 @@ tG
 tG
 wd
 Vr
-Dm
+kk
 Wj
 jg
 xr
-CQ
+go
 Ll
 eU
 eU
@@ -15960,16 +20978,16 @@ yZ
 qu
 uD
 qa
-di
+sr
+Cv
 Nn
 Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-tG
-tG
+Cv
+Cv
+Cv
+tF
+su
+oA
 Nn
 Nn
 Nn
@@ -16011,9 +21029,9 @@ Nn
 Nn
 Nn
 Nn
-tG
-tG
-tG
+sG
+zR
+yD
 Cv
 Nn
 Nn
@@ -16162,17 +21180,17 @@ vu
 kA
 Qj
 Fp
-di
+sr
 Nn
 Nn
 Nn
 Nn
-Nn
-Nn
-Nn
-tG
-tG
-Nn
+Cv
+Cv
+Cv
+Cf
+fs
+jP
 Nn
 Nn
 Nn
@@ -16213,9 +21231,9 @@ Nn
 Nn
 Nn
 Nn
-tG
-tG
-tG
+OF
+zR
+sr
 Nn
 Nn
 Nn
@@ -16326,7 +21344,7 @@ Nn
 eU
 eU
 Ll
-tb
+sM
 wo
 le
 Ns
@@ -16367,13 +21385,13 @@ RU
 di
 Nn
 Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-tG
-tG
+Cv
+Cv
+Cv
+Cv
+Cv
+Cf
+WP
 Nn
 Nn
 Nn
@@ -16415,10 +21433,10 @@ Nn
 Nn
 Nn
 Nn
-tG
-tG
-tG
-Nn
+mD
+Kn
+TK
+jP
 Nn
 Nn
 Nn
@@ -16567,16 +21585,16 @@ jZ
 uk
 RU
 Px
+jP
+Nn
+Cv
+Cv
 Nn
 Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-tG
-tG
-Nn
+Cv
+Cf
+hT
+jP
 Nn
 Nn
 Nn
@@ -16617,8 +21635,8 @@ Nn
 Nn
 Nn
 Nn
-tG
-tG
+PE
+sr
 Nn
 Nn
 Nn
@@ -16769,15 +21787,15 @@ cV
 uD
 Fp
 Px
+jP
+Nn
+Cv
+Cv
 Nn
 Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-tG
-tG
+rK
+Cf
+GP
 Nn
 Nn
 Nn
@@ -16816,11 +21834,11 @@ Nn
 Nn
 Nn
 tG
-tG
-tG
-tG
-tG
-tG
+OM
+OM
+OM
+ZC
+sr
 Nn
 Nn
 Nn
@@ -16970,7 +21988,7 @@ fB
 uD
 uD
 rm
-ty
+yT
 Nn
 Nn
 Nn
@@ -16978,8 +21996,8 @@ Nn
 Nn
 Nn
 Nn
-tG
-tG
+Cf
+DY
 Nn
 Nn
 Nn
@@ -17019,10 +22037,10 @@ Nn
 Nn
 tG
 tG
-tG
-tG
-tG
-tG
+wo
+Ns
+KE
+zB
 Nn
 Nn
 Nn
@@ -17168,20 +22186,20 @@ Cv
 Cv
 Cv
 Nn
-Nn
+rK
 Nn
 Cv
 sG
-Px
+zB
 Nn
 Nn
 Nn
 Nn
 Nn
 Nn
-Nn
-tG
-tG
+SN
+Cf
+Ek
 Nn
 Nn
 Nn
@@ -17223,10 +22241,10 @@ tG
 tG
 Nn
 Nn
-tG
-tG
-tG
-Nn
+vv
+Tr
+zc
+jP
 Nn
 Nn
 Nn
@@ -17371,11 +22389,19 @@ Cv
 Cv
 Cv
 Cv
-Nn
+xT
 Cv
 sG
-Px
+zB
 Nn
+Nn
+Nn
+Nn
+Nn
+Nn
+Nn
+Cf
+yP
 Nn
 Nn
 Nn
@@ -17383,15 +22409,7 @@ Nn
 Nn
 Nn
 tG
-tG
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-tG
-tG
+zR
 Nn
 Nn
 Nn
@@ -17425,9 +22443,9 @@ tG
 tG
 Nn
 Nn
-tG
-tG
-tG
+OF
+gf
+sr
 Nn
 Nn
 Nn
@@ -17578,14 +22596,14 @@ Cv
 iX
 yj
 Cv
-Cv
+xe
 Nn
 Nn
 Nn
 Nn
 Ll
-tG
-tG
+pG
+NY
 Nn
 Nn
 Nn
@@ -17593,14 +22611,14 @@ Nn
 Nn
 Nn
 tG
-tG
+zR
 Nn
 Nn
 Nn
 Nn
 Nn
 Nn
-Nn
+EB
 eU
 eU
 mO
@@ -17627,9 +22645,9 @@ Nn
 Nn
 Nn
 Nn
-tG
-tG
-tG
+OF
+gf
+Ky
 Nn
 Nn
 Nn
@@ -17777,7 +22795,7 @@ Cv
 Cv
 Cv
 Cv
-OF
+QE
 xU
 Cv
 Cv
@@ -17786,20 +22804,20 @@ Nn
 Nn
 Nn
 Ll
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
+su
+St
+nM
+OM
+AI
+FL
+Wc
+Ah
+eW
+jk
+LU
+sL
+sL
+pp
 Nn
 eU
 mO
@@ -17829,9 +22847,9 @@ Nn
 Nn
 Nn
 Nn
-tG
-tG
-tG
+qa
+gf
+yP
 Nn
 Nn
 Nn
@@ -17980,7 +22998,7 @@ Cv
 Cv
 Cv
 OF
-hT
+yP
 Cv
 Nn
 Nn
@@ -17988,20 +23006,20 @@ Nn
 Nn
 Nn
 Ll
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
+NS
+DI
+Lq
+Pe
+Ns
+wo
+Ns
+Ns
+wo
+wo
+nY
+TU
+Kf
+di
 Nn
 eU
 mO
@@ -18031,10 +23049,10 @@ Nn
 Nn
 Nn
 Nn
-tG
-tG
-tG
-Nn
+vv
+iN
+iZ
+jP
 Nn
 Nn
 Cv
@@ -18182,7 +23200,7 @@ Cv
 Nn
 Nn
 qa
-hT
+eY
 Nn
 Nn
 Cv
@@ -18190,10 +23208,10 @@ Nn
 Nn
 Nn
 Ll
-tG
-tG
-tG
-tG
+ET
+iT
+Qf
+sr
 Nn
 Nn
 Nn
@@ -18202,9 +23220,9 @@ Nn
 Nn
 Nn
 Nn
-tG
-tG
-Nn
+Ie
+di
+jP
 eU
 mO
 mO
@@ -18233,8 +23251,8 @@ Nn
 Nn
 Nn
 Nn
-tG
-tG
+Zk
+zB
 Nn
 Nn
 Nn
@@ -18384,7 +23402,7 @@ Cv
 Nn
 Nn
 OF
-Px
+zB
 Nn
 Nn
 Cv
@@ -18394,8 +23412,8 @@ Ll
 Ll
 Ll
 Ll
-tG
-tG
+qa
+Xc
 Nn
 Nn
 Nn
@@ -18404,8 +23422,8 @@ Nn
 Nn
 Nn
 Nn
-tG
-tG
+XB
+Wz
 Nn
 eU
 eU
@@ -18435,8 +23453,8 @@ nP
 eU
 Nn
 Nn
-tG
-tG
+qa
+zB
 Nn
 Nn
 Nn
@@ -18578,7 +23596,7 @@ Nn
 Nn
 Nn
 Nn
-Nn
+Hn
 Nn
 Nn
 Cv
@@ -18586,28 +23604,28 @@ Cv
 Nn
 Nn
 sG
-jk
-tG
-zR
-tG
-tG
-zR
-tG
-tG
-tG
-tG
-tG
-tG
+kC
+xy
+OM
+xy
+xy
+Ke
+Mr
+HU
+BL
+fy
+Jp
+tg
+Nn
+TW
 Nn
 Nn
 Nn
 Nn
 Nn
 Nn
-Nn
-Nn
-tG
-tG
+Ie
+zB
 Nn
 eU
 eU
@@ -18637,8 +23655,8 @@ Cv
 eU
 Nn
 mO
-tG
-tG
+qa
+sr
 Nn
 Nn
 Nn
@@ -18779,7 +23797,7 @@ nP
 Nn
 Nn
 Nn
-Nn
+rK
 Nn
 Nn
 Nn
@@ -18788,36 +23806,36 @@ Cv
 Nn
 Nn
 sG
-Dm
-tG
-zR
-zR
-zR
-tG
-tG
-tG
-tG
-tG
-tG
-tG
+NK
+Ns
+wo
+Mc
+wo
+Ns
+wo
+xt
+xt
+Lu
+Hr
+XV
+Nn
+Nn
+rK
 Nn
 Nn
 Nn
 Nn
 Nn
-Nn
-Nn
-Nn
-tG
-tG
+qa
+tP
 Nn
 eU
 eU
 eU
 eU
-Nn
-Nn
-Nn
+Vd
+Vd
+Vd
 Nn
 Nn
 Nn
@@ -18839,8 +23857,8 @@ Cv
 eU
 eU
 mO
-tG
-tG
+qa
+yP
 Nn
 Nn
 Nn
@@ -18990,19 +24008,17 @@ Nn
 Nn
 Nn
 pM
-Vp
+tg
 Nn
 Nn
-tG
-Nn
-Nn
-Nn
+Wq
 Nn
 Nn
 Nn
 Nn
 Nn
 Nn
+rK
 Nn
 Nn
 Nn
@@ -19010,19 +24026,21 @@ Nn
 Nn
 Nn
 Nn
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
+Nn
+Nn
+qa
+kC
+OM
+DD
+OM
+AI
+Bv
+Hc
+HU
+BL
+OM
+Wc
+aJ
 tG
 tG
 tG
@@ -19037,12 +24055,12 @@ nP
 eU
 nP
 Cv
-tG
-tG
-tG
-tG
-tG
-tG
+oF
+OM
+UD
+xy
+Jp
+yP
 Nn
 Nn
 Nn
@@ -19192,14 +24210,11 @@ Nn
 Nn
 Nn
 OQ
-Vp
+tg
 Nn
-Nn
-tG
-Nn
-Nn
-Nn
-Nn
+tF
+Tv
+jP
 Nn
 Nn
 Nn
@@ -19207,24 +24222,27 @@ Nn
 Nn
 Nn
 Nn
+SN
 Nn
 Nn
 Nn
 Nn
 Nn
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
+Nn
+Nn
+wD
+NK
+DQ
+Fd
+Ns
+Va
+ej
+ej
+Hr
+hk
+AH
+wo
+FX
 tG
 tG
 tG
@@ -19239,12 +24257,12 @@ Cv
 Cv
 Cv
 eU
-tG
-tG
-tG
-tG
-tG
-tG
+sG
+AH
+FX
+wo
+xt
+qM
 Nn
 Nn
 Nn
@@ -19387,44 +24405,44 @@ Ah
 AI
 dU
 fy
-Wc
+Is
 Ke
 Mr
 OM
 AI
 xy
 yI
-Vp
+tg
 Nn
 Nn
-tG
-Nn
-Nn
-Nn
+rC
 Nn
 Nn
 Nn
 Nn
 Nn
-Ll
-Ll
-Ll
+Nn
+Nn
+Nn
+uD
+uD
+uD
 Nn
 Nn
 Nn
 Nn
 Nn
-tG
-tG
+Ie
+tP
 Nn
 Nn
 nP
 nP
+SA
+SA
 Nn
-Nn
-Nn
-tG
-tG
+OQ
+zB
 eU
 eU
 eU
@@ -19441,8 +24459,8 @@ Cv
 Cv
 Cv
 Cv
-tG
-tG
+qa
+sr
 Nn
 Nn
 Nn
@@ -19591,33 +24609,33 @@ qz
 wo
 Sg
 WV
-Sg
+Xf
 oB
 xt
 wo
 PG
-di
+sr
 Nn
 Nn
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-Ll
-Nn
-Nn
+Um
+rh
+GF
+RC
+FC
+Pr
+Pr
+GF
+By
+iz
+xD
+uD
 Nn
 Nn
 Nn
-tG
-tG
+TW
+Nn
+qa
+yP
 Nn
 nP
 Nn
@@ -19625,8 +24643,8 @@ Nn
 Nn
 eU
 eU
-tG
-tG
+pM
+zB
 eU
 eU
 mO
@@ -19643,8 +24661,8 @@ Cv
 Cv
 mO
 eU
-tG
-tG
+Xy
+sr
 nP
 Nn
 Nn
@@ -19797,29 +24815,29 @@ Nn
 Nn
 Nn
 Nn
-jC
-di
+wD
+sr
 Nn
 Nn
 Nn
+SA
 Nn
 Nn
 Nn
+SA
+SA
 Nn
 Nn
+fB
+UY
+uD
 Nn
+Vd
 Nn
+Vd
 Nn
-Nn
-tG
-Ll
-Nn
-Nn
-Nn
-Nn
-Nn
-tG
-tG
+kQ
+wS
 Nn
 Nn
 Nn
@@ -19827,16 +24845,16 @@ Nn
 eU
 eU
 eU
-tG
-tG
-eU
-mO
-mO
-mO
+hJ
+sr
 eU
 mO
 mO
 mO
+eU
+mO
+mO
+mO
 mO
 eU
 eU
@@ -19845,10 +24863,10 @@ eU
 eU
 eU
 Nn
-tG
-tG
-tG
-Nn
+lE
+hq
+qN
+jP
 Nn
 Nn
 Nn
@@ -19997,13 +25015,10 @@ Nn
 Nn
 Nn
 Nn
-Nn
-Nn
-RU
-di
-Nn
-Nn
-Nn
+uD
+uD
+eZ
+sr
 Nn
 Nn
 Nn
@@ -20012,25 +25027,28 @@ Nn
 Nn
 Nn
 Nn
-Ll
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
 Nn
 Nn
+Nn
+uD
+bD
+gV
+rh
+Uk
+LB
+NM
+GF
+CA
+nB
+Nn
+SN
 Nn
 eU
 eU
 eU
 eU
-tG
-tG
+qa
+yP
 eU
 mO
 mO
@@ -20047,9 +25065,9 @@ eU
 mO
 mO
 nP
-tG
-tG
-tG
+FQ
+Hl
+Ob
 Nn
 Nn
 Nn
@@ -20195,35 +25213,35 @@ jP
 Nn
 Nn
 Nn
+SN
+Nn
+Nn
+Nn
+uD
+NW
+Bo
+sr
 Nn
 Nn
 Nn
 Nn
 Nn
 Nn
-Fp
-di
 Nn
 Nn
 Nn
 Nn
 Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
+uD
+KP
+uD
 Ll
-tG
-Ll
-Ll
 Ll
 Nn
 Nn
 Nn
-tG
-tG
+OF
+sr
 Nn
 Nn
 eU
@@ -20231,8 +25249,8 @@ eU
 eU
 eU
 eU
-tG
-tG
+pM
+uA
 eU
 eU
 mO
@@ -20249,9 +25267,9 @@ mO
 mO
 mO
 nP
-tG
-tG
-tG
+wv
+oS
+ul
 Nn
 Nn
 Nn
@@ -20401,10 +25419,10 @@ Nn
 Nn
 Nn
 Nn
-Nn
-Nn
-oO
-di
+uD
+uD
+QT
+sr
 Nn
 Nn
 Nn
@@ -20417,24 +25435,24 @@ Nn
 Nn
 Nn
 Ll
-tG
+Hb
+jP
 Nn
 Nn
 Nn
 Nn
 Nn
-Nn
-tG
-tG
-tG
-tG
+Fp
+cw
+bZ
+EN
 Nn
 Nn
 Nn
 Nn
 eU
-tG
-tG
+pM
+oh
 eU
 mO
 mO
@@ -20443,17 +25461,17 @@ mO
 mO
 mO
 eU
-Ll
-Ll
-Ll
-Ll
-Ll
+uD
+uD
+uD
+uD
+uD
 Nn
 Nn
 Nn
-tG
-tG
-tG
+zq
+Ge
+dd
 nP
 Nn
 Nn
@@ -20601,16 +25619,16 @@ Nn
 Nn
 Nn
 Nn
+rK
+Nn
+uD
+RW
+Jn
+nB
 Nn
 Nn
 Nn
-Nn
-jC
-Rw
-Nn
-Nn
-Nn
-Nn
+EB
 Nn
 Nn
 Nn
@@ -20619,44 +25637,44 @@ Nn
 Nn
 Nn
 Ll
-tG
+nQ
 Nn
 Nn
 Nn
 Nn
 Nn
 Nn
-tG
-tG
+hJ
+tg
 Nn
-tG
-Nn
-Nn
+uH
 Nn
 Nn
 Nn
-tG
-tG
+Nn
+Nn
+CG
+Pu
 mO
+gr
 mO
-mO
-mO
+gr
 eU
 mO
 eU
 eU
-Ll
-tG
-tG
-tG
-Ll
+uD
+aH
+yC
+wm
+uD
 Nn
 Nn
 Nn
-tG
-tG
-tG
-Nn
+lE
+jX
+gD
+jP
 Nn
 Nn
 Nn
@@ -20790,7 +25808,7 @@ Nn
 Cv
 Cv
 Cv
-Nn
+rK
 Nn
 Ll
 YW
@@ -20805,58 +25823,58 @@ Nn
 Nn
 Nn
 Nn
-Nn
-Nn
-jC
-jk
-tG
-Nn
-Nn
-Nn
-Nn
-Nn
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-Nn
-tG
+uD
+uD
+iq
+kC
+zm
 Nn
 Nn
 Nn
 Nn
 Nn
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
+KL
+li
+Wc
+KD
+Ee
+WF
+qv
+aJ
+fy
+BX
+TJ
+vQ
+fy
+Hq
+tg
+Nn
+Me
+Nn
+Nn
+Nn
+Nn
+Nn
+Cc
+XX
+OM
+Gf
+vK
+Hc
+ki
+Ke
+OK
+xy
+pK
+RI
+Ma
+SU
+cE
+Ah
+Ke
+pI
+nW
+tq
 Nn
 Nn
 Nn
@@ -21009,56 +26027,56 @@ Nn
 Nn
 Nn
 Nn
-Fp
+qa
 zR
-tG
-tG
-tG
+AJ
+aJ
+fy
+zr
+fy
+SB
+tT
+Je
 zR
-zR
-zR
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
+jw
+lD
+rO
+jk
+nv
+Uv
+iu
+qS
+AR
+nn
+Dm
+nB
 Nn
-tG
+Ih
 Nn
 Nn
 Nn
 Nn
 Nn
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
+LD
+wo
+Sg
+ej
+NC
+Cg
+Sg
+TP
+oB
+zK
+tY
+Va
+Kf
+on
+xt
+ej
+Kd
+OE
+hV
+XV
 Nn
 Nn
 Nn
@@ -21209,42 +26227,34 @@ LI
 LI
 re
 Nn
+SN
 Nn
-Nn
-oO
+sG
 Dm
 zR
-zR
-zR
-tG
-zR
+Wj
 zR
 tG
+gf
+on
+wN
+KC
+Fr
+ux
+Jh
+Am
+Ns
+KC
+hs
+eW
+Ti
+EQ
+vg
 tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
+sr
 Nn
-tG
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-eU
+XQ
+jP
 Nn
 Nn
 Nn
@@ -21252,9 +26262,17 @@ Nn
 Nn
 Nn
 Nn
+xb
+SA
+SA
 Nn
-tG
-tG
+Nn
+Nn
+SA
+Nn
+Nn
+qa
+CQ
 Nn
 Nn
 Nn
@@ -21413,14 +26431,14 @@ eO
 Nn
 Nn
 Nn
-Fp
-jk
-tG
-tG
-tG
-tG
-tG
-tG
+qa
+Pe
+Ns
+KC
+Ns
+Ns
+Ns
+TQ
 Nn
 Nn
 Nn
@@ -21429,18 +26447,16 @@ Nn
 Nn
 Nn
 Nn
-tG
-tG
-tG
-tG
-tG
-tG
-tG
+LD
+xt
+jf
+xt
+Na
+lz
+sr
 Nn
-tG
-Nn
-Nn
-Nn
+JH
+jP
 Nn
 Nn
 Nn
@@ -21448,15 +26464,17 @@ Nn
 Nn
 Nn
 Nn
+rK
 Nn
 Nn
 Nn
 Nn
 Nn
+SN
 Nn
 Nn
-tG
-tG
+OQ
+yP
 Nn
 Nn
 eU
@@ -21612,15 +26630,11 @@ Nn
 Nn
 Nn
 Wq
+SN
 Nn
 Nn
-Nn
-Fp
-Vp
-Nn
-Nn
-Nn
-Nn
+qa
+tg
 Nn
 Nn
 Nn
@@ -21636,29 +26650,33 @@ Nn
 Nn
 Nn
 Nn
-tG
-tG
-Nn
-tG
 Nn
 Nn
 Nn
 Nn
+sG
+sr
 Nn
-Nn
+Me
 Nn
 Nn
 Nn
 Nn
 Nn
+Nn
+Nn
+Nn
+Nn
+Nn
+xT
 Nn
 Nn
 nP
 Nn
 Nn
 Nn
-tG
-tG
+hJ
+sr
 mO
 mO
 eU
@@ -21810,15 +26828,15 @@ Nn
 Nn
 Nn
 Nn
-Nn
+Hn
 Nn
 Nn
 Wq
 Nn
 Nn
 Nn
-bQ
-di
+OF
+sr
 Nn
 Nn
 Nn
@@ -21828,6 +26846,7 @@ Nn
 Nn
 Nn
 Nn
+TW
 Nn
 Nn
 Nn
@@ -21837,12 +26856,10 @@ Nn
 Nn
 Nn
 Nn
+qa
+zB
 Nn
-tG
-tG
-Nn
-tG
-Nn
+eV
 Nn
 Nn
 Nn
@@ -21852,6 +26869,7 @@ Nn
 Nn
 Nn
 Nn
+TW
 Nn
 Nn
 Nn
@@ -21859,8 +26877,8 @@ nP
 nP
 nP
 eU
-tG
-tG
+CC
+tq
 mO
 mO
 mO
@@ -22019,8 +27037,8 @@ OT
 Nn
 Nn
 Nn
-bQ
-fs
+OF
+kv
 Nn
 Nn
 Nn
@@ -22029,6 +27047,9 @@ Nn
 Nn
 Nn
 Nn
+Vd
+Vd
+Vd
 Nn
 Nn
 Nn
@@ -22037,14 +27058,11 @@ Nn
 Nn
 Nn
 Nn
+qa
+zB
 Nn
-Nn
-Nn
-tG
-tG
-Nn
-tG
-Nn
+XJ
+jP
 Nn
 Nn
 Nn
@@ -22061,10 +27079,10 @@ nP
 eU
 eU
 eU
-tG
-tG
-tG
-eU
+wZ
+Rj
+dn
+ek
 mO
 mO
 Nn
@@ -22221,38 +27239,38 @@ Wq
 Nn
 Nn
 Nn
-Fp
-hT
+qa
+yP
 Nn
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
+jJ
+OM
+xy
+sL
+Tg
+cA
+fy
+mp
+mp
+vK
+OM
+SB
+sL
+xy
+xQ
 Nn
 Nn
+tF
+MV
+yx
 Nn
-tG
-tG
+gs
 Nn
-tG
-Nn
-tG
-tG
-tG
-tG
-tG
-tG
+TH
+yz
+UU
+QG
+Pd
+ga
 Nn
 Nn
 Nn
@@ -22263,9 +27281,9 @@ eU
 mO
 mO
 mO
-tG
-tG
-tG
+hl
+wb
+uu
 eU
 yd
 eh
@@ -22420,41 +27438,41 @@ Nn
 Nn
 Nn
 SF
-Kr
+hu
 UU
 vD
 Iq
-di
+sr
 Nn
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-Nn
-Nn
-Nn
-tG
-tG
-Nn
-tG
-tG
-tG
+qa
+Dm
+Pe
+wN
+Lu
+xt
+Zj
+lI
+Gy
+bd
+xt
+Lu
+VP
+hk
+nB
 Nn
 Nn
 Nn
+sG
+zB
 Nn
-tG
+fl
+Ay
+pt
+Nn
+Nn
+Nn
+Nn
+BF
 Nn
 Nn
 Nn
@@ -22465,9 +27483,9 @@ mO
 eU
 mO
 mO
-tG
-tG
-tG
+uw
+BG
+OP
 eU
 Uh
 BY
@@ -22611,7 +27629,7 @@ Nn
 Nn
 Nn
 Nn
-Nn
+SN
 Nn
 Nn
 Nn
@@ -22625,12 +27643,29 @@ Wq
 Nn
 Nn
 Nn
-Fp
-tG
-tG
-tG
-tG
-tG
+qa
+NQ
+hu
+Iq
+jk
+Nd
+Nn
+Nn
+Nn
+Nn
+SA
+Nn
+SA
+Nn
+Nn
+Nn
+ZN
+sr
+Nn
+Nn
+tF
+oO
+sr
 Nn
 Nn
 Nn
@@ -22638,26 +27673,9 @@ Nn
 Nn
 Nn
 Nn
-Nn
-Nn
-Nn
-tG
-tG
-Nn
-Nn
-Nn
-tG
-tG
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-tG
-Nn
+tF
+cR
+jP
 Nn
 Nn
 Nn
@@ -22667,9 +27685,9 @@ mO
 eU
 eU
 eU
-tG
-tG
-tG
+DU
+wK
+Yp
 eU
 Uh
 BY
@@ -22751,9 +27769,9 @@ BY
 lV
 tG
 tG
-tG
-tG
-tG
+Nn
+Nn
+Nn
 tG
 tG
 tG
@@ -22783,15 +27801,15 @@ Gf
 Gf
 Gf
 ZC
-AJ
-Gf
-Gf
-Gf
-Gf
-Gf
-Gf
-Gf
-Gf
+di
+Nn
+Nn
+Nn
+Nn
+Nn
+Nn
+Nn
+wC
 Gf
 Gf
 Gf
@@ -22818,38 +27836,21 @@ Nn
 Nn
 Nn
 Nn
-Nn
+xT
 Nn
 Nn
 Nn
 Nn
 rC
 nP
+rK
 Nn
+OF
+sr
 Nn
-bQ
-di
-Nn
-tG
-tG
-tG
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-tG
-tG
-Nn
-Nn
-Nn
-tG
-tG
+lE
+Ge
+WM
 Nn
 Nn
 Nn
@@ -22858,8 +27859,25 @@ Nn
 Nn
 Nn
 Nn
-tG
 Nn
+Nn
+ZN
+zB
+Nn
+Nn
+Nn
+oO
+zB
+Nn
+xT
+Nn
+Nn
+Nn
+Nn
+Nn
+tF
+wI
+jP
 Nn
 Nn
 Nn
@@ -22869,10 +27887,10 @@ eU
 eU
 eU
 Nn
-tG
-tG
-tG
-Nn
+Pm
+Md
+aW
+jP
 Ii
 Jy
 Jy
@@ -22953,9 +27971,9 @@ lb
 Nn
 tG
 tG
-tG
-tG
-tG
+Nn
+Nn
+Nn
 tG
 tG
 tG
@@ -22982,19 +28000,19 @@ lI
 lI
 lI
 lI
+tG
+tG
 lI
-lI
-lI
-lI
-lI
-lI
-lI
-lI
-lI
-lI
-lI
-lI
-lI
+CE
+Nn
+Nn
+Nn
+Nn
+Nn
+Nn
+Nn
+Fp
+tG
 lI
 lI
 lI
@@ -23006,7 +28024,7 @@ sr
 Nn
 Nn
 Nn
-Nn
+SN
 tF
 RU
 Px
@@ -23020,7 +28038,7 @@ YA
 YA
 Nn
 Nn
-Nn
+rK
 Nn
 Nn
 Nn
@@ -23029,38 +28047,12 @@ rC
 YA
 YA
 YA
-Fp
-Rw
-Nn
-tG
-tG
-tG
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-tG
-tG
-Nn
-Nn
-Nn
-tG
-tG
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-tG
+qa
+nB
+tF
+td
+Zr
+KB
 Nn
 Nn
 Nn
@@ -23071,8 +28063,34 @@ Nn
 Nn
 Nn
 Nn
-tG
-tG
+Ie
+tg
+Nn
+Nn
+Nn
+qa
+sr
+Nn
+Nn
+Nn
+Hn
+Nn
+Nn
+Nn
+Nn
+DB
+Nn
+Nn
+Nn
+Nn
+Nn
+Nn
+Nn
+rK
+EB
+Nn
+Wm
+yP
 Nn
 Nn
 Nn
@@ -23158,8 +28176,8 @@ tG
 Nn
 Nn
 Nn
-Nn
-Nn
+tG
+tG
 Nn
 Nn
 Nn
@@ -23184,19 +28202,19 @@ Nn
 Nn
 Nn
 Nn
+Fp
+di
 Nn
 Nn
 Nn
 Nn
+rK
 Nn
 Nn
 Nn
 Nn
-Nn
-Nn
-Nn
-Nn
-Nn
+Fp
+di
 Nn
 Nn
 Nn
@@ -23224,47 +28242,45 @@ Nn
 Nn
 Nn
 Nn
-Nn
+rK
 YA
 YA
 Km
 YA
 nP
 YA
-RU
-Rw
-Nn
-tG
-tG
-tG
-Nn
-Nn
+ZN
+nB
+tF
+eT
+vB
+kg
 Nn
 Nn
 Nn
 Nn
-Nn
-Nn
-Nn
-Nn
-tG
-tG
-Nn
-Nn
-Nn
-tG
-tG
+rK
 Nn
 Nn
 Nn
 Nn
 Nn
-tG
-tG
-tG
-tG
+ER
+tg
 Nn
 Nn
+Nn
+qa
+yP
+Nn
+Nn
+Nn
+Nn
+Nn
+Ir
+Og
+Do
+GZ
 Nn
 Nn
 Nn
@@ -23273,8 +28289,10 @@ Nn
 Nn
 Nn
 Nn
-tG
-tG
+Nn
+Nn
+OQ
+sr
 Nn
 Nn
 Nn
@@ -23360,8 +28378,8 @@ tG
 YA
 Nn
 YA
-Nn
-Nn
+tG
+tG
 Nn
 Nn
 Nn
@@ -23386,6 +28404,8 @@ Nn
 Nn
 Nn
 Nn
+Fp
+di
 Nn
 Nn
 Nn
@@ -23395,10 +28415,8 @@ Nn
 Nn
 Nn
 Nn
-Nn
-Nn
-Nn
-Nn
+Fp
+di
 Nn
 Nn
 Nn
@@ -23433,14 +28451,12 @@ Wq
 Nn
 nP
 Nn
-jC
-Rw
-Nn
-tG
-tG
-tG
-Nn
-Nn
+wD
+ze
+tF
+Ui
+vB
+hK
 Nn
 Nn
 Nn
@@ -23449,34 +28465,36 @@ Nn
 Nn
 Nn
 Nn
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
+Nn
+Nn
+sG
+TC
+OM
+yf
+Wc
+yI
+hQ
+fy
+zm
+Nn
+Nn
+tF
+Zu
 Nn
 Nn
 Nn
-tG
 Nn
-Nn
-Nn
-Nn
-Nn
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
+tF
+HQ
+nM
+OM
+AI
+Ke
+Ke
+ki
+OM
+je
+sr
 Nn
 Nn
 Nn
@@ -23562,8 +28580,8 @@ tG
 YA
 YA
 YA
-Nn
-Nn
+tG
+tG
 Nn
 Nn
 Nn
@@ -23588,6 +28606,8 @@ Nn
 Nn
 Nn
 Nn
+Fp
+di
 Nn
 Nn
 Nn
@@ -23597,10 +28617,8 @@ Nn
 Nn
 Nn
 Nn
-Nn
-Nn
-Nn
-Nn
+Fp
+di
 rY
 rY
 Nn
@@ -23611,7 +28629,7 @@ rm
 LF
 SN
 Nn
-Nn
+Hn
 Nn
 Nn
 sG
@@ -23635,14 +28653,12 @@ Wq
 Nn
 Nn
 Nn
-jC
-Vp
+wD
+NZ
 Nn
-tG
-tG
-tG
-Nn
-Nn
+na
+Mt
+Co
 Nn
 Nn
 Nn
@@ -23651,35 +28667,37 @@ Nn
 Nn
 Nn
 Nn
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
+Nn
+Nn
+tb
+ej
+ax
+nY
+Va
+wA
+ZF
+hs
+fA
 Nn
 Nn
 Nn
-tG
+dt
+jP
 Nn
 Nn
 Nn
-Nn
-Nn
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-Nn
+tF
+IR
+rT
+Qq
+ne
+yn
+ES
+Fq
+rV
+VR
+Rw
+jP
 Nn
 Nn
 Nn
@@ -23761,11 +28779,11 @@ tG
 tG
 tG
 tG
-Cv
-Cv
-Cv
-Cv
-Cv
+tG
+tG
+tG
+tG
+tG
 Nn
 Nn
 Nn
@@ -23790,6 +28808,8 @@ Nn
 Nn
 Nn
 Nn
+Fp
+di
 Nn
 Nn
 Nn
@@ -23799,10 +28819,8 @@ Nn
 Nn
 Nn
 Nn
-Nn
-Nn
-Nn
-Nn
+Fp
+di
 rY
 rY
 rY
@@ -23812,7 +28830,7 @@ Nn
 qa
 sr
 Nn
-Nn
+rK
 Nn
 Nn
 Nn
@@ -23837,11 +28855,11 @@ rC
 Nn
 Nn
 Nn
-oO
-Rw
+sG
+nB
 Nn
 Nn
-Nn
+SA
 nP
 Nn
 YA
@@ -23854,33 +28872,33 @@ Nn
 Nn
 Nn
 Nn
+SA
+SA
+Nn
+Nn
+SA
+Nn
+sG
+yP
+Nn
+Nn
+tF
+Dp
+jP
 Nn
 Nn
 Nn
+xT
 Nn
-Nn
-Nn
-tG
-tG
-Nn
-Nn
-Nn
-tG
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-tG
-tG
-Nn
-Nn
-Nn
-Nn
-Nn
-tG
-tG
+sG
+GY
+uD
+QH
+uD
+lf
+uD
+XB
+Vt
 Nn
 rY
 rY
@@ -23963,11 +28981,11 @@ tG
 tG
 tG
 tG
-YA
-YA
-Cv
-Nn
-Nn
+tG
+tG
+tG
+tG
+tG
 Nn
 Nn
 Nn
@@ -23992,19 +29010,19 @@ Nn
 Nn
 Nn
 Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
+Fp
+tG
+Gf
+Gf
+Gf
+Gf
+Gf
+Gf
+Gf
+Gf
+Gf
+tG
+di
 Nn
 rY
 rY
@@ -24039,8 +29057,8 @@ rC
 Nn
 Nn
 Nn
-oO
-Px
+sG
+zB
 Nn
 Nn
 Nn
@@ -24060,29 +29078,29 @@ Nn
 Nn
 Nn
 Nn
+SN
 Nn
-Nn
-tG
-tG
-Nn
-Nn
-Nn
-tG
+Ie
+tg
 Nn
 Nn
 Nn
+uH
 Nn
-Nn
-Nn
-tG
-tG
+SN
 Nn
 Nn
 Nn
 Nn
-Nn
-tG
-tG
+OF
+tq
+uD
+uD
+uD
+uD
+uD
+qa
+GY
 Nn
 rY
 rY
@@ -24194,19 +29212,19 @@ Nn
 Nn
 Nn
 Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
+FN
+lI
+lI
+lI
+lI
+lI
+lI
+lI
+lI
+lI
+lI
+lI
+CE
 Nn
 Nn
 rY
@@ -24224,12 +29242,12 @@ qa
 sr
 Nn
 Nn
-Nn
+rK
 Nn
 eO
 Nn
 Nn
-Nn
+Hn
 YA
 YA
 YA
@@ -24239,10 +29257,10 @@ nP
 Nn
 rC
 Nn
+SN
 Nn
-Nn
-jC
-Px
+rq
+lB
 Nn
 Nn
 YA
@@ -24264,27 +29282,27 @@ Nn
 Nn
 Nn
 Nn
-tG
-tG
+ui
+Rc
 Nn
 Nn
 Nn
-tG
+eV
+Nn
+Nn
+xT
+Nn
+Nn
+Nn
+qa
+yP
 Nn
 Nn
 Nn
 Nn
-Nn
-Nn
-tG
-tG
-Nn
-Nn
-Nn
-Nn
-Nn
-tG
-tG
+tF
+Fp
+GY
 Nn
 Nn
 rY
@@ -24443,8 +29461,8 @@ Wq
 Nn
 Nn
 Nn
-RU
-di
+yp
+sr
 Nn
 Nn
 YA
@@ -24466,27 +29484,27 @@ Nn
 Nn
 Nn
 Nn
-tG
-tG
+Sz
+hI
+jP
+Nn
+Nn
+Mu
+Wg
 Nn
 Nn
 Nn
-tG
-tG
+Hn
+Nn
+hJ
+tq
 Nn
 Nn
 Nn
 Nn
 Nn
-tG
-tG
-Nn
-Nn
-Nn
-Nn
-Nn
-tG
-tG
+Fp
+GY
 Nn
 rY
 rY
@@ -24643,53 +29661,53 @@ RC
 RC
 GZ
 Nn
+xT
+Nn
+wD
+TY
+nP
+YA
+YA
+Nn
+TW
+YA
+YA
+nP
 Nn
 Nn
-jC
+Nn
+Nn
+Nn
+Nn
+Nn
+Nn
+Nn
+Nn
+Nn
+Nn
+Nn
+qa
+Px
+jP
+Nn
+Nn
+OF
+rS
+Nn
+Nn
+Nn
+Nn
+Nn
+OQ
+tq
+Nn
+Nn
+Nn
+Nn
+tF
+oO
 di
-nP
-YA
-YA
-Nn
-Nn
-YA
-YA
-nP
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-tG
-tG
-Nn
-Nn
-Nn
-tG
-tG
-Nn
-Nn
-Nn
-Nn
-Nn
-tG
-tG
-Nn
-Nn
-Nn
-Nn
-Nn
-tG
-tG
-Nn
+jP
 rY
 rY
 Nn
@@ -24847,8 +29865,8 @@ Nn
 Nn
 Nn
 Nn
-RU
-Px
+ZN
+zB
 Nn
 YA
 YA
@@ -24870,28 +29888,28 @@ Nn
 Nn
 Nn
 Nn
-tG
-tG
+OF
+hT
 Nn
 Nn
 Nn
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
+qa
+Fo
+sL
+OA
+fy
+OJ
+sL
+ED
+MS
 Nn
 Nn
 Nn
 Nn
 Nn
-tG
-tG
-SN
+pM
+Rw
+ZB
 Nn
 Nn
 YA
@@ -25015,7 +30033,7 @@ Nn
 Nn
 Nn
 Nn
-Nn
+rK
 Nn
 Nn
 Nn
@@ -25033,7 +30051,7 @@ mN
 jP
 Nn
 Nn
-Nn
+SN
 Nn
 Nn
 Nn
@@ -25049,8 +30067,8 @@ Nn
 Nn
 Nn
 Nn
-Fp
-Vp
+qa
+tg
 YA
 YA
 Nn
@@ -25063,36 +30081,36 @@ Nn
 Nn
 Nn
 Nn
+SN
 Nn
 Nn
 Nn
 Nn
 Nn
 Nn
+rK
+Nn
+Fu
+hT
+jP
+Nn
+Nn
+sG
+du
+Lu
+ZS
+Lu
+wo
+Ep
+VP
+XV
 Nn
 Nn
 Nn
-tG
-tG
 Nn
 Nn
-Nn
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-Nn
-Nn
-Nn
-Nn
-Nn
-tG
-tG
+hg
+GY
 Nn
 Nn
 xT
@@ -25251,8 +30269,8 @@ Nn
 Nn
 Nn
 Nn
-Fp
-Vp
+qa
+tg
 YA
 YA
 Nn
@@ -25268,33 +30286,33 @@ Nn
 Nn
 Nn
 Nn
+TW
+Nn
+Nn
+Nn
+Nn
+Nn
+OF
+yP
+Nn
+Nn
+Nn
+sG
+tu
 Nn
 Nn
 Nn
 Nn
 Nn
 Nn
-tG
-tG
-Nn
-Nn
-Nn
-tG
-tG
 Nn
 Nn
 Nn
 Nn
 Nn
 Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-tG
-tG
+Xy
+UO
 Nn
 Nn
 Hn
@@ -25453,8 +30471,8 @@ Nn
 Nn
 Nn
 Nn
-QS
-di
+Ie
+sr
 Nn
 Nn
 Nn
@@ -25470,35 +30488,35 @@ Nn
 Nn
 Nn
 Nn
+rK
+Nn
+Nn
+Nn
+Nn
+Nn
+OF
+nB
+Nn
+Nn
+Nn
+wD
+zB
+Nn
+Nn
+Nn
+TW
 Nn
 Nn
 Nn
 Nn
 Nn
 Nn
-tG
-tG
 Nn
 Nn
-Nn
-tG
-tG
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-tG
-tG
-tG
-Nn
+lE
+sQ
+Nh
+jP
 Nn
 Nn
 Nn
@@ -25634,6 +30652,7 @@ Nn
 Nn
 Nn
 Nn
+rK
 Nn
 Nn
 Nn
@@ -25654,10 +30673,8 @@ Nn
 Nn
 Nn
 Nn
-Nn
-QS
-di
-Nn
+Ie
+sr
 Nn
 Nn
 Nn
@@ -25675,21 +30692,17 @@ Nn
 Nn
 Nn
 Nn
+rK
 Nn
 Nn
 Nn
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-Nn
-Nn
-Nn
-Nn
-Nn
+GG
+TC
+sL
+us
+TF
+je
+sr
 Nn
 Nn
 Nn
@@ -25697,9 +30710,14 @@ Nn
 Nn
 Nn
 Nn
-tG
-tG
-tG
+Nn
+Nn
+Nn
+xT
+Nn
+Th
+Hl
+gy
 Nn
 Nn
 Nn
@@ -25851,14 +30869,14 @@ Nn
 Nn
 Nn
 Nn
+rK
 Nn
 Nn
 Nn
 Nn
 Nn
-Nn
-oO
-di
+sG
+sr
 Nn
 Nn
 Nn
@@ -25873,6 +30891,20 @@ Nn
 Nn
 Nn
 Nn
+xT
+Nn
+Nn
+Nn
+Nn
+Nn
+Nn
+Nm
+VP
+XE
+hX
+wN
+wo
+yF
 Nn
 Nn
 Nn
@@ -25880,28 +30912,14 @@ Nn
 Nn
 Nn
 Nn
-tG
-tG
-tG
-tG
-tG
-tG
-tG
 Nn
 Nn
 Nn
 Nn
 Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-Nn
-tG
-tG
-tG
+sR
+Hl
+Eh
 Nn
 Nn
 Nn
@@ -26034,6 +31052,7 @@ Nn
 hJ
 tq
 Nn
+rK
 Nn
 Nn
 Nn
@@ -26050,6 +31069,7 @@ Nn
 Nn
 Nn
 Nn
+SN
 Nn
 Nn
 Nn
@@ -26057,12 +31077,10 @@ Nn
 Nn
 Nn
 Nn
+rM
+Lt
 Nn
-Nn
-jC
-hT
-Nn
-Nn
+Hn
 Nn
 Nn
 Nn
@@ -26091,19 +31109,19 @@ Nn
 Nn
 Nn
 Nn
+SN
 Nn
 Nn
 Nn
 Nn
 Nn
 Nn
+TW
 Nn
 Nn
-Nn
-Nn
-tG
-tG
-tG
+es
+tv
+wa
 Nn
 Nn
 Nn
@@ -26238,11 +31256,11 @@ dG
 Nn
 Nn
 Nn
+rK
 Nn
+Hn
 Nn
-Nn
-Nn
-Nn
+xT
 Nn
 Nn
 Nn
@@ -26262,7 +31280,7 @@ Nn
 Nn
 Nn
 hZ
-hT
+il
 Nn
 Nn
 Nn
@@ -26285,6 +31303,7 @@ Nn
 Nn
 Nn
 Nn
+TW
 Nn
 Nn
 Nn
@@ -26298,15 +31317,14 @@ Nn
 Nn
 Nn
 Nn
+rK
 Nn
 Nn
 Nn
-Nn
-Nn
-tG
-tG
-tG
-Nn
+bT
+Md
+aW
+jP
 Nn
 Nn
 Nn
@@ -26463,8 +31481,8 @@ Nn
 Nn
 Nn
 Ll
-RU
-di
+xV
+Yh
 Ll
 Nn
 Nn
@@ -26487,7 +31505,7 @@ Nn
 Nn
 Nn
 Nn
-Nn
+SN
 Nn
 Nn
 Nn
@@ -26505,8 +31523,8 @@ Nn
 Nn
 Nn
 Ll
-tG
-tG
+Lj
+Bw
 Ll
 Nn
 Nn
