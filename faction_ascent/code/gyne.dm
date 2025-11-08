@@ -67,7 +67,7 @@
 
 	color = COLOR_GRAY
 
-/obj/item/clothing/suit/armor/storage/faction_ascent/gyne/exosuit
+/obj/item/clothing/suit/storage/marine/faction_ascent/gyne/exosuit
 	name = "Ascent elite combat armor"
 	desc = "An heavy armored battle suit, used by Gyne Generals."
 	icon = 'faction_ascent/icons/clothing/obj_suit.dmi'
@@ -88,6 +88,8 @@
 	armor_rad = CLOTHING_ARMOR_GIGAHIGH
 
 	armor_internaldamage = CLOTHING_ARMOR_GIGAHIGHPLUS
+
+	flags_atom = NO_SNOW_TYPE|NO_NAME_OVERRIDE
 
 /obj/item/clothing/head/helmet/faction_ascent/gyne/exosuit
 	name = "Ascent elite exosuit helmet"

@@ -17,6 +17,11 @@
 	desc = "PURPLE GAY-NIGGERS FROM OUTER SPACE"
 	path = /datum/equipment_preset/faction_ascent/alate/soldier
 
+/datum/human_ai_equipment_preset/ascent/monarch_honor
+	name = "Monarch - Heavy, Honor Guard"
+	desc = "PURPLE GAY-NIGGERS FROM OUTER SPACE"
+	path = /datum/equipment_preset/faction_ascent/monarch/melee
+
 /datum/human_ai_equipment_preset/ascent/monarch_gunner
 	name = "Monarch - Heavy, Machinegun"
 	desc = "PURPLE GAY-NIGGERS FROM OUTER SPACE"

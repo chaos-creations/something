@@ -2715,6 +2715,7 @@
 #include "interface\interface.dm"
 #include "interface\skin.dmf"
 #include "maps\_basemap.dm"
+#include "maps\map_files\rubicon_last_stand\mapcode.dm"
 #include "something\code\chair_shifting.dm"
 #include "something\code\decorations.dm"
 #include "something\code\dice.dm"

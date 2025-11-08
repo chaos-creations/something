@@ -100,11 +100,11 @@
 /obj/item/clothing/head/helmet/faction_ascent/taj/militia/medium
 	name = "Old-looking Helmet"
 	desc = "An armored helmet. Looks like something straight from WW1!"
-	icon = 'faction_ascent/icons/tajaran/tajara_items.dmi'
-	icon_state = "kettle_he"
-	item_state = "kettle_he"
+	icon = 'faction_ascent/icons/tajaran/clothing_inv.dmi'
+	icon_state = "helmet"
+	item_state = "helmet"
 	item_icons = list(
-		WEAR_HEAD = 'faction_ascent/icons/tajaran/tajara_items.dmi'
+		WEAR_HEAD = 'faction_ascent/icons/tajaran/clothing_onmob.dmi'
 	)
 
 	flags_armor_protection = BODY_FLAG_HEAD
@@ -119,14 +119,14 @@
 
 	armor_internaldamage = CLOTHING_ARMOR_HIGH
 
-/obj/item/clothing/suit/armor/storage/faction_ascent/taj/militia/medium
+/obj/item/clothing/suit/storage/marine/faction_ascent/taj/militia/medium
 	name = "Light-armored plate"
 	desc = "Small, probably not that expensive armored plate."
-	icon = 'faction_ascent/icons/tajaran/tajara_items.dmi'
-	icon_state = "cuirass_su"
-	item_state = "cuirass_su"
+	icon = 'faction_ascent/icons/tajaran/clothing_inv.dmi'
+	icon_state = "armor"
+	item_state = "armor"
 	item_icons = list(
-		WEAR_JACKET = 'faction_ascent/icons/tajaran/tajara_items.dmi'
+		WEAR_JACKET = 'faction_ascent/icons/tajaran/clothing_onmob.dmi'
 	)
 
 	flags_armor_protection = BODY_FLAG_CHEST|BODY_FLAG_GROIN
@@ -140,6 +140,8 @@
 	armor_rad = CLOTHING_ARMOR_NONE
 
 	armor_internaldamage = CLOTHING_ARMOR_HIGH
+
+	flags_atom = NO_SNOW_TYPE|NO_NAME_OVERRIDE
 
 // Regular Militia Officer Equipment
 /obj/item/clothing/under/rank/faction_ascent/taj/militia/officer
@@ -175,7 +177,7 @@
 
 	armor_internaldamage = CLOTHING_ARMOR_MEDIUM
 
-/obj/item/clothing/suit/armor/storage/faction_ascent/taj/militia/officer
+/obj/item/clothing/suit/storage/marine/faction_ascent/taj/militia/officer
 	name = "Armored Trenchcoat"
 	desc = "An dusted trench with armored plates attached to it."
 	icon = 'faction_ascent/icons/tajaran/clothing_onmob.dmi'
@@ -196,6 +198,8 @@
 	armor_rad = CLOTHING_ARMOR_NONE
 
 	armor_internaldamage = CLOTHING_ARMOR_HIGH
+
+	flags_atom = NO_SNOW_TYPE|NO_NAME_OVERRIDE
 
 // Regular Militia Heavy Armor
 /obj/item/clothing/head/helmet/faction_ascent/taj/militia/heavy
@@ -220,7 +224,7 @@
 
 	armor_internaldamage = CLOTHING_ARMOR_HIGH
 
-/obj/item/clothing/suit/armor/storage/faction_ascent/taj/militia/heavy
+/obj/item/clothing/suit/storage/marine/faction_ascent/taj/militia/heavy
 	name = "Strange Bomb-suit"
 	desc = "Very large protective suit."
 	icon = 'faction_ascent/icons/tajaran/tajara_items.dmi'
@@ -241,6 +245,8 @@
 	armor_rad = CLOTHING_ARMOR_VERYHIGHPLUS
 
 	armor_internaldamage = CLOTHING_ARMOR_HIGH
+
+	flags_atom = NO_SNOW_TYPE|NO_NAME_OVERRIDE
 
 // Regular Militia Various Headgear
 /obj/item/clothing/mask/faction_ascent/taj/militia/turban
@@ -404,7 +410,7 @@
 /datum/equipment_preset/faction_ascent/taj/soldier/load_gear(mob/living/carbon/human/new_human)
 	new_human.equip_to_slot_or_del(new /obj/item/storage/backpack/marine/satchel/tech, WEAR_BACK)
 
-	var/pick_type = pick(1,2,3,4)
+	var/pick_type = pick(1,2,3,4,5)
 	switch(pick_type)
 		if(1) //basic set
 			var/obj/item/clothing/under/rank/faction_ascent/taj/militia/regular/M = new()
@@ -417,7 +423,7 @@
 
 			new_human.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/faction_ascent/taj/militia/medium, WEAR_HEAD)
 			new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/jackboots/taj/combat, WEAR_FEET)
-			new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/armor/storage/faction_ascent/taj/militia/medium, WEAR_JACKET)
+			new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/storage/marine/faction_ascent/taj/militia/medium, WEAR_JACKET)
 
 			new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/faction_ascent/taj/militia/rifle/carbine, WEAR_R_HAND)
 			new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/faction_ascent/taj/militia/rifle, WEAR_IN_BACK)
@@ -429,7 +435,7 @@
 			new_human.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/faction_ascent/taj/militia/headband, WEAR_HEAD)
 			new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/jackboots/taj/combat, WEAR_FEET)
 
-			var/obj/item/clothing/suit/armor/storage/faction_ascent/taj/militia/medium/M = new()
+			var/obj/item/clothing/suit/storage/marine/faction_ascent/taj/militia/medium/M = new()
 			var/obj/item/clothing/accessory/faction_ascent/taj/militia/cape/W = new()
 			M.attach_accessory(new_human, W)
 			new_human.equip_to_slot_or_del(M, WEAR_JACKET)
@@ -456,7 +462,7 @@
 					new_human.equip_to_slot_or_del(new /obj/item/clothing/mask/faction_ascent/taj/militia/turban/open, WEAR_FACE)
 			new_human.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/faction_ascent/taj/militia/turban, WEAR_HEAD)
 			new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/jackboots/taj/combat, WEAR_FEET)
-			new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/armor/storage/faction_ascent/taj/militia/medium, WEAR_JACKET)
+			new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/storage/marine/faction_ascent/taj/militia/medium, WEAR_JACKET)
 
 			var/pick_gun = pick(1,2)
 			switch(pick_gun)
@@ -501,6 +507,20 @@
 					new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/faction_ascent/taj/militia/pistol, WEAR_IN_BACK)
 					new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/faction_ascent/taj/militia/pistol, WEAR_IN_BACK)
 					new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/faction_ascent/taj/militia/pistol, WEAR_IN_BACK)
+		if(5) //melee
+			var/obj/item/clothing/under/rank/faction_ascent/taj/militia/regular/M = new()
+			var/obj/item/clothing/accessory/storage/faction_ascent/taj/militia/regular_coat/W = new()
+			M.attach_accessory(new_human, W)
+			new_human.equip_to_slot_or_del(M, WEAR_BODY)
+
+			if(prob(30))
+				new_human.equip_to_slot_or_del(new /obj/item/clothing/mask/faction_ascent/taj/militia/scarf, WEAR_FACE)
+
+			new_human.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/faction_ascent/taj/militia/medium, WEAR_HEAD)
+			new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/jackboots/taj/combat, WEAR_FEET)
+			new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/storage/marine/faction_ascent/taj/militia/medium, WEAR_JACKET)
+
+			new_human.equip_to_slot_or_del(new /obj/item/weapon/sword/machete, WEAR_R_HAND)
 
 // Militia Heavy Trooper
 /datum/equipment_preset/faction_ascent/taj/heavy_soldier
@@ -535,7 +555,7 @@
 
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/faction_ascent/taj/militia/heavy, WEAR_HEAD)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/jackboots/taj/combat, WEAR_FEET)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/armor/storage/faction_ascent/taj/militia/heavy, WEAR_JACKET)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/storage/marine/faction_ascent/taj/militia/heavy, WEAR_JACKET)
 
 	var/pick_gun = pick(1,2)
 	switch(pick_gun)
@@ -577,7 +597,7 @@
 /datum/equipment_preset/faction_ascent/taj/officer/load_gear(mob/living/carbon/human/new_human)
 	new_human.equip_to_slot_or_del(new /obj/item/storage/backpack/marine/satchel, WEAR_BACK)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/rank/faction_ascent/taj/militia/officer, WEAR_BODY)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/armor/storage/faction_ascent/taj/militia/officer, WEAR_JACKET)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/storage/marine/faction_ascent/taj/militia/officer, WEAR_JACKET)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/jackboots/taj/combat/black, WEAR_FEET)
 
 	if(prob(30))

@@ -1,0 +1,12 @@
+{
+	"map_name": "Rubicon 3",
+    "short_name": "Rubicon",
+	"map_path": "map_files/rubicon_last_stand",
+	"map_file": "rubicon_last_stand.dmm",
+    "webmap_url": "LV552",
+    "map_item_type": "/obj/item/map/lv522_map",
+    "weather_holder": "/datum/weather_ss_map_holder/shivas_snowball",
+
+    "camouflage": "snow"
+}
+

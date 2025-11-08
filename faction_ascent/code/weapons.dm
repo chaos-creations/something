@@ -34,7 +34,7 @@
 /obj/item/weapon/gun/faction_ascent/taj/militia/pistol/regular/set_gun_config_values()
 	..()
 	set_fire_delay(FIRE_DELAY_TIER_5)
-	accuracy_mult = BASE_ACCURACY_MULT + HIT_ACCURACY_MULT_TIER_4
+	accuracy_mult = BASE_ACCURACY_MULT + HIT_ACCURACY_MULT_TIER_6
 	accuracy_mult_unwielded = BASE_ACCURACY_MULT
 	scatter = SCATTER_AMOUNT_TIER_8
 	scatter_unwielded = SCATTER_AMOUNT_TIER_6
@@ -99,7 +99,7 @@
 /obj/item/weapon/gun/revolver/faction_ascent/taj/militia/officer/set_gun_config_values()
 	..()
 	set_fire_delay(FIRE_DELAY_TIER_3)
-	accuracy_mult = BASE_ACCURACY_MULT + HIT_ACCURACY_MULT_TIER_5
+	accuracy_mult = BASE_ACCURACY_MULT + HIT_ACCURACY_MULT_TIER_1
 	accuracy_mult_unwielded = BASE_ACCURACY_MULT
 	scatter = SCATTER_AMOUNT_TIER_10
 	scatter_unwielded = SCATTER_AMOUNT_TIER_9
@@ -164,7 +164,7 @@
 	set_fire_delay(FIRE_DELAY_TIER_9)
 	set_burst_amount(BURST_AMOUNT_TIER_3)
 	set_burst_delay(FIRE_DELAY_TIER_SG)
-	accuracy_mult = BASE_ACCURACY_MULT + HIT_ACCURACY_MULT_TIER_4
+	accuracy_mult = BASE_ACCURACY_MULT + HIT_ACCURACY_MULT_TIER_1
 	accuracy_mult_unwielded = BASE_ACCURACY_MULT - HIT_ACCURACY_MULT_TIER_5
 	scatter = SCATTER_AMOUNT_NONE
 	burst_scatter_mult = SCATTER_AMOUNT_TIER_9
@@ -225,7 +225,7 @@
 
 /obj/item/weapon/gun/faction_ascent/taj/militia/rifle/machinegun/set_gun_config_values()
 	set_fire_delay(FIRE_DELAY_TIER_SG)
-	accuracy_mult = BASE_ACCURACY_MULT
+	accuracy_mult = BASE_ACCURACY_MULT - HIT_ACCURACY_MULT_TIER_2
 	scatter = SCATTER_AMOUNT_TIER_6
 	damage_mult = BASE_BULLET_DAMAGE_MULT + BULLET_DAMAGE_MULT_TIER_2
 	recoil = RECOIL_AMOUNT_TIER_4
@@ -364,6 +364,9 @@
 	set_fire_delay(FIRE_DELAY_TIER_6)
 	scatter = SCATTER_AMOUNT_NONE
 
+	accuracy_mult = BASE_ACCURACY_MULT + HIT_ACCURACY_MULT_TIER_6
+	accuracy_mult_unwielded = BASE_ACCURACY_MULT + HIT_ACCURACY_MULT_TIER_6
+
 /obj/item/weapon/gun/energy/ascent/carbine
 	name = "Ascent E-Rifle"
 	desc = "An more complex version of energy pistol, used on long range. Pretty light for it's size."
@@ -410,6 +413,9 @@
 	scatter_unwielded = SCATTER_AMOUNT_TIER_4
 	damage_mult = BULLET_DAMAGE_MULT_TIER_6
 
+	accuracy_mult = BASE_ACCURACY_MULT + HIT_ACCURACY_MULT_TIER_1
+	accuracy_mult_unwielded = BASE_ACCURACY_MULT + HIT_ACCURACY_MULT_TIER_1
+
 /obj/item/weapon/gun/energy/ascent/launcher
 	name = "Ascent Plasmas Launcher"
 	desc = "Heavy looking energy-based launcher, used to melt vehicle."
@@ -428,3 +434,16 @@
 /obj/item/weapon/gun/energy/ascent/launcher/set_gun_config_values()
 	set_fire_delay(FIRE_DELAY_TIER_1)
 	scatter = SCATTER_AMOUNT_NONE
+
+/obj/item/weapon/sword/machete/ascent/energy_axe
+	name = "\improper energy axe"
+	desc = "Strong and noble weapon."
+	icon = 'faction_ascent/energy.dmi'
+	icon_state = "halberdblue"
+	item_state = "halberdblue"
+	item_icons = list(
+		WEAR_L_HAND = 'faction_ascent/polearms_lefthand.dmi',
+		WEAR_R_HAND = 'faction_ascent/polearms_righthand.dmi',
+		)
+
+	force = 80

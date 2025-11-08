@@ -68,7 +68,7 @@
 		WEAR_BODY = 'faction_ascent/icons/gas/onmob/onmob_under_gas.dmi'
 	)
 
-/obj/item/clothing/suit/armor/storage/faction_ascent/monarch/exosuit
+/obj/item/clothing/suit/storage/marine/faction_ascent/monarch/exosuit
 	name = "Ascent elite combat armor"
 	desc = "An heavy armored battle suit, used by Monarch's elite soldiers."
 	icon = 'faction_ascent/icons/clothing/obj_suit.dmi'
@@ -89,6 +89,8 @@
 	armor_rad = CLOTHING_ARMOR_GIGAHIGH
 
 	armor_internaldamage = CLOTHING_ARMOR_GIGAHIGH
+
+	flags_atom = NO_SNOW_TYPE|NO_NAME_OVERRIDE
 
 /obj/item/clothing/head/helmet/faction_ascent/monarch/exosuit
 	name = "Ascent elite exosuit helmet"
@@ -158,6 +160,40 @@
 
 //OUTFIT PRESETS
 
+/datum/equipment_preset/faction_ascent/monarch/melee
+	name = "Bay12 | Monarch | Honor Guard"
+	idtype = null
+	languages = list(LANGUAGE_YAUTJA) //Let's keep it simple for now
+	faction = FACTION_ASCENT
+	faction_group = (FACTION_ASCENT)
+	uses_special_name = TRUE
+	skills = /datum/skills/pfc
+	flags = EQUIPMENT_PRESET_START_OF_ROUND
+
+/datum/equipment_preset/faction_ascent/monarch/melee/load_id(mob/living/carbon/human/new_human)
+	new_human.faction = faction
+	new_human.faction_group = faction_group
+
+/datum/equipment_preset/faction_ascent/monarch/melee/load_name(mob/living/carbon/human/new_human, randomise)
+	. = ..()
+	var/new_name = "Ascent Honor Guard ([rand(1, 9)][rand(1, 9)][rand(1, 9)])"
+	new_human.change_real_name(new_human, new_name)
+
+/datum/equipment_preset/faction_ascent/monarch/melee/load_race(mob/living/carbon/human/new_human, client/mob_client)
+	new_human.set_species(SPECIES_MONARCH)
+	new_human.body_type = "monarch"
+
+/datum/equipment_preset/faction_ascent/monarch/melee/load_gear(mob/living/carbon/human/new_human)
+
+	new_human.equip_to_slot_or_del(new /obj/item/weapon/sword/machete/ascent/energy_axe, WEAR_R_HAND)
+
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/rank/faction_ascent/monarch(new_human), WEAR_BODY)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/faction_ascent/monarch/exosuit, WEAR_HEAD)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/jackboots/faction_ascent/monarch/exosuit, WEAR_FEET)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/gloves/combat/faction_ascent/monarch/exosuit, WEAR_HANDS)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/storage/marine/faction_ascent/monarch/exosuit, WEAR_JACKET)
+
+
 /datum/equipment_preset/faction_ascent/monarch/gunner
 	name = "Bay12 | Monarch | Gunner"
 	idtype = null
@@ -190,7 +226,7 @@
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/faction_ascent/monarch/exosuit, WEAR_HEAD)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/jackboots/faction_ascent/monarch/exosuit, WEAR_FEET)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/gloves/combat/faction_ascent/monarch/exosuit, WEAR_HANDS)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/armor/storage/faction_ascent/monarch/exosuit, WEAR_JACKET)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/storage/marine/faction_ascent/monarch/exosuit, WEAR_JACKET)
 
 /datum/equipment_preset/faction_ascent/monarch/specialist
 	name = "Bay12 | Monarch | Specialist"
@@ -224,4 +260,4 @@
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/faction_ascent/monarch/exosuit, WEAR_HEAD)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/jackboots/faction_ascent/monarch/exosuit, WEAR_FEET)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/gloves/combat/faction_ascent/monarch/exosuit, WEAR_HANDS)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/armor/storage/faction_ascent/monarch/exosuit, WEAR_JACKET)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/storage/marine/faction_ascent/monarch/exosuit, WEAR_JACKET)

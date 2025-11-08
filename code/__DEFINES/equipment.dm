@@ -571,6 +571,7 @@ GLOBAL_LIST_INIT(uniform_categories, list(
 //=================================================
 #define PHONE_MARINE "Marine"
 #define PHONE_UPP_SOLDIER "Soldier"
+#define PHONE_HUMANITY_SOLDIER "Trooper"
 #define PHONE_IO "IO"
 
 #define PHONE_DND_FORCED 2

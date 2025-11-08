@@ -79,7 +79,7 @@
 	color = COLOR_GRAY
 	flags_jumpsuit = null
 
-/obj/item/clothing/suit/armor/storage/faction_ascent/alate/utility
+/obj/item/clothing/suit/storage/marine/faction_ascent/alate/utility
 	name = "Ascent utility suit"
 	desc = "An light-armored combat suit, used by Alate workers."
 	icon = 'faction_ascent/icons/clothing/obj_suit.dmi'
@@ -100,6 +100,8 @@
 	armor_rad = CLOTHING_ARMOR_GIGAHIGH
 
 	armor_internaldamage = CLOTHING_ARMOR_MEDIUMLOW
+
+	flags_atom = NO_SNOW_TYPE|NO_NAME_OVERRIDE
 
 /obj/item/clothing/head/helmet/faction_ascent/alate/utility
 	name = "Ascent armored helmet"
@@ -146,7 +148,7 @@
 	armor_internaldamage = CLOTHING_ARMOR_MEDIUM
 
 //  Combat Exosuit
-/obj/item/clothing/suit/armor/storage/faction_ascent/alate/exosuit
+/obj/item/clothing/suit/storage/marine/faction_ascent/alate/exosuit
 	name = "Ascent combat armor"
 	desc = "An heavy armored battle suit, used by alate soldiers."
 	icon = 'faction_ascent/icons/clothing/obj_suit.dmi'
@@ -167,6 +169,8 @@
 	armor_rad = CLOTHING_ARMOR_GIGAHIGH
 
 	armor_internaldamage = CLOTHING_ARMOR_GIGAHIGH
+
+	flags_atom = NO_SNOW_TYPE|NO_NAME_OVERRIDE
 
 /obj/item/clothing/head/helmet/faction_ascent/alate/exosuit
 	name = "Ascent exosuit helmet"
@@ -267,7 +271,7 @@
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/faction_ascent/alate/exosuit, WEAR_HEAD)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/jackboots/faction_ascent/alate/exosuit, WEAR_FEET)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/gloves/combat/faction_ascent/alate/exosuit, WEAR_HANDS)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/armor/storage/faction_ascent/alate/exosuit, WEAR_JACKET)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/storage/marine/faction_ascent/alate/exosuit, WEAR_JACKET)
 
 /datum/equipment_preset/faction_ascent/alate/gunner
 	name = "Bay12 | Alate | Gunner"
@@ -301,7 +305,7 @@
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/faction_ascent/alate/exosuit, WEAR_HEAD)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/jackboots/faction_ascent/alate/exosuit, WEAR_FEET)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/gloves/combat/faction_ascent/alate/exosuit, WEAR_HANDS)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/armor/storage/faction_ascent/alate/exosuit, WEAR_JACKET)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/storage/marine/faction_ascent/alate/exosuit, WEAR_JACKET)
 
 /datum/equipment_preset/faction_ascent/alate/artillery
 	name = "Bay12 | Alate | Artillery"
@@ -335,7 +339,7 @@
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/faction_ascent/alate/exosuit, WEAR_HEAD)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/jackboots/faction_ascent/alate/exosuit, WEAR_FEET)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/gloves/combat/faction_ascent/alate/exosuit, WEAR_HANDS)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/armor/storage/faction_ascent/alate/exosuit, WEAR_JACKET)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/storage/marine/faction_ascent/alate/exosuit, WEAR_JACKET)
 
 /datum/equipment_preset/faction_ascent/alate/engineer
 	name = "Bay12 | Alate | Engineer"
@@ -367,4 +371,4 @@
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/rank/faction_ascent/alate/utility(new_human), WEAR_BODY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/faction_ascent/alate/utility, WEAR_HEAD)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/jackboots/faction_ascent/alate/utility, WEAR_FEET)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/armor/storage/faction_ascent/alate/utility, WEAR_JACKET)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/storage/marine/faction_ascent/alate/utility, WEAR_JACKET)
