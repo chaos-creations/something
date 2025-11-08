@@ -859,6 +859,8 @@ GLOBAL_LIST_INIT(allowed_helmet_items, list(
 	item_state = "io"
 	armor_melee = CLOTHING_ARMOR_MEDIUMHIGH
 	armor_bio = CLOTHING_ARMOR_MEDIUMHIGH
+	armor_bullet = CLOTHING_ARMOR_MEDIUMHIGH
+	armor_internaldamage = CLOTHING_ARMOR_MEDIUMHIGH
 	flags_atom = NO_NAME_OVERRIDE
 	max_inserted_visors = 2
 
@@ -1247,6 +1249,20 @@ GLOBAL_LIST_INIT(allowed_helmet_items, list(
 	clothing_traits = null
 	flags_marine_helmet = HELMET_DAMAGE_OVERLAY
 	specialty = "6B68 helmet"
+
+/obj/item/clothing/head/helmet/marine/veteran/fil
+	name = "\improper Burgonet-Ri"
+	desc = "Modeled after the burgonet pattern helmet, the new standard French armed forces helmet provides improved shrapnel protection with a splinter-proof aventail. An imported heads up display unit is integrated for battlefield awareness, and a low-profile high gain antenna complex is mounted along the top of the head. Shock impact protection is provided by gel padding which also serve to maintain comfort."
+	icon_state = "fil"
+	flags_inventory = NO_FLAGS
+	flags_inv_hide = NO_FLAGS
+	flags_marine_helmet = NO_FLAGS
+
+/obj/item/clothing/head/helmet/marine/veteran/fil/fire
+	name = "\improper Burgonet-Ri Incinerator Variant"
+	icon_state = "fil_fire"
+	min_cold_protection_temperature = ICE_PLANET_MIN_COLD_PROT
+	max_heat_protection_temperature = FIRESUIT_MAX_HEAT_PROT
 
 //==========================//UPP\\=================================\\
 //=======================================================================\\
