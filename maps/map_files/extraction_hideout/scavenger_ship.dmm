@@ -3599,8 +3599,8 @@
 	layer = 2.8
 	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/obj/structure/machinery/ammunition_fabricator{
-	pixel_x = 15;
+/obj/structure/machinery/fabricator/munitions{
+	pixel_x = 16;
 	pixel_y = 7
 	},
 /turf/open/floor/corsat/marked,
@@ -4321,8 +4321,8 @@
 	pixel_x = 0;
 	pixel_y = 20
 	},
-/obj/structure/machinery/ammunition_fabricator{
-	pixel_x = 15;
+/obj/structure/machinery/fabricator/munitions{
+	pixel_x = 16;
 	pixel_y = 7
 	},
 /turf/open/floor/corsat/marked,
@@ -4404,8 +4404,8 @@
 /obj/structure/prop/hybrisa/misc/graffiti/graffiti4{
 	pixel_y = -2
 	},
-/obj/structure/machinery/ammunition_fabricator{
-	pixel_x = 15;
+/obj/structure/machinery/fabricator/munitions{
+	pixel_x = 16;
 	pixel_y = 7
 	},
 /turf/open/floor/corsat/marked,

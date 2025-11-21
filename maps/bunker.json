@@ -1,0 +1,9 @@
+{
+    "map_name": "Unknown Bunker",
+    "map_path": "map_files/extraction_hideout",
+    "map_file": "bunker.dmm",
+    "webmap_url": "GoldenArrow",
+    "traits": [{"Marine Main Ship": true}],
+    "nightmare_path": "maps/Nightmare/maps/extraction_hideout/",
+    "platoon": "/datum/squad/marine/extraction"
+}

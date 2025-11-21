@@ -39,6 +39,9 @@ endmap
 map scavenger
 endmap
 
+map bunker
+endmap
+
 map uscss_obsidian_falk
 endmap
 

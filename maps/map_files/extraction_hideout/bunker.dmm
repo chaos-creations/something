@@ -1,14 +1,602 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aa" = (
+/turf/closed/wall/hybrisa/rock,
+/area/galleyburned)
+"ab" = (
+/turf/closed/wall/hybrisa/colony/ribbed,
+/area/galleyburned)
+"ac" = (
+/turf/closed/noise,
+/area/galleyburned)
+"ad" = (
+/obj/structure/blocker/forcefield/vehicles,
+/obj/structure/machinery/door/poddoor/hybrisa/secure_red_door{
+	name = "\improper Lockdown";
+	needs_power = 0;
+	id = "hybrisaresearchlockdown"
+	},
+/turf/open/floor/corsat/officetiles,
+/area/galleyburned)
+"ae" = (
+/obj/structure/sign/safety/opens_up,
+/turf/closed/wall/hybrisa/colony/ribbed,
+/area/galleyburned)
+"af" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N"
+	},
+/turf/open/floor/prison/cell_stripe,
+/area/galleyburned)
 "ag" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 4;
 	layer = 3.25
 	},
 /turf/open/floor/prison/floor_plate/southwest,
-/area/space)
+/area/galleyburned)
+"ah" = (
+/obj/structure/prop/hybrisa/fakeplatforms/platform4/deco{
+	dir = 8
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "N"
+	},
+/turf/open/floor/prison/cell_stripe,
+/area/galleyburned)
+"ai" = (
+/obj/structure/prop/structure_lattice{
+	dir = 4
+	},
+/obj/structure/prop/structure_lattice{
+	dir = 4;
+	layer = 3.1;
+	level = 3;
+	pixel_y = 10
+	},
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 16
+	},
+/obj/structure/prop/invuln/lattice_prop{
+	dir = 1;
+	icon_state = "lattice-simple";
+	pixel_x = 16;
+	pixel_y = -15
+	},
+/turf/open/floor/plating/plating_catwalk/prison,
+/area/galleyburned)
+"aj" = (
+/obj/structure/prop/structure_lattice{
+	dir = 4
+	},
+/obj/structure/prop/structure_lattice{
+	dir = 4;
+	layer = 3.1;
+	level = 3;
+	pixel_y = 10
+	},
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 16
+	},
+/turf/open/floor/plating/plating_catwalk/prison,
+/area/galleyburned)
+"ak" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 16
+	},
+/obj/structure/platform/metal/hybrisa/metalplatform6/west,
+/obj/structure/cargo_container/hybrisa/containersextended/greywyleft{
+	layer = 4;
+	pixel_x = 4
+	},
+/turf/open/floor/strata/orange_edge/west,
+/area/galleyburned)
+"al" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 16
+	},
+/obj/structure/cargo_container/hybrisa/containersextended/greywyright{
+	layer = 4;
+	pixel_x = 4
+	},
+/obj/structure/machinery/light/spot/blue,
+/turf/open/floor/strata/multi_tiles/west,
+/area/galleyburned)
+"am" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 16
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/galleyburned)
+"an" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 16
+	},
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 16
+	},
+/turf/open/floor/strata/floor3,
+/area/galleyburned)
+"ao" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 16
+	},
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 16
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/galleyburned)
+"ap" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 16
+	},
+/turf/open/floor/strata/floor3,
+/area/galleyburned)
+"aq" = (
+/obj/structure/platform/metal/hybrisa/metalplatform6/east,
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 16
+	},
+/turf/open/floor/strata/orange_edge/east,
+/area/galleyburned)
+"ar" = (
+/obj/structure/prop/structure_lattice{
+	dir = 4
+	},
+/obj/structure/prop/structure_lattice{
+	dir = 4;
+	layer = 3.1;
+	level = 3;
+	pixel_y = 10
+	},
+/obj/structure/prop/invuln/lattice_prop{
+	dir = 1;
+	icon_state = "lattice-simple";
+	pixel_x = 16;
+	pixel_y = -15
+	},
+/obj/structure/machinery/light/spot/blue{
+	dir = 8;
+	pixel_x = -8
+	},
+/turf/open/floor/plating/plating_catwalk/prison,
+/area/galleyburned)
+"as" = (
+/obj/structure/prop/structure_lattice{
+	dir = 4
+	},
+/obj/structure/prop/structure_lattice{
+	dir = 4;
+	layer = 3.1;
+	level = 3;
+	pixel_y = 10
+	},
+/turf/open/floor/plating/plating_catwalk/prison,
+/area/galleyburned)
+"at" = (
+/obj/structure/platform/metal/hybrisa/metalplatform6/west,
+/obj/item/device/flashlight/lamp/tripod/grey{
+	on = 0
+	},
+/obj/structure/pipes/vents/pump_hybrisa,
+/turf/open/floor/strata/orange_edge/west,
+/area/galleyburned)
+"au" = (
+/turf/open/floor/strata/multi_tiles/west,
+/area/galleyburned)
+"av" = (
+/turf/open/floor/strata/floor3,
+/area/galleyburned)
+"aw" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/strata/multi_tiles/west,
+/area/galleyburned)
+"ax" = (
+/obj/structure/platform/metal/hybrisa/metalplatform6/east,
+/obj/item/device/flashlight/lamp/tripod/grey{
+	on = 0
+	},
+/turf/open/floor/strata/orange_edge/east,
+/area/galleyburned)
+"ay" = (
+/obj/structure/prop/structure_lattice{
+	dir = 4
+	},
+/obj/structure/prop/structure_lattice{
+	dir = 4;
+	layer = 3.1;
+	level = 3;
+	pixel_y = 10
+	},
+/obj/structure/machinery/light/spot/blue{
+	dir = 4;
+	pixel_x = 8
+	},
+/turf/open/floor/plating/plating_catwalk/prison,
+/area/galleyburned)
 "az" = (
 /turf/open/space/basic,
 /area/space)
+"aA" = (
+/obj/structure/prop/invuln/lattice_prop{
+	dir = 1;
+	icon_state = "lattice-simple";
+	pixel_x = 16;
+	pixel_y = -15
+	},
+/obj/structure/prop/hybrisa/fakeplatforms/platform4,
+/turf/open/floor/strata/orange_cover,
+/area/galleyburned)
+"aB" = (
+/obj/structure/prop/hybrisa/fakeplatforms/platform4,
+/turf/open/floor/strata/orange_cover,
+/area/galleyburned)
+"aC" = (
+/obj/structure/prop/hybrisa/fakeplatforms/platform4/deco{
+	dir = 1
+	},
+/turf/open/floor/strata/orange_edge/west,
+/area/galleyburned)
+"aD" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/strata/floor3,
+/area/galleyburned)
+"aE" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/largecrate/random/barrel/black{
+	pixel_x = -6;
+	pixel_y = 5
+	},
+/turf/open/floor/strata/floor3,
+/area/galleyburned)
+"aF" = (
+/obj/structure/largecrate/random/barrel/purewhite,
+/turf/open/floor/strata/floor3,
+/area/galleyburned)
+"aG" = (
+/obj/structure/prop/hybrisa/fakeplatforms/platform4/deco,
+/turf/open/floor/strata/orange_edge/southeast,
+/area/galleyburned)
+"aH" = (
+/obj/structure/prop/hybrisa/fakeplatforms/platform4,
+/turf/open/floor/strata/orange_edge,
+/area/galleyburned)
+"aI" = (
+/obj/structure/prop/invuln/lattice_prop{
+	dir = 1;
+	icon_state = "lattice-simple";
+	pixel_x = 16;
+	pixel_y = -15
+	},
+/turf/open/floor/strata/orange_edge/west,
+/area/galleyburned)
+"aJ" = (
+/obj/structure/machinery/landinglight/ds2/spoke,
+/turf/open/floor/strata/orange_edge/northeast,
+/area/galleyburned)
+"aK" = (
+/obj/item/tool/warning_cone{
+	pixel_x = -13;
+	pixel_y = 11
+	},
+/turf/open/floor/strata/orange_edge/north,
+/area/galleyburned)
+"aL" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/strata/orange_edge/north,
+/area/galleyburned)
+"aM" = (
+/turf/open/floor/strata/orange_edge/north,
+/area/galleyburned)
+"aN" = (
+/obj/structure/largecrate/random/barrel{
+	layer = 2.9;
+	pixel_x = 6;
+	pixel_y = -16
+	},
+/obj/item/tool/warning_cone{
+	pixel_x = 5;
+	pixel_y = 13
+	},
+/turf/open/floor/strata/orange_edge/north,
+/area/galleyburned)
+"aO" = (
+/obj/structure/cargo_container/hybrisa/containersextended/blackwyleft,
+/turf/open/floor/strata/orange_edge/north,
+/area/galleyburned)
+"aP" = (
+/obj/structure/cargo_container/hybrisa/containersextended/blackwyright,
+/turf/open/floor/strata/orange_edge/north,
+/area/galleyburned)
+"aQ" = (
+/obj/structure/largecrate/empty,
+/turf/open/floor/strata/orange_edge/north,
+/area/galleyburned)
+"aR" = (
+/obj/structure/machinery/landinglight/ds2/spoke,
+/turf/open/floor/strata/orange_edge/northwest,
+/area/galleyburned)
+"aS" = (
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/galleyburned)
+"aT" = (
+/obj/effect/decal/strata_decals/catwalk/prison,
+/turf/open/floor/shiva/radiator_tile2,
+/area/galleyburned)
+"aU" = (
+/turf/open/floor/strata/orange_edge/east,
+/area/galleyburned)
+"aV" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/obj/structure/machinery/floodlight/landing/floor,
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/turf/open/floor/mech_bay_recharge_floor,
+/area/galleyburned)
+"aW" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/turf/open/floor/plating,
+/area/galleyburned)
+"aX" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/turf/open/floor/plating,
+/area/galleyburned)
+"aY" = (
+/obj/structure/largecrate/random/case/small,
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/turf/open/floor/plating,
+/area/galleyburned)
+"aZ" = (
+/obj/structure/largecrate/empty/case/double,
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/turf/open/floor/plating,
+/area/galleyburned)
+"ba" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E"
+	},
+/obj/structure/machinery/floodlight/landing/floor,
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_x = -1
+	},
+/turf/open/floor/mech_bay_recharge_floor,
+/area/galleyburned)
+"bb" = (
+/turf/open/floor/strata/orange_edge/west,
+/area/galleyburned)
+"bc" = (
+/obj/effect/decal/cleanable/liquid_fuel,
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/galleyburned)
+"bd" = (
+/obj/structure/prop/invuln/lattice_prop{
+	dir = 1;
+	icon_state = "lattice-simple";
+	pixel_x = 16;
+	pixel_y = -15
+	},
+/obj/structure/bed/chair/comfy/black{
+	dir = 4
+	},
+/turf/open/floor/strata/orange_edge/west,
+/area/galleyburned)
+"be" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/turf/open/floor/plating,
+/area/galleyburned)
+"bf" = (
+/turf/closed/shuttle/ert{
+	icon_state = "leftengine_1";
+	opacity = 0
+	},
+/area/galleyburned)
+"bg" = (
+/turf/closed/shuttle/ert{
+	icon_state = "wy1"
+	},
+/area/galleyburned)
+"bh" = (
+/obj/structure/machinery/door/poddoor/hybrisa/white{
+	name = "\improper Lockdown"
+	},
+/turf/open/floor/almayer/test_floor4,
+/area/galleyburned)
+"bi" = (
+/turf/closed/shuttle/ert{
+	icon_state = "wy2"
+	},
+/area/galleyburned)
+"bj" = (
+/turf/closed/shuttle/ert{
+	icon_state = "wy3"
+	},
+/area/galleyburned)
+"bk" = (
+/turf/closed/shuttle/ert{
+	icon_state = "rightengine_1";
+	opacity = 0
+	},
+/area/galleyburned)
+"bl" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E"
+	},
+/turf/open/floor/plating,
+/area/galleyburned)
+"bm" = (
+/obj/item/stool{
+	pixel_x = -4;
+	pixel_y = 23
+	},
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/galleyburned)
+"bn" = (
+/turf/closed/shuttle/ert{
+	icon_state = "leftengine_2";
+	opacity = 0
+	},
+/area/galleyburned)
+"bo" = (
+/turf/closed/shuttle/ert{
+	icon_state = "wy4"
+	},
+/area/galleyburned)
+"bp" = (
+/obj/structure/personal_stash,
+/turf/open/shuttle/dropship/can_surgery/medium_grey_single_wide_up_to_down,
+/area/galleyburned)
+"bq" = (
+/obj/structure/prop/almayer/cannon_cable_connector{
+	pixel_y = 0;
+	name = "crew compartment attach point"
+	},
+/turf/open/shuttle/dropship/can_surgery/light_grey_single_wide_up_to_down,
+/area/galleyburned)
+"br" = (
+/turf/closed/shuttle/ert{
+	icon_state = "wy5"
+	},
+/area/galleyburned)
+"bs" = (
+/turf/closed/shuttle/ert{
+	icon_state = "rightengine_2";
+	opacity = 0
+	},
+/area/galleyburned)
+"bt" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "NE-out"
+	},
+/turf/open/floor/strata/orange_edge/west,
+/area/galleyburned)
+"bu" = (
+/obj/structure/surface/rack,
+/obj/effect/decal/warning_stripes{
+	icon_state = "N"
+	},
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/galleyburned)
+"bv" = (
+/turf/closed/shuttle/ert{
+	icon_state = "leftengine_3";
+	opacity = 0
+	},
+/area/galleyburned)
+"bw" = (
+/obj/structure/machinery/light/double/blue{
+	dir = 8
+	},
+/obj/structure/barricade/handrail/medical{
+	dir = 4
+	},
+/turf/open/shuttle/dropship/can_surgery/medium_grey_single_wide_up_to_down,
+/area/galleyburned)
+"bx" = (
+/obj/effect/attach_point/computer/dropship1,
+/obj/structure/dropship_equipment/fulton_system,
+/turf/open/shuttle/dropship/can_surgery/light_grey_single_wide_up_to_down,
+/area/galleyburned)
+"by" = (
+/obj/structure/machinery/light/double/blue{
+	dir = 4
+	},
+/obj/structure/barricade/handrail/medical{
+	dir = 8
+	},
+/turf/open/shuttle/dropship/can_surgery/medium_grey_single_wide_up_to_down,
+/area/galleyburned)
+"bz" = (
+/turf/closed/shuttle/ert{
+	icon_state = "rightengine_3";
+	opacity = 0
+	},
+/area/galleyburned)
+"bA" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E"
+	},
+/turf/open/floor/strata/orange_edge/west,
+/area/galleyburned)
+"bB" = (
+/obj/structure/machinery/fuelcell_recycler,
+/obj/structure/machinery/power/terminal{
+	dir = 4
+	},
+/turf/open/floor/plating/kutjevo,
+/area/galleyburned)
+"bC" = (
+/obj/structure/dropship_equipment/fuel/fuel_enhancer,
+/obj/structure/machinery/power/terminal{
+	dir = 8
+	},
+/turf/open/floor/plating/kutjevo,
+/area/galleyburned)
+"bD" = (
+/turf/closed/shuttle/ert{
+	icon_state = "wy_leftengine"
+	},
+/area/galleyburned)
+"bE" = (
+/turf/closed/shuttle/ert{
+	icon_state = "wy8"
+	},
+/area/galleyburned)
+"bF" = (
+/turf/open/shuttle/dropship/can_surgery/medium_grey_single_wide_up_to_down,
+/area/galleyburned)
+"bG" = (
+/turf/open/shuttle/dropship/can_surgery/light_grey_single_wide_up_to_down,
+/area/galleyburned)
+"bH" = (
+/turf/closed/shuttle/ert{
+	icon_state = "wy9"
+	},
+/area/galleyburned)
+"bI" = (
+/turf/closed/shuttle/ert{
+	icon_state = "wy_rightengine"
+	},
+/area/galleyburned)
+"bJ" = (
+/obj/structure/personal_stash{
+	pixel_x = -32
+	},
+/obj/structure/bed/chair/dropship/passenger{
+	dir = 1
+	},
+/turf/open/shuttle/dropship/can_surgery/medium_grey_single_wide_up_to_down,
+/area/galleyburned)
+"bK" = (
+/turf/open/shuttle/dropship/can_surgery/light_grey_bottom_left,
+/area/galleyburned)
+"bL" = (
+/turf/open/shuttle/dropship/can_surgery/light_grey_single_wide_left_to_right,
+/area/galleyburned)
 "bM" = (
 /obj/structure/largecrate/random/case,
 /obj/item/storage/briefcase/inflatable{
@@ -16,10 +604,851 @@
 	pixel_x = -3
 	},
 /turf/open/floor/prison/floor_plate/southwest,
-/area/space)
+/area/galleyburned)
+"bN" = (
+/turf/open/shuttle/dropship/can_surgery/light_grey_bottom_right,
+/area/galleyburned)
+"bO" = (
+/obj/structure/personal_stash{
+	pixel_x = 32
+	},
+/obj/structure/bed/chair/dropship/passenger{
+	dir = 1
+	},
+/turf/open/shuttle/dropship/can_surgery/medium_grey_single_wide_up_to_down,
+/area/galleyburned)
+"bP" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "SE-out"
+	},
+/obj/item/tool/warning_cone{
+	pixel_x = -13;
+	pixel_y = 11
+	},
+/turf/open/floor/strata/orange_edge/west,
+/area/galleyburned)
+"bQ" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	layer = 3.3
+	},
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/galleyburned)
+"bR" = (
+/obj/structure/prop/invuln/lattice_prop{
+	dir = 1;
+	icon_state = "lattice-simple";
+	pixel_x = 16;
+	pixel_y = -15
+	},
+/obj/structure/machinery/light/spot/blue{
+	dir = 8;
+	pixel_x = -8
+	},
+/turf/open/floor/strata/orange_edge/west,
+/area/galleyburned)
+"bS" = (
+/obj/structure/machinery/door/airlock/almayer/generic/autoname{
+	dir = 8
+	},
+/obj/structure/machinery/door/poddoor/hybrisa/white{
+	name = "\improper Lockdown";
+	dir = 4
+	},
+/turf/open/floor/almayer/test_floor4,
+/area/galleyburned)
+"bT" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/storage/firstaid/regular,
+/turf/open/shuttle/dropship/can_surgery/medium_grey_single_wide_up_to_down,
+/area/galleyburned)
+"bU" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/galleyburned)
+"bV" = (
+/obj/structure/machinery/light/spot/blue{
+	dir = 4;
+	pixel_x = 8
+	},
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/galleyburned)
+"bW" = (
+/obj/structure/roof/cargocrane_tracks/vertical/endcap2{
+	pixel_x = 16
+	},
+/turf/closed/noise,
+/area/galleyburned)
+"bX" = (
+/obj/structure/prop/invuln/lattice_prop{
+	dir = 1;
+	icon_state = "lattice-simple";
+	pixel_x = 16;
+	pixel_y = -15
+	},
+/obj/structure/largecrate/random/mini{
+	layer = 4;
+	pixel_x = 1;
+	pixel_y = 14
+	},
+/turf/open/floor/strata/orange_edge/west,
+/area/galleyburned)
+"bY" = (
+/obj/structure/machinery/landinglight/ds2/spoke,
+/turf/open/floor/strata/orange_edge/east,
+/area/galleyburned)
+"bZ" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/obj/structure/machinery/floodlight/landing/floor,
+/turf/open/floor/mech_bay_recharge_floor,
+/area/galleyburned)
+"ca" = (
+/turf/closed/shuttle/ert{
+	icon_state = "wy12"
+	},
+/area/galleyburned)
+"cb" = (
+/obj/structure/bed/chair/dropship/passenger{
+	dir = 4
+	},
+/turf/open/shuttle/dropship/can_surgery/medium_grey_single_wide_up_to_down,
+/area/galleyburned)
+"cc" = (
+/obj/structure/machinery/cm_vending/gear/extraction,
+/turf/open/shuttle/dropship/can_surgery/medium_grey_single_wide_up_to_down,
+/area/galleyburned)
+"cd" = (
+/obj/structure/bed/chair/dropship/passenger{
+	dir = 8
+	},
+/turf/open/shuttle/dropship/can_surgery/medium_grey_single_wide_up_to_down,
+/area/galleyburned)
+"ce" = (
+/turf/closed/shuttle/ert{
+	icon_state = "wy13"
+	},
+/area/galleyburned)
+"cf" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E"
+	},
+/obj/structure/machinery/floodlight/landing/floor,
+/turf/open/floor/mech_bay_recharge_floor,
+/area/galleyburned)
+"cg" = (
+/obj/structure/machinery/landinglight/ds2/spoke,
+/turf/open/floor/strata/orange_edge/west,
+/area/galleyburned)
+"ch" = (
+/obj/structure/roof/cargocrane_tracks/vertical{
+	pixel_x = 16
+	},
+/obj/structure/machinery/door/poddoor/almayer/locked{
+	name = "\improper Other Section";
+	desc = "You never know where they lead.";
+	dir = 2
+	},
+/turf/open/floor/corsat/marked,
+/area/galleyburned)
+"ci" = (
+/obj/structure/machinery/door/poddoor/almayer/open{
+	name = "\improper Other Section";
+	desc = "You never know where they lead."
+	},
+/turf/open/floor/corsat/marked,
+/area/galleyburned)
+"cj" = (
+/obj/structure/prop/invuln/lattice_prop{
+	dir = 1;
+	icon_state = "lattice-simple";
+	pixel_x = 16;
+	pixel_y = -15
+	},
+/obj/structure/largecrate/empty/secure,
+/turf/open/floor/strata/orange_edge/west,
+/area/galleyburned)
+"ck" = (
+/obj/item/tool/warning_cone{
+	pixel_x = -18;
+	pixel_y = 6
+	},
+/obj/item/stool{
+	layer = 3.2;
+	pixel_x = -4;
+	pixel_y = 23
+	},
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/galleyburned)
+"cl" = (
+/turf/closed/shuttle/ert{
+	icon_state = "wy14"
+	},
+/area/galleyburned)
+"cm" = (
+/obj/structure/machinery/light/double/blue{
+	dir = 8
+	},
+/obj/structure/bed/chair/dropship/passenger{
+	dir = 4
+	},
+/turf/open/shuttle/dropship/can_surgery/medium_grey_single_wide_up_to_down,
+/area/galleyburned)
+"cn" = (
+/obj/structure/machinery/light/double/blue{
+	dir = 4
+	},
+/obj/structure/bed/chair/dropship/passenger{
+	dir = 8
+	},
+/turf/open/shuttle/dropship/can_surgery/medium_grey_single_wide_up_to_down,
+/area/galleyburned)
+"co" = (
+/turf/closed/shuttle/ert{
+	icon_state = "wy15"
+	},
+/area/galleyburned)
+"cp" = (
+/obj/item/tool/warning_cone{
+	pixel_x = -13;
+	pixel_y = 11
+	},
+/turf/open/floor/strata/orange_edge/west,
+/area/galleyburned)
+"cq" = (
+/obj/item/weapon/twohanded/folded_metal_chair{
+	pixel_x = -9;
+	pixel_y = 11
+	},
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/galleyburned)
+"cr" = (
+/obj/structure/roof/cargocrane_tracks/vertical{
+	pixel_x = 16
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/prison/cell_stripe{
+	dir = 2
+	},
+/area/galleyburned)
+"cs" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/item/tool/warning_cone{
+	pixel_x = -2;
+	pixel_y = 4
+	},
+/turf/open/floor/corsat,
+/area/galleyburned)
+"ct" = (
+/obj/structure/prop/invuln/lattice_prop{
+	dir = 1;
+	icon_state = "lattice-simple";
+	pixel_x = 16;
+	pixel_y = -15
+	},
+/obj/structure/largecrate/empty{
+	pixel_x = -2;
+	pixel_y = -1
+	},
+/obj/structure/largecrate/random/mini{
+	layer = 4;
+	pixel_x = -5;
+	pixel_y = 13
+	},
+/turf/open/floor/strata/orange_edge/west,
+/area/galleyburned)
+"cu" = (
+/obj/structure/largecrate/random/barrel/black{
+	layer = 3.1;
+	pixel_x = -11;
+	pixel_y = 5
+	},
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/galleyburned)
+"cv" = (
+/turf/closed/shuttle/ert{
+	icon_state = "wy16"
+	},
+/area/galleyburned)
+"cw" = (
+/turf/closed/shuttle/ert{
+	icon_state = "wy17"
+	},
+/area/galleyburned)
+"cx" = (
+/obj/structure/prop/hybrisa/Factory/Conveyor_belt{
+	layer = 2.8
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/machinery/fabricator/munitions{
+	pixel_x = 16;
+	pixel_y = 7
+	},
+/turf/open/floor/corsat/marked,
+/area/galleyburned)
+"cy" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/corsat/marked,
+/area/galleyburned)
+"cz" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "NE-out";
+	pixel_y = 1;
+	pixel_x = 1
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice3";
+	pixel_y = 20
+	},
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice1";
+	pixel_y = -12;
+	layer = 5.2;
+	pixel_x = 0
+	},
+/obj/structure/machinery/light/double{
+	dir = 2;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5
+	},
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_7";
+	pixel_y = 0
+	},
+/turf/open/floor/prison/darkbrown2/southwest,
+/area/galleyburned)
+"cA" = (
+/obj/structure/roof/cargocrane_tracks/vertical{
+	pixel_x = 16
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/effect/hybrisa/misc/fake/wire/red{
+	dir = 10
+	},
+/obj/item/trash/crushed_cup{
+	pixel_x = 2;
+	pixel_y = 10
+	},
+/turf/open/floor/corsat,
+/area/galleyburned)
+"cB" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/item/trash/kepler/flamehot{
+	pixel_x = 5;
+	pixel_y = -6
+	},
+/turf/open/floor/prison/darkbrown2,
+/area/galleyburned)
+"cC" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "NW-out";
+	pixel_y = 1
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/item/prop{
+	name = "wooden plank";
+	icon_state = "sheet-wood";
+	desc = "One can only guess that this is a bunch of wood.";
+	pixel_x = -13;
+	pixel_y = 9
+	},
+/obj/item/prop{
+	name = "small crate";
+	icon_state = "mini_crate";
+	desc = "The large supply crate's cousin, 1st removed.";
+	pixel_x = 9;
+	pixel_y = -4;
+	icon = 'icons/obj/structures/crates.dmi'
+	},
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice3";
+	pixel_y = 20
+	},
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice1";
+	pixel_y = -12;
+	layer = 5.2;
+	pixel_x = 0
+	},
+/obj/structure/machinery/light_construct{
+	dir = 2
+	},
+/turf/open/floor/prison/darkbrown2/southeast,
+/area/galleyburned)
+"cD" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/prop/hybrisa/vehicles/Meridian/Orange{
+	icon_state = "meridian_orange_damage_2";
+	health = 1750;
+	pixel_x = 2;
+	pixel_y = -4
+	},
+/turf/open/floor/corsat/marked,
+/area/galleyburned)
+"cE" = (
+/turf/open/floor/corsat/marked,
+/area/galleyburned)
+"cF" = (
+/obj/structure/prop/invuln/lattice_prop{
+	dir = 1;
+	icon_state = "lattice-simple";
+	pixel_x = 16;
+	pixel_y = -15
+	},
+/obj/structure/largecrate/empty,
+/turf/open/floor/strata/orange_edge/west,
+/area/galleyburned)
+"cG" = (
+/obj/structure/largecrate/empty/case/double{
+	pixel_x = -4;
+	pixel_y = 2
+	},
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/galleyburned)
+"cH" = (
+/obj/structure/machinery/door/airlock/almayer/generic/autoname{
+	dir = 8
+	},
+/turf/open/floor/almayer/test_floor4,
+/area/galleyburned)
+"cI" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/storage/toolbox/syndicate,
+/turf/open/shuttle/dropship/can_surgery/medium_grey_single_wide_up_to_down,
+/area/galleyburned)
+"cJ" = (
+/turf/closed/wall/hybrisa/colony/reinforced/hull,
+/area/galleyburned)
+"cK" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "NE-out";
+	pixel_y = 1;
+	pixel_x = 1
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice6";
+	pixel_y = 20
+	},
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice1";
+	pixel_y = -12;
+	layer = 5.2;
+	pixel_x = 0
+	},
+/turf/open/floor/prison/darkbrown2/southwest,
+/area/galleyburned)
+"cL" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 20
+	},
+/obj/item/trash/uscm_mre{
+	pixel_x = -13;
+	pixel_y = 1
+	},
+/turf/open/floor/corsat,
+/area/galleyburned)
+"cM" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/item/prop{
+	name = "wooden plank";
+	icon_state = "sheet-wood";
+	desc = "One can only guess that this is a bunch of wood.";
+	pixel_x = -17;
+	pixel_y = 7
+	},
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 20
+	},
+/turf/open/floor/corsat,
+/area/galleyburned)
+"cN" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "NW-out";
+	pixel_y = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice11";
+	pixel_y = 20
+	},
+/turf/open/floor/prison/darkbrowncorners2/west,
+/area/galleyburned)
+"cO" = (
+/obj/structure/roof/cargocrane_tracks/vertical{
+	pixel_x = 16
+	},
+/obj/structure/cargo_container/horizontal/blue/bottom{
+	pixel_x = 10;
+	pixel_y = 4;
+	opacity = 0
+	},
+/obj/structure/blocker/invisible_wall,
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/prison/floor_marked,
+/area/galleyburned)
+"cP" = (
+/obj/structure/blocker/invisible_wall,
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/prison/floor_marked,
+/area/galleyburned)
+"cQ" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "NE-out";
+	pixel_y = 1;
+	pixel_x = 1
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice7";
+	pixel_y = 20
+	},
+/turf/open/floor/corsat,
+/area/galleyburned)
+"cR" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 20
+	},
+/obj/item/trash/pmc_mre{
+	pixel_x = 9;
+	pixel_y = 7
+	},
+/mob/living/simple_animal/mouse/rat/brown,
+/turf/open/floor/corsat,
+/area/galleyburned)
+"cS" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 20
+	},
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_12";
+	pixel_x = 0
+	},
+/turf/open/floor/prison/darkbrown2,
+/area/galleyburned)
+"cT" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "NW-out";
+	pixel_y = 1
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice9";
+	pixel_y = 20
+	},
+/obj/item/trash/used_stasis_bag,
+/turf/open/floor/corsat,
+/area/galleyburned)
+"cU" = (
+/obj/structure/prop/invuln/lattice_prop{
+	dir = 1;
+	icon_state = "lattice-simple";
+	layer = 7;
+	pixel_x = 16;
+	pixel_y = -15
+	},
+/obj/structure/cargo_container/hybrisa/containersextended/greywyleft{
+	layer = 6;
+	pixel_x = 4
+	},
+/turf/open/floor/strata/orange_edge/west,
+/area/galleyburned)
+"cV" = (
+/obj/structure/cargo_container/hybrisa/containersextended/greywyright{
+	layer = 6;
+	pixel_x = 4
+	},
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/galleyburned)
+"cW" = (
+/turf/closed/shuttle/ert{
+	icon_state = "wy18"
+	},
+/area/galleyburned)
+"cX" = (
+/obj/structure/extinguisher_cabinet/lifeboat{
+	pixel_y = 30
+	},
+/obj/structure/personal_stash{
+	pixel_x = -32
+	},
+/obj/structure/bed/chair/dropship/passenger,
+/turf/open/shuttle/dropship/can_surgery/medium_grey_single_wide_up_to_down,
+/area/galleyburned)
+"cY" = (
+/turf/open/shuttle/dropship/can_surgery/light_grey_top_left,
+/area/galleyburned)
+"cZ" = (
+/obj/structure/bed/chair/dropship/pilot{
+	dir = 1;
+	pixel_y = 15;
+	layer = 3.1
+	},
+/turf/open/shuttle/dropship/can_surgery/light_grey_single_wide_left_to_right,
+/area/galleyburned)
+"da" = (
+/turf/open/shuttle/dropship/can_surgery/light_grey_top_right,
+/area/galleyburned)
+"db" = (
+/obj/structure/machinery/light/small/blue{
+	dir = 1
+	},
+/obj/structure/personal_stash{
+	pixel_x = 32
+	},
+/obj/structure/bed/chair/dropship/passenger,
+/turf/open/shuttle/dropship/can_surgery/medium_grey_single_wide_up_to_down,
+/area/galleyburned)
+"dc" = (
+/turf/closed/shuttle/ert{
+	icon_state = "wy19"
+	},
+/area/galleyburned)
+"dd" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E"
+	},
+/obj/item/stool{
+	pixel_x = -4;
+	pixel_y = 23
+	},
+/turf/open/floor/strata/orange_edge/west,
+/area/galleyburned)
+"de" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/machinery/light/small/blue{
+	dir = 8
+	},
+/obj/structure/ladder{
+	id = "sus";
+	height = 1
+	},
+/turf/open/floor/prison/bright_clean_marked,
+/area/galleyburned)
+"df" = (
+/obj/structure/machinery/door/airlock/almayer/marine/requisitions{
+	dir = 4;
+	no_panel = 1;
+	not_weldable = 1;
+	req_one_access = null;
+	name = "\improper Abandoned Bay"
+	},
+/turf/open/floor/corsat/marked,
+/area/galleyburned)
+"dg" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_14"
+	},
+/turf/open/floor/prison/darkbrown2/west,
+/area/galleyburned)
+"dh" = (
+/obj/structure/cargo_container/hybrisa/containersextended/redleft{
+	opacity = 0
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/prison/floor_marked,
+/area/galleyburned)
+"di" = (
+/obj/structure/cargo_container/hybrisa/containersextended/redright{
+	opacity = 0
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/prison/floor_marked,
+/area/galleyburned)
+"dj" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice3";
+	pixel_y = 20
+	},
+/obj/structure/pipes/vents/pump_hybrisa/on,
+/turf/open/floor/corsat,
+/area/galleyburned)
+"dk" = (
+/obj/structure/roof/cargocrane_tracks/vertical{
+	pixel_x = 16
+	},
+/obj/structure/cargo_container/horizontal/blue/middle{
+	pixel_x = 10;
+	pixel_y = 4;
+	opacity = 0
+	},
+/obj/structure/blocker/invisible_wall,
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/prison/floor_marked,
+/area/galleyburned)
+"dl" = (
+/obj/structure/cargo_container/hybrisa/containersextended/greenleft{
+	opacity = 0
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/prison/floor_marked,
+/area/galleyburned)
+"dm" = (
+/obj/structure/cargo_container/hybrisa/containersextended/greenright{
+	opacity = 0
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/prison/floor_marked,
+/area/galleyburned)
+"dn" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice6";
+	pixel_y = 20
+	},
+/turf/open/floor/prison/darkbrown2/east,
+/area/galleyburned)
+"do" = (
+/obj/structure/prop/invuln/joey,
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 20
+	},
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice8";
+	pixel_y = 20;
+	pixel_x = 32
+	},
+/obj/structure/machinery/light/small/red{
+	dir = 4
+	},
+/turf/open/floor/prison/darkbrownfull2,
+/area/galleyburned)
+"dp" = (
+/obj/structure/prop/invuln/lattice_prop{
+	dir = 1;
+	icon_state = "lattice-simple";
+	layer = 7;
+	pixel_x = 16;
+	pixel_y = -15
+	},
+/obj/structure/cargo_container/hybrisa/containersextended/blackwyleft,
+/turf/open/floor/strata/orange_edge/west,
+/area/galleyburned)
+"dq" = (
+/obj/structure/cargo_container/hybrisa/containersextended/blackwyright,
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/galleyburned)
+"dr" = (
+/turf/closed/shuttle/ert{
+	icon_state = "wy20"
+	},
+/area/galleyburned)
+"ds" = (
+/turf/closed/shuttle/ert{
+	icon_state = "wy22"
+	},
+/area/galleyburned)
+"dt" = (
+/obj/structure/machinery/big_computers/computerwhite/computer4,
+/turf/open/shuttle/dropship/can_surgery/medium_grey_single_wide_left_to_right,
+/area/galleyburned)
+"du" = (
+/obj/structure/machinery/big_computers/computerwhite/computer3,
+/turf/open/shuttle/dropship/can_surgery/medium_grey_single_wide_left_to_right,
+/area/galleyburned)
 "dv" = (
 /turf/open/hybrisa/street/asphalt,
-/area/space)
+/area/galleyburned)
+"dw" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/clothing/head/helmet/marine/veteran/pmc/gunner{
+	pixel_x = -5;
+	pixel_y = 7
+	},
+/obj/item/weapon/gun/rifle/nsg23/no_lock{
+	pixel_x = 0;
+	pixel_y = -2
+	},
+/obj/item/ammo_magazine/rifle/nsg23{
+	current_rounds = 17;
+	pixel_x = 7;
+	pixel_y = 11
+	},
+/obj/item/ammo_magazine/rifle/nsg23{
+	current_rounds = 17;
+	pixel_x = 7;
+	pixel_y = 7
+	},
+/obj/item/ammo_magazine/rifle/nsg23{
+	current_rounds = 17;
+	pixel_x = 7;
+	pixel_y = 4
+	},
+/turf/open/floor/almayer/plate,
+/area/galleyburned)
+"dx" = (
+/turf/closed/shuttle/ert{
+	icon_state = "wy23"
+	},
+/area/galleyburned)
+"dy" = (
+/turf/closed/shuttle/ert{
+	icon_state = "wy25"
+	},
+/area/galleyburned)
+"dz" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	layer = 3.3
+	},
+/obj/effect/decal/cleanable/liquid_fuel,
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/galleyburned)
 "dA" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S";
@@ -28,13 +1457,1787 @@
 	},
 /obj/structure/prop/hybrisa/vehicles/Small_Truck/Mining,
 /turf/open/floor/prison/floor_plate/southwest,
-/area/space)
+/area/galleyburned)
+"dB" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	layer = 3.3
+	},
+/obj/effect/spawner/random/toolbox{
+	layer = 4
+	},
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/galleyburned)
+"dC" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "SE-out";
+	pixel_x = 1
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/item/trash/tray{
+	pixel_x = -4;
+	pixel_y = 11
+	},
+/turf/open/floor/corsat,
+/area/galleyburned)
+"dD" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/item/prop{
+	name = "small chest";
+	icon_state = "mini_chest";
+	desc = "A small plastic crate wrapped with securing elastic straps.";
+	pixel_x = -17;
+	pixel_y = 11;
+	icon = 'icons/obj/structures/crates.dmi'
+	},
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice5";
+	pixel_y = 20
+	},
+/turf/open/floor/prison/darkbrown2/north,
+/area/galleyburned)
+"dE" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/item/prop{
+	name = "wooden plank";
+	icon_state = "sheet-wood";
+	desc = "One can only guess that this is a bunch of wood.";
+	pixel_x = 14;
+	pixel_y = 9
+	},
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 20
+	},
+/turf/open/floor/prison/darkbrown2/north,
+/area/galleyburned)
+"dF" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "SW-out"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice11";
+	pixel_y = 20
+	},
+/turf/open/floor/corsat,
+/area/galleyburned)
+"dG" = (
+/obj/structure/roof/cargocrane_tracks/vertical{
+	pixel_x = 16
+	},
+/obj/structure/cargo_container/horizontal/blue/top{
+	opacity = 0;
+	pixel_x = 10;
+	pixel_y = 4
+	},
+/obj/structure/blocker/invisible_wall,
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/prison/floor_marked,
+/area/galleyburned)
+"dH" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "SE-out";
+	pixel_x = 1
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/item/prop{
+	name = "wooden plank";
+	icon_state = "sheet-wood";
+	desc = "One can only guess that this is a bunch of wood.";
+	pixel_x = 13;
+	pixel_y = 9
+	},
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice3";
+	pixel_y = 20
+	},
+/turf/open/floor/prison/darkbrowncorners2/north,
+/area/galleyburned)
+"dI" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/prison/darkbrown2/north,
+/area/galleyburned)
+"dJ" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/item/prop{
+	name = "old lantern";
+	icon_state = "lantern";
+	desc = "A mining lantern.";
+	pixel_x = 15;
+	pixel_y = 13;
+	icon = 'icons/obj/items/lighting.dmi'
+	},
+/obj/item/trash/pistachios{
+	pixel_x = -16;
+	pixel_y = 8
+	},
+/turf/open/floor/corsat,
+/area/galleyburned)
+"dK" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "SW-out"
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/item/hybrisa/misc/trash_bag_full_prop{
+	layer = 5;
+	pixel_y = 20;
+	pixel_x = 2
+	},
+/turf/open/floor/corsat,
+/area/galleyburned)
+"dL" = (
+/obj/structure/prop/invuln/lattice_prop{
+	dir = 1;
+	icon_state = "lattice-simple";
+	pixel_x = 16;
+	pixel_y = -15
+	},
+/obj/structure/surface/rack,
+/obj/effect/spawner/random/toolbox{
+	layer = 4
+	},
+/turf/open/floor/strata/orange_edge/west,
+/area/galleyburned)
+"dM" = (
+/turf/open/floor/plating,
+/area/galleyburned)
+"dN" = (
+/turf/closed/shuttle/dropship2/WY/transparent{
+	icon = 'icons/turf/ert_shuttle.dmi';
+	icon_state = "wy27";
+	name = "wall"
+	},
+/area/galleyburned)
+"dO" = (
+/obj/item/clothing/head/hardhat/white{
+	pixel_x = -8;
+	pixel_y = 4
+	},
+/obj/effect/decal/cleanable/liquid_fuel,
+/obj/structure/reagent_dispensers/fueltank/spacecraft,
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/galleyburned)
+"dP" = (
+/obj/structure/prop/hybrisa/Factory/Conveyor_belt{
+	layer = 2.8
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice2";
+	pixel_x = 0;
+	pixel_y = 20
+	},
+/obj/structure/machinery/fabricator/munitions{
+	pixel_x = 16;
+	pixel_y = 7
+	},
+/turf/open/floor/corsat/marked,
+/area/galleyburned)
+"dQ" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "SE-out";
+	pixel_x = 1
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice2";
+	pixel_x = 0;
+	pixel_y = 20
+	},
+/obj/structure/machinery/light_construct{
+	dir = 1
+	},
+/turf/open/floor/prison/darkbrown2/northwest,
+/area/galleyburned)
+"dR" = (
+/obj/structure/roof/cargocrane_tracks/vertical{
+	pixel_x = 16
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/effect/hybrisa/misc/fake/wire/blue{
+	dir = 5
+	},
+/turf/open/floor/corsat,
+/area/galleyburned)
+"dS" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/effect/hybrisa/misc/fake/wire/blue{
+	dir = 8
+	},
+/turf/open/floor/corsat,
+/area/galleyburned)
+"dT" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "SW-out"
+	},
+/obj/item/prop{
+	name = "small ammocase";
+	icon_state = "mini_ammo";
+	desc = "A small metal crate. Here, Freeman ammo!";
+	pixel_x = 8;
+	pixel_y = 9;
+	icon = 'icons/obj/structures/crates.dmi'
+	},
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice2";
+	pixel_x = 0;
+	pixel_y = 20
+	},
+/obj/structure/machinery/light/double{
+	dir = 1;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5
+	},
+/turf/open/floor/prison/darkbrown2/northeast,
+/area/galleyburned)
+"dU" = (
+/obj/structure/prop/hybrisa/Factory/Conveyor_belt{
+	layer = 2.8
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/prop/hybrisa/misc/graffiti/graffiti4{
+	pixel_y = -2
+	},
+/obj/structure/machinery/fabricator/munitions{
+	pixel_x = 16;
+	pixel_y = 7
+	},
+/turf/open/floor/corsat/marked,
+/area/galleyburned)
+"dV" = (
+/obj/structure/prop/invuln/lattice_prop{
+	dir = 1;
+	icon_state = "lattice-simple";
+	pixel_x = 16;
+	pixel_y = -15
+	},
+/obj/structure/surface/rack,
+/obj/item/stack/sheet/cardboard/full_stack,
+/turf/open/floor/strata/orange_edge/west,
+/area/galleyburned)
+"dW" = (
+/obj/item/tool/warning_cone{
+	pixel_x = -13;
+	pixel_y = 11
+	},
+/obj/item/stack/sheet/cardboard{
+	layer = 1
+	},
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/galleyburned)
+"dX" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/obj/structure/machinery/floodlight/landing/floor,
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/turf/open/floor/mech_bay_recharge_floor,
+/area/galleyburned)
+"dY" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/turf/open/floor/plating,
+/area/galleyburned)
+"dZ" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/structure/prop/hybrisa/airport/refuelinghose{
+	layer = 1;
+	pixel_x = -13;
+	pixel_y = -44
+	},
+/turf/open/floor/plating,
+/area/galleyburned)
+"ea" = (
+/obj/effect/decal/cleanable/liquid_fuel,
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/turf/open/floor/plating,
+/area/galleyburned)
+"eb" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E"
+	},
+/obj/structure/machinery/floodlight/landing/floor,
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/turf/open/floor/mech_bay_recharge_floor,
+/area/galleyburned)
+"ec" = (
+/obj/structure/roof/cargocrane_tracks/vertical{
+	pixel_x = 16
+	},
+/obj/item/tool/warning_cone{
+	pixel_x = -3;
+	pixel_y = 10
+	},
+/obj/effect/hybrisa/misc/fake/wire/blue{
+	dir = 1
+	},
+/turf/open/floor/corsat,
+/area/galleyburned)
+"ed" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_2"
+	},
+/turf/open/floor/prison/cell_stripe/north,
+/area/galleyburned)
+"ee" = (
+/obj/structure/machinery/landinglight/ds2/spoke,
+/turf/open/floor/strata/orange_edge/southeast,
+/area/galleyburned)
+"ef" = (
+/turf/open/floor/strata/orange_edge,
+/area/galleyburned)
+"eg" = (
+/obj/effect/decal/cleanable/liquid_fuel,
+/turf/open/floor/strata/orange_edge,
+/area/galleyburned)
+"eh" = (
+/obj/structure/machinery/landinglight/ds2/spoke,
+/turf/open/floor/strata/orange_edge/southwest,
+/area/galleyburned)
+"ei" = (
+/obj/structure/roof/cargocrane_tracks/vertical{
+	pixel_x = 16
+	},
+/obj/structure/machinery/door/poddoor/almayer/open{
+	name = "\improper Other Section";
+	desc = "You never know where they lead."
+	},
+/turf/open/floor/corsat/marked,
+/area/galleyburned)
+"ej" = (
+/obj/structure/machinery/door/poddoor/almayer/locked{
+	name = "\improper Other Section";
+	desc = "You never know where they lead.";
+	dir = 2
+	},
+/turf/open/floor/corsat/marked,
+/area/galleyburned)
+"ek" = (
+/obj/structure/platform/metal/hybrisa/metalplatform6/north,
+/obj/structure/prop/invuln/lattice_prop{
+	dir = 1;
+	icon_state = "lattice-simple";
+	pixel_x = 16;
+	pixel_y = -15
+	},
+/turf/open/floor/strata/orange_cover,
+/area/galleyburned)
+"el" = (
+/obj/structure/platform/metal/hybrisa/metalplatform6/north,
+/turf/open/floor/strata/orange_cover,
+/area/galleyburned)
+"em" = (
+/obj/structure/prop/hybrisa/fakeplatforms/platform4/deco{
+	dir = 4
+	},
+/obj/structure/prop/hybrisa/fakeplatforms/platform4/deco{
+	dir = 4
+	},
+/turf/open/floor/strata/orange_edge/west,
+/area/galleyburned)
+"en" = (
+/obj/structure/prop/hybrisa/airport/refuelinghose2{
+	layer = 1;
+	pixel_x = -12;
+	pixel_y = -12
+	},
+/turf/open/floor/strata/floor3,
+/area/galleyburned)
+"eo" = (
+/obj/effect/decal/cleanable/liquid_fuel,
+/turf/open/floor/hybrisa/misc/wysmallleft,
+/area/galleyburned)
+"ep" = (
+/turf/open/floor/hybrisa/misc/wysmallright,
+/area/galleyburned)
+"eq" = (
+/obj/structure/prop/hybrisa/fakeplatforms/platform4/deco{
+	dir = 8
+	},
+/turf/open/floor/strata/orange_edge/east,
+/area/galleyburned)
+"er" = (
+/obj/structure/roof/cargocrane_tracks/vertical/endcap1{
+	pixel_x = 16
+	},
+/turf/closed/noise,
+/area/galleyburned)
+"es" = (
+/obj/structure/prop/structure_lattice{
+	dir = 4
+	},
+/obj/structure/prop/structure_lattice{
+	dir = 4;
+	layer = 3.1;
+	level = 3;
+	pixel_y = 10
+	},
+/obj/structure/prop/invuln/lattice_prop{
+	dir = 1;
+	icon_state = "lattice-simple";
+	pixel_x = 16;
+	pixel_y = -15
+	},
+/turf/open/floor/plating/plating_catwalk/prison,
+/area/galleyburned)
+"et" = (
+/obj/structure/platform/metal/hybrisa/metalplatform6/west,
+/obj/item/tool/warning_cone{
+	pixel_x = 5;
+	pixel_y = 19
+	},
+/turf/open/floor/strata/orange_edge/west,
+/area/galleyburned)
+"eu" = (
+/obj/item/tool/warning_cone{
+	pixel_x = -13;
+	pixel_y = 11
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/galleyburned)
+"ev" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/effect/decal/warning_stripes{
+	icon_state = "NE-out";
+	pixel_x = 1;
+	pixel_y = 2
+	},
+/turf/open/floor/strata/floor3,
+/area/galleyburned)
+"ew" = (
+/obj/effect/decal/cleanable/liquid_fuel,
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	layer = 3.33;
+	pixel_y = 2
+	},
+/turf/open/floor/strata/floor3,
+/area/galleyburned)
+"ex" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	layer = 3.33;
+	pixel_y = 2
+	},
+/turf/open/floor/strata/floor3,
+/area/galleyburned)
+"ey" = (
+/obj/effect/decal/medical_decals{
+	icon_state = "triagedecaltopright";
+	color = "#d3d3d3"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "NW-out";
+	pixel_x = -1;
+	pixel_y = 2
+	},
+/turf/open/floor/strata/floor3,
+/area/galleyburned)
+"ez" = (
+/obj/effect/decal/medical_decals{
+	dir = 1;
+	icon_state = "triagedecaldir";
+	color = "#d3d3d3"
+	},
+/turf/open/floor/strata/floor3,
+/area/galleyburned)
+"eA" = (
+/obj/effect/decal/medical_decals{
+	icon_state = "triagedecaltopleft";
+	color = "#d3d3d3"
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/galleyburned)
+"eB" = (
+/obj/structure/platform/metal/hybrisa/metalplatform6/east,
+/turf/open/floor/strata/orange_edge/east,
+/area/galleyburned)
+"eC" = (
+/obj/structure/prop/structure_lattice{
+	dir = 4
+	},
+/obj/structure/prop/structure_lattice{
+	dir = 4;
+	layer = 3.1;
+	level = 3;
+	pixel_y = 10
+	},
+/turf/open/floor/corsat/officetiles,
+/area/galleyburned)
+"eD" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 16
+	},
+/obj/structure/platform/metal/strata/north,
+/obj/item/device/flashlight/lamp/tripod/grey{
+	on = 0;
+	pixel_x = -3;
+	pixel_y = -1
+	},
+/obj/structure/platform/metal/hybrisa/metalplatform6/west,
+/obj/structure/prop/hybrisa/misc/buildinggreebliessmall/smallvent3{
+	pixel_y = 28
+	},
+/turf/open/floor/strata/orange_edge/west,
+/area/galleyburned)
+"eE" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 16
+	},
+/obj/structure/platform/metal/strata/north,
+/obj/structure/cargo_container/hybrisa/containersextended/tanwywingsleft,
+/turf/open/floor/strata/multi_tiles/west,
+/area/galleyburned)
+"eF" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 16
+	},
+/obj/structure/platform/metal/strata/north,
+/obj/structure/cargo_container/hybrisa/containersextended/tanwywingsright,
+/turf/open/floor/strata/multi_tiles/west,
+/area/galleyburned)
+"eG" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 16
+	},
+/obj/structure/platform/metal/strata/north,
+/obj/structure/surface/rack{
+	layer = 4
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/structure/prop/hybrisa/misc/machinery/screens/redalert{
+	light_color = "#FF0000";
+	light_on = 1;
+	light_power = 3;
+	light_range = 5;
+	pixel_y = 32
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/galleyburned)
+"eH" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 16
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/effect/decal/strata_decals/catwalk/prison,
+/obj/structure/showcase{
+	breakable = 1;
+	density = 0;
+	desc = null;
+	icon_state = "igniter0";
+	name = "floor panel"
+	},
+/obj/structure/platform/metal/strata/north,
+/obj/structure/reagent_dispensers/fueltank/spacecraft,
+/turf/open/floor/shiva/radiator_tile2,
+/area/galleyburned)
+"eI" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 16
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/effect/decal/strata_decals/catwalk/prison,
+/obj/structure/showcase{
+	breakable = 1;
+	density = 0;
+	desc = null;
+	icon_state = "igniter0";
+	name = "floor panel"
+	},
+/obj/structure/platform/metal/strata/north,
+/turf/open/floor/shiva/radiator_tile2,
+/area/galleyburned)
+"eJ" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 16
+	},
+/obj/effect/decal/strata_decals/catwalk/prison,
+/obj/structure/showcase{
+	breakable = 1;
+	density = 0;
+	desc = null;
+	icon_state = "igniter0";
+	name = "floor panel"
+	},
+/obj/structure/platform/metal/strata/north,
+/turf/open/floor/shiva/radiator_tile2,
+/area/galleyburned)
+"eK" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 16
+	},
+/obj/structure/platform/metal/strata/north,
+/obj/effect/decal/medical_decals{
+	icon_state = "triagedecalbottomright";
+	color = "#d3d3d3"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	pixel_x = -1;
+	pixel_y = 1
+	},
+/obj/structure/sign/safety/hazard{
+	pixel_x = 12;
+	pixel_y = 32
+	},
+/obj/structure/sign/safety/restrictedarea{
+	pixel_y = 32
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/galleyburned)
+"eL" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 16
+	},
+/obj/structure/platform/metal/strata/west,
+/obj/effect/decal/medical_decals{
+	icon_state = "docstripingdir";
+	color = "#d3d3d3"
+	},
+/turf/open/floor/prison/ramptop/north,
+/area/galleyburned)
+"eM" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 16
+	},
+/obj/structure/platform/metal/strata/east,
+/obj/effect/decal/medical_decals{
+	icon_state = "docstripingdir";
+	color = "#d3d3d3"
+	},
+/turf/open/floor/prison/ramptop/north,
+/area/galleyburned)
+"eN" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 16
+	},
+/obj/structure/platform/metal/strata/north,
+/obj/effect/decal/medical_decals{
+	icon_state = "triagedecalbottomleft";
+	color = "#d3d3d3"
+	},
+/obj/structure/sign/safety/hazard{
+	pixel_y = 32
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/galleyburned)
+"eO" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 16
+	},
+/obj/structure/platform/metal/strata/north,
+/obj/item/device/flashlight/lamp/tripod/grey{
+	on = 0
+	},
+/obj/structure/platform/metal/hybrisa/metalplatform6/east,
+/obj/structure/sign/safety/restrictedarea{
+	pixel_x = -17;
+	pixel_y = 32
+	},
+/turf/open/floor/strata/orange_edge/east,
+/area/galleyburned)
+"eP" = (
+/obj/structure/prop/structure_lattice{
+	dir = 4
+	},
+/obj/structure/prop/structure_lattice{
+	dir = 4;
+	layer = 3.1;
+	level = 3;
+	pixel_y = 10
+	},
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 16
+	},
+/turf/open/floor/corsat/officetiles,
+/area/galleyburned)
+"eQ" = (
+/turf/closed/wall/hybrisa/research/reinforced,
+/area/galleyburned)
+"eR" = (
+/obj/structure/machinery/door/airlock/multi_tile/hybrisa/black_double/autoname{
+	req_one_access = list()
+	},
+/turf/open/floor/corsat/officetiles,
+/area/galleyburned)
+"eS" = (
+/turf/open/floor/corsat/officetiles,
+/area/galleyburned)
+"eT" = (
+/obj/structure/closet/hybrisa/wy_bio,
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	layer = 3.33
+	},
+/turf/open/floor/prison/cell_stripe,
+/area/galleyburned)
+"eU" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/turf/open/floor/almayer/blackfull/west,
+/area/galleyburned)
+"eV" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/structure/machinery/power/apc/almayer/south,
+/turf/open/floor/almayer/blackfull/west,
+/area/galleyburned)
+"eW" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/structure/machinery/light/double/blue{
+	dir = 2
+	},
+/turf/open/floor/almayer/blackfull/west,
+/area/galleyburned)
+"eX" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/turf/open/floor/almayer/blackfull/west,
+/area/galleyburned)
+"eY" = (
+/obj/effect/decal/medical_decals{
+	icon_state = "triagedecaldir";
+	color = "#d3d3d3"
+	},
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/galleyburned)
+"eZ" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/turf/open/floor/almayer/blackfull/west,
+/area/galleyburned)
+"fa" = (
+/obj/structure/machinery/door/poddoor/hybrisa/secure_red_door{
+	name = "\improper Lockdown";
+	explo_proof = 1;
+	needs_power = 0;
+	unacidable = 1
+	},
+/obj/structure/blocker/invisible_wall,
+/turf/closed/wall/hybrisa/colony/ribbed,
+/area/galleyburned)
+"fb" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/strata/orange_icorner/east,
+/area/galleyburned)
+"fc" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/strata/orange_edge,
+/area/galleyburned)
+"fd" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/structure/inflatable/door,
+/turf/open/floor/strata/orange_edge,
+/area/galleyburned)
+"fe" = (
+/obj/structure/machinery/door/airlock/multi_tile/hybrisa/personal_solid/autoname{
+	dir = 1;
+	req_one_access = list()
+	},
+/turf/open/floor/corsat/officetiles,
+/area/galleyburned)
+"ff" = (
+/turf/open/floor/strata/multi_tiles,
+/area/galleyburned)
+"fg" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/obj/structure/machinery/light/double/blue{
+	dir = 4
+	},
+/turf/open/floor/almayer/blackfull/west,
+/area/galleyburned)
+"fh" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/turf/open/floor/almayer/blackfull/west,
+/area/galleyburned)
+"fi" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	layer = 3.3
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/galleyburned)
+"fj" = (
+/obj/structure/machinery/light/blue,
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	pixel_y = 1
+	},
+/obj/structure/inflatable,
+/turf/open/floor/almayer/blackfull/west,
+/area/galleyburned)
+"fk" = (
+/obj/structure/window/framed/hybrisa/colony/reinforced,
+/obj/structure/machinery/door/poddoor/hybrisa/shutters{
+	dir = 8;
+	id = "bunker_shutters"
+	},
+/turf/open/floor/plating,
+/area/galleyburned)
+"fl" = (
+/obj/structure/machinery/iv_drip{
+	pixel_y = 19;
+	layer = 3.9
+	},
+/obj/structure/bed/roller/hospital_empty/bigrollerempty3{
+	dir = 1;
+	icon_state = "bigrollerempty3_up";
+	layer = 4
+	},
+/turf/open/floor/prison/redfull,
+/area/galleyburned)
+"fm" = (
+/turf/open/floor/hybrisa/metal/metalwhitefull,
+/area/galleyburned)
+"fn" = (
+/obj/structure/machinery/iv_drip{
+	pixel_y = 19;
+	layer = 3.9
+	},
+/obj/structure/bed/roller/hospital_empty/bigrollerempty3{
+	dir = 4;
+	icon_state = "bigrollerempty3_up";
+	layer = 4
+	},
+/turf/open/floor/prison/redfull,
+/area/galleyburned)
+"fo" = (
+/turf/closed/wall/hybrisa/colony/hospital/ribbed,
+/area/galleyburned)
+"fp" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/book/manual/surgery{
+	pixel_y = 4;
+	pixel_x = -5
+	},
+/obj/item/clothing/mask/surgical,
+/turf/open/floor/hybrisa/metal/greenmetal1/southwest,
+/area/galleyburned)
+"fq" = (
+/obj/structure/machinery/optable,
+/obj/structure/machinery/light/blue,
+/turf/open/floor/hybrisa/metal/greenmetal1,
+/area/galleyburned)
+"fr" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/storage/surgical_tray,
+/obj/item/tool/surgery/WYautopsy{
+	pixel_x = -6;
+	pixel_y = 8
+	},
+/turf/open/floor/hybrisa/metal/greenmetal1/southeast,
+/area/galleyburned)
+"fs" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/strata/orange_edge/northeast,
+/area/galleyburned)
+"ft" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/machinery/light/double/blue{
+	dir = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "NE-out";
+	pixel_y = 2;
+	pixel_x = 1
+	},
+/turf/open/floor/strata/orange_edge/north,
+/area/galleyburned)
+"fu" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	layer = 3.33;
+	pixel_y = 2
+	},
+/turf/open/floor/strata/orange_edge/north,
+/area/galleyburned)
+"fv" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	layer = 3.33;
+	pixel_y = 2
+	},
+/turf/open/floor/strata/orange_edge/north,
+/area/galleyburned)
+"fw" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "NW-out";
+	layer = 2.5;
+	pixel_y = 2
+	},
+/obj/structure/inflatable/door,
+/turf/open/floor/strata/orange_edge/north,
+/area/galleyburned)
+"fx" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/corsat/officetiles,
+/area/galleyburned)
+"fy" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_x = 0;
+	pixel_y = 0
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/turf/open/floor/almayer/blackfull/west,
+/area/galleyburned)
+"fz" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_x = 0;
+	pixel_y = 0
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/turf/open/floor/almayer/blackfull/west,
+/area/galleyburned)
+"fA" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_x = 0;
+	pixel_y = 0
+	},
+/obj/structure/sign/safety/three{
+	pixel_y = 32;
+	color = "#73bee1";
+	pixel_x = 8
+	},
+/turf/open/floor/almayer/blackfull/west,
+/area/galleyburned)
+"fB" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/structure/bed/chair/comfy/black{
+	dir = 4;
+	buckling_x = -4
+	},
+/turf/open/floor/almayer/blackfull/west,
+/area/galleyburned)
+"fC" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	pixel_y = 1
+	},
+/obj/structure/inflatable,
+/turf/open/floor/almayer/blackfull/west,
+/area/galleyburned)
+"fD" = (
+/obj/structure/surface/table/reinforced{
+	layer = 1.9
+	},
+/obj/structure/bed/hybrisa/hospital/hospitaldivider{
+	pixel_y = -4;
+	dir = 1;
+	layer = 3.8
+	},
+/obj/item/storage/pill_bottle/packet/bicaridine,
+/turf/open/floor/prison/redfull,
+/area/galleyburned)
+"fE" = (
+/obj/structure/surface/table/reinforced{
+	layer = 1.9
+	},
+/obj/structure/bed/hybrisa/hospital/hospitaldivider{
+	pixel_y = -4;
+	dir = 1;
+	layer = 3.8
+	},
+/obj/structure/machinery/light/double/blue{
+	dir = 4;
+	layer = 4;
+	pixel_y = 12
+	},
+/turf/open/floor/prison/redfull,
+/area/galleyburned)
+"fF" = (
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -14
+	},
+/obj/structure/closet/secure_closet/medical2{
+	pixel_y = 20;
+	density = 0
+	},
+/obj/item/clothing/head/surgery/green,
+/obj/item/storage/box/gloves,
+/obj/item/tool/surgery/bonegel,
+/obj/structure/curtain/colorable_transparent{
+	color = "#8bafa4";
+	pixel_y = 32;
+	layer = 2.9
+	},
+/turf/open/floor/hybrisa/metal/greenmetal1/northwest,
+/area/galleyburned)
+"fG" = (
+/obj/structure/machinery/bioprinter{
+	pixel_y = 16;
+	layer = 4;
+	pixel_x = 3;
+	density = 0
+	},
+/obj/structure/curtain/colorable_transparent{
+	color = "#8bafa4";
+	layer = 3.2;
+	pixel_y = 32
+	},
+/turf/open/floor/hybrisa/metal/greenmetal1/northeast,
+/area/galleyburned)
+"fH" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/strata/orange_edge/west,
+/area/galleyburned)
+"fI" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/strata/orange_edge/east,
+/area/galleyburned)
+"fJ" = (
+/obj/structure/window/reinforced{
+	dir = 4;
+	health = 80
+	},
+/obj/structure/machinery/shower{
+	pixel_y = 16
+	},
+/obj/structure/window/reinforced{
+	dir = 8;
+	health = 80
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/plating/plating_catwalk/prison,
+/area/galleyburned)
+"fK" = (
+/obj/structure/window/reinforced{
+	dir = 4;
+	health = 80
+	},
+/obj/structure/machinery/shower{
+	pixel_y = 16
+	},
+/turf/open/floor/plating/plating_catwalk/prison,
+/area/galleyburned)
+"fL" = (
+/obj/structure/window/framed/hybrisa/colony/reinforced,
+/obj/structure/machinery/door/poddoor/hybrisa/shutters{
+	id = "bunker_shutters"
+	},
+/turf/open/floor/plating,
+/area/galleyburned)
+"fM" = (
+/obj/structure/machinery/door/airlock/hybrisa/personal/autoname{
+	dir = 1
+	},
+/turf/open/floor/corsat/officetiles,
+/area/galleyburned)
+"fN" = (
+/obj/structure/machinery/door/airlock/multi_tile/hybrisa/personal_solid/autoname{
+	dir = 4;
+	req_one_access = list()
+	},
+/turf/open/floor/corsat/officetiles,
+/area/galleyburned)
+"fO" = (
+/obj/structure/machinery/light/blue{
+	dir = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	pixel_y = 1
+	},
+/obj/structure/inflatable,
+/turf/open/floor/almayer/blackfull/west,
+/area/galleyburned)
+"fP" = (
+/obj/structure/machinery/iv_drip{
+	layer = 3.9;
+	pixel_y = 19
+	},
+/obj/structure/bed/roller/hospital_empty/bigrollerempty3{
+	dir = 1;
+	icon_state = "bigrollerempty3_up";
+	layer = 4
+	},
+/obj/structure/bed/hybrisa/hospital/hospitaldivider{
+	layer = 3.8;
+	pixel_y = 24
+	},
+/turf/open/floor/prison/redfull,
+/area/galleyburned)
+"fQ" = (
+/obj/effect/decal/medical_decals{
+	dir = 1;
+	icon_state = "triagedecaldir";
+	color = "#d3d3d3"
+	},
+/turf/open/floor/hybrisa/metal/metalwhitefull,
+/area/galleyburned)
+"fR" = (
+/obj/structure/machinery/iv_drip{
+	layer = 3.9;
+	pixel_y = 19
+	},
+/obj/structure/bed/roller/hospital_empty/bigrollerempty{
+	dir = 4
+	},
+/obj/structure/bed/hybrisa/hospital/hospitaldivider{
+	layer = 3.8;
+	pixel_y = 24
+	},
+/turf/open/floor/prison/redfull,
+/area/galleyburned)
+"fS" = (
+/obj/structure/window/framed/hybrisa/colony/reinforced,
+/turf/open/floor/plating,
+/area/galleyburned)
+"fT" = (
+/obj/structure/machinery/door/airlock/hybrisa/medical_solid/autoname{
+	dir = 1;
+	req_one_access = list()
+	},
+/turf/open/floor/corsat/officetiles,
+/area/galleyburned)
+"fU" = (
+/obj/structure/inflatable/door,
+/obj/effect/decal/hybrisa/warning/redandwhite_S,
+/turf/open/floor/hybrisa/metal/stripe_red/north,
+/area/galleyburned)
+"fV" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/inflatable/door,
+/obj/effect/decal/hybrisa/warning/redandwhite_S,
+/turf/open/floor/hybrisa/metal/stripe_red/north,
+/area/galleyburned)
+"fW" = (
+/obj/structure/surface/table/reinforced/prison{
+	color = "#8e98a0"
+	},
+/obj/item/paper_bin{
+	pixel_x = -9;
+	pixel_y = 7
+	},
+/obj/item/paper{
+	layer = 5;
+	pixel_y = 7;
+	pixel_x = 3
+	},
+/obj/effect/decal/cleanable/hybrisa/trash{
+	pixel_y = 12
+	},
+/turf/open/floor/hybrisa/tile/tilegrey,
+/area/galleyburned)
+"fX" = (
+/turf/open/floor/hybrisa/tile/tilegrey,
+/area/galleyburned)
+"fY" = (
+/obj/structure/machinery/fabricator/propellant,
+/turf/open/floor/hybrisa/tile/tilegrey,
+/area/galleyburned)
+"fZ" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/structure/largecrate/random/case/double,
+/turf/open/floor/almayer/blackfull/west,
+/area/galleyburned)
+"ga" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 2.5;
+	pixel_y = 0
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/turf/open/floor/almayer/blackfull/west,
+/area/galleyburned)
+"gb" = (
+/obj/structure/curtain/colorable_transparent{
+	color = "#8bafa4";
+	layer = 3.2
+	},
+/obj/effect/decal/medical_decals{
+	dir = 1;
+	icon_state = "docstripingdir";
+	color = "#d3d3d3"
+	},
+/turf/open/floor/hybrisa/metal/metalwhitefull,
+/area/galleyburned)
+"gc" = (
+/obj/structure/largecrate/random/barrel/white,
+/obj/effect/decal/medical_decals{
+	icon_state = "triagedecalbottomright";
+	color = "#d3d3d3"
+	},
+/turf/open/floor/hybrisa/metal/metalwhitefull,
+/area/galleyburned)
+"gd" = (
+/obj/effect/decal/medical_decals{
+	icon_state = "triagedecaldir";
+	color = "#d3d3d3"
+	},
+/turf/open/floor/hybrisa/metal/metalwhitefull,
+/area/galleyburned)
+"ge" = (
+/obj/structure/surface/table/reinforced/prison{
+	color = "#8e98a0"
+	},
+/obj/structure/machinery/computer/crew/alt{
+	dir = 8
+	},
+/obj/effect/decal/medical_decals{
+	icon_state = "triagedecalbottomleft";
+	color = "#d3d3d3"
+	},
+/turf/open/floor/hybrisa/metal/greenmetal1/east,
+/area/galleyburned)
+"gf" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/machinery/door/poddoor/hybrisa/ultra_reinforced_door{
+	id = "bunker_front_doors";
+	explo_proof = 1;
+	unacidable = 1;
+	name = "\improper Bunker Lockdown";
+	needs_power = 0
+	},
+/turf/open/floor/hybrisa/metal/red_warning_floor,
+/area/galleyburned)
+"gg" = (
+/obj/structure/surface/table/reinforced/prison{
+	color = "#8e98a0"
+	},
+/obj/structure/machinery/faxmachine/corporate/highcom{
+	pixel_y = 8
+	},
+/obj/item/tool/pen/blue{
+	pixel_x = 6;
+	pixel_y = -7
+	},
+/obj/item/tool/pen/blue{
+	pixel_x = 6;
+	pixel_y = -12
+	},
+/obj/item/reagent_container/food/drinks/coffeecup/uscm{
+	name = "TWE coffee mug";
+	desc = "A red, white and blue coffee mug depicting the flag of the TWE. Patriotic and bold, and commonly seen among veterans as a novelty."
+	},
+/obj/item/reagent_container/food/drinks/coffeecup{
+	pixel_x = -4;
+	pixel_y = -8;
+	layer = 4
+	},
+/turf/open/floor/hybrisa/tile/tilegrey,
+/area/galleyburned)
+"gh" = (
+/mob/living/simple_animal/cat/blackcat{
+	name = "Buttons"
+	},
+/turf/open/floor/hybrisa/tile/tilegrey,
+/area/galleyburned)
+"gi" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 8;
+	layer = 3.25
+	},
+/turf/open/floor/hybrisa/tile/tilegrey,
+/area/galleyburned)
+"gj" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E"
+	},
+/turf/open/floor/almayer/blackfull/west,
+/area/galleyburned)
+"gk" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	layer = 3.3
+	},
+/obj/structure/inflatable/door,
+/turf/open/floor/strata/multi_tiles/west,
+/area/galleyburned)
+"gl" = (
+/obj/structure/machinery/door/airlock/multi_tile/hybrisa/medical/autoname{
+	dir = 1
+	},
+/obj/structure/machinery/door/poddoor/hybrisa/shutters{
+	dir = 8;
+	id = "bunker_shutters"
+	},
+/turf/open/floor/corsat/officetiles,
+/area/galleyburned)
+"gm" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	pixel_y = 1
+	},
+/turf/open/floor/hybrisa/metal/greenmetal1,
+/area/galleyburned)
+"gn" = (
+/turf/open/floor/hybrisa/metal/greenmetal1,
+/area/galleyburned)
+"go" = (
+/obj/structure/machinery/light/small/blue{
+	pixel_x = -16
+	},
+/turf/open/floor/hybrisa/metal/greenmetal1,
+/area/galleyburned)
+"gp" = (
+/obj/structure/machinery/light/blue{
+	dir = 4;
+	pixel_y = 17
+	},
+/obj/structure/machinery/fabricator/medicinal,
+/turf/open/floor/hybrisa/metal/greenmetal1/east,
+/area/galleyburned)
+"gq" = (
+/obj/structure/platform_decoration/stone/hybrisa/rockdark,
+/turf/open/auto_turf/hybrisa_auto_turf/layer3,
+/area/galleyburned)
+"gr" = (
+/obj/structure/prop/hybrisa/cavedecor/stalagmite0{
+	pixel_y = 8
+	},
+/obj/structure/platform/stone/hybrisa/rockdark,
+/turf/open/auto_turf/hybrisa_auto_turf/layer2,
+/area/galleyburned)
+"gs" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/effect/decal/hybrisa/warning/redandwhite_S,
+/turf/open/floor/plating,
+/area/galleyburned)
+"gt" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/effect/decal/hybrisa/warning/redandwhite_S,
+/turf/open/floor/plating/platingdmg1,
+/area/galleyburned)
+"gu" = (
+/obj/structure/surface/table/reinforced/prison{
+	color = "#8e98a0"
+	},
+/obj/structure/prop/hybrisa/misc/machinery/screens/bluemultimonitorsmall_on{
+	light_color = "#00f4ff";
+	light_on = 1;
+	light_power = 3;
+	light_range = 5;
+	pixel_y = 32;
+	pixel_x = 3
+	},
+/obj/structure/machinery/big_computers/messaging_server/black,
+/obj/item/storage/backpack/marine/satchel/rto/small{
+	pixel_x = -8;
+	pixel_y = 20
+	},
+/turf/open/floor/hybrisa/tile/tilegrey,
+/area/galleyburned)
+"gv" = (
+/obj/structure/prop/hybrisa/misc/machinery/screens/bluemultimonitormedium_on{
+	icon_state = "bluemultimonitorbig_on";
+	light_color = "#00f4ff";
+	light_on = 1;
+	light_power = 3;
+	light_range = 5;
+	pixel_x = 1;
+	pixel_y = 32
+	},
+/obj/structure/machinery/big_computers/computerblack/computer5{
+	explo_proof = 1
+	},
+/obj/structure/machinery/door_control{
+	id = "bunker_front_doors";
+	name = "Bunker Checkpoint Lockdown - Main doors";
+	explo_proof = 1;
+	pixel_y = -4
+	},
+/obj/structure/machinery/door_control{
+	id = "bunker_elevator";
+	name = "Bunker Checkpoint Lockdown - Elevator";
+	explo_proof = 1;
+	pixel_y = -4;
+	pixel_x = 9
+	},
+/obj/structure/machinery/door_control{
+	id = "bunker_shutters";
+	name = "Bunker Checkpoint Lockdown - Shutters";
+	explo_proof = 1;
+	pixel_y = -4;
+	pixel_x = -9
+	},
+/turf/open/floor/hybrisa/tile/tilegrey,
+/area/galleyburned)
+"gw" = (
+/obj/structure/prop/hybrisa/misc/machinery/screens/bluemultimonitorsmall_on{
+	light_color = "#00f4ff";
+	light_on = 1;
+	light_power = 3;
+	light_range = 5;
+	pixel_y = 32
+	},
+/obj/structure/machinery/big_computers/computerblack/computer4,
+/obj/structure/machinery/door_control{
+	id = "bunker_garage_doors";
+	name = "Bunker Checkpoint Lockdown - North Entrance";
+	explo_proof = 1;
+	pixel_y = -4;
+	pixel_x = 9
+	},
+/turf/open/floor/hybrisa/tile/tilegrey,
+/area/galleyburned)
+"gx" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E"
+	},
+/obj/structure/largecrate/random/barrel/white,
+/turf/open/floor/almayer/blackfull/west,
+/area/galleyburned)
+"gy" = (
+/obj/structure/machinery/light/double/blue{
+	dir = 1
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/galleyburned)
+"gz" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 2
+	},
+/obj/structure/inflatable/door,
+/turf/open/floor/strata/multi_tiles/west,
+/area/galleyburned)
+"gA" = (
+/obj/structure/machinery/door/poddoor/hybrisa/shutters{
+	dir = 8;
+	id = "bunker_shutters"
+	},
+/turf/open/floor/corsat/officetiles,
+/area/galleyburned)
+"gB" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/machinery/cm_vending/sorted/supplies/lifeboat{
+	pixel_y = 32;
+	name = "Supply Wall Cabinet"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	pixel_y = 1
+	},
+/turf/open/floor/hybrisa/metal/greenmetal1/north,
+/area/galleyburned)
+"gC" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/bed/hybrisa/hospital/hospitaldivider{
+	layer = 3.8;
+	pixel_y = 24
+	},
+/obj/structure/machinery/iv_drip{
+	pixel_y = 14;
+	layer = 3.9;
+	pixel_x = 4
+	},
+/turf/open/floor/hybrisa/metal/greenmetal1/north,
+/area/galleyburned)
+"gD" = (
+/obj/structure/bed/hybrisa/hospital/hospitaldivider{
+	layer = 3.8;
+	pixel_y = 24
+	},
+/obj/structure/bed/roller/hospital_empty/bigrollerempty{
+	dir = 4
+	},
+/turf/open/floor/hybrisa/metal/greenmetal1/north,
+/area/galleyburned)
+"gE" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/machinery/medical_pod/bodyscanner,
+/obj/structure/sign/poster/safety{
+	pixel_y = 32
+	},
+/turf/open/floor/hybrisa/metal/greenmetal1/north,
+/area/galleyburned)
+"gF" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/effect/decal/warning_stripes{
+	icon_state = "NE-out";
+	pixel_y = 2;
+	pixel_x = 1
+	},
+/obj/structure/machinery/body_scanconsole,
+/obj/structure/machinery/cm_vending/sorted/medical/wall_med/limited{
+	pixel_y = 30
+	},
+/turf/open/floor/hybrisa/metal/greenmetal1/north,
+/area/galleyburned)
+"gG" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "NW-out";
+	pixel_x = -1;
+	pixel_y = 2
+	},
+/obj/structure/machinery/cm_vending/sorted/medical/no_access{
+	pixel_y = 16;
+	density = 0
+	},
+/turf/open/floor/hybrisa/metal/greenmetal1/northeast,
+/area/galleyburned)
+"gH" = (
+/turf/open/auto_turf/hybrisa_auto_turf/layer2,
+/area/galleyburned)
+"gI" = (
+/turf/open/auto_turf/hybrisa_auto_turf/layer0,
+/area/galleyburned)
+"gJ" = (
+/obj/structure/prop/hybrisa/cavedecor/stalagmite2{
+	pixel_x = 11;
+	pixel_y = 3
+	},
+/turf/open/auto_turf/hybrisa_auto_turf/layer2,
+/area/galleyburned)
+"gK" = (
+/obj/structure/prop/hybrisa/cavedecor/stalagmite1{
+	pixel_x = -25;
+	pixel_y = -3
+	},
+/turf/open/auto_turf/hybrisa_auto_turf/layer2,
+/area/galleyburned)
+"gL" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/blocker/invisible_wall,
+/turf/open/floor/plating/platingdmg3/west,
+/area/galleyburned)
+"gM" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/effect/decal/hybrisa/lattice/full,
+/obj/effect/step_trigger/teleporter/yautja_ship,
+/turf/open/auto_turf/hybrisa_auto_turf/layer0,
+/area/galleyburned)
+"gN" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/effect/step_trigger/teleporter/yautja_ship,
+/turf/open/floor/plating/platingdmg3/west,
+/area/galleyburned)
+"gO" = (
+/turf/closed/wall/wood,
+/area/galleyburned)
+"gP" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/structure/largecrate/random/barrel/red,
+/turf/open/floor/almayer/blackfull/west,
+/area/galleyburned)
+"gQ" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 2.5;
+	pixel_y = 0
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_x = 0;
+	pixel_y = 0
+	},
+/turf/open/floor/almayer/blackfull/west,
+/area/galleyburned)
+"gR" = (
+/obj/structure/prop/invuln/minecart_tracks{
+	dir = 8;
+	layer = 2;
+	explo_proof = 0
+	},
+/turf/open/auto_turf/hybrisa_auto_turf/layer0,
+/area/galleyburned)
+"gS" = (
+/obj/structure/prop/invuln/minecart_tracks{
+	dir = 8;
+	layer = 2;
+	explo_proof = 0
+	},
+/turf/open/auto_turf/hybrisa_auto_turf/layer2,
+/area/galleyburned)
+"gT" = (
+/obj/structure/prop/invuln/minecart_tracks{
+	dir = 10;
+	layer = 2;
+	explo_proof = 0
+	},
+/turf/open/auto_turf/hybrisa_auto_turf/layer0,
+/area/galleyburned)
+"gU" = (
+/obj/structure/blocker/invisible_wall,
+/turf/open/auto_turf/hybrisa_auto_turf/layer0,
+/area/galleyburned)
+"gV" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/auto_turf/hybrisa_auto_turf/layer0,
+/area/galleyburned)
+"gW" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/structure/machinery/light/double/blue{
+	dir = 8
+	},
+/turf/open/floor/almayer/blackfull/west,
+/area/galleyburned)
+"gX" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/structure/bed/chair/comfy/black{
+	dir = 1
+	},
+/turf/open/floor/almayer/blackfull/west,
+/area/galleyburned)
+"gY" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "NW-out";
+	layer = 2.5;
+	pixel_y = 1;
+	pixel_x = 0
+	},
+/turf/open/floor/almayer/blackfull/west,
+/area/galleyburned)
+"gZ" = (
+/turf/open/floor/prison/floor_plate/southwest,
+/area/galleyburned)
+"ha" = (
+/obj/structure/prop/invuln/minecart_tracks{
+	dir = 1;
+	layer = 2;
+	explo_proof = 0
+	},
+/turf/open/auto_turf/hybrisa_auto_turf/layer2,
+/area/galleyburned)
 "hb" = (
 /obj/structure/bed/hybrisa/prisonbed{
 	dir = 10
 	},
 /turf/open/floor/almayer/blackfull/west,
-/area/space)
+/area/galleyburned)
+"hc" = (
+/turf/open/auto_turf/hybrisa_auto_turf/layer3,
+/area/galleyburned)
+"hd" = (
+/obj/structure/platform/metal/hybrisa/metalplatform1,
+/obj/effect/hybrisa/misc/fake/wire/blue{
+	dir = 4;
+	pixel_y = -8
+	},
+/obj/effect/hybrisa/misc/fake/wire/yellow{
+	dir = 4;
+	pixel_y = -4
+	},
+/obj/effect/hybrisa/misc/fake/wire/red{
+	dir = 4
+	},
+/obj/structure/platform/metal/hybrisa/metalplatform1/north,
+/obj/structure/prop/hybrisa/misc/floorprops/grate,
+/obj/structure/platform/metal/hybrisa/metalplatform1/west,
+/turf/open/hybrisa/street/underground_unweedable,
+/area/galleyburned)
 "he" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "W";
@@ -44,26 +3247,838 @@
 /turf/open/floor/prison/ramptop/east{
 	dir = 2
 	},
-/area/space)
+/area/galleyburned)
+"hf" = (
+/obj/structure/platform/metal/hybrisa/metalplatform1,
+/obj/effect/hybrisa/misc/fake/wire/blue{
+	dir = 4;
+	pixel_y = -8
+	},
+/obj/effect/hybrisa/misc/fake/wire/yellow{
+	dir = 4;
+	pixel_y = -4
+	},
+/obj/effect/hybrisa/misc/fake/wire/red{
+	dir = 4
+	},
+/obj/structure/platform/metal/hybrisa/metalplatform1/north,
+/obj/structure/prop/hybrisa/misc/floorprops/grate,
+/obj/structure/machinery/light/double/blue{
+	dir = 2
+	},
+/turf/open/hybrisa/street/underground_unweedable,
+/area/galleyburned)
+"hg" = (
+/obj/structure/platform/metal/hybrisa/metalplatform1,
+/obj/effect/hybrisa/misc/fake/wire/blue{
+	dir = 4;
+	pixel_y = -8
+	},
+/obj/effect/hybrisa/misc/fake/wire/yellow{
+	dir = 4;
+	pixel_y = -4
+	},
+/obj/effect/hybrisa/misc/fake/wire/red{
+	dir = 4
+	},
+/obj/structure/platform/metal/hybrisa/metalplatform1/north,
+/obj/structure/prop/hybrisa/misc/floorprops/grate,
+/obj/structure/platform/metal/hybrisa/metalplatform1/east,
+/turf/open/hybrisa/street/underground_unweedable,
+/area/galleyburned)
+"hh" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	pixel_y = 1
+	},
+/obj/structure/largecrate/random/barrel/medical,
+/turf/open/floor/almayer/blackfull/west,
+/area/galleyburned)
+"hi" = (
+/obj/structure/machinery/light/double/blue{
+	dir = 8
+	},
+/turf/open/floor/prison/floor_plate/southwest,
+/area/galleyburned)
+"hj" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/turf/open/floor/prison/floor_plate/southwest,
+/area/galleyburned)
+"hk" = (
+/obj/structure/prop/hybrisa/cavedecor/stalagmite3,
+/turf/open/auto_turf/hybrisa_auto_turf/layer2,
+/area/galleyburned)
+"hl" = (
+/obj/structure/prop/invuln/minecart_tracks{
+	dir = 1;
+	layer = 2;
+	explo_proof = 0
+	},
+/obj/structure/prop/invuln/minecart_tracks{
+	dir = 9;
+	layer = 2;
+	explo_proof = 0
+	},
+/turf/open/auto_turf/hybrisa_auto_turf/layer2,
+/area/galleyburned)
+"hm" = (
+/obj/structure/prop/invuln/minecart_tracks{
+	dir = 8;
+	layer = 2;
+	explo_proof = 0
+	},
+/obj/structure/closet/crate/miningcar/yellow{
+	layer = 3
+	},
+/turf/open/auto_turf/hybrisa_auto_turf/layer2,
+/area/galleyburned)
+"hn" = (
+/obj/structure/prop/invuln/minecart_tracks/bumper{
+	dir = 8;
+	explo_proof = 0
+	},
+/turf/open/auto_turf/hybrisa_auto_turf/layer0,
+/area/galleyburned)
+"ho" = (
+/obj/effect/hybrisa/misc/fake/wire/blue{
+	pixel_x = -4
+	},
+/obj/effect/hybrisa/misc/fake/wire/yellow{
+	dir = 1
+	},
+/obj/effect/hybrisa/misc/fake/wire/red{
+	pixel_x = 4
+	},
+/obj/structure/prop/hybrisa/misc/floorprops/grate,
+/obj/structure/platform/metal/hybrisa/metalplatform1,
+/obj/structure/platform/metal/hybrisa/metalplatform1/west,
+/obj/structure/platform/metal/hybrisa/metalplatform1/east,
+/turf/open/hybrisa/street/underground_unweedable,
+/area/galleyburned)
+"hp" = (
+/obj/structure/machinery/door/airlock/hybrisa/generic_solid/autoname{
+	dir = 4
+	},
+/turf/open/floor/corsat/officetiles,
+/area/galleyburned)
+"hq" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	pixel_y = 1
+	},
+/obj/structure/largecrate/random/barrel/black{
+	layer = 3.1
+	},
+/obj/structure/machinery/light/small/blue{
+	dir = 4
+	},
+/turf/open/floor/almayer/blackfull/west,
+/area/galleyburned)
+"hr" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 2.5;
+	pixel_y = 0
+	},
+/turf/open/floor/prison/floor_plate/southwest,
+/area/galleyburned)
+"hs" = (
+/obj/structure/prop/hybrisa/cavedecor/stalagmite4,
+/turf/open/auto_turf/hybrisa_auto_turf/layer2,
+/area/galleyburned)
+"ht" = (
+/obj/effect/hybrisa/misc/fake/wire/blue{
+	pixel_x = -4
+	},
+/obj/effect/hybrisa/misc/fake/wire/yellow{
+	dir = 1
+	},
+/obj/effect/hybrisa/misc/fake/wire/red{
+	pixel_x = 4
+	},
+/obj/structure/prop/hybrisa/misc/floorprops/grate,
+/obj/structure/platform/metal/hybrisa/metalplatform1/north,
+/obj/structure/platform/metal/hybrisa/metalplatform1/east,
+/obj/structure/platform/metal/hybrisa/metalplatform1/west,
+/turf/open/hybrisa/street/underground_unweedable,
+/area/galleyburned)
+"hu" = (
+/obj/effect/hybrisa/misc/fake/wire/blue{
+	dir = 4;
+	pixel_y = -8
+	},
+/obj/effect/hybrisa/misc/fake/wire/yellow{
+	dir = 4;
+	pixel_y = -4
+	},
+/obj/effect/hybrisa/misc/fake/wire/red{
+	dir = 4
+	},
+/obj/structure/prop/hybrisa/misc/floorprops/grate,
+/obj/structure/platform/metal/hybrisa/metalplatform1,
+/obj/structure/platform/metal/hybrisa/metalplatform1/north,
+/obj/structure/platform/metal/hybrisa/metalplatform1/west,
+/turf/open/hybrisa/street/underground_unweedable,
+/area/galleyburned)
+"hv" = (
+/obj/effect/hybrisa/misc/fake/wire/blue{
+	dir = 4;
+	pixel_y = -8
+	},
+/obj/effect/hybrisa/misc/fake/wire/yellow{
+	dir = 4;
+	pixel_y = -4
+	},
+/obj/effect/hybrisa/misc/fake/wire/red{
+	dir = 4
+	},
+/obj/structure/prop/hybrisa/misc/floorprops/grate,
+/obj/structure/platform/metal/hybrisa/metalplatform1,
+/obj/structure/platform/metal/hybrisa/metalplatform1/north,
+/obj/structure/platform/metal/hybrisa/metalplatform1/east,
+/turf/open/hybrisa/street/underground_unweedable,
+/area/galleyburned)
+"hw" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_x = 0;
+	pixel_y = 0
+	},
+/obj/structure/largecrate/random/case/double,
+/turf/open/floor/almayer/blackfull/west,
+/area/galleyburned)
+"hx" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 2.5;
+	pixel_y = 0
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_x = 0;
+	pixel_y = 0
+	},
+/obj/structure/largecrate/random/barrel/blue,
+/turf/open/floor/almayer/blackfull/west,
+/area/galleyburned)
+"hy" = (
+/obj/structure/machinery/puzzle/keycard_panel/workshop{
+	pixel_y = 30
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_x = 0;
+	pixel_y = 0
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 2.5;
+	pixel_y = 0
+	},
+/turf/open/floor/almayer/blackfull/west,
+/area/galleyburned)
+"hz" = (
+/obj/structure/machinery/light/double/blue{
+	dir = 4
+	},
+/turf/open/floor/prison/floor_plate/southwest,
+/area/galleyburned)
+"hA" = (
+/obj/structure/prop/invuln/minecart_tracks{
+	dir = 1;
+	layer = 2;
+	explo_proof = 0
+	},
+/turf/open/auto_turf/hybrisa_auto_turf/layer0,
+/area/galleyburned)
+"hB" = (
+/obj/structure/prop/hybrisa/cavedecor/stalagmite5{
+	pixel_x = 9;
+	pixel_y = -6
+	},
+/turf/open/auto_turf/hybrisa_auto_turf/layer2,
+/area/galleyburned)
+"hC" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/machinery/door/airlock/puzzle/workshop{
+	dir = 1
+	},
+/turf/open/floor/prison/floor_plate/southwest,
+/area/galleyburned)
+"hD" = (
+/obj/effect/decal/hybrisa/road/lines1,
+/turf/open/floor/strata/multi_tiles/west,
+/area/galleyburned)
+"hE" = (
+/obj/effect/decal/hybrisa/road/lines4,
+/turf/open/floor/strata/multi_tiles/west,
+/area/galleyburned)
+"hF" = (
+/obj/effect/decal/hybrisa/road/road_stop{
+	dir = 8;
+	icon_state = "stop_decal5";
+	pixel_x = -3
+	},
+/turf/open/floor/strata/floor3,
+/area/galleyburned)
+"hG" = (
+/obj/structure/prop/hybrisa/cavedecor/stalagmite2{
+	pixel_x = -10;
+	pixel_y = 4
+	},
+/turf/open/auto_turf/hybrisa_auto_turf/layer2,
+/area/galleyburned)
+"hH" = (
+/obj/structure/closet/secure_closet/marine_personal/rifleman{
+	pixel_x = -8
+	},
+/obj/structure/closet/secure_closet/marine_personal/rifleman{
+	pixel_x = 8
+	},
+/turf/open/floor/corsat/squares,
+/area/galleyburned)
+"hI" = (
+/obj/structure/closet/secure_closet/marine_personal/rifleman{
+	pixel_x = 8
+	},
+/obj/structure/closet/secure_closet/marine_personal/rifleman{
+	pixel_x = -8
+	},
+/turf/open/floor/corsat/squares,
+/area/galleyburned)
+"hJ" = (
+/obj/structure/stairs{
+	color = "#a6aeab";
+	dir = 4
+	},
+/obj/structure/platform/metal/stair_cut/hybrisa_metal_left,
+/turf/open/floor/almayer/black/west,
+/area/galleyburned)
+"hK" = (
+/obj/structure/machinery/space_heater/radiator/red,
+/turf/open/floor/almayer,
+/area/galleyburned)
+"hL" = (
+/obj/structure/bed/chair{
+	can_buckle = 0;
+	dir = 4;
+	pixel_x = 2;
+	pixel_y = 6
+	},
+/obj/structure/machinery/light/double/blue{
+	dir = 2
+	},
+/turf/open/floor/almayer/black/east,
+/area/galleyburned)
+"hM" = (
+/obj/structure/surface/table/reinforced/black,
+/obj/item/reagent_container/food/snacks/microwavable/packaged_burger{
+	pixel_y = 11;
+	pixel_x = -1
+	},
+/turf/open/floor/almayer/blackfull/west,
+/area/galleyburned)
+"hN" = (
+/obj/structure/surface/table/reinforced/black,
+/obj/item/trash/tray{
+	pixel_x = -12;
+	pixel_y = 5
+	},
+/obj/item/reagent_container/food/drinks/coffeecup/uscm{
+	pixel_x = 6;
+	name = "TWE coffee mug";
+	desc = "A red, white and blue coffee mug depicting the flag of the TWE. Patriotic and bold, and commonly seen among veterans as a novelty.";
+	pixel_y = 9
+	},
+/obj/item/tool/kitchen/utensil/pfork{
+	pixel_x = -2;
+	pixel_y = 5
+	},
+/turf/open/floor/almayer/blackfull/west,
+/area/galleyburned)
+"hO" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/prop/invuln/overhead_pipe{
+	color = "#a6aeab";
+	dir = 4;
+	pixel_x = -14;
+	pixel_y = 6
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	color = "#a6aeab";
+	dir = 4;
+	pixel_x = -14
+	},
+/obj/structure/machinery/puzzle/keycard_panel/workshop{
+	dir = 4;
+	pixel_x = -24;
+	pixel_y = -6
+	},
+/turf/open/floor/prison/cell_stripe/north,
+/area/galleyburned)
+"hP" = (
+/obj/structure/prop/invuln/overhead_pipe{
+	color = "#a6aeab";
+	dir = 4;
+	pixel_x = -14;
+	pixel_y = 6
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	color = "#a6aeab";
+	dir = 4;
+	pixel_x = -14
+	},
+/turf/closed/wall/hybrisa/colony/ribbed,
+/area/galleyburned)
+"hQ" = (
+/obj/effect/decal/hybrisa/road/lines1,
+/obj/structure/machinery/light/double/blue{
+	dir = 1;
+	pixel_x = 16
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/galleyburned)
+"hR" = (
+/obj/structure/prop/hybrisa/cavedecor/stalagmite0,
+/turf/open/auto_turf/hybrisa_auto_turf/layer2,
+/area/galleyburned)
+"hS" = (
+/obj/structure/machinery/door/airlock/hybrisa/personal/autoname{
+	dir = 8
+	},
+/turf/open/floor/corsat/officetiles,
+/area/galleyburned)
+"hT" = (
+/obj/structure/barricade/handrail/strata{
+	layer = 3.1;
+	dir = 4
+	},
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/galleyburned)
+"hU" = (
+/obj/structure/platform/metal/hybrisa/metalplatform6/west,
+/obj/structure/machinery/disposal/delivery,
+/obj/item/trash/burger,
+/turf/open/floor/almayer/black/west,
+/area/galleyburned)
+"hV" = (
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_9";
+	pixel_x = -8;
+	pixel_y = 4
+	},
+/turf/open/floor/almayer,
+/area/galleyburned)
+"hW" = (
+/turf/open/floor/almayer/blackcorner,
+/area/galleyburned)
+"hX" = (
+/obj/structure/bed/chair{
+	pixel_y = 13;
+	layer = 4
+	},
+/turf/open/floor/almayer/black,
+/area/galleyburned)
+"hY" = (
+/obj/item/weapon/twohanded/folded_metal_chair,
+/turf/open/floor/almayer/black,
+/area/galleyburned)
+"hZ" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/machinery/light/small/blue{
+	dir = 8
+	},
+/obj/structure/ladder{
+	id = "sus"
+	},
+/turf/open/floor/prison/bright_clean_marked,
+/area/galleyburned)
+"ia" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E"
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/almayer/blackfull/west,
+/area/galleyburned)
+"ib" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/turf/open/floor/corsat/officetiles,
+/area/galleyburned)
+"ic" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/corsat/officetiles,
+/area/galleyburned)
+"id" = (
+/obj/structure/sign/safety/elevator{
+	pixel_y = 32;
+	pixel_x = 7
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	pixel_y = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_x = 0;
+	pixel_y = 0
+	},
+/turf/open/floor/almayer/blackfull/west,
+/area/galleyburned)
+"ie" = (
+/obj/structure/closet/secure_closet/marine_personal/platoon_leader{
+	pixel_x = -8
+	},
+/obj/structure/machinery/light/double/blue{
+	dir = 8;
+	pixel_y = -19
+	},
+/turf/open/floor/corsat/squares,
+/area/galleyburned)
+"if" = (
+/obj/structure/platform/metal/hybrisa/metalplatform6/north,
+/obj/structure/platform/metal/hybrisa/metalplatform6/west,
+/obj/structure/prop/hybrisa/fakeplatforms/platform4/deco{
+	dir = 5
+	},
+/obj/structure/flora/pottedplant{
+	icon_state = "pottedplant_21";
+	pixel_y = 3
+	},
+/turf/open/floor/almayer/black/northwest,
+/area/galleyburned)
+"ig" = (
+/obj/structure/platform/metal/hybrisa/metalplatform6/north,
+/turf/open/floor/almayer/black/north,
+/area/galleyburned)
+"ih" = (
+/obj/structure/prop/hybrisa/fakeplatforms/platform4/deco{
+	dir = 4
+	},
+/turf/open/floor/almayer/blackcorner/north,
+/area/galleyburned)
+"ii" = (
+/obj/structure/reagent_dispensers/water_cooler{
+	pixel_x = 11;
+	pixel_y = 3
+	},
+/turf/open/floor/almayer,
+/area/galleyburned)
+"ij" = (
+/obj/structure/prop/hybrisa/misc/elevator_button{
+	pixel_y = 3;
+	pixel_x = -2
+	},
+/turf/closed/wall/hybrisa/colony/ribbed,
+/area/galleyburned)
+"ik" = (
+/obj/structure/machinery/door/poddoor/hybrisa/secure_red_door{
+	name = "\improper Lockdown";
+	explo_proof = 1;
+	needs_power = 0;
+	unacidable = 1;
+	id = "bunker_elevator"
+	},
+/turf/open/floor/hybrisa/metal/red_warning_floor,
+/area/galleyburned)
+"il" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/machinery/door/poddoor/hybrisa/secure_red_door{
+	name = "\improper Lockdown";
+	explo_proof = 1;
+	needs_power = 0;
+	unacidable = 1;
+	id = "bunker_elevator"
+	},
+/turf/open/floor/hybrisa/metal/red_warning_floor,
+/area/galleyburned)
+"im" = (
+/obj/structure/closet/secure_closet/marine_personal/corpsman{
+	pixel_x = -8;
+	density = 0
+	},
+/turf/open/floor/corsat/squares,
+/area/galleyburned)
+"in" = (
+/obj/structure/closet/secure_closet/marine_personal/corpsman{
+	pixel_x = 9;
+	density = 0
+	},
+/turf/open/floor/corsat/squares,
+/area/galleyburned)
+"io" = (
+/obj/structure/barricade/handrail/strata{
+	layer = 3.1
+	},
+/obj/structure/machinery/light/small/blue{
+	dir = 1
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/galleyburned)
+"ip" = (
+/obj/structure/barricade/handrail/strata{
+	layer = 3.1
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/galleyburned)
+"iq" = (
+/obj/structure/platform/metal/hybrisa/metalplatform6/west,
+/obj/structure/machinery/vending/snack{
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/turf/open/floor/almayer/black/northwest,
+/area/galleyburned)
+"ir" = (
+/obj/structure/machinery/vending/dinnerware{
+	pixel_y = 7
+	},
+/turf/open/floor/almayer/black/north,
+/area/galleyburned)
+"is" = (
+/turf/closed/shuttle/elevator{
+	dir = 10;
+	explo_proof = 1;
+	unacidable = 1
+	},
+/area/galleyburned)
+"it" = (
+/obj/structure/prop/hybrisa/misc/elevator_door{
+	density = 1
+	},
+/turf/open/floor/corsat/officetiles,
+/area/galleyburned)
+"iu" = (
+/obj/structure/prop/hybrisa/misc/elevator_door/right{
+	density = 1
+	},
+/turf/open/floor/corsat/officetiles,
+/area/galleyburned)
+"iv" = (
+/turf/closed/shuttle/elevator{
+	dir = 6;
+	explo_proof = 1;
+	unacidable = 1
+	},
+/area/galleyburned)
+"iw" = (
+/obj/structure/machinery/door/airlock/almayer/generic/autoname/rusted_wite{
+	dir = 1
+	},
+/turf/open/floor/corsat/officetiles,
+/area/galleyburned)
 "ix" = (
 /obj/structure/largecrate/random/barrel/red{
 	pixel_x = -4
 	},
+/obj/structure/machinery/light/double/blue{
+	dir = 1
+	},
 /turf/open/floor/prison/floor_plate/southwest,
-/area/space)
+/area/galleyburned)
+"iy" = (
+/obj/structure/machinery/door/airlock/hybrisa/generic_solid/autoname{
+	dir = 1
+	},
+/turf/open/floor/corsat/officetiles,
+/area/galleyburned)
+"iz" = (
+/turf/closed/shuttle/elevator{
+	explo_proof = 1;
+	unacidable = 1
+	},
+/area/galleyburned)
+"iA" = (
+/turf/closed/noise{
+	opacity = 0
+	},
+/area/galleyburned)
+"iB" = (
+/turf/closed/shuttle/elevator{
+	dir = 1;
+	explo_proof = 1;
+	unacidable = 1
+	},
+/area/galleyburned)
+"iC" = (
+/obj/structure/toilet{
+	dir = 4;
+	pixel_y = 6
+	},
+/obj/structure/prop/hybrisa/misc/buildinggreebliessmall/smallvent2{
+	pixel_x = 6;
+	pixel_y = 25
+	},
+/obj/structure/machinery/light/small{
+	dir = 8
+	},
+/obj/effect/decal/strata_decals/grime/grime3{
+	dir = 4
+	},
+/obj/effect/decal/strata_decals/grime/grime2{
+	dir = 4
+	},
+/obj/item/reagent_container/syringe{
+	icon_state = "broken";
+	pixel_y = -8
+	},
+/obj/item/trash/cigbutt,
+/turf/open/floor/hybrisa/tile/tilewhite,
+/area/galleyburned)
+"iD" = (
+/obj/structure/mirror{
+	pixel_y = 34;
+	pixel_x = -1
+	},
+/obj/effect/decal/strata_decals/grime/grime2{
+	dir = 8
+	},
+/obj/item/reagent_container/glass/bucket{
+	pixel_x = 8;
+	pixel_y = 14;
+	layer = 2.9
+	},
+/obj/item/trash/cigbutt,
+/obj/structure/sink{
+	pixel_y = 24
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt_2,
+/turf/open/floor/hybrisa/tile/tilewhite,
+/area/galleyburned)
+"iE" = (
+/obj/structure/machinery/shower{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	layer = 3.3
+	},
+/obj/structure/window/reinforced{
+	dir = 1;
+	layer = 2;
+	pixel_y = 14
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt_2,
+/turf/open/floor/plating/plating_catwalk/aicore/white,
+/area/galleyburned)
+"iF" = (
+/obj/structure/bed/hybrisa/bunkbed2{
+	dir = 8
+	},
+/turf/open/floor/hybrisa/carpet/carpetdarkerblue,
+/area/galleyburned)
+"iG" = (
+/obj/structure/machinery/light/double/blue{
+	dir = 2
+	},
+/turf/open/floor/hybrisa/carpet/carpetdarkerblue,
+/area/galleyburned)
+"iH" = (
+/obj/structure/bed/hybrisa/bunkbed2{
+	dir = 4
+	},
+/turf/open/floor/hybrisa/carpet/carpetdarkerblue,
+/area/galleyburned)
+"iI" = (
+/obj/structure/machinery/light/small/blue{
+	dir = 1;
+	pixel_y = 20;
+	pixel_x = 16
+	},
+/turf/closed/noise{
+	opacity = 0
+	},
+/area/galleyburned)
+"iJ" = (
+/obj/effect/landmark/late_join,
+/obj/effect/landmark/start/marine/leader/alpha,
+/obj/effect/landmark/start/marine/medic/alpha,
+/obj/effect/landmark/start/marine/alpha,
+/turf/open/floor/hybrisa/carpet/carpetdarkerblue,
+/area/galleyburned)
+"iK" = (
+/turf/open/floor/hybrisa/carpet/carpetdarkerblue,
+/area/galleyburned)
+"iL" = (
+/obj/effect/landmark/observer_start,
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/galleyburned)
+"iM" = (
+/turf/closed/shuttle/elevator{
+	dir = 9;
+	explo_proof = 1;
+	unacidable = 1
+	},
+/area/galleyburned)
+"iN" = (
+/obj/structure/prop/hybrisa/misc/elevator_button{
+	pixel_x = -10
+	},
+/turf/closed/shuttle/elevator{
+	dir = 4
+	},
+/area/galleyburned)
+"iO" = (
+/turf/closed/shuttle/elevator{
+	dir = 8
+	},
+/area/galleyburned)
+"iP" = (
+/turf/closed/shuttle/elevator{
+	dir = 5;
+	explo_proof = 1;
+	unacidable = 1
+	},
+/area/galleyburned)
+"iQ" = (
+/obj/structure/machinery/space_heater/radiator/red{
+	dir = 1;
+	pixel_y = 26
+	},
+/turf/open/floor/hybrisa/carpet/carpetdarkerblue,
+/area/galleyburned)
+"iR" = (
+/obj/structure/prop/almayer/ship_memorial/golden_arrow{
+	layer = 2.9;
+	pixel_y = 33
+	},
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/galleyburned)
+"iS" = (
+/obj/structure/machinery/power/reactor{
+	name = "\improper S-52 fusion reactor 17"
+	},
+/turf/open/floor/almayer,
+/area/galleyburned)
+"iT" = (
+/obj/structure/machinery/telecomms/relay/preset/tower,
+/turf/open/floor/almayer,
+/area/galleyburned)
 "jX" = (
 /turf/open/floor/prison/ramptop/east{
 	dir = 2
 	},
-/area/space)
+/area/galleyburned)
 "kD" = (
 /obj/structure/cargo_container/hd/right/alt,
 /turf/open/floor/prison/floor_plate/southwest,
-/area/space)
+/area/galleyburned)
 "lu" = (
 /obj/structure/largecrate/random/case,
 /turf/open/floor/prison/floor_plate/southwest,
-/area/space)
+/area/galleyburned)
 "mh" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "W";
@@ -74,7 +4089,7 @@
 	dir = 1
 	},
 /turf/open/floor/prison/floor_plate/southwest,
-/area/space)
+/area/galleyburned)
 "mD" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "SE-out";
@@ -82,14 +4097,15 @@
 	pixel_y = 0
 	},
 /turf/open/floor/prison/floor_plate/southwest,
-/area/space)
+/area/galleyburned)
 "nm" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E";
 	pixel_x = 1
 	},
+/obj/structure/machinery/light/small/red,
 /turf/open/floor/prison/floor_plate/southwest,
-/area/space)
+/area/galleyburned)
 "nt" = (
 /obj/structure/machinery/door/poddoor/hybrisa/secure_red_door{
 	name = "\improper Lockdown";
@@ -99,12 +4115,12 @@
 	unacidable = 1
 	},
 /turf/open/hybrisa/street/roadlines4,
-/area/space)
+/area/galleyburned)
 "nv" = (
 /obj/effect/decal/hybrisa/road/lines1,
 /obj/effect/decal/hybrisa/road/lines2,
 /turf/open/hybrisa/street/asphalt,
-/area/space)
+/area/galleyburned)
 "oD" = (
 /obj/structure/closet/crate,
 /obj/item/roller/bedroll,
@@ -119,15 +4135,18 @@
 	pixel_y = -2
 	},
 /turf/open/floor/almayer/blackfull/west,
-/area/space)
+/area/galleyburned)
 "pv" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "NE-out";
 	pixel_y = 1;
 	pixel_x = 1
 	},
+/obj/structure/machinery/light/double/blue{
+	dir = 8
+	},
 /turf/open/floor/prison/floor_plate/southwest,
-/area/space)
+/area/galleyburned)
 "qF" = (
 /obj/structure/surface/table/reinforced/prison{
 	color = "#8e98a0"
@@ -151,10 +4170,15 @@
 	pixel_y = -1
 	},
 /turf/open/floor/almayer/blackfull/west,
-/area/space)
+/area/galleyburned)
 "rp" = (
-/turf/open/floor/strata/multi_tiles/west,
-/area/space)
+/obj/effect/decal/hybrisa/road/road_stop{
+	dir = 4;
+	icon_state = "stop_decal5";
+	pixel_x = 3
+	},
+/turf/open/floor/strata/floor3,
+/area/galleyburned)
 "sj" = (
 /obj/effect/decal/hybrisa/checkpoint_decal{
 	dir = 1;
@@ -162,7 +4186,7 @@
 	pixel_y = -37
 	},
 /turf/open/hybrisa/street/asphalt,
-/area/space)
+/area/galleyburned)
 "sq" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N";
@@ -174,35 +4198,44 @@
 	pixel_x = 1
 	},
 /turf/open/floor/prison/floor_plate/southwest,
-/area/space)
+/area/galleyburned)
 "tn" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/structure/machinery/door/airlock/hybrisa/generic_solid/autoname{
-	dir = 1
+	dir = 4
 	},
 /obj/structure/machinery/door/poddoor/hybrisa/shutters{
-	id = "bunker_shutters"
+	id = "bunker_shutters";
+	dir = 4
 	},
 /turf/open/floor/corsat/officetiles,
-/area/space)
+/area/galleyburned)
 "tr" = (
+/obj/structure/machinery/door/poddoor/hybrisa/ultra_reinforced_door{
+	id = "bunker_garage_doors";
+	explo_proof = 1;
+	unacidable = 1;
+	name = "\improper Bunker Lockdown";
+	needs_power = 0;
+	dir = 4
+	},
 /turf/open/floor/corsat/officetiles,
-/area/space)
+/area/galleyburned)
 "tT" = (
 /obj/effect/decal/hybrisa/road/lines1,
 /turf/open/hybrisa/street/asphalt,
-/area/space)
+/area/galleyburned)
 "uk" = (
 /obj/effect/decal/hybrisa/road/lines1,
 /obj/item/tool/warning_cone{
 	pixel_x = 10
 	},
 /turf/open/hybrisa/street/asphalt,
-/area/space)
+/area/galleyburned)
 "xA" = (
 /obj/structure/largecrate/random/case/double,
 /turf/open/floor/prison/floor_plate/southwest,
-/area/space)
+/area/galleyburned)
 "yu" = (
 /obj/structure/surface/table/reinforced/prison{
 	color = "#8e98a0"
@@ -217,51 +4250,46 @@
 	pixel_y = 5
 	},
 /turf/open/floor/almayer/blackfull/west,
-/area/space)
+/area/galleyburned)
 "yS" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "W";
 	layer = 2.5;
 	pixel_y = 0
 	},
+/obj/structure/machinery/light/small/red,
 /turf/open/floor/prison/floor_plate/southwest,
-/area/space)
+/area/galleyburned)
 "AU" = (
 /obj/item/tool/shovel,
 /turf/open/floor/prison/ramptop/east{
 	dir = 4
 	},
-/area/space)
-"DU" = (
-/obj/structure/surface/table/reinforced/prison{
-	color = "#8e98a0"
-	},
-/turf/open/space/basic,
-/area/space)
+/area/galleyburned)
 "EH" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
-/obj/structure/machinery/light/small/blue{
-	dir = 8
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	layer = 3.33;
+	pixel_y = 2
 	},
-/obj/structure/ladder{
-	icon_state = "ladder10";
-	id = "bunker";
-	layer = 2.8
-	},
-/turf/open/floor/prison/bright_clean_marked,
-/area/space)
+/turf/open/floor/hybrisa/metal/greenmetal1/north,
+/area/galleyburned)
 "Fp" = (
+/obj/structure/machinery/door/airlock/hybrisa/generic_solid/autoname{
+	dir = 1
+	},
 /obj/structure/machinery/door/poddoor/hybrisa/shutters{
 	id = "bunker_shutters"
 	},
 /turf/open/floor/corsat/officetiles,
-/area/space)
+/area/galleyburned)
 "HK" = (
 /turf/open/floor/almayer/blackfull/west,
-/area/space)
+/area/galleyburned)
 "Ie" = (
 /turf/open/hybrisa/street/roadlines4,
-/area/space)
+/area/galleyburned)
 "Jj" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S";
@@ -273,14 +4301,14 @@
 	pixel_y = 7
 	},
 /turf/open/floor/prison/floor_plate/southwest,
-/area/space)
+/area/galleyburned)
 "Jw" = (
 /obj/structure/largecrate/random/barrel/red{
 	pixel_x = 4;
 	pixel_y = 8
 	},
 /turf/open/floor/prison/floor_plate/southwest,
-/area/space)
+/area/galleyburned)
 "Jy" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "W";
@@ -291,7 +4319,7 @@
 	dir = 8
 	},
 /turf/open/floor/prison/floor_plate/southwest,
-/area/space)
+/area/galleyburned)
 "KE" = (
 /obj/structure/filingcabinet/chestdrawer{
 	pixel_x = -8;
@@ -305,24 +4333,34 @@
 	layer = 2.8;
 	density = 0
 	},
+/obj/structure/phone_base{
+	phone_color = "red";
+	phone_category = "Colony-Net Emergency Line";
+	phone_id = "Unknown Line";
+	layer = 4;
+	pixel_y = 32
+	},
 /turf/open/floor/almayer/blackfull/west,
-/area/space)
+/area/galleyburned)
 "KR" = (
-/turf/closed/wall/hybrisa/colony/reinforced/hull,
-/area/space)
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/hybrisa/metal/metalwhitefull,
+/area/galleyburned)
 "KU" = (
 /obj/effect/decal/hybrisa/road/lines2,
 /turf/open/hybrisa/street/asphalt,
-/area/space)
+/area/galleyburned)
 "LV" = (
+/obj/structure/platform/metal/hybrisa/metalplatform6/north,
 /turf/open/floor/prison/floor_plate/southwest,
-/area/space)
+/area/galleyburned)
 "Mh" = (
 /obj/structure/prop/hybrisa/misc/machinery/screens/bluemultimonitorsmall_off{
 	pixel_y = 32
 	},
+/obj/structure/machinery/fabricator/munitions,
 /turf/open/floor/almayer/blackfull/west,
-/area/space)
+/area/galleyburned)
 "Og" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "SW-out";
@@ -336,7 +4374,7 @@
 	pixel_y = 2
 	},
 /turf/open/floor/prison/floor_plate/southwest,
-/area/space)
+/area/galleyburned)
 "Oq" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S";
@@ -344,11 +4382,11 @@
 	pixel_y = 0
 	},
 /turf/open/floor/prison/floor_plate/southwest,
-/area/space)
+/area/galleyburned)
 "QV" = (
 /obj/structure/cargo_container/hd/mid/alt,
 /turf/open/floor/prison/floor_plate/southwest,
-/area/space)
+/area/galleyburned)
 "Sj" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S";
@@ -358,7 +4396,7 @@
 /turf/open/floor/prison/ramptop/east{
 	dir = 4
 	},
-/area/space)
+/area/galleyburned)
 "Ta" = (
 /obj/structure/cargo_container/hd/left/alt,
 /obj/structure/largecrate/empty{
@@ -366,33 +4404,24 @@
 	pixel_y = -16
 	},
 /turf/open/floor/prison/floor_plate/southwest,
-/area/space)
+/area/galleyburned)
 "Uw" = (
 /obj/effect/decal/hybrisa/road/lines4,
 /turf/open/hybrisa/street/asphalt,
-/area/space)
+/area/galleyburned)
 "UP" = (
 /obj/effect/decal/hybrisa/road/lines4,
 /obj/effect/decal/hybrisa/road/lines2,
 /turf/open/hybrisa/street/asphalt,
-/area/space)
+/area/galleyburned)
 "UV" = (
 /obj/structure/stairs{
 	color = "#a6aeab";
 	dir = 4
 	},
-/obj/structure/barricade/handrail/strata{
-	dir = 2
-	},
+/obj/structure/platform/metal/stair_cut/hybrisa_metal_left,
 /turf/open/floor/prison/floor_plate/southwest,
-/area/space)
-"Vl" = (
-/obj/structure/window/framed/hybrisa/colony/reinforced,
-/obj/structure/machinery/door/poddoor/hybrisa/shutters{
-	id = "bunker_shutters"
-	},
-/turf/open/floor/plating,
-/area/space)
+/area/galleyburned)
 "Vu" = (
 /obj/effect/decal/hybrisa/road/lines4,
 /obj/item/tool/warning_cone{
@@ -400,7 +4429,7 @@
 	pixel_y = 0
 	},
 /turf/open/hybrisa/street/asphalt,
-/area/space)
+/area/galleyburned)
 
 (1,1,1) = {"
 az
@@ -454,27 +4483,27 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 az
 az
 az
@@ -576,27 +4605,27 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ac
+ac
+ac
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 az
 az
 az
@@ -698,27 +4727,27 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+gI
+gR
+gH
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 az
 az
 az
@@ -820,27 +4849,27 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+gH
+gI
+gR
+gH
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 az
 az
 az
@@ -942,27 +4971,27 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+hk
+gI
+gS
+gI
+gq
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 az
 az
 az
@@ -1064,27 +5093,27 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+hs
+gH
+gI
+gR
+gJ
+gr
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 az
 az
 az
@@ -1184,29 +5213,29 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+gO
+gO
+gH
+gH
+gH
+gR
+gH
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 az
 az
 az
@@ -1306,29 +5335,29 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+aa
+aa
+aa
+aa
+gO
+gO
+aa
+hR
+gH
+gI
+gH
+gI
+gI
+gR
+gK
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 az
 az
 az
@@ -1428,32 +5457,32 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+aa
+aa
+ac
+gI
+gI
+gI
+gI
+gI
+gI
+gH
+gI
+gH
+gI
+gS
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 az
 az
 az
@@ -1550,32 +5579,32 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+aa
+aa
+ac
+hA
+hA
+hA
+hA
+hA
+hA
+hA
+ha
+hl
+ha
+gT
+aa
+aa
+ab
+aa
+aa
+aa
+aa
+ab
+aa
+aa
+aa
+aa
 az
 az
 az
@@ -1672,32 +5701,32 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+aa
+aa
+ac
+gI
+gH
+gI
+gI
+gI
+gI
+hB
+hk
+gS
+gI
+gH
+gL
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+aa
+aa
+aa
 az
 az
 az
@@ -1794,56 +5823,56 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+aa
+aa
+ac
+gH
+gI
+gH
+gI
+gH
+gH
+hk
+hc
+gS
+hc
+gU
+gM
+gs
+gf
+fU
+fH
+bb
+fb
+ab
+ab
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 az
 az
 az
@@ -1916,56 +5945,56 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+aa
+aa
+ac
+gI
+gH
+gH
+hc
+gI
+gI
+gI
+gH
+hm
+gH
+gU
+gN
+gt
+gf
+fV
+fI
+fs
+fc
+ab
+ab
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 az
 az
 az
@@ -2038,56 +6067,56 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+aa
+aa
+aa
+aa
+gO
+gO
+aa
+gH
+gH
+gI
+gI
+hm
+hc
+gV
+gL
+ab
+ab
+ab
+ab
+ft
+ef
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+aa
+aa
 az
 az
 az
@@ -2160,56 +6189,56 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+hs
+gI
+gH
+hn
+gH
+gH
+aa
+aa
+aa
+ab
+fJ
+fu
+fc
+eT
+ab
+ai
+es
+ek
+bR
+dV
+dL
+dp
+cU
+cF
+ct
+cj
+bX
+bR
+bd
+bd
+aI
+bd
+bd
+aI
+aI
+aA
+ar
+ai
+ab
+ab
+aa
+aa
 az
 az
 az
@@ -2282,56 +6311,56 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+hG
+gH
+gI
+gI
+gI
+gH
+gO
+aa
+aa
+ab
+fK
+fv
+ef
+eT
+ab
+aj
+as
+el
+av
+dW
+aS
+dq
+cV
+cG
+cu
+ck
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+av
+aB
+as
+aj
+ab
+ab
+aa
+aa
 az
 az
 az
@@ -2401,59 +6430,59 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+iS
+iS
+iS
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ab
+fK
+fv
+fc
+eT
+ab
+eD
+et
+em
+av
+aT
+aT
+aT
+aT
+aT
+aT
+aT
+aT
+aT
+aT
+aT
+aT
+aT
+aT
+aT
+av
+aC
+at
+ak
+ab
+ab
+aa
+aa
 az
 az
 az
@@ -2523,60 +6552,60 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+iS
+iT
+iS
+aa
+aa
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+aa
+aa
+aa
+aa
+ab
+ab
+fw
+fd
+ab
+ab
+eE
+eu
+au
+ee
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+bY
+aU
+aU
+aU
+aU
+aU
+aU
+aU
+aJ
+au
+au
+al
+ab
+ab
+aa
+aa
+aa
 az
 az
 az
@@ -2645,60 +6674,60 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+iS
+iS
+iS
+aa
+aa
+ab
+iC
+ab
+im
+ie
+hH
+hH
+ab
+ht
+ho
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+fx
+fe
+ab
+ab
+eF
+av
+aD
+ef
+dX
+be
+be
+be
+be
+be
+be
+bZ
+be
+be
+be
+be
+be
+be
+aV
+aK
+au
+au
+am
+af
+ab
+ab
+ab
+aa
 az
 az
 az
@@ -2767,60 +6796,60 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+aa
+aa
+aa
+aa
+aa
+ab
+iD
+iw
+aS
+ff
+ff
+aS
+fM
+aS
+ff
+hd
+ab
+ab
+gu
+gg
+fW
+fL
+fy
+au
+eU
+ab
+eG
+ev
+av
+ef
+dY
+dM
+dr
+cW
+cH
+cv
+cl
+ca
+bS
+bo
+bD
+bv
+bn
+bf
+aW
+aL
+av
+av
+an
+af
+ad
+ac
+ab
+aa
 az
 az
 az
@@ -2889,60 +6918,60 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+aa
+aa
+aa
+aa
+aa
+ab
+iE
+ab
+in
+au
+au
+hI
+ab
+hu
+au
+hf
+ab
+ab
+gv
+gh
+fX
+fM
+aS
+ff
+eV
+ab
+eH
+ew
+av
+ef
+dY
+dr
+ds
+cX
+bF
+cb
+cm
+cb
+bF
+bJ
+bE
+bo
+bo
+bg
+aW
+aL
+av
+au
+ao
+af
+ad
+ac
+ab
+aa
 az
 az
 az
@@ -3011,60 +7040,60 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+aa
+aa
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+hS
+hS
+ab
+ab
+hv
+au
+hg
+ab
+ab
+gw
+gi
+fY
+fL
+fz
+au
+eW
+ab
+eI
+ex
+en
+ef
+dY
+dN
+dt
+cY
+bG
+bG
+bG
+bG
+bG
+bK
+bF
+bw
+bp
+bh
+aX
+aM
+av
+au
+am
+af
+ad
+ac
+ab
+aa
 az
 az
 az
@@ -3133,60 +7162,60 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+aa
+aa
+ab
+iF
+iJ
+iJ
+iF
+ab
+ff
+hT
+hT
+av
+ab
+ab
+hp
+ab
+ab
+ab
+fk
+fk
+ab
+ab
+fA
+au
+eU
+ab
+eJ
+ex
+aD
+ef
+dZ
+dN
+du
+cZ
+cI
+cc
+cc
+cc
+bT
+bL
+bG
+bx
+bq
+bi
+aX
+aM
+aD
+au
+am
+af
+ad
+ac
+ab
+aa
 az
 az
 az
@@ -3255,60 +7284,60 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+aa
+aa
+ab
+iQ
+iK
+iK
+iG
+ab
+io
+if
+hU
+hJ
+ab
+hw
+au
+eX
+gW
+gP
+gx
+gj
+fZ
+ab
+fy
+au
+eX
+eQ
+eK
+ey
+av
+eg
+ea
+dN
+dw
+da
+bG
+bG
+bG
+bG
+bG
+bN
+bF
+by
+bp
+bh
+aW
+aN
+aD
+au
+am
+af
+ad
+ac
+ab
+aa
 az
 az
 az
@@ -3377,60 +7406,60 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+aa
+aa
+ab
+iR
+aS
+aS
+aS
+iy
+ip
+ig
+hV
+hK
+ab
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+fN
+aS
+aS
+eY
+eR
+eL
+ez
+eo
+eg
+ea
+dy
+dx
+db
+bF
+cd
+cn
+cd
+bF
+bO
+bH
+br
+br
+bj
+aY
+aO
+aE
+aw
+am
+af
+ad
+ac
+ab
+aa
 az
 az
 az
@@ -3499,60 +7528,60 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+aa
+aa
+ab
+aS
+aS
+iL
+aS
+iy
+ip
+ig
+hW
+hL
+ab
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+eS
+aS
+aS
+eY
+eS
+eM
+ez
+ep
+ef
+dY
+dM
+dy
+dc
+bS
+cw
+co
+ce
+bS
+br
+bI
+bz
+bs
+bk
+aZ
+aP
+aF
+av
+ap
+af
+ad
+ac
+ab
+aa
 az
 az
 az
@@ -3621,60 +7650,60 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+aa
+aa
+ab
+iQ
+iK
+iK
+iG
+ab
+iq
+ih
+hX
+hM
+ab
+hx
+au
+au
+ga
+gQ
+au
+au
+ga
+ab
+eZ
+fg
+eZ
+eQ
+eN
+eA
+au
+ef
+eb
+bl
+bl
+bl
+bl
+bl
+bl
+cf
+bl
+bl
+bl
+bl
+bl
+bl
+ba
+aQ
+au
+au
+am
+af
+ad
+ac
+ab
+aa
 az
 az
 az
@@ -3743,60 +7772,60 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+aa
+aa
+ab
+iH
+iJ
+iJ
+iH
+ab
+ir
+ii
+hY
+hN
+ab
+ab
+eS
+fe
+ab
+ab
+eS
+fe
+ab
+ab
+ab
+ab
+ab
+ab
+eO
+eB
+eq
+eh
+bb
+bb
+bP
+dd
+bA
+bt
+cp
+cg
+bb
+bP
+bA
+bA
+bt
+bb
+bb
+aR
+aG
+ax
+aq
+ah
+ae
+ab
+ab
+aa
 az
 az
 az
@@ -3865,60 +7894,60 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+aa
+aa
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+fy
+au
+au
+eU
+ab
+au
+au
+eX
+fB
+fB
+fh
+ab
+ab
+eP
+eC
+el
+aS
+aS
+dO
+dz
+bB
+bB
+bu
+cq
+aS
+bU
+bQ
+bB
+bB
+bu
+aS
+aS
+aS
+aH
+as
+aj
+ab
+ab
+aa
+aa
+aa
 az
 az
 az
@@ -3987,59 +8016,59 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+aa
+aa
+aa
+aa
+aa
+ab
+aa
+aa
+aa
+ab
+hZ
+hO
+hC
+aS
+au
+au
+gX
+ab
+gy
+au
+aS
+aS
+aS
+bQ
+fa
+ab
+aj
+as
+el
+bV
+aS
+bc
+dB
+bC
+bC
+bu
+bU
+bU
+bV
+bQ
+bC
+bC
+bu
+bm
+bc
+aS
+aH
+ay
+aj
+ab
+ab
+aa
+aa
 az
 az
 az
@@ -4109,59 +8138,59 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+aa
+aa
+aa
+aa
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+hP
+ab
+hy
+au
+au
+gX
+ab
+au
+au
+aS
+aS
+aS
+fi
+fa
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+aa
+aa
 az
 az
 az
@@ -4231,59 +8260,59 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+aa
+aa
+aa
+ab
+ab
+iM
+iz
+iz
+is
+ij
+ia
+gW
+fh
+fy
+au
+au
+eW
+ab
+gz
+gk
+ab
+fO
+fC
+fj
+ab
+ab
+aa
+aa
+aa
+aa
+aa
+aa
+cJ
+cJ
+cJ
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 az
 az
 az
@@ -4353,59 +8382,59 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+aa
+aa
+aa
+aa
+ab
+iN
+iI
+iA
+it
+ik
+ib
+aS
+aS
+aS
+aS
+aS
+gX
+ab
+gA
+gl
+ab
+fk
+fk
+fk
+ab
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ab
+de
+ab
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 az
 az
 az
@@ -4475,46 +8504,46 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+aa
+aa
+aa
+aa
+ab
+iO
+iA
+iA
+iu
+il
+ic
+aS
+aS
+aS
+aS
+aS
+gX
+ab
+gB
+gm
+fo
+fP
+fD
+fl
+ab
+aa
+aa
+aa
+aa
+ab
+ab
+ab
+ab
+df
+ab
+ab
+ab
+ab
+aa
+aa
 az
 az
 az
@@ -4597,46 +8626,46 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-KR
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+aa
+aa
+aa
+ab
+ab
+iP
+iB
+iB
+iv
+ab
+id
+au
+au
+ga
+hq
+hh
+gY
+fL
+gC
+fm
+gb
+fQ
+fm
+fm
+ab
+aa
+aa
+aa
+aa
+ab
+ab
+ab
+dC
+dg
+cK
+ab
+ab
+ab
+aa
+aa
 az
 az
 az
@@ -4719,46 +8748,46 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-KR
+aa
+aa
+aa
+aa
+ab
+ab
+ab
+ab
+ab
+ab
+ab
 tr
 tr
-KR
-KR
-tn
-KR
-KR
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+ab
+ab
+ab
+ab
+ab
+gD
+gn
+fo
+fR
+fE
+fn
+ab
+aa
+aa
+aa
+aa
+ab
+ab
+dP
+dD
+dh
+cL
+cx
+ab
+ab
+aa
+aa
 az
 az
 az
@@ -4841,47 +8870,47 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-KR
+aa
+aa
+aa
+aa
+aa
+ab
+aa
+aa
+aa
+ab
+ab
 rp
 rp
-KR
+ab
 Mh
-LV
+hi
 hb
-KR
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+ab
+gE
+go
+fo
+fo
+fo
+fo
+ab
+aa
+aa
+aa
+ab
+ab
+ab
+cy
+dE
+di
+cM
+cy
+ab
+ab
+ab
+aa
+aa
 az
 az
 az
@@ -4963,47 +8992,47 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-KR
-rp
-rp
-Vl
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ab
+hQ
+hD
+fL
 yu
 ag
 oD
-KR
-KR
-KR
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+ab
+gF
+fm
+gc
+fS
+fF
+fp
+ab
+aa
+aa
+ab
+ab
+ab
+ab
+dQ
+dF
+dj
+cN
+cz
+ab
+ab
+ab
+ab
+aa
 az
 az
 az
@@ -5085,47 +9114,47 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-KR
-rp
-rp
-Vl
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ab
+hE
+hE
+fL
 qF
-LV
+gZ
 HK
 Fp
 EH
 KR
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+gd
+fT
+fm
+fq
+ab
+aa
+aa
+ab
+er
+ei
+ec
+dR
+dG
+dk
+cO
+cA
+cr
+ch
+bW
+ab
+aa
 az
 az
 az
@@ -5213,41 +9242,41 @@ az
 az
 az
 az
-az
-az
-az
-az
-KR
-rp
-rp
-KR
+aa
+aa
+aa
+aa
+ab
+hF
+hF
+ab
 KE
-LV
+gZ
 HK
-KR
-KR
-KR
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+ab
+gG
+gp
+ge
+fS
+fG
+fr
+ab
+aa
+aa
+ab
+ac
+ej
+ed
+dS
+cP
+cP
+cP
+cB
+cs
+ci
+ac
+ab
+aa
 az
 az
 az
@@ -5335,41 +9364,41 @@ az
 az
 az
 az
-az
-az
-KR
-KR
-KR
+aa
+aa
+ab
+ab
+ab
 tr
 tr
-KR
-KR
+ab
+ab
 tn
-KR
-KR
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+aa
+aa
+ab
+ab
+ab
+ab
+dT
+dH
+dj
+cQ
+cC
+ab
+ab
+ab
+ab
+aa
 az
 az
 az
@@ -5457,41 +9486,41 @@ az
 az
 az
 az
-az
-az
-KR
+aa
+aa
+ab
 Ta
 mD
-nm
-nm
+hj
+hj
 pv
-LV
+gZ
 UV
 LV
-KR
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+ab
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ab
+ab
+ab
+dU
+dI
+dl
+cR
+cD
+ab
+ab
+ab
+aa
+aa
 az
 az
 az
@@ -5579,40 +9608,40 @@ az
 az
 az
 az
-az
-az
-KR
+aa
+aa
+ab
 QV
 dA
 Ie
 Ie
 sq
+hj
+hj
 nm
-nm
-nm
-KR
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+ab
+ab
+ab
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ab
+ab
+cy
+dJ
+dm
+cS
+cE
+ab
+ab
+aa
+aa
 az
 az
 az
@@ -5701,9 +9730,9 @@ az
 az
 az
 az
-az
-az
-KR
+aa
+aa
+ab
 kD
 Oq
 nv
@@ -5713,28 +9742,28 @@ tT
 uk
 tT
 nt
+ac
+ab
+aa
 az
 az
 az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+aa
+aa
+ab
+ab
+ab
+dK
+dn
+cT
+ab
+ab
+ab
+aa
+aa
 az
 az
 az
@@ -5823,9 +9852,9 @@ az
 az
 az
 az
-az
-az
-KR
+aa
+aa
+ab
 ix
 Jj
 KU
@@ -5835,6 +9864,9 @@ dv
 dv
 sj
 nt
+ac
+ab
+aa
 az
 az
 az
@@ -5842,20 +9874,17 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+aa
+aa
+ab
+ab
+ab
+do
+ab
+ab
+ab
+aa
+aa
 az
 az
 az
@@ -5945,9 +9974,9 @@ az
 az
 az
 az
-az
-az
-KR
+aa
+aa
+ab
 AU
 Sj
 UP
@@ -5957,6 +9986,9 @@ Uw
 Vu
 Uw
 nt
+ac
+ab
+aa
 az
 az
 az
@@ -5964,20 +9996,17 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+aa
+aa
+aa
+ab
+ab
+ab
+ab
+ab
+aa
+aa
+aa
 az
 az
 az
@@ -6067,18 +10096,21 @@ az
 az
 az
 az
-az
-az
-KR
+aa
+aa
+ab
 bM
 Og
 he
-yS
+hr
 mh
-yS
+hr
 Jy
 yS
-KR
+ab
+ab
+ab
+aa
 az
 az
 az
@@ -6086,19 +10118,16 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+aa
+aa
+aa
+aa
+ab
+ab
+ab
+aa
+aa
+aa
 az
 az
 az
@@ -6189,18 +10218,21 @@ az
 az
 az
 az
-az
-az
-KR
+aa
+aa
+ab
 xA
 lu
 jX
 Jw
-LV
-LV
-LV
-LV
-KR
+hz
+gZ
+gZ
+gZ
+ab
+aa
+aa
+aa
 az
 az
 az
@@ -6210,16 +10242,13 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 az
 az
 az
@@ -6311,20 +10340,20 @@ az
 az
 az
 az
-az
-az
-KR
-KR
-KR
-KR
-KR
-KR
-KR
-KR
-KR
-KR
-az
-az
+aa
+aa
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+aa
+aa
 az
 az
 az
@@ -6433,20 +10462,20 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 az
 az
 az
@@ -6555,20 +10584,20 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 az
 az
 az
@@ -6681,12 +10710,12 @@ az
 az
 az
 az
-KR
-KR
-Vl
-Vl
-KR
-KR
+az
+az
+az
+az
+az
+az
 az
 az
 az
@@ -6803,12 +10832,12 @@ az
 az
 az
 az
-KR
 az
-DU
-DU
 az
-KR
+az
+az
+az
+az
 az
 az
 az
@@ -7047,12 +11076,12 @@ az
 az
 az
 az
-KR
 az
 az
 az
 az
-KR
+az
+az
 az
 az
 az
@@ -7169,12 +11198,12 @@ az
 az
 az
 az
-KR
-KR
-KR
-KR
 az
-KR
+az
+az
+az
+az
+az
 az
 az
 az
