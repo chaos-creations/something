@@ -32,6 +32,7 @@
 	dir = 4;
 	layer = 3.25
 	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/prison/floor_plate/southwest,
 /area/galleyburned)
 "ah" = (
@@ -603,6 +604,7 @@
 	pixel_y = 7;
 	pixel_x = -3
 	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/prison/floor_plate/southwest,
 /area/galleyburned)
 "bN" = (
@@ -1456,6 +1458,7 @@
 	pixel_y = 0
 	},
 /obj/structure/prop/hybrisa/vehicles/Small_Truck/Mining,
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/prison/floor_plate/southwest,
 /area/galleyburned)
 "dB" = (
@@ -2240,6 +2243,8 @@
 	pixel_y = 1
 	},
 /obj/structure/machinery/power/apc/almayer/south,
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/item/trash/candy,
 /turf/open/floor/almayer/blackfull/west,
 /area/galleyburned)
 "eW" = (
@@ -2261,6 +2266,7 @@
 	icon_state = "N";
 	pixel_y = 1
 	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/almayer/blackfull/west,
 /area/galleyburned)
 "eY" = (
@@ -2288,6 +2294,7 @@
 /area/galleyburned)
 "fb" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/effect/spawner/gibspawner/xeno,
 /turf/open/floor/strata/orange_icorner/east,
 /area/galleyburned)
 "fc" = (
@@ -2319,6 +2326,7 @@
 /obj/structure/machinery/light/double/blue{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/almayer/blackfull/west,
 /area/galleyburned)
 "fh" = (
@@ -2408,6 +2416,22 @@
 /area/galleyburned)
 "fs" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/effect/spawner/gibspawner/robot,
+/obj/item/clothing/suit/storage/marine/veteran/pmc/light/synth{
+	desc = "A serious modification of the standard Armat Systems M3 armor. This variant was designed for PMC Support Units in the field, with every armor insert removed. It's designed with the idea of a high speed lifesaver in mind. This set seems damaged...";
+	name = "damaged M4 Synthetic PMC armor";
+	pixel_x = -5;
+	pixel_y = -5
+	},
+/obj/item/limb/head/synth{
+	desc = "This appears to be the head of a synthetic, though it it is so destroyed there is no way in hell anyone is going to bring it back to even basic functionality.";
+	name = "shattered synthetic head";
+	pixel_x = 10;
+	pixel_y = -1;
+	dir = 2;
+	icon = 'icons/mob/humans/species/r_synthetic.dmi'
+	},
+/obj/item/robot_parts/arm/l_arm,
 /turf/open/floor/strata/orange_edge/northeast,
 /area/galleyburned)
 "ft" = (
@@ -2419,6 +2443,10 @@
 	icon_state = "NE-out";
 	pixel_y = 2;
 	pixel_x = 1
+	},
+/obj/effect/decal/cleanable/blood/xeno{
+	dir = 4;
+	icon_state = "xsplatter3"
 	},
 /turf/open/floor/strata/orange_edge/north,
 /area/galleyburned)
@@ -2478,6 +2506,7 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "W"
 	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/almayer/blackfull/west,
 /area/galleyburned)
 "fA" = (
@@ -2491,6 +2520,10 @@
 	color = "#73bee1";
 	pixel_x = 8
 	},
+/obj/item/storage/briefcase{
+	pixel_y = 15;
+	pixel_x = -9
+	},
 /turf/open/floor/almayer/blackfull/west,
 /area/galleyburned)
 "fB" = (
@@ -2498,10 +2531,8 @@
 	icon_state = "E";
 	pixel_x = 1
 	},
-/obj/structure/bed/chair/comfy/black{
-	dir = 4;
-	buckling_x = -4
-	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/prop/hybrisa/misc/buildinggreeblies/greeble11,
 /turf/open/floor/almayer/blackfull/west,
 /area/galleyburned)
 "fC" = (
@@ -2575,6 +2606,11 @@
 /area/galleyburned)
 "fH" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/item/robot_parts/leg/l_leg,
+/obj/effect/decal/cleanable/blood/xeno{
+	dir = 8;
+	icon_state = "xsplatter5"
+	},
 /turf/open/floor/strata/orange_edge/west,
 /area/galleyburned)
 "fI" = (
@@ -2713,9 +2749,11 @@
 /obj/effect/decal/cleanable/hybrisa/trash{
 	pixel_y = 12
 	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/hybrisa/tile/tilegrey,
 /area/galleyburned)
 "fX" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/hybrisa/tile/tilegrey,
 /area/galleyburned)
 "fY" = (
@@ -2728,6 +2766,7 @@
 	pixel_x = 1
 	},
 /obj/structure/largecrate/random/case/double,
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/almayer/blackfull/west,
 /area/galleyburned)
 "ga" = (
@@ -2740,6 +2779,7 @@
 	icon_state = "N";
 	pixel_y = 1
 	},
+/obj/structure/machinery/recharge_station,
 /turf/open/floor/almayer/blackfull/west,
 /area/galleyburned)
 "gb" = (
@@ -2817,11 +2857,15 @@
 	pixel_y = -8;
 	layer = 4
 	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/hybrisa/tile/tilegrey,
 /area/galleyburned)
 "gh" = (
 /mob/living/simple_animal/cat/blackcat{
 	name = "Buttons"
+	},
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_2"
 	},
 /turf/open/floor/hybrisa/tile/tilegrey,
 /area/galleyburned)
@@ -2836,6 +2880,8 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "E"
 	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/janitorialcart,
 /turf/open/floor/almayer/blackfull/west,
 /area/galleyburned)
 "gk" = (
@@ -2920,9 +2966,9 @@
 	pixel_x = 3
 	},
 /obj/structure/machinery/big_computers/messaging_server/black,
-/obj/item/storage/backpack/marine/satchel/rto/small{
-	pixel_x = -8;
-	pixel_y = 20
+/obj/item/storage/backpack/marine/smartpack/white{
+	pixel_x = -2;
+	pixel_y = 14
 	},
 /turf/open/floor/hybrisa/tile/tilegrey,
 /area/galleyburned)
@@ -2940,8 +2986,8 @@
 	explo_proof = 1
 	},
 /obj/structure/machinery/door_control{
-	id = "bunker_front_doors";
-	name = "Bunker Checkpoint Lockdown - Main doors";
+	id = "bunker_garage_doors";
+	name = "Bunker Checkpoint Lockdown - North Entrance";
 	explo_proof = 1;
 	pixel_y = -4
 	},
@@ -2970,13 +3016,6 @@
 	pixel_y = 32
 	},
 /obj/structure/machinery/big_computers/computerblack/computer4,
-/obj/structure/machinery/door_control{
-	id = "bunker_garage_doors";
-	name = "Bunker Checkpoint Lockdown - North Entrance";
-	explo_proof = 1;
-	pixel_y = -4;
-	pixel_x = 9
-	},
 /turf/open/floor/hybrisa/tile/tilegrey,
 /area/galleyburned)
 "gx" = (
@@ -3137,6 +3176,7 @@
 	pixel_x = 0;
 	pixel_y = 0
 	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/almayer/blackfull/west,
 /area/galleyburned)
 "gR" = (
@@ -3198,6 +3238,8 @@
 	pixel_y = 1;
 	pixel_x = 0
 	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/closet/firecloset,
 /turf/open/floor/almayer/blackfull/west,
 /area/galleyburned)
 "gZ" = (
@@ -3215,6 +3257,7 @@
 /obj/structure/bed/hybrisa/prisonbed{
 	dir = 10
 	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/almayer/blackfull/west,
 /area/galleyburned)
 "hc" = (
@@ -3292,12 +3335,14 @@
 	pixel_y = 1
 	},
 /obj/structure/largecrate/random/barrel/medical,
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/almayer/blackfull/west,
 /area/galleyburned)
 "hi" = (
 /obj/structure/machinery/light/double/blue{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/prison/floor_plate/southwest,
 /area/galleyburned)
 "hj" = (
@@ -3452,6 +3497,7 @@
 	pixel_y = 0
 	},
 /obj/structure/largecrate/random/case/double,
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/almayer/blackfull/west,
 /area/galleyburned)
 "hx" = (
@@ -3482,12 +3528,14 @@
 	layer = 2.5;
 	pixel_y = 0
 	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/almayer/blackfull/west,
 /area/galleyburned)
 "hz" = (
 /obj/structure/machinery/light/double/blue{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/prison/floor_plate/southwest,
 /area/galleyburned)
 "hA" = (
@@ -3542,6 +3590,7 @@
 /obj/structure/closet/secure_closet/marine_personal/rifleman{
 	pixel_x = 8
 	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/corsat/squares,
 /area/galleyburned)
 "hI" = (
@@ -3563,6 +3612,7 @@
 /area/galleyburned)
 "hK" = (
 /obj/structure/machinery/space_heater/radiator/red,
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/almayer,
 /area/galleyburned)
 "hL" = (
@@ -3575,6 +3625,7 @@
 /obj/structure/machinery/light/double/blue{
 	dir = 2
 	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/almayer/black/east,
 /area/galleyburned)
 "hM" = (
@@ -3583,6 +3634,7 @@
 	pixel_y = 11;
 	pixel_x = -1
 	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/almayer/blackfull/west,
 /area/galleyburned)
 "hN" = (
@@ -3601,6 +3653,7 @@
 	pixel_x = -2;
 	pixel_y = 5
 	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/almayer/blackfull/west,
 /area/galleyburned)
 "hO" = (
@@ -3677,6 +3730,7 @@
 /turf/open/floor/almayer,
 /area/galleyburned)
 "hW" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/almayer/blackcorner,
 /area/galleyburned)
 "hX" = (
@@ -3684,10 +3738,14 @@
 	pixel_y = 13;
 	layer = 4
 	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/almayer/black,
 /area/galleyburned)
 "hY" = (
 /obj/item/weapon/twohanded/folded_metal_chair,
+/obj/structure/prop/hybrisa/misc/machinery/screens/telescreenbrokespark{
+	pixel_x = 32
+	},
 /turf/open/floor/almayer/black,
 /area/galleyburned)
 "hZ" = (
@@ -3746,6 +3804,7 @@
 	dir = 8;
 	pixel_y = -19
 	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/corsat/squares,
 /area/galleyburned)
 "if" = (
@@ -3768,6 +3827,7 @@
 /obj/structure/prop/hybrisa/fakeplatforms/platform4/deco{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/almayer/blackcorner/north,
 /area/galleyburned)
 "ii" = (
@@ -3775,6 +3835,7 @@
 	pixel_x = 11;
 	pixel_y = 3
 	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/almayer,
 /area/galleyburned)
 "ij" = (
@@ -3810,6 +3871,9 @@
 	pixel_x = -8;
 	density = 0
 	},
+/obj/structure/prop/hybrisa/misc/buildinggreebliessmall/smallvent3{
+	pixel_y = 28
+	},
 /turf/open/floor/corsat/squares,
 /area/galleyburned)
 "in" = (
@@ -3817,6 +3881,11 @@
 	pixel_x = 9;
 	density = 0
 	},
+/obj/structure/sign/poster/clf{
+	pixel_x = -1;
+	pixel_y = 33
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/corsat/squares,
 /area/galleyburned)
 "io" = (
@@ -3826,6 +3895,7 @@
 /obj/structure/machinery/light/small/blue{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/strata/multi_tiles/west,
 /area/galleyburned)
 "ip" = (
@@ -3840,12 +3910,14 @@
 	pixel_x = 1;
 	pixel_y = 8
 	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/almayer/black/northwest,
 /area/galleyburned)
 "ir" = (
 /obj/structure/machinery/vending/dinnerware{
 	pixel_y = 7
 	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/almayer/black/north,
 /area/galleyburned)
 "is" = (
@@ -3887,6 +3959,7 @@
 /obj/structure/machinery/light/double/blue{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/prison/floor_plate/southwest,
 /area/galleyburned)
 "iy" = (
@@ -3983,12 +4056,18 @@
 /obj/structure/machinery/light/double/blue{
 	dir = 2
 	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/bedsheetbin{
+	pixel_x = 2;
+	pixel_y = 0
+	},
 /turf/open/floor/hybrisa/carpet/carpetdarkerblue,
 /area/galleyburned)
 "iH" = (
 /obj/structure/bed/hybrisa/bunkbed2{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/hybrisa/carpet/carpetdarkerblue,
 /area/galleyburned)
 "iI" = (
@@ -4043,9 +4122,17 @@
 	},
 /area/galleyburned)
 "iQ" = (
-/obj/structure/machinery/space_heater/radiator/red{
-	dir = 1;
-	pixel_y = 26
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/machinery/washing_machine{
+	pixel_x = 0;
+	pixel_y = 17
+	},
+/obj/item/reagent_container/glass/rag{
+	desc = "A pile of clothing, these need washing...";
+	name = "pile of clothing";
+	color = "#37485b";
+	pixel_x = 6;
+	pixel_y = -12
 	},
 /turf/open/floor/hybrisa/carpet/carpetdarkerblue,
 /area/galleyburned)
@@ -4053,6 +4140,10 @@
 /obj/structure/prop/almayer/ship_memorial/golden_arrow{
 	layer = 2.9;
 	pixel_y = 33
+	},
+/obj/item/clothing/shoes/black{
+	pixel_y = 11;
+	pixel_x = -5
 	},
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/galleyburned)
@@ -4066,6 +4157,368 @@
 /obj/structure/machinery/telecomms/relay/preset/tower,
 /turf/open/floor/almayer,
 /area/galleyburned)
+"iU" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/largecrate/empty/case,
+/obj/item/card/id/guest{
+	pixel_y = 4;
+	pixel_x = 0
+	},
+/turf/open/floor/almayer/blackfull/west,
+/area/galleyburned)
+"iV" = (
+/obj/effect/decal/medical_decals{
+	icon_state = "triagedecaldir";
+	color = "#d3d3d3"
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/galleyburned)
+"iW" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/strata/multi_tiles,
+/area/galleyburned)
+"iX" = (
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_16"
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/galleyburned)
+"iY" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/almayer/blackfull/west,
+/area/galleyburned)
+"iZ" = (
+/obj/item/weapon/twohanded/breacher/synth{
+	pixel_x = 10;
+	pixel_y = 11
+	},
+/turf/open/floor/strata/orange_edge/west,
+/area/galleyburned)
+"ja" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_x = 0;
+	pixel_y = 0
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/structure/prop/hybrisa/misc/buildinggreebliessmall/smallvent2{
+	pixel_y = 25
+	},
+/obj/structure/largecrate/random/mini/small_case{
+	pixel_x = -8;
+	pixel_y = 15;
+	layer = 2.9
+	},
+/obj/item/clothing/head/soft/ferret{
+	pixel_x = -9;
+	pixel_y = 14
+	},
+/turf/open/floor/almayer/blackfull/west,
+/area/galleyburned)
+"jb" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/item/reagent_container/glass/bucket{
+	pixel_x = -6;
+	pixel_y = 10
+	},
+/obj/item/tool/mop{
+	pixel_y = 20;
+	pixel_x = 8
+	},
+/obj/structure/bed/stool{
+	buckling_y = 14;
+	layer = 4;
+	pixel_y = -1;
+	pixel_x = 6
+	},
+/turf/open/floor/almayer/blackfull/west,
+/area/galleyburned)
+"jc" = (
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_14";
+	pixel_y = 6
+	},
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/galleyburned)
+"jd" = (
+/obj/structure/machinery/door_control{
+	id = "bunker_front_doors";
+	name = "Bunker Checkpoint Lockdown - Main doors";
+	explo_proof = 1;
+	pixel_y = -4
+	},
+/turf/open/space/basic,
+/area/galleyburned)
+"je" = (
+/obj/structure/prop/hybrisa/misc/buildinggreebliessmall/smallvent3{
+	pixel_y = 28
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/galleyburned)
+"jf" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/blocker/invisible_wall,
+/obj/effect/spawner/gibspawner/robot,
+/turf/open/floor/plating/platingdmg3/west,
+/area/galleyburned)
+"jg" = (
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_10";
+	pixel_x = -8;
+	pixel_y = 12
+	},
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/galleyburned)
+"jh" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 2.5;
+	pixel_y = 0
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/almayer/blackfull/west,
+/area/galleyburned)
+"ji" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/surface/rack,
+/turf/open/floor/almayer/blackfull/west,
+/area/galleyburned)
+"jj" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/structure/bed/chair/comfy/black{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/almayer/blackfull/west,
+/area/galleyburned)
+"jk" = (
+/obj/effect/decal/hybrisa/road/lines1,
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/hybrisa/street/asphalt,
+/area/galleyburned)
+"jl" = (
+/obj/effect/decal/hybrisa/road/lines4,
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/hybrisa/street/asphalt,
+/area/galleyburned)
+"jm" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/prison/floor_plate/southwest,
+/area/galleyburned)
+"jn" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/auto_turf/hybrisa_auto_turf/layer0,
+/area/galleyburned)
+"jo" = (
+/obj/item/prop/alien/hugger,
+/obj/item/attachable/bayonet,
+/obj/effect/decal/cleanable/blood/xeno{
+	pixel_x = -6;
+	pixel_y = 4
+	},
+/turf/open/auto_turf/hybrisa_auto_turf/layer0,
+/area/galleyburned)
+"jp" = (
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_12";
+	pixel_x = 0
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/galleyburned)
+"jq" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/prison/floor_plate/southwest,
+/area/galleyburned)
+"jr" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 2.5;
+	pixel_y = 0
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/prison/floor_plate/southwest,
+/area/galleyburned)
+"js" = (
+/obj/structure/roof/hybrisa/billboardsandsigns/billboardsmedium/billboard3{
+	dir = 5;
+	pixel_y = 33;
+	pixel_x = 0;
+	lazy_nodes = 0;
+	layer = 3
+	},
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/galleyburned)
+"jt" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_x = 0;
+	pixel_y = 0
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/item/tool/wet_sign{
+	pixel_x = -9;
+	pixel_y = 12
+	},
+/obj/item/tool/wet_sign{
+	pixel_y = 2;
+	pixel_x = 1
+	},
+/turf/open/floor/almayer/blackfull/west,
+/area/galleyburned)
+"ju" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 2.5;
+	pixel_y = 0
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/structure/closet/emcloset,
+/turf/open/floor/almayer/blackfull/west,
+/area/galleyburned)
+"jv" = (
+/obj/effect/decal/cleanable/blood{
+	icon_state = "csplatter1"
+	},
+/turf/open/auto_turf/hybrisa_auto_turf/layer2,
+/area/galleyburned)
+"jw" = (
+/obj/effect/decal/hybrisa/road/lines4,
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_10";
+	pixel_x = -8;
+	pixel_y = 12
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/galleyburned)
+"jx" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/extinguisher_cabinet{
+	pixel_x = -30
+	},
+/turf/open/floor/strata/floor3,
+/area/galleyburned)
+"jy" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/structure/machinery/light/double/blue{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/almayer/blackfull/west,
+/area/galleyburned)
+"jz" = (
+/obj/effect/decal/hybrisa/road/road_stop{
+	dir = 4;
+	icon_state = "stop_decal5";
+	pixel_x = 3
+	},
+/obj/structure/prop/hybrisa/misc/buildinggreebliessmall/smallvent2{
+	pixel_y = 25
+	},
+/turf/open/floor/strata/floor3,
+/area/galleyburned)
+"jA" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/hybrisa/street/roadlines4,
+/area/galleyburned)
+"jB" = (
+/obj/structure/prop/hybrisa/misc/redmeter{
+	pixel_y = 32
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/strata/multi_tiles,
+/area/galleyburned)
+"jC" = (
+/obj/structure/barricade/handrail/strata{
+	layer = 3.1
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/strata/multi_tiles/west,
+/area/galleyburned)
+"jD" = (
+/obj/structure/bed/hybrisa/bunkbed2{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/hybrisa/carpet/carpetdarkerblue,
+/area/galleyburned)
+"jE" = (
+/obj/structure/machinery/light/double/blue{
+	dir = 2
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/flora/pottedplant{
+	icon_state = "pottedplant_2"
+	},
+/turf/open/floor/hybrisa/carpet/carpetdarkerblue,
+/area/galleyburned)
+"jF" = (
+/obj/effect/landmark/late_join,
+/obj/effect/landmark/start/marine/leader/alpha,
+/obj/effect/landmark/start/marine/medic/alpha,
+/obj/effect/landmark/start/marine/alpha,
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/hybrisa/carpet/carpetdarkerblue,
+/area/galleyburned)
+"jG" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/hybrisa/carpet/carpetdarkerblue,
+/area/galleyburned)
+"jH" = (
+/obj/structure/machinery/space_heater/radiator/red{
+	dir = 1;
+	pixel_y = 26
+	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
+/turf/open/floor/hybrisa/carpet/carpetdarkerblue,
+/area/galleyburned)
+"jI" = (
+/obj/structure/machinery/power/reactor{
+	name = "\improper S-52 fusion reactor 17"
+	},
+/obj/structure/prop/hybrisa/misc/redmeter{
+	pixel_y = 32
+	},
+/turf/open/floor/almayer,
+/area/galleyburned)
 "jX" = (
 /turf/open/floor/prison/ramptop/east{
 	dir = 2
@@ -4073,6 +4526,7 @@
 /area/galleyburned)
 "kD" = (
 /obj/structure/cargo_container/hd/right/alt,
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/prison/floor_plate/southwest,
 /area/galleyburned)
 "lu" = (
@@ -4096,6 +4550,7 @@
 	pixel_x = 1;
 	pixel_y = 0
 	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/prison/floor_plate/southwest,
 /area/galleyburned)
 "nm" = (
@@ -4104,6 +4559,7 @@
 	pixel_x = 1
 	},
 /obj/structure/machinery/light/small/red,
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/prison/floor_plate/southwest,
 /area/galleyburned)
 "nt" = (
@@ -4134,6 +4590,7 @@
 	pixel_x = 8;
 	pixel_y = -2
 	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/almayer/blackfull/west,
 /area/galleyburned)
 "pv" = (
@@ -4169,6 +4626,7 @@
 	pixel_x = -8;
 	pixel_y = -1
 	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/almayer/blackfull/west,
 /area/galleyburned)
 "rp" = (
@@ -4230,10 +4688,15 @@
 /obj/item/tool/warning_cone{
 	pixel_x = 10
 	},
+/obj/effect/decal/cleanable/hybrisa/trash{
+	icon_state = "trash_11";
+	pixel_y = 12
+	},
 /turf/open/hybrisa/street/asphalt,
 /area/galleyburned)
 "xA" = (
 /obj/structure/largecrate/random/case/double,
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/prison/floor_plate/southwest,
 /area/galleyburned)
 "yu" = (
@@ -4258,10 +4721,12 @@
 	pixel_y = 0
 	},
 /obj/structure/machinery/light/small/red,
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/prison/floor_plate/southwest,
 /area/galleyburned)
 "AU" = (
 /obj/item/tool/shovel,
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/prison/ramptop/east{
 	dir = 4
 	},
@@ -4285,6 +4750,7 @@
 /turf/open/floor/corsat/officetiles,
 /area/galleyburned)
 "HK" = (
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/almayer/blackfull/west,
 /area/galleyburned)
 "Ie" = (
@@ -4300,6 +4766,7 @@
 	pixel_x = 0;
 	pixel_y = 7
 	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/prison/floor_plate/southwest,
 /area/galleyburned)
 "Jw" = (
@@ -4307,6 +4774,7 @@
 	pixel_x = 4;
 	pixel_y = 8
 	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/prison/floor_plate/southwest,
 /area/galleyburned)
 "Jy" = (
@@ -4318,6 +4786,7 @@
 /obj/structure/prop/hybrisa/vehicles/Box_Vans/Pizza{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/prison/floor_plate/southwest,
 /area/galleyburned)
 "KE" = (
@@ -4340,6 +4809,7 @@
 	layer = 4;
 	pixel_y = 32
 	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/almayer/blackfull/west,
 /area/galleyburned)
 "KR" = (
@@ -4352,6 +4822,7 @@
 /area/galleyburned)
 "LV" = (
 /obj/structure/platform/metal/hybrisa/metalplatform6/north,
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/prison/floor_plate/southwest,
 /area/galleyburned)
 "Mh" = (
@@ -4373,6 +4844,7 @@
 	pixel_x = 2;
 	pixel_y = 2
 	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/prison/floor_plate/southwest,
 /area/galleyburned)
 "Oq" = (
@@ -4381,10 +4853,12 @@
 	pixel_x = 0;
 	pixel_y = 0
 	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/prison/floor_plate/southwest,
 /area/galleyburned)
 "QV" = (
 /obj/structure/cargo_container/hd/mid/alt,
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/prison/floor_plate/southwest,
 /area/galleyburned)
 "Sj" = (
@@ -4393,6 +4867,7 @@
 	pixel_x = 0;
 	pixel_y = 0
 	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/prison/ramptop/east{
 	dir = 4
 	},
@@ -4403,6 +4878,7 @@
 	pixel_x = -3;
 	pixel_y = -16
 	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/prison/floor_plate/southwest,
 /area/galleyburned)
 "Uw" = (
@@ -4412,6 +4888,10 @@
 "UP" = (
 /obj/effect/decal/hybrisa/road/lines4,
 /obj/effect/decal/hybrisa/road/lines2,
+/obj/effect/decal/cleanable/hybrisa/trash{
+	dir = 8;
+	icon_state = "trash_11"
+	},
 /turf/open/hybrisa/street/asphalt,
 /area/galleyburned)
 "UV" = (
@@ -4428,6 +4908,7 @@
 	pixel_x = -10;
 	pixel_y = 0
 	},
+/obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/hybrisa/street/asphalt,
 /area/galleyburned)
 
@@ -5347,7 +5828,7 @@ gH
 gI
 gH
 gI
-gI
+jn
 gR
 gK
 aa
@@ -5466,7 +5947,7 @@ gI
 gI
 gI
 gI
-gH
+jv
 gI
 gH
 gI
@@ -5713,9 +6194,9 @@ gI
 hB
 hk
 gS
-gI
+jo
 gH
-gL
+jf
 ab
 ab
 ab
@@ -5842,7 +6323,7 @@ gs
 gf
 fU
 fH
-bb
+iZ
 fb
 ab
 ab
@@ -6448,7 +6929,7 @@ aa
 aa
 aa
 aa
-aa
+jd
 aa
 ab
 fK
@@ -6552,7 +7033,7 @@ az
 az
 az
 az
-iS
+jI
 iT
 iS
 aa
@@ -6806,11 +7287,11 @@ iD
 iw
 aS
 ff
-ff
-aS
+iW
+bU
 fM
-aS
-ff
+bU
+iW
 hd
 ab
 ab
@@ -6819,8 +7300,8 @@ gg
 fW
 fL
 fy
-au
-eU
+aw
+iU
 ab
 eG
 ev
@@ -6927,7 +7408,7 @@ ab
 iE
 ab
 in
-au
+aw
 au
 hI
 ab
@@ -6941,7 +7422,7 @@ gh
 fX
 fM
 aS
-ff
+iW
 eV
 ab
 eH
@@ -7054,7 +7535,7 @@ hS
 ab
 ab
 hv
-au
+aw
 hg
 ab
 ab
@@ -7063,7 +7544,7 @@ gi
 fY
 fL
 fz
-au
+aw
 eW
 ab
 eI
@@ -7167,13 +7648,13 @@ aa
 ab
 iF
 iJ
-iJ
-iF
+jF
+jD
 ab
-ff
+jB
 hT
 hT
-av
+jx
 ab
 ab
 hp
@@ -7185,7 +7666,7 @@ fk
 ab
 ab
 fA
-au
+iX
 eU
 ab
 eJ
@@ -7289,7 +7770,7 @@ aa
 ab
 iQ
 iK
-iK
+jG
 iG
 ab
 io
@@ -7298,7 +7779,7 @@ hU
 hJ
 ab
 hw
-au
+aw
 eX
 gW
 gP
@@ -7306,7 +7787,7 @@ gx
 gj
 fZ
 ab
-fy
+ja
 au
 eX
 eQ
@@ -7412,25 +7893,25 @@ ab
 iR
 aS
 aS
-aS
+bU
 iy
 ip
 ig
 hV
 hK
 ab
+js
+bU
+bU
+jg
 aS
 aS
-aS
-aS
-aS
-aS
-aS
-aS
+bU
+bU
 fN
 aS
 aS
-eY
+iV
 eR
 eL
 ez
@@ -7531,12 +8012,12 @@ az
 aa
 aa
 ab
-aS
+bU
 aS
 iL
 aS
 iy
-ip
+jC
 ig
 hW
 hL
@@ -7544,14 +8025,14 @@ ab
 aS
 aS
 aS
-aS
-aS
+bU
+bU
 aS
 aS
 aS
 eS
-aS
-aS
+bU
+bU
 eY
 eS
 eM
@@ -7653,10 +8134,10 @@ az
 aa
 aa
 ab
-iQ
+jH
+jG
 iK
-iK
-iG
+jE
 ab
 iq
 ih
@@ -7666,13 +8147,13 @@ ab
 hx
 au
 au
-ga
+jh
 gQ
 au
 au
 ga
 ab
-eZ
+jb
 fg
 eZ
 eQ
@@ -7776,7 +8257,7 @@ aa
 aa
 ab
 iH
-iJ
+jF
 iJ
 iH
 ab
@@ -7907,17 +8388,17 @@ ab
 ab
 ab
 ab
-fy
+jt
 au
-au
-eU
+aw
+ji
 ab
-au
-au
+aw
+aw
 eX
-fB
-fB
 fh
+fB
+iY
 ab
 ab
 eP
@@ -8029,17 +8510,17 @@ ab
 hZ
 hO
 hC
-aS
-au
-au
-gX
+bU
+aw
+aw
+jj
 ab
 gy
 au
+bU
 aS
 aS
-aS
-bQ
+fi
 fa
 ab
 aj
@@ -8152,14 +8633,14 @@ ab
 hP
 ab
 hy
-au
+aw
 au
 gX
 ab
+je
 au
-au
-aS
-aS
+bU
+jc
 aS
 fi
 fa
@@ -8271,11 +8752,11 @@ iz
 is
 ij
 ia
-gW
-fh
+jy
+iY
 fy
 au
-au
+jp
 eW
 ab
 gz
@@ -8393,10 +8874,10 @@ iA
 it
 ik
 ib
-aS
-aS
-aS
-aS
+bU
+bU
+bU
+bU
 aS
 gX
 ab
@@ -8517,10 +8998,10 @@ il
 ic
 aS
 aS
-aS
-aS
-aS
-gX
+bU
+bU
+bU
+jj
 ab
 gB
 gm
@@ -8639,7 +9120,7 @@ ab
 id
 au
 au
-ga
+ju
 hq
 hh
 gY
@@ -8881,7 +9362,7 @@ aa
 aa
 ab
 ab
-rp
+jz
 rp
 ab
 Mh
@@ -9126,7 +9607,7 @@ aa
 aa
 ab
 hE
-hE
+jw
 fL
 qF
 gZ
@@ -9491,10 +9972,10 @@ aa
 ab
 Ta
 mD
-hj
-hj
+jq
+jq
 pv
-gZ
+jm
 UV
 LV
 ab
@@ -9613,11 +10094,11 @@ aa
 ab
 QV
 dA
-Ie
+jA
 Ie
 sq
 hj
-hj
+jq
 nm
 ab
 ab
@@ -9740,7 +10221,7 @@ tT
 tT
 tT
 uk
-tT
+jk
 nt
 ac
 ab
@@ -9984,7 +10465,7 @@ Uw
 Uw
 Uw
 Vu
-Uw
+jl
 nt
 ac
 ab
@@ -10104,7 +10585,7 @@ Og
 he
 hr
 mh
-hr
+jr
 Jy
 yS
 ab
@@ -10226,9 +10707,9 @@ lu
 jX
 Jw
 hz
-gZ
-gZ
-gZ
+jm
+jm
+jm
 ab
 aa
 aa
