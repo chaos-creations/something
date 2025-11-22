@@ -5126,7 +5126,7 @@
 /turf/open/floor/corsat,
 /area/scavenger_ship/logistics_maint)
 "ajL" = (
-/turf/closed/void,
+/turf/closed/noise,
 /area/scavenger_ship/logistics_maint)
 "ajM" = (
 /obj/structure/grille{
@@ -8657,7 +8657,7 @@
 	icon_state = "lattice12";
 	pixel_y = 13
 	},
-/turf/closed/void,
+/turf/closed/noise,
 /area/scavenger_ship/cryo_lockersaban)
 "arH" = (
 /obj/structure/cable/heavyduty{
@@ -52041,9 +52041,9 @@ rhS
 rhS
 qWQ
 qWQ
+aiZ
 ajL
-ajL
-ajL
+aiZ
 qWQ
 qWQ
 qWQ
@@ -52383,7 +52383,7 @@ rhS
 rhS
 rhS
 rhS
-ajL
+aiZ
 aiZ
 aiZ
 ajP
@@ -52727,7 +52727,7 @@ rhS
 rhS
 rhS
 rhS
-ajL
+aiZ
 aiZ
 aiZ
 ajR
