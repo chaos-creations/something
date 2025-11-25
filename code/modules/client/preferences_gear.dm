@@ -317,7 +317,7 @@ GLOBAL_LIST_EMPTY(gear_datums_by_name)
 	path = /obj/item/clothing/head/beret/marine/mp/mpcap
 
 /datum/gear/headwear/uscm
-	allowed_origins = USCM_ORIGINS
+//	allowed_origins = USCM_ORIGINS
 
 /datum/gear/headwear/uscm/bandana_green
 	display_name = "USCM bandana, green"
@@ -374,6 +374,14 @@ GLOBAL_LIST_EMPTY(gear_datums_by_name)
 /datum/gear/headwear/uscm/cap/sulaco
 	display_name = "USS Golden Arrow cap"
 	path = /obj/item/clothing/head/sulacocap
+
+/datum/gear/headwear/uscm/cap/french
+	display_name = "French Kepi"
+	path = /obj/item/clothing/head/cmcap/kepi
+
+/datum/gear/headwear/uscm/cap/french_aux
+	display_name = "French Expeditionary Kepi"
+	path = /obj/item/clothing/head/cmcap/kepi/auxiliary
 
 /datum/gear/headwear/uscm/cap/flap_jungle
 	display_name = "USCM expedition flapcap, jungle"
@@ -658,6 +666,10 @@ GLOBAL_LIST_EMPTY(gear_datums_by_name)
 /datum/gear/clothing/uniform_freelancer
 	display_name = "Freelancer uniform"
 	path = /obj/item/clothing/under/marine/veteran/freelancer
+
+/datum/gear/clothing/uniform_french
+	display_name = "French combat uniform"
+	path = /obj/item/clothing/under/marine/veteran/fil
 
 /datum/gear/clothing/uniform_security
 	display_name = "civilian security officer uniform"
@@ -1218,6 +1230,11 @@ GLOBAL_LIST_EMPTY(gear_datums_by_name)
 	allowed_origins = USCM_ORIGINS
 //	cost = 2
 
+/datum/gear/weapon/french
+	display_name = "FMB51 combat knife"
+	path = 	/obj/item/weapon/knife/marine/fil
+	cost = 2
+
 ///datum/gear/weapon/clfpistol
 //	display_name = "Hummingbird Pistol"
 //	path = /obj/item/storage/box/loadout/CLF_loadout
@@ -1310,6 +1327,11 @@ GLOBAL_LIST_EMPTY(gear_datums_by_name)
 	path = /obj/item/storage/large_holster/machete/arnold/weak
 	cost = 4
 //	allowed_origins = USCM_ORIGINS
+
+/datum/gear/weapon/french_machete
+	display_name = "CSAM Machete"
+	path = /obj/item/storage/pouch/machete/fil
+	cost = 4
 
 /*
 //================================================
@@ -1759,6 +1781,11 @@ GLOBAL_LIST_EMPTY(gear_datums_by_name)
 /datum/gear/misc/patch_rmc/twe
 	display_name = "Three World Empire shoulder patch"
 	path = /obj/item/clothing/accessory/patch/twe
+
+/datum/gear/misc/patch/french
+	display_name = "French flag shoulder patch"
+	path = /obj/item/clothing/accessory/patch/france
+	cost = 0
 
 /datum/gear/misc/family_photo
 	display_name = "Family photo"
