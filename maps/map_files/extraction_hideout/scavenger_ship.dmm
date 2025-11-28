@@ -186,7 +186,7 @@
 	dir = 2
 	},
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "aay" = (
 /turf/open/floor/almayer_hull/outerhull_dir/east,
 /area/space)
@@ -246,17 +246,17 @@
 /area/space)
 "aaI" = (
 /turf/closed/wall/strata_outpost/reinforced/hull,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "aaJ" = (
 /turf/closed/wall/strata_outpost/reinforced/hull,
-/area/prison/office2)
+/area/scavenger_ship/living_shop_room)
 "aaK" = (
 /obj/structure/window/framed/strata/hull,
 /obj/structure/machinery/door/firedoor/border_only/almayer{
 	dir = 2
 	},
 /turf/open/floor/corsat,
-/area/prison/office2)
+/area/scavenger_ship/living_shop_room)
 "aaL" = (
 /obj/structure/coatrack,
 /turf/open/floor/corsat,
@@ -336,7 +336,7 @@
 /obj/structure/window/framed/strata/hull,
 /obj/structure/machinery/door/firedoor/border_only/almayer,
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "aaZ" = (
 /turf/open/floor/hybrisa/engineership/engineer_floor13/southwest,
 /area/scavenger_ship/hangar_maint)
@@ -365,7 +365,7 @@
 "abd" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/corsat,
-/area/prison/office2)
+/area/scavenger_ship/living_shop_room)
 "abe" = (
 /obj/item/fuel_cell/used{
 	pixel_x = 10;
@@ -430,10 +430,10 @@
 /obj/structure/window/framed/strata/hull,
 /obj/structure/machinery/door/firedoor/border_only/almayer,
 /turf/open/floor/corsat,
-/area/prison/office2)
+/area/scavenger_ship/living_shop_room)
 "abp" = (
 /turf/open/floor/corsat,
-/area/prison/office2)
+/area/scavenger_ship/living_shop_room)
 "abq" = (
 /obj/structure/cargo_container/kelland/left,
 /obj/structure/machinery/light/small{
@@ -1115,7 +1115,7 @@
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/structure/machinery/power/apc/almayer/north,
 /turf/open/floor/corsat,
-/area/prison/office2)
+/area/scavenger_ship/living_shop_room)
 "acF" = (
 /obj/structure/foamed_metal/iron,
 /obj/effect/hybrisa/misc/fake/pipes/pipe1{
@@ -1991,7 +1991,7 @@
 /area/scavenger_ship/hangar_synth)
 "aez" = (
 /turf/closed/wall/strata_outpost/reinforced,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "aeA" = (
 /obj/structure/surface/table/almayer{
 	color = "#EBD9B7"
@@ -3969,7 +3969,7 @@
 	id = "ship_scholar_room"
 	},
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "ahX" = (
 /obj/structure/cargo_container/hybrisa/containersextended/redright{
 	opacity = 0
@@ -4331,7 +4331,7 @@
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/structure/machinery/light_construct,
 /turf/open/floor/corsat,
-/area/prison/office2)
+/area/scavenger_ship/living_shop_room)
 "aiA" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "SE-out";
@@ -7484,7 +7484,7 @@
 	height = -1
 	},
 /turf/open/floor/corsat/marked,
-/area/prison/medbay)
+/area/scavenger_ship/garage_shop)
 "apc" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/structure/machinery/treadmill/console{
@@ -7571,7 +7571,7 @@
 	locked = 1
 	},
 /turf/open/floor/corsat/marked,
-/area/prison/medbay)
+/area/scavenger_ship/garage_shop)
 "apm" = (
 /obj/structure/blocker/invisible_wall,
 /turf/open/floor/almayer/test_floor4,
@@ -7600,7 +7600,7 @@
 	pixel_x = 1
 	},
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "apq" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/item/tool/dumbbell/alt{
@@ -7725,7 +7725,7 @@
 	locked = 1
 	},
 /turf/open/floor/corsat/marked,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "apD" = (
 /obj/structure/machinery/door/firedoor/border_only/almayer{
 	dir = 2
@@ -7743,7 +7743,7 @@
 	dir = 1
 	},
 /turf/open/floor/corsat,
-/area/prison/office2)
+/area/scavenger_ship/living_shop_room)
 "apG" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "door_warning";
@@ -9034,7 +9034,7 @@
 	color = "#40a1b6"
 	},
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "asr" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/structure/machinery/light_construct{
@@ -9046,7 +9046,7 @@
 	color = "#40a1b6"
 	},
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "ass" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/effect/decal/cleanable/hybrisa/trash{
@@ -9060,7 +9060,7 @@
 	color = "#40a1b6"
 	},
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "ast" = (
 /obj/structure/machinery/door_control/brbutton/alt{
 	id = "scholar_lockdown";
@@ -9071,7 +9071,7 @@
 "asu" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "asv" = (
 /obj/effect/decal/cleanable/hybrisa/trash{
 	icon_state = "trash_9";
@@ -9079,7 +9079,7 @@
 	pixel_y = 12
 	},
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "asw" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/effect/decal/cleanable/molten_item,
@@ -9089,7 +9089,7 @@
 	color = "#40a1b6"
 	},
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "asx" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/effect/decal/cleanable/liquid_fuel{
@@ -9098,7 +9098,7 @@
 	color = "#40a1b6"
 	},
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "asy" = (
 /obj/structure/platform/metal/almayer/north,
 /obj/structure/prop/invuln/overhead_pipe{
@@ -9110,7 +9110,7 @@
 	pixel_y = 16
 	},
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "asz" = (
 /obj/structure/stairs/perspective,
 /obj/structure/prop/invuln/overhead_pipe{
@@ -9122,29 +9122,29 @@
 	pixel_y = 16
 	},
 /turf/open/floor/corsat/marked,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "asA" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/structure/machinery/light_construct/small{
 	dir = 8
 	},
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "asB" = (
 /obj/structure/barricade/handrail/medical,
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "asC" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/structure/machinery/light_construct/small{
 	dir = 1
 	},
 /turf/open/floor/corsat,
-/area/prison/office2)
+/area/scavenger_ship/living_shop_room)
 "asD" = (
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "asE" = (
 /obj/structure/barricade/handrail/medical,
 /obj/structure/machinery/light/small{
@@ -9155,7 +9155,7 @@
 	invisibility = 100
 	},
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "asF" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/effect/decal/cleanable/hybrisa/trash{
@@ -9164,12 +9164,12 @@
 	pixel_x = 12
 	},
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "asG" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/effect/decal/cleanable/generic,
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "asH" = (
 /obj/item/reagent_container/pill/stox{
 	pixel_x = 15;
@@ -9178,7 +9178,7 @@
 	icon_state = "pill"
 	},
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "asI" = (
 /obj/effect/decal/cleanable/hybrisa/trash{
 	icon_state = "trash_9";
@@ -9186,7 +9186,7 @@
 	pixel_y = 12
 	},
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "asJ" = (
 /obj/item/frame/rack{
 	color = "#6b675e";
@@ -9195,14 +9195,14 @@
 	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/corsat,
-/area/prison/medbay)
+/area/scavenger_ship/garage_shop)
 "asK" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/item/frame/rack{
 	color = "#6b675e"
 	},
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "asL" = (
 /obj/structure/machinery/door/firedoor/border_only/almayer{
 	dir = 2
@@ -9215,12 +9215,12 @@
 	name = "\improper Scholar Tier 2 & 3"
 	},
 /turf/open/floor/corsat/marked,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "asM" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/structure/machinery/light_construct/small,
 /turf/open/floor/corsat,
-/area/prison/medbay)
+/area/scavenger_ship/garage_shop)
 "asN" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "NW-out";
@@ -9235,14 +9235,14 @@
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/effect/decal/cleanable/mucus,
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "asO" = (
 /obj/structure/ladder{
 	id = "ship_scholar_room";
 	height = 1
 	},
 /turf/open/floor/corsat/marked,
-/area/prison/office2)
+/area/scavenger_ship/living_shop_room)
 "asP" = (
 /obj/effect/decal/cleanable/liquid_fuel{
 	name = "water";
@@ -9250,7 +9250,7 @@
 	color = "#40a1b6"
 	},
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "asQ" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "cargo";
@@ -9261,7 +9261,7 @@
 	id = "ship_scholar_garage"
 	},
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "asR" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "W";
@@ -9280,12 +9280,12 @@
 	pixel_y = 10
 	},
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "asS" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/item/weapon/broken_glass,
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "asT" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/item/shard{
@@ -9294,7 +9294,7 @@
 	pixel_x = -1
 	},
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "asU" = (
 /obj/structure/machinery/door/firedoor/border_only/almayer,
 /obj/effect/decal/warning_stripes{
@@ -9304,7 +9304,7 @@
 	},
 /obj/structure/machinery/door/airlock/almayer/marine/autoname,
 /turf/open/floor/corsat/marked,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "asV" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S";
@@ -9313,7 +9313,7 @@
 	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "asW" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "SW-out";
@@ -9327,7 +9327,7 @@
 	},
 /obj/effect/decal/cleanable/flour,
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "asX" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S";
@@ -9340,7 +9340,7 @@
 	name = "\improper Entrance Lockdown"
 	},
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "asY" = (
 /obj/structure/machinery/door/firedoor/border_only/almayer,
 /obj/effect/decal/warning_stripes{
@@ -9350,7 +9350,7 @@
 	},
 /obj/structure/machinery/door/airlock/almayer/marine/autoname,
 /turf/open/floor/corsat/marked,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "asZ" = (
 /obj/item/storage/secure/briefcase{
 	pixel_x = -14;
@@ -9366,7 +9366,7 @@
 	pixel_x = 4
 	},
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "atb" = (
 /obj/structure/platform/metal/almayer/north,
 /obj/structure/prop/invuln/lattice_prop{
@@ -9392,7 +9392,7 @@
 	color = "#40a1b6"
 	},
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "atc" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/effect/decal/cleanable/hybrisa/trash{
@@ -9401,7 +9401,7 @@
 	pixel_x = 15
 	},
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "atd" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/item/frame/rack{
@@ -9410,11 +9410,11 @@
 	pixel_y = -1
 	},
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "ate" = (
 /obj/structure/machinery/light_construct/small,
 /turf/open/floor/corsat,
-/area/prison/medbay)
+/area/scavenger_ship/garage_shop)
 "atf" = (
 /obj/structure/machinery/door/airlock/strata/autoname{
 	dir = 1;
@@ -9430,16 +9430,16 @@
 	dir = 1
 	},
 /turf/open/floor/corsat/marked,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "atg" = (
 /obj/item/frame/camera,
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "ath" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/effect/decal/cleanable/blackgoo,
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "ati" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/item/reagent_container/pill/stox{
@@ -9449,7 +9449,7 @@
 	icon_state = "pill"
 	},
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "atj" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/structure/machinery/light_construct{
@@ -9461,7 +9461,7 @@
 	pixel_y = 8
 	},
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "atk" = (
 /obj/structure/pipes/standard/simple/visible{
 	dir = 4
@@ -9471,7 +9471,7 @@
 "atl" = (
 /obj/effect/decal/cleanable/generic,
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "atm" = (
 /obj/item/shard{
 	icon_state = "large";
@@ -9479,7 +9479,7 @@
 	pixel_x = 3
 	},
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "atn" = (
 /obj/structure/foamed_metal/iron,
 /turf/open/floor/corsat,
@@ -9493,7 +9493,7 @@
 	dir = 4
 	},
 /turf/open/floor/corsat/marked,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "atp" = (
 /obj/structure/platform/metal/almayer/north,
 /obj/structure/prop/invuln/overhead_pipe{
@@ -9510,7 +9510,7 @@
 	color = "#40a1b6"
 	},
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "atq" = (
 /obj/effect/decal/medical_decals{
 	icon_state = "cryotop";
@@ -9525,7 +9525,7 @@
 	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "atr" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/item/frame/rack{
@@ -9534,7 +9534,7 @@
 	pixel_y = 4
 	},
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "ats" = (
 /obj/structure/machinery/door/firedoor/border_only/almayer,
 /obj/structure/machinery/door/window/northleft{
@@ -9547,7 +9547,7 @@
 	dir = 4
 	},
 /turf/open/floor/corsat/marked,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "att" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/item/frame/table/almayer{
@@ -9561,7 +9561,7 @@
 	pixel_y = -16
 	},
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "atu" = (
 /obj/structure/machinery/light/double{
 	dir = 4;
@@ -9571,14 +9571,14 @@
 	},
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "atv" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/structure/machinery/light_construct{
 	dir = 4
 	},
 /turf/open/floor/corsat,
-/area/prison/medbay)
+/area/scavenger_ship/garage_shop)
 "atw" = (
 /obj/item/frame/table/almayer{
 	color = "#8B9490";
@@ -9586,7 +9586,7 @@
 	pixel_y = -19
 	},
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "atx" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/item/weapon/twohanded/folded_metal_chair{
@@ -9598,7 +9598,7 @@
 	pixel_y = -9
 	},
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "aty" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/item/prop/scrap{
@@ -9606,7 +9606,7 @@
 	pixel_y = -8
 	},
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "atz" = (
 /obj/structure/machinery/door/firedoor/border_only/almayer,
 /obj/structure/window/reinforced/ultra{
@@ -9619,7 +9619,7 @@
 	dir = 4
 	},
 /turf/open/floor/corsat/marked,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "atA" = (
 /obj/structure/machinery/camera/autoname/golden_arrow{
 	dir = 1
@@ -9632,21 +9632,21 @@
 	pixel_y = 28
 	},
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "atC" = (
 /obj/effect/decal/cleanable/hybrisa/trash,
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "atD" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/structure/machinery/power/apc/almayer/east,
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "atE" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/effect/decal/cleanable/vomit,
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "atF" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/item/book/manual/medical_diagnostics_manual{
@@ -9654,7 +9654,7 @@
 	pixel_y = -9
 	},
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "atG" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/item/frame/rack{
@@ -9663,7 +9663,7 @@
 	pixel_y = 9
 	},
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "atH" = (
 /obj/structure/girder/displaced,
 /turf/open/floor/corsat,
@@ -10554,7 +10554,7 @@
 	name = "funny pill"
 	},
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "avJ" = (
 /obj/structure/machinery/door/firedoor/border_only/almayer,
 /obj/structure/window/framed/strata/reinforced,
@@ -10564,7 +10564,7 @@
 	dir = 4
 	},
 /turf/open/floor/corsat/marked,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "avK" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/effect/decal/cleanable/hybrisa/trash{
@@ -10574,14 +10574,14 @@
 	},
 /obj/item/weapon/broken_bottle,
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "avL" = (
 /obj/structure/machinery/door/firedoor/border_only/almayer{
 	dir = 2
 	},
 /obj/structure/window/framed/strata/reinforced,
 /turf/open/floor/corsat,
-/area/prison/atmos)
+/area/scavenger_ship/living_shop)
 "avM" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/effect/decal/hybrisa/tiretrack{
@@ -10858,20 +10858,20 @@
 	pixel_y = 16
 	},
 /turf/open/floor/corsat,
-/area/prison/medbay)
+/area/scavenger_ship/garage_shop)
 "awB" = (
 /obj/structure/platform/strata/metal{
 	dir = 1
 	},
 /turf/open/floor/corsat,
-/area/prison/medbay)
+/area/scavenger_ship/garage_shop)
 "awC" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/structure/machinery/light_construct{
 	dir = 2
 	},
 /turf/open/floor/corsat,
-/area/prison/medbay)
+/area/scavenger_ship/garage_shop)
 "awD" = (
 /obj/structure/machinery/door/poddoor/almayer/locked{
 	name = "\improper Other Section";
@@ -10879,14 +10879,14 @@
 	dir = 4
 	},
 /turf/open/floor/corsat/marked,
-/area/prison/medbay)
+/area/scavenger_ship/garage_shop)
 "awE" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/structure/machinery/light_construct{
 	dir = 8
 	},
 /turf/open/floor/corsat,
-/area/prison/medbay)
+/area/scavenger_ship/garage_shop)
 "awF" = (
 /obj/structure/barricade/handrail/strata,
 /obj/structure/prop/invuln/darkness,
@@ -10899,17 +10899,17 @@
 	dir = 1
 	},
 /turf/open/floor/corsat,
-/area/prison/medbay)
+/area/scavenger_ship/garage_shop)
 "awH" = (
 /turf/closed/wall/strata_outpost/reinforced/hull,
-/area/prison/medbay)
+/area/scavenger_ship/garage_shop)
 "awI" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /turf/open/floor/corsat,
-/area/prison/medbay)
+/area/scavenger_ship/garage_shop)
 "awJ" = (
 /turf/open/floor/corsat,
-/area/prison/medbay)
+/area/scavenger_ship/garage_shop)
 "axh" = (
 /obj/structure/closet/emcloset{
 	pixel_x = -7;

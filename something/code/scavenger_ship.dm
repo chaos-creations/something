@@ -183,6 +183,10 @@
 	name = "\improper Abandoned Room"
 	icon_state = "alpha"
 
+/area/scavenger_ship/garage_shop
+	name = "\improper Abandoned Room"
+	icon_state = "alpha"
+
 /area/scavenger_ship/elevator
 	name = "\improper Elevator"
 
