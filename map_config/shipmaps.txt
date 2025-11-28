@@ -50,3 +50,6 @@ endmap
 
 map hms_brynhild
 endmap
+
+map alaska
+endmap
