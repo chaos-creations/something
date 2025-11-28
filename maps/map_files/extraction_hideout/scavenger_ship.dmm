@@ -4571,6 +4571,13 @@
 	},
 /turf/open/space/basic,
 /area/space)
+"aiV" = (
+/obj/structure/machinery/computer/shuttle/elevator_controller/railing{
+	pixel_y = 22;
+	shuttleId = "scavenger_elevator"
+	},
+/turf/open/space/basic,
+/area/space)
 "aiW" = (
 /obj/structure/prop/invuln/ice_prefab/roof_greeble{
 	pixel_x = -16;
@@ -7495,14 +7502,6 @@
 "apd" = (
 /turf/open/floor/prison/darkpurple2/southwest,
 /area/scavenger_ship/hangar_synth)
-"ape" = (
-/obj/structure/machinery/computer/shuttle/elevator_controller/railing{
-	pixel_x = 7;
-	pixel_y = 22;
-	layer = 4.9
-	},
-/turf/closed/wall/strata_outpost,
-/area/scavenger_ship/cryo_maint)
 "apf" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/structure/punching_bag,
@@ -22164,7 +22163,8 @@
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/structure/machinery/computer/custom_email/contracts{
 	pixel_y = 25;
-	light_color = "#e7c0a4"
+	light_color = "#e7c0a4";
+	email_list = list()
 	},
 /turf/open/floor/prison/darkbrown2/north,
 /area/scavenger_ship/staging_hallway)
@@ -25214,6 +25214,11 @@
 /area/scavenger_ship/hangar_maint)
 "oeM" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
+/obj/structure/machinery/computer/shuttle/elevator_controller/railing{
+	pixel_y = 9;
+	shuttleId = "scavenger_elevator";
+	pixel_x = 4
+	},
 /turf/open/floor/prison/darkbrown2/west,
 /area/scavenger_ship/logistics_elevator)
 "ofd" = (
@@ -34728,6 +34733,11 @@
 /obj/structure/barricade/handrail/strata{
 	dir = 4
 	},
+/obj/structure/machinery/computer/shuttle/elevator_controller/railing{
+	pixel_y = -7;
+	shuttleId = "scavenger_elevator";
+	pixel_x = -12
+	},
 /turf/open/floor/prison/floor_marked,
 /area/scavenger_ship/hangar_hallway)
 "xsf" = (
@@ -38478,7 +38488,7 @@ rhS
 rhS
 rhS
 rhS
-rhS
+aiV
 rhS
 rhS
 rhS
@@ -47309,7 +47319,7 @@ bMX
 anu
 gfQ
 uMn
-ape
+jqd
 fZh
 ptd
 qmQ
