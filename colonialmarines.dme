@@ -679,6 +679,7 @@
 #include "code\datums\skills\misc.dm"
 #include "code\datums\skills\pmc.dm"
 #include "code\datums\skills\rmc.dm"
+#include "code\datums\skills\scav.dm"
 #include "code\datums\skills\skills.dm"
 #include "code\datums\skills\synthetic.dm"
 #include "code\datums\skills\upp.dm"
