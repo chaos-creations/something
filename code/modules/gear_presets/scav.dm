@@ -657,7 +657,7 @@
 	name = "Scav, Sniper"
 	flags = EQUIPMENT_PRESET_EXTRA
 	idtype = /obj/item/card/id/lanyard
-	skills = /datum/skills/clf/sniper
+	skills = /datum/skills/scav/marauder
 	paygrades = list(PAY_SHORT_REB = JOB_PLAYTIME_TIER_0)
 	access = list(ACCESS_LIST_CLF_BASE)
 
