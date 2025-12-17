@@ -51,18 +51,8 @@
 	icon_state = "syn_spawn"
 	job = /datum/job/civilian/synthetic
 
-/datum/job/civilian/synthetic/ai
+/datum/job/civilian/synthetic/extraction
 	total_positions = 1
-	spawn_positions = 1
-
-/datum/job/civilian/synthetic/ai/set_spawn_positions(count)
-	return spawn_positions
-
-/datum/job/civilian/synthetic/ai/get_total_positions(latejoin=0)
-	return latejoin ? total_positions : spawn_positions
-
-/obj/effect/landmark/start/synthetic/ai
-	name = JOB_SYNTH
-	icon_state = "syn_spawn"
-	job = /datum/job/civilian/synthetic/ai
-
+	gear_preset = /datum/equipment_preset/synth/uscm/extraction
+	flags_startup_parameters = ROLE_ADD_TO_DEFAULT|ROLE_ADMIN_NOTIFY|ROLE_CUSTOM_SPAWN
+	scaled = 0

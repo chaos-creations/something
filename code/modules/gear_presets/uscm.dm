@@ -1280,6 +1280,17 @@
 	skills = /datum/skills/tl/extraction
 
 
+/datum/equipment_preset/synth/uscm/extraction
+	name = "Ex-USCM Synthetic"
+	skills = /datum/skills/synthetic/extract
+
+/datum/equipment_preset/synth/uscm/extraction/load_skills(mob/living/carbon/human/new_human)
+	. = ..()
+	new_human.allow_gun_usage = FALSE
+
+/datum/equipment_preset/synth/uscm/extraction/load_gear(mob/living/carbon/human/new_human)
+	return
+
 // raiders
 
 /datum/equipment_preset/uscm/pfc/raider
