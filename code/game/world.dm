@@ -280,7 +280,8 @@ GLOBAL_LIST_INIT(reboot_sfx, file2list("config/reboot_sfx.txt"))
 		s += "<a href=\"[CONFIG_GET(string/discordurl)]\"><b>[CONFIG_GET(string/servername)]</b></a>"
 		s += "<br>Hosted by: <b>[CONFIG_GET(string/hostedby)]</b>"
 		s += "<br>Round time: <b>[duration2text()]</b>"
-		s += "<br>awesome description"
+		s += "Russian fork of Genesse Extraction"
+		s += "<br>PvE Tarkov Experience, Persistent Stashes"
 
 	world.status = s
 
