@@ -186,9 +186,3 @@
 /area/scavenger_ship/garage_shop
 	name = "\improper Abandoned Room"
 	icon_state = "alpha"
-
-/area/scavenger_ship/elevator
-	name = "\improper Elevator"
-
-/turf/open/floor/almayer/empty/golden_arrow/elevator
-	area_type = /area/scavenger_ship/elevator

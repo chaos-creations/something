@@ -1,7 +1,7 @@
 {
     "map_name": "USS Nomad",
     "map_path": "map_files/extraction_hideout",
-    "map_file": "scavenger_ship.dmm",
+    "map_file": "hideout_ru.dmm",
     "webmap_url": "GoldenArrow",
     "traits": [{"Marine Main Ship": true}],
     "nightmare_path": "maps/Nightmare/maps/extraction_hideout/",
