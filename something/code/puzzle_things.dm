@@ -180,35 +180,3 @@
 	desc = "This feels like it belongs to a door. Judging by the color, this one seems to belong to the science section."
 	icon_state = "keycard1"
 	unlock_tag = "vault"
-
-// USS Nomad //
-
-/obj/structure/machinery/puzzle/keycard_panel/freelancer
-	name = "Freelancer's Keycard Panel"
-	id_tag = "freelancer"
-
-/obj/structure/machinery/door/airlock/puzzle/freelancer
-	name = "Freelancer's Hideout"
-	id_tag = "freelancer"
-	icon = 'icons/obj/structures/doors/securedoor.dmi'
-
-/obj/item/puzzle/keycard/freelancer
-	name = "freelancer keycard"
-	desc = "This feels like it belongs to a door. Judging by the color, this one seems to belong to the Freelancer's Hideout."
-	icon_state = "keycard_freelancer"
-	unlock_tag = "freelancer"
-
-/obj/structure/machinery/puzzle/keycard_panel/workshop
-	name = "Workshop Keycard Panel"
-	id_tag = "workshop"
-
-/obj/structure/machinery/door/airlock/puzzle/workshop
-	name = "Workshop"
-	id_tag = "workshop"
-	icon = 'icons/obj/structures/doors/engidoor.dmi'
-
-/obj/item/puzzle/keycard/workshop
-	name = "workshop keycard"
-	desc = "This feels like it belongs to a door. Judging by the color, this one seems to belong to the workshop."
-	icon_state = "keycard_workshop"
-	unlock_tag = "workshop"

@@ -1,4 +1,8 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aa" = (
+/obj/structure/blocker/invisible_wall,
+/turf/open/floor/almayer/empty,
+/area/galleyburned)
 "ab" = (
 /obj/structure/surface/rack,
 /obj/effect/decal/cleanable/dirt,
@@ -6,6 +10,35 @@
 /obj/item/tool/hand_labeler,
 /turf/open/floor/plating,
 /area/galleyburned/maint)
+"ac" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/light/small/blue{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/galleyburned/residential)
+"ad" = (
+/obj/structure/machinery/light/double/blue/golden_arrow{
+	dir = 8;
+	light_power = 0.7
+	},
+/turf/open/floor/plating,
+/area/galleyburned/residential)
+"ae" = (
+/obj/structure/window/framed/almayer,
+/turf/open/floor/plating,
+/area/galleyburned/residential)
+"af" = (
+/obj/structure/machinery/light/double/blue/golden_arrow{
+	dir = 2;
+	light_power = 0.7
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/galleyburned/residential)
+"ag" = (
+/obj/structure/punching_bag,
+/turf/open/floor/plating,
+/area/galleyburned/residential)
 "ah" = (
 /obj/structure/machinery/light/double/blue/golden_arrow{
 	dir = 8;
@@ -13,6 +46,26 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/galleyburned/canteen)
+"ai" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/paper{
+	pixel_x = 8;
+	pixel_y = -1;
+	name = "raspisanie";
+	info = "[b][center][uscm][br]УТРОМ[/center][/b][br]1. ПРЕСС КАЧАТ[br]2. Т) БЕГИТ[br]3.    ТУРНИК[br][b][center]ВЕЧЕРОМ[/b][/center][br]1. ПРЕСС КАЧАТ[br]2. БЕГИТ[br]3. ТУРНИК[br]4. АНЖУМАНЯ[br]5. ГАНТЕЛИ"
+	},
+/obj/structure/machinery/light/small/blue{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/galleyburned/residential)
+"aj" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/treadmill{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/galleyburned/residential)
 "ak" = (
 /obj/structure/barricade/handrail{
 	dir = 1;
@@ -26,6 +79,111 @@
 "al" = (
 /turf/open/floor/plating,
 /area/galleyburned/hangar)
+"am" = (
+/obj/effect/decal/cleanable/generic,
+/obj/structure/machinery/treadmill/console{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/galleyburned/residential)
+"an" = (
+/obj/structure/machinery/light/small/blue{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/galleyburned/residential)
+"ao" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/surface/rack{
+	pixel_x = 0;
+	pixel_y = 16;
+	density = 0
+	},
+/obj/item/tool/dumbbell/alt{
+	drop_sound = 'sound/handling/wrench_drop.ogg';
+	equip_sounds = 'sound/handling/wrench_pickup.ogg';
+	force = 10;
+	hitsound = 'sound/weapons/metal_chair_clang.ogg';
+	throwforce = 15;
+	pixel_x = -1;
+	pixel_y = 10
+	},
+/obj/item/tool/dumbbell{
+	force = 15;
+	throwforce = 20;
+	hitsound = 'sound/weapons/metal_chair_clang.ogg';
+	drop_sound = 'sound/handling/wrench_drop.ogg';
+	equip_sounds = 'sound/handling/wrench_pickup.ogg';
+	pixel_y = 26;
+	pixel_x = -1
+	},
+/obj/item/tool/dumbbell{
+	force = 15;
+	throwforce = 20;
+	hitsound = 'sound/weapons/metal_chair_clang.ogg';
+	drop_sound = 'sound/handling/wrench_drop.ogg';
+	equip_sounds = 'sound/handling/wrench_pickup.ogg';
+	pixel_y = 26;
+	pixel_x = -1
+	},
+/obj/item/tool/dumbbell{
+	force = 15;
+	throwforce = 20;
+	hitsound = 'sound/weapons/metal_chair_clang.ogg';
+	drop_sound = 'sound/handling/wrench_drop.ogg';
+	equip_sounds = 'sound/handling/wrench_pickup.ogg';
+	pixel_y = 26;
+	pixel_x = -1
+	},
+/obj/item/tool/dumbbell{
+	force = 15;
+	throwforce = 20;
+	hitsound = 'sound/weapons/metal_chair_clang.ogg';
+	drop_sound = 'sound/handling/wrench_drop.ogg';
+	equip_sounds = 'sound/handling/wrench_pickup.ogg';
+	pixel_y = 26;
+	pixel_x = -1
+	},
+/obj/item/tool/dumbbell/alt{
+	drop_sound = 'sound/handling/wrench_drop.ogg';
+	equip_sounds = 'sound/handling/wrench_pickup.ogg';
+	force = 10;
+	hitsound = 'sound/weapons/metal_chair_clang.ogg';
+	throwforce = 15;
+	pixel_x = -1;
+	pixel_y = 10
+	},
+/obj/item/tool/dumbbell/alt{
+	drop_sound = 'sound/handling/wrench_drop.ogg';
+	equip_sounds = 'sound/handling/wrench_pickup.ogg';
+	force = 10;
+	hitsound = 'sound/weapons/metal_chair_clang.ogg';
+	throwforce = 15;
+	pixel_x = -1;
+	pixel_y = 10
+	},
+/obj/item/tool/dumbbell/alt{
+	drop_sound = 'sound/handling/wrench_drop.ogg';
+	equip_sounds = 'sound/handling/wrench_pickup.ogg';
+	force = 10;
+	hitsound = 'sound/weapons/metal_chair_clang.ogg';
+	throwforce = 15;
+	pixel_x = -1;
+	pixel_y = 10
+	},
+/obj/structure/machinery/treadmill{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/galleyburned/residential)
+"ap" = (
+/obj/effect/decal/hybrisa/warning/redandwhite_S,
+/obj/structure/machinery/light/double/blue/golden_arrow{
+	dir = 1;
+	light_power = 0.7
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/galleyburned/residential)
 "ar" = (
 /obj/structure/bed{
 	can_buckle = 0
@@ -125,6 +283,7 @@
 	name = "door lock";
 	id = "s3"
 	},
+/obj/structure/weightmachine/weightlifter,
 /turf/open/floor/plating,
 /area/galleyburned/residential)
 "bz" = (
@@ -149,17 +308,6 @@
 	pixel_y = 16
 	},
 /turf/open/floor/hybrisa/wood/blackwood,
-/area/galleyburned/residential)
-"bI" = (
-/obj/structure/machinery/light/double/blue/golden_arrow{
-	dir = 4;
-	light_power = 0.7
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/treadmill/console{
-	dir = 4
-	},
-/turf/open/floor/plating,
 /area/galleyburned/residential)
 "bJ" = (
 /obj/structure/shuttle/part/midway/transparent{
@@ -272,14 +420,6 @@
 	},
 /turf/open/floor/grass,
 /area/galleyburned/memorial)
-"dL" = (
-/obj/structure/machinery/light/double/blue/golden_arrow{
-	dir = 4;
-	light_power = 0.7
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
-/area/galleyburned/residential)
 "dM" = (
 /turf/open/floor/plating/plating_catwalk,
 /area/galleyburned/requisition)
@@ -360,16 +500,6 @@
 /obj/structure/machinery/computer/supplycomp/extraction,
 /turf/open/floor/plating/plating_catwalk,
 /area/galleyburned/requisition)
-"er" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/paper{
-	pixel_x = 8;
-	pixel_y = -1;
-	name = "raspisanie";
-	info = "[b][center][uscm][br]УТРОМ[/center][/b][br]1. ПРЕСС КАЧАТ[br]2. Т) БЕГИТ[br]3.    ТУРНИК[br][b][center]ВЕЧЕРОМ[/b][/center][br]1. ПРЕСС КАЧАТ[br]2. БЕГИТ[br]3. ТУРНИК[br]4. АНЖУМАНЯ[br]5. ГАНТЕЛИ"
-	},
-/turf/open/floor/plating,
-/area/galleyburned/residential)
 "eu" = (
 /obj/effect/decal/cleanable/cobweb,
 /turf/open/floor/plating,
@@ -450,14 +580,6 @@
 	},
 /turf/open/floor/hybrisa/tile,
 /area/galleyburned/residential)
-"fl" = (
-/obj/structure/machinery/light/double/blue/golden_arrow{
-	dir = 1;
-	light_power = 0.7
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
-/area/galleyburned/residential)
 "fq" = (
 /obj/structure/window/reinforced/ultra{
 	dir = 4
@@ -488,14 +610,6 @@
 	},
 /turf/open/floor/almayer/mono,
 /area/galleyburned/canteen)
-"fE" = (
-/obj/structure/machinery/light/double/blue/golden_arrow{
-	dir = 4;
-	light_power = 0.7
-	},
-/obj/effect/decal/cleanable/generic,
-/turf/open/floor/plating,
-/area/galleyburned/residential)
 "fI" = (
 /obj/structure/closet/crate,
 /obj/structure/barricade/handrail{
@@ -753,7 +867,8 @@
 "iX" = (
 /obj/structure/machinery/chem_dispenser/soda/beer{
 	pixel_x = -32;
-	pixel_y = 3
+	pixel_y = 3;
+	density = 0
 	},
 /mob/living/simple_animal/mouse/rat/white/freelancer,
 /turf/open/floor/hybrisa/tile,
@@ -853,10 +968,7 @@
 /area/galleyburned/residential)
 "jT" = (
 /obj/structure/machinery/light/double/blue/golden_arrow{
-	dir = 1;
-	light_power = 0.7
-	},
-/obj/structure/machinery/light/double/blue/golden_arrow{
+	dir = 2;
 	light_power = 0.7
 	},
 /turf/open/floor/almayer/plate,
@@ -1052,11 +1164,6 @@
 /obj/item/clothing/under/colonist/prison_boiler,
 /turf/open/floor/plating,
 /area/galleyburned/maint)
-"mh" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/punching_bag,
-/turf/open/floor/plating,
-/area/galleyburned/residential)
 "mi" = (
 /obj/structure/machinery/light/double/blue/golden_arrow{
 	dir = 4;
@@ -1275,13 +1382,8 @@
 /turf/open/floor/plating,
 /area/golden_arrow/synthcloset)
 "oJ" = (
-/obj/structure/machinery/light/double/blue/golden_arrow{
-	dir = 8;
-	light_power = 0.7
-	},
-/obj/structure/machinery/light/double/blue/golden_arrow{
-	dir = 4;
-	light_power = 0.7
+/obj/structure/machinery/light/small/blue{
+	dir = 4
 	},
 /turf/open/floor/almayer/plate,
 /area/galleyburned/residential)
@@ -1414,14 +1516,6 @@
 "pT" = (
 /turf/open/floor/almayer/plate,
 /area/galleyburned/canteen)
-"pU" = (
-/obj/structure/machinery/light/double/blue/golden_arrow{
-	dir = 1;
-	light_power = 0.7
-	},
-/obj/effect/decal/cleanable/generic,
-/turf/open/floor/plating,
-/area/galleyburned/residential)
 "pV" = (
 /obj/structure/platform_decoration{
 	dir = 4
@@ -1737,12 +1831,6 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/galleyburned/residential)
-"tu" = (
-/obj/structure/machinery/light/double/blue/golden_arrow{
-	light_power = 0.3
-	},
-/turf/open/floor/plating/plating_catwalk,
-/area/galleyburned/residential)
 "tA" = (
 /obj/item/prop/colony/usedbandage,
 /obj/item/prop/colony/usedbandage{
@@ -2055,12 +2143,6 @@
 /obj/effect/decal/hybrisa/warning/redandwhite_W,
 /turf/open/floor/plating,
 /area/galleyburned/maint)
-"ye" = (
-/obj/structure/machinery/light/double/blue/golden_arrow{
-	dir = 1
-	},
-/turf/open/floor/plating/plating_catwalk,
-/area/galleyburned/residential)
 "yl" = (
 /obj/effect/attach_point/electronics/midway,
 /turf/open/floor/plating,
@@ -2071,90 +2153,6 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/galleyburned/canteen)
-"yx" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/treadmill{
-	dir = 4
-	},
-/obj/structure/surface/rack{
-	pixel_x = 0;
-	pixel_y = 16;
-	density = 0
-	},
-/obj/item/tool/dumbbell/alt{
-	drop_sound = 'sound/handling/wrench_drop.ogg';
-	equip_sounds = 'sound/handling/wrench_pickup.ogg';
-	force = 10;
-	hitsound = 'sound/weapons/metal_chair_clang.ogg';
-	throwforce = 15;
-	pixel_x = -1;
-	pixel_y = 10
-	},
-/obj/item/tool/dumbbell{
-	force = 15;
-	throwforce = 20;
-	hitsound = 'sound/weapons/metal_chair_clang.ogg';
-	drop_sound = 'sound/handling/wrench_drop.ogg';
-	equip_sounds = 'sound/handling/wrench_pickup.ogg';
-	pixel_y = 26;
-	pixel_x = -1
-	},
-/obj/item/tool/dumbbell{
-	force = 15;
-	throwforce = 20;
-	hitsound = 'sound/weapons/metal_chair_clang.ogg';
-	drop_sound = 'sound/handling/wrench_drop.ogg';
-	equip_sounds = 'sound/handling/wrench_pickup.ogg';
-	pixel_y = 26;
-	pixel_x = -1
-	},
-/obj/item/tool/dumbbell{
-	force = 15;
-	throwforce = 20;
-	hitsound = 'sound/weapons/metal_chair_clang.ogg';
-	drop_sound = 'sound/handling/wrench_drop.ogg';
-	equip_sounds = 'sound/handling/wrench_pickup.ogg';
-	pixel_y = 26;
-	pixel_x = -1
-	},
-/obj/item/tool/dumbbell{
-	force = 15;
-	throwforce = 20;
-	hitsound = 'sound/weapons/metal_chair_clang.ogg';
-	drop_sound = 'sound/handling/wrench_drop.ogg';
-	equip_sounds = 'sound/handling/wrench_pickup.ogg';
-	pixel_y = 26;
-	pixel_x = -1
-	},
-/obj/item/tool/dumbbell/alt{
-	drop_sound = 'sound/handling/wrench_drop.ogg';
-	equip_sounds = 'sound/handling/wrench_pickup.ogg';
-	force = 10;
-	hitsound = 'sound/weapons/metal_chair_clang.ogg';
-	throwforce = 15;
-	pixel_x = -1;
-	pixel_y = 10
-	},
-/obj/item/tool/dumbbell/alt{
-	drop_sound = 'sound/handling/wrench_drop.ogg';
-	equip_sounds = 'sound/handling/wrench_pickup.ogg';
-	force = 10;
-	hitsound = 'sound/weapons/metal_chair_clang.ogg';
-	throwforce = 15;
-	pixel_x = -1;
-	pixel_y = 10
-	},
-/obj/item/tool/dumbbell/alt{
-	drop_sound = 'sound/handling/wrench_drop.ogg';
-	equip_sounds = 'sound/handling/wrench_pickup.ogg';
-	force = 10;
-	hitsound = 'sound/weapons/metal_chair_clang.ogg';
-	throwforce = 15;
-	pixel_x = -1;
-	pixel_y = 10
-	},
-/turf/open/floor/plating,
-/area/galleyburned/residential)
 "yC" = (
 /turf/open/floor/plating,
 /area/galleyburned/residential)
@@ -2231,16 +2229,6 @@
 "Ah" = (
 /turf/open/floor/plating/plating_catwalk,
 /area/galleyburned/canteen)
-"Ai" = (
-/obj/structure/machinery/door_control{
-	pixel_x = -22;
-	pixel_y = 11;
-	name = "door lock";
-	id = "s2"
-	},
-/obj/structure/weightmachine/weightlifter,
-/turf/open/floor/plating,
-/area/galleyburned/residential)
 "An" = (
 /obj/effect/decal/hybrisa/warning/redandwhite_E,
 /turf/open/floor/almayer/mono,
@@ -2274,13 +2262,6 @@
 	},
 /turf/open/floor/plating,
 /area/galleyburned/maint)
-"At" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/light/double/blue/golden_arrow{
-	light_power = 0.7
-	},
-/turf/open/floor/plating,
-/area/galleyburned/residential)
 "AJ" = (
 /turf/closed/wall/almayer,
 /area/galleyburned/canteen)
@@ -2709,19 +2690,6 @@
 	},
 /turf/open/floor/hybrisa/wood/blackwood,
 /area/galleyburned/residential)
-"Fw" = (
-/turf/open/floor/plating,
-/area/almayer/living/synthcloset)
-"FB" = (
-/obj/structure/machinery/light/double/blue/golden_arrow{
-	light_power = 0.7
-	},
-/obj/structure/machinery/light/double/blue/golden_arrow{
-	dir = 1;
-	light_power = 0.7
-	},
-/turf/open/floor/almayer/plate,
-/area/galleyburned/residential)
 "FJ" = (
 /obj/structure/machinery/cryopod/big{
 	layer = 3.1;
@@ -2782,9 +2750,8 @@
 /turf/open/floor/plating,
 /area/galleyburned/residential)
 "Gq" = (
-/obj/structure/machinery/light/double/blue/golden_arrow{
-	dir = 1;
-	light_power = 0.7
+/obj/structure/machinery/treadmill/console{
+	dir = 4
 	},
 /turf/open/floor/plating,
 /area/galleyburned/residential)
@@ -2856,7 +2823,7 @@
 "Hr" = (
 /obj/structure/machinery/door/airlock/almayer/generic/glass{
 	dir = 2;
-	name = "\improper M-03 [VACANT]"
+	name = "\improper M-03 [Chimera]"
 	},
 /obj/structure/machinery/door/poddoor/shutters/almayer/open{
 	name = "Privacy Shutter";
@@ -2905,7 +2872,8 @@
 	},
 /obj/structure/machinery/chem_dispenser/soda{
 	pixel_x = -32;
-	pixel_y = 12
+	pixel_y = 12;
+	density = 0
 	},
 /obj/structure/machinery/light/small{
 	dir = 2;
@@ -3061,12 +3029,6 @@
 	},
 /turf/open/floor/almayer,
 /area/galleyburned/requisition)
-"Kg" = (
-/obj/structure/machinery/treadmill{
-	dir = 4
-	},
-/turf/open/floor/plating,
-/area/galleyburned/residential)
 "Kk" = (
 /turf/closed/shuttle/midway/transparent{
 	icon_state = "27"
@@ -3270,13 +3232,6 @@
 	},
 /turf/open/shuttle/dropship/light_grey_single_wide_up_to_down,
 /area/galleyburned/residential)
-"MA" = (
-/obj/effect/decal/hybrisa/warning/redandwhite_N,
-/obj/structure/machinery/light/double/blue/golden_arrow{
-	light_power = 0.7
-	},
-/turf/open/floor/almayer/mono,
-/area/galleyburned/residential)
 "MB" = (
 /obj/structure/window/reinforced/ultra{
 	dir = 4
@@ -3471,13 +3426,6 @@
 /obj/effect/decal/hybrisa/warning/redandwhite_E,
 /turf/open/floor/almayer/plate,
 /area/galleyburned/residential)
-"Qa" = (
-/obj/structure/machinery/light/double/blue/golden_arrow{
-	dir = 8;
-	light_power = 0.7
-	},
-/turf/open/floor/almayer/plate,
-/area/galleyburned/residential)
 "Qb" = (
 /obj/structure/surface/table/almayer,
 /obj/structure/machinery/recharger,
@@ -3547,13 +3495,13 @@
 /turf/open/floor/almayer/mono,
 /area/galleyburned/residential)
 "QV" = (
-/obj/structure/machinery/door/airlock/almayer/generic/glass{
-	name = "\improper S-03 [VACANT]";
-	dir = 2
-	},
 /obj/structure/machinery/door/poddoor/shutters/almayer/open{
 	name = "Privacy Shutter";
 	id = "s3"
+	},
+/obj/structure/machinery/door/airlock/almayer/generic/glass{
+	name = "\improper M-01 [G. MARSHALL]";
+	dir = 1
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/galleyburned/residential)
@@ -3583,17 +3531,6 @@
 /obj/effect/decal/cleanable/generic,
 /turf/open/floor/plating,
 /area/galleyburned/maint)
-"RW" = (
-/obj/structure/machinery/light/double/blue/golden_arrow{
-	dir = 4;
-	light_power = 0.7
-	},
-/obj/effect/decal/cleanable/generic,
-/obj/structure/machinery/treadmill/console{
-	dir = 4
-	},
-/turf/open/floor/plating,
-/area/galleyburned/residential)
 "Sb" = (
 /obj/structure/closet,
 /obj/item/clothing/under/colonist/clf,
@@ -3640,14 +3577,6 @@
 	},
 /turf/open/floor/almayer/mono,
 /area/galleyburned/canteen)
-"SD" = (
-/obj/effect/decal/hybrisa/warning/redandwhite_S,
-/obj/structure/machinery/light/double/blue/golden_arrow{
-	dir = 1;
-	light_power = 0.7
-	},
-/turf/open/floor/almayer/plate,
-/area/galleyburned/residential)
 "SE" = (
 /obj/structure/surface/table/reinforced/black,
 /obj/structure/machinery/door/window/eastright,
@@ -3823,10 +3752,6 @@
 	pixel_y = 22;
 	name = "door lock";
 	id = "m3"
-	},
-/obj/structure/machinery/light/double/blue/golden_arrow{
-	dir = 1;
-	light_power = 0.7
 	},
 /turf/open/floor/plating,
 /area/galleyburned/residential)
@@ -4057,7 +3982,7 @@
 /area/galleyburned/requisition)
 "YU" = (
 /obj/structure/machinery/door/airlock/almayer/generic/glass{
-	name = "\improper S-05 [VACANT]";
+	name = "\improper S-05 [Chimera]";
 	dir = 2
 	},
 /obj/structure/machinery/door/poddoor/shutters/almayer/open{
@@ -4084,12 +4009,6 @@
 /obj/structure/machinery/door/window/southleft,
 /turf/open/floor/plating/plating_catwalk,
 /area/galleyburned/stash)
-"ZI" = (
-/obj/structure/machinery/light/double/blue/golden_arrow{
-	light_power = 0.7
-	},
-/turf/open/floor/plating,
-/area/galleyburned/residential)
 "ZK" = (
 /obj/structure/machinery/door_control{
 	pixel_x = 8;
@@ -4578,7 +4497,7 @@ qa
 qa
 qa
 qa
-Fw
+UZ
 qa
 Ap
 nI
@@ -5225,7 +5144,7 @@ XY
 XY
 Lj
 sQ
-Xx
+aa
 Xx
 Xx
 Xx
@@ -5277,7 +5196,7 @@ XY
 XY
 Lj
 EZ
-Xx
+aa
 Xx
 Xx
 Xx
@@ -5329,7 +5248,7 @@ XY
 XY
 Lj
 tc
-Xx
+aa
 Xx
 Xx
 Xx
@@ -5381,7 +5300,7 @@ XY
 XY
 Lj
 EZ
-Xx
+aa
 Xx
 Xx
 Xx
@@ -5433,17 +5352,17 @@ XY
 XY
 Lj
 EZ
-Xx
-Xx
-Xx
-Xx
-Xx
-Xx
-Xx
-Xx
-Xx
-Xx
-Xx
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 Lj
 XY
 XY
@@ -5536,7 +5455,7 @@ sN
 sN
 sN
 sN
-sN
+ae
 sN
 sN
 sN
@@ -5584,19 +5503,19 @@ Kr
 "}
 (29,1,1) = {"
 sN
-fl
+mt
 yC
 mt
 Iy
-Qa
+tZ
 JF
 VK
 mt
 Sv
-yC
+ad
 mt
 Sv
-At
+mt
 sN
 KN
 XY
@@ -5636,7 +5555,7 @@ Kr
 "}
 (30,1,1) = {"
 sN
-yC
+an
 mt
 yC
 to
@@ -5688,19 +5607,19 @@ Kr
 "}
 (31,1,1) = {"
 sN
-pU
+Sv
 mt
 JO
 JF
 vS
 JF
-Gq
+yC
 yC
 mt
 yC
 yC
 yC
-ZI
+yC
 sN
 XY
 XY
@@ -5792,7 +5711,7 @@ CM
 "}
 (33,1,1) = {"
 sN
-fl
+mt
 yC
 Sv
 JC
@@ -5801,10 +5720,10 @@ JF
 VK
 mt
 Sv
-yC
+ad
 mt
 Sv
-At
+mt
 sN
 XY
 XY
@@ -5844,7 +5763,7 @@ CM
 "}
 (34,1,1) = {"
 sN
-yC
+an
 mt
 yC
 YU
@@ -5896,19 +5815,19 @@ CM
 "}
 (35,1,1) = {"
 sN
-Gq
+yC
 mt
 Og
 JF
 vS
 JF
-Gq
+yC
 yC
 mt
 yC
 yC
 yC
-ZI
+yC
 JF
 iN
 PR
@@ -5962,7 +5881,7 @@ gX
 gX
 gX
 gX
-SD
+rQ
 yC
 yC
 yC
@@ -6000,7 +5919,7 @@ CM
 "}
 (37,1,1) = {"
 sN
-Gq
+yC
 yC
 yC
 DX
@@ -6030,7 +5949,7 @@ vM
 it
 yC
 bJ
-MA
+Ep
 sN
 Jb
 Jb
@@ -6052,7 +5971,7 @@ CM
 "}
 (38,1,1) = {"
 sN
-yC
+an
 mt
 yC
 sh
@@ -6104,7 +6023,7 @@ CM
 "}
 (39,1,1) = {"
 sN
-Gq
+yC
 mt
 Or
 JF
@@ -6160,7 +6079,7 @@ JF
 JF
 JF
 JF
-FB
+jT
 gX
 gX
 gX
@@ -6208,9 +6127,9 @@ CM
 "}
 (41,1,1) = {"
 sN
-Gq
-mt
-yC
+OG
+ai
+ag
 pt
 vS
 gX
@@ -6260,8 +6179,8 @@ Jf
 "}
 (42,1,1) = {"
 sN
-mt
-mt
+ao
+aj
 yC
 QV
 KC
@@ -6313,7 +6232,7 @@ Jf
 (43,1,1) = {"
 sN
 Gq
-Sv
+am
 bj
 JF
 QT
@@ -6342,7 +6261,7 @@ cs
 YN
 yC
 tP
-MA
+Ep
 sN
 Jb
 Jb
@@ -6378,7 +6297,7 @@ aw
 aw
 aw
 gX
-SD
+rQ
 yC
 yC
 yC
@@ -6416,7 +6335,7 @@ Jf
 "}
 (45,1,1) = {"
 sN
-ye
+BM
 iC
 ON
 iC
@@ -6472,7 +6391,7 @@ qB
 Gl
 SN
 hm
-tu
+BM
 JF
 Tj
 tq
@@ -6520,15 +6439,15 @@ Jf
 "}
 (47,1,1) = {"
 sN
-qB
+ap
 Gl
 QP
 hm
-BM
+af
 JF
-OG
 yC
-Ai
+yC
+aF
 JF
 yC
 yC
@@ -6576,11 +6495,11 @@ qB
 Gl
 QP
 hm
-tu
+BM
 JF
-yx
-er
-Kg
+mt
+mt
+yC
 JF
 mt
 mt
@@ -6624,19 +6543,19 @@ Jb
 "}
 (49,1,1) = {"
 sN
-ye
+BM
 PL
 HO
 PL
 ed
 JF
-RW
-mh
-bI
-JF
-fE
+Sv
+ac
 mt
-dL
+JF
+Sv
+ac
+mt
 sN
 Jb
 Jb
