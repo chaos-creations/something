@@ -9,4 +9,3 @@
 	name = "nuclear authentication disk"
 	desc = "Better keep this safe."
 	icon_state = "nucleardisk"
-	rp_value = 100

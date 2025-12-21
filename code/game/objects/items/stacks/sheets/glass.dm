@@ -16,7 +16,6 @@
 	singular_name = "glass sheet"
 	icon_state = "sheet-glass"
 	matter = list("glass" = 3750)
-	rp_value = 2.5
 
 	stack_id = "glass sheet"
 	var/created_window = /obj/structure/window

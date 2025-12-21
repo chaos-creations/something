@@ -109,6 +109,8 @@ GLOBAL_DATUM_INIT(supply_controller, /datum/controller/supply, new())
 	var/black_market_lockout = FALSE
 	var/last_viewed_group = "categories"
 	var/first_time = TRUE
+	var/qm_loyalty = 0
+	var/sh_loyalty = 0
 
 /obj/structure/machinery/computer/supplycomp/extraction
 	name = "merchant listing access console"
@@ -137,45 +139,45 @@ GLOBAL_DATUM_INIT(supply_controller, /datum/controller/supply, new())
 			to_chat(user, SPAN_NOTICE("You find a small horizontal slot at the bottom of the console. You try to feed \the [hit_item] into it, but it's seemingly blocked off from the inside."))
 			return
 	if(istype(hit_item, /obj/item/loyalty/quartermaster/levelone))
-		if(GLOB.supply_controller.qm_loyalty != 1)
+		if(qm_loyalty != 1)
 			to_chat(user, SPAN_NOTICE("You scan your loyalty medallion at the console and it pings agreeably. Loyalty level 1 purchases unlocked for QM."))
-			GLOB.supply_controller.qm_loyalty = 1
+			qm_loyalty = 1
 			return
 		else
 			to_chat(user, SPAN_WARNING("You scan your loyalty medallion at the console and log out. Loyalty purchases disabled for QM."))
-			GLOB.supply_controller.qm_loyalty = 0
+			qm_loyalty = 0
 	if(istype(hit_item, /obj/item/loyalty/quartermaster/leveltwo))
-		if(GLOB.supply_controller.qm_loyalty != 2)
+		if(qm_loyalty != 2)
 			to_chat(user, SPAN_NOTICE("You scan your loyalty medallion at the console and it pings agreeably. Loyalty level 1 and loyalty level 2 purchases unlocked for QM."))
-			GLOB.supply_controller.qm_loyalty = 2
+			qm_loyalty = 2
 			return
 		else
 			to_chat(user, SPAN_WARNING("You scan your loyalty medallion at the console and log out. Loyalty purchases disabled for QM."))
-			GLOB.supply_controller.qm_loyalty = 0
+			qm_loyalty = 0
 	if(istype(hit_item, /obj/item/loyalty/quartermaster/levelthree))
-		if(GLOB.supply_controller.qm_loyalty != 3)
+		if(qm_loyalty != 3)
 			to_chat(user, SPAN_NOTICE("You scan your loyalty medallion at the console and it pings agreeably. Loyalty level 1, level 2, and level 3 purchases unlocked for QM."))
-			GLOB.supply_controller.qm_loyalty = 3
+			qm_loyalty = 3
 			return
 		else
 			to_chat(user, SPAN_WARNING("You scan your loyalty medallion at the console and log out. Loyalty purchases disabled for QM."))
-			GLOB.supply_controller.qm_loyalty = 0
+			qm_loyalty = 0
 	if(istype(hit_item, /obj/item/loyalty/scholar/levelone))
-		if(GLOB.supply_controller.sh_loyalty != 1)
+		if(sh_loyalty != 1)
 			to_chat(user, SPAN_NOTICE("You scan your loyalty seal at the console and it pings agreeably. Loyalty level 1 purchases unlocked for Scholar."))
-			GLOB.supply_controller.sh_loyalty = 1
+			sh_loyalty = 1
 			return
 		else
 			to_chat(user, SPAN_WARNING("You scan your loyalty seal at the console and log out. Loyalty purchases disabled for Scholar."))
-			GLOB.supply_controller.sh_loyalty = 0
+			sh_loyalty = 0
 	if(istype(hit_item, /obj/item/loyalty/scholar/leveltwo))
-		if(GLOB.supply_controller.sh_loyalty != 2)
+		if(sh_loyalty != 2)
 			to_chat(user, SPAN_NOTICE("You scan your loyalty seal at the console and it pings agreeably. Loyalty level 1 and loyalty level 2 purchases unlocked for Scholar."))
-			GLOB.supply_controller.sh_loyalty = 2
+			sh_loyalty = 2
 			return
 		else
 			to_chat(user, SPAN_WARNING("You scan your loyalty seal at the console and log out. Loyalty purchases disabled for Scholar."))
-			GLOB.supply_controller.sh_loyalty = 0
+			sh_loyalty = 0
 	if(istype(hit_item, /obj/item/coin/requisitionpoint))
 		var/obj/item/coin/requisitionpoint/slotted_coin = hit_item
 		to_chat(user, SPAN_NOTICE("You insert the requisition point token into the console and add its value to your budget."))
@@ -436,10 +438,6 @@ GLOBAL_DATUM_INIT(supply_controller, /datum/controller/supply, new())
 	var/points_per_slip = 0
 	var/points_per_crate = 0
 
-	/// extraction stuff
-	var/qm_loyalty = 0
-	var/sh_loyalty = 0
-
 	//black market stuff
 	///in Weyland-Yutani dollars - Not Stan_Albatross.
 	var/black_market_points = 5 // 5 to start with to buy the scanner.
@@ -611,17 +609,6 @@ GLOBAL_DATUM_INIT(supply_controller, /datum/controller/supply, new())
 		if(.(B))
 			return 1
 
-/datum/controller/supply/proc/get_loyalty_multiplier()
-	switch(qm_loyalty)
-		if(1)
-			return 0.25
-		if(2)
-			return 0.33
-		if(3)
-			return 0.5
-		else
-			return 0.2
-
 // Called when the elevator is lowered.
 /datum/controller/supply/proc/sell()
 	var/area/area_shuttle = shuttle.get_location_area()
@@ -660,8 +647,7 @@ GLOBAL_DATUM_INIT(supply_controller, /datum/controller/supply, new())
 
 		if(movable_atom.rp_value != 0)
 			var/rp_points_to_add = get_rp_value(movable_atom)
-			points += rp_points_to_add * get_loyalty_multiplier()
-			qdel(movable_atom)
+			points += rp_points_to_add
 
 		// Delete everything else.
 		else qdel(movable_atom)
@@ -993,8 +979,6 @@ GLOBAL_DATUM_INIT(supply_controller, /datum/controller/supply, new())
 					dat += "<BR>\n<BR>"
 
 
-		dat += "<b>Quartermaster Loyalty:</b> [GLOB.supply_controller.qm_loyalty]<br>"
-		dat += "<b>Scholar Loyalty:</b> [GLOB.supply_controller.sh_loyalty]<br>"
 		dat += {"<HR>\nSupply budget: [GLOB.supply_controller.points * SUPPLY_TO_MONEY_MUPLTIPLIER]RP<BR>\n<BR>
 		\n<A href='byond://?src=\ref[src];order=categories'>Order items</A><BR>\n<BR>
 		\n<A href='byond://?src=\ref[src];viewrequests=1'>View requests</A><BR>\n<BR>
@@ -1308,14 +1292,12 @@ GLOBAL_DATUM_INIT(supply_controller, /datum/controller/supply, new())
 	return return_value
 
 /proc/get_rp_value(atom/movable/movable_atom)
-	var/return_value = 0
+	var/return_value
 	if(istype(movable_atom, /obj/item/stack))
 		var/obj/item/stack/rp_stack = movable_atom
-		return_value = rp_stack.rp_value * rp_stack.amount
+		return_value += (rp_stack.rp_value * rp_stack.amount)
 	else
 		return_value = movable_atom.rp_value
-
-	return return_value
 
 /datum/controller/supply/proc/kill_mendoza()
 	if(!mendoza_status)
@@ -1397,19 +1379,19 @@ GLOBAL_DATUM_INIT(supply_controller, /datum/controller/supply, new())
 	if(isnull(supply_pack.contains) && isnull(supply_pack.containertype))
 		return
 
-	if(supply_pack.qm_llone == TRUE && GLOB.supply_controller.qm_loyalty < 1)
+	if(supply_pack.qm_llone == TRUE && qm_loyalty < 1)
 		return
 
-	if(supply_pack.qm_lltwo == TRUE && GLOB.supply_controller.qm_loyalty < 2)
+	if(supply_pack.qm_lltwo == TRUE && qm_loyalty < 2)
 		return
 
-	if(supply_pack.qm_llthree == TRUE && GLOB.supply_controller.qm_loyalty < 3)
+	if(supply_pack.qm_llthree == TRUE && qm_loyalty < 3)
 		return
 
-	if(supply_pack.sh_llone == TRUE && GLOB.supply_controller.sh_loyalty < 1)
+	if(supply_pack.sh_llone == TRUE && sh_loyalty < 1)
 		return
 
-	if(supply_pack.sh_lltwo == TRUE && GLOB.supply_controller.sh_loyalty < 2)
+	if(supply_pack.sh_lltwo == TRUE && sh_loyalty < 2)
 		return
 
 	return TRUE
