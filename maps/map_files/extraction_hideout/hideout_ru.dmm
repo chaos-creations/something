@@ -1344,6 +1344,10 @@
 	},
 /turf/open/floor/almayer/silverfull,
 /area/galleyburned/prep)
+"bS" = (
+/mob/living/simple_animal/hostile/retaliate/giant_lizard/storm,
+/turf/open/floor/plating,
+/area/galleyburned/residential)
 "cg" = (
 /obj/structure/largecrate/random/barrel/medical{
 	pixel_x = 7;
@@ -6977,7 +6981,7 @@ Hr
 yC
 yC
 yC
-yC
+bS
 yC
 mt
 yC
