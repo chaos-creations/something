@@ -114,6 +114,32 @@ PLANT_CUT_MACHETE = 3 = Needs at least a machete to be cut down
 	icon = 'icons/obj/structures/props/pinetrees.dmi'
 	icon_state = "pine_c"
 
+	var/static/list/took_presents
+
+/obj/structure/flora/tree/pine/xmas/Initialize(mapload)
+	. = ..()
+	if(!took_presents)
+		took_presents = list()
+
+/obj/structure/flora/tree/pine/xmas/attack_hand(mob/living/user, list/modifiers)
+	. = ..()
+	if(.)
+		return
+
+	if(!user || !user.ckey)
+		return
+
+	if(took_presents[user.ckey])
+		to_chat(user, SPAN_WARNING("There are no presents with your name on them."))
+		return
+
+	took_presents[user.ckey] = TRUE
+	to_chat(user, SPAN_NOTICE("You find a present with your name on it!"))
+
+	var/path = pick(typesof(/obj/item/toy))
+	var/obj/item/G = new path(src)
+	user.put_in_hands(G)
+
 //dead
 /obj/structure/flora/tree/dead
 	icon = 'icons/obj/structures/props/deadtrees.dmi'
