@@ -34,7 +34,7 @@
 	max_w_class = SIZE_SMALL //Changed because of in-game abuse
 	w_class = SIZE_LARGE //Changed becuase of in-game abuse
 	storage_flags = STORAGE_FLAGS_BOX
-
+/*
 /obj/item/storage/box/pride
 	name = "box of prideful crayons"
 	desc = "A box of every flavor of pride."
@@ -51,7 +51,7 @@
 	new /obj/item/toy/crayon/pride/trans(src)
 	new /obj/item/toy/crayon/pride/enby(src)
 	new /obj/item/toy/crayon/pride/fluid(src)
-
+*/
 /obj/item/storage/box/survival
 	w_class = SIZE_MEDIUM
 

@@ -343,6 +343,7 @@ GLOBAL_LIST_INIT(allowed_helmet_items, list(
 	/obj/item/toy/crayon/blue = "crayonblue",
 	/obj/item/toy/crayon/purple = "crayonpurple",
 	/obj/item/toy/crayon/rainbow = "crayonrainbow",
+/*
 	/obj/item/toy/crayon/pride/trans = "crayontrans",
 	/obj/item/toy/crayon/pride/gay = "crayongay",
 	/obj/item/toy/crayon/pride/lesbian = "crayonlesbian",
@@ -352,6 +353,7 @@ GLOBAL_LIST_INIT(allowed_helmet_items, list(
 	/obj/item/toy/crayon/pride/trans = "crayontrans",
 	/obj/item/toy/crayon/pride/enby = "crayonenby",
 	/obj/item/toy/crayon/pride/fluid = "crayonfluid",
+*/
 	/obj/item/paper = "paper",
 	/obj/item/device/flashlight/flare = "flare",
 	/obj/item/clothing/head/headset = "headset",

@@ -60,7 +60,7 @@
 	shade_color = "#000FFF"
 	colorName = "rainbow"
 	uses = 0
-
+/*
 /obj/item/toy/crayon/pride/lesbian
 	icon_state = "crayonlesbian"
 	crayon_color = "#bd1471"
@@ -116,7 +116,7 @@
 	shade_color = "#000FFF"
 	colorName = "genderfluid"
 	uses = 0
-
+*/
 /obj/item/toy/crayon/rainbow/attack_self(mob/living/user)
 	..()
 	crayon_color = input(user, "Please select the main color.", "Crayon color") as color
