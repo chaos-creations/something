@@ -1148,43 +1148,9 @@
 	dir = 5
 	},
 /obj/structure/surface/table/woodentable/fancy,
-/obj/item/toy/crossbow_ammo{
-	pixel_x = -5;
-	pixel_y = 5;
-	dir = 8
-	},
-/obj/item/toy/crossbow_ammo{
-	pixel_x = -9;
-	pixel_y = -4
-	},
-/obj/item/toy/crossbow_ammo{
-	pixel_x = -3;
-	pixel_y = 9;
-	dir = 4
-	},
-/obj/item/toy/crossbow_ammo{
-	pixel_y = 7;
-	pixel_x = 4;
-	dir = 1
-	},
-/obj/item/toy/crossbow_ammo{
-	pixel_y = 7;
-	pixel_x = 8
-	},
-/obj/item/toy/crossbow_ammo{
-	pixel_x = 4;
-	pixel_y = -4;
-	dir = 8
-	},
-/obj/item/toy/crossbow_ammo{
-	pixel_x = 3;
-	pixel_y = -1;
-	dir = 4
-	},
-/obj/item/toy/crossbow_ammo{
-	pixel_x = -5;
-	pixel_y = -4;
-	dir = 1
+/obj/item/storage/box/matches{
+	pixel_x = -2;
+	pixel_y = 6
 	},
 /turf/open/floor/hybrisa/wood/blackwood,
 /area/galleyburned/canteen)
@@ -1223,6 +1189,13 @@
 /turf/open/floor/plating,
 /area/galleyburned/residential)
 "bC" = (
+/obj/structure/prop/souto_land/pole{
+	pixel_y = 2
+	},
+/obj/structure/prop/souto_land/streamer{
+	dir = 5;
+	pixel_y = 32
+	},
 /turf/open/floor/almayer/emeraldcorner/east,
 /area/galleyburned/canteen)
 "bD" = (
@@ -1272,6 +1245,13 @@
 /turf/open/floor/almayer/black/north,
 /area/galleyburned/canteen)
 "bH" = (
+/obj/structure/prop/souto_land/pole{
+	dir = 1
+	},
+/obj/structure/prop/souto_land/streamer{
+	dir = 10;
+	pixel_y = 32
+	},
 /turf/open/floor/almayer/orangecorner/north,
 /area/galleyburned/canteen)
 "bI" = (
@@ -1308,12 +1288,24 @@
 /turf/open/floor/light/blue_glow,
 /area/galleyburned/canteen)
 "bL" = (
+/obj/structure/prop/souto_land/pole{
+	dir = 4;
+	pixel_y = 24
+	},
+/obj/structure/prop/souto_land/streamer{
+	dir = 5;
+	pixel_y = 20
+	},
 /turf/open/floor/almayer/greencorner,
 /area/galleyburned/canteen)
 "bM" = (
 /obj/structure/bed/chair{
 	dir = 2;
 	icon_state = "chair_alt"
+	},
+/obj/structure/prop/souto_land/streamer{
+	dir = 1;
+	pixel_y = 24
 	},
 /turf/open/floor/almayer/orange,
 /area/galleyburned/canteen)
@@ -1322,6 +1314,10 @@
 	dir = 2;
 	icon_state = "chair_alt"
 	},
+/obj/structure/prop/souto_land/streamer{
+	dir = 1;
+	pixel_y = 24
+	},
 /turf/open/floor/almayer/emerald,
 /area/galleyburned/canteen)
 "bO" = (
@@ -1329,9 +1325,21 @@
 	dir = 2;
 	icon_state = "chair_alt"
 	},
+/obj/structure/prop/souto_land/streamer{
+	dir = 1;
+	pixel_y = 24
+	},
 /turf/open/floor/almayer/red,
 /area/galleyburned/canteen)
 "bP" = (
+/obj/structure/prop/souto_land/pole{
+	dir = 8;
+	pixel_y = 24
+	},
+/obj/structure/prop/souto_land/streamer{
+	dir = 10;
+	pixel_y = 20
+	},
 /turf/open/floor/almayer/bluecorner/west,
 /area/galleyburned/canteen)
 "bQ" = (
@@ -1348,6 +1356,68 @@
 /mob/living/simple_animal/hostile/retaliate/giant_lizard/storm,
 /turf/open/floor/plating,
 /area/galleyburned/residential)
+"bT" = (
+/obj/structure/prop/holidays/string_lights{
+	dir = 1
+	},
+/obj/item/prop/helmetgarb/spacejam_tickets{
+	desc = "A ticket to Souto Man's raffle!";
+	name = "\improper Souto Raffle Ticket";
+	pixel_x = 2;
+	pixel_y = 2
+	},
+/turf/open/floor/hybrisa/wood/blackwood,
+/area/galleyburned/canteen)
+"bU" = (
+/obj/item/prop/helmetgarb/spacejam_tickets{
+	desc = "A ticket to Souto Man's raffle!";
+	name = "\improper Souto Raffle Ticket";
+	pixel_x = 11;
+	pixel_y = 6
+	},
+/turf/open/floor/hybrisa/wood/blackwood,
+/area/galleyburned/canteen)
+"bV" = (
+/obj/item/prop/helmetgarb/spacejam_tickets{
+	desc = "A ticket to Souto Man's raffle!";
+	name = "\improper Souto Raffle Ticket";
+	pixel_x = -6;
+	pixel_y = 17
+	},
+/turf/open/floor/hybrisa/wood/blackwood,
+/area/galleyburned/canteen)
+"bW" = (
+/obj/structure/platform{
+	dir = 1
+	},
+/obj/structure/prop/invuln{
+	desc = "The best ride in the universe. For the one and only Souto Man! Although, this one seems to have no fuel left.";
+	dir = 2;
+	icon = 'icons/obj/vehicles/vehicles.dmi';
+	icon_state = "soutomobile";
+	name = "Disabled Souto Mobile"
+	},
+/turf/open/floor/hybrisa/wood/blackwood,
+/area/galleyburned/canteen)
+"bX" = (
+/obj/structure/platform{
+	dir = 1
+	},
+/obj/item/toy/bikehorn/rubberducky{
+	pixel_x = -2;
+	pixel_y = -7
+	},
+/turf/open/floor/hybrisa/wood/blackwood,
+/area/galleyburned/canteen)
+"bY" = (
+/obj/item/prop/helmetgarb/spacejam_tickets{
+	desc = "Low security prisoners would smuggle in arcade tickets after visitations. The tickets act as a stand in for paper currency in the prison economy, they're backed by the cigarette standard, since one ticket nets one cigarette at the prize booth. The cigarettes also get smuggled back in.";
+	name = "\improper arcade tickets";
+	pixel_x = -7;
+	pixel_y = 4
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/galleyburned/canteen)
 "cg" = (
 /obj/structure/largecrate/random/barrel/medical{
 	pixel_x = 7;
@@ -1632,6 +1702,10 @@
 	pixel_x = -8;
 	pixel_y = -10
 	},
+/obj/item/toy/plush/farwa{
+	pixel_x = 5;
+	pixel_y = 20
+	},
 /turf/open/floor/hybrisa/wood/blackwood,
 /area/galleyburned/canteen)
 "fI" = (
@@ -1781,7 +1855,8 @@
 	pixel_y = 5
 	},
 /obj/structure/surface/table/woodentable/fancy,
-/obj/item/toy/crossbow,
+/obj/item/storage/fancy/candle_box,
+/obj/item/storage/fancy/candle_box,
 /turf/open/floor/hybrisa/wood/blackwood,
 /area/galleyburned/canteen)
 "hE" = (
@@ -2485,6 +2560,10 @@
 /obj/structure/bed/chair{
 	dir = 4;
 	icon_state = "chair_alt"
+	},
+/obj/structure/prop/souto_land/streamer{
+	dir = 5;
+	pixel_y = 20
 	},
 /turf/open/floor/almayer/black/east,
 /area/galleyburned/canteen)
@@ -3248,6 +3327,10 @@
 	dir = 8;
 	icon_state = "chair_alt"
 	},
+/obj/structure/prop/souto_land/streamer{
+	dir = 10;
+	pixel_y = 20
+	},
 /turf/open/floor/almayer/emerald/west,
 /area/galleyburned/canteen)
 "zG" = (
@@ -3404,14 +3487,7 @@
 	dir = 9
 	},
 /obj/structure/surface/table/woodentable/fancy,
-/obj/item/toy/gun_ammo{
-	pixel_x = -5;
-	pixel_y = 3
-	},
-/obj/item/toy/gun{
-	pixel_x = 1;
-	pixel_y = 9
-	},
+/obj/item/storage/beer_pack,
 /turf/open/floor/hybrisa/wood/blackwood,
 /area/galleyburned/canteen)
 "Ck" = (
@@ -4848,11 +4924,13 @@
 	},
 /obj/item/toy/plush/kitten{
 	pixel_y = -15;
-	pixel_x = 3
+	pixel_x = 3;
+	anchored = 1
 	},
 /obj/item/toy/plush/bee{
 	pixel_x = 13;
-	pixel_y = 1
+	pixel_y = 1;
+	anchored = 1
 	},
 /turf/open/auto_turf/strata_grass/layer0_mud,
 /area/galleyburned/canteen)
@@ -5973,7 +6051,7 @@ ny
 NN
 Pu
 HT
-Ah
+bY
 Ah
 Ah
 Ah
@@ -6029,8 +6107,8 @@ yE
 bL
 pa
 bC
-xv
-bx
+bW
+bU
 Cg
 EM
 "}
@@ -6081,7 +6159,7 @@ yE
 bM
 EK
 bD
-xv
+bX
 bx
 vg
 EM
@@ -6187,7 +6265,7 @@ DW
 bG
 xv
 fy
-vg
+bT
 EM
 "}
 (19,1,1) = {"
@@ -6238,7 +6316,7 @@ bP
 zx
 bH
 xv
-bx
+bV
 bv
 EM
 "}
