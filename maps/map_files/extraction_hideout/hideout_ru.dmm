@@ -1405,7 +1405,8 @@
 	},
 /obj/item/toy/bikehorn/rubberducky{
 	pixel_x = -2;
-	pixel_y = -7
+	pixel_y = -7;
+	anchored = 1
 	},
 /turf/open/floor/hybrisa/wood/blackwood,
 /area/galleyburned/canteen)
@@ -1704,7 +1705,8 @@
 	},
 /obj/item/toy/plush/farwa{
 	pixel_x = 5;
-	pixel_y = 20
+	pixel_y = 20;
+	anchored = 1
 	},
 /turf/open/floor/hybrisa/wood/blackwood,
 /area/galleyburned/canteen)

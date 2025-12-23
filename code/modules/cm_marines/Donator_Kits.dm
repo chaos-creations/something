@@ -17,13 +17,13 @@
 /obj/item/storage/box/donator_kit/fill_preset_inventory()
 	for(var/donor_item in donor_gear)
 		new donor_item(src)
-
+/*
 /obj/item/storage/box/donator_kit/open(mob/user)
 	if((donor_key != "GENERIC") && (donor_key != user.ckey))
 		to_chat(user, SPAN_BOLDWARNING("You cannot open a donator kit you do not own!"))
 		return FALSE
 	..()
-
+*/
 /obj/item/storage/box/donator_kit/verb/destroy_kit()
 	set name = "Destroy Kit"
 	set category = "Object"

@@ -501,3 +501,22 @@
 	containertype = /obj/structure/closet/coffin/woodencrate
 	containername = "\improper military cargo truck token crate"
 	group = "Quartermaster LL0"
+
+// jolly
+
+/datum/supply_packs/qm_jolly
+	name = "XMAS: Christmas Armor Giftbox"
+	contains = list()
+	cost = 600
+	containertype = /obj/structure/largecrate/black_market/xmas
+	containername = "\improper armor giftbox"
+	group = "Quartermaster LL0"
+
+/obj/structure/largecrate/black_market/xmas/Initialize()
+	. = ..()
+	spawn_jolly()
+
+/obj/structure/largecrate/black_market/xmas/proc/spawn_jolly()
+    var/gift = pick(typesof(/obj/item/storage/box/donator_kit))
+    if(gift)
+        new gift(src)
