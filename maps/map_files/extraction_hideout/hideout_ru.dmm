@@ -2457,7 +2457,7 @@
 /area/galleyburned/stash)
 "nz" = (
 /obj/structure/machinery/recharge_station,
-/obj/effect/landmark/start/synthetic,
+/obj/effect/landmark/start/extraction/synthetic,
 /turf/open/floor/plating,
 /area/golden_arrow/synthcloset)
 "nI" = (
