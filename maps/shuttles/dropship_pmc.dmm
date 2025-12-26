@@ -1,18 +1,109 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"bw" = (
-/obj/structure/machinery/cm_vending/sorted/medical/wall_med{
-	pixel_y = 26;
-	pixel_x = -10
+"aa" = (
+/obj/effect/decal/cleanable/blood{
+	dir = 4;
+	icon_state = "gib6";
+	pixel_x = 3;
+	pixel_y = -3
 	},
-/obj/structure/bed/chair/dropship/passenger,
-/turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
+/turf/open/floor/almayer/aicore/no_build/ai_silver/west,
+/area/shuttle/pmc)
+"ab" = (
+/turf/open/floor/almayer/aicore/no_build/ai_cargo,
+/area/shuttle/pmc)
+"ac" = (
+/turf/open/floor/almayer/aicore/no_build/ai_silver/east,
+/area/shuttle/pmc)
+"ad" = (
+/obj/structure/platform_decoration{
+	dir = 4
+	},
+/obj/structure/platform_decoration{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/blood/gibs/down,
+/turf/open/floor/almayer/aicore/no_build/ai_arrow{
+	dir = 1
+	},
+/area/shuttle/pmc)
+"ae" = (
+/obj/structure/machinery/recharge_station{
+	pixel_x = 1
+	},
+/obj/structure/barricade/handrail/medical{
+	dir = 8;
+	pixel_x = -1
+	},
+/turf/open/floor/almayer/aicore/no_build,
+/area/shuttle/pmc)
+"af" = (
+/turf/open/floor/almayer/aicore/no_build,
+/area/shuttle/pmc)
+"ag" = (
+/obj/item/prop{
+	desc = "The first page reads. 'Classified Weyland Bio-Weapons Division level eight clearance required.' The rest talks about some sort of XX-121 combat stim?";
+	icon = 'icons/obj/items/paper.dmi';
+	icon_state = "folder_black";
+	name = "Weyland classified intelligence folder";
+	pixel_y = 8;
+	pixel_x = 12
+	},
+/turf/open/floor/almayer/aicore/glowing,
+/area/shuttle/pmc)
+"ah" = (
+/obj/effect/decal/cleanable/blood{
+	icon_state = "csplatter1"
+	},
+/turf/open/floor/almayer/aicore/glowing,
+/area/shuttle/pmc)
+"ai" = (
+/turf/open/floor/almayer/aicore/glowing,
+/area/shuttle/pmc)
+"aj" = (
+/obj/structure/machinery/big_computers/computerwhite/computer2{
+	pixel_x = -6
+	},
+/obj/structure/prop/hybrisa/misc/machinery/screens/redalertblank{
+	light_color = "#FF0000";
+	light_on = 1;
+	light_power = 3;
+	light_range = 5;
+	pixel_y = 28;
+	pixel_x = -5
+	},
+/obj/structure/prop/hybrisa/misc/cabinet{
+	pixel_x = 13;
+	pixel_y = 9
+	},
+/turf/open/floor/almayer/aicore/glowing,
+/area/shuttle/pmc)
+"ak" = (
+/turf/open/floor/almayer/aicore/no_build/ai_arrow{
+	dir = 1
+	},
+/area/shuttle/pmc)
+"al" = (
+/obj/structure/prop/hybrisa/airport/deadpilot2{
+	pixel_x = -27
+	},
+/turf/open/floor/almayer/aicore/glowing,
+/area/shuttle/pmc)
+"am" = (
+/turf/closed/shuttle/dropship2/WY/StarGlider{
+	icon_state = "92"
+	},
+/area/shuttle/pmc)
+"an" = (
+/turf/closed/shuttle/dropship2/WY/StarGlider{
+	icon_state = "94"
+	},
 /area/shuttle/pmc)
 "bM" = (
 /obj/structure/platform{
 	dir = 1
 	},
 /obj/structure/blocker/forcefield/multitile_vehicles,
-/turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
+/turf/open/floor/almayer/aicore/no_build/ai_cargo,
 /area/shuttle/pmc)
 "bO" = (
 /turf/closed/shuttle/pmc{
@@ -20,10 +111,13 @@
 	},
 /area/shuttle/pmc)
 "dw" = (
-/obj/structure/machinery/light/double{
-	dir = 4
+/obj/structure/largecrate/empty/case/double,
+/obj/structure/largecrate/empty/case{
+	pixel_x = -29;
+	pixel_y = 10;
+	layer = 2.97
 	},
-/turf/open/shuttle/dropship/light_grey_single_wide_up_to_down,
+/turf/open/floor/almayer/aicore/no_build/ai_silver/east,
 /area/shuttle/pmc)
 "eX" = (
 /obj/structure/shuttle/part/midway/transparent{
@@ -70,25 +164,11 @@
 /turf/template_noop,
 /area/shuttle/pmc)
 "jt" = (
-/obj/structure/bed/chair/vehicle/dropship_cockpit/pilot{
-	dir = 1;
-	pixel_x = 6;
-	pixel_y = 8
+/obj/structure/blocker/invisible_wall,
+/turf/closed/shuttle/dropship2/WY/StarGlider{
+	icon_state = "damaged_console2";
+	opacity = 0
 	},
-/obj/structure/machinery/computer/shuttle/dropship/flight/small{
-	pixel_y = 16;
-	pixel_x = 6
-	},
-/obj/structure/phone_base{
-	dir = 4;
-	pixel_x = -19;
-	pixel_y = 12;
-	layer = 3.1;
-	phone_category = "Dropship";
-	name = "Midway telephone receiver";
-	phone_id = "Midway"
-	},
-/turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
 /area/shuttle/pmc)
 "jA" = (
 /turf/closed/shuttle/pmc{
@@ -114,12 +194,13 @@
 /obj/structure/platform_decoration{
 	dir = 8
 	},
-/turf/open/shuttle/dropship/light_grey_single_wide_up_to_down,
+/turf/open/floor/almayer/aicore/no_build/ai_arrow{
+	dir = 1
+	},
 /area/shuttle/pmc)
 "lo" = (
-/turf/closed/shuttle/pmc{
-	icon_state = "67"
-	},
+/obj/structure/girder,
+/turf/open/floor/plating,
 /area/shuttle/pmc)
 "lJ" = (
 /obj/structure/shuttle/part/dropshippmc/transparent/lower_right_wing{
@@ -143,27 +224,26 @@
 	},
 /area/shuttle/pmc)
 "po" = (
+/obj/structure/prop/hybrisa/airport/dropshipenginedamage{
+	light_on = 1;
+	light_power = 5;
+	light_range = 6
+	},
 /turf/closed/shuttle/pmc{
 	icon_state = "26"
 	},
 /area/shuttle/pmc)
 "pp" = (
-/obj/structure/bed/chair/dropship/passenger{
-	dir = 1
-	},
-/turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
+/obj/structure/machinery/big_computers/messaging_server/white,
+/turf/open/floor/almayer/aicore/no_build,
 /area/shuttle/pmc)
 "qm" = (
-/obj/structure/machinery/cm_vending/sorted/medical/wall_med{
-	pixel_y = 26;
-	pixel_x = 10
-	},
 /obj/structure/extinguisher_cabinet/lifeboat{
 	pixel_y = 27;
 	pixel_x = -2
 	},
-/obj/structure/bed/chair/dropship/passenger,
-/turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
+/obj/structure/machinery/big_computers/computerwhite/computer4,
+/turf/open/floor/almayer/aicore/no_build,
 /area/shuttle/pmc)
 "rd" = (
 /obj/effect/attach_point/fuel/midway{
@@ -187,10 +267,6 @@
 	icon_state = "47"
 	},
 /area/shuttle/pmc)
-"tv" = (
-/obj/structure/shuttle/part/dropshippmc/transparent/lower_left_wing,
-/turf/template_noop,
-/area/shuttle/pmc)
 "tC" = (
 /obj/structure/shuttle/part/dropshippmc/transparent/engine_right_exhaust,
 /turf/template_noop,
@@ -199,21 +275,14 @@
 /obj/structure/shuttle/part/dropshippmc/transparent/engine_left_exhaust,
 /turf/template_noop,
 /area/shuttle/pmc)
-"uo" = (
-/obj/structure/shuttle/part/dropshippmc/transparent/lower_left_wing,
-/obj/structure/shuttle/part/dropshippmc/transparent/middle_right_wing,
-/turf/template_noop,
-/area/shuttle/pmc)
 "uT" = (
-/obj/structure/machinery/light/double{
-	dir = 8
-	},
-/turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
+/obj/effect/decal/cleanable/blood/gibs/body,
+/turf/open/floor/almayer/aicore/glowing,
 /area/shuttle/pmc)
 "wh" = (
 /obj/structure/blocker/forcefield/multitile_vehicles,
 /obj/structure/machinery/door/airlock/hatch/cockpit/two,
-/turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
+/turf/open/floor/almayer/no_build/test_floor4,
 /area/shuttle/pmc)
 "wN" = (
 /obj/structure/shuttle/part/dropshippmc/transparent/left_inner_wing_connector,
@@ -226,28 +295,15 @@
 /turf/template_noop,
 /area/shuttle/pmc)
 "xz" = (
-/obj/structure/stairs/perspective{
-	dir = 1;
-	icon_state = "p_stair_full";
-	pixel_y = 22
+/obj/structure/bed/chair/dropship/pilot{
+	dir = 2;
+	pixel_y = 6
 	},
-/obj/structure/machinery/computer/dropship_weapons/midway/small{
-	pixel_y = 8;
-	pixel_x = 8;
-	name = "\improper 'Cash Flow' weapons controls";
-	req_one_access = list(12,22,205, 200)
-	},
-/obj/structure/bed/chair/vehicle/dropship_cockpit/copilot{
-	dir = 1;
-	pixel_x = 8;
-	layer = 5
-	},
-/turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
+/turf/open/floor/almayer/aicore/glowing/no_build/ai_floor3,
 /area/shuttle/pmc)
 "yv" = (
-/turf/closed/shuttle/pmc{
-	icon_state = "72"
-	},
+/obj/structure/girder/reinforced,
+/turf/open/floor/plating,
 /area/shuttle/pmc)
 "zh" = (
 /obj/structure/shuttle/part/dropshippmc/transparent/left_outer_bottom_wing,
@@ -285,10 +341,6 @@
 	},
 /turf/template_noop,
 /area/shuttle/pmc)
-"zI" = (
-/obj/structure/shuttle/part/dropshippmc/transparent/middle_right_wing,
-/turf/template_noop,
-/area/shuttle/pmc)
 "zK" = (
 /turf/closed/shuttle/pmc/transparent{
 	icon_state = "89"
@@ -303,11 +355,14 @@
 	icon_state = "N";
 	pixel_y = -1
 	},
-/turf/open/shuttle/dropship/medium_grey_single_wide_left_to_right,
+/turf/open/floor/almayer/no_build/test_floor4,
 /area/shuttle/pmc)
 "AC" = (
-/obj/structure/bed/chair/dropship/passenger,
-/turf/open/shuttle/dropship/light_grey_single_wide_up_to_down,
+/obj/item/broken_device{
+	pixel_x = 11;
+	pixel_y = 10
+	},
+/turf/open/floor/almayer/aicore/no_build,
 /area/shuttle/pmc)
 "Bl" = (
 /obj/structure/stairs/perspective,
@@ -318,13 +373,7 @@
 /obj/structure/platform{
 	dir = 8
 	},
-/turf/open/shuttle/dropship/light_grey_single_wide_up_to_down,
-/area/shuttle/pmc)
-"Bq" = (
-/obj/structure/shuttle/part/dropshippmc/transparent{
-	icon_state = "71"
-	},
-/turf/template_noop,
+/turf/open/floor/almayer/no_build/test_floor4,
 /area/shuttle/pmc)
 "Bv" = (
 /turf/closed/shuttle/pmc{
@@ -344,8 +393,12 @@
 /turf/template_noop,
 /area/shuttle/pmc)
 "Ed" = (
-/obj/structure/bed/chair/dropship/passenger,
-/turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
+/obj/structure/bed/chair/office/light{
+	dir = 4;
+	pixel_y = 5
+	},
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/almayer/aicore/glowing,
 /area/shuttle/pmc)
 "EB" = (
 /turf/closed/shuttle/pmc/transparent{
@@ -400,7 +453,7 @@
 /obj/structure/platform{
 	dir = 4
 	},
-/turf/open/shuttle/dropship/light_grey_single_wide_up_to_down,
+/turf/open/floor/almayer/no_build/test_floor4,
 /area/shuttle/pmc)
 "Op" = (
 /obj/structure/shuttle/part/dropshippmc/transparent/lower_right_wing{
@@ -419,7 +472,7 @@
 	attach_id = 7
 	},
 /obj/docking_port/mobile/marine_dropship/pmc,
-/turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
+/turf/open/floor/almayer/aicore/no_build,
 /area/shuttle/pmc)
 "Qz" = (
 /obj/structure/shuttle/part/dropshippmc/transparent/lower_right_wing{
@@ -448,10 +501,8 @@
 	},
 /area/shuttle/pmc)
 "SE" = (
-/obj/structure/machinery/light/double{
-	dir = 8
-	},
-/turf/open/shuttle/dropship/light_grey_single_wide_up_to_down,
+/obj/structure/girder/reinforced,
+/turf/open/floor/almayer/aicore/no_build/ai_silver/west,
 /area/shuttle/pmc)
 "SG" = (
 /obj/structure/shuttle/part/dropshippmc/transparent/lower_right_wing{
@@ -460,32 +511,22 @@
 /turf/template_noop,
 /area/shuttle/pmc)
 "SQ" = (
-/turf/open/shuttle/dropship/light_grey_single_wide_up_to_down,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/almayer/aicore/no_build/ai_silver/east,
 /area/shuttle/pmc)
 "TN" = (
 /turf/template_noop,
 /area/space)
 "Ud" = (
-/obj/structure/machinery/light/double{
-	dir = 4;
-	pixel_y = -5
-	},
-/turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
+/obj/effect/decal/cleanable/blood/gibs/core,
+/turf/open/floor/almayer/aicore/glowing,
 /area/shuttle/pmc)
 "UJ" = (
-/turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
+/obj/structure/barricade/metal/plasteel/wired,
+/turf/open/floor/almayer/aicore/no_build,
 /area/shuttle/pmc)
 "UT" = (
-/obj/structure/machinery/camera/autoname/golden_arrow/midway{
-	dir = 4;
-	pixel_x = -23
-	},
-/turf/open/shuttle/dropship/light_grey_single_wide_up_to_down,
-/area/shuttle/pmc)
-"UU" = (
-/turf/closed/shuttle/pmc{
-	icon_state = "62"
-	},
+/turf/open/floor/almayer/aicore/no_build/ai_silver/west,
 /area/shuttle/pmc)
 "Vk" = (
 /obj/effect/attach_point/electronics/midway,
@@ -499,6 +540,11 @@
 	attach_id = 10;
 	dir = 1;
 	icon_state = "fuel_base_pmc"
+	},
+/obj/structure/prop/hybrisa/airport/dropshipenginedamage{
+	light_on = 1;
+	light_power = 5;
+	light_range = 6
 	},
 /turf/closed/shuttle/pmc{
 	icon_state = "28"
@@ -531,13 +577,14 @@
 	name = "\improper Cash Flow cargo door";
 	id = "aft_door"
 	},
-/turf/open/shuttle/dropship/medium_grey_single_wide_left_to_right,
+/turf/open/floor/almayer/no_build/test_floor4,
 /area/shuttle/pmc)
 "Zl" = (
 /obj/effect/attach_point/crew_weapon/midway{
 	attach_id = 7
 	},
-/turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
+/obj/structure/machinery/defenses/sentry/platoon_pmc,
+/turf/open/floor/almayer/aicore/no_build,
 /area/shuttle/pmc)
 "ZN" = (
 /turf/closed/shuttle/pmc{
@@ -551,10 +598,10 @@ TN
 TN
 TN
 TN
-Bq
-zI
-uo
-tv
+TN
+TN
+TN
+TN
 gX
 kN
 Vw
@@ -572,7 +619,7 @@ ZN
 yv
 lo
 lo
-UU
+HW
 fQ
 Sw
 CC
@@ -602,15 +649,15 @@ IU
 (4,1,1) = {"
 lJ
 Qz
-HW
+am
 hn
 EB
+aj
 AC
-AC
-SQ
+af
 Bl
 la
-SQ
+aa
 UT
 SE
 YP
@@ -623,12 +670,12 @@ Op
 jt
 xz
 wh
-UJ
-UJ
-UJ
+ak
+ah
+ag
 OQ
 bM
-UJ
+ab
 Zl
 UJ
 At
@@ -638,15 +685,15 @@ TN
 (6,1,1) = {"
 GL
 Lv
-zk
+an
 zK
 EB
-AC
-AC
-SQ
+al
+af
+af
 Nx
-la
-SQ
+ad
+ac
 SQ
 dw
 At
@@ -659,10 +706,10 @@ TN
 TN
 sh
 OO
-bw
-Ed
+ae
+ai
 Ud
-pp
+ae
 QX
 zk
 zk

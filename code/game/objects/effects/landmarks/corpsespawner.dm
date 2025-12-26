@@ -53,6 +53,21 @@
 	name = "USCM Reconnaissance Spotter"
 	equip_path = /datum/equipment_preset/corpse/forecon_spotter
 
+/obj/effect/landmark/corpsespawner/forecon_standard
+	name = "USCM Reconnaissance Marine"
+	equip_path = /datum/equipment_preset/corpse/forecon/standard
+
+/obj/effect/landmark/corpsespawner/forecon_tech
+	name = "USCM Reconnaissance Support Technician"
+	equip_path = /datum/equipment_preset/corpse/forecon/tech
+
+/obj/effect/landmark/corpsespawner/forecon_smartgunner
+	name = "USCM Reconnaissance Smartgunner"
+	equip_path = /datum/equipment_preset/corpse/forecon/smartgunner
+
+/obj/effect/landmark/corpsespawner/forecon_marksman
+	name = "USCM Reconnaissance Designated Marksman"
+	equip_path = /datum/equipment_preset/corpse/forecon/marksman
 
 ///////////////////////
 /////// HYBRISA ///////
