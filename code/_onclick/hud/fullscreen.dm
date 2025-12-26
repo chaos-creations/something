@@ -184,6 +184,10 @@
 	icon_state = "thermal_hud"
 	appearance_flags = NONE
 
+/atom/movable/screen/fullscreen/thermal/alpharii
+	icon_state = "noise"
+	alpha = 15
+
 /atom/movable/screen/fullscreen/meson
 	icon = 'icons/mob/hud/screen1.dmi'
 	screen_loc = "WEST,SOUTH to EAST,NORTH"

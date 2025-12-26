@@ -1439,6 +1439,8 @@
 /mob/living/carbon/human/synthetic/second/Initialize(mapload)
 	. = ..(mapload, SYNTH_GEN_TWO)
 
+/mob/living/carbon/human/synthetic/alpharii/Initialize(mapload)
+	. = ..(mapload, SYNTH_ALPHARII)
 
 /mob/living/carbon/human/resist_fire()
 	if(isyautja(src))

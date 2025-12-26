@@ -1705,8 +1705,7 @@
 	},
 /obj/item/toy/plush/farwa{
 	pixel_x = 5;
-	pixel_y = 20;
-	anchored = 1
+	pixel_y = 20
 	},
 /turf/open/floor/hybrisa/wood/blackwood,
 /area/galleyburned/canteen)
@@ -4921,18 +4920,15 @@
 /obj/structure/flora/tree/pine/xmas,
 /obj/item/toy/prize/deathripley{
 	pixel_x = -18;
-	pixel_y = 0;
-	anchored = 1
+	pixel_y = 0
 	},
 /obj/item/toy/plush/kitten{
 	pixel_y = -15;
-	pixel_x = 3;
-	anchored = 1
+	pixel_x = 3
 	},
 /obj/item/toy/plush/bee{
 	pixel_x = 13;
-	pixel_y = 1;
-	anchored = 1
+	pixel_y = 1
 	},
 /turf/open/auto_turf/strata_grass/layer0_mud,
 /area/galleyburned/canteen)

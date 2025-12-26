@@ -237,3 +237,101 @@
 	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/sniper/incendiary, WEAR_IN_R_STORE)
 	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/sniper/flak, WEAR_IN_R_STORE)
 	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/sniper/basic, WEAR_IN_R_STORE)
+
+// alpharii
+
+/datum/species/synthetic/alpharii
+	name = SYNTH_ALPHARII
+	uses_skin_color = FALSE
+	special_body_types = TRUE
+	mob_inherent_traits = list(TRAIT_SUPER_STRONG, TRAIT_IRON_TEETH)
+
+	brute_mod = 0.4
+	burn_mod = 0.2
+	slowdown = -0.2
+
+	pain_type = /datum/pain/synthetic/colonial
+	blood_color = BLOOD_COLOR_ZOMBIE
+	eyes = "blank_s"
+
+	icobase = 'something/icons/r_alpharii.dmi'
+	deform = 'something/icons/r_alpharii.dmi'
+
+	inherent_verbs = list(
+		/mob/living/carbon/human/synthetic/proc/toggle_HUD
+	)
+
+/obj/item/clothing/under/marine/veteran/scavs/alpharii
+	name = "\improper Gear Harness"
+	desc = "A reinforced tactical harness designed for mobility and utility. Constructed from durable synthetic fibers, it provides none protection while allowing for a full range of motion. The harness is equipped with multiple attachment points for gear and equipment, making it ideal for operatives who require both protection and functionality in the field."
+	icon_state = "alpharii"
+	worn_state = "alpharii"
+	flags_jumpsuit = null
+	armor_melee = CLOTHING_ARMOR_NONE
+	armor_bullet = CLOTHING_ARMOR_NONE
+
+/obj/item/clothing/glasses/thermal/alpharii
+	name = "Thermal Optic Implants"
+	desc = "A set of implantable lenses designed to augment your vision"
+	icon = 'something/icons/glasses_obj.dmi'
+	item_icons = list(
+		WEAR_EYES = 'something/icons/glasses_mob.dmi'
+	)
+	icon_state = "thermal"
+	item_state = "thermal"
+	deactive_state = "thermal_off"
+	flags_item = NODROP|DELONDROP
+	lighting_alpha = LIGHTING_PLANE_ALPHA_MOSTLY_INVISIBLE
+	fullscreen_vision = /atom/movable/screen/fullscreen/thermal/alpharii
+	actions_types = list(/datum/action/item_action/toggle)
+
+/obj/item/clothing/glasses/thermal/alpharii/Initialize()
+	. = ..()
+	active = FALSE
+	update_icon()
+
+/datum/equipment_preset/scav/alpharii
+	name = "Alpharii, Experimental Pilot"
+	flags = EQUIPMENT_PRESET_EXTRA
+	uses_special_name = TRUE //We always use a codename!
+	faction = FACTION_MALF_SYNTH
+	assignment = "Whiteout Team Operative"
+	role_comm_title = "Experimental Pilot"
+	rank = FACTION_MALF_SYNTH
+	languages = ALL_SYNTH_LANGUAGES
+	skills = /datum/skills/everything //They are Synths, programmed for Everything.
+	idtype = /obj/item/card/id/pmc/ds
+	paygrades = list(PAY_SHORT_SYN = JOB_PLAYTIME_TIER_0)
+
+/datum/equipment_preset/scav/alpharii/New()
+	. = ..()
+	access = get_access(ACCESS_LIST_WY_ALL)
+
+/datum/equipment_preset/scav/alpharii/load_race(mob/living/carbon/human/new_human)
+	new_human.set_species(SYNTH_ALPHARII)
+	new_human.allow_gun_usage = TRUE //To allow usage of Guns/Grenades
+	new_human.h_style = "Bald"
+	new_human.f_style = "Shaved"
+
+/datum/equipment_preset/scav/alpharii/load_name(mob/living/carbon/human/new_human, randomise)
+	new_human.gender = pick(MALE)
+	var/random_name
+	if(new_human.gender == MALE)
+		random_name = "[pick(GLOB.greek_letters)]"
+	else
+		random_name = "[pick(GLOB.greek_letters)]"
+	new_human.change_real_name(new_human, random_name)
+	new_human.age = rand(17,45)
+
+/datum/equipment_preset/scav/alpharii/load_gear(mob/living/carbon/human/new_human)
+	new_human.undershirt = null
+	new_human.underwear = null
+
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/glasses/thermal/alpharii, WEAR_EYES)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/marine/veteran/scavs/alpharii, WEAR_BODY)
+	new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/XM99, WEAR_BACK)
+	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/magazine, WEAR_L_STORE)
+	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/plasma, WEAR_IN_L_STORE)
+	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/plasma, WEAR_IN_L_STORE)
+	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/plasma, WEAR_IN_L_STORE)
+	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/survival/synth/full, WEAR_R_STORE)
