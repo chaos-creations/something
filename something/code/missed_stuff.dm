@@ -10,6 +10,12 @@
 	caliber = "8.8x29mm"
 	default_ammo = /datum/ammo/bullet/rifle/mar40
 
+/obj/item/ammo_box/rounds/sg
+	name = "\improper smartgunner ammunition box (10x28mm)"
+	desc = "A 10x28mm ammunition box. It comes with a leather strap allowing to wear it on the back."
+	caliber = "10x28mm"
+	default_ammo = /datum/ammo/bullet/rifle/heavy/tracer
+
 /obj/effect/spawner/prop_gun/memorial
 	prop_gun_type = /obj/item/weapon/gun/rifle/m41aMK1/navy
 	custom_gun_name = "\improper GUU-71/A pulse rifle 'Ashes'"
