@@ -1,21 +1,4 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"aaa" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/hybrisa/kelland_miner,
-/turf/open/floor/prison,
-/area/lv522/indoors/c_block/mining)
-"aab" = (
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/hybrisa/kelland_miner,
-/turf/open/floor/prison,
-/area/lv522/indoors/c_block/mining)
-"aac" = (
-/obj/effect/landmark/corpsespawner/hybrisa/kelland_miner,
-/turf/open/floor/prison,
-/area/lv522/indoors/c_block/mining)
 "aad" = (
 /obj/structure/surface/table/almayer,
 /obj/item/reagent_container/food/drinks/coffee{
@@ -28,192 +11,6 @@
 	},
 /turf/open/floor/prison/darkredfull2,
 /area/lv522/indoors/a_block/security)
-"aae" = (
-/obj/effect/landmark/corpsespawner/hybrisa/nspa_constable,
-/turf/open/floor/strata/multi_tiles,
-/area/lv522/indoors/c_block/mining)
-"aaf" = (
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/plating/plating_catwalk/prison,
-/area/lv522/indoors/b_block/bridge)
-"aag" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/hybrisa/sanitation,
-/turf/open/floor/prison/darkbrownfull2,
-/area/lv522/indoors/c_block/mining)
-"aah" = (
-/obj/structure/pipes/standard/simple/hidden/green,
-/obj/effect/landmark/corpsespawner/hybrisa/kelland_miner,
-/turf/open/floor/prison,
-/area/lv522/indoors/c_block/mining)
-"aai" = (
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
-	},
-/obj/effect/landmark/corpsespawner/hybrisa/kelland_miner,
-/turf/open/floor/plating/plating_catwalk/prison,
-/area/lv522/indoors/c_block/mining)
-"aaj" = (
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/prison/floor_plate,
-/area/lv522/landing_zone_1/ceiling)
-"aak" = (
-/obj/structure/pipes/standard/simple/hidden/green,
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/plating/plating_catwalk/prison,
-/area/lv522/indoors/b_block/bridge)
-"aal" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/plating/plating_catwalk/prison,
-/area/lv522/landing_zone_1/ceiling)
-"aam" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/prison,
-/area/lv522/indoors/b_block/bridge)
-"aan" = (
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/prison/greenfull/northwest,
-/area/lv522/indoors/b_block/hydro)
-"aao" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/plating,
-/area/lv522/indoors/c_block/cargo)
-"aap" = (
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/plating/platebot,
-/area/lv522/indoors/c_block/cargo)
-"aaq" = (
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/prison,
-/area/lv522/landing_zone_1/ceiling)
-"aar" = (
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/prison,
-/area/lv522/indoors/b_block/hydro)
-"aas" = (
-/obj/docking_port/stationary/marine_dropship/crash_site{
-	name = "Colony - Choose me!"
-	},
-/turf/open/auto_turf/sand_white/layer0,
-/area/lv522/outdoors/colony_streets/south_west_street)
-"aat" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/prison/greenfull/northwest,
-/area/lv522/indoors/b_block/hydro)
-"aau" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/hybrisa/sanitation,
-/turf/open/floor/prison,
-/area/lv522/indoors/c_block/cargo)
-"aav" = (
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/plating/plating_catwalk/prison,
-/area/lv522/indoors/c_block/bridge)
-"aaw" = (
-/obj/structure/machinery/light{
-	dir = 1;
-	pixel_x = 16
-	},
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
-	},
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/prison/darkbrownfull2,
-/area/lv522/indoors/c_block/bridge)
-"aax" = (
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
-	},
-/obj/effect/landmark/corpsespawner/hybrisa/sanitation,
-/turf/open/floor/prison,
-/area/lv522/indoors/c_block/garage)
-"aay" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/prison,
-/area/lv522/indoors/lone_buildings/engineering)
-"aaz" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/wood,
-/area/lv522/indoors/b_block/bar)
-"aaA" = (
-/obj/structure/bed/chair/comfy{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/prison/kitchen,
-/area/lv522/indoors/b_block/bar)
-"aaB" = (
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/wood,
-/area/lv522/indoors/b_block/bar)
-"aaC" = (
-/obj/structure/pipes/standard/simple/hidden/green,
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/plating,
-/area/lv522/indoors/c_block/cargo)
-"aaD" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/prison,
-/area/lv522/indoors/c_block/casino)
-"aaE" = (
-/obj/structure/bed/stool,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/carpet,
-/area/lv522/indoors/b_block/bar)
-"aaF" = (
-/obj/effect/landmark/corpsespawner/hybrisa/sanitation,
-/turf/open/floor/prison,
-/area/lv522/indoors/c_block/garage)
-"aaG" = (
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/prison,
-/area/lv522/indoors/c_block/casino)
-"aaH" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/prison,
-/area/lv522/indoors/b_block/hydro)
-"aaI" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/hybrisa/sanitation,
-/turf/open/floor/prison,
-/area/lv522/indoors/c_block/t_comm)
-"aaJ" = (
-/obj/effect/landmark/corpsespawner/hybrisa/sanitation,
-/turf/open/floor/plating/plating_catwalk/prison,
-/area/lv522/indoors/c_block/cargo)
-"aaK" = (
-/obj/structure/pipes/standard/simple/hidden/green,
-/obj/effect/landmark/corpsespawner/hybrisa/sanitation,
-/turf/open/floor/prison,
-/area/lv522/indoors/c_block/casino)
-"aaL" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/carpet,
-/area/lv522/indoors/c_block/casino)
-"aaM" = (
-/obj/effect/landmark/corpsespawner/hybrisa/sanitation,
-/turf/open/floor/plating,
-/area/lv522/indoors/c_block/garage)
-"aaN" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/prison/darkredfull2,
-/area/lv522/indoors/lone_buildings/chunk)
-"aaO" = (
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/prison,
-/area/lv522/indoors/a_block/dorms)
 "aaP" = (
 /obj/item/prop/helmetgarb/lucky_feather{
 	pixel_x = 11;
@@ -222,11 +19,6 @@
 /obj/item/device/implanter/subdermal_armor,
 /turf/open/floor/corsat/plate,
 /area/lv522/oob)
-"aaQ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/prison,
-/area/lv522/indoors/a_block/dorms)
 "aaR" = (
 /obj/structure/prop/invuln/overhead/flammable_pipe/fly{
 	dir = 10;
@@ -234,10 +26,6 @@
 	},
 /turf/open/floor/corsat/plate,
 /area/lv522/atmos/east_reactor/north)
-"aaS" = (
-/obj/effect/landmark/corpsespawner/hybrisa/pizza_galaxy,
-/turf/open/floor/strata/white_cyan1,
-/area/lv522/indoors/lone_buildings/chunk)
 "aaT" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/structure/machinery/prop/almayer/computer/PC{
@@ -250,31 +38,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison/darkbrownfull2,
 /area/lv522/indoors/c_block/garage)
-"aaU" = (
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/plating/plating_catwalk/prison,
-/area/lv522/indoors/a_block/dorms)
-"aaV" = (
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/prison/darkpurple2/east,
-/area/lv522/indoors/a_block/dorms)
-"aaW" = (
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/prison/kitchen,
-/area/lv522/indoors/a_block/kitchen)
 "aaX" = (
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/floor/prison,
 /area/lv522/outdoors/n_rockies)
-"aaY" = (
-/obj/effect/landmark/corpsespawner/hybrisa/medical_doctor_corpse,
-/turf/open/floor/strata/white_cyan2/west,
-/area/lv522/indoors/a_block/medical)
-"aaZ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/prison,
-/area/lv522/indoors/a_block/dorms/glass)
 "aba" = (
 /obj/structure/stairs/perspective{
 	dir = 10;
@@ -283,44 +50,11 @@
 /obj/structure/largecrate/random/barrel/white,
 /turf/open/floor/plating,
 /area/lv522/landing_zone_1/tunnel/far)
-"abb" = (
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/plating/plating_catwalk/prison,
-/area/lv522/indoors/a_block/dorms/glass)
 "abc" = (
 /obj/structure/largecrate/random/barrel,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/lv522/landing_zone_1/tunnel/far)
-"abd" = (
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/prison/darkpurple2/west,
-/area/lv522/indoors/a_block/dorms)
-"abe" = (
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/prison,
-/area/lv522/indoors/a_block/kitchen/glass)
-"abf" = (
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/plating/plating_catwalk/prison,
-/area/lv522/indoors/a_block/kitchen)
-"abg" = (
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
-	},
-/obj/effect/landmark/corpsespawner/hybrisa/medical_doctor_corpse,
-/turf/open/floor/strata/white_cyan3/north,
-/area/lv522/indoors/a_block/medical)
-"abh" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/prison/darkpurple2,
-/area/lv522/indoors/a_block/dorms)
-"abi" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/prison/blue,
-/area/lv522/indoors/a_block/hallway)
 "abj" = (
 /obj/structure/stairs/perspective{
 	dir = 9;
@@ -328,33 +62,6 @@
 	},
 /turf/open/floor/prison/darkpurplefull2,
 /area/lv522/indoors/a_block/dorms)
-"abk" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/plating/plating_catwalk/prison,
-/area/lv522/indoors/a_block/bridges)
-"abl" = (
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
-	},
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/prison,
-/area/lv522/indoors/a_block/dorms)
-"abm" = (
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/plating/plating_catwalk/prison,
-/area/lv522/indoors/a_block/kitchen)
-"abn" = (
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
-	},
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/plating/plating_catwalk/prison,
-/area/lv522/indoors/a_block/hallway)
 "abo" = (
 /turf/closed/wall/strata_outpost,
 /area/lv522/oob)
@@ -371,107 +78,14 @@
 /obj/structure/pipes/vents/pump,
 /turf/open/floor/prison/floor_plate,
 /area/lv522/indoors/b_block/bar)
-"abq" = (
-/obj/structure/pipes/standard/simple/hidden/green,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/prison,
-/area/lv522/indoors/a_block/dorms)
-"abr" = (
-/obj/effect/landmark/corpsespawner/hybrisa/civilian_office,
-/turf/open/floor/plating/plating_catwalk/prison,
-/area/lv522/indoors/a_block/admin)
-"abs" = (
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/prison,
-/area/lv522/indoors/a_block/security)
 "abt" = (
 /obj/effect/spawner/gibspawner/xeno,
 /turf/open/auto_turf/shale/layer2,
 /area/lv522/outdoors/w_rockies)
-"abu" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/security,
-/turf/open/floor/prison,
-/area/lv522/indoors/a_block/security)
-"abw" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/hybrisa/civilian_office,
-/turf/open/floor/prison,
-/area/lv522/indoors/a_block/admin)
-"abx" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/plating/plating_catwalk/prison,
-/area/lv522/indoors/a_block/dorms/glass)
-"aby" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/forecon_standard,
+"abv" = (
+/obj/item/prop/colony/used_flare,
 /turf/open/floor/prison/floor_plate,
-/area/lv522/outdoors/colony_streets/north_street)
-"abz" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/hybrisa/civilian_office,
-/turf/open/floor/prison/blue,
-/area/lv522/indoors/a_block/admin)
-"abA" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/security,
-/turf/open/floor/prison,
-/area/lv522/indoors/a_block/security/glass)
-"abB" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/prison,
-/area/lv522/indoors/a_block/admin)
-"abC" = (
-/obj/effect/landmark/corpsespawner/hybrisa/civilian_office,
-/turf/open/floor/prison,
-/area/lv522/indoors/a_block/admin)
-"abD" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "W"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/forecon_standard,
-/turf/open/floor/prison/darkredfull2,
-/area/lv522/outdoors/colony_streets/north_street)
-"abE" = (
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 10
-	},
-/obj/effect/landmark/corpsespawner/hybrisa/civilian_office,
-/turf/open/floor/plating/plating_catwalk/prison,
-/area/lv522/indoors/a_block/admin)
-"abF" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/prison/darkredfull2,
-/area/lv522/indoors/a_block/security)
-"abG" = (
-/obj/item/trash/uscm_mre,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/prison,
-/area/lv522/indoors/a_block/admin)
-"abH" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/prison/darkpurplefull2,
-/area/lv522/indoors/a_block/dorms)
-"abI" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/whiteyellowfull/east,
-/area/lv522/indoors/a_block/corpo/glass)
-"abJ" = (
-/obj/effect/landmark/corpsespawner/hybrisa/civilian_office,
-/turf/open/floor/wood,
-/area/lv522/indoors/a_block/executive)
-"abK" = (
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/prison,
-/area/lv522/indoors/a_block/admin)
+/area/lv522/outdoors/colony_streets/north_east_street)
 "abL" = (
 /obj/structure/platform{
 	dir = 1
@@ -484,111 +98,10 @@
 	},
 /turf/open/gm/river,
 /area/lv522/atmos/sewer)
-"abM" = (
-/obj/effect/landmark/corpsespawner/hybrisa/civilian_office,
-/turf/open/floor/carpet,
-/area/lv522/indoors/a_block/executive)
-"abN" = (
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/prison/whitegreenfull/southwest,
-/area/lv522/indoors/a_block/fitness)
-"abO" = (
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/whiteyellowfull/east,
-/area/lv522/indoors/a_block/corpo/glass)
-"abP" = (
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
-	},
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/plating/plating_catwalk/prison,
-/area/lv522/indoors/a_block/fitness)
-"abQ" = (
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/prison,
-/area/lv522/indoors/a_block/dorm_north)
-"abR" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/prison/greenfull/east,
-/area/lv522/indoors/a_block/fitness)
 "abS" = (
 /obj/effect/acid_hole,
 /turf/closed/wall/strata_ice/dirty,
 /area/lv522/oob)
-"abT" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/prison/whitegreenfull/southwest,
-/area/lv522/indoors/a_block/fitness)
-"abU" = (
-/obj/effect/landmark/corpsespawner/forecon_standard,
-/turf/open/shuttle/dropship/can_surgery/light_grey_single_wide_up_to_down,
-/area/lv522/landing_zone_forecon/UD6_Typhoon)
-"abV" = (
-/obj/item/ammo_magazine/hardpoint/towlauncher/aa,
-/turf/open/shuttle/dropship/can_surgery/light_grey_single_wide_up_to_down,
-/area/lv522/landing_zone_forecon/UD6_Typhoon)
-"abW" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/prison,
-/area/lv522/outdoors/colony_streets/windbreaker/observation)
-"abX" = (
-/obj/item/hardpoint/secondary/towlauncher/aa,
-/turf/open/shuttle/dropship/can_surgery/light_grey_single_wide_up_to_down,
-/area/lv522/landing_zone_forecon/UD6_Typhoon)
-"abY" = (
-/obj/effect/landmark/corpsespawner/forecon_spotter,
-/turf/open/shuttle/dropship/can_surgery/light_grey_single_wide_up_to_down,
-/area/lv522/landing_zone_forecon/UD6_Typhoon)
-"abZ" = (
-/obj/structure/bed/chair,
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/prison,
-/area/lv522/outdoors/colony_streets/windbreaker/observation)
-"aca" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/prison/whitegreenfull/southwest,
-/area/lv522/indoors/a_block/fitness/glass)
-"acb" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/space_heater/radiator/red{
-	dir = 8
-	},
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/prison/greenfull/east,
-/area/lv522/indoors/a_block/fitness)
-"acc" = (
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/plating/plating_catwalk/prison,
-/area/lv522/outdoors/colony_streets/windbreaker/observation)
-"acd" = (
-/obj/structure/machinery/light{
-	dir = 1
-	},
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/strata/blue1,
-/area/lv522/indoors/a_block/dorm_north)
-"ace" = (
-/obj/effect/landmark/corpsespawner/forecon_smartgunner,
-/turf/open/shuttle/dropship/can_surgery/light_grey_single_wide_up_to_down,
-/area/lv522/landing_zone_forecon/UD6_Typhoon)
-"acf" = (
-/obj/structure/surface/table/almayer,
-/obj/item/spacecash/c100,
-/obj/item/spacecash/c500,
-/turf/open/floor/strata/white_cyan1/east,
-/area/lv522/oob/w_y_vault)
-"acg" = (
-/obj/structure/surface/table/almayer,
-/obj/item/spacecash/c100,
-/obj/item/spacecash/c10,
-/obj/item/spacecash/c50,
-/obj/item/spacecash/c1000/counterfeit,
-/turf/open/floor/strata/white_cyan1/east,
-/area/lv522/oob/w_y_vault)
 "ach" = (
 /turf/open/floor/corsat/squares,
 /area/lv522/atmos/reactor_garage)
@@ -596,35 +109,6 @@
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
 /turf/open/floor/corsat/brown/northwest,
 /area/lv522/atmos/east_reactor/south)
-"acj" = (
-/obj/structure/pipes/standard/simple/hidden/green,
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/prison,
-/area/lv522/atmos/way_in_command_centre)
-"ack" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/security,
-/turf/open/floor/wood/ship,
-/area/lv522/atmos/way_in_command_centre)
-"acl" = (
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
-/turf/open/floor/prison,
-/area/lv522/atmos/way_in_command_centre)
-"acm" = (
-/obj/structure/surface/table/almayer,
-/obj/item/stack/sheet/mineral/gold{
-	amount = 10;
-	pixel_y = 4
-	},
-/obj/item/stack/sheet/mineral/gold{
-	amount = 5;
-	pixel_y = 10
-	},
-/turf/open/floor/strata/white_cyan1/east,
-/area/lv522/oob/w_y_vault)
-"acn" = (
-/turf/open/shuttle/dropship/light_grey_single_wide_up_to_down,
-/area/lv522/atmos/sewer)
 "aco" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison/floor_plate,
@@ -633,38 +117,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison,
 /area/lv522/landing_zone_2/ceiling)
-"acq" = (
-/obj/effect/landmark/corpsespawner/forecon_standard,
-/turf/open/floor/prison/floor_marked/southwest,
-/area/lv522/atmos/cargo_intake)
-"acr" = (
-/obj/effect/landmark/corpsespawner/forecon_standard,
-/turf/open/floor/prison,
-/area/lv522/atmos/cargo_intake)
-"acs" = (
-/obj/effect/landmark/corpsespawner/forecon_tech,
-/turf/open/auto_turf/sand_white/layer0,
-/area/lv522/outdoors/n_rockies)
 "act" = (
 /obj/structure/surface/table/almayer,
 /obj/item/clipboard,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison/darkpurplefull2,
 /area/lv522/indoors/a_block/dorms/glass)
-"acu" = (
-/obj/effect/landmark/corpsespawner/forecon_standard,
-/turf/open/auto_turf/shale/layer1,
-/area/lv522/outdoors/n_rockies)
-"acv" = (
-/obj/effect/landmark/corpsespawner/forecon_standard,
-/turf/open/auto_turf/shale/layer2,
-/area/lv522/outdoors/n_rockies)
-"acw" = (
-/obj/effect/vehicle_spawner/apc_aa/decrepit{
-	dir = 4
-	},
-/turf/open/asphalt/cement,
-/area/lv522/outdoors/n_rockies)
 "acx" = (
 /obj/structure/surface/table/almayer,
 /obj/item/paper_bin/wy{
@@ -751,22 +209,133 @@
 	},
 /turf/open/gm/river,
 /area/lv522/oob)
-"acK" = (
-/obj/item/ammo_magazine/rocket/anti_air,
-/turf/open/floor/corsat/plate,
-/area/lv522/oob)
-"acL" = (
-/obj/item/ammo_magazine/rocket/anti_air,
-/turf/open/floor/corsat/squares,
-/area/lv522/oob)
-"acM" = (
-/obj/item/weapon/gun/launcher/rocket/anti_air/uscm,
-/turf/open/floor/plating/plating_catwalk/prison,
-/area/lv522/oob)
+"acN" = (
+/obj/structure/cargo_container/wy/left,
+/turf/open/floor/plating,
+/area/lv522/outdoors/colony_streets/north_east_street)
+"acO" = (
+/obj/structure/cargo_container/wy/mid,
+/turf/open/floor/plating,
+/area/lv522/outdoors/colony_streets/north_east_street)
+"acP" = (
+/obj/item/prop/colony/used_flare,
+/obj/structure/cargo_container/wy/right,
+/turf/open/floor/plating,
+/area/lv522/outdoors/colony_streets/north_east_street)
+"acQ" = (
+/obj/item/explosive/mine/active{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/lv522/outdoors/colony_streets/north_east_street)
+"acR" = (
+/turf/closed/shuttle/dropship3/tornado,
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"acS" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "2"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"acT" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "3"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"acU" = (
+/obj/structure/platform_decoration{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/lv522/outdoors/colony_streets/north_east_street)
+"acV" = (
+/obj/structure/platform_decoration{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating,
+/area/lv522/outdoors/colony_streets/north_east_street)
+"acW" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "4"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"acX" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "5"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"acY" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "6"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"acZ" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "16"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"ada" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "17"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"adb" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "18"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"adc" = (
+/obj/structure/stairs/perspective{
+	icon_state = "p_stair_full"
+	},
+/obj/structure/platform{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"add" = (
+/obj/structure/stairs/perspective{
+	icon_state = "p_stair_full"
+	},
+/turf/open/floor/plating,
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"ade" = (
+/obj/structure/stairs/perspective{
+	icon_state = "p_stair_full"
+	},
+/obj/structure/platform{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"adf" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "19"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"adg" = (
+/obj/structure/prop/invuln/fire{
+	pixel_x = -6;
+	pixel_y = 32
+	},
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "17"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
 "adh" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison/floor_plate,
 /area/lv522/outdoors/colony_streets/north_street)
+"adi" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "22"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"adj" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "23"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
 "adk" = (
 /obj/structure/surface/table/almayer,
 /obj/item/trash/plate,
@@ -787,6 +356,80 @@
 	},
 /turf/closed/wall/strata_ice/dirty,
 /area/lv522/oob)
+"adm" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "24"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"adn" = (
+/obj/structure/bed/chair/dropship/passenger{
+	dir = 4
+	},
+/turf/open/shuttle/dropship/can_surgery/medium_grey_single_wide_up_to_down,
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"ado" = (
+/obj/vehicle/powerloader,
+/turf/open/shuttle/dropship/can_surgery/light_grey_single_wide_up_to_down,
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"adp" = (
+/obj/structure/bed/chair/dropship/passenger{
+	dir = 8
+	},
+/turf/open/shuttle/dropship/can_surgery/medium_grey_single_wide_up_to_down,
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"adq" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "25"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"adr" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "26"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"ads" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "27"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"adt" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "28"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"adu" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "29"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"adv" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "30"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"adw" = (
+/obj/structure/machinery/light/double{
+	dir = 8;
+	pixel_y = -5
+	},
+/obj/structure/bed/chair/dropship/passenger{
+	dir = 4
+	},
+/turf/open/shuttle/dropship/can_surgery/medium_grey_single_wide_up_to_down,
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"adx" = (
+/turf/open/shuttle/dropship/can_surgery/light_grey_single_wide_up_to_down,
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"ady" = (
+/obj/structure/machinery/light/double{
+	dir = 4;
+	pixel_y = -5
+	},
+/obj/structure/bed/chair/dropship/passenger{
+	dir = 8
+	},
+/turf/open/shuttle/dropship/can_surgery/medium_grey_single_wide_up_to_down,
+/area/lv522/landing_zone_forecon/UD6_Tornado)
 "adz" = (
 /obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
 /turf/open/floor/corsat/brown/southwest,
@@ -796,6 +439,41 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison/darkbrownfull2,
 /area/lv522/landing_zone_2/ceiling)
+"adB" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "31"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"adC" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "32"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"adD" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "33"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"adE" = (
+/obj/item/explosive/mine/active{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/lv522/outdoors/colony_streets/north_east_street)
+"adF" = (
+/obj/item/prop/colony/used_flare,
+/turf/open/floor/plating,
+/area/lv522/outdoors/colony_streets/north_east_street)
+"adG" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "40"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"adH" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "45"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
 "adI" = (
 /obj/structure/ladder{
 	icon_state = "ladder10";
@@ -803,9 +481,33 @@
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/lv522/oob)
+"adJ" = (
+/obj/structure/platform_decoration{
+	dir = 4
+	},
+/obj/structure/bed/chair/dropship/passenger{
+	dir = 4
+	},
+/turf/open/shuttle/dropship/can_surgery/medium_grey_single_wide_up_to_down,
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"adK" = (
+/obj/structure/platform_decoration{
+	dir = 8
+	},
+/obj/structure/bed/chair/dropship/passenger{
+	dir = 8
+	},
+/turf/open/shuttle/dropship/can_surgery/medium_grey_single_wide_up_to_down,
+/area/lv522/landing_zone_forecon/UD6_Tornado)
 "adL" = (
 /turf/open/floor/shiva/radiator_tile2,
 /area/lv522/indoors/a_block/bridges/garden_bridge)
+"adM" = (
+/obj/item/ammo_magazine/rifle/heap{
+	current_rounds = 0
+	},
+/turf/open/floor/prison,
+/area/lv522/outdoors/colony_streets/north_east_street)
 "adN" = (
 /obj/structure/platform,
 /obj/structure/platform{
@@ -816,6 +518,11 @@
 	},
 /turf/open/gm/river,
 /area/lv522/oob)
+"adO" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "9"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
 "adP" = (
 /obj/structure/machinery/light{
 	dir = 1
@@ -823,6 +530,59 @@
 /obj/structure/machinery/vending/coffee,
 /turf/open/floor/prison/darkbrownfull2,
 /area/lv522/indoors/c_block/mining)
+"adQ" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "47"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"adR" = (
+/obj/structure/stairs/perspective{
+	icon_state = "p_stair_full"
+	},
+/obj/structure/platform{
+	dir = 8
+	},
+/turf/open/shuttle/dropship/can_surgery/light_grey_middle,
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"adS" = (
+/obj/structure/stairs/perspective{
+	icon_state = "p_stair_full"
+	},
+/turf/open/shuttle/dropship/can_surgery/light_grey_middle,
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"adT" = (
+/obj/structure/stairs/perspective{
+	icon_state = "p_stair_full"
+	},
+/obj/structure/platform{
+	dir = 4
+	},
+/turf/open/shuttle/dropship/can_surgery/light_grey_middle,
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"adU" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "48"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"adV" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "15"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"adW" = (
+/obj/item/prop/colony/used_flare,
+/turf/open/floor/prison,
+/area/lv522/outdoors/colony_streets/north_east_street)
+"adX" = (
+/obj/item/prop/colony/used_flare,
+/turf/open/floor/prison/blue_plate/north,
+/area/lv522/outdoors/colony_streets/north_east_street)
+"adY" = (
+/turf/open/shuttle/dropship/can_surgery/light_grey_bottom_left,
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"adZ" = (
+/turf/open/shuttle/dropship/can_surgery/light_grey_single_wide_left_to_right,
+/area/lv522/landing_zone_forecon/UD6_Tornado)
 "aea" = (
 /obj/structure/largecrate/random,
 /obj/structure/machinery/light{
@@ -830,14 +590,190 @@
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/lv522/outdoors/n_rockies)
+"aeb" = (
+/turf/open/shuttle/dropship/can_surgery/light_grey_bottom_right,
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"aec" = (
+/obj/structure/barricade/deployable,
+/turf/open/floor/prison/floor_plate,
+/area/lv522/outdoors/colony_streets/north_east_street)
+"aed" = (
+/obj/structure/barricade/deployable,
+/turf/open/floor/prison/floor_marked/southwest,
+/area/lv522/outdoors/colony_streets/north_east_street)
 "aee" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/closed/wall/strata_outpost,
 /area/lv522/indoors/b_block/bridge)
+"aef" = (
+/obj/structure/barricade/deployable,
+/turf/open/floor/prison,
+/area/lv522/outdoors/colony_streets/north_east_street)
+"aeg" = (
+/obj/item/explosive/mine/active{
+	dir = 8
+	},
+/turf/open/floor/prison/floor_plate,
+/area/lv522/outdoors/colony_streets/north_east_street)
+"aeh" = (
+/obj/structure/bed/chair/dropship/passenger{
+	dir = 4
+	},
+/obj/structure/machinery/light/double{
+	dir = 8;
+	pixel_y = -5
+	},
+/turf/open/shuttle/dropship/can_surgery/medium_grey_single_wide_up_to_down,
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"aei" = (
+/obj/structure/closet/crate/explosives,
+/obj/item/storage/box/explosive_mines,
+/turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"aej" = (
+/obj/structure/bed/chair/dropship/passenger{
+	dir = 8
+	},
+/obj/structure/machinery/light/double{
+	dir = 4;
+	pixel_y = -5
+	},
+/turf/open/shuttle/dropship/can_surgery/medium_grey_single_wide_up_to_down,
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"aek" = (
+/obj/item/ammo_magazine/rifle/heap{
+	current_rounds = 0
+	},
+/turf/open/floor/prison/floor_plate,
+/area/lv522/outdoors/colony_streets/north_east_street)
+"ael" = (
+/obj/item/ammo_magazine/rifle/heap{
+	current_rounds = 0
+	},
+/turf/open/floor/prison/floor_marked/southwest,
+/area/lv522/outdoors/colony_streets/north_east_street)
+"aem" = (
+/obj/item/clothing/mask/facehugger{
+	desc = "It has some sort of a tube at the end of its tail. What the hell is this thing?";
+	icon_state = "facehugger_impregnated";
+	layer = 3;
+	name = "????";
+	stat = 2
+	},
+/turf/open/shuttle/dropship/can_surgery/light_grey_single_wide_up_to_down,
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"aen" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "53"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"aeo" = (
+/obj/structure/barricade/deployable{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/lv522/outdoors/colony_streets/north_east_street)
+"aep" = (
+/obj/structure/machinery/door/airlock/dropship_hatch/two{
+	dir = 8
+	},
+/obj/structure/machinery/door/poddoor/shutters/almayer{
+	dir = 4;
+	id = "UD6 East";
+	indestructible = 1
+	},
+/turf/open/shuttle/dropship/light_grey_single_wide_up_to_down,
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"aeq" = (
+/turf/open/shuttle/dropship/can_surgery/medium_grey_single_wide_up_to_down,
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"aer" = (
+/obj/structure/barricade/deployable{
+	dir = 4
+	},
+/obj/item/clothing/mask/facehugger{
+	desc = "It has some sort of a tube at the end of its tail. What the hell is this thing?";
+	icon_state = "facehugger_impregnated";
+	layer = 3;
+	name = "????";
+	stat = 2
+	},
+/turf/open/floor/prison/floor_plate,
+/area/lv522/outdoors/colony_streets/north_east_street)
+"aes" = (
+/obj/structure/barricade/deployable{
+	dir = 8
+	},
+/turf/open/floor/prison/floor_marked/southwest,
+/area/lv522/outdoors/colony_streets/north_east_street)
+"aet" = (
+/obj/item/explosive/mine/active,
+/turf/open/floor/prison/floor_marked/southwest,
+/area/lv522/outdoors/colony_streets/north_east_street)
+"aeu" = (
+/obj/structure/barricade/deployable{
+	dir = 4
+	},
+/turf/open/floor/prison/floor_marked/southwest,
+/area/lv522/outdoors/colony_streets/north_east_street)
+"aev" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "61"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
 "aew" = (
 /obj/structure/prop/vehicles/crawler,
 /turf/open/floor/corsat/plate,
 /area/lv522/atmos/reactor_garage)
+"aex" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "62"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"aey" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "68"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"aez" = (
+/obj/structure/machinery/cm_vending/sorted/medical/wall_med/limited{
+	pixel_x = 30
+	},
+/obj/structure/bed/chair/dropship/passenger{
+	dir = 8
+	},
+/turf/open/shuttle/dropship/can_surgery/medium_grey_single_wide_up_to_down,
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"aeA" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "64"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"aeB" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "65"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"aeC" = (
+/obj/item/clothing/mask/facehugger{
+	desc = "It has some sort of a tube at the end of its tail. What the hell is this thing?";
+	icon_state = "facehugger_impregnated";
+	layer = 3;
+	name = "????";
+	stat = 2
+	},
+/turf/open/floor/plating,
+/area/lv522/outdoors/colony_streets/north_east_street)
+"aeD" = (
+/obj/item/clothing/mask/facehugger{
+	desc = "It has some sort of a tube at the end of its tail. What the hell is this thing?";
+	icon_state = "facehugger_impregnated";
+	layer = 3;
+	name = "????";
+	stat = 2
+	},
+/turf/open/floor/prison/floor_plate,
+/area/lv522/outdoors/colony_streets/north_east_street)
 "aeE" = (
 /obj/structure/barricade/wooden{
 	dir = 8
@@ -845,12 +781,101 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison/floor_plate,
 /area/lv522/indoors/c_block/cargo)
+"aeF" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "66"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"aeG" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "67"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"aeH" = (
+/obj/structure/closet/crate/green,
+/obj/item/device/sentry_computer,
+/obj/item/defenses/handheld/sentry,
+/turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"aeI" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "69"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"aeJ" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "70"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"aeK" = (
+/obj/structure/barricade/deployable{
+	dir = 4
+	},
+/turf/open/floor/prison/floor_plate,
+/area/lv522/outdoors/colony_streets/north_east_street)
+"aeL" = (
+/obj/structure/barricade/deployable{
+	dir = 1
+	},
+/turf/open/floor/prison/floor_plate,
+/area/lv522/outdoors/colony_streets/north_east_street)
+"aeM" = (
+/obj/structure/barricade/deployable{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/lv522/outdoors/colony_streets/north_east_street)
+"aeN" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "71"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
 "aeO" = (
 /obj/structure/prop/vehicles/crawler{
 	layer = 2.9
 	},
 /turf/open/floor/corsat/plate,
 /area/lv522/atmos/reactor_garage)
+"aeP" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "72"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"aeQ" = (
+/turf/open/shuttle/dropship/can_surgery/light_grey_top_left,
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"aeR" = (
+/turf/open/shuttle/dropship/can_surgery/light_grey_top_right,
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"aeS" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "73"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"aeT" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "74"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"aeU" = (
+/obj/item/ammo_magazine/rifle/heap{
+	current_rounds = 0
+	},
+/turf/open/floor/plating,
+/area/lv522/outdoors/colony_streets/north_east_street)
+"aeV" = (
+/obj/item/explosive/mine/active,
+/turf/open/floor/prison,
+/area/lv522/outdoors/colony_streets/north_east_street)
+"aeW" = (
+/obj/item/prop/colony/used_flare,
+/turf/open/floor/prison/floor_marked/southwest,
+/area/lv522/outdoors/colony_streets/north_east_street)
+"aeX" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "75"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
 "aeY" = (
 /obj/structure/platform,
 /obj/effect/decal/warning_stripes{
@@ -876,6 +901,87 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/lv522/indoors/c_block/mining)
+"afb" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "76"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"afc" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "77"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"afd" = (
+/obj/structure/machinery/door/airlock/hatch/cockpit/three,
+/turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"afe" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "83"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"aff" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "86"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"afg" = (
+/obj/structure/machinery/computer/cameras{
+	desc = "The flight controls for a UD6 Dropship. these controls look pretty banged up, and there's some blood covering the screen..";
+	name = "\improper 'Tornado' flight controls";
+	network = null;
+	pixel_y = 21
+	},
+/obj/structure/bed/chair/dropship/pilot{
+	dir = 1
+	},
+/obj/structure/machinery/light/double{
+	dir = 1;
+	layer = 2.9;
+	pixel_y = 9
+	},
+/obj/item/prop/almayer/flight_recorder{
+	layer = 2.9;
+	pixel_x = -9;
+	pixel_y = 4
+	},
+/turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"afh" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "89"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"afi" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "95"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"afj" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "97"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"afk" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "99"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"afl" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "100"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"afm" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "101"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
+"afn" = (
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "102"
+	},
+/area/lv522/landing_zone_forecon/UD6_Tornado)
 "afp" = (
 /obj/structure/platform,
 /turf/open/gm/river,
@@ -1770,7 +1876,6 @@
 /area/lv522/outdoors/colony_streets/windbreaker/observation)
 "azJ" = (
 /obj/structure/surface/table/almayer,
-/obj/item/hardpoint/locomotion/apc_wheels,
 /turf/open/floor/prison,
 /area/lv522/indoors/a_block/admin)
 "azK" = (
@@ -2499,7 +2604,6 @@
 "aTa" = (
 /obj/structure/pipes/standard/manifold/hidden/green,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
 /turf/open/floor/prison/darkpurplefull2,
 /area/lv522/indoors/a_block/dorms)
 "aTj" = (
@@ -3775,7 +3879,6 @@
 /area/lv522/atmos/cargo_intake)
 "bwI" = (
 /obj/effect/decal/cleanable/generic,
-/obj/effect/landmark/corpsespawner/security,
 /turf/open/floor/prison/darkredfull2,
 /area/lv522/indoors/a_block/security)
 "bwT" = (
@@ -4620,7 +4723,6 @@
 /obj/structure/bed/bedroll{
 	dir = 10
 	},
-/obj/effect/landmark/corpsespawner/forecon_marksman,
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/lv522/oob)
 "bVK" = (
@@ -4676,9 +4778,12 @@
 	pixel_y = 10
 	},
 /obj/structure/surface/table/almayer,
-/obj/item/coin/chitin{
-	pixel_x = 14;
-	pixel_y = 7
+/obj/item/prop{
+	desc = "The first page reads. 'Classified Weyland Bio-Weapons Division level eight clearance required.' The rest talks about some sort of XX-121 combat stim?";
+	icon = 'icons/obj/items/paper.dmi';
+	icon_state = "folder_black";
+	name = "Weyland classified intelligence folder";
+	pixel_y = -2
 	},
 /turf/open/floor/strata/white_cyan1/east,
 /area/lv522/oob/w_y_vault)
@@ -6704,7 +6809,6 @@
 /obj/structure/bed/chair{
 	dir = 4
 	},
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/lv522/landing_zone_1/ceiling)
 "cVy" = (
@@ -8723,12 +8827,12 @@
 /turf/open/floor/corsat/plate,
 /area/lv522/atmos/east_reactor/south)
 "dUx" = (
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
-	},
-/obj/structure/machinery/door/poddoor/shutters/almayer/open{
+/obj/structure/machinery/door/poddoor/shutters/almayer{
 	dir = 4;
 	id = "Reactor_garage_3"
+	},
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 4
 	},
 /turf/open/floor/corsat/marked,
 /area/lv522/atmos/reactor_garage)
@@ -8856,6 +8960,7 @@
 	pixel_x = -6;
 	pixel_y = 8
 	},
+/obj/item/clothing/head/fedora/brown,
 /obj/structure/pipes/vents/pump,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
@@ -9383,7 +9488,6 @@
 /obj/structure/pipes/standard/manifold/hidden/green{
 	dir = 1
 	},
-/obj/effect/landmark/corpsespawner/security,
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/lv522/indoors/a_block/security)
 "emQ" = (
@@ -11088,7 +11192,6 @@
 /area/lv522/outdoors/colony_streets/north_east_street)
 "fej" = (
 /obj/structure/bed/roller,
-/obj/effect/landmark/corpsespawner/forecon_standard,
 /turf/open/floor/prison,
 /area/lv522/atmos/cargo_intake)
 "fer" = (
@@ -12506,7 +12609,6 @@
 	dir = 5
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
 /turf/open/floor/prison/blue,
 /area/lv522/indoors/a_block/admin)
 "fRA" = (
@@ -13007,7 +13109,7 @@
 /turf/open/floor/prison/floor_plate,
 /area/lv522/indoors/c_block/t_comm)
 "gcI" = (
-/obj/structure/machinery/door/poddoor/shutters/almayer/open{
+/obj/structure/machinery/door/poddoor/shutters/almayer{
 	dir = 4;
 	id = "Reactor_garage_3"
 	},
@@ -19694,7 +19796,6 @@
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 9
 	},
-/obj/effect/landmark/corpsespawner/hybrisa/medical_doctor_corpse,
 /turf/open/floor/strata/white_cyan2/west,
 /area/lv522/indoors/a_block/medical/glass)
 "jyI" = (
@@ -19789,11 +19890,10 @@
 /turf/open/floor/plating,
 /area/lv522/landing_zone_2)
 "jAc" = (
-/obj/docking_port/stationary/marine_dropship{
-	name = "Delta Site"
+/turf/closed/shuttle/dropship3/tornado{
+	icon_state = "63"
 	},
-/turf/open/floor/plating,
-/area/lv522/outdoors/colony_streets/north_east_street)
+/area/lv522/landing_zone_forecon/UD6_Tornado)
 "jAd" = (
 /obj/structure/prop/vehicles/crawler{
 	icon_state = "crawler_covered_bed"
@@ -26983,7 +27083,6 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
 /turf/open/floor/prison,
 /area/lv522/indoors/a_block/dorms)
 "mME" = (
@@ -29597,7 +29696,6 @@
 /turf/open/auto_turf/shale/layer1,
 /area/lv522/outdoors/colony_streets/north_east_street)
 "nWX" = (
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
 /turf/open/floor/prison/blue/northeast,
 /area/lv522/indoors/a_block/hallway)
 "nXw" = (
@@ -31168,7 +31266,6 @@
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
 	},
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
 /turf/open/floor/prison/darkpurple2/west,
 /area/lv522/indoors/a_block/dorms)
 "oMs" = (
@@ -34575,7 +34672,6 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/hybrisa/civilian_office,
 /turf/open/floor/whiteyellowfull/east,
 /area/lv522/indoors/a_block/corpo)
 "qoo" = (
@@ -34788,7 +34884,6 @@
 /area/lv522/outdoors/colony_streets/south_east_street)
 "quD" = (
 /obj/effect/decal/cleanable/blood/oil,
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
 /turf/open/floor/plating,
 /area/lv522/indoors/c_block/cargo)
 "qvn" = (
@@ -35324,7 +35419,6 @@
 "qHj" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/generic,
-/obj/effect/landmark/corpsespawner/hybrisa/sanitation,
 /turf/open/floor/prison,
 /area/lv522/indoors/c_block/cargo)
 "qHn" = (
@@ -35343,7 +35437,6 @@
 "qHD" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/light,
-/obj/effect/landmark/corpsespawner/whitecollar,
 /turf/open/floor/wood/ship,
 /area/lv522/atmos/way_in_command_centre)
 "qHI" = (
@@ -36160,7 +36253,6 @@
 "raH" = (
 /obj/structure/pipes/standard/simple/hidden/green,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/security,
 /turf/open/floor/wood/ship,
 /area/lv522/atmos/way_in_command_centre)
 "raI" = (
@@ -40334,10 +40426,16 @@
 /area/lv522/outdoors/colony_streets/north_west_street)
 "tbW" = (
 /obj/structure/surface/table/almayer,
-/obj/item/spacecash/c100,
-/obj/item/spacecash/c10,
-/obj/item/spacecash/c50,
-/obj/item/spacecash/c500/counterfeit,
+/obj/item/spacecash/c1000,
+/obj/item/spacecash/c1000,
+/obj/item/spacecash/c1000,
+/obj/item/spacecash/c1000,
+/obj/item/spacecash/c1000,
+/obj/item/spacecash/c1000,
+/obj/item/spacecash/c1000,
+/obj/item/spacecash/c1000,
+/obj/item/spacecash/c1000,
+/obj/item/spacecash/c1000,
 /turf/open/floor/strata/white_cyan1/east,
 /area/lv522/oob/w_y_vault)
 "tck" = (
@@ -42234,7 +42332,6 @@
 /area/lv522/indoors/a_block/corpo)
 "tOQ" = (
 /obj/item/stack/medical/bruise_pack,
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
 /turf/open/floor/prison/blue,
 /area/lv522/indoors/a_block/hallway)
 "tPb" = (
@@ -45927,7 +46024,6 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/corpsespawner/hybrisa/civilian,
 /turf/open/floor/prison/darkbrownfull2,
 /area/lv522/indoors/c_block/bridge)
 "vCW" = (
@@ -46819,7 +46915,6 @@
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 9
 	},
-/obj/effect/landmark/corpsespawner/security,
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/lv522/indoors/a_block/security)
 "vZz" = (
@@ -49750,17 +49845,12 @@
 "xvI" = (
 /obj/structure/surface/table/almayer,
 /obj/item/stack/sheet/mineral/gold{
-	amount = 10;
-	pixel_y = 4
+	amount = 60;
+	pixel_y = 6
 	},
 /obj/item/stack/sheet/mineral/gold{
-	amount = 5;
-	pixel_y = 10
-	},
-/obj/item/stack/sheet/mineral/diamond{
-	pixel_x = 1;
-	pixel_y = 12;
-	amount = 3
+	amount = 60;
+	pixel_y = 12
 	},
 /turf/open/floor/strata/white_cyan1/east,
 /area/lv522/oob/w_y_vault)
@@ -54671,12 +54761,12 @@ gvD
 cqW
 eql
 lXB
-ace
+aXD
 aXD
 jLG
-abX
+aXD
 qrQ
-abU
+aXD
 jwN
 uBW
 tNg
@@ -55127,9 +55217,9 @@ rpn
 sPN
 noN
 aXD
-abY
+aXD
 ask
-abV
+aXD
 jLG
 onm
 unr
@@ -57469,7 +57559,7 @@ pAH
 nJv
 wos
 vIy
-aay
+vIy
 oTp
 knT
 sEa
@@ -57930,7 +58020,7 @@ wdj
 bjm
 axZ
 frj
-aay
+vIy
 eXU
 lKu
 gPX
@@ -59875,7 +59965,7 @@ eaE
 eaE
 gJm
 eaE
-acq
+cnC
 eaE
 eaE
 aNw
@@ -60211,7 +60301,7 @@ uvX
 vkW
 lIA
 ltE
-aaq
+mYv
 mYv
 gAu
 hkR
@@ -60237,7 +60327,7 @@ cpy
 tFx
 ign
 xSW
-aaj
+xSW
 xSW
 ign
 tFx
@@ -60631,8 +60721,8 @@ cci
 dnM
 rou
 xXN
-aaU
-aaO
+tUM
+uOs
 uOs
 hMs
 rLa
@@ -60652,7 +60742,7 @@ cGV
 tCH
 cno
 nqY
-aaA
+keM
 cem
 bfH
 lgT
@@ -60780,7 +60870,7 @@ eaE
 eaE
 doF
 eaE
-acr
+eaE
 bex
 eaE
 rOM
@@ -60850,7 +60940,7 @@ rLa
 imr
 ruS
 xNe
-aaZ
+ruS
 mtt
 aFN
 hdw
@@ -61069,7 +61159,7 @@ acH
 nLm
 nLm
 sVE
-abl
+trj
 uOs
 uAH
 nLm
@@ -61135,7 +61225,7 @@ luX
 vkW
 bVK
 aco
-aal
+gSN
 xSW
 xDI
 tFx
@@ -62438,7 +62528,7 @@ buZ
 nLm
 mie
 umH
-abd
+umH
 gRw
 oJJ
 oJJ
@@ -62595,7 +62685,7 @@ tfP
 dEc
 eaE
 eFt
-acr
+eaE
 gFp
 eaE
 eaE
@@ -62628,7 +62718,7 @@ ksd
 kyC
 kyC
 ksd
-abN
+ksd
 tfo
 fNo
 tnc
@@ -62695,13 +62785,13 @@ tPB
 fdn
 xci
 nar
-aaB
+bmP
 bmP
 eXv
 cGV
 fnA
 gFH
-aas
+max
 max
 ofi
 ofi
@@ -63103,7 +63193,7 @@ fMk
 fMk
 fMk
 fMk
-aaV
+fMk
 aIJ
 gWz
 twv
@@ -63114,7 +63204,7 @@ dkd
 azp
 dNm
 tUM
-abh
+oFW
 fES
 nLm
 ieb
@@ -63125,7 +63215,7 @@ fjP
 fMk
 ieb
 ieb
-aaV
+fMk
 ieb
 fMk
 qcb
@@ -63144,7 +63234,7 @@ gbB
 mBF
 mBF
 jZO
-aaz
+eUi
 bmP
 bmP
 nFu
@@ -63298,7 +63388,7 @@ qOP
 cdb
 jaS
 aNf
-aca
+hBv
 kfI
 hBv
 aNf
@@ -63534,7 +63624,7 @@ xtb
 qCS
 pRr
 osB
-abN
+ksd
 ksd
 ksd
 syq
@@ -64283,7 +64373,7 @@ mBF
 iqe
 xQj
 pCg
-aaE
+nAa
 duY
 eUi
 eUi
@@ -64403,7 +64493,7 @@ pNm
 pjJ
 lCH
 pjJ
-acs
+tfP
 pjJ
 pjJ
 tfP
@@ -64469,7 +64559,7 @@ dZP
 fjP
 fjP
 fjP
-aaQ
+fjP
 hMs
 nLm
 nLm
@@ -64513,7 +64603,7 @@ pCg
 lpq
 pvI
 eUi
-aaz
+eUi
 uYK
 mBF
 mBF
@@ -64627,7 +64717,7 @@ bzC
 bzC
 nDM
 pNm
-acv
+vjW
 lCH
 pjJ
 pjJ
@@ -65084,7 +65174,7 @@ pNm
 vjW
 eDS
 pjJ
-acu
+pjJ
 gwo
 pEW
 pEW
@@ -65346,13 +65436,13 @@ tLw
 aiw
 gnS
 paa
-abT
+kyC
 tfo
 fNo
 ujh
 ksd
 sff
-abN
+ksd
 osB
 fNo
 tfo
@@ -65399,7 +65489,7 @@ hUP
 ruf
 ruf
 fjP
-aaQ
+fjP
 fjP
 xNT
 rLa
@@ -65535,7 +65625,7 @@ bzC
 bzC
 nDM
 gWI
-acw
+gWI
 bSU
 gWI
 iAv
@@ -65594,7 +65684,7 @@ dMU
 dnM
 nqo
 xTJ
-aaQ
+fjP
 fjP
 aFa
 rLa
@@ -65835,7 +65925,7 @@ xrH
 xXL
 frt
 iYN
-abq
+sPk
 qDR
 dnM
 sPk
@@ -66054,7 +66144,7 @@ vxM
 uNi
 bkl
 aFN
-abx
+txY
 pbp
 txY
 pbp
@@ -66071,7 +66161,7 @@ uNi
 lyq
 ruS
 txY
-abb
+pbp
 pbp
 sMV
 ruS
@@ -66272,7 +66362,7 @@ fjr
 icc
 nLm
 fSx
-abH
+hMs
 gdt
 uOs
 grw
@@ -66337,7 +66427,7 @@ fvv
 kBZ
 wnM
 wnM
-aar
+kzT
 ygn
 qPe
 tSL
@@ -67007,7 +67097,7 @@ ygn
 toB
 ygn
 kBZ
-aat
+kBZ
 rtk
 toB
 uDk
@@ -67261,7 +67351,7 @@ wIr
 wIr
 pCc
 aUB
-aam
+fTP
 qzQ
 aUB
 rJo
@@ -67512,7 +67602,7 @@ llH
 cDM
 fTP
 xgH
-aaf
+oLa
 qzQ
 aBt
 llH
@@ -67619,7 +67709,7 @@ kyC
 ksd
 osB
 cdb
-abR
+osB
 kyC
 nBj
 ksd
@@ -67653,7 +67743,7 @@ nOu
 vnQ
 lzl
 xeg
-abk
+uMO
 jAs
 vnQ
 nXD
@@ -67694,7 +67784,7 @@ eyV
 cse
 tSL
 ole
-aat
+kBZ
 gse
 kzT
 xDl
@@ -67910,7 +68000,7 @@ yiM
 wKQ
 cgT
 kBZ
-aaH
+wnM
 kzT
 hsh
 nNz
@@ -67927,12 +68017,12 @@ wnM
 xDp
 kzT
 kzT
-aar
+kzT
 kDY
 mfG
 kBZ
 ygn
-aan
+ygn
 ygn
 kJM
 oFB
@@ -68065,7 +68155,7 @@ fds
 xtb
 tfo
 osB
-acb
+pRr
 osB
 tfo
 frl
@@ -68179,7 +68269,7 @@ bgC
 kIt
 fzp
 fzp
-aak
+pOs
 pOs
 eBw
 bUv
@@ -68317,7 +68407,7 @@ hNR
 wPx
 cEJ
 mmI
-abD
+mok
 uAV
 fxI
 vHj
@@ -68524,12 +68614,12 @@ nnx
 tfo
 sff
 ksd
-abR
+osB
 aMH
 xtb
 qYY
 ksd
-abP
+jLF
 ggK
 kik
 cdb
@@ -68549,7 +68639,7 @@ dMI
 uUd
 uUd
 neT
-aby
+adh
 wSl
 bAy
 pqk
@@ -68822,7 +68912,7 @@ asL
 lUv
 cIi
 vkh
-aar
+kzT
 kBZ
 jrY
 tSL
@@ -69001,7 +69091,7 @@ fyA
 dBn
 neT
 jhM
-aby
+adh
 xEZ
 uUd
 fkL
@@ -69487,7 +69577,7 @@ trZ
 xgZ
 nsJ
 lxd
-aaN
+nsJ
 bGn
 trZ
 twk
@@ -69712,7 +69802,7 @@ vXc
 gHQ
 trZ
 rSP
-aaS
+hjw
 viu
 hjw
 xFV
@@ -70782,7 +70872,7 @@ kSu
 nMX
 rmA
 nMX
-acj
+nMX
 hzo
 oUq
 oUq
@@ -71708,7 +71798,7 @@ mwV
 mwV
 dbh
 soU
-abO
+xiJ
 bih
 wrC
 wrC
@@ -71725,7 +71815,7 @@ sAU
 den
 xDP
 awK
-abA
+mqH
 wxK
 sjy
 lJZ
@@ -71739,7 +71829,7 @@ sjy
 iYQ
 asF
 oLd
-abf
+wTr
 tfi
 ydN
 lVp
@@ -71824,7 +71914,7 @@ eso
 jas
 mNk
 wwc
-aag
+mdN
 jas
 pHM
 eso
@@ -71972,7 +72062,7 @@ iEE
 lVp
 kUA
 jfO
-abe
+jfO
 yca
 jfO
 kas
@@ -72243,7 +72333,7 @@ lte
 ild
 ild
 lte
-aap
+lte
 jwM
 ild
 gwP
@@ -72368,7 +72458,7 @@ saC
 oUq
 mVm
 iFr
-acl
+kXY
 oIj
 bop
 rmJ
@@ -72456,7 +72546,7 @@ lNf
 ldC
 ldC
 ldC
-aaC
+ldC
 iqw
 dXi
 haY
@@ -73537,7 +73627,7 @@ uUd
 sjy
 ldK
 wxK
-abA
+mqH
 sxp
 ukK
 azl
@@ -73733,7 +73823,7 @@ oUq
 bYZ
 kVO
 caE
-ack
+xQq
 oUq
 oUq
 oUq
@@ -73773,7 +73863,7 @@ dmz
 sjy
 swc
 acA
-abu
+xxs
 mrM
 uDb
 acA
@@ -74091,7 +74181,7 @@ vpe
 vpe
 kpB
 bXZ
-aai
+wwc
 vlp
 nDR
 vpe
@@ -74328,7 +74418,7 @@ lzB
 feQ
 jas
 eMs
-aab
+xFv
 vpe
 gzi
 jas
@@ -74440,7 +74530,7 @@ dbh
 xiJ
 xiJ
 xiJ
-abI
+dbh
 xiJ
 mDu
 sjy
@@ -74504,7 +74594,7 @@ jmG
 gOS
 kyo
 yhi
-aau
+yhi
 ifB
 krm
 wiE
@@ -74550,7 +74640,7 @@ iqV
 iqV
 iqV
 ixO
-aac
+eso
 eso
 uhJ
 aAI
@@ -74909,7 +74999,7 @@ uDb
 aYD
 uDb
 gLk
-abs
+uDb
 uDb
 dXt
 fdP
@@ -74922,7 +75012,7 @@ xDJ
 oFn
 ucL
 lKR
-abf
+wTr
 qQS
 wTr
 lKR
@@ -74945,7 +75035,7 @@ yhi
 iTm
 wiE
 wiE
-aaJ
+qic
 sgm
 wly
 wiE
@@ -75449,7 +75539,7 @@ ndG
 pZN
 vpe
 eso
-aac
+eso
 eso
 aTj
 vpe
@@ -75550,7 +75640,7 @@ fri
 csI
 bjn
 xyu
-acf
+tbW
 gdA
 ien
 rxI
@@ -75796,7 +75886,7 @@ kJd
 vee
 kUe
 hiR
-abI
+dbh
 xiJ
 xiJ
 xiJ
@@ -76227,7 +76317,7 @@ gTd
 bQw
 bjd
 gdA
-acm
+xvI
 ojH
 czA
 qkQ
@@ -76458,7 +76548,7 @@ fri
 mon
 wYN
 cqo
-acf
+tbW
 gdA
 cpy
 cpy
@@ -76488,7 +76578,7 @@ aTV
 aTV
 isE
 sjy
-abF
+lCX
 qDr
 xxs
 nrP
@@ -76505,7 +76595,7 @@ sjy
 sjy
 rxn
 xDJ
-abm
+nfP
 wTr
 xGf
 lKR
@@ -76543,7 +76633,7 @@ xMO
 qXb
 wpn
 gHi
-aau
+yhi
 yhi
 wly
 wiE
@@ -76685,7 +76775,7 @@ fri
 suq
 lOB
 suq
-acg
+tbW
 gdA
 cpy
 cpy
@@ -76742,7 +76832,7 @@ cwG
 pPg
 lKe
 tMQ
-aaW
+pPg
 lsh
 lsh
 kdT
@@ -76826,7 +76916,7 @@ dFz
 jas
 jqN
 bUV
-aaa
+vpe
 uJy
 eCz
 jas
@@ -77271,7 +77361,7 @@ oKe
 xcX
 kwj
 tNl
-aah
+tNl
 tNl
 tNl
 tNl
@@ -77693,7 +77783,7 @@ ild
 lte
 buz
 vVS
-aao
+jwM
 ild
 ild
 lte
@@ -77896,7 +77986,7 @@ oGZ
 uNd
 xFG
 uNd
-aaK
+xFG
 xFG
 rKW
 uNd
@@ -78072,7 +78162,7 @@ gCO
 uYR
 wgW
 wgW
-abJ
+jRT
 jRT
 uVh
 xFp
@@ -78519,11 +78609,11 @@ vGp
 fvs
 xjF
 vuc
-abM
+wgW
 jBw
 xjF
 ddM
-abM
+wgW
 jiP
 wgW
 ydb
@@ -78636,7 +78726,7 @@ rQl
 pVW
 rCr
 qRt
-aae
+sHV
 qRt
 rkk
 jas
@@ -78851,7 +78941,7 @@ vpe
 eso
 eso
 vjr
-aac
+eso
 eso
 pZN
 eso
@@ -79257,7 +79347,7 @@ vJD
 tGh
 uUk
 wuX
-aaL
+ugR
 tGh
 vNk
 gyb
@@ -79266,7 +79356,7 @@ tQb
 rOT
 vNk
 fjy
-aaD
+xMO
 tQb
 nBb
 xvl
@@ -79297,7 +79387,7 @@ rrh
 pZN
 vpe
 vpe
-aai
+wwc
 vpe
 vpe
 eso
@@ -80326,7 +80416,7 @@ mPj
 luZ
 ftd
 lTd
-abW
+iJE
 ibq
 iRF
 wDj
@@ -81078,7 +81168,7 @@ vfj
 vNk
 bXO
 xMO
-aaG
+ozn
 mdQ
 vNk
 gEM
@@ -81219,7 +81309,7 @@ ovY
 lHe
 ovY
 bjd
-acn
+bjd
 mnF
 pMo
 oDK
@@ -81298,7 +81388,7 @@ tTD
 uuX
 vJD
 qdS
-aaL
+ugR
 uNp
 uOD
 tGo
@@ -81314,7 +81404,7 @@ ftT
 vNk
 lJa
 xhD
-aav
+bsG
 lJa
 aoW
 qzk
@@ -81940,7 +82030,7 @@ udJ
 kZj
 oGF
 pVo
-abB
+wGY
 fRS
 iXZ
 lur
@@ -82157,7 +82247,7 @@ gDW
 mhT
 sWr
 wGY
-abK
+sWr
 krK
 nUl
 lZa
@@ -82366,7 +82456,7 @@ iJE
 mfo
 tCE
 kTS
-acc
+rlB
 azE
 jXd
 tCE
@@ -82409,7 +82499,7 @@ fYL
 ptg
 nhD
 pfN
-abi
+vHS
 rEd
 tTK
 oWu
@@ -82617,7 +82707,7 @@ wCM
 rmx
 tQH
 daC
-abG
+waZ
 pVo
 wGY
 hJG
@@ -83729,7 +83819,7 @@ qSH
 eJR
 iJE
 eJR
-abZ
+azE
 dZc
 wDj
 xFp
@@ -83769,7 +83859,7 @@ tDS
 gdO
 ifK
 cly
-abn
+uuH
 pej
 lqD
 khk
@@ -83799,7 +83889,7 @@ pCD
 rOg
 urU
 sop
-aaI
+pNY
 mTY
 mco
 pNY
@@ -83980,7 +84070,7 @@ fvs
 tDS
 nFK
 iss
-abE
+lbA
 fzD
 cua
 nIH
@@ -84229,7 +84319,7 @@ vHS
 ulj
 rXK
 buP
-abg
+uFJ
 uOG
 ixg
 tmD
@@ -84264,7 +84354,7 @@ xXg
 imT
 xvl
 xvl
-aaw
+gWV
 vSy
 xvl
 xvl
@@ -84669,7 +84759,7 @@ ccr
 mhT
 sWr
 xOx
-abw
+wGY
 azK
 iYm
 nUl
@@ -85323,7 +85413,7 @@ uSm
 ogt
 hEd
 oBf
-abQ
+xCT
 tMp
 qsi
 xCT
@@ -85554,7 +85644,7 @@ nTg
 nTg
 iAZ
 xCT
-abQ
+xCT
 xCT
 uSm
 ogt
@@ -85570,7 +85660,7 @@ nZL
 nCW
 pfs
 kNe
-abC
+sWr
 dPG
 wGY
 sWr
@@ -85998,7 +86088,7 @@ dRL
 dVM
 dRL
 dRL
-acd
+sxi
 xCT
 qXA
 dRL
@@ -86260,7 +86350,7 @@ rDq
 tDS
 tEj
 gDl
-abr
+ngY
 iuw
 axr
 gdO
@@ -86503,7 +86593,7 @@ xfn
 uOG
 uOG
 kpb
-aaY
+uOG
 ofv
 xfn
 oXH
@@ -86534,7 +86624,7 @@ mkW
 bdH
 uaI
 tID
-aax
+xRw
 tID
 ahT
 cUG
@@ -87062,7 +87152,7 @@ saC
 tiQ
 eTE
 efo
-acL
+eqG
 eqG
 rhD
 eWN
@@ -87163,7 +87253,7 @@ iIs
 lHV
 pfX
 ngY
-abz
+lur
 qni
 qqa
 xXE
@@ -87517,10 +87607,10 @@ tiQ
 tiQ
 eIZ
 tsc
-acM
+akM
 dLZ
 akM
-acK
+bCQ
 vAm
 dpl
 mUZ
@@ -87655,7 +87745,7 @@ vpD
 xUe
 tKF
 vpD
-aaM
+cSO
 cSO
 vpD
 cSO
@@ -87972,7 +88062,7 @@ ulg
 oQG
 ufl
 eqG
-acL
+eqG
 uQJ
 rDm
 tiQ
@@ -88118,7 +88208,7 @@ omX
 wao
 skf
 wzt
-aaF
+uaI
 twR
 cUG
 wst
@@ -89419,13 +89509,13 @@ oQC
 qnb
 vxh
 vxh
-vxh
+adX
+aes
+aes
+aek
 oeK
 oeK
-qQA
-oeK
-oeK
-vxh
+adX
 vxh
 nfJ
 oAu
@@ -89647,13 +89737,13 @@ vxh
 vxh
 xIv
 xIv
-xIv
+adM
 xIv
 qQA
 xIv
+aef
 xIv
-xIv
-xIv
+adM
 blG
 yfm
 oAu
@@ -89875,10 +89965,10 @@ lMP
 taJ
 oFP
 vCx
-oeK
+aet
 qQA
 oeK
-oeK
+aed
 oeK
 xIv
 iKW
@@ -90098,13 +90188,13 @@ vxh
 vxh
 oeK
 oeK
-oeK
+aeW
 trD
 ceK
 oeK
 oeK
 qQA
-oeK
+ael
 oeK
 oeK
 xIv
@@ -90326,13 +90416,13 @@ qQA
 qQA
 qQA
 qQA
+aeL
+aeD
 qQA
 qQA
 qQA
 qQA
-qQA
-qQA
-qQA
+aeg
 qQA
 qQA
 qQA
@@ -90553,20 +90643,20 @@ qUL
 qUL
 qUL
 qUL
+aeM
+qUL
+qUL
+aeo
+aeo
+adG
+adt
+adi
+acZ
+adF
 qUL
 qUL
 qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
+acQ
 qUL
 vxh
 snO
@@ -90780,20 +90870,20 @@ qUL
 qUL
 qUL
 qUL
+aeN
+aeF
+aev
 qUL
 qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
+adH
+adu
+adj
+ada
+adG
+adt
+adi
+acZ
+acR
 qUL
 qQA
 vxh
@@ -91003,24 +91093,24 @@ vxh
 xIv
 qUL
 qUL
+aeM
 qUL
 qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
+aeX
+aeP
+aeG
+aex
+aep
+aep
+adb
+adv
+adm
+adO
+adH
+adu
+adj
+ada
+acS
 qUL
 qQA
 vxh
@@ -91230,26 +91320,26 @@ vxh
 xIv
 qUL
 qUL
+aeM
 qUL
+adG
+afb
+adn
+adw
+adn
+aeq
+aeq
+adn
+aeh
+adn
+adQ
+adb
+adv
+adm
+adb
+acT
 qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qQA
+abv
 vxh
 nTp
 vGp
@@ -91457,25 +91547,25 @@ vxh
 xIv
 qUL
 qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
+afl
+afi
+aff
+afc
+aeQ
+adx
+adx
+adx
+adx
+aem
+adx
+adY
+adR
+adJ
+adw
+adn
+adc
+acU
+acN
 qQA
 vxh
 nTp
@@ -91684,25 +91774,25 @@ vxh
 xIv
 qUL
 qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
+afm
+afj
+afg
+afd
+adZ
+aeH
+aey
 jAc
+jAc
+aen
+aei
+adZ
+adS
+adx
+adx
+ado
+add
 qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
+acO
 qQA
 vxh
 nTp
@@ -91911,25 +92001,25 @@ vxh
 xIv
 qUL
 qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
+afn
+afk
+afh
+afc
+aeR
+adx
+adx
+adx
+adx
+adx
+adx
+aeb
+adT
+adK
+ady
+adp
+ade
+acV
+acP
 qQA
 vxh
 nTp
@@ -92139,23 +92229,23 @@ xIv
 qUL
 qUL
 qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
+adE
+adH
+afb
+adp
+ady
+aez
+aeq
+aeq
+adp
+aej
+adp
+adU
+adf
+adB
+adq
+adf
+acW
 qUL
 qQA
 vxh
@@ -92368,21 +92458,21 @@ qUL
 qUL
 qUL
 qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
+afe
+aeS
+aeI
+aeA
+aep
+aep
+adf
+adB
+adq
+adV
+adG
+adC
+adr
+acZ
+acX
 qUL
 qQA
 vxh
@@ -92594,22 +92684,22 @@ qUL
 qUL
 qUL
 qUL
+aeM
+qUL
+aeT
+aeJ
+aeB
 qUL
 qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
+adG
+adC
+adr
+acZ
+adH
+adD
+ads
+adg
+acY
 qUL
 qQA
 vxh
@@ -92821,19 +92911,19 @@ qUL
 qUL
 qUL
 qUL
+aeM
 qUL
+aeU
 qUL
+aeC
+adF
 qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
-qUL
+adH
+adD
+ads
+ada
+adF
+adE
 qUL
 qUL
 qUL
@@ -93050,14 +93140,14 @@ qQA
 qQA
 qQA
 qQA
+aeK
+aeK
 qQA
 qQA
 qQA
 qQA
-qQA
-qQA
-qQA
-qQA
+aek
+aec
 qQA
 qQA
 qQA
@@ -93274,8 +93364,8 @@ qqG
 vxh
 vxh
 vxh
-oeK
-oeK
+iKW
+iKW
 oeK
 xIv
 oeK
@@ -93284,7 +93374,7 @@ oeK
 qQA
 iKW
 iKW
-oeK
+aed
 xIv
 oeK
 oeK
@@ -93503,12 +93593,12 @@ qqG
 vxh
 vxh
 vxh
+aeW
+aeV
 oeK
-xIv
 oeK
-oeK
-oeK
-qQA
+aeu
+aer
 wzT
 xzP
 mxH
@@ -93739,7 +93829,7 @@ qQA
 xIv
 xIv
 xIv
-xIv
+adW
 vxh
 vxh
 mil

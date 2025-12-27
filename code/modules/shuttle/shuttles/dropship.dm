@@ -117,17 +117,6 @@
 		for(var/obj/structure/machinery/door/air in place)
 			air.handle_multidoor(old_dir, new_dir)
 
-/obj/docking_port/mobile/marine_dropship/proc/start_hijack_flight(
-	mob/user,
-	obj/docking_port/stationary/marine_dropship/crash_site/S
-)
-	if(!hijack)
-		hijack = new /datum/dropship_hijack/almayer
-		hijack.shuttle = src
-
-	hijack.crash_site = S
-	hijack.fire()
-
 /obj/docking_port/mobile/marine_dropship/midway
 	name = "Midway"
 	id = DROPSHIP_MIDWAY

@@ -47,11 +47,4 @@
 
 		else
 			if(options[selection])
-				var/obj/docking_port/stationary/S = options[selection]
-
-				if(istype(src, /obj/docking_port/mobile/marine_dropship) && \
-				istype(S, /obj/docking_port/stationary/marine_dropship/crash_site))
-					var/obj/docking_port/mobile/marine_dropship/D = src
-					D.start_hijack_flight(user, S)
-				else
-					request(S)
+				request(options[selection])
