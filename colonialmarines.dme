@@ -2706,6 +2706,7 @@
 #include "interface\interface.dm"
 #include "interface\skin.dmf"
 #include "maps\_basemap.dm"
+#include "something\code\access_card.dm"
 #include "something\code\chair_shifting.dm"
 #include "something\code\decorations.dm"
 #include "something\code\dice.dm"
