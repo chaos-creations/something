@@ -29,3 +29,37 @@
 	if(!ui)
 		ui = new(user, src, "Autolathe", "[name] control panel")
 		ui.open()
+
+/obj/structure/machinery/fabricator/ui_data(mob/user)
+	var/list/data = list()
+
+	data["name"] = name
+	data["busy"] = is_busy
+	data["points"] = current_points
+	data["max_points"] = max_points
+
+	data["categories"] = categories
+	data["current_tab"] = current_tab
+
+	var/list/printables = list()
+
+	for(var/recipe_name in recipes)
+		var/list/R = recipes[recipe_name]
+		if(!islist(R) || length(R) < 4)
+			continue
+
+		if(current_tab && R[4] != current_tab)
+			continue
+
+		var/cost = R[2]
+
+		printables += list(list(
+			"name" = recipe_name,
+			"cost" = cost,
+			"amount" = R[3],
+			"can_make" = (current_points >= cost) && !is_busy
+		))
+
+	data["printables"] = printables
+
+	return data
