@@ -20,3 +20,25 @@
 	name = "glass floor"
 	icon = 'something/icons/turfs.dmi'
 	icon_state = "glass"
+
+/turf/close/radio
+	name = "distant noise"
+	desc = "In these days, electrical noise follows people everywhere. Not always intelligible, but always unstoppable. It is like radio interference. It seems to intensify as it approaches the boundary of known space. Sometimes you can make out words in the noise. A strange whisper that makes no sense."
+	icon = 'something/icons/turfs.dmi'
+	icon_state = "noise1"
+	density = TRUE
+	opacity = 1
+	minimap_color = MINIMAP_SOLID
+
+/turf/close/radio/Initialize(mapload, ...)
+	. = ..()
+	icon_state = "noise[rand(1,3)]"
+
+/turf/close/radio/noise1
+	icon_state = "noise1"
+
+/turf/close/radio/noise2
+	icon_state = "noise2"
+
+/turf/close/radio/noise3
+	icon_state = "noise3"
