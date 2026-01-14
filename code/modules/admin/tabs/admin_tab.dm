@@ -537,6 +537,23 @@
 
 	message_admins(WRAP_STAFF_LOG(usr, "ahealed all xenos in [get_area(usr)] ([usr.x],[usr.y],[usr.z])"), usr.x, usr.y, usr.z)
 
+/client/proc/toogle_frozen_in_view()
+	set name = "Toggle Frozen"
+	set category = "Admin.InView"
+	set hidden = TRUE
+
+	if(!admin_holder || !(admin_holder.rights & R_MOD))
+		to_chat(src, "Only administrators may use this command.")
+		return
+
+	for(var/mob/living/M in view(usr.client))
+		if(!HAS_TRAIT_FROM(M, TRAIT_IMMOBILIZED, TRAIT_SOURCE_ADMIN))
+			ADD_TRAIT(M, TRAIT_IMMOBILIZED, TRAIT_SOURCE_ADMIN)
+		else
+			REMOVE_TRAIT(M, TRAIT_IMMOBILIZED, TRAIT_SOURCE_ADMIN)
+
+	message_admins(WRAP_STAFF_LOG(usr, "frozed/unfrozed humans in view in [get_area(usr)] ([usr.x],[usr.y],[usr.z])"), usr.x, usr.y, usr.z)
+
 // ----------------------------
 // PANELS
 // ----------------------------
@@ -608,7 +625,8 @@
 		<BR>
 		<A href='byond://?src=\ref[src];[HrefToken()];inviews=sleepall'>Sleep All In View</A><BR>
 		<A href='byond://?src=\ref[src];[HrefToken()];inviews=wakeall'>Wake All In View</A><BR>
-
+		<A href='byond://?src=\ref[src];[HrefToken()];inviews=tooglefrozen'>Toggle Frozen In View</A><BR>
+		<BR>
 		<A href='byond://?src=\ref[src];[HrefToken()];inviews=directnarrateall'>Direct Narrate In View</A><BR>
 		<A href='byond://?src=\ref[src];[HrefToken()];inviews=alertall'>Alert Message In View</A><BR>
 		<A href='byond://?src=\ref[src];[HrefToken()];inviews=subtlemessageall'>Subtle Message In View</A><BR>

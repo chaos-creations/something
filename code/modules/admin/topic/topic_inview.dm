@@ -8,6 +8,8 @@
 			owner.rejuvenate_all_revivable_humans_in_view()
 		if("rejuvenatexeno")
 			owner.rejuvenate_all_xenos_in_view()
+		if("tooglefrozen")
+			owner.toogle_frozen_in_view()
 		if("sleepall")
 			sleepall()
 		if("wakeall")

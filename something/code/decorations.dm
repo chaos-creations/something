@@ -21,6 +21,11 @@
 	icon = 'something/icons/turfs.dmi'
 	icon_state = "glass"
 
+/turf/open/floor/almayer_hull/glass/Initialize(mapload, ...)
+	ADD_TRAIT(src, TURF_Z_TRANSPARENT_TRAIT, TRAIT_SOURCE_INHERENT)
+
+	. = ..()
+
 /turf/close/radio
 	name = "distant noise"
 	desc = "In these days, electrical noise follows people everywhere. Not always intelligible, but always unstoppable. It is like radio interference. It seems to intensify as it approaches the boundary of known space. Sometimes you can make out words in the noise. A strange whisper that makes no sense."

@@ -439,6 +439,21 @@
 /obj/item/ammo_box/magazine/vp70/empty
 	empty = TRUE
 
+//---------------------Automag Pistol Mag Box-----------------------
+
+/obj/item/ammo_box/magazine/automag
+	name = "magazine box (VP70 x 16)"
+	icon_state = "base_ar10"
+	flags_equip_slot = SLOT_BACK
+	overlay_ammo_type = "_reg"
+	overlay_gun_type = "_m44"
+	overlay_content = "_reg"
+	num_of_magazines = 16
+	magazine_type = /obj/item/ammo_magazine/pistol/highpower/automag
+
+/obj/item/ammo_box/magazine/automag/empty
+	empty = TRUE
+
 //-----------------------VP78 Pistol Mag Box-----------------------
 
 /obj/item/ammo_box/magazine/vp78
