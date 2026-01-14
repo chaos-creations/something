@@ -1,2 +1,5 @@
 #include "mike_forexsis.dm"
 #include "limbobaggins.dm"
+#include "fatgod.dm"
+#include "crovus.dm"
+#include "sirjantkot1337.dm"

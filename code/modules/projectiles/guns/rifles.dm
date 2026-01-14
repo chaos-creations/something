@@ -774,6 +774,7 @@
 	fire_sound = 'sound/weapons/gun_mar40.ogg'
 	reload_sound = 'sound/weapons/handling/gun_mar40_reload.ogg'
 	unload_sound = 'sound/weapons/handling/gun_mar40_unload.ogg'
+	rp_value = 75
 
 	current_mag = /obj/item/ammo_magazine/rifle/mar40
 	attachable_allowed = list(
@@ -832,6 +833,7 @@
 	fire_sound = 'sound/weapons/gun_mar40.ogg'
 	reload_sound = 'sound/weapons/handling/gun_mar40_reload.ogg'
 	unload_sound = 'sound/weapons/handling/gun_mar40_unload.ogg'
+	rp_value = 50
 
 	aim_slowdown = SLOWDOWN_ADS_QUICK //Carbine is more lightweight
 	wield_delay = WIELD_DELAY_FAST
@@ -877,6 +879,7 @@
 	icon_state = "mar50"
 	item_state = "mar50"
 	mouse_pointer = 'icons/effects/mouse_pointer/lmg_mouse.dmi'
+	rp_value = 125
 
 	fire_sound = 'sound/weapons/gun_mar40.ogg'
 	reload_sound = 'sound/weapons/handling/gun_mar40_reload.ogg'
@@ -933,6 +936,7 @@
 	icon = 'icons/obj/items/weapons/guns/guns_by_faction/colony.dmi'
 	icon_state = "m16"
 	item_state = "m16"
+	rp_value = 130
 
 	fire_sound = 'sound/weapons/gun_m16.ogg'
 	reload_sound = 'sound/weapons/handling/gun_m16_reload.ogg'
@@ -1141,6 +1145,7 @@
 	reload_sound = 'sound/weapons/handling/gun_m16_reload.ogg'
 	unload_sound = 'sound/weapons/handling/gun_ar10_unload.ogg'
 	cocked_sound = 'sound/weapons/handling/gun_ar10_cocked.ogg'
+	rp_value = 100
 
 	current_mag = /obj/item/ammo_magazine/rifle/ar10
 	attachable_allowed = list(
@@ -1275,6 +1280,7 @@
 	icon_state = "m41ae2"
 	item_state = "m41ae2"
 	mouse_pointer = 'icons/effects/mouse_pointer/lmg_mouse.dmi'
+	rp_value = 300
 
 	reload_sound = 'sound/weapons/handling/hpr_reload.ogg'
 	unload_sound = 'sound/weapons/handling/hpr_unload.ogg'
@@ -1464,6 +1470,7 @@
 	flags_gun_features = GUN_AUTO_EJECTOR|GUN_CAN_POINTBLANK|GUN_AMMO_COUNTER
 	flags_equip_slot = SLOT_BACK
 	start_automatic = TRUE
+	rp_value = 150
 
 /obj/item/weapon/gun/rifle/type71/set_gun_attachment_offsets()
 	attachable_offset = list("muzzle_x" = 33, "muzzle_y" = 17,"rail_x" = 10, "rail_y" = 23, "under_x" = 20, "under_y" = 13, "stock_x" = 11, "stock_y" = 13, "side_rail_x" = 23, "side_rail_y" = 16)
@@ -1510,6 +1517,7 @@
 	bonus_overlay_x = 1
 	bonus_overlay_y = 0
 	starting_attachment_types = list(/obj/item/attachable/stock/type71, /obj/item/attachable/type73suppressor, /obj/item/attachable/scope/mini/upp)
+	rp_value = 300
 
 /obj/item/weapon/gun/rifle/type71/carbine/set_gun_config_values()
 	..()
@@ -1555,6 +1563,7 @@
 	flags_gun_features = GUN_AUTO_EJECTOR|GUN_CAN_POINTBLANK|GUN_AMMO_COUNTER
 	flags_equip_slot = SLOT_BACK
 	start_automatic = TRUE
+	rp_value = 100
 
 /obj/item/weapon/gun/rifle/lw317/set_gun_config_values()
 	..()
@@ -1580,6 +1589,7 @@
 		/obj/item/attachable/verticalgrip/upp,
 		/obj/item/attachable/flashlight/grip/upp,
 		)
+	rp_value = 150
 
 /obj/item/weapon/gun/rifle/lw317/dmr/set_gun_config_values()
 	..()

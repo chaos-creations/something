@@ -1026,6 +1026,11 @@ GLOBAL_LIST_EMPTY(gear_datums_by_name)
 	path = /obj/item/device/walkman/black
 	cost = 3
 
+/datum/gear/cassettes/pouch
+	display_name = "Cassette Pouch"
+	path = 	/obj/item/storage/pouch/cassette
+	cost = 1
+
 /datum/gear/cassettes/pop1
 	display_name = "Blue Cassette"
 	path = /obj/item/device/cassette_tape/pop1
@@ -1086,9 +1091,29 @@ GLOBAL_LIST_EMPTY(gear_datums_by_name)
 	path = /obj/item/device/cassette_tape/numetal
 	cost = 1
 
-/datum/gear/cassettes/pouch
-	display_name = "Cassette Pouch"
-	path = 	/obj/item/storage/pouch/cassette
+/datum/gear/cassettes/doors
+	display_name = "Perceptive Cassette"
+	path = /obj/item/device/cassette_tape/doors
+	cost = 1
+
+/datum/gear/cassettes/thefranchise
+	display_name = "Bloodstained Cassette"
+	path = /obj/item/device/cassette_tape/thefranchise
+	cost = 1
+
+/datum/gear/cassettes/freelancing
+	display_name = "Pink-Blue Cassette"
+	path = /obj/item/device/cassette_tape/freelancing
+	cost = 1
+
+/datum/gear/cassettes/corpsman
+	display_name = "Purple-Black Cassette"
+	path = /obj/item/device/cassette_tape/corpsman
+	cost = 1
+
+/datum/gear/cassettes/joker
+	display_name = "Clown Cassette"
+	path = /obj/item/device/cassette_tape/joker
 	cost = 1
 
 /*

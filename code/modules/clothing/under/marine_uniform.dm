@@ -46,6 +46,7 @@
 /obj/item/clothing/under/marine/standard
 	flags_atom = NO_SNOW_TYPE
 
+
 /obj/item/clothing/under/marine/medic
 	name = "\improper USCM corpsman uniform"
 	desc = "Standard-issue Marine hospital corpsman fatigues with venlar armor inserts at critical areas to protect from blades and ballistics."
@@ -341,6 +342,17 @@
 	specialty = "command formal"
 	black_market_value = 20
 
+// custom
+
+/obj/item/clothing/under/marine/firestarter
+	name = "\improper RR 'Black Smoke' uniform"
+	desc = "A cozy getup consisting of a black turtleneck and cargo pants, complete with two red armbands and a snazzy belt. The buckle looks to have been stolen off of a commemorative firefighter's belt, and subsequently defaced. For only the most esteemed of grenadiers."
+	icon_state = "marine_firestarter"
+	worn_state = "marine_firestarter"
+	item_state_slots = list(WEAR_BODY = "marine_firestarter")
+	flags_jumpsuit = FALSE
+	flags_atom = NO_NAME_OVERRIDE|NO_SNOW_TYPE
+
 //=========================//DRESS BLUES\\================================\\
 //=======================================================================\\
 
@@ -560,6 +572,12 @@
 	min_cold_protection_temperature = ICE_PLANET_MIN_COLD_PROT
 	has_sensor = UNIFORM_NO_SENSORS
 //	suit_restricted = list(/obj/item/clothing/suit/storage/marine/faction/freelancer, /obj/item/clothing/suit/storage/webbing, /obj/item/clothing/suit/storage/utility_vest)
+
+/obj/item/clothing/under/marine/veteran/freelancer/freelancecell
+	name = "\improper Freelance Cell fatigues"
+	desc = "A set of fatigues for members of the Freelance Cell, an elite group of freelancers. It smells faintly of vodka."
+	icon_state = "freelancecell_uniform"
+	worn_state = "freelancecell_uniform"
 
 //=========================//Dutch Dozen\\================================\\
 
