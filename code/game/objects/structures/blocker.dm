@@ -34,6 +34,16 @@
 	..()
 	icon_state = null
 
+/obj/structure/blocker/invisible_wall/temp
+	desc = "Not today."
+
+/obj/structure/blocker/invisible_wall/act1
+	desc = "I don't need to go any further now."
+
+/obj/structure/blocker/invisible_wall/act1/act2
+
+/obj/structure/blocker/invisible_wall/act1/act2/act3
+
 /obj/structure/blocker/invisible_wall/water
 	desc = "You cannot wade out any further"
 	icon_state = "map_blocker"

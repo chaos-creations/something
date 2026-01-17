@@ -205,6 +205,21 @@
 /obj/structure/closet/secure_closet/marine_personal/raider/platoon_commander
 	job = JOB_SO
 
+// ==UNKOWN== //
+
+/obj/structure/closet/secure_closet/marine_personal/unknown/spawn_gear()
+	new /obj/item/clothing/under/colonist/ua_civvies(src)
+	new /obj/item/clothing/shoes/marine/civilian(src)
+	new /obj/item/clothing/mask/rebreather/scarf/tacticalmask/tan(src)
+	new /obj/item/clothing/suit/storage/hazardvest(src)
+	new /obj/item/clothing/gloves/brown(src)
+	new /obj/item/clothing/shoes/marine/civilian/brown(src)
+	new /obj/item/storage/backpack/satchel/withwallet(src)
+	new /obj/item/device/radio/headset/distress(src)
+
+/obj/structure/closet/secure_closet/marine_personal/unknown/colonist
+	job = JOB_SQUAD_MARINE
+
 // ==Royal Marines== //
 
 /obj/structure/closet/secure_closet/marine_personal/rmc/spawn_gear()

@@ -25,6 +25,7 @@
 #define SQUAD_LRRP_2 "Ocelot Grapplers"
 #define SQUAD_EXTRACTION "Deserters"
 #define SQUAD_RAIDER "Rotten Few"
+#define SQUAD_UNKNOWN "Unknown Survivors"
 
 // Job name defines
 #define JOB_SQUAD_MARINE "Rifleman"
@@ -59,6 +60,8 @@
 #define JOB_SQUAD_ENGINEER_RAIDER "Raider Engineer"
 #define JOB_SQUAD_MEDIC_RAIDER "Raider Corpsman"
 #define JOB_SQUAD_MARINE_RAIDER "Raider Rifleman"
+
+#define JOB_SQUAD_UNKNOWN_SURVIVOR "Survivor"
 
 GLOBAL_LIST_INIT(job_squad_roles, JOB_SQUAD_ROLES_LIST)
 

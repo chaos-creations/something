@@ -177,6 +177,18 @@
 	squad = SQUAD_RAIDER
 	job = /datum/job/marine/standard/ai/rmc
 
+/datum/job/marine/standard/ai/unknown
+	title = JOB_SQUAD_UNKNOWN_SURVIVOR
+	total_positions = 6
+	spawn_positions = 6
+	gear_preset = /datum/equipment_preset/colonist/roughneck/unknown
+	job_options = null
+
+/obj/effect/landmark/start/marine/unknown
+	name = JOB_SQUAD_UNKNOWN_SURVIVOR
+	squad = SQUAD_UNKNOWN
+	job = /datum/job/marine/standard/ai/unknown
+
 #undef CPL_VARIANT
 #undef LCPL_VARIANT
 #undef PFC_VARIANT

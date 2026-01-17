@@ -50,3 +50,6 @@ endmap
 
 map alaska
 endmap
+
+map shelter
+endmap
