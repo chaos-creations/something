@@ -230,16 +230,6 @@
 
 	use_stripe_overlay = FALSE
 
-/datum/squad/marine/unknown
-	name = SQUAD_UNKNOWN
-	access = list(ACCESS_CIVILIAN_PUBLIC)
-
-	radio_freq = COLONY_FREQ
-
-	usable = TRUE
-	squad_type = "Nobody"
-	faction = FACTION_COLONIST
-
 /datum/squad/marine/bravo
 	name = SQUAD_MARINE_2
 	equipment_color = "#ffc32d"

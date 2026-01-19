@@ -134,8 +134,6 @@ GLOBAL_LIST_INIT(platoon_to_jobs, list(/datum/squad/marine/alpha = list(/datum/j
 		/datum/job/marine/tl/ai/raider = JOB_SQUAD_TEAM_LEADER,\
 		/datum/job/marine/leader/ai/raider = JOB_SQUAD_LEADER,\
 		/datum/job/command/bridge/ai/raider = JOB_SO),\
-		/datum/squad/marine/unknown = list(
-		/datum/job/marine/standard/ai/unknown = JOB_SQUAD_MARINE),\
 		/datum/squad/marine/rmc = list(/datum/job/command/bridge/ai/rmc = JOB_TWE_RMC_LIEUTENANT,\
 		/datum/job/marine/leader/ai/rmc = JOB_TWE_RMC_TROOPLEADER,\
 		/datum/job/marine/tl/ai/rmc = JOB_TWE_RMC_SECTIONLEADER,\
@@ -154,7 +152,6 @@ GLOBAL_LIST_INIT(platoon_to_role_list, list(/datum/squad/marine/alpha = ROLES_AI
 												/datum/squad/marine/forecon = ROLES_AI_FORECON,\
 												/datum/squad/marine/extraction = ROLES_AI_EXTRACTION,\
 												/datum/squad/marine/raider = ROLES_AI_RAIDER,\
-												/datum/squad/marine/unknown = ROLES_AI_UNKNOWN,\
 												/datum/squad/marine/pmc/small = ROLES_PMCPLT_SMALL,\
 												/datum/squad/marine/rmc = ROLES_RMCTROOP))
 

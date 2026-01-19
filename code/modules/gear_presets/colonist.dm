@@ -172,19 +172,6 @@
 	add_worker_gloves(new_human)
 	add_worker_shoe(new_human)
 
-/datum/equipment_preset/colonist/roughneck/unknown
-	name = "Colonist"
-	flags = EQUIPMENT_PRESET_EXTRA
-	faction = FACTION_COLONIST
-	assignment = JOB_COLONIST
-	rank = JOB_SQUAD_MARINE
-	paygrades = list(PAY_SHORT_CIV = JOB_PLAYTIME_TIER_0)
-	skills = /datum/skills/civilian
-	access = list(ACCESS_CIVILIAN_PUBLIC)
-
-/datum/equipment_preset/colonist/roughneck/unknown/load_gear(mob/living/carbon/human/new_human)
-	return
-
 /datum/equipment_preset/colonist/roughneck/spanish
 	name = "LatAm Colonist, Blue-Collar (Roughneck)"
 	ethnicity = LATIN_AMERICAN_ETHNICITY
