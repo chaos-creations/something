@@ -3102,6 +3102,28 @@
 	light_power = 2
 	light_range = 4
 
+/turf/open/floor/corsat/spiral_liberty
+	icon_state = "spiralblueoffice"
+	light_color = "#0090ff"
+	light_range = 4
+	light_power = 2
+
+/turf/open/floor/corsat/spiral_liberty/Initialize(mapload, ...)
+	. = ..()
+	set_light_on(TRUE)
+
+	RegisterSignal(SSdcs, COMSIG_GLOB_SECURITY_LEVEL_CHANGED, PROC_REF(color_change))
+
+/turf/open/floor/corsat/spiral_liberty/proc/color_change(datum/source, new_color)
+	SIGNAL_HANDLER
+	switch(new_color)
+		if(SEC_LEVEL_GREEN)
+			set_light(l_color = "#0090ff")
+		if(SEC_LEVEL_BLUE)
+			set_light(l_color = "#c70f0f")
+		if(SEC_LEVEL_RED, SEC_LEVEL_DELTA)
+			set_light(l_color = "#c70f0f")
+
 /turf/open/floor/grey_dark2
 	color = "#525151"
 	icon_state = "dark2"

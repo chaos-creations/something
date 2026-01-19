@@ -202,6 +202,26 @@
 	light_type = /obj/item/light_bulb/bulb
 	light_color = LIGHT_COLOR_XENON_UA
 
+/obj/structure/machinery/light/small/blue/golden_arrow/liberty
+	brightness = 1
+	light_color = "#0090ff"
+
+/obj/structure/machinery/light/small/blue/golden_arrow/liberty/Initialize(mapload, ...)
+	. = ..()
+	set_light_on(TRUE)
+
+	RegisterSignal(SSdcs, COMSIG_GLOB_SECURITY_LEVEL_CHANGED, PROC_REF(color_change))
+
+/obj/structure/machinery/light/small/blue/golden_arrow/liberty/proc/color_change(datum/source, new_color)
+	SIGNAL_HANDLER
+	switch(new_color)
+		if(SEC_LEVEL_GREEN)
+			set_light(l_color = "#0090ff")
+		if(SEC_LEVEL_BLUE)
+			set_light(l_color = "#c70f0f")
+		if(SEC_LEVEL_RED, SEC_LEVEL_DELTA)
+			set_light(l_color = "#c70f0f")
+
 /obj/structure/machinery/light/small/red
 	icon_state = "bulb1"
 	base_state = "bulb"
