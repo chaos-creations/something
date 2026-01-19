@@ -10,26 +10,6 @@
 /obj/item/tool/hand_labeler,
 /turf/open/floor/plating,
 /area/galleyburned/maint)
-"ac" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/bed/chair{
-	can_buckle = 0;
-	dir = 4
-	},
-/obj/structure/bed/chair{
-	can_buckle = 0;
-	dir = 4;
-	pixel_x = 1;
-	pixel_y = 3
-	},
-/obj/structure/bed/chair{
-	can_buckle = 0;
-	dir = 4;
-	pixel_x = 2;
-	pixel_y = 6
-	},
-/turf/open/floor/prison/darkbrown3/southeast,
-/area/galleyburned/residential)
 "ad" = (
 /obj/structure/machinery/light/double/blue/golden_arrow{
 	dir = 8;
@@ -48,44 +28,13 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/galleyburned/residential)
-"ag" = (
-/obj/structure/punching_bag,
-/turf/open/floor/plating,
-/area/galleyburned/residential)
 "ah" = (
-/obj/structure/prop/holidays/wreath{
-	dir = 6;
-	pixel_x = -30;
-	pixel_y = 5
+/obj/structure/machinery/light/double/blue/golden_arrow{
+	dir = 8;
+	light_power = 0.7
 	},
-/obj/structure/surface/table/woodentable/fancy,
-/obj/item/toy/festivizer,
-/obj/item/toy/festivizer,
-/obj/item/toy/festivizer,
-/obj/item/toy/festivizer,
-/obj/item/toy/festivizer,
-/turf/open/floor/hybrisa/wood/blackwood,
+/turf/open/floor/plating/plating_catwalk,
 /area/galleyburned/canteen)
-"ai" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/paper{
-	pixel_x = 8;
-	pixel_y = -1;
-	name = "raspisanie";
-	info = "[b][center][uscm][br]УТРОМ[/center][/b][br]1. ПРЕСС КАЧАТ[br]2. Т) БЕГИТ[br]3.    ТУРНИК[br][b][center]ВЕЧЕРОМ[/b][/center][br]1. ПРЕСС КАЧАТ[br]2. БЕГИТ[br]3. ТУРНИК[br]4. АНЖУМАНЯ[br]5. ГАНТЕЛИ"
-	},
-/obj/structure/machinery/light/small/blue{
-	dir = 8
-	},
-/turf/open/floor/plating,
-/area/galleyburned/residential)
-"aj" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/treadmill{
-	dir = 4
-	},
-/turf/open/floor/plating,
-/area/galleyburned/residential)
 "ak" = (
 /obj/structure/barricade/handrail{
 	dir = 1;
@@ -99,13 +48,6 @@
 "al" = (
 /turf/open/floor/plating,
 /area/galleyburned/hangar)
-"am" = (
-/obj/effect/decal/cleanable/generic,
-/obj/structure/machinery/treadmill/console{
-	dir = 4
-	},
-/turf/open/floor/plating,
-/area/galleyburned/residential)
 "an" = (
 /obj/structure/machinery/light/small/blue{
 	dir = 1
@@ -114,85 +56,8 @@
 /area/galleyburned/residential)
 "ao" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/surface/rack{
-	pixel_x = 0;
-	pixel_y = 16;
-	density = 0
-	},
-/obj/item/tool/dumbbell/alt{
-	drop_sound = 'sound/handling/wrench_drop.ogg';
-	equip_sounds = 'sound/handling/wrench_pickup.ogg';
-	force = 10;
-	hitsound = 'sound/weapons/metal_chair_clang.ogg';
-	throwforce = 15;
-	pixel_x = -1;
-	pixel_y = 10
-	},
-/obj/item/tool/dumbbell{
-	force = 15;
-	throwforce = 20;
-	hitsound = 'sound/weapons/metal_chair_clang.ogg';
-	drop_sound = 'sound/handling/wrench_drop.ogg';
-	equip_sounds = 'sound/handling/wrench_pickup.ogg';
-	pixel_y = 26;
-	pixel_x = -1
-	},
-/obj/item/tool/dumbbell{
-	force = 15;
-	throwforce = 20;
-	hitsound = 'sound/weapons/metal_chair_clang.ogg';
-	drop_sound = 'sound/handling/wrench_drop.ogg';
-	equip_sounds = 'sound/handling/wrench_pickup.ogg';
-	pixel_y = 26;
-	pixel_x = -1
-	},
-/obj/item/tool/dumbbell{
-	force = 15;
-	throwforce = 20;
-	hitsound = 'sound/weapons/metal_chair_clang.ogg';
-	drop_sound = 'sound/handling/wrench_drop.ogg';
-	equip_sounds = 'sound/handling/wrench_pickup.ogg';
-	pixel_y = 26;
-	pixel_x = -1
-	},
-/obj/item/tool/dumbbell{
-	force = 15;
-	throwforce = 20;
-	hitsound = 'sound/weapons/metal_chair_clang.ogg';
-	drop_sound = 'sound/handling/wrench_drop.ogg';
-	equip_sounds = 'sound/handling/wrench_pickup.ogg';
-	pixel_y = 26;
-	pixel_x = -1
-	},
-/obj/item/tool/dumbbell/alt{
-	drop_sound = 'sound/handling/wrench_drop.ogg';
-	equip_sounds = 'sound/handling/wrench_pickup.ogg';
-	force = 10;
-	hitsound = 'sound/weapons/metal_chair_clang.ogg';
-	throwforce = 15;
-	pixel_x = -1;
-	pixel_y = 10
-	},
-/obj/item/tool/dumbbell/alt{
-	drop_sound = 'sound/handling/wrench_drop.ogg';
-	equip_sounds = 'sound/handling/wrench_pickup.ogg';
-	force = 10;
-	hitsound = 'sound/weapons/metal_chair_clang.ogg';
-	throwforce = 15;
-	pixel_x = -1;
-	pixel_y = 10
-	},
-/obj/item/tool/dumbbell/alt{
-	drop_sound = 'sound/handling/wrench_drop.ogg';
-	equip_sounds = 'sound/handling/wrench_pickup.ogg';
-	force = 10;
-	hitsound = 'sound/weapons/metal_chair_clang.ogg';
-	throwforce = 15;
-	pixel_x = -1;
-	pixel_y = 10
-	},
-/obj/structure/machinery/treadmill{
-	dir = 4
+/obj/structure/machinery/light/small/blue{
+	dir = 1
 	},
 /turf/open/floor/plating,
 /area/galleyburned/residential)
@@ -203,33 +68,6 @@
 	light_power = 0.7
 	},
 /turf/open/floor/plating/plating_catwalk,
-/area/galleyburned/residential)
-"aq" = (
-/obj/item/weapon/dart/green{
-	pixel_y = -2;
-	pixel_x = 5
-	},
-/turf/closed/wall/upp_wall/grey,
-/area/galleyburned/residential)
-"ar" = (
-/obj/effect/decal/cleanable/hybrisa/dirt,
-/obj/effect/decal/cleanable/hybrisa/dirt,
-/obj/item/clothing/glasses/sunglasses/blindfold,
-/obj/effect/decal/cleanable/hybrisa/dirt,
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding2"
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding4"
-	},
-/obj/structure/bed/hybrisa/bunkbed1{
-	dir = 4;
-	layer = 3.5
-	},
-/turf/open/floor/hybrisa/wood/blackwood,
 /area/galleyburned/residential)
 "as" = (
 /turf/closed/shuttle/midway{
@@ -244,425 +82,32 @@
 "au" = (
 /turf/closed/wall/upp_wall/grey/hull,
 /area/galleyburned/residential)
-"av" = (
-/obj/effect/decal/siding{
-	icon_state = "siding2"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/strata_decals/grime/grime4{
-	pixel_x = 3;
-	pixel_y = 12
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding6"
-	},
-/obj/structure/reagent_dispensers/beerkeg/alt_dark{
-	pixel_x = -8;
-	pixel_y = 14;
-	anchored = 1
-	},
-/turf/open/floor/hybrisa/tile,
-/area/galleyburned/residential)
-"aw" = (
-/obj/structure/machinery/light/small{
-	dir = 2;
-	light_color = "#e7c0a4";
-	light_power = 0.8;
-	light_range = 4;
-	pixel_x = -6
-	},
-/obj/effect/decal/cleanable/hybrisa/trash{
-	icon_state = "trash_5";
-	pixel_x = 3;
-	pixel_y = 2
-	},
-/obj/structure/dartboard{
-	pixel_y = -26;
-	pixel_x = 0
-	},
-/obj/item/weapon/dart/green{
-	pixel_x = 10;
-	pixel_y = -7
-	},
-/obj/item/weapon/dart{
-	pixel_y = -29;
-	pixel_x = -3
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding10"
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding4"
-	},
-/turf/open/floor/hybrisa/wood/blackwood,
-/area/galleyburned/residential)
-"ax" = (
-/obj/structure/prop/hybrisa/fakeplatforms/platform4{
-	dir = 4
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding2"
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding8"
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding4"
-	},
-/turf/open/floor/hybrisa/wood/darkerwood,
-/area/galleyburned/residential)
-"ay" = (
-/obj/structure/platform/strata/metal,
-/obj/structure/closet/crate/juice,
-/turf/open/floor/corsat/officetiles,
-/area/galleyburned/residential)
 "az" = (
-/obj/structure/surface/table/reinforced/black,
-/obj/structure/barricade/handrail/wire{
-	dir = 8;
-	layer = 3.2
+/obj/structure/window/framed/almayer,
+/obj/structure/machinery/door/poddoor/shutters/almayer/open{
+	name = "Privacy Shutter";
+	id = "s2";
+	dir = 8
 	},
-/obj/structure/machinery/prop/almayer/computer/PC{
-	dir = 4;
-	pixel_x = 5;
-	layer = 2.98;
-	pixel_y = 3
-	},
-/turf/open/floor/strata/floor3,
+/turf/open/floor/plating,
 /area/galleyburned/residential)
 "aA" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
 /area/galleyburned/residential)
-"aB" = (
-/obj/structure/prop/server_equipment{
-	pixel_x = 16;
-	pixel_y = 3;
-	layer = 3.01
-	},
-/obj/structure/prop/server_equipment{
-	pixel_x = -4;
-	pixel_y = 3
-	},
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/structure/window/reinforced{
-	dir = 1;
-	layer = 2.9
-	},
-/turf/open/floor/strata/floor3,
-/area/galleyburned/residential)
-"aC" = (
-/obj/structure/prop/server_equipment{
-	pixel_x = 4;
-	pixel_y = 3;
-	layer = 3.02
-	},
-/obj/structure/window/reinforced{
-	dir = 1;
-	layer = 2.9
-	},
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/turf/open/floor/strata/floor3,
-/area/galleyburned/residential)
-"aD" = (
-/obj/effect/decal/siding{
-	icon_state = "siding4"
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding8"
-	},
-/obj/item/weapon/twohanded/folded_metal_chair{
-	pixel_x = 3;
-	pixel_y = 12
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/hybrisa/wood/blackwood,
-/area/galleyburned/residential)
-"aE" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/prop/hybrisa/fakeplatforms/platform4{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/hybrisa/trash{
-	icon_state = "trash_3";
-	pixel_y = 12
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding8"
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding4"
-	},
-/turf/open/floor/hybrisa/wood/darkerwood,
-/area/galleyburned/residential)
-"aF" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/bed/chair/office/light{
-	dir = 8;
-	pixel_y = 5;
-	buckling_y = 5
-	},
-/obj/effect/decal/cleanable/hybrisa/trash{
-	pixel_y = 12
-	},
-/obj/structure/machinery/light/small{
-	dir = 2;
-	light_color = "#e7c0a4";
-	light_power = 0.8;
-	light_range = 4;
-	pixel_x = -6
-	},
-/turf/open/floor/prison/darkbrownfull2,
-/area/galleyburned/residential)
-"aG" = (
-/obj/effect/decal/cleanable/hybrisa/trash{
-	pixel_x = -9;
-	pixel_y = 4
-	},
-/obj/effect/decal/cleanable/hybrisa/trash{
-	icon_state = "trash_2";
-	pixel_x = -8;
-	pixel_y = 12
-	},
-/obj/structure/prop/hybrisa/misc/cabinet{
-	pixel_x = -7;
-	pixel_y = 12;
-	layer = 3.20
-	},
-/turf/open/floor/prison/darkbrown3/southwest,
-/area/galleyburned/residential)
-"aH" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/hybrisa/colorable_rug{
-	color = "#3d3d3d";
-	dir = 1;
-	pixel_y = -4;
-	pixel_x = -8;
-	name = "rubber mat"
-	},
-/obj/effect/decal/cleanable/hybrisa/trash{
-	icon_state = "trash_5"
-	},
-/turf/open/floor/prison/darkbrown3,
-/area/galleyburned/residential)
-"aI" = (
-/obj/effect/decal/siding{
-	icon_state = "siding4"
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding8"
-	},
-/obj/structure/bed/stool{
-	icon_state = "stool_alt";
-	pixel_x = 2;
-	pixel_y = 8
-	},
-/turf/open/floor/hybrisa/wood/blackwood,
-/area/galleyburned/residential)
-"aJ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/prop/hybrisa/fakeplatforms/platform4/deco,
-/obj/structure/prop/hybrisa/fakeplatforms/platform4/deco{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/hybrisa/trash{
-	pixel_y = 12
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding8"
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding4"
-	},
-/obj/item/device/flashlight/lamp/tripod{
-	on = 0;
-	pixel_x = 5;
-	pixel_y = 14;
-	layer = 2.9
-	},
-/turf/open/floor/hybrisa/wood/darkerwood,
-/area/galleyburned/residential)
 "aK" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/hybrisa/trash{
-	icon_state = "trash_9";
-	pixel_y = 24;
-	pixel_x = 4
+/obj/structure/machinery/door_control{
+	pixel_x = -23;
+	pixel_y = -8;
+	name = "door lock";
+	id = "s2"
 	},
-/obj/structure/noticeboard{
-	pixel_y = 50;
-	icon_state = "notices_6";
-	desc = null;
-	name = "sticky notes";
-	layer = 3.04;
-	pixel_x = -7
-	},
-/turf/open/floor/prison/darkbrown3/west,
-/area/galleyburned/residential)
-"aL" = (
-/obj/effect/decal/strata_decals/grime/grime4,
-/obj/item/trash/cigbutt{
-	pixel_x = 7;
-	pixel_y = 7
-	},
-/obj/item/paper/crumpled{
-	pixel_y = -9;
-	pixel_x = 15;
-	layer = 2.79
-	},
-/obj/effect/decal/cleanable/hybrisa/trash{
-	icon_state = "trash_10";
-	pixel_x = 12;
-	pixel_y = 12
-	},
-/turf/open/floor/prison/floor_plate,
-/area/galleyburned/residential)
-"aM" = (
-/obj/structure/bed/chair{
-	dir = 8;
-	pixel_x = -6;
-	pixel_y = 12
-	},
-/obj/item/ashtray/plastic{
-	icon_state = "ashtray_full_bl";
-	pixel_x = 10;
-	pixel_y = 20
-	},
-/obj/item/reagent_container/food/drinks/dry_ramen{
-	pixel_x = 1;
-	pixel_y = 31
-	},
-/obj/item/paper/crumpled{
-	pixel_y = 0;
-	pixel_x = 11
-	},
-/turf/open/floor/prison/darkbrown3/east,
-/area/galleyburned/residential)
-"aN" = (
-/obj/effect/decal/siding{
-	icon_state = "siding1"
-	},
-/turf/open/floor/hybrisa/wood/blackwood,
-/area/galleyburned/residential)
-"aO" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/siding{
-	icon_state = "siding1"
-	},
-/turf/open/floor/hybrisa/wood/blackwood,
-/area/galleyburned/residential)
-"aP" = (
-/obj/effect/decal/siding{
-	icon_state = "siding2"
-	},
-/obj/effect/decal/cleanable/hybrisa/trash{
-	icon_state = "trash_6";
-	pixel_x = -7;
-	pixel_y = -13
-	},
-/obj/structure/bed/stool{
-	buckling_y = 14;
-	layer = 4;
-	pixel_y = 14
-	},
-/turf/open/floor/hybrisa/wood/blackwood,
-/area/galleyburned/residential)
-"aQ" = (
-/obj/effect/decal/siding{
-	icon_state = "siding4"
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/hybrisa/wood/blackwood,
-/area/galleyburned/residential)
-"aR" = (
-/obj/structure/barricade/handrail/wire{
-	dir = 8;
-	layer = 3.01
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/barricade/handrail/wire{
-	layer = 3.04
-	},
-/obj/structure/window/reinforced{
-	dir = 1;
-	layer = 3.02;
-	pixel_x = 0;
-	pixel_y = 11
-	},
-/obj/effect/decal/strata_decals/grime/grime3{
-	icon_state = "grime4"
-	},
-/obj/structure/prop/almayer/whiteboard{
-	layer = 3.03;
-	pixel_x = 0;
-	pixel_y = 11
-	},
-/obj/structure/flora/pottedplant{
-	icon_state = "pottedplant_17";
-	pixel_y = 6;
-	pixel_x = -3;
-	layer = 3.03
-	},
-/turf/open/floor/prison/darkbrownfull2,
+/turf/open/floor/plating,
 /area/galleyburned/residential)
 "aS" = (
 /turf/open/floor/plating/almayer,
 /area/galleyburned/memorial)
-"aT" = (
-/obj/structure/window/reinforced{
-	dir = 1;
-	layer = 3.02;
-	pixel_x = 0;
-	pixel_y = 11
-	},
-/obj/structure/prop{
-	name = "\improper seat-like case";
-	desc = "It's a case made into an impromptu seat.";
-	icon_state = "case";
-	icon = 'icons/obj/structures/crates.dmi';
-	can_buckle = 1;
-	pixel_y = -2;
-	layer = 3.6;
-	pixel_x = 1
-	},
-/turf/open/floor/prison/darkbrown3/northwest,
-/area/galleyburned/residential)
-"aU" = (
-/obj/structure/machinery/computer/overwatch/toc{
-	layer = 2.97;
-	pixel_y = 12
-	},
-/obj/structure/surface/table/reinforced/toc/west{
-	pixel_y = -7
-	},
-/obj/item/reagent_container/food/drinks/cans/beer{
-	pixel_x = -7;
-	pixel_y = 1;
-	anchored = 1
-	},
-/obj/item/trash/pistachios{
-	pixel_x = 6;
-	pixel_y = -8;
-	layer = 2.5
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/item/clothing/head/cmcap/royal_marine{
-	pixel_x = 2;
-	pixel_y = -6;
-	anchored = 1
-	},
-/obj/structure/window/reinforced{
-	dir = 1;
-	layer = 2;
-	pixel_x = 0;
-	pixel_y = 11
-	},
-/turf/open/floor/prison/darkbrown3/north,
-/area/galleyburned/residential)
 "aV" = (
 /obj/structure/window/reinforced/ultra{
 	dir = 4
@@ -673,41 +118,6 @@
 /obj/structure/personal_stash,
 /turf/open/floor/plating/plating_catwalk,
 /area/galleyburned/requisition)
-"aW" = (
-/obj/structure/surface/table/reinforced/toc/east{
-	pixel_y = -7
-	},
-/obj/structure/phone_base{
-	pixel_y = 8;
-	pixel_x = 11;
-	phone_id = "Edward's Room";
-	phone_category = "Rooms";
-	name = "Edward's Room"
-	},
-/obj/structure/machinery/prop/almayer/CICmap{
-	density = 0;
-	icon_state = "toc_map";
-	layer = 2.97;
-	name = "Tactical Map Display";
-	pixel_y = 11;
-	pixel_x = -7
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/hybrisa/trash{
-	icon_state = "trash_16"
-	},
-/obj/structure/window/reinforced{
-	dir = 1;
-	layer = 2;
-	pixel_x = 0;
-	pixel_y = 11
-	},
-/obj/structure/prop/hybrisa/misc/machinery/screens/gold_clock{
-	pixel_x = 26;
-	pixel_y = 7
-	},
-/turf/open/floor/prison/darkbrown3/northeast,
-/area/galleyburned/residential)
 "aX" = (
 /obj/structure/largecrate/random/barrel/yellow{
 	pixel_x = 9
@@ -715,188 +125,14 @@
 /obj/effect/decal/cleanable/cobweb,
 /turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
 /area/galleyburned/residential)
-"aY" = (
-/obj/effect/decal/siding{
-	icon_state = "siding4"
-	},
-/obj/effect/decal/cleanable/hybrisa/trash{
-	icon_state = "trash_7";
-	pixel_y = 12
-	},
-/obj/item/reagent_container/food/drinks/cans/souto/diet{
-	pixel_x = -1;
-	pixel_y = 16
-	},
-/obj/item/reagent_container/food/drinks/cans/souto{
-	icon_state = "blank_can_crushed";
-	pixel_x = -12;
-	pixel_y = 7
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/hybrisa/wood/blackwood,
-/area/galleyburned/residential)
-"aZ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/prop/hybrisa/fakeplatforms/platform4/deco,
-/obj/item/tool/warning_cone{
-	pixel_x = 4;
-	pixel_y = 14
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding8"
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding4"
-	},
-/turf/open/floor/hybrisa/wood/darkerwood,
-/area/galleyburned/residential)
-"ba" = (
-/obj/structure/curtain/blue{
-	layer = 3
-	},
-/obj/structure/roof/hybrisa/lattice_prop/lattice_1{
-	pixel_x = 0;
-	pixel_y = 4
-	},
-/obj/structure/prop/hybrisa/fakeplatforms/platform4,
-/obj/effect/decal/siding{
-	icon_state = "siding8"
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding2"
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding8"
-	},
-/turf/open/floor/hybrisa/wood/blackwood,
-/area/galleyburned/residential)
 "bb" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/prop/hybrisa/fakeplatforms/platform4,
-/obj/structure/surface/table/reinforced/black,
-/obj/structure/machinery/computer/cameras/wooden_tv/prop{
-	dir = 1;
-	layer = 3.2;
-	pixel_x = 9;
-	pixel_y = 7
+/obj/structure/machinery/door_control{
+	pixel_x = -23;
+	pixel_y = 11;
+	name = "door lock";
+	id = "s1"
 	},
-/obj/item/device/flashlight/lamp/green{
-	pixel_x = -8;
-	pixel_y = 10
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding2"
-	},
-/turf/open/floor/hybrisa/wood/blackwood,
-/area/galleyburned/residential)
-"bc" = (
-/obj/structure/interior_wall/apc{
-	icon_state = "wall";
-	opacity = 0;
-	pixel_x = 0;
-	pixel_y = -13
-	},
-/obj/structure/surface/table/reinforced/black,
-/obj/item/reagent_container/food/drinks/sillycup{
-	pixel_x = -1;
-	pixel_y = 14
-	},
-/obj/item/reagent_container/food/snacks/lemondrop{
-	pixel_x = 6;
-	pixel_y = 3
-	},
-/obj/item/reagent_container/food/drinks/coffeecup{
-	pixel_x = 10;
-	pixel_y = 13
-	},
-/obj/item/storage/box/teabags{
-	pixel_x = -4;
-	pixel_y = 4;
-	name = "Unlabeled tea box";
-	desc = "A cardboard box with tea bags-did you expect to see something else here?"
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding2"
-	},
-/turf/open/floor/hybrisa/wood/blackwood,
-/area/galleyburned/residential)
-"bd" = (
-/obj/structure/interior_wall/apc{
-	icon_state = "wall";
-	opacity = 0;
-	pixel_x = 0;
-	pixel_y = -13
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/prop{
-	name = "\improper seat-like case";
-	desc = "It's a case made into an impromptu seat.";
-	icon_state = "case";
-	icon = 'icons/obj/structures/crates.dmi';
-	can_buckle = 1;
-	pixel_y = 5;
-	layer = 2.5;
-	pixel_x = -2
-	},
-/obj/item/weapon/straight_razor{
-	pixel_x = -4;
-	pixel_y = 3
-	},
-/obj/structure/reagent_dispensers/water_cooler{
-	density = 0;
-	pixel_x = 12;
-	pixel_y = 11
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding2"
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding4"
-	},
-/turf/open/floor/hybrisa/wood/blackwood,
-/area/galleyburned/residential)
-"be" = (
-/obj/effect/decal/cleanable/hybrisa/trash{
-	pixel_y = 22;
-	pixel_x = 12
-	},
-/obj/effect/decal/cleanable/hybrisa/trash{
-	icon_state = "trash_2";
-	pixel_x = -8;
-	pixel_y = -18
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/hybrisa/wood/blackwood,
-/area/galleyburned/residential)
-"bf" = (
-/obj/effect/decal/siding{
-	icon_state = "siding4"
-	},
-/turf/open/floor/hybrisa/wood/blackwood,
-/area/galleyburned/residential)
-"bg" = (
-/obj/effect/decal/siding{
-	icon_state = "siding8"
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding4"
-	},
-/turf/open/floor/hybrisa/wood/darkerwood,
-/area/galleyburned/residential)
-"bh" = (
-/turf/open/floor/hybrisa/wood/blackwood,
-/area/galleyburned/residential)
-"bi" = (
-/obj/structure/prop/ice_colony/tiger_rug{
-	layer = 2
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/bed/stool{
-	icon_state = "stool_alt";
-	pixel_x = 3;
-	pixel_y = 6
-	},
-/turf/open/floor/hybrisa/wood/blackwood,
+/turf/open/floor/plating,
 /area/galleyburned/residential)
 "bj" = (
 /obj/effect/decal/cleanable/dirt,
@@ -906,24 +142,7 @@
 	name = "door lock";
 	id = "s3"
 	},
-/obj/structure/weightmachine/weightlifter,
 /turf/open/floor/plating,
-/area/galleyburned/residential)
-"bk" = (
-/obj/structure/mirror{
-	pixel_x = 30
-	},
-/obj/effect/decal/cleanable/hybrisa/trash{
-	icon_state = "trash_13";
-	pixel_y = 7
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding4"
-	},
-/obj/structure/machinery/light/small{
-	dir = 4
-	},
-/turf/open/floor/hybrisa/wood/blackwood,
 /area/galleyburned/residential)
 "bl" = (
 /obj/effect/decal/cleanable/dirt,
@@ -935,225 +154,6 @@
 	},
 /turf/open/floor/plating,
 /area/galleyburned/residential)
-"bm" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/light/small{
-	dir = 1;
-	light_color = "#e7c0a4";
-	light_power = 0.8;
-	light_range = 4;
-	pixel_x = -6
-	},
-/obj/effect/decal/cleanable/hybrisa/trash{
-	dir = 4;
-	icon_state = "trash_11"
-	},
-/obj/effect/decal/cleanable/hybrisa/trash{
-	icon_state = "trash_14";
-	pixel_y = 13;
-	pixel_x = -8
-	},
-/obj/structure/reagent_dispensers/water_cooler{
-	density = 0;
-	pixel_x = 6;
-	pixel_y = 16;
-	layer = 3.7
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding1"
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding4"
-	},
-/obj/item/reagent_container/food/drinks/cans/souto{
-	icon_state = "blank_can_crushed"
-	},
-/obj/item/reagent_container/syringe{
-	icon_state = "broken"
-	},
-/turf/open/floor/hybrisa/wood/blackwood,
-/area/galleyburned/residential)
-"bn" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/siding{
-	icon_state = "siding1"
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding8"
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding4"
-	},
-/turf/open/floor/hybrisa/wood/darkerwood,
-/area/galleyburned/residential)
-"bo" = (
-/obj/structure/showcase{
-	desc = "An ordinary plastic mannequin for displaying armor and clothing. Is it just you or is he watching you?";
-	icon = 'icons/mob/humans/species/r_synthetic.dmi';
-	icon_state = "Synthetic_Template";
-	name = "Mannequin";
-	pixel_x = -4;
-	pixel_y = 24;
-	layer = 2.9
-	},
-/obj/item/clothing/head/helmet/marine/veteran/pmc/gunner/rmc{
-	pixel_x = -4;
-	pixel_y = 33;
-	anchored = 1;
-	mouse_opacity = 0
-	},
-/obj/structure/bed/chair/wood/divan{
-	pixel_x = -8;
-	pixel_y = 2;
-	layer = 3.2
-	},
-/obj/effect/decal/cleanable/hybrisa/trash{
-	icon_state = "trash_16";
-	pixel_x = 4;
-	pixel_y = -8
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding1"
-	},
-/obj/effect/decal/hybrisa/colorable_rug{
-	color = "#3d3d3d";
-	layer = 2.01;
-	dir = 1;
-	name = "rubber mat";
-	pixel_y = -49;
-	pixel_x = 2
-	},
-/obj/item/clothing/suit/storage/marine/veteran/royal_marine_advanced/cargo{
-	pixel_x = -4;
-	pixel_y = 24;
-	anchored = 1;
-	mouse_opacity = 0
-	},
-/obj/item/prop{
-	icon_state = "rmc_gloves";
-	mouse_opacity = 0;
-	icon = 'icons/mob/humans/onmob/hands.dmi';
-	dir = 2;
-	pixel_x = -4;
-	pixel_y = 24;
-	layer = 4.11;
-	anchored = 1
-	},
-/obj/item/prop{
-	icon_state = "marsoc_jumpsuit";
-	mouse_opacity = 0;
-	icon = 'icons/mob/humans/onmob/uniform_0.dmi';
-	dir = 2;
-	pixel_x = -4;
-	pixel_y = 24;
-	layer = 2.9;
-	anchored = 1
-	},
-/turf/open/floor/hybrisa/wood/blackwood,
-/area/galleyburned/residential)
-"bp" = (
-/obj/structure/bed/chair/wood/divan/r{
-	pixel_x = -8;
-	pixel_y = 2
-	},
-/obj/item/ammo_box/magazine/nsg23/heap/empty{
-	pixel_x = 1;
-	pixel_y = 13;
-	anchored = 1
-	},
-/obj/item/storage/briefcase/stowaway{
-	pixel_x = 16;
-	pixel_y = -10
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding1"
-	},
-/turf/open/floor/hybrisa/wood/blackwood,
-/area/galleyburned/residential)
-"bq" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/bed/hybrisa/bunkbed2{
-	dir = 4
-	},
-/obj/structure/sign/poster/hunk{
-	icon_state = "poster12";
-	pixel_x = 35;
-	pixel_y = 10
-	},
-/obj/structure/sign/poster/hunk{
-	icon_state = "poster29";
-	pixel_x = 27;
-	pixel_y = 1
-	},
-/obj/structure/sign/poster{
-	desc = "This poster features Audrey Rainwater standing in a jacuzzi. She was the July 2182 centerfold in Playboy Magazine. Don't ask how you know that.";
-	icon_state = "poster16";
-	layer = 3.3;
-	name = "'Miss July' Pinup";
-	pixel_y = 18;
-	serial_number = 16;
-	pixel_x = 26
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding1"
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding4"
-	},
-/turf/open/floor/hybrisa/wood/blackwood,
-/area/galleyburned/residential)
-"br" = (
-/obj/structure/roof/hybrisa/lattice_prop/lattice_2,
-/turf/closed/wall/upp_wall/grey/hull,
-/area/galleyburned/residential)
-"bs" = (
-/obj/item/stack/sheet/wood{
-	pixel_x = 17;
-	pixel_y = 1;
-	layer = 3;
-	anchored = 1
-	},
-/turf/closed/wall/upp_wall/grey/hull,
-/area/galleyburned/residential)
-"bt" = (
-/obj/structure/sign/banners/twe_flag{
-	pixel_x = 9;
-	pixel_y = 0
-	},
-/obj/item/weapon/gun/rifle/nsg23/rmc/preloaded{
-	name = "\improper NSG L23A1 pulse rifle 'Excalibur'";
-	anchored = 1;
-	pixel_x = -10;
-	pixel_y = 0;
-	desc = "Pulse action 8.5x33mm caseless assault rifle of the Royal Marine Commandos, personal friend of any Marine Commando. Comes with semi-auto and burst-fire firemodes and features an integrated 30mm grenade launcher that can hold two grenades on backup with one in the chamber. This rifle was firmly welded to the wall, literally, no one knows why, and even if they did, they wouldn't have said to you. Because of this condition, it was called 'Excalibur' now."
-	},
-/obj/structure/bedsheetbin{
-	pixel_y = -27;
-	pixel_x = 4;
-	layer = 2
-	},
-/turf/closed/wall/upp_wall/grey/hull,
-/area/galleyburned/residential)
-"bu" = (
-/obj/structure/machinery/light/double/blue/golden_arrow{
-	light_power = 0.3
-	},
-/obj/structure/prop/holidays/string_lights{
-	dir = 1
-	},
-/turf/open/floor/hybrisa/wood/blackwood,
-/area/galleyburned/canteen)
-"bv" = (
-/obj/structure/prop/holidays/string_lights{
-	dir = 5
-	},
-/obj/structure/surface/table/woodentable/fancy,
-/obj/item/storage/box/matches{
-	pixel_x = -2;
-	pixel_y = 6
-	},
-/turf/open/floor/hybrisa/wood/blackwood,
-/area/galleyburned/canteen)
 "bw" = (
 /obj/structure/machinery/light/double/blue/golden_arrow{
 	light_power = 0.3
@@ -1164,7 +164,11 @@
 /turf/open/floor/almayer/mono,
 /area/galleyburned/briefing)
 "bx" = (
-/turf/open/floor/hybrisa/wood/blackwood,
+/obj/structure/surface/table/almayer,
+/obj/item/reagent_container/food/condiment/hotsauce/tabasco{
+	pixel_y = 8
+	},
+/turf/open/floor/almayer/mono,
 /area/galleyburned/canteen)
 "by" = (
 /obj/structure/prop/holidays/string_lights{
@@ -1177,10 +181,6 @@
 /obj/effect/decal/hybrisa/warning/redandwhite_NWcorner,
 /turf/open/floor/almayer/mono,
 /area/galleyburned/residential)
-"bA" = (
-/obj/structure/stairs/perspective,
-/turf/open/floor/hybrisa/wood/blackwood,
-/area/galleyburned/canteen)
 "bB" = (
 /obj/structure/largecrate/random/barrel{
 	pixel_x = -5;
@@ -1188,72 +188,6 @@
 	},
 /turf/open/floor/plating,
 /area/galleyburned/residential)
-"bC" = (
-/obj/structure/prop/souto_land/pole{
-	pixel_y = 2
-	},
-/obj/structure/prop/souto_land/streamer{
-	dir = 5;
-	pixel_y = 32
-	},
-/turf/open/floor/almayer/emeraldcorner/east,
-/area/galleyburned/canteen)
-"bD" = (
-/obj/structure/bed/chair{
-	dir = 1;
-	icon_state = "chair_alt";
-	pixel_y = 12
-	},
-/turf/open/floor/almayer/blue/north,
-/area/galleyburned/canteen)
-"bE" = (
-/obj/structure/bed/chair{
-	dir = 1;
-	icon_state = "chair_alt";
-	pixel_y = 12
-	},
-/turf/open/floor/almayer/green/north,
-/area/galleyburned/canteen)
-"bF" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/ashtray/plastic{
-	icon_state = "ashtray_full_bl";
-	pixel_x = -4;
-	pixel_y = 1
-	},
-/obj/item/clothing/mask/cigarette/weed{
-	pixel_x = 5;
-	pixel_y = 16
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding5"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/surface/table/reinforced/almayer_B,
-/obj/item/storage/fancy/cigar/matchbook/koorlander{
-	pixel_x = 8;
-	pixel_y = 2
-	},
-/turf/open/floor/hybrisa/tile,
-/area/galleyburned/residential)
-"bG" = (
-/obj/structure/bed/chair{
-	dir = 1;
-	icon_state = "chair_alt";
-	pixel_y = 12
-	},
-/turf/open/floor/almayer/black/north,
-/area/galleyburned/canteen)
-"bH" = (
-/obj/structure/prop/souto_land/pole{
-	dir = 1
-	},
-/obj/structure/prop/souto_land/streamer{
-	dir = 10;
-	pixel_y = 32
-	},
-/turf/open/floor/almayer/orangecorner/north,
-/area/galleyburned/canteen)
 "bI" = (
 /obj/structure/prop/holidays/string_lights{
 	dir = 4;
@@ -1267,158 +201,38 @@
 	},
 /turf/open/floor/plating,
 /area/galleyburned/residential)
-"bK" = (
-/obj/structure/surface/table/woodentable/fancy,
-/obj/item/reagent_container/food/snacks/mre_pack/xmas2{
-	icon = 'icons/obj/items/food.dmi';
-	icon_state = "mreGingerbread";
-	pixel_x = -10;
-	pixel_y = 1
-	},
-/obj/item/reagent_container/food/snacks/mre_pack/xmas1{
-	icon = 'icons/obj/items/food.dmi';
-	icon_state = "mreCookies";
-	pixel_x = -3;
-	pixel_y = 14
-	},
-/obj/item/reagent_container/food/drinks/cans/space_mountain_wind{
-	pixel_x = 6;
-	pixel_y = 2
-	},
-/turf/open/floor/light/blue_glow,
-/area/galleyburned/canteen)
-"bL" = (
-/obj/structure/prop/souto_land/pole{
-	dir = 4;
-	pixel_y = 24
-	},
-/obj/structure/prop/souto_land/streamer{
-	dir = 5;
-	pixel_y = 20
-	},
-/turf/open/floor/almayer/greencorner,
-/area/galleyburned/canteen)
-"bM" = (
-/obj/structure/bed/chair{
-	dir = 2;
-	icon_state = "chair_alt"
-	},
-/obj/structure/prop/souto_land/streamer{
-	dir = 1;
-	pixel_y = 24
-	},
-/turf/open/floor/almayer/orange,
-/area/galleyburned/canteen)
-"bN" = (
-/obj/structure/bed/chair{
-	dir = 2;
-	icon_state = "chair_alt"
-	},
-/obj/structure/prop/souto_land/streamer{
-	dir = 1;
-	pixel_y = 24
-	},
-/turf/open/floor/almayer/emerald,
-/area/galleyburned/canteen)
-"bO" = (
-/obj/structure/bed/chair{
-	dir = 2;
-	icon_state = "chair_alt"
-	},
-/obj/structure/prop/souto_land/streamer{
-	dir = 1;
-	pixel_y = 24
-	},
-/turf/open/floor/almayer/red,
-/area/galleyburned/canteen)
-"bP" = (
-/obj/structure/prop/souto_land/pole{
-	dir = 8;
-	pixel_y = 24
-	},
-/obj/structure/prop/souto_land/streamer{
-	dir = 10;
-	pixel_y = 20
-	},
-/turf/open/floor/almayer/bluecorner/west,
-/area/galleyburned/canteen)
-"bQ" = (
-/obj/structure/machinery/vending/cola,
-/turf/open/floor/almayer/plate,
-/area/galleyburned/canteen)
 "bR" = (
 /obj/structure/prop/holidays/string_lights{
 	pixel_y = 27
 	},
 /turf/open/floor/almayer/silverfull,
 /area/galleyburned/prep)
-"bS" = (
-/mob/living/simple_animal/hostile/retaliate/giant_lizard/storm,
-/turf/open/floor/plating,
-/area/galleyburned/residential)
-"bT" = (
-/obj/structure/prop/holidays/string_lights{
-	dir = 1
-	},
-/obj/item/prop/helmetgarb/spacejam_tickets{
-	desc = "A ticket to Souto Man's raffle!";
-	name = "\improper Souto Raffle Ticket";
-	pixel_x = 2;
-	pixel_y = 2
-	},
-/turf/open/floor/hybrisa/wood/blackwood,
-/area/galleyburned/canteen)
 "bU" = (
-/obj/item/prop/helmetgarb/spacejam_tickets{
-	desc = "A ticket to Souto Man's raffle!";
-	name = "\improper Souto Raffle Ticket";
-	pixel_x = 11;
-	pixel_y = 6
-	},
-/turf/open/floor/hybrisa/wood/blackwood,
+/obj/structure/surface/table/almayer,
+/obj/item/tool/hand_labeler,
+/turf/open/floor/almayer/mono,
 /area/galleyburned/canteen)
 "bV" = (
-/obj/item/prop/helmetgarb/spacejam_tickets{
-	desc = "A ticket to Souto Man's raffle!";
-	name = "\improper Souto Raffle Ticket";
-	pixel_x = -6;
-	pixel_y = 17
-	},
-/turf/open/floor/hybrisa/wood/blackwood,
+/obj/structure/surface/table/almayer,
+/obj/structure/machinery/recharger,
+/turf/open/floor/almayer/mono,
 /area/galleyburned/canteen)
 "bW" = (
-/obj/structure/platform{
-	dir = 1
-	},
-/obj/structure/prop/invuln{
-	desc = "The best ride in the universe. For the one and only Souto Man! Although, this one seems to have no fuel left.";
+/obj/structure/bed/chair,
+/turf/open/floor/almayer/mono,
+/area/galleyburned/canteen)
+"bZ" = (
+/obj/structure/machinery/door/airlock/almayer/generic/glass{
 	dir = 2;
-	icon = 'icons/obj/vehicles/vehicles.dmi';
-	icon_state = "soutomobile";
-	name = "Disabled Souto Mobile"
+	name = "\improper M-02 [VACANT]"
 	},
-/turf/open/floor/hybrisa/wood/blackwood,
-/area/galleyburned/canteen)
-"bX" = (
-/obj/structure/platform{
-	dir = 1
-	},
-/obj/item/toy/bikehorn/rubberducky{
-	pixel_x = -2;
-	pixel_y = -7;
-	anchored = 1
-	},
-/turf/open/floor/hybrisa/wood/blackwood,
-/area/galleyburned/canteen)
-"bY" = (
-/obj/item/prop/helmetgarb/spacejam_tickets{
-	desc = "Low security prisoners would smuggle in arcade tickets after visitations. The tickets act as a stand in for paper currency in the prison economy, they're backed by the cigarette standard, since one ticket nets one cigarette at the prize booth. The cigarettes also get smuggled back in.";
-	name = "\improper arcade tickets";
-	pixel_x = -7;
-	pixel_y = 4
+/obj/structure/machinery/door/poddoor/shutters/almayer/open{
+	name = "Privacy Shutter";
+	id = "m2";
+	dir = 2
 	},
 /turf/open/floor/plating/plating_catwalk,
-/area/galleyburned/canteen)
+/area/galleyburned/residential)
 "cg" = (
 /obj/structure/largecrate/random/barrel/medical{
 	pixel_x = 7;
@@ -1567,12 +381,6 @@
 /obj/structure/closet/crate/delta,
 /turf/open/floor/almayer/cargo,
 /area/galleyburned/requisition)
-"ed" = (
-/obj/structure/sign/poster/wylogo{
-	pixel_y = -26
-	},
-/turf/open/floor/plating/plating_catwalk,
-/area/galleyburned/residential)
 "eg" = (
 /obj/structure/surface/table/almayer,
 /obj/item/ashtray/plastic{
@@ -1670,15 +478,6 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/galleyburned/briefing)
-"fg" = (
-/obj/effect/decal/strata_decals/grime/grime4{
-	icon_state = "grime3";
-	pixel_x = -12;
-	pixel_y = 14
-	},
-/mob/living/simple_animal/mouse/rat/white/freelancer,
-/turf/open/floor/hybrisa/tile,
-/area/galleyburned/residential)
 "fq" = (
 /obj/structure/window/reinforced/ultra{
 	dir = 4
@@ -1699,15 +498,15 @@
 	},
 /area/galleyburned/residential)
 "fy" = (
-/obj/item/storage/box/packet/hefa/toy{
-	pixel_x = -8;
-	pixel_y = -10
+/obj/structure/surface/table/almayer,
+/obj/item/toy/deck/uno{
+	pixel_x = 5
 	},
-/obj/item/toy/plush/farwa{
-	pixel_x = 5;
-	pixel_y = 20
+/obj/item/toy/deck{
+	pixel_x = -7;
+	pixel_y = 5
 	},
-/turf/open/floor/hybrisa/wood/blackwood,
+/turf/open/floor/almayer/mono,
 /area/galleyburned/canteen)
 "fI" = (
 /obj/structure/closet/crate,
@@ -1732,11 +531,6 @@
 /turf/closed/shuttle/midway{
 	icon_state = "47"
 	},
-/area/galleyburned/residential)
-"fW" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/oil,
-/turf/open/floor/corsat/marked,
 /area/galleyburned/residential)
 "gb" = (
 /turf/closed/shuttle/midway{
@@ -1779,26 +573,6 @@
 "gL" = (
 /turf/open/floor/almayer/plate,
 /area/galleyburned/prep)
-"gM" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/siding{
-	icon_state = "siding1"
-	},
-/obj/item/reagent_container/food/drinks/cup{
-	pixel_x = 17;
-	pixel_y = 8
-	},
-/obj/item/reagent_container/food/drinks/cup{
-	pixel_x = -5;
-	pixel_y = 12
-	},
-/obj/structure/surface/table/reinforced/almayer_B,
-/obj/item/reagent_container/food/snacks/mre_food/uscm/snack/peanuts{
-	pixel_x = 5;
-	pixel_y = 3
-	},
-/turf/open/floor/hybrisa/tile,
-/area/galleyburned/residential)
 "gW" = (
 /turf/closed/shuttle/midway{
 	icon_state = "64"
@@ -1850,15 +624,11 @@
 /turf/open/floor/almayer/sterile_green_side,
 /area/galleyburned/cryo)
 "hA" = (
-/obj/structure/prop/holidays/wreath{
-	dir = 10;
-	pixel_x = 30;
-	pixel_y = 5
+/obj/structure/machinery/light/double/blue/golden_arrow{
+	dir = 4;
+	light_power = 0.7
 	},
-/obj/structure/surface/table/woodentable/fancy,
-/obj/item/storage/fancy/candle_box,
-/obj/item/storage/fancy/candle_box,
-/turf/open/floor/hybrisa/wood/blackwood,
+/turf/open/floor/plating/plating_catwalk,
 /area/galleyburned/canteen)
 "hE" = (
 /obj/structure/prop/almayer/ship_memorial{
@@ -1909,8 +679,15 @@
 /turf/open/floor/plating,
 /area/galleyburned/residential)
 "ix" = (
-/obj/structure/machinery/fabricator/munitions,
-/turf/open/floor/strata/floor3/east,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/door_control{
+	pixel_x = 8;
+	pixel_y = 22;
+	name = "door lock";
+	id = "m2"
+	},
+/obj/effect/decal/cleanable/generic,
+/turf/open/floor/plating,
 /area/galleyburned/residential)
 "iB" = (
 /obj/structure/machinery/door/poddoor/railing{
@@ -1964,25 +741,6 @@
 "iV" = (
 /turf/open/floor/almayer/sterile_green_side,
 /area/galleyburned/cryo)
-"iX" = (
-/obj/effect/decal/siding{
-	icon_state = "siding8"
-	},
-/obj/structure/prop/hybrisa/supermart/freezer/supermartfreezer1{
-	layer = 3.1
-	},
-/obj/structure/machinery/chem_dispenser/soda{
-	pixel_x = -30;
-	pixel_y = 6;
-	density = 0
-	},
-/obj/structure/machinery/chem_dispenser/soda/beer{
-	pixel_x = -30;
-	pixel_y = 28;
-	density = 0
-	},
-/turf/open/floor/hybrisa/tile,
-/area/galleyburned/residential)
 "jh" = (
 /obj/structure/machinery/light/double{
 	dir = 4;
@@ -2037,48 +795,6 @@
 	},
 /turf/open/floor/almayer,
 /area/galleyburned/requisition)
-"jR" = (
-/obj/effect/decal/cleanable/hybrisa/dirt,
-/obj/effect/decal/cleanable/vomit,
-/obj/item/tool/mop{
-	pixel_x = 10;
-	pixel_y = 22
-	},
-/obj/item/reagent_container/glass/bucket{
-	pixel_x = 15;
-	pixel_y = 6
-	},
-/obj/item/storage/backpack/marine/satchel{
-	desc = "It's the heavy-duty black polymer kind. Time to take out the trash!";
-	icon = 'icons/obj/janitor.dmi';
-	icon_state = "trashbag3";
-	name = "trash bag";
-	pixel_x = -2;
-	pixel_y = 11
-	},
-/obj/effect/decal/cleanable/ash,
-/obj/item/trash/merc_mre,
-/obj/item/trash/buritto,
-/obj/item/trash/barcardine,
-/obj/effect/decal/siding{
-	icon_state = "siding1"
-	},
-/obj/item/tool/wet_sign{
-	pixel_x = -8;
-	pixel_y = 6
-	},
-/obj/structure/roof/hybrisa/billboardsandsigns/bigbillboards{
-	dir = 1;
-	pixel_y = 34;
-	lazy_nodes = 0;
-	layer = 3
-	},
-/obj/item/device/flashlight/lamp/tripod{
-	on = 0
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/hybrisa/wood/blackwood,
-/area/galleyburned/residential)
 "jT" = (
 /obj/structure/machinery/light/double/blue/golden_arrow{
 	dir = 2;
@@ -2087,16 +803,16 @@
 /turf/open/floor/almayer/plate,
 /area/galleyburned/residential)
 "jZ" = (
-/obj/structure/machinery/door/poddoor/shutters/almayer/open{
-	name = "Privacy Shutter";
-	id = "m1"
-	},
 /obj/structure/machinery/door/airlock/almayer/generic/glass{
 	dir = 2;
-	name = "\improper M-01 [Freelancers]"
+	name = "\improper M-01 [VACANT]"
 	},
-/obj/effect/decal/hybrisa/bloodtrail,
-/turf/open/floor/almayer/plate,
+/obj/structure/machinery/door/poddoor/shutters/almayer/open{
+	name = "Privacy Shutter";
+	id = "m1";
+	dir = 2
+	},
+/turf/open/floor/plating/plating_catwalk,
 /area/galleyburned/residential)
 "ka" = (
 /obj/structure/machinery/light/double/blue/golden_arrow{
@@ -2157,10 +873,6 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/galleyburned/requisition)
-"kE" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/corsat/marked,
-/area/galleyburned/residential)
 "kF" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
 /mob/living/simple_animal/cat/blackcat{
@@ -2180,33 +892,16 @@
 /turf/open/floor/plating,
 /area/galleyburned/maint)
 "kJ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/surface/table/reinforced/black,
-/obj/structure/barricade/handrail/wire{
-	dir = 1;
-	pixel_y = 12;
-	layer = 3.2
+/obj/structure/machinery/door/airlock/almayer/generic/glass{
+	name = "\improper S-02 [VACANT]";
+	dir = 2
 	},
-/obj/structure/barricade/handrail/wire{
-	dir = 8;
-	layer = 3.2
+/obj/structure/machinery/door/poddoor/shutters/almayer/open{
+	name = "Privacy Shutter";
+	id = "s2";
+	dir = 8
 	},
-/obj/item/map,
-/obj/item/prop/helmetgarb/spacejam_tickets{
-	pixel_x = -5;
-	pixel_y = -1
-	},
-/obj/item/reagent_container/pill/teabag{
-	pixel_x = 9;
-	pixel_y = 2
-	},
-/obj/item/reagent_container/food/drinks/coffeecup/uscm{
-	pixel_y = 12;
-	name = "TWE coffee mug";
-	desc = "A red, white and blue coffee mug depicting the flag of the TWE. Patriotic and bold, and commonly seen among veterans as a novelty.";
-	pixel_x = -8
-	},
-/turf/open/floor/strata/floor3,
+/turf/open/floor/plating/plating_catwalk,
 /area/galleyburned/residential)
 "kO" = (
 /obj/structure/machinery/light/double/blue/golden_arrow{
@@ -2387,39 +1082,6 @@
 	icon_state = "103"
 	},
 /area/galleyburned/residential)
-"nq" = (
-/obj/structure/bed/chair/wood/divan{
-	dir = 4;
-	pixel_x = -5;
-	pixel_y = -4
-	},
-/obj/structure/sign/ROsign{
-	desc = "1. It is forbidden to enter the room in the clothes of corporate mercenaries.\n 2. Do not take out or touch anything without the permission of the dweller of the room. \n 3. The last word remains with the freelancers cell of that room.\n 4. Please treat this freelancers with respect or go fuck off, we don't care.";
-	name = "\improper The Rules of the Freelancer Cell Room";
-	pixel_x = -32;
-	pixel_y = 20
-	},
-/obj/effect/decal/cleanable/hybrisa/trash{
-	icon_state = "trash_10";
-	pixel_y = 8;
-	pixel_x = 8
-	},
-/obj/structure/sign/poster/hunk{
-	icon_state = "poster33";
-	pixel_x = -26;
-	pixel_y = -10
-	},
-/obj/structure/sign/poster/hunk{
-	icon_state = "poster34";
-	pixel_x = -33;
-	pixel_y = -5
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding8"
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/hybrisa/wood/blackwood,
-/area/galleyburned/residential)
 "ns" = (
 /obj/structure/machinery/prop/almayer/CICmap/table/horizontal/segment/two,
 /obj/item/pamphlet/skill/specialization{
@@ -2512,18 +1174,6 @@
 	},
 /turf/open/floor/plating,
 /area/golden_arrow/synthcloset)
-"oJ" = (
-/obj/structure/prop/hybrisa/fakeplatforms/platform4{
-	dir = 4
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding8"
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding4"
-	},
-/turf/open/floor/hybrisa/wood/darkerwood,
-/area/galleyburned/residential)
 "oO" = (
 /obj/effect/decal/hybrisa/warning/redandwhite_NEcorner,
 /turf/open/floor/almayer/mono,
@@ -2551,22 +1201,15 @@
 	dir = 2;
 	name = "\improper Residences"
 	},
-/obj/structure/machinery/door/poddoor/shutters/almayer/open{
-	name = "Privacy Shutter";
-	id = "m1"
-	},
 /turf/open/floor/almayer/plate,
 /area/galleyburned/residential)
 "pa" = (
-/obj/structure/bed/chair{
-	dir = 4;
-	icon_state = "chair_alt"
+/obj/structure/surface/table/almayer,
+/obj/item/storage/fancy/cigar/matchbook{
+	pixel_x = -6;
+	pixel_y = 8
 	},
-/obj/structure/prop/souto_land/streamer{
-	dir = 5;
-	pixel_y = 20
-	},
-/turf/open/floor/almayer/black/east,
+/turf/open/floor/almayer/plate,
 /area/galleyburned/canteen)
 "pe" = (
 /obj/structure/machinery/light/double/blue/golden_arrow{
@@ -2586,22 +1229,6 @@
 	},
 /turf/open/floor/almayer/silverfull,
 /area/galleyburned/prep)
-"ph" = (
-/obj/structure/platform/strata/metal,
-/obj/structure/prop/holidays/string_lights{
-	dir = 4;
-	pixel_x = -28;
-	pixel_y = 16
-	},
-/obj/structure/machinery/computer/custom_email/freelancers{
-	dir = 4
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding8"
-	},
-/obj/structure/surface/table/reinforced/black,
-/turf/open/floor/hybrisa/wood/blackwood,
-/area/galleyburned/residential)
 "pm" = (
 /turf/open/floor/almayer/sterile_green_side/north,
 /area/galleyburned/cryo)
@@ -2707,36 +1334,6 @@
 	},
 /turf/open/floor/plating,
 /area/galleyburned/maint)
-"rj" = (
-/obj/effect/decal/cleanable/hybrisa/dirt,
-/obj/item/prop/magazine/playboy{
-	name = "Hustler";
-	desc = "A copy of Hustler magazine. It's been damaged with water. Damn."
-	},
-/obj/effect/decal/cleanable/hybrisa/dirt,
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/obj/structure/bed/hybrisa/bunkbed3{
-	dir = 8;
-	layer = 3.5
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding2"
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding8"
-	},
-/turf/open/floor/hybrisa/wood/blackwood,
-/area/galleyburned/residential)
-"rt" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/stairs/perspective{
-	color = "#6e6e6e";
-	dir = 1
-	},
-/turf/open/floor/plating,
-/area/galleyburned/residential)
 "rx" = (
 /obj/structure/machinery/door/poddoor/shutters/almayer/open{
 	name = "Privacy Shutter";
@@ -2757,15 +1354,6 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/galleyburned/requisition)
-"rC" = (
-/obj/item/weapon/pole{
-	pixel_x = 4;
-	pixel_y = 7;
-	anchored = 1
-	},
-/obj/structure/prop/hybrisa/furniture/tables/tablepool,
-/turf/open/floor/hybrisa/wood/blackwood,
-/area/galleyburned/residential)
 "rK" = (
 /obj/structure/machinery/light/double/blue/golden_arrow{
 	dir = 4;
@@ -2887,25 +1475,6 @@
 	icon_state = "39"
 	},
 /area/galleyburned/residential)
-"tm" = (
-/obj/structure/machinery/hybrisa/coffee_machine{
-	pixel_x = -7;
-	pixel_y = 2
-	},
-/obj/item/trash/crushed_cup{
-	pixel_x = 9;
-	pixel_y = 0
-	},
-/obj/structure/prop/ice_colony/hula_girl{
-	pixel_x = -10;
-	pixel_y = 16
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding9"
-	},
-/obj/structure/surface/table/reinforced/almayer_B,
-/turf/open/floor/hybrisa/tile,
-/area/galleyburned/residential)
 "tn" = (
 /obj/structure/flora/pottedplant/random,
 /turf/open/floor/almayer/plate,
@@ -2922,18 +1491,16 @@
 /turf/open/floor/plating,
 /area/galleyburned/residential)
 "tq" = (
-/obj/structure/curtain/blue{
-	layer = 3
+/obj/structure/machinery/door/airlock/almayer/generic/glass{
+	name = "\improper S-01 [VACANT]";
+	dir = 2
 	},
-/obj/structure/roof/hybrisa/lattice_prop/lattice_3,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/siding{
-	icon_state = "siding8"
+/obj/structure/machinery/door/poddoor/shutters/almayer/open{
+	name = "Privacy Shutter";
+	id = "s1";
+	dir = 8
 	},
-/obj/effect/decal/siding{
-	icon_state = "siding8"
-	},
-/turf/open/floor/hybrisa/wood/blackwood,
+/turf/open/floor/plating/plating_catwalk,
 /area/galleyburned/residential)
 "tA" = (
 /obj/item/prop/colony/usedbandage,
@@ -2989,17 +1556,6 @@
 	},
 /turf/open/floor/almayer/mono,
 /area/galleyburned/hangar)
-"ui" = (
-/obj/structure/window/framed/upp/grey,
-/obj/structure/machinery/door/poddoor/shutters/almayer/open{
-	name = "Privacy Shutter";
-	id = "m1"
-	},
-/obj/structure/curtain/blue{
-	layer = 3
-	},
-/turf/open/floor/plating,
-/area/galleyburned/residential)
 "um" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/generic,
@@ -3072,10 +1628,12 @@
 /turf/closed/wall/almayer/outer,
 /area/galleyburned/maint)
 "vg" = (
-/obj/structure/prop/holidays/string_lights{
-	dir = 1
+/obj/structure/bed/chair{
+	dir = 1;
+	pixel_y = 7;
+	buckling_y = 7
 	},
-/turf/open/floor/hybrisa/wood/blackwood,
+/turf/open/floor/almayer/plate,
 /area/galleyburned/canteen)
 "vy" = (
 /obj/structure/sign/poster/pinup,
@@ -3086,19 +1644,6 @@
 /obj/effect/landmark/start/marine/leader/alpha,
 /turf/open/floor/almayer/sterile_green_side/northeast,
 /area/galleyburned/cryo)
-"vK" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/prop/ice_colony/tiger_rug{
-	layer = 2.3
-	},
-/obj/structure/bed/chair{
-	dir = 8;
-	pixel_x = -5;
-	pixel_y = 1;
-	icon_state = "chair_alt"
-	},
-/turf/open/floor/hybrisa/wood/blackwood,
-/area/galleyburned/residential)
 "vM" = (
 /turf/closed/shuttle/midway/transparent{
 	icon_state = "23"
@@ -3107,18 +1652,6 @@
 "vS" = (
 /turf/open/floor/almayer/mono,
 /area/galleyburned/residential)
-"vV" = (
-/obj/structure/curtain/open/colorable{
-	color = "#56769a"
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding1"
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding2"
-	},
-/turf/open/floor/hybrisa/wood/blackwood,
-/area/galleyburned/residential)
 "vX" = (
 /obj/structure/machinery/door/poddoor/railing{
 	dir = 2;
@@ -3126,18 +1659,6 @@
 	},
 /turf/open/floor/almayer/cargo_arrow/north,
 /area/galleyburned/requisition)
-"wa" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/siding{
-	icon_state = "siding2"
-	},
-/obj/structure/bed/stool{
-	icon_state = "stool_alt";
-	pixel_x = -1;
-	pixel_y = 6
-	},
-/turf/open/floor/hybrisa/wood/blackwood,
-/area/galleyburned/residential)
 "wj" = (
 /obj/structure/shuttle/part/midway/transparent{
 	icon_state = "6"
@@ -3156,21 +1677,6 @@
 	},
 /turf/open/floor/almayer/plate,
 /area/galleyburned/hangar)
-"ww" = (
-/obj/item/clothing/shoes/green{
-	pixel_x = -6;
-	pixel_y = 3
-	},
-/obj/effect/decal/cleanable/hybrisa/trash{
-	icon_state = "trash_16";
-	pixel_x = 12;
-	pixel_y = 3
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding2"
-	},
-/turf/open/floor/hybrisa/wood/blackwood,
-/area/galleyburned/residential)
 "wD" = (
 /obj/structure/prop/holidays/string_lights{
 	dir = 1
@@ -3203,12 +1709,6 @@
 	},
 /turf/open/floor/plating,
 /area/galleyburned/residential)
-"xv" = (
-/obj/structure/platform{
-	dir = 1
-	},
-/turf/open/floor/hybrisa/wood/blackwood,
-/area/galleyburned/canteen)
 "xE" = (
 /obj/structure/toilet{
 	dir = 1
@@ -3324,15 +1824,9 @@
 /turf/open/floor/almayer,
 /area/galleyburned/memorial)
 "zx" = (
-/obj/structure/bed/chair{
-	dir = 8;
-	icon_state = "chair_alt"
-	},
-/obj/structure/prop/souto_land/streamer{
-	dir = 10;
-	pixel_y = 20
-	},
-/turf/open/floor/almayer/emerald/west,
+/obj/structure/surface/table/almayer,
+/obj/item/tool/hand_labeler,
+/turf/open/floor/almayer/plate,
 /area/galleyburned/canteen)
 "zG" = (
 /obj/effect/decal/warning_stripes{
@@ -3413,10 +1907,6 @@
 	dir = 2;
 	name = "\improper Residences"
 	},
-/obj/structure/machinery/door/poddoor/shutters/almayer/open{
-	name = "Privacy Shutter";
-	id = "m1"
-	},
 /turf/open/floor/plating/plating_catwalk,
 /area/galleyburned/residential)
 "AR" = (
@@ -3435,19 +1925,6 @@
 /turf/closed/shuttle/midway{
 	icon_state = "30"
 	},
-/area/galleyburned/residential)
-"Bq" = (
-/obj/structure/stairs{
-	dir = 8
-	},
-/obj/structure/platform/stair_cut/alt,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/prop/hybrisa/fakeplatforms/platform4,
-/obj/structure/prop/hybrisa/fakeplatforms/platform4{
-	pixel_x = 0;
-	pixel_y = 26
-	},
-/turf/open/floor/almayer/test_floor4,
 /area/galleyburned/residential)
 "By" = (
 /obj/structure/surface/rack,
@@ -3484,12 +1961,15 @@
 	},
 /area/galleyburned/residential)
 "Cg" = (
-/obj/structure/prop/holidays/string_lights{
-	dir = 9
+/obj/structure/machinery/light/double/blue/golden_arrow{
+	light_power = 0.3
 	},
-/obj/structure/surface/table/woodentable/fancy,
-/obj/item/storage/beer_pack,
-/turf/open/floor/hybrisa/wood/blackwood,
+/obj/structure/bed/chair{
+	dir = 1;
+	pixel_y = 7;
+	buckling_y = 7
+	},
+/turf/open/floor/almayer/plate,
 /area/galleyburned/canteen)
 "Ck" = (
 /obj/structure/machinery/light/double/blue/golden_arrow{
@@ -3659,29 +2139,28 @@
 /turf/open/floor/plating,
 /area/galleyburned/maint)
 "DW" = (
-/obj/structure/surface/table/woodentable/fancy,
-/obj/item/reagent_container/food/snacks/mre_pack/xmas3{
-	icon = 'icons/obj/items/food.dmi';
-	icon_state = "mreFruitcake";
-	pixel_y = 14
+/obj/structure/surface/table/almayer,
+/obj/item/weapon/dart{
+	pixel_x = -6;
+	pixel_y = 10
 	},
-/obj/item/reagent_container/food/snacks/mre_pack/xmas1{
-	icon = 'icons/obj/items/food.dmi';
-	icon_state = "mreCookies";
-	pixel_x = -16;
-	pixel_y = 4
+/obj/item/weapon/dart{
+	pixel_y = 6
 	},
-/obj/item/reagent_container/food/snacks/mre_pack/xmas2{
-	icon = 'icons/obj/items/food.dmi';
-	icon_state = "mreGingerbread";
-	pixel_x = 2;
-	pixel_y = 3
+/obj/item/weapon/dart{
+	pixel_y = 3;
+	pixel_x = -11
 	},
-/obj/item/reagent_container/food/drinks/cans/thirteenloko{
-	pixel_x = -12;
-	pixel_y = 15
+/obj/item/weapon/dart/green,
+/obj/item/weapon/dart/green{
+	pixel_x = 10;
+	pixel_y = -7
 	},
-/turf/open/floor/light/blue_glow,
+/obj/item/weapon/dart/green{
+	pixel_x = -2;
+	pixel_y = -4
+	},
+/turf/open/floor/almayer/plate,
 /area/galleyburned/canteen)
 "DX" = (
 /obj/structure/window/framed/almayer,
@@ -3690,16 +2169,6 @@
 	id = "s4"
 	},
 /turf/open/floor/plating,
-/area/galleyburned/residential)
-"Ek" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/item/storage/firstaid/regular/empty{
-	pixel_x = 30;
-	anchored = 1;
-	pixel_y = -9
-	},
-/turf/open/floor/corsat/marked,
 /area/galleyburned/residential)
 "El" = (
 /obj/structure/surface/table/reinforced/black,
@@ -3755,48 +2224,9 @@
 /turf/open/floor/almayer/silverfull,
 /area/galleyburned/prep)
 "EK" = (
-/obj/structure/surface/table/woodentable/fancy,
-/obj/item/reagent_container/food/snacks/mre_pack/xmas1{
-	icon = 'icons/obj/items/food.dmi';
-	icon_state = "mreCookies";
-	pixel_x = -5;
-	pixel_y = 13
-	},
-/obj/item/reagent_container/food/snacks/mre_pack/xmas3{
-	icon = 'icons/obj/items/food.dmi';
-	icon_state = "mreFruitcake";
-	pixel_y = 2;
-	pixel_x = 4
-	},
-/obj/item/reagent_container/food/drinks/cans/space_up{
-	pixel_x = 15;
-	pixel_y = 13
-	},
-/obj/item/reagent_container/food/drinks/cans/starkist{
-	pixel_x = -7;
-	pixel_y = 1
-	},
-/turf/open/floor/light/blue_glow,
+/obj/structure/surface/table/almayer,
+/turf/open/floor/almayer/plate,
 /area/galleyburned/canteen)
-"EL" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/platform/strata/metal,
-/obj/structure/bedsheetbin{
-	pixel_x = 0;
-	pixel_y = 6
-	},
-/obj/item/weapon/pole/fancy_cane{
-	pixel_x = 0;
-	pixel_y = 6
-	},
-/obj/effect/decal/cleanable/hybrisa/trash{
-	icon_state = "trash_7"
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding4"
-	},
-/turf/open/floor/hybrisa/wood/blackwood,
-/area/galleyburned/residential)
 "EM" = (
 /turf/closed/wall/almayer/outer,
 /area/galleyburned/canteen)
@@ -3842,18 +2272,6 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/galleyburned/requisition)
-"Fv" = (
-/obj/effect/decal/cleanable/hybrisa/trash{
-	icon_state = "trash_4";
-	layer = 3.2;
-	pixel_x = 11;
-	pixel_y = -6
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding1"
-	},
-/turf/open/floor/hybrisa/wood/blackwood,
-/area/galleyburned/residential)
 "FJ" = (
 /obj/structure/machinery/cryopod/big{
 	layer = 3.1;
@@ -3910,12 +2328,6 @@
 "Gl" = (
 /obj/structure/stairs{
 	dir = 1
-	},
-/turf/open/floor/plating,
-/area/galleyburned/residential)
-"Gq" = (
-/obj/structure/machinery/treadmill/console{
-	dir = 4
 	},
 /turf/open/floor/plating,
 /area/galleyburned/residential)
@@ -3987,7 +2399,7 @@
 "Hr" = (
 /obj/structure/machinery/door/airlock/almayer/generic/glass{
 	dir = 2;
-	name = "\improper M-03 [Chimera]"
+	name = "\improper M-03 [VACANT]"
 	},
 /obj/structure/machinery/door/poddoor/shutters/almayer/open{
 	name = "Privacy Shutter";
@@ -3995,43 +2407,6 @@
 	dir = 2
 	},
 /turf/open/floor/plating/plating_catwalk,
-/area/galleyburned/residential)
-"Hs" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/prop/holidays/string_lights{
-	dir = 4;
-	pixel_x = -28;
-	pixel_y = -16;
-	light_color = "#8aa1f6";
-	light_range = 1;
-	light_power = 0.5
-	},
-/obj/structure/bed/chair/wheelchair{
-	dir = 4
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding1"
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding8"
-	},
-/obj/structure/sign/poster{
-	desc = "One of those hot, tanned babes back the beaches of good ol' Earth.";
-	icon_state = "poster12";
-	name = "Beach Babe Pinup";
-	pixel_x = -31;
-	pixel_y = 6;
-	serial_number = 12
-	},
-/obj/structure/sign/poster{
-	desc = "This poster features Audrey Rainwater standing in a jacuzzi. She was the July 2182 centerfold in Playboy Magazine. Don't ask how you know that.";
-	icon_state = "poster16";
-	name = "'Miss July' Pinup";
-	serial_number = 16;
-	pixel_x = -26;
-	pixel_y = 2
-	},
-/turf/open/floor/hybrisa/wood/blackwood,
 /area/galleyburned/residential)
 "HG" = (
 /obj/structure/machinery/door/poddoor/shutters/almayer/open{
@@ -4042,25 +2417,6 @@
 /turf/closed/shuttle/midway/transparent{
 	icon_state = "89a"
 	},
-/area/galleyburned/residential)
-"HI" = (
-/obj/structure/machinery/light/small{
-	dir = 2;
-	light_color = "#e7c0a4";
-	light_power = 0.8;
-	light_range = 4;
-	pixel_x = -6
-	},
-/obj/structure/prop/hybrisa/supermart/freezer/supermartfreezer2,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/siding{
-	icon_state = "siding10"
-	},
-/obj/structure/sign/banners/freelancer{
-	pixel_x = 1;
-	pixel_y = -30
-	},
-/turf/open/floor/hybrisa/tile,
 /area/galleyburned/residential)
 "HO" = (
 /obj/structure/barricade/handrail/type_b{
@@ -4089,44 +2445,6 @@
 /obj/structure/machinery/computer/arcade,
 /turf/open/floor/plating/plating_catwalk,
 /area/galleyburned/canteen)
-"Ib" = (
-/obj/structure/prop/structure_lattice{
-	density = 0;
-	desc = "This jukebox only takes quarters and you seem to be out of them at the moment.";
-	icon = 'icons/obj/structures/props/misc.dmi';
-	icon_state = "jukebox";
-	name = "Rockin Robin 2300 Jukebox";
-	pixel_x = -4;
-	pixel_y = 4;
-	layer = 3.1
-	},
-/obj/item/toy/plush/therapy/blue{
-	pixel_x = 7;
-	pixel_y = -5;
-	name = "Warlord";
-	desc = "A therapeutic toy to assist mercenaries in recovering from mental and behavioral disorders after a failed mission in which they didn't earn a penny.";
-	layer = 3.2
-	},
-/obj/item/prop{
-	name = "\improper armored Freelancer beret";
-	icon = 'icons/mob/humans/onmob/head_1.dmi';
-	icon_state = "freelancer_beret";
-	desc = "A sturdy freelancer's cap. More protective than it seems.";
-	pixel_x = 7;
-	pixel_y = -8;
-	layer = 3.2
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding8"
-	},
-/obj/structure/flora/pottedplant{
-	icon_state = "pottedplant_29";
-	pixel_y = 14;
-	pixel_x = 8;
-	layer = 3.01
-	},
-/turf/open/floor/hybrisa/wood/blackwood,
-/area/galleyburned/residential)
 "Im" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "cargo"
@@ -4153,12 +2471,6 @@
 /turf/closed/shuttle/midway/transparent{
 	icon_state = "35"
 	},
-/area/galleyburned/residential)
-"IY" = (
-/obj/effect/decal/siding{
-	icon_state = "siding2"
-	},
-/turf/open/floor/hybrisa/tile,
 /area/galleyburned/residential)
 "Jb" = (
 /turf/open/space/basic,
@@ -4261,24 +2573,6 @@
 /obj/structure/personal_stash,
 /turf/open/floor/plating/plating_catwalk,
 /area/galleyburned/stash)
-"KC" = (
-/obj/effect/decal/cleanable/blood/drip{
-	pixel_x = -1;
-	pixel_y = 1
-	},
-/obj/effect/decal/cleanable/blood/drip{
-	pixel_x = 10;
-	pixel_y = 14
-	},
-/obj/effect/decal/cleanable/blood/drip{
-	pixel_x = -10;
-	pixel_y = 15
-	},
-/obj/effect/decal/hybrisa/bloodtrail{
-	dir = 9
-	},
-/turf/open/floor/almayer/plate,
-/area/galleyburned/residential)
 "KI" = (
 /obj/structure/machinery/landinglight/ds1/delayone{
 	dir = 1
@@ -4350,39 +2644,10 @@
 	},
 /turf/open/floor/plating,
 /area/galleyburned/maint)
-"LM" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/bed/stool{
-	buckling_y = 14;
-	pixel_x = -7;
-	pixel_y = 5
-	},
-/turf/open/floor/hybrisa/wood/blackwood,
-/area/galleyburned/residential)
 "LO" = (
-/obj/structure/surface/table/almayer,
-/obj/item/weapon/dart{
-	pixel_x = -6;
-	pixel_y = 10
-	},
-/obj/item/weapon/dart{
-	pixel_y = 6
-	},
-/obj/item/weapon/dart{
-	pixel_y = 3;
-	pixel_x = -11
-	},
-/obj/item/weapon/dart/green,
-/obj/item/weapon/dart/green{
-	pixel_x = 10;
-	pixel_y = -7
-	},
-/obj/item/weapon/dart/green{
-	pixel_x = -2;
-	pixel_y = -4
-	},
 /obj/structure/dartboard{
-	pixel_y = 30
+	pixel_y = 41;
+	layer = 3.2
 	},
 /turf/open/floor/almayer/plate,
 /area/galleyburned/canteen)
@@ -4556,10 +2821,6 @@
 	},
 /turf/open/floor/plating,
 /area/galleyburned/residential)
-"OG" = (
-/obj/structure/weightmachine/stacklifter,
-/turf/open/floor/plating,
-/area/galleyburned/residential)
 "OH" = (
 /obj/effect/decal/hybrisa/warning/redandwhite_W,
 /obj/structure/machinery/light/double/blue/golden_arrow{
@@ -4658,15 +2919,6 @@
 	},
 /turf/open/floor/plating,
 /area/galleyburned/maint)
-"Qx" = (
-/obj/effect/decal/siding{
-	icon_state = "siding4"
-	},
-/obj/structure/machinery/light/small{
-	dir = 4
-	},
-/turf/open/floor/hybrisa/wood/blackwood,
-/area/galleyburned/residential)
 "QB" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "SE-out";
@@ -4701,25 +2953,14 @@
 	},
 /turf/open/floor/plating,
 /area/galleyburned/residential)
-"QT" = (
-/obj/structure/prop/hybrisa/misc/blood/blood3{
-	pixel_x = -10;
-	pixel_y = 2;
+"QV" = (
+/obj/structure/machinery/door/airlock/almayer/generic/glass{
+	name = "\improper S-03 [VACANT]";
 	dir = 2
 	},
-/obj/effect/decal/hybrisa/bloodtrail{
-	dir = 6
-	},
-/turf/open/floor/almayer/mono,
-/area/galleyburned/residential)
-"QV" = (
 /obj/structure/machinery/door/poddoor/shutters/almayer/open{
 	name = "Privacy Shutter";
 	id = "s3"
-	},
-/obj/structure/machinery/door/airlock/almayer/generic/glass{
-	name = "\improper M-01 [G. MARSHALL]";
-	dir = 1
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/galleyburned/residential)
@@ -4804,10 +3045,6 @@
 	},
 /turf/open/floor/plating,
 /area/galleyburned/residential)
-"SZ" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/hybrisa/wood/blackwood,
-/area/galleyburned/residential)
 "Td" = (
 /obj/structure/machinery/door/airlock/almayer/generic/glass{
 	name = "\improper Memorial"
@@ -4832,21 +3069,13 @@
 	},
 /area/galleyburned/residential)
 "Tj" = (
-/obj/structure/curtain/blue{
-	layer = 3
+/obj/structure/window/framed/almayer,
+/obj/structure/machinery/door/poddoor/shutters/almayer/open{
+	name = "Privacy Shutter";
+	id = "s1";
+	dir = 8
 	},
-/obj/structure/roof/hybrisa/lattice_prop/lattice_3,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/siding{
-	icon_state = "siding8"
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding1"
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding8"
-	},
-/turf/open/floor/hybrisa/wood/blackwood,
+/turf/open/floor/plating,
 /area/galleyburned/residential)
 "Tl" = (
 /turf/open/floor/almayer,
@@ -4917,20 +3146,8 @@
 	},
 /area/galleyburned/residential)
 "UR" = (
-/obj/structure/flora/tree/pine/xmas,
-/obj/item/toy/prize/deathripley{
-	pixel_x = -18;
-	pixel_y = 0
-	},
-/obj/item/toy/plush/kitten{
-	pixel_y = -15;
-	pixel_x = 3
-	},
-/obj/item/toy/plush/bee{
-	pixel_x = 13;
-	pixel_y = 1
-	},
-/turf/open/auto_turf/strata_grass/layer0_mud,
+/obj/structure/surface/table/almayer,
+/turf/open/floor/almayer/mono,
 /area/galleyburned/canteen)
 "US" = (
 /obj/item/prop/scrap{
@@ -5061,17 +3278,6 @@
 "Xx" = (
 /turf/open/floor/almayer/empty,
 /area/galleyburned)
-"Xz" = (
-/obj/structure/machinery/light/small{
-	dir = 1;
-	light_color = "#e7c0a4";
-	light_power = 0.8;
-	light_range = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/fabricator/munitions,
-/turf/open/floor/strata/floor3/east,
-/area/galleyburned/residential)
 "XD" = (
 /turf/closed/wall/almayer,
 /area/galleyburned/requisition)
@@ -5096,23 +3302,6 @@
 "XY" = (
 /turf/open/floor/plating,
 /area/galleyburned)
-"Yc" = (
-/obj/effect/decal/siding{
-	icon_state = "siding2"
-	},
-/obj/effect/decal/cleanable/hybrisa/trash{
-	icon_state = "trash_9";
-	pixel_y = 20;
-	pixel_x = 18
-	},
-/obj/structure/bed/chair/wood/normal{
-	pixel_y = 5;
-	buckling_y = 12;
-	layer = 3.1;
-	pixel_x = 0
-	},
-/turf/open/floor/hybrisa/wood/blackwood,
-/area/galleyburned/residential)
 "Ye" = (
 /obj/structure/flora/bush/ausbushes/ppflowers,
 /mob/living/simple_animal/cat/blackcat{
@@ -5146,31 +3335,6 @@
 	},
 /turf/open/shuttle/dropship/light_grey_single_wide_up_to_down,
 /area/galleyburned/residential)
-"Yr" = (
-/obj/effect/decal/cleanable/hybrisa/trash{
-	icon_state = "trash_9";
-	pixel_x = 18;
-	pixel_y = 17
-	},
-/obj/item/prop/helmetgarb/compass{
-	desc = "An ancient tool that helped navigate in the distant centuries before you. But at the moment, this compass is always pointing towards your mom.";
-	pixel_x = 7;
-	pixel_y = 10
-	},
-/obj/item/reagent_container/food/drinks/cup{
-	pixel_x = 10;
-	pixel_y = 1
-	},
-/obj/item/toy/deck{
-	pixel_x = -5;
-	pixel_y = 2
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding8"
-	},
-/obj/structure/surface/table/reinforced/black,
-/turf/open/floor/hybrisa/wood/blackwood,
-/area/galleyburned/residential)
 "Yv" = (
 /obj/structure/machinery/door/poddoor/railing{
 	dir = 4;
@@ -5178,38 +3342,6 @@
 	},
 /turf/open/floor/almayer/cargo_arrow/west,
 /area/galleyburned/requisition)
-"YC" = (
-/obj/structure/platform/strata/metal,
-/obj/structure/machinery/washing_machine{
-	pixel_x = -3;
-	pixel_y = 3;
-	density = 0
-	},
-/turf/open/floor/corsat/officetiles,
-/area/galleyburned/residential)
-"YM" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/siding{
-	icon_state = "siding4"
-	},
-/obj/item/prop/magazine/book/warisaracket{
-	pixel_x = -3;
-	pixel_y = 13
-	},
-/obj/structure/surface/table/reinforced/almayer_B{
-	pixel_x = 0;
-	pixel_y = 0
-	},
-/obj/item/reagent_container/glass/rag{
-	pixel_x = 4;
-	pixel_y = -1
-	},
-/obj/item/reagent_container/food/drinks/cup{
-	pixel_x = 8;
-	pixel_y = 14
-	},
-/turf/open/floor/hybrisa/tile,
-/area/galleyburned/residential)
 "YN" = (
 /obj/structure/shuttle/part/midway/transparent{
 	icon_state = "20"
@@ -5244,7 +3376,7 @@
 /area/galleyburned/requisition)
 "YU" = (
 /obj/structure/machinery/door/airlock/almayer/generic/glass{
-	name = "\improper S-05 [Chimera]";
+	name = "\improper S-05 [VACANT]";
 	dir = 2
 	},
 /obj/structure/machinery/door/poddoor/shutters/almayer/open{
@@ -5267,53 +3399,14 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/galleyburned/stash)
 "ZK" = (
-/obj/structure/bed/chair/wood/divan/r{
-	dir = 4;
-	pixel_x = -5;
-	pixel_y = -4
-	},
-/obj/structure/machinery/light/small{
-	dir = 1;
-	light_color = "#e7c0a4";
-	light_power = 0.8;
-	light_range = 4;
-	pixel_x = -6
-	},
-/obj/item/prop{
-	name = "Empty Reaper Red";
-	icon = 'icons/obj/items/drinks.dmi';
-	icon_state = "reaper";
-	desc = "A strong Japanese beer that is marketed as 'daring' and 'adventurous'. Considering the label is quite literally the universal sign for 'HAZARD', it's safe to say drinking enough of this will be enough of a daring adventure to make you move up your next appointment with your doctor regarding your weeping liver.";
-	pixel_x = -1;
-	pixel_y = 2
-	},
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/siding{
-	icon_state = "siding1"
-	},
-/obj/effect/decal/siding{
-	icon_state = "siding8"
-	},
-/obj/effect/decal/hybrisa/colorable_rug{
-	color = "#6e272e";
-	layer = 2.01;
-	dir = 2;
-	pixel_y = -38;
-	pixel_x = 11
-	},
 /obj/structure/machinery/door_control{
 	pixel_x = 8;
 	pixel_y = 22;
 	name = "door lock";
 	id = "m1"
 	},
-/obj/structure/prop/ice_colony/flamingo{
-	dir = 5;
-	layer = 7;
-	pixel_x = 10;
-	pixel_y = 12
-	},
-/turf/open/floor/hybrisa/wood/blackwood,
+/turf/open/floor/plating,
 /area/galleyburned/residential)
 "ZQ" = (
 /obj/structure/surface/table/reinforced/black,
@@ -6049,12 +4142,12 @@ ny
 NN
 Pu
 HT
-bY
 Ah
 Ah
 Ah
-bA
-bx
+Ah
+Ah
+Ah
 ah
 EM
 "}
@@ -6102,9 +4195,9 @@ WE
 AJ
 LO
 yE
-bL
+bW
 pa
-bC
+vg
 bW
 bU
 Cg
@@ -6152,12 +4245,12 @@ sm
 ny
 OY
 pL
-bQ
+yO
 yE
-bM
+bW
 EK
-bD
-bX
+vg
+bW
 bx
 vg
 EM
@@ -6206,12 +4299,12 @@ OY
 hF
 pT
 yE
-bN
-bK
-bE
-xv
+bW
+EK
+vg
+bW
 UR
-bu
+vg
 EM
 "}
 (18,1,1) = {"
@@ -6258,12 +4351,12 @@ OY
 pL
 yO
 yE
-bO
+bW
 DW
-bG
-xv
+vg
+bW
 fy
-bT
+vg
 EM
 "}
 (19,1,1) = {"
@@ -6310,12 +4403,12 @@ WE
 AJ
 qX
 yE
-bP
+bW
 zx
-bH
-xv
+vg
+bW
 bV
-bv
+Cg
 EM
 "}
 (20,1,1) = {"
@@ -6365,8 +4458,8 @@ Ah
 ym
 lQ
 Ah
-bA
-bx
+Ah
+Ah
 hA
 EM
 "}
@@ -7004,7 +5097,7 @@ vS
 JF
 VK
 mt
-Sv
+yC
 ad
 mt
 Sv
@@ -7057,7 +5150,7 @@ Hr
 yC
 yC
 yC
-bS
+yC
 yC
 mt
 yC
@@ -7107,7 +5200,7 @@ JF
 vS
 JF
 yC
-yC
+Sv
 mt
 yC
 yC
@@ -7157,15 +5250,15 @@ JF
 JF
 JF
 tZ
-gX
-gX
-gX
-gX
-gX
-gX
-gX
-gX
-gX
+JF
+JF
+JF
+JF
+JF
+JF
+JF
+JF
+JF
 rQ
 yC
 yC
@@ -7209,15 +5302,15 @@ yC
 yC
 DX
 vS
-gX
+JF
 ix
-fW
-YC
-Hs
-Yr
-ph
-rj
-ui
+mt
+yC
+ad
+mt
+yC
+mt
+ae
 zV
 yC
 yC
@@ -7261,15 +5354,15 @@ mt
 yC
 sh
 tZ
-gX
-Xz
-kE
-rt
-aN
-vK
-LM
-ww
-ui
+bZ
+yC
+yC
+yC
+yC
+yC
+mt
+yC
+ae
 rQ
 yC
 sW
@@ -7313,15 +5406,15 @@ mt
 Or
 JF
 vS
-gX
-ix
-Ek
-ay
-aO
-Qx
-EL
-ar
-ui
+JF
+yC
+yC
+mt
+yC
+Sv
+yC
+yC
+ae
 zV
 sG
 rx
@@ -7365,15 +5458,15 @@ JF
 JF
 JF
 jT
-gX
-gX
-gX
-gX
-vV
-gX
-gX
-gX
-gX
+JF
+JF
+JF
+JF
+JF
+JF
+JF
+JF
+JF
 rQ
 eL
 cG
@@ -7412,20 +5505,20 @@ CM
 "}
 (41,1,1) = {"
 sN
-OG
-ai
-ag
+yC
+mt
+yC
 pt
 vS
-gX
+JF
 ZK
-nq
-Ib
-wa
-tm
-iX
-HI
-gX
+mt
+yC
+yC
+mt
+yC
+mt
+ae
 zV
 OC
 Th
@@ -7465,19 +5558,19 @@ Jf
 (42,1,1) = {"
 sN
 ao
-aj
+mt
 yC
 QV
-KC
+tZ
 jZ
-Fv
-bh
-SZ
-aP
-gM
-fg
-IY
-gX
+yC
+Sv
+yC
+yC
+yC
+mt
+yC
+ae
 rQ
 yC
 bB
@@ -7516,20 +5609,20 @@ Jf
 "}
 (43,1,1) = {"
 sN
-Gq
-am
+yC
+Sv
 bj
 JF
-QT
+vS
 gX
-jR
-be
-rC
-Yc
-bF
-YM
-av
-gX
+yC
+yC
+mt
+yC
+Sv
+yC
+yC
+ae
 zV
 yC
 yC
@@ -7574,14 +5667,14 @@ JF
 JF
 AX
 gX
-bm
-bf
-aY
-aQ
-aI
-aD
-aw
-aq
+JF
+JF
+JF
+JF
+JF
+JF
+JF
+JF
 rQ
 yC
 yC
@@ -7626,13 +5719,13 @@ ON
 iC
 BM
 oZ
-bn
-bg
-aZ
-oJ
-aJ
-aE
-ax
+vS
+tZ
+vS
+tZ
+vS
+tZ
+vS
 AN
 ve
 Kv
@@ -7677,12 +5770,12 @@ Gl
 SN
 hm
 BM
-br
+au
 Tj
 tq
-ba
-aR
-Bq
+JF
+JF
+JF
 kJ
 az
 au
@@ -7729,14 +5822,14 @@ Gl
 QP
 hm
 af
-bs
-bo
-bh
+au
+yC
+mt
 bb
-aT
+JF
 aK
-aG
-aF
+yC
+mt
 au
 Jb
 Jb
@@ -7781,14 +5874,14 @@ Gl
 QP
 hm
 BM
-bt
-bp
-bi
-bc
-aU
-aL
-aH
-aB
+au
+yC
+yC
+mt
+JF
+yC
+yC
+yC
 au
 Jb
 Jb
@@ -7832,15 +5925,15 @@ BM
 PL
 HO
 PL
-ed
+BM
 au
-bq
-bk
-bd
-aW
-aM
-ac
-aC
+mt
+yC
+yC
+JF
+yC
+mt
+yC
 au
 Jb
 Jb
