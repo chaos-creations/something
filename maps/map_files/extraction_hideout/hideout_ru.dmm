@@ -4,6 +4,29 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer/mono,
 /area/galleyburned/briefing)
+"ab" = (
+/obj/structure/flora/grass/tallgrass/jungle/corner{
+	dir = 10
+	},
+/turf/open/gm/grass/grass1,
+/area/galleyburned/briefing)
+"ac" = (
+/obj/structure/platform/metal/almayer/north,
+/turf/open/gm/grass/grass1,
+/area/galleyburned/briefing)
+"ad" = (
+/obj/structure/flora/jungle/vines,
+/obj/structure/platform/metal/almayer/north,
+/turf/open/gm/grass/grass1,
+/area/galleyburned/briefing)
+"ae" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_y = 0
+	},
+/turf/open/floor/almayer/floor,
+/area/galleyburned/canteen)
 "af" = (
 /obj/structure/machinery/door/poddoor/railing{
 	dir = 8;
@@ -11,18 +34,156 @@
 	},
 /turf/open/floor/almayer/cargo_arrow/east,
 /area/galleyburned/requisition)
+"ag" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_y = 0
+	},
+/turf/open/floor/almayer/mono,
+/area/galleyburned/canteen)
+"ah" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_y = 0
+	},
+/turf/open/floor/almayer/floor,
+/area/galleyburned/canteen)
+"ai" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/sign/safety/bulkhead_door{
+	pixel_x = 15;
+	pixel_y = -32
+	},
+/obj/structure/sign/safety/restrictedarea{
+	pixel_y = -32
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/galleyburned/briefing)
+"aj" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/structure/machinery/disposal{
+	pixel_x = -1;
+	pixel_y = 4
+	},
+/turf/open/floor/almayer/plate,
+/area/galleyburned/briefing)
+"ak" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/sign/safety/maint{
+	pixel_x = -18
+	},
+/turf/open/floor/almayer/floor,
+/area/galleyburned/stash)
+"al" = (
+/obj/structure/sign/safety/storage{
+	pixel_y = 32;
+	pixel_x = 15
+	},
+/obj/structure/sign/safety/west{
+	pixel_y = 32;
+	pixel_x = 1
+	},
+/turf/open/floor/almayer/mono,
+/area/galleyburned/canteen)
+"am" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/sign/safety/east{
+	pixel_x = 15;
+	pixel_y = 32
+	},
+/obj/structure/sign/safety/conference_room{
+	pixel_y = 32
+	},
+/turf/open/floor/almayer/floor,
+/area/galleyburned/briefing)
+"an" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/device/radio/intercom{
+	freerange = 1;
+	name = "General Listening Channel";
+	pixel_y = 28
+	},
+/turf/open/floor/almayer/floor,
+/area/galleyburned/briefing)
+"ao" = (
+/obj/structure/ladder{
+	pixel_y = 10;
+	id = "th1"
+	},
+/turf/open/floor/almayer/test_floor5{
+	icon_state = "test_floor7"
+	},
+/area/galleyburned/maint)
 "ap" = (
 /obj/structure/shuttle/part/midway/transparent{
 	icon_state = "6"
 	},
 /turf/open/floor/plating,
 /area/galleyburned/residential)
+"aq" = (
+/obj/item/trash/grenade/gas/marine,
+/turf/open/floor/plating/plating_catwalk,
+/area/galleyburned/maint)
+"ar" = (
+/obj/structure/sign/safety/maint{
+	pixel_x = -18
+	},
+/turf/open/floor/almayer/floor,
+/area/galleyburned/hangar)
+"as" = (
+/obj/structure/prop/broken_ladder{
+	pixel_y = 10
+	},
+/turf/open/floor/almayer/test_floor5{
+	icon_state = "test_floor7"
+	},
+/area/galleyburned/maint)
+"at" = (
+/obj/structure/machinery/light/small/red,
+/turf/open/floor/almayer/mono,
+/area/galleyburned/maint)
+"au" = (
+/obj/structure/machinery/light/small/red{
+	dir = 8
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/galleyburned/maint)
+"av" = (
+/obj/structure/surface/table/almayer,
+/obj/item/stack/cable_coil{
+	pixel_x = -4;
+	pixel_y = 2
+	},
+/turf/open/floor/almayer/mono,
+/area/galleyburned/maint)
+"aw" = (
+/obj/structure/bed/chair{
+	dir = 8;
+	pixel_x = 0;
+	pixel_y = 6
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/galleyburned/maint)
 "ax" = (
 /obj/structure/surface/table/woodentable/poor,
 /obj/structure/machinery/recharger{
 	pixel_x = 2;
 	pixel_y = 5
 	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/plate,
+/area/galleyburned/maint)
+"ay" = (
+/obj/structure/sign/prop1_alt{
+	pixel_x = 32
+	},
+/turf/open/floor/almayer/mono,
+/area/galleyburned/maint)
+"az" = (
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer/plate,
 /area/galleyburned/maint)
 "aA" = (
@@ -31,9 +192,96 @@
 	},
 /turf/open/floor/almayer/mono,
 /area/galleyburned/hangar)
+"aB" = (
+/obj/structure/surface/table/almayer,
+/obj/item/attachable/flashlight/grip{
+	pixel_x = 16;
+	pixel_y = 8
+	},
+/obj/item/clothing/head/welding{
+	pixel_x = -3;
+	pixel_y = 8
+	},
+/obj/item/device/demo_scanner{
+	pixel_x = 6;
+	pixel_y = -15
+	},
+/turf/open/floor/almayer/floor,
+/area/galleyburned/maint)
+"aC" = (
+/obj/structure/surface/table/almayer,
+/obj/effect/spawner/prop_gun/m41aMK1,
+/obj/structure/sign/poster/propaganda{
+	pixel_x = -6;
+	pixel_y = 32
+	},
+/turf/open/floor/almayer/mono,
+/area/galleyburned/maint)
+"aD" = (
+/obj/structure/surface/rack,
+/obj/item/storage/firstaid/toxin/empty{
+	pixel_x = 2;
+	pixel_y = -1
+	},
+/turf/open/floor/almayer/floor,
+/area/galleyburned/maint)
 "aE" = (
 /obj/structure/bed/chair/comfy/bench/south,
 /turf/open/floor/plating/plating_catwalk/aicore/white,
+/area/galleyburned/cryo)
+"aF" = (
+/obj/item/trash/grenade/gas/rmc,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/floor,
+/area/galleyburned/maint)
+"aG" = (
+/obj/effect/decal/cleanable/blood/oil,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/plating_catwalk,
+/area/galleyburned/maint)
+"aH" = (
+/obj/structure/ladder{
+	pixel_y = 10;
+	id = "th1";
+	height = 1
+	},
+/turf/open/floor/almayer/test_floor5{
+	icon_state = "test_floor7"
+	},
+/area/galleyburned/maint)
+"aI" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/structure/machinery/disposal{
+	pixel_x = -1;
+	pixel_y = 4
+	},
+/turf/open/floor/almayer/plate,
+/area/galleyburned/hangar)
+"aJ" = (
+/obj/effect/decal/cleanable/generic,
+/turf/open/floor/almayer/aicore{
+	icon_state = "w_ai_floor1"
+	},
+/area/galleyburned/cryo)
+"aK" = (
+/obj/item/trash/crushed_cup{
+	pixel_x = 9;
+	pixel_y = -13
+	},
+/turf/open/floor/almayer/aicore{
+	icon_state = "w_ai_silver"
+	},
+/area/galleyburned/cryo)
+"aL" = (
+/obj/structure/largecrate/empty/case/double{
+	pixel_x = 0;
+	pixel_y = 9
+	},
+/turf/open/floor/almayer/aicore{
+	icon_state = "w_ai_silver"
+	},
 /area/galleyburned/cryo)
 "aN" = (
 /obj/effect/decal/warning_stripes{
@@ -153,10 +401,18 @@
 /turf/open/floor/almayer/floor,
 /area/galleyburned/stash)
 "cm" = (
-/obj/structure/barricade/handrail{
-	dir = 1
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
 	},
-/turf/open/floor/almayer/test_floor5,
+/obj/structure/machinery/disposal{
+	pixel_x = -1;
+	pixel_y = 4
+	},
+/obj/structure/barricade/handrail{
+	dir = 1;
+	pixel_y = 10
+	},
+/turf/open/floor/almayer/plate,
 /area/galleyburned/stash)
 "cn" = (
 /obj/structure/machinery/light/double/blue/golden_arrow{
@@ -177,10 +433,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer/mono,
 /area/galleyburned/briefing)
-"cs" = (
-/obj/structure/machinery/autolathe,
-/turf/open/floor/almayer/floor,
-/area/galleyburned/maint)
 "cu" = (
 /obj/structure/machinery/door_control{
 	pixel_y = -6;
@@ -236,6 +488,13 @@
 /obj/item/trash/USCMtray{
 	pixel_x = 2;
 	pixel_y = 10
+	},
+/obj/structure/sign/poster{
+	desc = "Eat an EAT bar! ...Aren't they called MEAT bars?";
+	icon_state = "poster7";
+	name = "EAT - poster";
+	pixel_y = 4;
+	pixel_x = 27
 	},
 /turf/open/floor/almayer/plate,
 /area/galleyburned/canteen)
@@ -347,9 +606,6 @@
 /turf/open/floor/plating,
 /area/galleyburned/residential)
 "eq" = (
-/obj/item/weapon/gun/shotgun/double/damaged,
-/obj/item/ammo_magazine/shotgun/beanbag,
-/obj/item/clothing/under/colonist/clf,
 /obj/structure/closet/crate/alpha,
 /turf/open/floor/almayer/test_floor5,
 /area/galleyburned/requisition)
@@ -502,9 +758,17 @@
 /area/galleyburned/canteen)
 "fA" = (
 /obj/structure/surface/table/almayer,
-/obj/item/prop/colony/game{
-	pixel_y = 6;
-	pixel_x = 2
+/obj/item/ashtray/plastic{
+	pixel_x = 5;
+	pixel_y = 8
+	},
+/obj/item/storage/fancy/cigarettes/balaji_4{
+	pixel_x = -1;
+	pixel_y = 1
+	},
+/obj/item/storage/fancy/cigar/matchbook/brown{
+	pixel_y = 8;
+	pixel_x = -9
 	},
 /turf/open/floor/almayer/plate,
 /area/galleyburned/briefing)
@@ -647,6 +911,9 @@
 	pixel_y = 0;
 	pixel_x = 0
 	},
+/obj/structure/sign/safety/medical{
+	pixel_x = -17
+	},
 /turf/open/floor/almayer/floor,
 /area/galleyburned/prep)
 "gG" = (
@@ -657,6 +924,9 @@
 	name = "Playboy Magazine: Issue March 2182";
 	pixel_x = 0;
 	pixel_y = 5
+	},
+/obj/structure/sign/nosmoking_1{
+	pixel_y = 26
 	},
 /turf/open/floor/almayer/aicore{
 	icon_state = "w_ai_silvercorner";
@@ -744,6 +1014,9 @@
 /turf/open/floor/almayer/plate,
 /area/galleyburned/hangar)
 "hV" = (
+/obj/item/weapon/gun/shotgun/double/damaged,
+/obj/item/ammo_magazine/shotgun/beanbag,
+/obj/item/clothing/under/colonist/clf,
 /obj/structure/largecrate/empty,
 /turf/open/floor/almayer/test_floor5{
 	icon_state = "test_floor7"
@@ -757,7 +1030,11 @@
 /turf/open/gm/grass/grass1,
 /area/galleyburned/briefing)
 "ia" = (
-/obj/structure/flora/bush/ausbushes/var3/brflowers,
+/obj/structure/flora/bush/ausbushes/var3/brflowers{
+	pixel_x = 12;
+	pixel_y = -13
+	},
+/obj/structure/platform/metal/almayer/north,
 /turf/open/gm/grass/grass1,
 /area/galleyburned/briefing)
 "ie" = (
@@ -779,6 +1056,7 @@
 /area/galleyburned/prep)
 "il" = (
 /obj/structure/largecrate/empty/case/double,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer/test_floor5{
 	icon_state = "test_floor7"
 	},
@@ -824,6 +1102,15 @@
 /area/galleyburned/maint)
 "iW" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/item/clothing/shoes/sandal{
+	pixel_x = 13;
+	pixel_y = 8
+	},
+/obj/item/device/radio/intercom{
+	freerange = 1;
+	name = "General Listening Channel";
+	pixel_y = 28
+	},
 /turf/open/floor/almayer/aicore{
 	icon_state = "w_ai_silver"
 	},
@@ -846,6 +1133,7 @@
 /area/galleyburned/canteen)
 "ji" = (
 /obj/structure/dropship_equipment/fuel/cooling_system,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer/test_floor5{
 	icon_state = "test_floor7"
 	},
@@ -890,6 +1178,10 @@
 /obj/item/tool/hand_labeler{
 	pixel_x = -11;
 	pixel_y = 10
+	},
+/obj/item/toy/dice{
+	pixel_x = 5;
+	pixel_y = 4
 	},
 /turf/open/floor/almayer/mono,
 /area/galleyburned/canteen)
@@ -1080,6 +1372,7 @@
 /area/galleyburned/residential)
 "lC" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/item/prop/colony/used_flare,
 /turf/open/floor/almayer/test_floor5{
 	icon_state = "test_floor7"
 	},
@@ -1183,6 +1476,11 @@
 /turf/open/floor/almayer/empty,
 /area/galleyburned/residential)
 "mX" = (
+/obj/structure/machinery/vending/coffee,
+/obj/structure/sign/safety/coffee{
+	pixel_x = 8;
+	pixel_y = -28
+	},
 /turf/open/floor/almayer/plate,
 /area/galleyburned/prep)
 "na" = (
@@ -1742,17 +2040,6 @@
 /obj/structure/platform_decoration/metal/almayer/west,
 /turf/open/floor/almayer/plate,
 /area/galleyburned/prep)
-"tN" = (
-/obj/structure/machinery/computer/telecomms/traffic{
-	layer = 3.1;
-	pixel_y = 16
-	},
-/obj/structure/bed/chair/office/light{
-	dir = 1;
-	layer = 3.2
-	},
-/turf/open/floor/almayer/floor,
-/area/galleyburned/maint)
 "tW" = (
 /obj/effect/decal/cleanable/blood/oil,
 /turf/open/floor/almayer/floor,
@@ -1839,6 +2126,7 @@
 /obj/structure/machinery/light/small/red{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer/floor,
 /area/galleyburned/maint)
 "uW" = (
@@ -1891,6 +2179,18 @@
 /obj/structure/prop/almayer/sadar_decoration{
 	pixel_x = -32
 	},
+/obj/item/prop/magazine/boots/n150{
+	pixel_x = 3;
+	pixel_y = 8
+	},
+/obj/item/bananapeel{
+	desc = "An experimental B8 Smart-Scope. Based on the technologies used in the Smart Gun by ARMAT, this sight has integrated IFF systems. It can only attach to the L42A Battle Rifle, M44 Combat Revolver, and M46C Pulse Rifle. This one appears to be covered in gun oil";
+	icon = 'icons/obj/items/weapons/guns/attachments.dmi';
+	icon_state = "iffbarrel";
+	name = "Broken B8 Smart-Scope";
+	pixel_x = -3;
+	pixel_y = 7
+	},
 /turf/open/floor/almayer/plate,
 /area/galleyburned/prep)
 "vH" = (
@@ -1933,10 +2233,23 @@
 	pixel_x = -1;
 	pixel_y = 6
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer/floor,
 /area/galleyburned/maint)
 "wi" = (
 /obj/structure/flora/pottedplant/random,
+/obj/structure/sign/safety/bulkhead_door{
+	pixel_x = 15;
+	pixel_y = -32
+	},
+/obj/structure/sign/safety/restrictedarea{
+	pixel_y = -32
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "SW-out";
+	pixel_y = 0;
+	pixel_x = 0
+	},
 /turf/open/floor/almayer/plate,
 /area/galleyburned/canteen)
 "wj" = (
@@ -2148,21 +2461,9 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/item/ammo_magazine/rifle/heap{
-	current_rounds = 0;
-	pixel_x = 6;
+/obj/item/ammo_magazine/rifle/m41aMK1/heap{
+	pixel_x = 5;
 	pixel_y = 14;
-	anchored = 1
-	},
-/obj/item/ammo_magazine/rifle/heap{
-	current_rounds = 0;
-	pixel_x = 6;
-	pixel_y = 14;
-	anchored = 1
-	},
-/obj/item/ammo_magazine/rifle/heap{
-	pixel_x = -9;
-	pixel_y = 3;
 	anchored = 1;
 	current_rounds = 0
 	},
@@ -2412,11 +2713,6 @@
 /obj/effect/decal/hybrisa/warning/redandwhite_W,
 /turf/open/floor/almayer/plate,
 /area/galleyburned/residential)
-"zP" = (
-/obj/structure/surface/rack,
-/obj/item/weapon/gun/smg/nailgun,
-/turf/open/floor/almayer/floor,
-/area/galleyburned/maint)
 "zS" = (
 /obj/structure/machinery/door/poddoor/railing{
 	id = "supply_elevator_railing"
@@ -2481,9 +2777,6 @@
 "Av" = (
 /turf/closed/wall/almayer/outer,
 /area/galleyburned/canteen)
-"Ax" = (
-/turf/open/floor/almayer/mono,
-/area/galleyburned/maint)
 "AC" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "cargo_arrow";
@@ -2626,6 +2919,7 @@
 	dir = 4;
 	pixel_y = 5
 	},
+/obj/effect/decal/cleanable/flour,
 /turf/open/floor/almayer/aicore{
 	icon_state = "w_ai_floor1"
 	},
@@ -2799,12 +3093,6 @@
 	icon_state = "31"
 	},
 /area/galleyburned/residential)
-"Ea" = (
-/obj/structure/machinery/light/small/red{
-	dir = 1
-	},
-/turf/open/floor/plating/plating_catwalk,
-/area/galleyburned/maint)
 "Ef" = (
 /obj/structure/surface/table/almayer,
 /obj/item/toy/deck/uno{
@@ -3016,10 +3304,8 @@
 	pixel_y = 0;
 	pixel_x = 0
 	},
-/obj/structure/machinery/light/small/red{
-	dir = 8
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/light/small/red,
 /turf/open/floor/almayer/floor,
 /area/galleyburned/prep)
 "Gd" = (
@@ -3157,6 +3443,10 @@
 	name = "arcturian curry";
 	pixel_x = 3;
 	pixel_y = -10
+	},
+/obj/item/storage/pill_bottle/happy{
+	pixel_x = -8;
+	pixel_y = 0
 	},
 /turf/open/floor/almayer/mono,
 /area/galleyburned/canteen)
@@ -3338,6 +3628,9 @@
 /area/galleyburned/residential)
 "IJ" = (
 /obj/structure/machinery/light/small,
+/obj/structure/flora/grass/tallgrass/jungle/corner{
+	dir = 8
+	},
 /turf/open/gm/grass/grass1,
 /area/galleyburned/briefing)
 "IK" = (
@@ -3357,6 +3650,7 @@
 	pixel_x = -1;
 	pixel_y = 15
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer/test_floor5{
 	icon_state = "test_floor7"
 	},
@@ -3703,10 +3997,6 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/galleyburned/hangar)
-"Md" = (
-/obj/structure/machinery/cm_vending/sorted/tech/electronics_storage,
-/turf/open/floor/almayer/floor,
-/area/galleyburned/maint)
 "Mj" = (
 /obj/item/prop/colony/usedbandage{
 	dir = 10;
@@ -3727,13 +4017,6 @@
 /area/galleyburned/prep)
 "Ms" = (
 /turf/closed/wall/almayer,
-/area/galleyburned/briefing)
-"MF" = (
-/obj/structure/flora/pottedplant/random{
-	pixel_x = -3;
-	pixel_y = 10
-	},
-/turf/open/floor/almayer/mono,
 /area/galleyburned/briefing)
 "MI" = (
 /turf/open/floor/almayer/silverfull,
@@ -3870,8 +4153,9 @@
 	dir = 1;
 	req_one_access = null
 	},
-/obj/structure/blocker/invisible_wall{
-	desc = "Not today."
+/obj/structure/machinery/door/poddoor/almayer/locked{
+	dir = 1;
+	name = "\improper Lockdown Blast Door"
 	},
 /turf/open/floor/almayer/pod_landing_floor,
 /area/galleyburned/maint)
@@ -4164,9 +4448,11 @@
 /turf/open/floor/almayer/plate,
 /area/galleyburned/requisition)
 "RC" = (
-/obj/structure/machinery/door/airlock/almayer/generic/glass{
+/obj/structure/machinery/door/airlock/almayer/marine/requisitions{
 	dir = 2;
-	name = "\improper ARES Access"
+	no_panel = 1;
+	not_weldable = 1;
+	req_one_access = list()
 	},
 /turf/open/floor/almayer/pod_landing_floor,
 /area/galleyburned/requisition)
@@ -4296,8 +4582,6 @@
 /turf/open/floor/almayer/aicore,
 /area/galleyburned/briefing)
 "Tf" = (
-/obj/item/device/flashlight/flare,
-/obj/item/storage/fancy/cigar/matchbook,
 /obj/structure/largecrate/empty{
 	pixel_x = -1;
 	pixel_y = 3
@@ -4435,6 +4719,11 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "cargo"
 	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "SE-out";
+	pixel_y = 0;
+	pixel_x = 0
+	},
 /turf/open/floor/almayer/plate,
 /area/galleyburned/canteen)
 "Us" = (
@@ -4546,6 +4835,7 @@
 /turf/open/floor/almayer/plate,
 /area/galleyburned/canteen)
 "Ww" = (
+/obj/structure/flora/grass/tallgrass/jungle/corner,
 /turf/open/gm/grass/grass1,
 /area/galleyburned/briefing)
 "Wx" = (
@@ -4573,6 +4863,8 @@
 /area/galleyburned/requisition)
 "WQ" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/item/device/flashlight/flare,
+/obj/item/storage/fancy/cigar/matchbook,
 /obj/structure/largecrate/empty/case/double,
 /turf/open/floor/almayer/test_floor5{
 	icon_state = "test_floor7"
@@ -4599,6 +4891,7 @@
 	pixel_x = 6;
 	pixel_y = 14
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/plating_catwalk,
 /area/galleyburned/maint)
 "Xa" = (
@@ -4669,6 +4962,7 @@
 /area/galleyburned/stash)
 "XM" = (
 /obj/structure/largecrate/empty/secure,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer/test_floor5{
 	icon_state = "test_floor7"
 	},
@@ -4720,12 +5014,15 @@
 	pixel_x = 1;
 	pixel_y = 0
 	},
-/obj/structure/machinery/light/small/red{
-	dir = 4
+/obj/structure/sign/safety/synth_storage{
+	pixel_x = 32;
+	pixel_y = 1
 	},
+/obj/structure/machinery/light/small/red,
 /turf/open/floor/almayer/floor,
 /area/galleyburned/prep)
 "YL" = (
+/obj/effect/decal/cleanable/generic,
 /turf/open/floor/almayer/aicore{
 	icon_state = "w_ai_silver";
 	dir = 1
@@ -4802,6 +5099,7 @@
 	pixel_x = -11;
 	pixel_y = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer/test_floor5{
 	icon_state = "test_floor7"
 	},
@@ -4823,7 +5121,7 @@
 /obj/structure/machinery/light/small/red{
 	dir = 8
 	},
-/turf/open/floor/almayer/mono,
+/turf/open/floor/plating,
 /area/galleyburned/maint)
 "ZP" = (
 /obj/effect/decal/hybrisa/warning/redandwhite_SEcorner,
@@ -6343,9 +6641,9 @@ TO
 TO
 TO
 TO
-Md
+AE
 ZK
-cs
+AE
 Zv
 xU
 CU
@@ -6399,9 +6697,9 @@ Th
 Tc
 Oi
 Ob
-Ax
-IV
-Ax
+AE
+AE
+AE
 JH
 xU
 CU
@@ -6455,9 +6753,9 @@ Zv
 Zv
 Zv
 Zv
-tN
-Ax
-zP
+AE
+AE
+AE
 Zv
 xU
 CU
@@ -6499,7 +6797,7 @@ BJ
 BJ
 BJ
 OY
-NQ
+ak
 Ba
 LW
 cm
@@ -6947,7 +7245,7 @@ ZT
 DQ
 En
 En
-Pv
+al
 Rt
 zn
 En
@@ -7038,7 +7336,7 @@ DL
 Cr
 Cr
 Cr
-Cr
+aJ
 Cr
 Kb
 YR
@@ -7119,7 +7417,7 @@ LJ
 rS
 zc
 IP
-IP
+ae
 GZ
 Lt
 Lt
@@ -7175,7 +7473,7 @@ Hk
 aU
 Ef
 ne
-oe
+ag
 Ei
 Lt
 Lt
@@ -7231,7 +7529,7 @@ Yl
 jJ
 GM
 hW
-hW
+ah
 GZ
 Lt
 Lt
@@ -7258,7 +7556,7 @@ SK
 gu
 jD
 pk
-DL
+aK
 Cr
 Cr
 Cr
@@ -7314,7 +7612,7 @@ aW
 jD
 jD
 jD
-DL
+aL
 BG
 BG
 qb
@@ -7384,10 +7682,10 @@ Zt
 Wi
 Zt
 Zt
-Lt
-Lt
-Lt
-Lt
+aH
+Oi
+au
+Oi
 ZT
 ZT
 ZT
@@ -7442,10 +7740,10 @@ zG
 Zt
 Zt
 Zt
-Lt
-Lt
-Lt
-Lt
+Zv
+cw
+Zv
+as
 se
 Qg
 cn
@@ -7498,10 +7796,10 @@ LX
 Gq
 Ow
 Zt
-Lt
-Lt
-Lt
-Lt
+as
+Oi
+zf
+IV
 se
 od
 Be
@@ -7509,7 +7807,7 @@ QZ
 Ms
 dH
 cr
-yI
+aj
 oO
 vZ
 JZ
@@ -7554,8 +7852,8 @@ om
 Zt
 Zt
 Zt
-Lt
-Lt
+Zv
+cw
 se
 se
 se
@@ -7608,10 +7906,10 @@ Zt
 EF
 Zt
 Zt
-Lt
-Lt
-Lt
-Lt
+Zv
+aB
+av
+Oi
 se
 UV
 Bx
@@ -7664,10 +7962,10 @@ Zt
 Zt
 Zt
 Lt
-Lt
-Lt
-Lt
-Lt
+Zv
+aC
+aw
+at
 se
 UV
 Bx
@@ -7720,10 +8018,10 @@ Lt
 Lt
 Lt
 Lt
-Lt
-Lt
-Lt
-Lt
+Zv
+aD
+ay
+Oi
 se
 UV
 Bx
@@ -7843,7 +8141,7 @@ Eq
 vZ
 do
 Ms
-dH
+am
 cr
 ey
 oO
@@ -7891,7 +8189,7 @@ uV
 WW
 wh
 zf
-IV
+Tc
 UW
 xW
 se
@@ -7949,7 +8247,7 @@ kW
 UW
 OI
 UW
-Ea
+Vd
 se
 se
 se
@@ -8005,10 +8303,10 @@ LV
 UW
 sH
 UW
-Oi
+Th
 Cw
-IV
-Oi
+Tc
+Th
 Ms
 Ms
 dH
@@ -8066,7 +8364,7 @@ UW
 UW
 cw
 Ms
-dH
+an
 dH
 Fc
 yI
@@ -8118,7 +8416,7 @@ Oi
 IX
 UW
 Oi
-IV
+aq
 xW
 iQ
 Ms
@@ -8128,7 +8426,7 @@ BN
 BN
 xP
 Hl
-Ww
+ac
 hZ
 Ww
 vf
@@ -8166,7 +8464,7 @@ vQ
 sQ
 Dw
 vQ
-vQ
+aI
 LV
 sN
 LV
@@ -8176,7 +8474,7 @@ sP
 oD
 sP
 sP
-UW
+ao
 Ms
 yI
 BN
@@ -8184,9 +8482,9 @@ BN
 BN
 zw
 Hl
+ad
 lE
-lE
-Ij
+ab
 IJ
 yx
 Lt
@@ -8226,11 +8524,11 @@ sP
 LV
 LV
 LV
-Oi
+Th
 sP
 XE
 fY
-vQ
+ar
 sP
 Ms
 Ms
@@ -8243,7 +8541,7 @@ yx
 yx
 vf
 lE
-Ww
+Ij
 hq
 Lt
 Lt
@@ -8281,15 +8579,15 @@ hP
 Mb
 LV
 sf
-Oi
-Oi
+Th
+Th
 sP
 Dw
 eg
 vQ
 sP
 Ms
-MF
+aj
 yI
 yI
 IA
@@ -8336,7 +8634,7 @@ tE
 tE
 Vh
 LV
-sf
+az
 iQ
 sP
 sP
@@ -8351,7 +8649,7 @@ nq
 nq
 nq
 wC
-xp
+ai
 yx
 yx
 yx
@@ -8393,7 +8691,7 @@ tE
 IB
 LV
 Zx
-IV
+Tc
 sP
 yG
 vQ
@@ -8449,7 +8747,7 @@ tE
 Vh
 LV
 IM
-IV
+Tc
 sP
 HY
 vQ
@@ -8505,7 +8803,7 @@ tE
 dD
 LV
 dE
-Oi
+aF
 sP
 sP
 ip
@@ -8562,7 +8860,7 @@ Vh
 LV
 ut
 Oi
-sf
+az
 sP
 jC
 eg
@@ -8672,8 +8970,8 @@ tE
 tE
 Vh
 LV
-sf
-xW
+az
+aG
 XM
 LV
 Xa
@@ -8728,9 +9026,9 @@ VE
 aA
 tB
 LV
-sf
-Oi
-sf
+az
+Th
+az
 LV
 lI
 lI
