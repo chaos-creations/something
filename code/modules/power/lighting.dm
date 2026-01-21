@@ -202,17 +202,20 @@
 	light_type = /obj/item/light_bulb/bulb
 	light_color = LIGHT_COLOR_XENON_UA
 
-/obj/structure/machinery/light/small/blue/golden_arrow/liberty
+/obj/structure/machinery/light/small/blue/liberty
+	light_color = LIGHT_COLOR_BLUE
+
+/obj/structure/machinery/light/small/blue/bridge/liberty
 	brightness = 1
 	light_color = "#0090ff"
 
-/obj/structure/machinery/light/small/blue/golden_arrow/liberty/Initialize(mapload, ...)
+/obj/structure/machinery/light/small/blue/bridge/liberty/Initialize(mapload, ...)
 	. = ..()
 	set_light_on(TRUE)
 
 	RegisterSignal(SSdcs, COMSIG_GLOB_SECURITY_LEVEL_CHANGED, PROC_REF(color_change))
 
-/obj/structure/machinery/light/small/blue/golden_arrow/liberty/proc/color_change(datum/source, new_color)
+/obj/structure/machinery/light/small/blue/bridge/liberty/proc/color_change(datum/source, new_color)
 	SIGNAL_HANDLER
 	switch(new_color)
 		if(SEC_LEVEL_GREEN)
@@ -248,6 +251,9 @@
 	base_state = "bptube"
 	desc = "A lighting fixture that can be fitted with two bright fluorescent light tubes for that extra eye-watering goodness."
 	light_color = LIGHT_COLOR_XENON_UA
+
+/obj/structure/machinery/light/double/blue/liberty
+	light_color = LIGHT_COLOR_BLUE
 
 /obj/structure/machinery/light/spot
 	name = "spotlight"
