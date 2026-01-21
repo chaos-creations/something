@@ -6,6 +6,9 @@
 	if(brain.in_cover)
 		return 0
 
+	if(brain.civilian)
+		return 0
+
 	if(!brain.target_turf)
 		return 0
 

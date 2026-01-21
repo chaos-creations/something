@@ -98,6 +98,7 @@
 	assignment = JOB_TRAINEE
 	rank = JOB_TRAINEE
 	paygrades = list(PAY_SHORT_WYC1 = JOB_PLAYTIME_TIER_0)
+	ai_civilian = TRUE
 
 /datum/equipment_preset/wy/trainee/load_gear(mob/living/carbon/human/new_human)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/suit_jacket/trainee(new_human), WEAR_BODY)
