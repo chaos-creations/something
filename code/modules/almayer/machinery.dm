@@ -402,6 +402,12 @@
 	unslashable = TRUE
 	unacidable = TRUE
 
+/obj/structure/prop/almayer/name_stencil/liberty
+	name = "SS Liberty"
+	desc = "The name of the ship stenciled on the hull."
+	icon = 'something/icons/ship_name.dmi'
+	icon_state = "l1"
+
 /obj/structure/prop/almayer/hangar_stencil
 	name = "floor"
 	desc = "A large number stenciled on the hangar floor used to designate which dropship it is."

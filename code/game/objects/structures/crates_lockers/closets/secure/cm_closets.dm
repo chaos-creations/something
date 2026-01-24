@@ -367,3 +367,46 @@ GLOBAL_LIST_EMPTY(co_secure_boxes)
 	icon_off = "secure_unlocked_cmdcabinet"
 	wall_mounted = TRUE
 
+/obj/structure/closet/secure_closet/alpha
+	name = "\improper Retrieved military clothing"
+	desc = "Some stuff, that we managed to get - might be useful"
+	icon = 'icons/obj/structures/marine_closet.dmi'
+	icon_state = "squad_alpha_locked"
+	icon_closed = "squad_alpha_off"
+	icon_locked = "squad_alpha_locked"
+	icon_opened = "squad_alpha_open"
+	icon_broken = "squad_alpha_off"
+	icon_off = "squad_alpha_off"
+
+/obj/structure/closet/secure_closet/delta
+	name = "\improper Retrieved military clothing"
+	desc = "Some stuff, that we managed to get - might be useful"
+	icon = 'icons/obj/structures/marine_closet.dmi'
+	icon_state = "squad_delta_locked"
+	icon_closed = "squad_delta_off"
+	icon_locked = "squad_delta_locked"
+	icon_opened = "squad_delta_open"
+	icon_broken = "squad_delta_off"
+	icon_off = "squad_delta_off"
+
+/obj/structure/closet/secure_closet/bravo
+	name = "\improper Retrieved military clothing"
+	desc = "Some stuff, that we managed to get - might be useful"
+	icon = 'icons/obj/structures/marine_closet.dmi'
+	icon_state = "squad_bravo_locked"
+	icon_closed = "squad_bravo_off"
+	icon_locked = "squad_bravo_locked"
+	icon_opened = "squad_bravo_open"
+	icon_broken = "squad_bravo_off"
+	icon_off = "squad_bravo_off"
+
+/obj/structure/closet/secure_closet/charlie
+	name = "\improper Retrieved military clothing"
+	desc = "Some stuff, that we managed to get - might be useful"
+	icon = 'icons/obj/structures/marine_closet.dmi'
+	icon_state = "squad_charlie_locked"
+	icon_closed = "squad_charlie_off"
+	icon_locked = "squad_charlie_locked"
+	icon_opened = "squad_charlie_open"
+	icon_broken = "squad_charlie_off"
+	icon_off = "squad_charlie_off"

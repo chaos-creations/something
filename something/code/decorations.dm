@@ -47,3 +47,25 @@
 
 /turf/close/radio/noise3
 	icon_state = "noise3"
+
+/turf/open/floor/corsat/spiral_other
+	icon = 'something/icons/turfs.dmi'
+	icon_state = "spiral_other"
+	light_color = "#e7c0a4"
+	light_on = 1
+	light_power = 2
+	light_range = 4
+
+/turf/open/floor/strata/liberty
+	icon = 'something/icons/turfs.dmi'
+	icon_state = "strata_catwalk_broken"
+
+/obj/structure/prop/almayer/liberty/deck_turret
+	name = "\improper deck turret"
+	desc = "A deck turret from the Liberty-class frigate."
+	icon = 'something/icons/deck_turret.dmi'
+	icon_state = "deck_turret"
+	bound_width = 128
+	bound_height = 128
+	unslashable = TRUE
+	unacidable = TRUE

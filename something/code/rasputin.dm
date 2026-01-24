@@ -3,42 +3,120 @@
 /turf/closed/shuttle/rasputin
 	name = "\improper Rasputin"
 	icon = 'something/icons/rasputin.dmi'
-	icon_state = "dwall26"
+	icon_state = "rasputin"
+
+/turf/closed/shuttle/rasputin/transparent
+	opacity = FALSE
 
 /obj/structure/shuttle/part/rasputin
 	name = "\improper Rasputin"
 	icon = 'something/icons/rasputin.dmi'
-	icon_state = "dwall26"
+	icon_state = "rasputin"
+
+/turf/closed/shuttle/rasputin/transparent/window
+	icon_state = "97"
 
 /obj/structure/shuttle/part/rasputin/transparent
 	opacity = FALSE
 
-/obj/structure/shuttle/part/rasputin/transparent/window
-	icon_state = "dwall31"
+/obj/structure/shuttle/part/rasputin/transparent/nose_top_right
+	icon_state = "100"
 
-/obj/structure/shuttle/part/rasputin/corner
-	icon_state = "dwall29"
+/obj/structure/shuttle/part/rasputin/transparent/nose_center
+	icon_state = "101"
 
-/obj/structure/shuttle/part/rasputin/corner_single
-	icon_state = "dwall33"
+/obj/structure/shuttle/part/rasputin/transparent/nose_top_left
+	icon_state = "102"
 
-/obj/structure/shuttle/part/rasputin/tail
-	icon_state = "dwall32"
+/obj/structure/shuttle/part/rasputin/nose_front_left
+	icon_state = "95"
 
-/obj/structure/shuttle/part/rasputin/engine
-	icon_state = "dwall34"
+/obj/structure/shuttle/part/rasputin/nose_front_right
+	icon_state = "99"
 
-/obj/structure/shuttle/part/rasputin/transparent/inner_right_weapons
-	icon_state = "attach4"
+/obj/structure/shuttle/part/rasputin/transparent/right_weapons
+	icon_state = "91"
 
-/obj/structure/shuttle/part/rasputin/transparent/outer_right_weapons
-	icon_state = "attach3"
+/obj/structure/shuttle/part/rasputin/transparent/right_systems
+	icon_state = "90"
 
-/obj/structure/shuttle/part/rasputin/transparent/inner_left_weapons
-	icon_state = "attach2"
+/obj/structure/shuttle/part/rasputin/transparent/left_systems
+	icon_state = "85"
 
-/obj/structure/shuttle/part/rasputin/transparent/outer_left_weapons
-	icon_state = "attach1"
+/obj/structure/shuttle/part/rasputin/transparent/left_weapons
+	icon_state = "84"
+
+/obj/structure/shuttle/part/rasputin/transparent/upper_right_wing
+	icon_state = "74"
+
+/obj/structure/shuttle/part/rasputin/transparent/middle_right_wing
+	icon_state = "70"
+
+/obj/structure/shuttle/part/rasputin/transparent/lower_right_wing
+	icon_state = "65"
+
+/obj/structure/shuttle/part/rasputin/transparent/upper_left_wing
+	icon_state = "71"
+
+/obj/structure/shuttle/part/rasputin/transparent/middle_left_wing
+	icon_state = "66"
+
+/obj/structure/shuttle/part/rasputin/transparent/lower_left_wing
+	icon_state = "61"
+
+/obj/structure/shuttle/part/rasputin/lower_left_wall
+	icon_state = "46"
+
+/obj/structure/shuttle/part/rasputin/lower_right_wall
+	icon_state = "49"
+
+/obj/structure/shuttle/part/rasputin/transparent/engine_left_cap
+	icon_state = "40"
+
+/obj/structure/shuttle/part/rasputin/transparent/engine_right_cap
+	icon_state = "41"
+
+/obj/structure/shuttle/part/rasputin/transparent/engine_left_exhaust
+	icon_state = "16"
+
+/obj/structure/shuttle/part/rasputin/transparent/engine_right_exhaust
+	icon_state = "17"
+
+/obj/structure/shuttle/part/rasputin/bottom_left_wall
+	icon_state = "9"
+
+/obj/structure/shuttle/part/rasputin/bottom_right_wall
+	icon_state = "15"
+
+/obj/structure/shuttle/part/rasputin/left_inner_wing_connector
+	icon_state = "7"
+
+/obj/structure/shuttle/part/rasputin/right_inner_wing_connector
+	icon_state = "8"
+
+/obj/structure/shuttle/part/rasputin/left_outer_wing_connector
+	icon_state = "3"
+
+/obj/structure/shuttle/part/rasputin/right_outer_wing_connector
+	icon_state = "4"
+
+/obj/structure/shuttle/part/rasputin/transparent/left_inner_bottom_wing
+	icon_state = "1"
+
+/obj/structure/shuttle/part/rasputin/transparent/left_outer_bottom_wing
+	icon_state = "2"
+
+/obj/structure/shuttle/part/rasputin/transparent/right_inner_bottom_wing
+	icon_state = "5"
+
+/obj/structure/shuttle/part/rasputin/transparent/right_outer_bottom_wing
+	icon_state = "6"
+
+/obj/structure/shuttle/part/rasputin/transparent/logo
+	icon_state = "rasputin_logo"
+
+/obj/structure/shuttle/part/rasputin/transparent/logo/other_side
+	icon_state = "other_rasputin_logo"
 
 //DOORS
 
@@ -62,6 +140,7 @@
 	soundscape_interval = 30
 	is_landing_zone = TRUE
 	ceiling = CEILING_REINFORCED_METAL
+	base_lighting_alpha = 0
 
 /area/shuttle/rasputin/Enter(atom/movable/O, atom/oldloc)
 	if(istype(O, /obj/structure/barricade))
@@ -78,13 +157,13 @@
 	name = "Rasputin"
 	id = DROPSHIP_RASPUTIN
 	width = 11
-	height = 18
+	height = 19
 
 	dwidth = 5
-	dheight = 8
+	dheight = 9
 
-/obj/docking_port/stationary/marine_dropship/golden_arrow_hangar_ru
-	name = "Hangar Bay"
+/obj/docking_port/stationary/marine_dropship/ss_liberty
+	name = "SS Liberty Hangar Bay"
 	id = GOLDEN_ARROW_LZ
 	auto_open = TRUE
 	roundstart_template = /datum/map_template/shuttle/rasputin
@@ -125,6 +204,16 @@
 	transverse  =  0
 	long    =  0
 
+/obj/effect/attach_point/weapon/rasputin/left_wing
+	name = "port wing weapon attach point"
+	icon_state = "equip_base_l_wing"
+	attach_id = 3
+	dir = WEST
+	firing_arc_min = -3
+	firing_arc_max =  3
+	transverse  = -3
+	long    =  0
+
 /obj/effect/attach_point/weapon/rasputin/right_fore
 	name = "starboard fore weapon attach point"
 	attach_id = 2
@@ -132,6 +221,16 @@
 	firing_arc_min =  0
 	firing_arc_max =  6
 	transverse  =  0
+	long    =  0
+
+/obj/effect/attach_point/weapon/rasputin/right_wing
+	name = "starboard wing weapon attach point"
+	icon_state = "equip_base_r_wing";
+	attach_id = 4
+	dir = EAST
+	firing_arc_min = -3
+	firing_arc_max =  3
+	transverse  =  3
 	long    =  0
 
 //MACHINERY
@@ -155,3 +254,10 @@
 
 /obj/structure/machinery/computer/shuttle/dropship/flight/update_icon()
 	return
+
+/obj/structure/machinery/computer/shuttle/dropship/flight/rasputin
+	icon = 'icons/obj/structures/machinery/computer.dmi'
+	icon_state = "shuttle"
+	linked_lz = DROPSHIP_LZ1
+	is_remote = TRUE
+	can_change_shuttle = TRUE

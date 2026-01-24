@@ -91,6 +91,9 @@
 	icon_state = "black"
 	mouse_opacity = FALSE
 
+/turf/closed/void/space
+	icon_state = "0"
+
 /// Cordon turf marking z-level boundaries and surrounding reservations
 /turf/closed/cordon
 	name = "world border"

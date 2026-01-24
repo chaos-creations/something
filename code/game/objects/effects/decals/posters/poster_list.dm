@@ -213,7 +213,7 @@ Template
 	icon_state="poster41"
 	name = "Falling Falcons"
 	desc = "Promotional material for the 2nd Company of the 2nd Battalion of the 4th Brigade, the Falling Falcons. Designed by an unknown artist and printed in an effort to bolster the ranks of the Falling Falcons."
-
+/*
 /datum/poster/upp_1
 	icon_state="upp_poster_1"
 	name = "The Stars Are Ours"
@@ -264,7 +264,7 @@ Template
 	icon_state="upp_poster_10"
 	name = "Ever Vigilant Against the Stooges of Capitalism and Imperialism"
 	desc = "A warped screaming eagle made to look like a vulture bears its talons over Earth which has the UPP roundel super-imposed over it. The poster reads, 'The UA will not break the resolve of the people."
-
+*/
 // Hybrisa Posters //
 
 /// Alien Isolation & Dark Descent - posters used as reference (direct downscale of the image for some) ///
