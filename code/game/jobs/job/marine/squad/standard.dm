@@ -158,6 +158,22 @@
 	squad = SQUAD_RMC
 	job = /datum/job/marine/standard/ai/rmc
 
+//-- CLF Platoon --//
+
+/datum/job/marine/standard/ai/clf
+	title = JOB_SQUAD_MARINE_CLF
+	total_positions = 4
+	spawn_positions = 4
+	gear_preset = /datum/equipment_preset/uscm/clf
+	job_options = null
+	supervisors = "but heres the,,,,,, uhhh i forgor,,,,,,"
+	entry_message_body = "but heres the,,,,,, uhhh i forgor,,,,,,"
+
+/obj/effect/landmark/start/marine/clf
+	name = JOB_SQUAD_MARINE_CLF
+	squad = SQUAD_CLF
+	job = /datum/job/marine/standard/ai/clf
+
 #undef CPL_VARIANT
 #undef LCPL_VARIANT
 #undef PFC_VARIANT

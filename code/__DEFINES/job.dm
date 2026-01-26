@@ -23,6 +23,7 @@
 #define SQUAD_RMC "Gamma Troop"
 #define SQUAD_LRRP "Snake Eaters"
 #define SQUAD_LRRP_2 "Ocelot Grapplers"
+#define SQUAD_CLF "Frontier Remnants"
 
 // Job name defines
 #define JOB_SQUAD_MARINE "Rifleman"
@@ -401,6 +402,13 @@ GLOBAL_LIST_INIT(job_command_roles, JOB_COMMAND_ROLES_LIST)
 #define JOB_CLF_SYNTH "CLF Multipurpose Synthetic"
 
 #define CLF_JOB_LIST list(JOB_CLF, JOB_CLF_ENGI, JOB_CLF_MEDIC, JOB_CLF_SPECIALIST, JOB_CLF_LEADER, JOB_CLF_COMMANDER, JOB_CLF_SYNTH)
+
+////-------- CLF PLATOON --------//
+
+#define JOB_SQUAD_LEADER_CLF "Cell Leader"
+#define JOB_SQUAD_MEDIC_CLF "Field Sawbones"
+#define JOB_SQUAD_ENGI_CLF "Network Operator"
+#define JOB_SQUAD_MARINE_CLF "Militia"
 
 //-------- TWE --------//
 #define JOB_TWE_REPRESENTATIVE "TWE Representative"

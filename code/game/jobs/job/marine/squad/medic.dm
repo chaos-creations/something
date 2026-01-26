@@ -165,6 +165,20 @@
 	squad = SQUAD_RMC
 	job = /datum/job/marine/medic/ai/rmc
 
+//-- CLF Platoon --//
+
+/datum/job/marine/medic/ai/clf
+	title = JOB_SQUAD_MEDIC_CLF
+	gear_preset = /datum/equipment_preset/uscm/clf/med
+	job_options = null
+	supervisors = "but heres the,,,,,, uhhh i forgor,,,,,,"
+	entry_message_body = "but heres the,,,,,, uhhh i forgor,,,,,,"
+
+/obj/effect/landmark/start/marine/medic/clf
+	name = JOB_SQUAD_MEDIC_CLF
+	squad = SQUAD_CLF
+	job = /datum/job/marine/medic/ai/clf
+
 #undef SGT_VARIANT
 #undef JSGT_VARIANT
 #undef CPL_VARIANT

@@ -211,3 +211,28 @@
 
 /obj/structure/closet/secure_closet/marine_personal/rmc/troop_commander
 	job = JOB_TWE_RMC_LIEUTENANT
+
+// ==Colonial Liberation Front== //
+
+/obj/structure/closet/secure_closet/marine_personal/clf/spawn_gear()
+	new /obj/item/clothing/under/colonist/clf(src)
+	new /obj/item/clothing/shoes/marine/civilian/knife(src)
+	new /obj/item/clothing/accessory/patch/clf_patch(src)
+
+/obj/structure/closet/secure_closet/marine_personal/clf/rifleman
+	job = JOB_SQUAD_MARINE
+
+/obj/structure/closet/secure_closet/marine_personal/clf/engineer
+	job = JOB_SQUAD_ENGI
+
+/obj/structure/closet/secure_closet/marine_personal/clf/corpsman
+	job = JOB_SQUAD_MEDIC
+
+/obj/structure/closet/secure_closet/marine_personal/clf/squad_leader
+	job = JOB_SQUAD_LEADER
+
+/obj/structure/closet/secure_closet/marine_personal/clf/squad_leader/spawn_gear()
+	new /obj/item/clothing/under/colonist/clf(src)
+	new /obj/item/clothing/shoes/marine/civilian/knife(src)
+	new /obj/item/clothing/accessory/patch/clf_patch(src)
+	new /obj/item/clothing/accessory/poncho/clf_cape(src)

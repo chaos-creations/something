@@ -131,14 +131,21 @@ GLOBAL_LIST_INIT(platoon_to_jobs, list(/datum/squad/marine/alpha = list(/datum/j
 		/datum/job/marine/engineer/ai/rmc = JOB_TWE_RMC_ENGI,\
 		/datum/job/marine/engineer/ai/rmcmortar = JOB_TWE_RMC_BREACHER,\
 		/datum/job/marine/specialist/ai/rmc = JOB_TWE_RMC_MARKSMAN,\
-		/datum/job/marine/standard/ai/rmc = JOB_TWE_RMC_RIFLEMAN)))
+		/datum/job/marine/standard/ai/rmc = JOB_TWE_RMC_RIFLEMAN),\
+		/datum/squad/marine/clf = list(/datum/job/marine/leader/ai/clf = JOB_SQUAD_LEADER,\
+		/datum/job/marine/engineer/ai/clf = JOB_SQUAD_ENGI,\
+		/datum/job/marine/medic/ai/clf = JOB_SQUAD_MEDIC,\
+		/datum/job/marine/standard/ai/clf =  JOB_SQUAD_MARINE),\
+		))
 
 GLOBAL_LIST_INIT(platoon_to_role_list, list(/datum/squad/marine/alpha = ROLES_AI,\
 												/datum/squad/marine/upp = ROLES_AI_UPP,\
 												/datum/squad/marine/pmc = ROLES_PMCPLT,\
 												/datum/squad/marine/forecon = ROLES_AI_FORECON,\
 												/datum/squad/marine/pmc/small = ROLES_PMCPLT_SMALL,\
-												/datum/squad/marine/rmc = ROLES_RMCTROOP))
+												/datum/squad/marine/rmc = ROLES_RMCTROOP,\
+												/datum/squad/marine/clf = ROLES_AI_CLF,\
+												))
 
 
 GLOBAL_LIST_INIT(personal_weapons_list, list("Ithaca 37 shotgun-stakeout" = /obj/item/storage/large_holster/m37/full/noammo,\

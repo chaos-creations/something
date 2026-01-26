@@ -439,6 +439,24 @@
 
 	UnregisterSignal(SSdcs, COMSIG_GLOB_PLATOON_NAME_CHANGE, PROC_REF(rename_platoon))
 
+//##############################
+
+/datum/squad/marine/clf
+	name = SQUAD_CLF
+//	equipment_color = nahh
+	chat_color = "#6f679c"
+	minimap_color = MINIMAP_SQUAD_CLF
+	use_stripe_overlay = FALSE
+	radio_freq = CLF_FREQ
+	usable = TRUE
+	access = list(ACCESS_CLF_GENERAL)
+	faction = FACTION_CLF
+
+/datum/squad/marine/clf/New()
+	. = ..()
+
+	UnregisterSignal(SSdcs, COMSIG_GLOB_PLATOON_NAME_CHANGE, PROC_REF(rename_platoon))
+
 //###############################
 /datum/squad/clf
 	name = "Root"

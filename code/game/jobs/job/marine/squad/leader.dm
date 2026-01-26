@@ -125,6 +125,20 @@ OverrideTimelock(/datum/job/marine/leader, list(
 	squad = SQUAD_RMC
 	job = /datum/job/marine/leader/ai/rmc
 
+//-- CLF Platoon --//
+
+/datum/job/marine/leader/ai/clf
+	title = JOB_SQUAD_LEADER_CLF
+	gear_preset = /datum/equipment_preset/uscm/clf/sl
+	job_options = null
+	supervisors = "but heres the,,,,,, uhhh i forgor,,,,,,"
+	entry_message_body = "but heres the,,,,,, uhhh i forgor,,,,,,"
+
+/obj/effect/landmark/start/marine/leader/clf
+	name = JOB_SQUAD_LEADER_CLF
+	squad = SQUAD_CLF
+	job = /datum/job/marine/leader/ai/clf
+
 #undef MSSGT_VARIANT
 #undef GYSGT_VARIANT
 #undef SGTMJR_VARIANT

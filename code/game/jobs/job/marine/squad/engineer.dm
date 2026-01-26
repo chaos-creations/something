@@ -103,5 +103,21 @@
 	squad = SQUAD_RMC
 	job = /datum/job/marine/engineer/ai/rmcmortar
 
+/datum/job/marine/engineer/ai/clf
+	total_positions = 1
+	spawn_positions = 1
+	title = JOB_SQUAD_ENGI_CLF
+	flags_startup_parameters = ROLE_ADD_TO_DEFAULT|ROLE_ADD_TO_SQUAD
+	gear_preset = /datum/equipment_preset/uscm/clf/eng
+	job_options = null
+	supervisors = "but heres the,,,,,, uhhh i forgor,,,,,,"
+	entry_message_body = "but heres the,,,,,, uhhh i forgor,,,,,,"
+
+/obj/effect/landmark/start/marine/engineer/clf
+	name = JOB_SQUAD_ENGI_CLF
+	squad = SQUAD_CLF
+	job = /datum/job/marine/engineer/ai/clf
+
+
 #undef LCPL_VARIANT
 #undef PFC_VARIANT

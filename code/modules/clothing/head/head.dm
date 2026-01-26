@@ -114,6 +114,10 @@
 	name = "Black Beret"
 	icon_state = "beret_black"
 
+/obj/item/clothing/head/beret/cm/clf
+	name = "\improper Colonial Liberation Front beret"
+	desc = "A repurposed captured police beret, with a CLF insignia mounted on place where police cockade would usually sit."
+	icon_state = "CLF_beret"
 
 /obj/item/clothing/head/headband
 	name = "headband"
@@ -737,6 +741,16 @@
 	min_cold_protection_temperature = ICE_PLANET_MIN_COLD_PROT
 	flags_inventory = BLOCKSHARPOBJ
 	flags_inv_hide = HIDEEARS|HIDETOPHAIR
+
+/obj/item/clothing/head/militia/brown
+	name = "\improper armored militia hood"
+	desc = "A large hood in service with some militias, modified for full obscurity on the frontier. Offers some head protection due to the study fibers utilized in production."
+	icon_state = "coordinator_hood"
+
+/obj/item/clothing/head/militia/brown/coordinator
+	name = "\improper coordinator hood"
+	desc = "A militia hood issued to unit coordinators. Built for survivability while overseeing operations, relaying orders, and maintaining control in chaotic frontier engagements."
+	icon_state = "coordinator_hood_armored"
 
 /obj/item/clothing/head/militia/bucket
 	name = "bucket"

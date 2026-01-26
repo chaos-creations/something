@@ -812,7 +812,19 @@
 	frequency = CLF_FREQ
 	has_hud = FALSE //Until we get CANC stuff, this'll do
 
-
+/obj/item/device/radio/headset/almayer/marine/solardevils/clf
+	name = "CLF headset"
+	desc = "A special headset used by Colonial Liberation Front."
+	icon_state = "uscm_headset"
+	item_state = "uscm_headset"
+	frequency = CLF_FREQ
+	misc_tracking = TRUE
+	minimap_type = MINIMAP_FLAG_CLF
+	hud_type = list(MOB_HUD_FACTION_CLF)
+	inbuilt_tracking_options = list(
+		"Cell Leader" = TRACKER_SL,
+		"Landing Zone" = TRACKER_LZ
+	)
 
 /obj/item/device/radio/headset/almayer/cia
 	name = "radio headset"

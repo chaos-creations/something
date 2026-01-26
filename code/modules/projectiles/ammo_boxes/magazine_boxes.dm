@@ -442,7 +442,7 @@
 //---------------------Automag Pistol Mag Box-----------------------
 
 /obj/item/ammo_box/magazine/automag
-	name = "magazine box (VP70 x 16)"
+	name = "magazine box (Automag x 16)"
 	icon_state = "base_ar10"
 	flags_equip_slot = SLOT_BACK
 	overlay_ammo_type = "_reg"
