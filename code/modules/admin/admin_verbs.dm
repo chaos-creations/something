@@ -56,6 +56,7 @@ GLOBAL_LIST_INIT(admin_verbs_default, list(
 	/client/proc/rejuvenate_all_revivable_humans_in_view,
 	/client/proc/rejuvenate_all_xenos_in_view,
 	/client/proc/toogle_frozen_in_view,
+	/client/proc/toogle_unfrozen_in_view,
 	/datum/admins/proc/togglesleep,
 	/datum/admins/proc/sleepall,
 	/datum/admins/proc/wakeall,

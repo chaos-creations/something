@@ -837,6 +837,7 @@
 #include "code\game\area\shuttles.dm"
 #include "code\game\area\SI391_Sekhmet_Swamp.dm"
 #include "code\game\area\space_station_13_areas.dm"
+#include "code\game\area\ss_liberty.dm"
 #include "code\game\area\strata.dm"
 #include "code\game\area\Sulaco.dm"
 #include "code\game\area\Taipei.dm"

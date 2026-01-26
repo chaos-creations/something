@@ -10,6 +10,8 @@
 			owner.rejuvenate_all_xenos_in_view()
 		if("tooglefrozen")
 			owner.toogle_frozen_in_view()
+		if("toogleunfrozen")
+			owner.toogle_unfrozen_in_view()
 		if("sleepall")
 			sleepall()
 		if("wakeall")
