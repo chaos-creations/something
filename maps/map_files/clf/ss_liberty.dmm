@@ -10351,7 +10351,7 @@
 	},
 /obj/structure/machinery/disposal{
 	pixel_x = 2;
-	pixel_y = 11
+	pixel_y = 1
 	},
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/ss_liberty/deck_three/hallway)

@@ -312,6 +312,7 @@
 		/datum/action/xeno_action/onclick/grow_ovipositor,
 		/datum/action/xeno_action/activable/info_marker/queen,
 		/datum/action/xeno_action/onclick/manage_hive,
+		/datum/action/xeno_action/onclick/toggle_seethrough,
 	)
 
 	inherent_verbs = list(
@@ -346,6 +347,7 @@
 		/datum/action/xeno_action/onclick/screech, //custom macro, Screech
 		/datum/action/xeno_action/activable/xeno_spit/queen_macro, //third macro
 		/datum/action/xeno_action/onclick/shift_spits,
+		/datum/action/xeno_action/onclick/toggle_seethrough,
 		//second macro
 	)
 
@@ -354,6 +356,7 @@
 		/datum/action/xeno_action/onclick/screech, //custom macro, Screech
 		/datum/action/xeno_action/activable/xeno_spit/queen_macro, //third macro
 		/datum/action/xeno_action/onclick/shift_spits, //second macro
+		/datum/action/xeno_action/onclick/toggle_seethrough,
 	)
 	claw_type = CLAW_TYPE_VERY_SHARP
 
