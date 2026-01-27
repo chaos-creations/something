@@ -2203,7 +2203,7 @@
 "em" = (
 /obj/structure/surface/table/reinforced/almayer_B,
 /obj/structure/machinery/computer/overwatch/almayer{
-	faction = "Freelancer";
+	faction = "CLF";
 	layer = 4.2;
 	pixel_y = 7;
 	req_access = list();
@@ -3955,8 +3955,8 @@
 "hE" = (
 /obj/structure/machinery/door/airlock/upp_grey{
 	dir = 2;
-	autoname = 1;
-	req_one_access = list(270)
+	req_one_access = list(270);
+	name = "\improper Squad Leader"
 	},
 /turf/open/floor/corsat/marked,
 /area/ss_liberty/deck_one/command_dorms)
@@ -4914,6 +4914,11 @@
 /area/ss_liberty/deck_one/gym)
 "kb" = (
 /obj/structure/window/framed/upp/grey,
+/obj/structure/machinery/door/poddoor/hybrisa/shutters{
+	name = "\improper Vent Shutters";
+	id = "vents";
+	dir = 1
+	},
 /turf/open/floor/corsat/marked,
 /area/ss_liberty/deck_one/command_dorms)
 "kc" = (
@@ -5649,8 +5654,8 @@
 "mJ" = (
 /obj/structure/machinery/door/airlock/upp_grey{
 	dir = 2;
-	autoname = 1;
-	req_one_access = list(262, 265, 270)
+	req_one_access = list(262, 265, 270);
+	name = "\improper Network Operator"
 	},
 /turf/open/floor/corsat/marked,
 /area/ss_liberty/deck_one/command_dorms)
@@ -6250,7 +6255,9 @@
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/ss_liberty/deck_one/engi)
 "pD" = (
-/obj/structure/stairs/multiz/up,
+/obj/structure/stairs/multiz/up{
+	dir = 1
+	},
 /turf/open/floor/corsat/marked,
 /area/ss_liberty/deck_three/hallway)
 "pE" = (
@@ -7873,10 +7880,6 @@
 	},
 /turf/open/floor/corsat,
 /area/ss_liberty/deck_three/hallway)
-"wV" = (
-/obj/structure/ob_ammo/ob_fuel,
-/turf/open/floor/strata/multi_tiles/southeast,
-/area/ss_liberty/deck_three/maintenance)
 "wX" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "W";
@@ -9166,7 +9169,9 @@
 /turf/open/floor/almayer/dark_sterile,
 /area/ss_liberty/deck_three/medbay)
 "Cj" = (
-/obj/structure/stairs/multiz/down,
+/obj/structure/stairs/multiz/down{
+	dir = 1
+	},
 /turf/open/floor/corsat/marked,
 /area/ss_liberty/deck_two/hallway)
 "Cl" = (
@@ -13144,7 +13149,7 @@
 "TI" = (
 /obj/structure/machinery/door/airlock/upp_utility{
 	req_one_access = list(262, 265, 270);
-	autoname = 1
+	name = "\improper Server Room"
 	},
 /turf/open/floor/corsat/marked,
 /area/ss_liberty/deck_one/command_dorms)
@@ -15963,7 +15968,7 @@ CW
 xB
 EW
 fp
-wV
+is
 SN
 il
 wO
