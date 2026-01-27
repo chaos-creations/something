@@ -631,14 +631,13 @@
 		list("M3 Pattern Small Pouch Webbing", 2, /obj/item/clothing/accessory/storage/webbing/m3/small, VENDOR_ITEM_REGULAR),
 
 		list("HELMET", -1, null, null),
-		list("Armored Militia Cowl", round(scale * 10), /obj/item/clothing/head/militia, VENDOR_ITEM_REGULAR),
-		list("Armored Bucket", round(scale * 10), /obj/item/clothing/head/militia/bucket, VENDOR_ITEM_RECOMMENDED),
+		list("Armored Militia Cowl", round(scale * 10), /obj/item/clothing/head/helmet/marine/clf, VENDOR_ITEM_REGULAR),
+		list("Armored Bucket", round(scale * 10), /obj/item/clothing/head/helmet/marine/clf/bucket, VENDOR_ITEM_RECOMMENDED),
 
 		list("ARMOR", -1, null, null),
-		list("Colonial Militia Hauberk", round(scale * 10), /obj/item/clothing/suit/storage/militia, VENDOR_ITEM_RECOMMENDED),
-		list("Colonial Militia Partial Hauberk", round(scale * 10), /obj/item/clothing/suit/storage/militia/partial, VENDOR_ITEM_REGULAR),
-		list("Colonial Militia Vest", round(scale * 10), /obj/item/clothing/suit/storage/militia/vest, VENDOR_ITEM_REGULAR),
-		list("Colonial Militia Brace", round(scale * 10), /obj/item/clothing/suit/storage/militia/brace, VENDOR_ITEM_REGULAR),
+		list("Colonial Militia Hauberk", round(scale * 10), /obj/item/clothing/suit/marine/clf, VENDOR_ITEM_RECOMMENDED),
+		list("Makeshift Shoulder Pads", round(scale * 10), /obj/item/clothing/accessory/clfpads, VENDOR_ITEM_REGULAR),
+		list("Makeshift Leg Guards", round(scale * 10), /obj/item/clothing/accessory/clfpads/legs, VENDOR_ITEM_REGULAR),
 
 		list("BACKPACK", -1, null, null, null),
 		list("Ammo Rack", round(scale * 5), /obj/item/storage/backpack/marine/ammo_rack, VENDOR_ITEM_REGULAR),
@@ -1105,7 +1104,7 @@
 
 		list("FLARE AND LIGHT", -1, null, null),
 		list("Combat Flashlight", round(scale * 10), /obj/item/device/flashlight/combat, VENDOR_ITEM_REGULAR),
-		list("R52 Marking Flare Pack", round(scale * 10), /obj/item/storage/box/flare/upp, VENDOR_ITEM_REGULAR),
+		list("M94 Marking Flare Pack", round(scale * 10), /obj/item/storage/box/flare, VENDOR_ITEM_REGULAR),
 
 		list("SIDEARMS", -1, null, null),
 		list("HG 44 'Automag' Pistol", round(scale * 2), /obj/item/weapon/gun/pistol/highpower/automag/unloaded, VENDOR_ITEM_REGULAR),

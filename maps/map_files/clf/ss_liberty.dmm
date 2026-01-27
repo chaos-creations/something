@@ -866,6 +866,10 @@
 	req_access = null;
 	req_one_access = null
 	},
+/obj/item/clothing/accessory/armband/med{
+	pixel_x = 0;
+	pixel_y = 38
+	},
 /turf/open/floor/strata/multi_tiles/southwest,
 /area/ss_liberty/deck_two/militia_dorms)
 "bU" = (
@@ -1712,31 +1716,19 @@
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/ss_liberty/deck_two/hallway)
 "dC" = (
-/obj/item/clothing/under/marine/veteran/canc{
-	pixel_x = -7;
-	pixel_y = -6
+/obj/item/ammo_magazine/rifle/mar40/lmg{
+	pixel_x = -5;
+	pixel_y = 6
 	},
-/obj/item/clothing/accessory/ranks/canc/e1,
-/obj/item/clothing/suit/marine/smartgunner/upp/canc{
-	pixel_x = 7;
+/obj/item/ammo_magazine/rifle/mar40/lmg{
+	pixel_x = 6;
 	pixel_y = 5
 	},
-/obj/item/clothing/shoes/marine/upp/guard/canc{
-	pixel_x = 5;
-	pixel_y = -2
-	},
-/obj/item/clothing/head/helmet/marine/veteran/canc{
-	pixel_x = -7;
-	pixel_y = 7
-	},
-/obj/item/clothing/glasses/canc_monoscope{
-	pixel_x = 3;
-	pixel_y = 5
-	},
-/obj/item/attachable/bayonet/canc{
-	pixel_x = -1;
+/obj/item/ammo_magazine/rifle/mar40/lmg{
+	pixel_x = 0;
 	pixel_y = 0
 	},
+/obj/item/weapon/gun/rifle/mar40/lmg,
 /obj/structure/closet/crate/secure/upp/alt{
 	pixel_x = 0;
 	pixel_y = 5;
@@ -2380,11 +2372,8 @@
 /turf/open/floor/strata/floor2,
 /area/ss_liberty/deck_two/armory_one)
 "eC" = (
-/obj/item/clothing/suit/storage/marine/veteran/pmc/light,
 /obj/item/storage/box/mre/pmc,
 /obj/item/storage/box/mre/pmc,
-/obj/item/clothing/under/marine/veteran/pmc,
-/obj/item/clothing/suit/storage/marine/veteran/pmc/light,
 /obj/item/weapon/gun/rifle/nsg23/no_lock,
 /obj/item/ammo_box/magazine/nsg23,
 /obj/structure/closet/crate/secure/weyland{
@@ -5042,10 +5031,6 @@
 /area/ss_liberty/deck_one/hallway)
 "ko" = (
 /obj/structure/largecrate/empty/case,
-/obj/item/storage/toolbox/mechanical{
-	pixel_x = 0;
-	pixel_y = 3
-	},
 /obj/effect/decal/warning_stripes{
 	icon_state = "NW-out";
 	layer = 2.5;
@@ -5054,6 +5039,18 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/strata/floor2,
+/area/ss_liberty/deck_two/armory_one)
+"kp" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/item/storage/toolbox/mechanical{
+	pixel_x = 31;
+	pixel_y = 4
+	},
+/turf/open/floor/strata/multi_tiles/southwest,
 /area/ss_liberty/deck_two/armory_one)
 "kq" = (
 /obj/structure/disposalpipe/segment,
@@ -7948,10 +7945,6 @@
 /obj/item/prop/helmetgarb/trimmed_wire{
 	pixel_x = 0;
 	pixel_y = 6
-	},
-/obj/item/attachable/scope/pve{
-	pixel_x = 1;
-	pixel_y = -5
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/firealarm{
@@ -11567,7 +11560,8 @@
 /obj/structure/surface/table/reinforced/almayer_B,
 /obj/structure/machinery/prop/almayer/CICmap{
 	pixel_x = 0;
-	pixel_y = 1
+	pixel_y = 1;
+	faction = "CLF"
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/strata/floor3,
@@ -18686,7 +18680,7 @@ De
 TY
 fm
 hm
-gf
+kp
 XJ
 dE
 sF

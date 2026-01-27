@@ -876,3 +876,45 @@
 		/obj/item/prop/helmetgarb/helmet_nvg/cosmetic = "icon_state",
 		/obj/item/prop/helmetgarb/helmet_nvg/marsoc = "icon_state",
 	)
+
+//================//CLF PLATOON\\=====================\\
+//=======================================================================\\
+
+/obj/item/clothing/head/helmet/marine/clf
+	name = "\improper armored militia cowl"
+	desc = "A large hood in service with some militias, meant for obscurity on the frontier. Offers some head protection due to the study fibers utilized in production."
+	icon = 'icons/obj/items/clothing/cm_hats.dmi'
+	item_icons = list(
+		WEAR_HEAD = 'icons/mob/humans/onmob/head_1.dmi'
+	)
+	icon_state = "rebel_hood"
+	siemens_coefficient = 2
+	flags_armor_protection = BODY_FLAG_HEAD|BODY_FLAG_CHEST
+	armor_melee = CLOTHING_ARMOR_MEDIUMHIGH
+	armor_bullet = CLOTHING_ARMOR_MEDIUMLOW
+	armor_laser = CLOTHING_ARMOR_LOW
+	armor_energy = CLOTHING_ARMOR_LOW
+	armor_bomb = CLOTHING_ARMOR_LOW
+	armor_bio = CLOTHING_ARMOR_MEDIUM
+	armor_rad = CLOTHING_ARMOR_LOW
+	armor_internaldamage = CLOTHING_ARMOR_MEDIUM
+	flags_cold_protection = BODY_FLAG_HEAD
+	min_cold_protection_temperature = ICE_PLANET_MIN_COLD_PROT
+	flags_inventory = BLOCKSHARPOBJ
+	flags_inv_hide = HIDEEARS|HIDETOPHAIR
+	flags_atom = NO_NAME_OVERRIDE|NO_SNOW_TYPE
+
+/obj/item/clothing/head/helmet/marine/clf/brown
+	name = "\improper armored militia hood"
+	desc = "A large hood in service with some militias, modified for full obscurity on the frontier. Offers some head protection due to the study fibers utilized in production."
+	icon_state = "coordinator_hood"
+
+/obj/item/clothing/head/helmet/marine/clf/brown/coordinator
+	name = "\improper coordinator hood"
+	desc = "A militia hood issued to unit coordinators. Built for survivability while overseeing operations, relaying orders, and maintaining control in chaotic frontier engagements."
+	icon_state = "coordinator_hood_armored"
+
+/obj/item/clothing/head/helmet/marine/clf/bucket
+	name = "bucket"
+	desc = "This metal bucket appears to have been modified with padding and chin-straps, plus an eye-slit carved into the \"front\". Presumably, it is intended to be worn on the head, possibly for protection."
+	icon_state = "bucket"

@@ -39,6 +39,9 @@
 	icon = 'icons/obj/structures/props/smoothlattice.dmi'
 	icon_state = "lattice0"
 
+/turf/open/floor/plating/catwalk/lattice/is_weedable()
+	return NOT_WEEDABLE
+
 /turf/open/floor/plating/catwalk/lattice/ex_act()
 	return
 

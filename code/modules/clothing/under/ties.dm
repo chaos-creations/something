@@ -1534,6 +1534,22 @@
 	item_state = "rmc_greaves"
 	slot = ACCESSORY_SLOT_DECORSHIN
 
+//===========================//CLF CUSTOM ARMOR PLATES\\================================\\
+
+/obj/item/clothing/accessory/clfpads
+	name = "\improper Makeshift Shoulder Pads"
+	desc = "A set of shoulder pads, which was assembled from scrap materials, will probably only fit the CLF armor."
+	icon_state = "clf_arms"
+	item_state = "clf_arms"
+	slot = ACCESSORY_SLOT_DECORARMOR
+
+/obj/item/clothing/accessory/clfpads/legs
+	name = "\improper Makeshift Leg Guards"
+	desc = "A set of leg greaves, which was assembled from scrap materials, will probably only fit the CLF armor."
+	icon_state = "clf_greaves"
+	item_state = "clf_greaves"
+	slot = ACCESSORY_SLOT_DECORSHIN
+
 //===========================//CUSTOM ARMOR PAINT\\================================\\
 
 /obj/item/clothing/accessory/paint

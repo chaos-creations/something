@@ -391,8 +391,7 @@ GLOBAL_LIST_INIT(cm_vending_clothing_clf_medic, list(
 		list("Essential Medical Set", 0, /obj/effect/essentials_set/medic, MARINE_CAN_BUY_ESSENTIALS, VENDOR_ITEM_MANDATORY),
 
 		list("ARMOR (CHOOSE 1)", 0, null, null, null),
-		list("Colonial Militia Hauberk", 0, /obj/item/clothing/suit/storage/militia, MARINE_CAN_BUY_ARMOR, VENDOR_ITEM_RECOMMENDED),
-		list("Colonial Militia Vest", 0, /obj/item/clothing/suit/storage/militia/vest, MARINE_CAN_BUY_ARMOR, VENDOR_ITEM_REGULAR),
+		list("Colonial Militia Hauberk", 0, /obj/item/clothing/suit/marine/clf, MARINE_CAN_BUY_ARMOR, VENDOR_ITEM_RECOMMENDED),
 
 		list("BELT (CHOOSE 1)", 0, null, null, null),
 		list("Type 41 Lifesaver Bag (Full)", 0, /obj/item/storage/belt/medical/lifesaver/upp/full, MARINE_CAN_BUY_BELT, VENDOR_ITEM_RECOMMENDED),
