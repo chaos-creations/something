@@ -10,7 +10,7 @@
 	assignment = JOB_SQUAD_MARINE_CLF
 	rank = JOB_SQUAD_MARINE
 	flags = EQUIPMENT_PRESET_START_OF_ROUND|EQUIPMENT_PRESET_MARINE
-	skills = /datum/skills/clf
+	skills = /datum/skills/clf_pve
 
 /datum/equipment_preset/uscm/clf/eng
 	name = "Colonial Liberation Front, Network Operator"
@@ -19,7 +19,7 @@
 	access = list(ACCESS_CLF_GENERAL, ACCESS_CLF_ENGINEERING, ACCESS_CLF_FLIGHT)
 	assignment = JOB_SQUAD_ENGI_CLF
 	rank = JOB_SQUAD_ENGI
-	skills = /datum/skills/clf/combat_engineer
+	skills = /datum/skills/clf_pve/combat_engineer
 
 /datum/equipment_preset/uscm/clf/med
 	name = "Colonial Liberation Front, Sawbones"
@@ -28,7 +28,7 @@
 	access = list(ACCESS_CLF_GENERAL, ACCESS_CLF_MEDICAL)
 	assignment = JOB_SQUAD_MEDIC_CLF
 	rank = JOB_SQUAD_MEDIC
-	skills = /datum/skills/clf/combat_medic
+	skills = /datum/skills/clf_pve/combat_medic
 
 /datum/equipment_preset/uscm/clf/sl
 	name = "Colonial Liberation Front, Squad Leader"
@@ -37,4 +37,4 @@
 	access = list(ACCESS_CLF_GENERAL, ACCESS_CLF_MEDICAL, ACCESS_CLF_ENGINEERING, ACCESS_CLF_SECURITY, ACCESS_CLF_ARMORY, ACCESS_CLF_FLIGHT, ACCESS_CLF_LEADERSHIP)
 	assignment = JOB_SQUAD_LEADER_CLF
 	rank = JOB_SQUAD_LEADER
-	skills = /datum/skills/clf/leader
+	skills = /datum/skills/clf_pve/leader

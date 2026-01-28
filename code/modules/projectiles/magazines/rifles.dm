@@ -305,6 +305,11 @@
 	w_class = SIZE_MEDIUM
 	ammo_band_color = AMMO_BAND_COLOR_HEAP
 
+/obj/item/ammo_magazine/rifle/m16/extended/pve
+	name = "\improper M16 extended magazine"
+	desc = "An FMJ 5.56x45mm magazine for the M16 assault rifle and its clones. Holds 80 rounds."
+	max_rounds = 80
+
 //-------------------------------------------------------
 //AR10 RIFLE
 

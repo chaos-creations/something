@@ -666,6 +666,7 @@
 #include "code\datums\skills\army.dm"
 #include "code\datums\skills\civilian.dm"
 #include "code\datums\skills\clf.dm"
+#include "code\datums\skills\clf_pve.dm"
 #include "code\datums\skills\cmb.dm"
 #include "code\datums\skills\commando.dm"
 #include "code\datums\skills\contractor.dm"
