@@ -338,6 +338,9 @@
 /obj/item/ammo_box/magazine/M16/ap/empty
 	empty = TRUE
 
+/obj/item/ammo_box/magazine/M16/pve
+	magazine_type = /obj/item/ammo_magazine/rifle/m16/extended/pve
+
 //-----------------------M4A3 Pistol Mag Box-----------------------
 
 /obj/item/ammo_box/magazine/m4a3

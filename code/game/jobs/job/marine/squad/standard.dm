@@ -162,8 +162,8 @@
 
 /datum/job/marine/standard/ai/clf
 	title = JOB_SQUAD_MARINE_CLF
-	total_positions = 4
-	spawn_positions = 4
+	total_positions = 8
+	spawn_positions = 8
 	gear_preset = /datum/equipment_preset/uscm/clf
 	job_options = null
 	supervisors = "but heres the,,,,,, uhhh i forgor,,,,,,"

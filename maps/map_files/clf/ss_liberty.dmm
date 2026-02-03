@@ -3738,9 +3738,9 @@
 /turf/open/floor/strata/multi_tiles/west,
 /area/ss_liberty/deck_two/incerator)
 "hg" = (
-/obj/item/ammo_box/magazine/M16,
-/obj/item/ammo_box/magazine/M16,
-/obj/item/ammo_box/magazine/M16/ap,
+/obj/item/ammo_box/magazine/M16/pve,
+/obj/item/ammo_box/magazine/M16/pve,
+/obj/item/ammo_box/magazine/M16/pve,
 /obj/structure/closet/crate/ammo,
 /turf/open/floor/corsat/cargo,
 /area/ss_liberty/deck_two/armory_one)
@@ -5832,11 +5832,6 @@
 /turf/open/floor/hybrisa/tile/supermartfloor1,
 /area/ss_liberty/deck_two/canteen)
 "nz" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "door_warning";
-	dir = 8;
-	pixel_y = 0
-	},
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/prop/hybrisa/misc/machinery/screens/telescreen{
 	pixel_y = 16;
@@ -5844,6 +5839,10 @@
 	},
 /obj/structure/closet/secure_closet/marine_personal/clf/rifleman{
 	pixel_x = 8;
+	pixel_y = -1
+	},
+/obj/structure/closet/secure_closet/marine_personal/clf/rifleman{
+	pixel_x = -7;
 	pixel_y = -1
 	},
 /turf/open/floor/corsat/squares,
@@ -6486,17 +6485,16 @@
 /turf/open/floor/almayer_hull,
 /area/space)
 "qD" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "door_warning";
-	dir = 8;
-	pixel_y = 0
-	},
 /obj/structure/sign/poster/wylogo{
 	pixel_y = 32;
 	layer = 2.9
 	},
 /obj/structure/closet/secure_closet/marine_personal/clf/rifleman{
 	pixel_x = 8;
+	pixel_y = -1
+	},
+/obj/structure/closet/secure_closet/marine_personal/clf/rifleman{
+	pixel_x = -7;
 	pixel_y = -1
 	},
 /turf/open/floor/corsat/squares,
@@ -10678,11 +10676,6 @@
 /turf/open/floor/almayer/tcomms/glowing,
 /area/ss_liberty/deck_one/command_dorms)
 "IN" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "door_warning";
-	dir = 4;
-	pixel_y = 0
-	},
 /obj/structure/prop/hybrisa/misc/machinery/screens/telescreenbroke{
 	pixel_y = 16;
 	pixel_x = -32
@@ -10690,6 +10683,10 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/closet/secure_closet/marine_personal/clf/rifleman{
 	pixel_x = -7;
+	pixel_y = -1
+	},
+/obj/structure/closet/secure_closet/marine_personal/clf/rifleman{
+	pixel_x = 8;
 	pixel_y = -1
 	},
 /turf/open/floor/corsat/squares,
@@ -11026,11 +11023,6 @@
 /obj/item/stool{
 	pixel_x = 5;
 	pixel_y = -1
-	},
-/obj/item/shard{
-	icon_state = "large";
-	pixel_x = -23;
-	pixel_y = 15
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/item/trash/hotdog{
@@ -11920,23 +11912,17 @@
 /turf/open/floor/almayer/aicore/glowing,
 /area/ss_liberty/deck_two/cryo)
 "Ov" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "door_warning";
-	dir = 4;
-	pixel_y = 0
-	},
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/hybrisa/trash{
-	icon_state = "trash_17";
-	pixel_x = 13;
-	pixel_y = 4
-	},
 /obj/structure/sign/poster/clf{
 	pixel_x = 0;
 	pixel_y = 32
 	},
 /obj/structure/closet/secure_closet/marine_personal/clf/rifleman{
 	pixel_x = -7;
+	pixel_y = -1
+	},
+/obj/structure/closet/secure_closet/marine_personal/clf/rifleman{
+	pixel_x = 8;
 	pixel_y = -1
 	},
 /turf/open/floor/corsat/squares,

@@ -1118,8 +1118,14 @@
 		list("Combat Flashlight", round(scale * 10), /obj/item/device/flashlight/combat, VENDOR_ITEM_REGULAR),
 		list("M94 Marking Flare Pack", round(scale * 10), /obj/item/storage/box/flare, VENDOR_ITEM_REGULAR),
 
-		list("SIDEARMS", -1, null, null),
+		list("SIDEARM", -1, null, null),
 		list("HG 44 'Automag' Pistol", round(scale * 2), /obj/item/weapon/gun/pistol/highpower/automag/unloaded, VENDOR_ITEM_REGULAR),
+
+		list("SIDEARM AMMUNITION", -1, null, null),
+		list("HG 44 Standard Magazine", round(scale * 4), /obj/item/ammo_magazine/pistol/highpower/automag, VENDOR_ITEM_REGULAR),
+		list("HG 44 Heavy Magazine", round(scale * 3), /obj/item/ammo_magazine/pistol/highpower/automag/heavy, VENDOR_ITEM_REGULAR),
+		list("HG 44 Incendiary Magazine", round(scale * 2), /obj/item/ammo_magazine/pistol/highpower/automag/incendiary, VENDOR_ITEM_REGULAR),
+		list("HG 44 Toxin Magazine", round(scale * 2), /obj/item/ammo_magazine/pistol/highpower/automag/toxin, VENDOR_ITEM_REGULAR),
 
 		list("MISCELLANEOUS", -1, null, null),
 		list("Fire Extinguisher (Portable)", round(scale * 2), /obj/item/tool/extinguisher/mini, VENDOR_ITEM_REGULAR),
@@ -1130,6 +1136,12 @@
 		list("Rail Flashlight", round(scale * 5), /obj/item/attachable/flashlight, VENDOR_ITEM_REGULAR),
 		list("Two-point Sling", round(scale * 2), /obj/item/attachable/sling, VENDOR_ITEM_REGULAR),
 		list("KA-BAR Utility Knife", round(scale * 25), /obj/item/weapon/knife/marine/kabar, VENDOR_ITEM_REGULAR),
+
+		list("CLOTHING", -1, null, null),
+		list("Balaclava, Gray", round(scale * 5), /obj/item/clothing/mask/rebreather/scarf/gray, VENDOR_ITEM_REGULAR),
+		list("Balaclava, Tan", round(scale * 5), /obj/item/clothing/mask/rebreather/scarf/tan, VENDOR_ITEM_REGULAR),
+		list("Scarf, Gray", round(scale * 5), /obj/item/clothing/mask/rebreather/scarf/tacticalmask, VENDOR_ITEM_REGULAR),
+		list("Scarf, Tan", round(scale * 5), /obj/item/clothing/mask/rebreather/scarf/tacticalmask/tan, VENDOR_ITEM_REGULAR),
 		)
 
 //--------------SQUAD ATTACHMENTS VENDOR--------------
