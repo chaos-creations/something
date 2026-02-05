@@ -5006,10 +5006,6 @@
 /obj/structure/disposalpipe/segment,
 /turf/closed/wall/upp_wall/grey,
 /area/ss_liberty/deck_two/armory_two)
-"kr" = (
-/obj/item/tool/weldingtool,
-/turf/closed/void/space,
-/area/space)
 "kt" = (
 /obj/structure/platform/metal/strata/north,
 /obj/effect/decal/warning_stripes{
@@ -14539,7 +14535,7 @@ to
 to
 to
 to
-kr
+to
 to
 to
 to
