@@ -1716,19 +1716,9 @@
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/ss_liberty/deck_two/hallway)
 "dC" = (
-/obj/item/ammo_magazine/rifle/mar40/lmg{
-	pixel_x = -5;
-	pixel_y = 6
-	},
-/obj/item/ammo_magazine/rifle/mar40/lmg{
-	pixel_x = 6;
-	pixel_y = 5
-	},
-/obj/item/ammo_magazine/rifle/mar40/lmg{
-	pixel_x = 0;
-	pixel_y = 0
-	},
-/obj/item/weapon/gun/rifle/mar40/lmg,
+/obj/item/clothing/under/marine/veteran/canc,
+/obj/item/clothing/shoes/marine/upp/guard/canc,
+/obj/item/clothing/accessory/ranks/canc,
 /obj/structure/closet/crate/secure/upp/alt{
 	pixel_x = 0;
 	pixel_y = 5;
@@ -1737,46 +1727,7 @@
 /turf/open/floor/corsat/cargo,
 /area/ss_liberty/deck_three/hangar)
 "dD" = (
-/obj/item/ammo_magazine/rifle/lw317{
-	pixel_x = -3;
-	pixel_y = 7
-	},
-/obj/item/ammo_magazine/rifle/lw317{
-	pixel_x = -3;
-	pixel_y = 7
-	},
-/obj/item/ammo_magazine/rifle/lw317{
-	pixel_x = -3;
-	pixel_y = 7
-	},
-/obj/item/ammo_magazine/rifle/lw317{
-	pixel_x = -3;
-	pixel_y = 7
-	},
-/obj/item/ammo_magazine/rifle/lw317{
-	pixel_x = -3;
-	pixel_y = 7
-	},
-/obj/item/ammo_magazine/rifle/lw317/ap{
-	pixel_x = -3;
-	pixel_y = 10
-	},
-/obj/item/ammo_magazine/rifle/lw317/ap{
-	pixel_x = -3;
-	pixel_y = 10
-	},
-/obj/item/ammo_magazine/rifle/lw317/ap{
-	pixel_x = -3;
-	pixel_y = 10
-	},
-/obj/item/weapon/gun/rifle/lw317/dmr{
-	pixel_x = 0;
-	pixel_y = 0
-	},
-/obj/structure/closet/crate/secure/upp{
-	pixel_y = 5;
-	name = "smuggled CANC crate"
-	},
+/obj/structure/dropship_equipment/sentry_holder,
 /turf/open/floor/corsat/cargo,
 /area/ss_liberty/deck_three/hangar)
 "dE" = (
@@ -1794,14 +1745,10 @@
 /turf/open/floor/corsat/sigma,
 /area/ss_liberty/deck_three/hangar)
 "dG" = (
-/obj/structure/ship_ammo/minirocket{
+/obj/structure/dropship_equipment/mg_holder,
+/obj/structure/dropship_equipment/mg_holder{
 	pixel_x = 0;
-	pixel_y = 4
-	},
-/obj/structure/ship_ammo/rocket/harpoon{
-	layer = 3.1;
-	pixel_x = 0;
-	pixel_y = 10
+	pixel_y = 7
 	},
 /turf/open/floor/corsat/cargo,
 /area/ss_liberty/deck_three/hangar)
@@ -1890,6 +1837,10 @@
 /obj/structure/ship_ammo/minirocket{
 	pixel_x = 0;
 	pixel_y = 4
+	},
+/obj/structure/dropship_equipment/electronics/flare_launcher{
+	pixel_x = 0;
+	pixel_y = 12
 	},
 /turf/open/floor/corsat/cargo,
 /area/ss_liberty/deck_three/hangar)
@@ -2374,8 +2325,7 @@
 "eC" = (
 /obj/item/storage/box/mre/pmc,
 /obj/item/storage/box/mre/pmc,
-/obj/item/weapon/gun/rifle/nsg23/no_lock,
-/obj/item/ammo_box/magazine/nsg23,
+/obj/item/storage/box/mre/pmc,
 /obj/structure/closet/crate/secure/weyland{
 	pixel_y = 5
 	},
@@ -5056,6 +5006,10 @@
 /obj/structure/disposalpipe/segment,
 /turf/closed/wall/upp_wall/grey,
 /area/ss_liberty/deck_two/armory_two)
+"kr" = (
+/obj/item/tool/weldingtool,
+/turf/closed/void/space,
+/area/space)
 "kt" = (
 /obj/structure/platform/metal/strata/north,
 /obj/effect/decal/warning_stripes{
@@ -8926,7 +8880,8 @@
 "Bc" = (
 /obj/structure/machinery/cm_vending/sorted/tech/tool_storage{
 	pixel_x = -1;
-	pixel_y = 5
+	pixel_y = 5;
+	req_one_access = list(262, 263,265, 270)
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/corsat/cargo,
@@ -12546,7 +12501,9 @@
 /area/ss_liberty/deck_one/engi)
 "Ro" = (
 /obj/structure/platform_decoration/metal/strata,
-/obj/structure/machinery/cm_vending/sorted/tech/electronics_storage,
+/obj/structure/machinery/cm_vending/sorted/tech/electronics_storage{
+	req_one_access = list(262, 263,265, 270)
+	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/corsat/cargo,
 /area/ss_liberty/deck_one/engi)
@@ -13543,17 +13500,6 @@
 	},
 /turf/open/floor/strata/multi_tiles/west,
 /area/ss_liberty/deck_one/hallway)
-"VH" = (
-/obj/item/clothing/mask/gas/pmc{
-	pixel_x = -5;
-	pixel_y = 36
-	},
-/obj/item/clothing/head/helmet/marine/veteran/pmc{
-	pixel_x = 6;
-	pixel_y = 37
-	},
-/turf/open/floor/corsat/squares,
-/area/ss_liberty/deck_three/hangar)
 "VI" = (
 /obj/structure/platform_decoration/metal/strata/north,
 /obj/effect/decal/strata_decals/catwalk/prison,
@@ -14593,7 +14539,7 @@ to
 to
 to
 to
-to
+kr
 to
 to
 to
@@ -16840,7 +16786,7 @@ hY
 hY
 dF
 eC
-VH
+hY
 pH
 Tx
 ec
