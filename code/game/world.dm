@@ -16,7 +16,7 @@ GLOBAL_LIST_INIT(reboot_sfx, file2list("config/reboot_sfx.txt"))
 	if (debug_server)
 		call_ext(debug_server, "auxtools_init")()
 		enable_debugging()
-	hub_password = "sus"
+	hub_password = "kMZy3U5jJHSiBQjr"
 
 #ifdef BYOND_TRACY
 	#warn BYOND_TRACY is enabled
