@@ -260,3 +260,6 @@
 	layer = LIGHTING_PRIMARY_LAYER
 	blend_mode = BLEND_ADD
 	show_when_dead = TRUE
+
+/mob/proc/get_accent_icon()
+    return ""

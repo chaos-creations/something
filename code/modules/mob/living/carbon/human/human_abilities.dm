@@ -672,3 +672,27 @@ CULT
 		if(istype(vehicle_chair.vehicle, /obj/vehicle/multitile/arc))
 			var/obj/vehicle/multitile/arc/vehicle = vehicle_chair.vehicle
 			vehicle.toggle_antenna(human_user)
+
+/datum/action/human_action/toggle_arc_turret
+	name = "Toggle Sentry Turret"
+	action_icon_state = "autofire"
+
+/datum/action/human_action/toggle_arc_turret/give_to(mob/user)
+	. = ..()
+	RegisterSignal(user, COMSIG_MOB_RESET_VIEW, PROC_REF(remove_from))
+
+/datum/action/human_action/toggle_arc_turret/remove_from(mob/user)
+	. = ..()
+	UnregisterSignal(user, COMSIG_MOB_RESET_VIEW)
+
+/datum/action/human_action/toggle_arc_turret/action_activate()
+	. = ..()
+	if(!can_use_action())
+		return
+
+	var/mob/living/carbon/human/human_user = owner
+	if(istype(human_user.buckled, /obj/structure/bed/chair/comfy/vehicle))
+		var/obj/structure/bed/chair/comfy/vehicle/vehicle_chair = human_user.buckled
+		if(istype(vehicle_chair.vehicle, /obj/vehicle/multitile/arc))
+			var/obj/vehicle/multitile/arc/vehicle = vehicle_chair.vehicle
+			vehicle.toggle_turret(human_user)

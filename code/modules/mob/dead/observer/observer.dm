@@ -525,10 +525,16 @@ This is the proc mobs get to turn into a ghost. Forked from ghostize due to comp
 
 /mob/living/proc/do_ghost()
 	if(stat == DEAD)
-		if(mind && mind.player_entity)
+		if(GLOB.admin_only_observe && !check_rights(R_ADMIN, 0))
+			to_chat(src, FONT_SIZE_LARGE(SPAN_DEADSAY("<b>Observation has been disabled by the Game Master.</b>")))
+			return
+		else if(mind && mind.player_entity)
 			mind.player_entity.update_panel_data(GLOB.round_statistics)
 		ghostize(TRUE)
 	else
+		if(GLOB.admin_only_observe && !check_rights(R_ADMIN, 0))
+			to_chat(src, FONT_SIZE_LARGE(SPAN_DEADSAY("<b>Observation has been disabled by the Game Master.</b>")))
+			return
 		var/list/options = list("Ghost", "Stay in body")
 		if(check_other_rights(client, R_MOD, FALSE))
 			options = list("Aghost") + options

@@ -133,12 +133,12 @@
 			if(!SSticker || SSticker.current_state == GAME_STATE_STARTUP)
 				to_chat(src, SPAN_WARNING("The game is still setting up, please try again later."))
 				return
+			if(GLOB.admin_only_observe && !check_rights(R_ADMIN, 0))
+				to_chat(src, FONT_SIZE_LARGE(SPAN_DEADSAY("<b>Observation has been disabled by the Game Master.</b>")))
+				return FALSE
 			if(alert(src,"Are you sure you wish to observe? When you observe, you will not be able to join as marine. It might also take some time to become a xeno or responder!","Player Setup","Yes","No") == "Yes")
 				if(!client)
 					return TRUE
-				if(GLOB.admin_only_observe && !check_rights(R_ADMIN, 0))
-					to_chat(src, FONT_SIZE_LARGE(SPAN_DEADSAY("<b>Not today.</b>")))
-					return FALSE
 				if(!client.prefs?.preview_dummy)
 					client.prefs.update_preview_icon()
 				var/mob/dead/observer/observer = new /mob/dead/observer(get_turf(pick(GLOB.latejoin)), client.prefs.preview_dummy)

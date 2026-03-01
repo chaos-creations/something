@@ -1,12 +1,12 @@
 /datum/origin/upp
 	name = ORIGIN_UPP
 	desc = "You were born in the Union of Progressive Peoples."
-
+	tag_icon = "upp"
 
 /datum/origin/upp/cradle
 	name = ORIGIN_UPP_CRADLE
 	desc = "From one of the numerous member states of Earth, or from a heavily developed colony in the inner rim, you've been enthralled by Frontier adventure."
-
+	tag_icon = "upp_crandle"
 
 /datum/origin/upp/frontier
 	name = ORIGIN_UPP_FRONTIERSMAN
@@ -22,6 +22,8 @@
 	name = ORIGIN_UPP_EXCANC
 	desc = "You hail from the now extinct Chinese/Asian-Nation Cooperative, a once powerful colonizing entity, which was absorbed into the UPP after the disastrous Dog War."
 
+
 /datum/origin/upp/canc
 	name = ORIGIN_CANC
 	desc = "You hail from the now extinct Chinese/Asian-Nation Cooperative, a once powerful colonizing entity, which was absorbed into the UPP after the disastrous Dog War. You fight on."
+	tag_icon = "upp_canc"

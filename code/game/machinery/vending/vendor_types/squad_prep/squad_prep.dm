@@ -521,6 +521,7 @@
 
 		list("ADDITIONAL CLOTHING", -1, null, null),
 		list("Poncho, Green", round(scale * 10), /obj/item/clothing/accessory/poncho/green, VENDOR_ITEM_REGULAR),
+		list("Rain Poncho, Green", round(scale * 10), /obj/item/clothing/accessory/poncho/green/raicoat, VENDOR_ITEM_REGULAR),
 		list("Poncho, Brown", round(scale * 10), /obj/item/clothing/accessory/poncho/brown, VENDOR_ITEM_REGULAR),
 		list("Poncho, Black", round(scale * 10), /obj/item/clothing/accessory/poncho/black, VENDOR_ITEM_REGULAR),
 		list("Bandana, Jungle", round(scale * 5), /obj/item/clothing/head/cmbandana, VENDOR_ITEM_REGULAR),
