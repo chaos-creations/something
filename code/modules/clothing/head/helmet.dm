@@ -868,8 +868,8 @@ GLOBAL_LIST_INIT(allowed_helmet_items, list(
 /obj/item/clothing/head/helmet/marine/specialist
 	name = "\improper B18 helmet"
 	desc = "Helmet and faceplate component of the B18 armor system. Nanobonded carbonfiber laminated with ultrahigh molecular density polymer, with an integral rebreather and heads up display."
-	icon_state = "grenadier_helmet"
-	item_state = "grenadier_helmet"
+	icon_state = "pyro_helmet"
+	item_state = "pyro_helmet"
 	armor_melee = CLOTHING_ARMOR_HIGH
 	armor_bullet = CLOTHING_ARMOR_HIGH
 	armor_bomb = CLOTHING_ARMOR_ULTRAHIGH
@@ -879,7 +879,8 @@ GLOBAL_LIST_INIT(allowed_helmet_items, list(
 	unacidable = TRUE
 	anti_hug = 6
 	force = 20
-	flags_atom = NO_NAME_OVERRIDE
+	flags_atom = NO_NAME_OVERRIDE|NO_SNOW_TYPE
+	flags_inventory = COVEREYES|COVERMOUTH|BLOCKSHARPOBJ|BLOCKGASEFFECT|ALLOWCPR
 
 /obj/item/clothing/head/helmet/marine/grenadier
 	name = "\improper M12 grenadier helmet"
@@ -1946,6 +1947,15 @@ GLOBAL_LIST_INIT(allowed_helmet_items, list(
 	armor_bomb = CLOTHING_ARMOR_MEDIUMHIGH
 	armor_bio = CLOTHING_ARMOR_MEDIUM
 	armor_internaldamage = CLOTHING_ARMOR_LOW
+
+/obj/item/clothing/head/helmet/space/pressure/rmc
+	name = "\improper Ross-Smith Mk4 pressure helmet"
+	desc = "A heavy space helmet, designed to be worm alongside the Ross-Smith Mk4 pressure suit utilized by the Three World Empires Royal Marine Commando forces. Makes usage of camera systems and an internal display screen, rather than a toughened glass visor for visibility."
+	helmet_color = "helmet_rmc"
+	contained_sprite = TRUE
+	item_state = "pressure_helmet_rmc"
+	icon_state = "pressure_helmet_rmc"
+	icon = 'icons/mob/humans/onmob/contained/royal_marines_commando.dmi'
 
 //=USASF & ARMY=\\
 

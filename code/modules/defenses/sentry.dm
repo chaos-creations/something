@@ -51,7 +51,7 @@
 
 	/// action list is configurable for all subtypes, this is just an example
 	choice_categories = list(
-		SENTRY_CATEGORY_ROF = list(ROF_SINGLE, ROF_BURST, ROF_FULL_AUTO),
+		SENTRY_CATEGORY_ROF = list(ROF_SINGLE, ROF_FULL_AUTO),
 		SENTRY_CATEGORY_IFF = list(FACTION_MARINE, SENTRY_FACTION_WEYLAND, SENTRY_FACTION_HUMAN, FACTION_UPP),
 	)
 
