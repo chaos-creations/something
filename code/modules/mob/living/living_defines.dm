@@ -143,3 +143,6 @@
 
 	// for multiz looking up
 	var/atom/observed_atom
+
+	// Virtual Reality
+	var/remote_network // The network this mob is attached to, used in virtual reality and remote control things
