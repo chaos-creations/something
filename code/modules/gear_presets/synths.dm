@@ -692,6 +692,52 @@
 	new_human.g_facial = 255
 	new_human.b_facial = 255
 
+/datum/equipment_preset/synth/working_joe/remote
+	name = "USCM Automaton"
+	flags = EQUIPMENT_PRESET_EXTRA
+	assignment = "USCM Automaton"
+
+/datum/equipment_preset/synth/working_joe/remote/load_gear(mob/living/carbon/human/new_human)
+	new_human.equip_to_slot_or_del(new /obj/item/device/radio/headset/distress(new_human), WEAR_L_EAR)
+	var/random_overalls= rand(1,3)
+	switch(random_overalls)
+		if(1 to 2)
+			new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/storage/apron/overalls/tan(new_human), WEAR_JACKET)
+		if(3)
+			new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/storage/apron/overalls/red(new_human), WEAR_JACKET)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/colonist/boilersuit/white(new_human), WEAR_BODY)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/marine/joe(new_human), WEAR_FEET)
+	new_human.equip_to_slot_or_del(new /obj/item/tool/weldingtool/hugetank, WEAR_IN_JACKET)
+
+	new_human.equip_to_slot_or_del(new /obj/item/storage/belt/utility/full(new_human), WEAR_WAIST)
+	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/etool(new_human), WEAR_L_STORE)
+	new_human.equip_to_slot_or_del(new /obj/item/tool/shovel/etool/upp/folded(new_human), WEAR_IN_L_STORE)
+	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/general/medium(new_human), WEAR_R_STORE)
+	new_human.equip_to_slot_or_del(new /obj/item/device/lightreplacer(new_human.back), WEAR_IN_R_STORE)
+
+	var/mob/living/carbon/human/joe/remote/joe = new_human
+	if(joe)
+		joe.remote_network = "remoterobots"
+		SSvirtualreality.add_robot(joe, joe.remote_network)
+
+/datum/equipment_preset/synth/working_joe/remote/load_name(mob/living/carbon/human/new_human, randomise)
+	new_human.change_real_name(new_human, "USCM Combat Automaton #[rand(50)]")
+
+/datum/equipment_preset/synth/working_joe/remote/load_race(mob/living/carbon/human/new_human)
+	. = ..()
+	new_human.set_species(joe_type)
+	new_human.h_style = "Bald"
+	new_human.f_style = "Shaved"
+	new_human.r_eyes = 0
+	new_human.g_eyes = 0
+	new_human.b_eyes = 0
+	new_human.r_hair = 100
+	new_human.g_hair = 88
+	new_human.b_hair = 74
+	new_human.r_facial = 255
+	new_human.g_facial = 255
+	new_human.b_facial = 255
+
 //*****************************************************************************************************/
 
 /datum/equipment_preset/synth/survivor/cultist_synth
