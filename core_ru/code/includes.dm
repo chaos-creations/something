@@ -1,5 +1,6 @@
 #include "modules\mob\living\carbon\human\emote.dm"
 //хуйня которую я не знаю куда запихать
+#include "decorations.dm"
 // admin tools
 #include "admin_tools\dice.dm"
 // pixel shifting

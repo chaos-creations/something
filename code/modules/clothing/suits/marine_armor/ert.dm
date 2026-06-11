@@ -539,6 +539,36 @@
 	icon_state = "upp_ballistic_armor"
 	item_state = "upp_ballistic_armor"
 
+/obj/item/clothing/suit/marine/faction/upp/army
+	name = "\improper 6B80 personal body armor"
+	desc = "An older UPP personal armor system that's since been replaced by the UPP Army Standard 6B90 body armor. It is still used by certain UPP Army units that the UPP doesn't expect to see much combat."
+	icon_state = "upp_armor_army_brown"
+	item_state = "upp_armor_army_brown"
+	armor_melee = CLOTHING_ARMOR_MEDIUMLOW // Goon stats
+	armor_bullet = CLOTHING_ARMOR_MEDIUM
+	armor_energy = CLOTHING_ARMOR_MEDIUMLOW
+	armor_bomb = CLOTHING_ARMOR_MEDIUMLOW
+	armor_rad = CLOTHING_ARMOR_MEDIUM
+	armor_internaldamage = CLOTHING_ARMOR_MEDIUM
+	flags_armor_protection = (BODY_FLAG_CHEST)
+	flags_cold_protection = (BODY_FLAG_CHEST)
+	flags_heat_protection = (BODY_FLAG_CHEST)
+	valid_accessory_slots = list(ACCESSORY_SLOT_MEDAL, ACCESSORY_SLOT_PAINT, ACCESSORY_SLOT_M3UTILITY, ACCESSORY_SLOT_PONCHO)
+	restricted_accessory_slots = list(ACCESSORY_SLOT_M3UTILITY, ACCESSORY_SLOT_PAINT)
+	specialty = "\improper 6B80 pattern"
+
+/obj/item/clothing/suit/marine/faction/upp/army/alt
+	name = "6B75 personal body armour"
+	icon_state = "upp_ballistic_armor"
+	item_state = "upp_ballistic_armor"
+	specialty = "\improper 6B75 pattern"
+
+/obj/item/clothing/suit/marine/faction/upp/army/simple
+	name = "6B70 personal body armour"
+	icon_state = "upp_generic_ballistic_armor"
+	item_state = "upp_generic_ballistic_armor"
+	specialty = "\improper 6B70 pattern"
+
 // UPP SOF
 
 /obj/item/clothing/suit/marine/faction/upp/sof
