@@ -2,6 +2,21 @@
 "aa" = (
 /turf/open/floor/prison/sterile_white,
 /area/golden_arrow/medical)
+"ab" = (
+/obj/structure/prop{
+	icon = 'icons/obj/structures/machinery/vending.dmi';
+	icon_state = "clothing_broken";
+	name = "\improper Broken Uniform Vendor";
+	desc = "A severely damaged and long-abandoned uniform vendor from an older era of the ship's service. The power cables are cut, the glass is smashed, and there is nothing left inside but dust."
+	},
+/turf/open/floor/strata_green/floor3,
+/area/space)
+"ac" = (
+/turf/open/floor/strata_green/floorscorched2,
+/area/space)
+"ad" = (
+/turf/open/floor/corsat,
+/area/space)
 "ae" = (
 /obj/structure/machinery/power/smes/buildable,
 /turf/open/floor/corsat/marked,
@@ -26,6 +41,25 @@
 /obj/structure/platform/metal/almayer_smooth/east,
 /turf/open_space,
 /area/golden_arrow/prep_hallway)
+"aj" = (
+/turf/open/floor/strata_green/multi_tiles_alt,
+/area/space)
+"ak" = (
+/obj/structure/closet/coffin/woodencrate/old/alt,
+/obj/item/clothing/accessory/upppads/bracers_sof{
+	name = "\improper CCC2 Arm Plates";
+	desc = "A pair of composite ballistic vambraces to shield the forearms, with straps to ensure it doesn't ride up or down. designed for the CCC2 armor system.";
+	pixel_x = -3;
+	pixel_y = -3
+	},
+/obj/item/clothing/accessory/upppads/kneepads_sof{
+	name = "\improper CCC2 Kneepads";
+	desc = "High impact ruggedized outer shell and polymer internals protect from shrapnel as well as low power ballistics. designed for the CCC2 armor system.";
+	pixel_x = 5;
+	pixel_y = 5
+	},
+/turf/open/floor/corsat,
+/area/space)
 "al" = (
 /obj/structure/sign/safety/ammunition{
 	pixel_x = -20;
@@ -37,6 +71,27 @@
 	},
 /turf/open/floor/strata/multi_tiles/west,
 /area/golden_arrow/prep_hallway)
+"am" = (
+/obj/item/pipe{
+	connect_types = list(3);
+	color = "#0000ff";
+	pixel_x = -8;
+	pixel_y = 6;
+	dir = 9
+	},
+/turf/open/floor/corsat,
+/area/space)
+"an" = (
+/obj/structure/bed/chair/comfy/bench/south,
+/obj/item/clothing/accessory/patch/cec_patch{
+	pixel_x = 2;
+	pixel_y = 8
+	},
+/turf/open/floor/corsat,
+/area/space)
+"ao" = (
+/turf/open/floor/strata_green/plate_alt1,
+/area/space)
 "ap" = (
 /obj/effect/decal/floor_symbol/upp/northface/southeast{
 	color = "#ddb34e"
@@ -54,6 +109,34 @@
 "ar" = (
 /turf/open/floor/corsat/marked,
 /area/golden_arrow/briefing)
+"as" = (
+/obj/structure/surface/rack{
+	color = "#6b675e"
+	},
+/obj/item/clothing/suit/marine/faction/upp/sof/heavy{
+	desc = "An obsolete UPP-issued heavy vest from an older generation of exploratory operations. It utilizes thick, outdated composite plating that offers solid ballistic protection at the cost of significant bulk and weight.";
+	name = "\improper CCC2 Expedition Vest"
+	},
+/turf/open/floor/corsat,
+/area/space)
+"at" = (
+/obj/structure/surface/rack{
+	color = "#6b675e";
+	layer = 2.79
+	},
+/obj/item/weapon/gun/rifle/ak4047/unloaded{
+	pixel_x = 3;
+	pixel_y = -5
+	},
+/obj/item/weapon/gun/rifle/ak4047/unloaded{
+	pixel_x = 3;
+	pixel_y = 5
+	},
+/obj/structure/machinery/light/double/chapaev/burned{
+	dir = 8
+	},
+/turf/open/floor/corsat,
+/area/space)
 "au" = (
 /obj/structure/prop{
 	icon = 'icons/obj/pipes/disposal.dmi';
@@ -90,6 +173,31 @@
 	},
 /turf/open/floor/corsat/marked,
 /area/golden_arrow/prep_hallway)
+"aw" = (
+/obj/structure/surface/rack{
+	color = "#6b675e";
+	layer = 2.79
+	},
+/obj/item/ammo_box/magazine/ak4047{
+	pixel_x = 0;
+	pixel_y = 7
+	},
+/obj/item/ammo_box/magazine/ak4047/ap{
+	pixel_x = 0;
+	pixel_y = -2
+	},
+/turf/open/floor/corsat,
+/area/space)
+"ax" = (
+/obj/structure/bed/chair/comfy/bench/mid,
+/turf/open/floor/corsat,
+/area/space)
+"ay" = (
+/obj/structure/pipes/standard/manifold/hidden/supply{
+	dir = 8
+	},
+/turf/open/floor/corsat,
+/area/space)
 "az" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "door_warning_red";
@@ -99,6 +207,20 @@
 	},
 /turf/open/floor/strata_green/plate1,
 /area/golden_arrow/squad_one)
+"aA" = (
+/turf/open/floor/strata_green/plate_alt2,
+/area/space)
+"aB" = (
+/turf/open/floor/strata_green/floorscorched1,
+/area/space)
+"aC" = (
+/obj/structure/bed/chair/comfy/bench/north,
+/obj/item/clothing/accessory/storage/droppouch/wy{
+	pixel_x = 0;
+	pixel_y = -10
+	},
+/turf/open/floor/corsat,
+/area/space)
 "aD" = (
 /obj/structure/machinery/door/poddoor/shutters/almayer{
 	id = "chapaevlift";
@@ -125,6 +247,38 @@
 	},
 /turf/open/floor/corsat/marked,
 /area/golden_arrow/engineering)
+"aG" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/open/floor/corsat,
+/area/space)
+"aH" = (
+/obj/structure/surface/rack{
+	color = "#6b675e"
+	},
+/obj/item/clothing/head/helmet/marine/veteran/upp/sof{
+	pixel_x = 1;
+	pixel_y = 8;
+	name = "\improper CCC2 Expedition Helmet";
+	desc = "An obsolete UPP combat helmet built for early exploratory operations. It features heavy polymer plating and a rugged spherical visor, though its integrated electronics and comms suite are decades out of date."
+	},
+/turf/open/floor/corsat,
+/area/space)
+"aI" = (
+/obj/structure/machinery/constructable_frame{
+	state = 1;
+	icon_state = "box_1"
+	},
+/turf/open/floor/corsat,
+/area/space)
+"aJ" = (
+/obj/structure/closet/coffin/woodencrate/old/alt,
+/obj/item/clothing/accessory/storage/webbing/m3/mag/pmc,
+/obj/item/clothing/under/marine/veteran/upp/sof{
+	name = "\improper CCC2 compression undersuit";
+	desc = "A temperature-regulating pressure suit forming the base layer of the CCC2 system. It provides compression support, limited vacuum resistance, moisture-wicking properties, and NBC protection to sustain operators in hazardous conditions."
+	},
+/turf/open/floor/strata_green/damaged2,
+/area/space)
 "aL" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 4
@@ -1387,7 +1541,6 @@
 /area/golden_arrow/platoon_sergeant)
 "gM" = (
 /obj/structure/bed/chair/comfy/bench/mid,
-/obj/effect/narrate/old_armory,
 /turf/open/floor/corsat,
 /area/golden_arrow/platoonarmory)
 "gN" = (
@@ -1499,10 +1652,6 @@
 /obj/item/ammo_box/magazine/ak4047{
 	pixel_x = 0;
 	pixel_y = 7
-	},
-/obj/item/ammo_box/magazine/ak4047/ap{
-	pixel_x = 0;
-	pixel_y = -2
 	},
 /turf/open/floor/corsat,
 /area/golden_arrow/platoonarmory)
@@ -4363,10 +4512,6 @@
 /area/golden_arrow/briefing)
 "vF" = (
 /obj/structure/bed/chair/comfy/bench/north,
-/obj/item/clothing/accessory/storage/droppouch/wy{
-	pixel_x = 0;
-	pixel_y = -10
-	},
 /turf/open/floor/corsat,
 /area/golden_arrow/platoonarmory)
 "vG" = (
@@ -5348,9 +5493,9 @@
 /obj/structure/surface/rack{
 	color = "#6b675e"
 	},
-/obj/item/clothing/suit/marine/faction/upp/sof/heavy{
-	desc = "An obsolete UPP-issued heavy vest from an older generation of exploratory operations. It utilizes thick, outdated composite plating that offers solid ballistic protection at the cost of significant bulk and weight.";
-	name = "\improper CCC2 Expedition Vest"
+/obj/item/clothing/under/marine/veteran/upp/sof{
+	name = "\improper CCC2 compression undersuit";
+	desc = "A temperature-regulating pressure suit forming the base layer of the CCC2 system. It provides compression support, limited vacuum resistance, moisture-wicking properties, and NBC protection to sustain operators in hazardous conditions."
 	},
 /turf/open/floor/corsat,
 /area/golden_arrow/platoonarmory)
@@ -5554,10 +5699,6 @@
 	dir = 10
 	},
 /turf/open/floor/plating/plating_catwalk/strata_green,
-/area/golden_arrow/briefing)
-"BP" = (
-/obj/effect/narrate/museum,
-/turf/open/floor/strata/multi_tiles/southeast,
 /area/golden_arrow/briefing)
 "BS" = (
 /obj/item/stack/sheet/wood{
@@ -7021,18 +7162,7 @@
 "IE" = (
 /obj/structure/machinery/power/apc/almayer/south,
 /obj/structure/closet/coffin/woodencrate/old/alt,
-/obj/item/clothing/accessory/upppads/bracers_sof{
-	name = "\improper CCC2 Arm Plates";
-	desc = "A pair of composite ballistic vambraces to shield the forearms, with straps to ensure it doesn't ride up or down. designed for the CCC2 armor system.";
-	pixel_x = -3;
-	pixel_y = -3
-	},
-/obj/item/clothing/accessory/upppads/kneepads_sof{
-	name = "\improper CCC2 Kneepads";
-	desc = "High impact ruggedized outer shell and polymer internals protect from shrapnel as well as low power ballistics. designed for the CCC2 armor system.";
-	pixel_x = 5;
-	pixel_y = 5
-	},
+/obj/item/clothing/accessory/storage/webbing/m3/mag/pmc,
 /turf/open/floor/corsat,
 /area/golden_arrow/platoonarmory)
 "IG" = (
@@ -7586,7 +7716,6 @@
 /obj/structure/pipes/standard/manifold/hidden/supply{
 	dir = 8
 	},
-/obj/effect/narrate/old_kitchen,
 /turf/open/floor/corsat,
 /area/golden_arrow/cryo_cells)
 "KT" = (
@@ -9458,10 +9587,8 @@
 /area/golden_arrow/dorms)
 "TR" = (
 /obj/structure/closet/coffin/woodencrate/old/alt,
-/obj/item/clothing/accessory/storage/webbing/m3/mag/pmc,
-/obj/item/clothing/under/marine/veteran/upp/sof{
-	name = "\improper CCC2 compression undersuit";
-	desc = "A temperature-regulating pressure suit forming the base layer of the CCC2 system. It provides compression support, limited vacuum resistance, moisture-wicking properties, and NBC protection to sustain operators in hazardous conditions."
+/obj/item/clothing/accessory/storage/droppouch/wy{
+	pixel_x = 0
 	},
 /turf/open/floor/strata_green/damaged2,
 /area/golden_arrow/platoonarmory)
@@ -9812,12 +9939,6 @@
 "VB" = (
 /obj/structure/surface/rack{
 	color = "#6b675e"
-	},
-/obj/item/clothing/head/helmet/marine/veteran/upp/sof{
-	pixel_x = 1;
-	pixel_y = 8;
-	name = "\improper CCC2 Expedition Helmet";
-	desc = "An obsolete UPP combat helmet built for early exploratory operations. It features heavy polymer plating and a rugged spherical visor, though its integrated electronics and comms suite are decades out of date."
 	},
 /turf/open/floor/corsat,
 /area/golden_arrow/platoonarmory)
@@ -14907,11 +15028,11 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
+ab
+aB
+at
+ad
+ab
 mV
 mV
 mV
@@ -14991,11 +15112,11 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
+aI
+aA
+aw
+ad
+ab
 mV
 mV
 mV
@@ -15075,11 +15196,11 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
+aj
+ad
+ad
+am
+ac
 mV
 mV
 mV
@@ -15159,11 +15280,11 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
+ad
+aC
+ax
+an
+ad
 mV
 mV
 mV
@@ -15243,11 +15364,11 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
+ad
+aG
+ay
+ao
+aj
 mV
 mV
 mV
@@ -15327,11 +15448,11 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
+aJ
+aH
+aA
+as
+ak
 mV
 mV
 mV
@@ -16633,7 +16754,7 @@ eW
 PY
 OR
 GH
-BP
+oY
 qa
 xu
 Kb

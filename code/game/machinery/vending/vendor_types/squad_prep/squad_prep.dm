@@ -324,12 +324,8 @@
 		list("1PN77M \"Periskop\" Camera Unit", floor(scale * 15), /obj/item/device/overwatch_camera/upp, VENDOR_ITEM_REGULAR),
 
 		list("ARMOR", -1, null, null),
-		list("6B75 Combat Helmet (Green)", 1, /obj/item/clothing/head/helmet/marine/veteran/upp, VENDOR_ITEM_REGULAR),
-		list("6B77 Combat Helmet (Brown)", round(scale * 15), /obj/item/clothing/head/helmet/marine/veteran/upp/army, VENDOR_ITEM_REGULAR),
-		list("6B90 Personal Body Armor", 1, /obj/item/clothing/suit/marine/faction/upp/standard, VENDOR_ITEM_REGULAR),
+		list("6B77 Combat Helmet", round(scale * 15), /obj/item/clothing/head/helmet/marine/veteran/upp/army, VENDOR_ITEM_REGULAR),
 		list("6B80 Personal Body Armor", round(scale * 10), /obj/item/clothing/suit/marine/faction/upp/army, VENDOR_ITEM_REGULAR),
-		list("6B75 Personal Body Armor", round(scale * 10), /obj/item/clothing/suit/marine/faction/upp/army/alt, VENDOR_ITEM_REGULAR),
-		list("6B70 Personal Body Armor", round(scale * 10), /obj/item/clothing/suit/marine/faction/upp/army/simple, VENDOR_ITEM_REGULAR),
 
 		list("WEBBINGS", -1, null, null),
 		list("Type 90 Pattern Magazine Webbing", round(scale * 10), /obj/item/clothing/accessory/storage/webbing/m3/uppmags, VENDOR_ITEM_REGULAR),
