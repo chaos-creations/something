@@ -1632,3 +1632,10 @@
 	item_icons = list(
 		WEAR_BODY = 'icons/mob/humans/onmob/uniform_1.dmi',
 	)
+
+/obj/item/clothing/under/rank/guardian
+	name = "guardian pants"
+	desc = "placeholder"
+	icon_state = "guardian_uniform"
+	worn_state = "guardian_uniform"
+	flags_jumpsuit = FALSE

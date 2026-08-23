@@ -355,3 +355,9 @@
 	name = "lizardskin boots"
 	desc = "A pair of lizardskin cowboy boots. Get your disco on, baby."
 	icon_state = "lizardskin"
+
+/obj/item/clothing/shoes/guardian
+	name = "guardian boots"
+	desc = "placeholder"
+	icon_state = "guardian_boots"
+	item_state = "guardian_boots"
