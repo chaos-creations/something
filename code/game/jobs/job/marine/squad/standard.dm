@@ -200,6 +200,20 @@
 	squad = SQUAD_RMC
 	job = /datum/job/marine/standard/ai/rmc
 
+/datum/job/marine/standard/ai/army
+	title = JOB_ARMY_TROOPER
+	total_positions = 3
+	spawn_positions = 3
+	gear_preset = /datum/equipment_preset/uscm/rmc
+	job_options = null
+	supervisors = "placeholder"
+	entry_message_body = "placeholder"
+
+/obj/effect/landmark/start/marine/army
+	name = JOB_ARMY_TROOPER
+	squad = /datum/squad/army
+	job = /datum/job/marine/standard/ai/army
+
 #undef SGT_VARIANT
 #undef JSGT_VARIANT
 #undef CPL_VARIANT
