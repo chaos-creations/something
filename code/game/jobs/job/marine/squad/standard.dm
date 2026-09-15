@@ -200,11 +200,13 @@
 	squad = SQUAD_RMC
 	job = /datum/job/marine/standard/ai/rmc
 
+//-- Army Platoon --//
+
 /datum/job/marine/standard/ai/army
 	title = JOB_ARMY_TROOPER
 	total_positions = 3
 	spawn_positions = 3
-	gear_preset = /datum/equipment_preset/uscm/rmc
+	gear_preset = /datum/equipment_preset/uscm/army/trooper
 	job_options = null
 	supervisors = "placeholder"
 	entry_message_body = "placeholder"

@@ -180,6 +180,22 @@
 	job = JOB_TWE_RMC_SMARTGUNNER
 	squad = SQUAD_RMC
 
+//-- Army Platoon --//
+
+/datum/job/marine/smartgunner/ai/army
+	title = JOB_ARMY_GUNNER
+	total_positions = 1
+	spawn_positions = 1
+	gear_preset = /datum/equipment_preset/uscm/army/gunner
+	job_options = null
+	supervisors = "placeholder"
+	entry_message_body = "placeholder"
+
+/obj/effect/landmark/start/marine/smartgunner/army
+	name = JOB_ARMY_GUNNER
+	squad = SQUAD_ARMY
+	job = /datum/job/marine/smartgunner/ai/army
+
 #undef SGT_VARIANT
 #undef JSGT_VARIANT
 #undef CPL_VARIANT

@@ -153,6 +153,20 @@
 	squad = SQUAD_RMC
 	job = /datum/job/marine/tl/ai/rmc2ic
 
+//-- Army Platoon --//
+
+/datum/job/marine/tl/ai/army
+	title = JOB_ARMY_NCO
+	gear_preset = /datum/equipment_preset/uscm/army/tl
+	job_options = null
+	supervisors = "placeholder"
+	entry_message_body = "placeholder"
+
+/obj/effect/landmark/start/marine/tl/army
+	name = JOB_ARMY_NCO
+	squad = SQUAD_ARMY
+	job = /datum/job/marine/tl/ai/army
+
 #undef SSGT_VARIANT
 #undef SRSGT_VARIANT
 #undef SGT_VARIANT

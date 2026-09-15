@@ -103,5 +103,21 @@
 	squad = SQUAD_RMC
 	job = /datum/job/marine/engineer/ai/rmcmortar
 
+//-- Army Platoon --//
+
+/datum/job/marine/engineer/ai/army
+	title = JOB_ARMY_ENGI
+	total_positions = 1
+	spawn_positions = 1
+	gear_preset = /datum/equipment_preset/uscm/army/engi
+	job_options = null
+	supervisors = "placeholder"
+	entry_message_body = "placeholder"
+
+/obj/effect/landmark/start/marine/engineer/army
+	name = JOB_ARMY_ENGI
+	squad = SQUAD_ARMY
+	job = /datum/job/marine/engineer/ai/army
+
 #undef LCPL_VARIANT
 #undef PFC_VARIANT

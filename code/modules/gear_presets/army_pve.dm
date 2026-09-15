@@ -87,7 +87,7 @@
 	skills = /datum/skills/snco
 
 // staff officer
-/datum/equipment_preset/uscm/army/sl
+/datum/equipment_preset/uscm/army/commander
 	name = "US Army (Platoon), Platoon Officer"
 	assignment = JOB_ARMY_LT
 	rank = JOB_ARMY_LT

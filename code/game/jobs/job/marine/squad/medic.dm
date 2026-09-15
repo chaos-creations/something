@@ -177,6 +177,20 @@
 	squad = SQUAD_RMC
 	job = /datum/job/marine/medic/ai/rmc
 
+//-- Army Platoon --//
+
+/datum/job/marine/medic/ai/army
+	title = JOB_ARMY_MEDIC
+	gear_preset = /datum/equipment_preset/uscm/army/medic
+	job_options = null
+	supervisors = "placeholder"
+	entry_message_body = "placeholder"
+
+/obj/effect/landmark/start/marine/medic/army
+	name = JOB_ARMY_MEDIC
+	squad = SQUAD_ARMY
+	job = /datum/job/marine/medic/ai/army
+
 #undef SGT_VARIANT
 #undef JSGT_VARIANT
 #undef CPL_VARIANT

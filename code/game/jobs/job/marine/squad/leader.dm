@@ -137,6 +137,20 @@ OverrideTimelock(/datum/job/marine/leader, list(
 	squad = SQUAD_RMC
 	job = /datum/job/marine/leader/ai/rmc
 
+//-- Army Platoon --//
+
+/datum/job/marine/leader/ai/army
+	title = JOB_ARMY_SNCO
+	gear_preset = /datum/equipment_preset/uscm/army/sl
+	job_options = null
+	supervisors = "placeholder"
+	entry_message_body = "placeholder"
+
+/obj/effect/landmark/start/marine/leader/army
+	name = JOB_ARMY_SNCO
+	squad = SQUAD_ARMY
+	job = /datum/job/marine/leader/ai/army
+
 #undef MSSGT_VARIANT
 #undef GYSGT_VARIANT
 #undef SGTMJR_VARIANT

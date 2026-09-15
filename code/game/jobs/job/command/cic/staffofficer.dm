@@ -117,6 +117,21 @@ OverrideTimelock(/datum/job/command/bridge, list(
 	squad = SQUAD_RMC
 	job = /datum/job/command/bridge/ai/rmc
 
+//-- Army Platoon --//
+
+/datum/job/command/bridge/ai/army
+	title = JOB_ARMY_LT
+	flags_startup_parameters = ROLE_ADD_TO_DEFAULT|ROLE_ADD_TO_SQUAD
+	gear_preset = /datum/equipment_preset/uscm/army/commander
+	job_options = null
+	supervisors = "placeholder"
+	entry_message_body = "placeholder"
+
+/obj/effect/landmark/start/bridge/army
+	name = JOB_ARMY_LT
+	squad = SQUAD_ARMY
+	job = /datum/job/command/bridge/ai/army
+
 #undef FIRST_LT_VARIANT
 #undef SR_LT_VARIANT
 #undef SECOND_LT_VARIANT
