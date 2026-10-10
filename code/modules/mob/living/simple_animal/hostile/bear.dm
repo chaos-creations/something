@@ -138,10 +138,10 @@
 		var/mob/living/carbon/human/hooman = target_mob
 		var/dam_zone = pick("chest", "l_hand", "r_hand", "l_leg", "r_leg")
 		var/obj/limb/affecting = hooman.get_limb(rand_zone(dam_zone))
-		hooman.apply_damage(damage, BRUTE, affecting, sharp=TRUE, edge=TRUE, enviro=TRUE)
+		hooman.apply_damage(damage, BRUTE, affecting, sharp=TRUE, edge=TRUE)
 		return hooman
 	else if(isliving(target_mob))
-		target_mob.apply_damage(damage, BRUTE, enviro=TRUE)
+		target_mob.apply_damage(damage, BRUTE)
 		return target_mob
 
 
