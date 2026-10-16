@@ -1,0 +1,3162 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aa" = (
+/obj/structure/shuttle/part/dropship2/right_outer_wing_connector{
+	name = "\improper Tychon"
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"ab" = (
+/obj/structure/shuttle/part/dropship2/transparent/right_inner_bottom_wing{
+	density = 0;
+	name = "Tychon"
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"ac" = (
+/obj/effect/decal/grass_overlay/grass1/dark{
+	dir = 8
+	},
+/obj/structure/shuttle/part/dropship2/transparent/right_outer_bottom_wing{
+	density = 0;
+	name = "Tychon"
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"ad" = (
+/turf/open/auto_turf/strata_grass,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"ae" = (
+/turf/open/auto_turf/strata_grass/layer1,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"af" = (
+/obj/structure/platform/stone/tyrargo/north,
+/obj/structure/platform/stone/tyrargo/west,
+/turf/open/auto_turf/sand_white/layer0,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"ag" = (
+/turf/closed/wall/strata_ice/forest/rock/dirty,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"ah" = (
+/obj/structure/platform/stone/tyrargo/north,
+/obj/structure/platform/stone/tyrargo/east,
+/turf/open/auto_turf/sand_white/layer0,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"ai" = (
+/obj/item/stack/rods,
+/turf/open/auto_turf/strata_grass,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"aj" = (
+/obj/effect/decal/grass_overlay/grass1/dark{
+	dir = 4
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central)
+"ak" = (
+/obj/effect/decal/strata_decals/tyrargo_mud_corner{
+	dir = 6
+	},
+/turf/open/auto_turf/strata_grass,
+/area/tyrargo/outdoors/outskirts/central)
+"al" = (
+/turf/open/auto_turf/strata_grass,
+/area/tyrargo/outdoors/outskirts/central)
+"am" = (
+/obj/effect/decal/strata_decals/tyrargo_mud_corner{
+	dir = 10
+	},
+/turf/open/auto_turf/strata_grass,
+/area/tyrargo/outdoors/outskirts/central)
+"an" = (
+/obj/effect/decal/strata_decals/tyrargo_mud_corner{
+	dir = 5
+	},
+/turf/open/gm/dirt/dark_brown/variant_2,
+/area/tyrargo/outdoors/outskirts/central)
+"ao" = (
+/obj/structure/prop/colorable_rock/colorable{
+	color = "#9d7766";
+	pixel_y = 7;
+	pixel_x = 3
+	},
+/turf/open/gm/dirt/dark_brown/variant_2,
+/area/tyrargo/outdoors/outskirts/central)
+"ap" = (
+/obj/structure/flora/bush/ausbushes/var3/sparsegrass{
+	pixel_x = 10;
+	pixel_y = -7
+	},
+/obj/effect/decal/strata_decals/tyrargo_mud_corner{
+	dir = 9
+	},
+/obj/effect/decal/strata_decals/tyrargo_mud_corner{
+	dir = 10
+	},
+/turf/open/gm/dirt/dark_brown/variant_2,
+/area/tyrargo/outdoors/outskirts/central)
+"aq" = (
+/obj/structure/flora/bush/snow{
+	icon_state = "snowbush_6"
+	},
+/turf/open/auto_turf/snow/brown_base/layer1,
+/area/tyrargo/outdoors/outskirts/central)
+"ar" = (
+/obj/structure/prop/hybrisa/misc/fire/fire2{
+	color = "#FF7700";
+	icon = 'icons/effects/fire.dmi';
+	icon_state = "dynamic_2";
+	light_color = "#FF7700"
+	},
+/obj/structure/shuttle/part/dropship2/right_inner_wing_connector{
+	name = "\improper Tychon"
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"as" = (
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"at" = (
+/obj/effect/decal/strata_decals/tyrargo_mud_corner{
+	dir = 5
+	},
+/turf/open/auto_turf/strata_grass,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"au" = (
+/turf/open/auto_turf/tyrargo_grass/layer1,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"av" = (
+/obj/structure/platform/stone/tyrargo/north,
+/obj/structure/platform/stone/tyrargo/west,
+/obj/structure/platform/stone/tyrargo/east,
+/turf/open/auto_turf/sand_white/layer0,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"aw" = (
+/turf/open/auto_turf/tyrargo_grass/layer0,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"ax" = (
+/obj/effect/decal/cleanable/blood/xeno,
+/turf/open/auto_turf/strata_grass,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"ay" = (
+/obj/effect/decal/strata_decals/tyrargo_mud_corner{
+	dir = 10
+	},
+/turf/open/auto_turf/strata_grass,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"az" = (
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central)
+"aA" = (
+/obj/item/stack/rods,
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central)
+"aB" = (
+/obj/structure/flora/bush/ausbushes/grassybush{
+	icon_state = "fullgrass_1";
+	layer = 2.9
+	},
+/turf/open/auto_turf/strata_grass,
+/area/tyrargo/outdoors/outskirts/central)
+"aC" = (
+/obj/effect/decal/strata_decals/tyrargo_mud_corner{
+	dir = 6
+	},
+/obj/effect/decal/strata_decals/tyrargo_mud_corner{
+	dir = 5
+	},
+/obj/effect/decal/grass_overlay/grass1/dark{
+	dir = 4
+	},
+/turf/open/gm/dirt/dark_brown/variant_2,
+/area/tyrargo/outdoors/outskirts/central)
+"aD" = (
+/obj/structure/prop/colorable_rock/colorable{
+	color = "#9d7766";
+	pixel_x = 6;
+	pixel_y = -7;
+	dir = 1
+	},
+/turf/open/gm/dirt/dark_brown/variant_1,
+/area/tyrargo/outdoors/outskirts/central)
+"aE" = (
+/obj/effect/decal/strata_decals/tyrargo_mud_corner{
+	dir = 10
+	},
+/turf/open/gm/dirt/dark_brown/variant_2,
+/area/tyrargo/outdoors/outskirts/central)
+"aF" = (
+/obj/effect/decal/strata_decals/tyrargo_mud_corner{
+	dir = 5
+	},
+/obj/structure/flora/wood/trunk2{
+	pixel_x = -10;
+	pixel_y = -8
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central)
+"aG" = (
+/obj/structure/prop/colorable_rock/colorable{
+	color = "#9d7766";
+	pixel_x = -5;
+	pixel_y = -5
+	},
+/obj/effect/decal/strata_decals/tyrargo_mud_corner{
+	dir = 5
+	},
+/turf/open/auto_turf/strata_grass,
+/area/tyrargo/outdoors/outskirts/central)
+"aH" = (
+/obj/effect/decal/grass_overlay/grass1/dark{
+	dir = 4
+	},
+/obj/effect/decal/grass_overlay/grass1/dark,
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"aI" = (
+/obj/item/prop/colony/used_flare,
+/turf/open/auto_turf/strata_grass,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"aJ" = (
+/obj/structure/flora/bush/ausbushes/grassybush{
+	icon_state = "pointybush_1"
+	},
+/turf/open/auto_turf/strata_grass/layer1,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"aK" = (
+/obj/structure/shuttle/part/dropship2/transparent/engine_right_exhaust{
+	dir = 8
+	},
+/turf/open/auto_turf/strata_grass,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"aL" = (
+/turf/closed/shuttle/dropship2/transparent{
+	icon_state = "27";
+	dir = 8;
+	name = "\improper Tychon"
+	},
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"aM" = (
+/turf/closed/shuttle/dropship2/transparent{
+	icon_state = "33";
+	dir = 8;
+	name = "\improper Tychon"
+	},
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"aN" = (
+/turf/closed/shuttle/dropship2/transparent{
+	icon_state = "39";
+	dir = 8;
+	name = "\improper Tychon"
+	},
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"aO" = (
+/obj/effect/decal/grass_overlay/grass1/dark{
+	dir = 1
+	},
+/obj/effect/decal/grass_overlay/grass1/dark{
+	dir = 4
+	},
+/obj/structure/shuttle/part/dropship2/transparent/engine_right_cap{
+	dir = 8;
+	density = 0;
+	name = "Tychon"
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"aP" = (
+/obj/effect/decal/grass_overlay/grass1/dark{
+	dir = 1
+	},
+/obj/structure/machinery/m56d_hmg/mg_turret,
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central)
+"aQ" = (
+/obj/effect/decal/grass_overlay/grass1/dark{
+	dir = 1
+	},
+/obj/structure/shuttle/part/dropship2/transparent/lower_right_wing{
+	dir = 8;
+	name = "Tychon"
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central)
+"aR" = (
+/obj/effect/decal/grass_overlay/grass1/dark{
+	dir = 1
+	},
+/obj/structure/shuttle/part/dropship2/transparent/middle_right_wing{
+	dir = 8;
+	name = "Tychon"
+	},
+/obj/structure/machinery/light/dropship/green{
+	needs_power = 0
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central)
+"aS" = (
+/obj/effect/decal/strata_decals/tyrargo_mud_corner{
+	dir = 6
+	},
+/obj/effect/decal/strata_decals/tyrargo_mud_corner{
+	dir = 10
+	},
+/turf/open/gm/dirt/dark_brown/variant_2,
+/area/tyrargo/outdoors/outskirts/central)
+"aT" = (
+/obj/effect/decal/strata_decals/tyrargo_mud_corner{
+	dir = 5
+	},
+/obj/structure/flora/wood/stick2,
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central)
+"aU" = (
+/obj/effect/decal/strata_decals/tyrargo_mud_corner{
+	dir = 5
+	},
+/obj/structure/flora/grass/temperate{
+	icon_state = "30"
+	},
+/turf/open/auto_turf/strata_grass,
+/area/tyrargo/outdoors/outskirts/central)
+"aV" = (
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/strata_decals/tyrargo_mud_corner{
+	dir = 10
+	},
+/turf/open/auto_turf/strata_grass,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"aW" = (
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/grass_overlay/grass1/dark{
+	dir = 1
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"aX" = (
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/grass_overlay/grass1/dark{
+	dir = 1
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"aY" = (
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/grass_overlay/grass1/dark{
+	dir = 1
+	},
+/obj/structure/shuttle/part/dropship2/transparent/engine_left_exhaust{
+	dir = 8
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"aZ" = (
+/turf/closed/shuttle/dropship2/transparent{
+	icon_state = "26";
+	dir = 8;
+	name = "\improper Tychon"
+	},
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"ba" = (
+/turf/closed/shuttle/dropship2{
+	icon_state = "32";
+	name = "\improper Tychon";
+	dir = 4
+	},
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"bb" = (
+/turf/closed/shuttle/dropship2/transparent{
+	icon_state = "38";
+	dir = 8;
+	name = "\improper Tychon"
+	},
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"bc" = (
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/structure/prop/rock{
+	pixel_x = 2;
+	pixel_y = 5;
+	density = 0
+	},
+/obj/structure/shuttle/part/dropship2/transparent/engine_left_cap{
+	dir = 8;
+	density = 0;
+	name = "Tychon"
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"bd" = (
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/structure/shuttle/part/dropship2/bottom_right_wall{
+	name = "\improper Tychon";
+	dir = 8
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"be" = (
+/turf/closed/shuttle/dropship2{
+	icon_state = "51";
+	dir = 8;
+	name = "\improper Tychon"
+	},
+/area/tyrargo/indoors/tychon)
+"bf" = (
+/obj/effect/decal/cleanable/dirt/greenglow{
+	color = "#140400";
+	name = "dirt"
+	},
+/turf/open/shuttle/dropship/medium_grey_single_wide_left_to_right,
+/area/tyrargo/indoors/tychon)
+"bg" = (
+/obj/effect/decal/cleanable/dirt/greenglow{
+	color = "#140400";
+	name = "dirt"
+	},
+/obj/effect/decal/remains/robot,
+/turf/open/shuttle/dropship/medium_grey_single_wide_left_to_right,
+/area/tyrargo/indoors/tychon)
+"bh" = (
+/obj/structure/prop/hybrisa/misc/fire/fire2{
+	color = "#FF7700";
+	icon = 'icons/effects/fire.dmi';
+	icon_state = "dynamic_2";
+	pixel_y = 14
+	},
+/turf/closed/shuttle/dropship2{
+	icon_state = "83";
+	dir = 8;
+	name = "\improper Tychon"
+	},
+/area/tyrargo/indoors/tychon)
+"bi" = (
+/obj/structure/shuttle/part/dropship2/transparent/outer_right_weapons{
+	dir = 8;
+	density = 0
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central)
+"bj" = (
+/obj/effect/decal/grass_overlay/grass1/dark{
+	dir = 4
+	},
+/obj/effect/decal/grass_overlay/grass1/dark{
+	dir = 1
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"bk" = (
+/obj/effect/decal/cleanable/blood/drip,
+/obj/effect/decal/strata_decals/tyrargo_mud_corner{
+	dir = 6
+	},
+/turf/open/auto_turf/strata_grass,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"bl" = (
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/strata_decals/tyrargo_mud_corner{
+	dir = 10
+	},
+/turf/open/auto_turf/strata_grass,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"bm" = (
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"bn" = (
+/turf/closed/shuttle/dropship2{
+	icon_state = "19";
+	dir = 8;
+	name = "\improper Tychon"
+	},
+/area/tyrargo/indoors/tychon)
+"bo" = (
+/turf/closed/shuttle/dropship2{
+	icon_state = "25";
+	dir = 8;
+	name = "\improper Tychon"
+	},
+/area/tyrargo/indoors/tychon)
+"bp" = (
+/turf/closed/shuttle/dropship2{
+	icon_state = "31";
+	dir = 8;
+	name = "\improper Tychon"
+	},
+/area/tyrargo/indoors/tychon)
+"bq" = (
+/turf/closed/shuttle/dropship2{
+	icon_state = "48";
+	dir = 8;
+	name = "\improper Tychon"
+	},
+/area/tyrargo/indoors/tychon)
+"br" = (
+/obj/effect/decal/cleanable/dirt/greenglow{
+	color = "#140400";
+	name = "dirt"
+	},
+/obj/structure/largecrate/supply/ammo/m39/half,
+/turf/open/shuttle/dropship/medium_grey_single_wide_left_to_right,
+/area/tyrargo/indoors/tychon)
+"bs" = (
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "thermite";
+	name = "impact"
+	},
+/turf/open/shuttle/dropship/medium_grey_single_wide_left_to_right,
+/area/tyrargo/indoors/tychon)
+"bt" = (
+/turf/open/shuttle/dropship/medium_grey_single_wide_left_to_right,
+/area/tyrargo/indoors/tychon)
+"bu" = (
+/obj/structure/bed/chair/vehicle{
+	dir = 8;
+	pixel_y = 1;
+	layer = 3.1
+	},
+/turf/open/shuttle/dropship/medium_grey_single_wide_left_to_right,
+/area/tyrargo/indoors/tychon)
+"bv" = (
+/turf/closed/shuttle/dropship2{
+	icon_state = "82";
+	dir = 8;
+	name = "\improper Tychon"
+	},
+/area/tyrargo/indoors/tychon)
+"bw" = (
+/obj/structure/shuttle/part/dropship2/transparent/inner_right_weapons{
+	dir = 8;
+	density = 0
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central)
+"bx" = (
+/obj/effect/decal/grass_overlay/grass1/dark{
+	dir = 1
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central)
+"by" = (
+/obj/structure/prop/rock/black_ground{
+	icon_state = "black_ground_alt"
+	},
+/obj/effect/decal/strata_decals/tyrargo_mud_corner{
+	dir = 6
+	},
+/turf/open/auto_turf/strata_grass,
+/area/tyrargo/outdoors/outskirts/central)
+"bz" = (
+/obj/structure/prop/rock/black_ground{
+	dir = 4
+	},
+/obj/effect/decal/strata_decals/tyrargo_mud_corner{
+	dir = 9
+	},
+/turf/open/auto_turf/strata_grass,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"bA" = (
+/obj/structure/prop/rock/black_ground{
+	dir = 4;
+	pixel_x = 7;
+	pixel_y = 5
+	},
+/obj/effect/decal/strata_decals/tyrargo_mud_corner{
+	dir = 6
+	},
+/turf/open/auto_turf/strata_grass,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"bB" = (
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/grass_overlay/grass1/dark{
+	dir = 4
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"bC" = (
+/obj/effect/decal/cleanable/dirt/greenglow{
+	color = "#140400";
+	name = "dirt"
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"bD" = (
+/turf/open/floor/plating/platingdmg1,
+/area/tyrargo/indoors/tychon)
+"bE" = (
+/obj/structure/largecrate/supply/ammo/m41a/half,
+/turf/open/shuttle/dropship/medium_grey_single_wide_left_to_right,
+/area/tyrargo/indoors/tychon)
+"bF" = (
+/obj/structure/bed/chair/vehicle{
+	icon_state = "vehicle_seat_destroyed";
+	dir = 8
+	},
+/obj/effect/decal/cleanable/generic,
+/turf/open/shuttle/dropship/medium_grey_single_wide_left_to_right,
+/area/tyrargo/indoors/tychon)
+"bG" = (
+/turf/open/shuttle/dropship/light_grey_bottom_left,
+/area/tyrargo/indoors/tychon)
+"bH" = (
+/turf/open/shuttle/dropship/light_grey_single_wide_left_to_right,
+/area/tyrargo/indoors/tychon)
+"bI" = (
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "thermite";
+	name = "impact"
+	},
+/turf/open/shuttle/dropship/light_grey_bottom_right,
+/area/tyrargo/indoors/tychon)
+"bJ" = (
+/turf/open/floor/plating/burnt_platingdmg3,
+/area/tyrargo/indoors/tychon)
+"bK" = (
+/turf/open/floor/plating/platingdmg3,
+/area/tyrargo/outdoors/outskirts/central)
+"bL" = (
+/obj/effect/decal/grass_overlay/grass1/dark{
+	dir = 8
+	},
+/obj/structure/shuttle/part/dropship2/transparent/nose_top_right{
+	dir = 8;
+	density = 0;
+	name = "Tychon"
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central)
+"bM" = (
+/obj/item/ammo_magazine/rifle/m49a/heap/empty{
+	pixel_x = -2
+	},
+/obj/effect/decal/strata_decals/tyrargo_mud_corner{
+	dir = 10
+	},
+/turf/open/auto_turf/strata_grass,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"bN" = (
+/obj/item/prop/colony/proptag{
+	desc = "A fallen marine's information dog tag."
+	},
+/obj/effect/decal/strata_decals/tyrargo_mud_corner{
+	dir = 5
+	},
+/turf/open/gm/dirt/dark_brown/variant_2,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"bO" = (
+/obj/effect/decal/cleanable/blood/drip,
+/obj/structure/prop/rock/black_ground{
+	dir = 4;
+	pixel_x = -1;
+	pixel_y = -9
+	},
+/obj/effect/decal/strata_decals/tyrargo_mud_corner{
+	dir = 9
+	},
+/turf/open/gm/dirt/dark_brown,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"bP" = (
+/obj/effect/decal/cleanable/blood/drip,
+/obj/item/clothing/head/helmet/marine/rto/army{
+	pixel_x = 7;
+	pixel_y = -5
+	},
+/obj/effect/decal/grass_overlay/grass1/dark{
+	dir = 8
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"bQ" = (
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/grass_overlay/grass1/dark{
+	dir = 4
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"bR" = (
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/structure/prop/rock{
+	pixel_x = 2;
+	pixel_y = 5;
+	density = 0
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"bS" = (
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"bT" = (
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "thermite";
+	name = "impact"
+	},
+/turf/open/shuttle/dropship/light_grey_single_wide_left_to_right,
+/area/tyrargo/indoors/tychon)
+"bU" = (
+/turf/open/shuttle/dropship/light_grey_single_wide_up_to_down,
+/area/tyrargo/indoors/tychon)
+"bV" = (
+/obj/item/storage/backpack/marine/satchel/rto/small{
+	pixel_x = 7;
+	pixel_y = 19
+	},
+/turf/open/shuttle/dropship/medium_grey_single_wide_left_to_right,
+/area/tyrargo/indoors/tychon)
+"bW" = (
+/obj/structure/bed/chair/vehicle{
+	dir = 8;
+	pixel_y = 16
+	},
+/obj/effect/decal/cleanable/dirt/greenglow{
+	color = "#140400";
+	name = "dirt"
+	},
+/turf/open/shuttle/dropship/medium_grey_single_wide_left_to_right,
+/area/tyrargo/indoors/tychon)
+"bX" = (
+/obj/effect/decal/cleanable/generic,
+/turf/open/shuttle/dropship/medium_grey_single_wide_left_to_right,
+/area/tyrargo/indoors/tychon)
+"bY" = (
+/turf/open/floor/plating/platingdmg2/west,
+/area/tyrargo/indoors/tychon)
+"bZ" = (
+/obj/effect/decal/grass_overlay/grass1/dark{
+	dir = 8
+	},
+/obj/structure/shuttle/part/dropship2/transparent/nose_center{
+	dir = 8;
+	density = 0;
+	name = "Tychon"
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central)
+"ca" = (
+/obj/structure/flora/bush/ausbushes/grassybush{
+	icon_state = "fullgrass_1";
+	layer = 2.9
+	},
+/turf/open/auto_turf/strata_grass,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"cb" = (
+/obj/effect/decal/grass_overlay/grass1/dark{
+	dir = 4
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"cc" = (
+/obj/item/prop/colony/usedbandage{
+	dir = 9
+	},
+/obj/effect/decal/strata_decals/tyrargo_mud_corner{
+	dir = 6
+	},
+/turf/open/gm/dirt/dark_brown/variant_3,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"cd" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 8
+	},
+/turf/open/gm/dirt/dark_brown/variant_2,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"ce" = (
+/obj/effect/decal/cleanable/blood/gibs/limb,
+/obj/effect/decal/grass_overlay/grass1/dark{
+	dir = 8
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"cf" = (
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/grass_overlay/grass1/dark{
+	dir = 4
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"cg" = (
+/obj/item/ammo_magazine/rifle/heap{
+	current_rounds = 0
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"ch" = (
+/obj/effect/decal/remains/robot,
+/turf/open/shuttle/dropship/medium_grey_single_wide_left_to_right,
+/area/tyrargo/indoors/tychon)
+"ci" = (
+/obj/effect/attach_point/crew_weapon/dropship3/floor{
+	attach_id = 7
+	},
+/turf/open/shuttle/dropship/light_grey_single_wide_left_to_right,
+/area/tyrargo/indoors/tychon)
+"cj" = (
+/obj/structure/closet/crate/ammo{
+	name = "soft-point munitions crate";
+	desc = "Crate filled with soft-point ammo. Typically used when fighting onboard space stations, or when there's nothing better to use.";
+	opened = 1
+	},
+/obj/item/device/m56d_gun,
+/obj/item/device/m56d_post,
+/obj/item/ammo_magazine/m56d,
+/obj/item/ammo_magazine/m56d,
+/turf/open/shuttle/dropship/light_grey_single_wide_left_to_right,
+/area/tyrargo/indoors/tychon)
+"ck" = (
+/obj/effect/decal/cleanable/dirt/greenglow{
+	color = "#140400";
+	name = "dirt"
+	},
+/turf/open/shuttle/dropship/light_grey_single_wide_up_to_down,
+/area/tyrargo/indoors/tychon)
+"cl" = (
+/turf/closed/shuttle/dropship2{
+	icon_state = "53";
+	dir = 8;
+	name = "\improper Tychon"
+	},
+/area/tyrargo/indoors/tychon)
+"cm" = (
+/turf/closed/shuttle/dropship2{
+	icon_state = "63";
+	dir = 8;
+	name = "\improper Tychon"
+	},
+/area/tyrargo/indoors/tychon)
+"cn" = (
+/turf/closed/shuttle/dropship2{
+	icon_state = "68";
+	dir = 8;
+	name = "\improper Tychon"
+	},
+/area/tyrargo/indoors/tychon)
+"co" = (
+/obj/effect/decal/cleanable/generic,
+/turf/open/shuttle/dropship/light_grey_single_wide_up_to_down,
+/area/tyrargo/indoors/tychon)
+"cp" = (
+/obj/effect/decal/remains/robot,
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "thermite";
+	name = "impact"
+	},
+/obj/effect/decal/cleanable/blood/xeno,
+/obj/effect/decal/cleanable/blood/gibs/xeno,
+/turf/open/shuttle/dropship/medium_grey_single_wide_left_to_right,
+/area/tyrargo/indoors/tychon)
+"cq" = (
+/obj/effect/decal/ammo_casing/bullet,
+/obj/effect/decal/ammo_casing/bullet,
+/obj/effect/decal/ammo_casing/bullet,
+/obj/effect/decal/ammo_casing/bullet,
+/obj/item/weapon/gun/pistol/vp70,
+/turf/open/shuttle/dropship/medium_grey_single_wide_left_to_right,
+/area/tyrargo/indoors/tychon)
+"cr" = (
+/obj/effect/decal/ammo_casing/bullet,
+/turf/open/shuttle/dropship/medium_grey_single_wide_left_to_right,
+/area/tyrargo/indoors/tychon)
+"cs" = (
+/obj/effect/decal/ammo_casing/bullet,
+/obj/effect/decal/ammo_casing/bullet,
+/turf/open/auto_turf/strata_grass,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"ct" = (
+/obj/effect/decal/ammo_casing/bullet,
+/obj/effect/decal/ammo_casing/bullet,
+/obj/effect/decal/strata_decals/tyrargo_mud_corner{
+	dir = 9
+	},
+/turf/open/auto_turf/strata_grass,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"cu" = (
+/obj/structure/blocker/invisible_wall,
+/obj/structure/blocker/forcefield/vehicles,
+/obj/effect/decal/grass_overlay/grass1/dark{
+	dir = 4
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"cv" = (
+/obj/structure/prop/hybrisa/misc/fire/fire2{
+	pixel_x = -12;
+	pixel_y = 19
+	},
+/obj/structure/blocker/invisible_wall,
+/obj/structure/blocker/forcefield/vehicles,
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 8
+	},
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 4
+	},
+/turf/open/gm/dirt/dark_brown,
+/area/tyrargo/oob)
+"cw" = (
+/obj/structure/blocker/invisible_wall,
+/obj/structure/blocker/forcefield/vehicles,
+/obj/effect/decal/grass_overlay/grass1/dark{
+	dir = 8
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"cx" = (
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/strata_decals/tyrargo_mud_corner{
+	dir = 9
+	},
+/turf/open/auto_turf/strata_grass,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"cy" = (
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"cz" = (
+/obj/effect/decal/cleanable/blood/xeno,
+/obj/effect/spawner/gibspawner/xeno,
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"cA" = (
+/obj/effect/decal/cleanable/dirt/greenglow{
+	color = "#140400";
+	name = "dirt"
+	},
+/obj/structure/machinery/light/dropship/blue{
+	dir = 1;
+	needs_power = 0
+	},
+/turf/open/shuttle/dropship/medium_grey_single_wide_left_to_right,
+/area/tyrargo/indoors/tychon)
+"cB" = (
+/obj/effect/decal/cleanable/dirt/greenglow{
+	color = "#140400";
+	name = "dirt"
+	},
+/turf/open/shuttle/dropship/light_grey_single_wide_left_to_right,
+/area/tyrargo/indoors/tychon)
+"cC" = (
+/obj/structure/bed/chair/vehicle{
+	icon_state = "vehicle_seat_destroyed";
+	dir = 8;
+	layer = 3.1
+	},
+/turf/open/shuttle/dropship/medium_grey_single_wide_left_to_right,
+/area/tyrargo/indoors/tychon)
+"cD" = (
+/turf/open/floor/plating/platingdmg2,
+/area/tyrargo/indoors/tychon)
+"cE" = (
+/obj/structure/bed/chair/dropship/pilot{
+	dir = 4;
+	pixel_y = 1
+	},
+/obj/effect/decal/cleanable/blood,
+/turf/open/shuttle/dropship/medium_grey_single_wide_left_to_right,
+/area/tyrargo/indoors/tychon)
+"cF" = (
+/obj/structure/prop/almayer/computers/sensor_computer1{
+	density = 0;
+	pixel_y = 17;
+	name = "dropship controls";
+	desc = "Controls for the dropship. This console appears to be offline for maintenance."
+	},
+/obj/item/clothing/head/helmet/upp/marinepilot{
+	pixel_x = -6;
+	pixel_y = -11
+	},
+/turf/open/floor/plating/platingdmg1,
+/area/tyrargo/indoors/tychon)
+"cG" = (
+/turf/open/floor/plating,
+/area/tyrargo/indoors/tychon)
+"cH" = (
+/obj/structure/blocker/invisible_wall,
+/obj/structure/blocker/forcefield/vehicles,
+/obj/effect/decal/grass_overlay/grass1/dark{
+	dir = 4
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud_alt,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"cI" = (
+/obj/structure/prop/vehicles/tank/longstreet/ballistic/destroyed{
+	pixel_y = -34;
+	pixel_x = -48;
+	dir = 1;
+	layer = 2.8
+	},
+/obj/structure/prop/vehicles/tank/longstreet/secondary/glauncher/destroyed{
+	dir = 8;
+	pixel_y = -36;
+	pixel_x = -54;
+	layer = 3.1
+	},
+/obj/structure/blocker/invisible_wall,
+/obj/structure/blocker/forcefield/vehicles,
+/turf/open/auto_turf/tyrargo_grass/layer0_mud_alt,
+/area/tyrargo/oob)
+"cJ" = (
+/obj/structure/blocker/invisible_wall,
+/obj/structure/blocker/forcefield/vehicles,
+/obj/effect/decal/grass_overlay/grass1/dark{
+	dir = 8
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud_alt,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"cK" = (
+/obj/item/prop{
+	desc = "A primary armament cannon magazine";
+	icon = 'icons/obj/items/weapons/guns/ammo_by_faction/uscm.dmi';
+	icon_state = "ltbcannon_1";
+	name = "LTB Cannon Magazine";
+	pixel_x = 3;
+	pixel_y = -2
+	},
+/turf/open/auto_turf/strata_grass,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"cL" = (
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/turf/open/auto_turf/strata_grass,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"cM" = (
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/structure/shuttle/part/dropship2/left_outer_wing_connector{
+	dir = 8;
+	name = "\improper Tychon"
+	},
+/obj/effect/decal/strata_decals/tyrargo_mud_corner{
+	dir = 9
+	},
+/turf/open/auto_turf/strata_grass,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"cN" = (
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/structure/shuttle/part/dropship2/left_inner_wing_connector{
+	dir = 8;
+	name = "\improper Tychon"
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"cO" = (
+/turf/closed/shuttle/dropship2{
+	icon_state = "10";
+	dir = 8;
+	name = "\improper Tychon"
+	},
+/area/tyrargo/indoors/tychon)
+"cP" = (
+/obj/structure/bed/chair/vehicle{
+	dir = 8;
+	pixel_y = 16
+	},
+/turf/open/shuttle/dropship/medium_grey_single_wide_left_to_right,
+/area/tyrargo/indoors/tychon)
+"cQ" = (
+/obj/structure/dropship_equipment/sentry_holder,
+/turf/open/shuttle/dropship/medium_grey_single_wide_left_to_right,
+/area/tyrargo/indoors/tychon)
+"cR" = (
+/obj/structure/bed/chair/vehicle{
+	dir = 8;
+	pixel_y = 16
+	},
+/obj/structure/bed/chair/vehicle{
+	dir = 8;
+	pixel_y = 1;
+	layer = 3.1
+	},
+/turf/open/shuttle/dropship/medium_grey_single_wide_left_to_right,
+/area/tyrargo/indoors/tychon)
+"cS" = (
+/turf/open/shuttle/dropship/light_grey_top_left,
+/area/tyrargo/indoors/tychon)
+"cT" = (
+/obj/effect/decal/cleanable/dirt/greenglow{
+	color = "#140400";
+	name = "dirt"
+	},
+/turf/open/shuttle/dropship/light_grey_top_right,
+/area/tyrargo/indoors/tychon)
+"cU" = (
+/turf/closed/shuttle/dropship2{
+	icon_state = "77";
+	dir = 8;
+	name = "\improper Tychon"
+	},
+/area/tyrargo/indoors/tychon)
+"cV" = (
+/turf/closed/shuttle/dropship2/transparent{
+	icon_state = "86";
+	dir = 8;
+	name = "\improper Tychon"
+	},
+/area/tyrargo/indoors/tychon)
+"cW" = (
+/turf/closed/shuttle/dropship2{
+	icon_state = "92";
+	dir = 8;
+	name = "\improper Tychon"
+	},
+/area/tyrargo/indoors/tychon)
+"cX" = (
+/obj/structure/shuttle/part/dropship2/nose_front_left{
+	dir = 8;
+	name = "\improper Tychon"
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central)
+"cY" = (
+/obj/effect/decal/grass_overlay/grass1/dark{
+	dir = 8
+	},
+/obj/structure/shuttle/part/dropship2/transparent/nose_top_left{
+	dir = 8;
+	density = 0;
+	name = "Tychon"
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central)
+"cZ" = (
+/obj/effect/decal/ammo_casing/bullet,
+/obj/effect/decal/ammo_casing/bullet,
+/obj/structure/prop/vehicles/tank/longstreet/primary/ltb/destroyed{
+	pixel_y = -68;
+	dir = 8;
+	pixel_x = -15;
+	layer = 3.1
+	},
+/turf/open/auto_turf/strata_grass,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"da" = (
+/obj/structure/prop/vehicles/tank/longstreet/turret/destroyed{
+	dir = 8;
+	pixel_x = -47;
+	pixel_y = -68
+	},
+/obj/structure/prop/vehicles/tank/longstreet/module/slauncher/destroyed{
+	pixel_x = -82;
+	pixel_y = -16;
+	layer = 2.9
+	},
+/obj/structure/blocker/invisible_wall,
+/obj/structure/blocker/forcefield/vehicles,
+/turf/open/auto_turf/tyrargo_grass/layer0_mud_alt,
+/area/tyrargo/oob)
+"db" = (
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/grass_overlay/grass1/dark{
+	dir = 4
+	},
+/obj/effect/decal/grass_overlay/grass1/dark{
+	dir = 1
+	},
+/obj/structure/shuttle/part/dropship2/transparent/left_outer_inner_wing{
+	dir = 8;
+	density = 0;
+	name = "Tychon"
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"dc" = (
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/structure/prop/rock/black_ground{
+	icon_state = "black_ground_alt"
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"dd" = (
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/structure/shuttle/part/dropship2/bottom_left_wall{
+	dir = 8;
+	name = "\improper Tychon"
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"de" = (
+/obj/structure/prop/hybrisa/misc/fire/fire2{
+	color = "#FF7700";
+	icon = 'icons/effects/fire.dmi';
+	icon_state = "dynamic_2";
+	light_color = "#FF7700"
+	},
+/turf/closed/shuttle/dropship2{
+	icon_state = "52";
+	name = "\improper Tychon";
+	dir = 8
+	},
+/area/tyrargo/indoors/tychon)
+"df" = (
+/obj/structure/prop/hybrisa/misc/fire/fire2{
+	color = "#FF7700";
+	icon = 'icons/effects/fire.dmi';
+	icon_state = "dynamic_2";
+	pixel_y = 4;
+	light_color = "#FF7700";
+	pixel_x = 7
+	},
+/turf/closed/shuttle/dropship2{
+	icon_state = "52";
+	name = "\improper Tychon";
+	dir = 8
+	},
+/area/tyrargo/indoors/tychon)
+"dg" = (
+/turf/closed/shuttle/dropship2{
+	icon_state = "52";
+	name = "\improper Tychon";
+	dir = 8
+	},
+/area/tyrargo/indoors/tychon)
+"dh" = (
+/turf/closed/shuttle/dropship2{
+	icon_state = "47";
+	dir = 8;
+	name = "\improper Tychon"
+	},
+/area/tyrargo/indoors/tychon)
+"di" = (
+/obj/structure/largecrate/supply/medicine/medkits,
+/turf/open/shuttle/dropship/medium_grey_single_wide_left_to_right,
+/area/tyrargo/indoors/tychon)
+"dj" = (
+/obj/structure/bed/chair/vehicle{
+	icon_state = "vehicle_seat_destroyed";
+	dir = 8;
+	pixel_y = 16
+	},
+/turf/open/shuttle/dropship/medium_grey_single_wide_left_to_right,
+/area/tyrargo/indoors/tychon)
+"dk" = (
+/turf/closed/shuttle/dropship2{
+	icon_state = "76";
+	dir = 8;
+	name = "\improper Tychon"
+	},
+/area/tyrargo/indoors/tychon)
+"dl" = (
+/obj/effect/decal/grass_overlay/grass1/dark,
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central)
+"dm" = (
+/obj/effect/decal/strata_decals/tyrargo_mud_corner{
+	dir = 5
+	},
+/turf/open/auto_turf/strata_grass,
+/area/tyrargo/outdoors/outskirts/central)
+"dn" = (
+/obj/effect/decal/ammo_casing/bullet,
+/obj/effect/decal/ammo_casing/bullet,
+/obj/effect/decal/ammo_casing/bullet,
+/turf/open/auto_turf/strata_grass,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"do" = (
+/obj/structure/blocker/invisible_wall,
+/obj/structure/blocker/forcefield/vehicles,
+/turf/open/auto_turf/strata_grass,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"dp" = (
+/obj/structure/prop/hybrisa/misc/fire/fire1{
+	pixel_x = -20;
+	pixel_y = 9
+	},
+/obj/structure/blocker/invisible_wall,
+/obj/structure/blocker/forcefield/vehicles,
+/turf/open/auto_turf/strata_grass,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"dq" = (
+/obj/item/ammo_magazine/rifle/heap{
+	current_rounds = 0
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/turf/open/auto_turf/strata_grass,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"dr" = (
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/structure/shuttle/part/dropship2/transparent/left_outer_bottom_wing{
+	dir = 8;
+	density = 0;
+	name = "Tychon"
+	},
+/obj/effect/decal/strata_decals/tyrargo_mud_corner{
+	dir = 9
+	},
+/turf/open/auto_turf/strata_grass,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"ds" = (
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/grass_overlay/grass1/dark,
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"dt" = (
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/grass_overlay/grass1/dark,
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"du" = (
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/grass_overlay/grass1/dark,
+/obj/structure/prop/rock{
+	pixel_x = 2;
+	pixel_y = 5;
+	density = 0
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"dv" = (
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/grass_overlay/grass1/dark,
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"dw" = (
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"dx" = (
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/structure/shuttle/part/dropship2/bottom_left_wall{
+	name = "\improper Tychon";
+	dir = 8
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"dy" = (
+/turf/closed/shuttle/dropship2{
+	icon_state = "62";
+	dir = 8;
+	name = "\improper Tychon"
+	},
+/area/tyrargo/indoors/tychon)
+"dz" = (
+/turf/closed/shuttle/dropship2{
+	icon_state = "67";
+	dir = 8;
+	name = "\improper Tychon"
+	},
+/area/tyrargo/indoors/tychon)
+"dA" = (
+/turf/closed/shuttle/dropship2{
+	icon_state = "75";
+	dir = 8;
+	name = "\improper Tychon"
+	},
+/area/tyrargo/indoors/tychon)
+"dB" = (
+/obj/structure/shuttle/part/dropship2/transparent/outer_left_weapons{
+	dir = 8;
+	density = 0
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central)
+"dC" = (
+/obj/effect/spawner/gibspawner/xeno,
+/obj/effect/decal/cleanable/blood/xeno,
+/turf/open/auto_turf/strata_grass,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"dD" = (
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/strata_decals/tyrargo_mud_corner{
+	dir = 9
+	},
+/turf/open/auto_turf/strata_grass,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"dE" = (
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"dF" = (
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"dG" = (
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central)
+"dH" = (
+/obj/structure/prop/rock/black_ground{
+	dir = 1
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central)
+"dI" = (
+/obj/effect/decal/grass_overlay/grass1/dark,
+/obj/structure/shuttle/part/dropship2/transparent/lower_left_wing{
+	dir = 8;
+	name = "Tychon"
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central)
+"dJ" = (
+/obj/effect/decal/grass_overlay/grass1/dark,
+/obj/structure/shuttle/part/dropship2/transparent/middle_left_wing{
+	dir = 8;
+	name = "Tychon"
+	},
+/obj/structure/machinery/light/dropship/red{
+	dir = 1;
+	needs_power = 0
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central)
+"dK" = (
+/obj/effect/decal/grass_overlay/grass1/dark,
+/obj/structure/shuttle/part/dropship2/transparent/upper_left_wing{
+	dir = 8;
+	name = "Tychon"
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central)
+"dL" = (
+/obj/structure/prop/rock/black_ground{
+	dir = 5;
+	pixel_y = -11;
+	pixel_x = -14
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"dM" = (
+/obj/effect/decal/cleanable/blood/xeno,
+/turf/open/auto_turf/tyrargo_grass/layer0,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"dN" = (
+/obj/effect/decal/strata_decals/tyrargo_mud_corner{
+	dir = 9
+	},
+/turf/open/auto_turf/strata_grass,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"dO" = (
+/turf/open/auto_turf/tyrargo_grass/layer1,
+/area/tyrargo/outdoors/outskirts/central)
+"dP" = (
+/obj/structure/prop/rock/black_ground{
+	dir = 6
+	},
+/turf/open/auto_turf/strata_grass,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"dQ" = (
+/turf/open/auto_turf/snow/brown_base/layer2,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"dR" = (
+/obj/item/stack/rods,
+/obj/effect/decal/strata_decals/tyrargo_mud_corner{
+	dir = 5
+	},
+/turf/open/auto_turf/strata_grass,
+/area/tyrargo/outdoors/outskirts/central)
+"dS" = (
+/obj/item/prop/colony/used_flare,
+/turf/open/auto_turf/tyrargo_grass/layer0,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"dT" = (
+/obj/structure/prop/rock/black_ground{
+	dir = 8
+	},
+/turf/open/auto_turf/strata_grass,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"dU" = (
+/obj/structure/flora/bush/snow{
+	icon_state = "snowgrassall_1"
+	},
+/turf/open/auto_turf/snow/brown_base/layer2,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"dV" = (
+/obj/structure/flora/tree/tyrargo_small/tree_stump,
+/turf/open/auto_turf/snow/brown_base/layer2,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"dW" = (
+/obj/effect/decal/grass_overlay/grass1/dark{
+	dir = 1
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"dX" = (
+/obj/effect/decal/strata_decals/tyrargo_mud_corner{
+	dir = 6
+	},
+/turf/open/auto_turf/strata_grass,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"dY" = (
+/obj/structure/fence/dark,
+/obj/effect/decal/grass_overlay/grass1/dark{
+	dir = 4
+	},
+/obj/effect/decal/grass_overlay/grass1/dark{
+	dir = 8
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central)
+"dZ" = (
+/obj/structure/barricade/metal/wired{
+	brute_multiplier = 0.05;
+	burn_multiplier = 0.1;
+	dir = 8;
+	explosive_multiplier = 0.1;
+	pixel_x = -5
+	},
+/obj/structure/barricade/metal/wired{
+	brute_multiplier = 0.05;
+	burn_multiplier = 0.1;
+	dir = 4;
+	explosive_multiplier = 0.1;
+	pixel_x = 5
+	},
+/obj/structure/barricade/metal/wired{
+	brute_multiplier = 0.05;
+	burn_multiplier = 0.1;
+	explosive_multiplier = 0.1;
+	pixel_y = -6
+	},
+/obj/structure/barricade/metal/wired{
+	brute_multiplier = 0.5;
+	burn_multiplier = 0.1;
+	dir = 1;
+	explosive_multiplier = 0.1;
+	layer = 2;
+	pixel_y = 3
+	},
+/turf/closed/wall/r_wall/bunker/floodgate{
+	desc = "A huge chunk of reinforced metal used to separate rooms. This one appears to be specially reinforced.";
+	name = "Tank Trap";
+	layer = 3
+	},
+/area/tyrargo/outdoors/outskirts/central)
+"ea" = (
+/obj/effect/decal/grass_overlay/grass1/dark{
+	dir = 1
+	},
+/obj/effect/decal/grass_overlay/grass1/dark{
+	dir = 4
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"eb" = (
+/obj/effect/decal/grass_overlay/grass1/dark{
+	dir = 1
+	},
+/obj/structure/barricade/sandbags/weak_wired{
+	dir = 8;
+	icon_state = "sandbag_0"
+	},
+/obj/structure/prop/tyrargo/boards/boards_1{
+	pixel_x = -1;
+	dir = 1
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud_alt,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"ec" = (
+/obj/item/prop/colony/usedbandage{
+	dir = 5
+	},
+/obj/effect/decal/strata_decals/tyrargo_mud_corner{
+	dir = 6
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"ed" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/auto_turf/tyrargo_grass/layer0,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"ee" = (
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/turf/open/auto_turf/snow/brown_base/layer2,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"ef" = (
+/obj/structure/flora/tree/tyrargo_small/tree_stump{
+	pixel_x = -23;
+	pixel_y = 4;
+	layer = 3
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/structure/prop/hybrisa/misc/fire/fire2{
+	pixel_x = -24;
+	pixel_y = 8
+	},
+/turf/open/auto_turf/snow/brown_base/layer2,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"eg" = (
+/obj/structure/shuttle/part/dropship2/transparent/engine_right_exhaust{
+	dir = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"eh" = (
+/turf/closed/shuttle/dropship2/transparent{
+	icon_state = "23";
+	dir = 4;
+	name = "\improper Tychon"
+	},
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"ei" = (
+/turf/closed/shuttle/dropship2/transparent{
+	icon_state = "29";
+	dir = 8;
+	name = "\improper Tychon"
+	},
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"ej" = (
+/turf/closed/shuttle/dropship2/transparent{
+	icon_state = "35";
+	dir = 8;
+	name = "\improper Tychon"
+	},
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"ek" = (
+/obj/structure/shuttle/part/dropship2/transparent/engine_right_cap{
+	dir = 8;
+	density = 0;
+	name = "Tychon"
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"el" = (
+/obj/structure/fence/dark,
+/obj/effect/decal/grass_overlay/grass1/dark{
+	dir = 4
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central)
+"em" = (
+/turf/open/auto_turf/snow/brown_base/layer1,
+/area/tyrargo/outdoors/outskirts/central)
+"en" = (
+/obj/structure/barricade/sandbags/weak_wired{
+	dir = 8;
+	icon_state = "sandbag_0"
+	},
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/ammo_casing/bullet,
+/turf/open/auto_turf/tyrargo_grass/layer0_mud_alt,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"eo" = (
+/obj/item/ammo_magazine/rifle/heap{
+	current_rounds = 0;
+	pixel_x = 11;
+	pixel_y = -4
+	},
+/obj/effect/decal/ammo_casing/bullet,
+/obj/effect/decal/ammo_casing/bullet,
+/obj/effect/decal/ammo_casing/bullet,
+/obj/item/prop{
+	desc = "Empty and useless now.";
+	icon = 'icons/obj/items/casings.dmi';
+	icon_state = "cartridge_10_1";
+	name = "spent casings";
+	pixel_y = 12;
+	pixel_x = -15
+	},
+/obj/effect/decal/grass_overlay/grass1/dark{
+	dir = 8
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud_alt,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"ep" = (
+/obj/item/ammo_magazine/rifle/heap{
+	current_rounds = 0
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"eq" = (
+/obj/structure/prop/rock/black_ground{
+	dir = 1
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/turf/open/auto_turf/strata_grass,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"er" = (
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/turf/open/auto_turf/strata_grass,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"es" = (
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/turf/open/auto_turf/strata_grass,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"et" = (
+/obj/structure/shuttle/part/dropship2/transparent/engine_left_exhaust{
+	dir = 8
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"eu" = (
+/obj/structure/prop/hybrisa/airport/dropshipenginedamage{
+	light_on = 1;
+	light_power = 5;
+	light_range = 6;
+	pixel_x = -18;
+	pixel_y = -23;
+	layer = 3.1
+	},
+/turf/closed/shuttle/dropship2/transparent{
+	icon_state = "22";
+	dir = 8;
+	name = "\improper Tychon"
+	},
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"ev" = (
+/turf/closed/shuttle/dropship2/transparent{
+	icon_state = "28";
+	dir = 8;
+	name = "\improper Tychon"
+	},
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"ew" = (
+/turf/closed/shuttle/dropship2/transparent{
+	icon_state = "34";
+	dir = 8;
+	name = "\improper Tychon"
+	},
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"ex" = (
+/obj/structure/shuttle/part/dropship2/transparent/engine_left_cap{
+	dir = 8;
+	density = 0;
+	name = "Tychon"
+	},
+/obj/structure/flora/tree/tyrargo_small/tree_stump{
+	layer = 3;
+	pixel_y = 15;
+	pixel_x = -17
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"ey" = (
+/turf/open/auto_turf/snow/brown_base/layer1,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"ez" = (
+/turf/closed/wall/r_wall/bunker,
+/area/tyrargo/outdoors/outskirts/central)
+"eA" = (
+/turf/open/auto_turf/snow/brown_base/layer3,
+/area/tyrargo/outdoors/outskirts/central)
+"eB" = (
+/obj/effect/landmark/yautja_teleport,
+/turf/open/auto_turf/snow/brown_base/layer1,
+/area/tyrargo/outdoors/outskirts/central)
+"eC" = (
+/obj/structure/flora/bush/snow,
+/turf/open/auto_turf/snow/brown_base/layer3,
+/area/tyrargo/outdoors/outskirts/central)
+"eD" = (
+/obj/structure/flora/bush/snow{
+	icon_state = "snowgrassall_1"
+	},
+/turf/open/auto_turf/snow/brown_base/layer3,
+/area/tyrargo/outdoors/outskirts/central)
+"eE" = (
+/obj/structure/barricade/sandbags/weak_wired{
+	dir = 8;
+	icon_state = "sandbag_0"
+	},
+/obj/structure/barricade/sandbags/weak_wired{
+	dir = 1;
+	icon_state = "sandbag_0";
+	pixel_y = 4
+	},
+/obj/effect/decal/ammo_casing/bullet,
+/obj/effect/decal/ammo_casing/bullet,
+/obj/effect/decal/ammo_casing/bullet,
+/obj/structure/prop/tyrargo/boards/boards_1{
+	pixel_x = -1;
+	pixel_y = -7
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud_alt,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"eF" = (
+/obj/effect/decal/ammo_casing/bullet,
+/obj/effect/decal/ammo_casing/bullet,
+/obj/effect/decal/ammo_casing/bullet,
+/obj/effect/decal/grass_overlay/grass1/dark{
+	dir = 8
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud_alt,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"eG" = (
+/obj/item/prop/colony/usedbandage{
+	dir = 9
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"eH" = (
+/obj/structure/flora/bush/ausbushes/grassybush{
+	icon_state = "sunnybush_1"
+	},
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"eI" = (
+/turf/open/auto_turf/snow/brown_base/layer3,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"eJ" = (
+/obj/structure/flora/bush/snow{
+	icon_state = "snowgrassall_1"
+	},
+/turf/open/auto_turf/snow/brown_base/layer3,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"eK" = (
+/obj/structure/flora/tree/tyrargo,
+/obj/structure/flora/tree/tyrargo/tree_2{
+	pixel_x = -26;
+	pixel_y = 11;
+	layer = 5.9
+	},
+/obj/structure/flora/tree/tyrargo/tree_2{
+	pixel_x = -7;
+	pixel_y = 16;
+	layer = 5.89
+	},
+/turf/open/auto_turf/snow/brown_base/layer3,
+/area/tyrargo/outdoors/outskirts/central)
+"eL" = (
+/obj/structure/flora/tree/tyrargo{
+	pixel_x = -23;
+	pixel_y = 15;
+	layer = 5.99
+	},
+/obj/structure/flora/tree/tyrargo/tree_2{
+	pixel_x = -14;
+	pixel_y = 3
+	},
+/obj/structure/flora/tree/tyrargo{
+	pixel_x = -9;
+	pixel_y = 19;
+	layer = 5.98
+	},
+/turf/open/auto_turf/snow/brown_base/layer3,
+/area/tyrargo/outdoors/outskirts/central)
+"eM" = (
+/obj/structure/flora/tree/tyrargo/tree_2{
+	pixel_x = -24;
+	pixel_y = 2
+	},
+/obj/structure/flora/tree/tyrargo/tree_2{
+	pixel_x = -8;
+	pixel_y = 9;
+	layer = 5.89
+	},
+/obj/structure/flora/tree/tyrargo{
+	pixel_x = -20;
+	pixel_y = 15;
+	layer = 5.99
+	},
+/turf/open/auto_turf/snow/brown_base/layer3,
+/area/tyrargo/outdoors/outskirts/central)
+"eN" = (
+/obj/structure/flora/tree/tyrargo{
+	pixel_x = -14;
+	pixel_y = 3
+	},
+/obj/structure/flora/tree/tyrargo{
+	pixel_x = -8;
+	pixel_y = 19;
+	layer = 5.98
+	},
+/obj/structure/flora/tree/tyrargo{
+	pixel_x = -26;
+	pixel_y = 11;
+	layer = 5.99
+	},
+/turf/open/auto_turf/snow/brown_base/layer3,
+/area/tyrargo/outdoors/outskirts/central)
+"eO" = (
+/obj/structure/flora/tree/tyrargo/tree_2{
+	pixel_x = -24;
+	pixel_y = 2
+	},
+/obj/structure/flora/tree/tyrargo{
+	pixel_x = -15;
+	pixel_y = 15;
+	layer = 5.88
+	},
+/obj/structure/flora/tree/tyrargo{
+	pixel_x = -6;
+	pixel_y = 6;
+	layer = 5.99
+	},
+/turf/open/auto_turf/snow/brown_base/layer3,
+/area/tyrargo/outdoors/outskirts/central)
+"eP" = (
+/obj/structure/flora/tree/tyrargo/tree_2{
+	pixel_x = -24;
+	pixel_y = 2
+	},
+/obj/structure/flora/tree/tyrargo{
+	pixel_x = -15;
+	pixel_y = 15;
+	layer = 5.88
+	},
+/obj/structure/flora/tree/tyrargo{
+	pixel_x = -6;
+	pixel_y = 6;
+	layer = 5.99
+	},
+/obj/structure/flora/grass/tallgrass/ice/corner{
+	dir = 5
+	},
+/turf/open/auto_turf/snow/brown_base/layer3,
+/area/tyrargo/outdoors/outskirts/central)
+"eQ" = (
+/obj/structure/flora/grass/tallgrass/ice,
+/turf/open/auto_turf/snow/brown_base/layer3,
+/area/tyrargo/outdoors/outskirts/central)
+"eR" = (
+/obj/structure/flora/grass/tallgrass/ice/corner{
+	dir = 9
+	},
+/turf/open/auto_turf/snow/brown_base/layer1,
+/area/tyrargo/outdoors/outskirts/central)
+"eS" = (
+/obj/structure/prop/rock/black_ground{
+	dir = 5;
+	pixel_y = -11;
+	pixel_x = -14
+	},
+/obj/effect/decal/strata_decals/tyrargo_mud_corner{
+	dir = 9
+	},
+/turf/open/auto_turf/strata_grass,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"eT" = (
+/obj/effect/decal/grass_overlay/grass1/dark{
+	dir = 1
+	},
+/obj/effect/decal/grass_overlay/grass1/dark{
+	dir = 8
+	},
+/obj/effect/decal/grass_overlay/grass1/dark{
+	dir = 4
+	},
+/obj/effect/decal/grass_overlay/grass1/dark,
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"eU" = (
+/obj/structure/prop/rock/black_ground{
+	dir = 9;
+	pixel_y = -11;
+	pixel_x = -14
+	},
+/turf/open/auto_turf/snow/brown_base/layer1,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"eV" = (
+/obj/structure/flora/tree/tyrargo,
+/obj/structure/flora/tree/tyrargo/tree_2{
+	pixel_x = -26;
+	pixel_y = 11;
+	layer = 5.9
+	},
+/obj/structure/flora/tree/tyrargo/tree_2{
+	pixel_x = -7;
+	pixel_y = 16;
+	layer = 5.89
+	},
+/turf/open/auto_turf/snow/brown_base/layer3,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"eW" = (
+/obj/structure/flora/tree/tyrargo_small/tree_stump{
+	layer = 3;
+	pixel_y = 15;
+	pixel_x = -17
+	},
+/turf/open/auto_turf/snow/brown_base/layer3,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"eX" = (
+/obj/structure/flora/tree/tyrargo/tree_2{
+	pixel_x = -8;
+	pixel_y = 9;
+	layer = 5.89
+	},
+/obj/structure/flora/tree/tyrargo_small/tree_stump{
+	pixel_x = -22;
+	pixel_y = 7
+	},
+/turf/open/auto_turf/snow/brown_base/layer3,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"eY" = (
+/obj/structure/flora/tree/tyrargo{
+	pixel_x = -14;
+	pixel_y = 3
+	},
+/obj/structure/flora/tree/tyrargo{
+	pixel_x = -8;
+	pixel_y = 19;
+	layer = 5.98
+	},
+/obj/structure/flora/tree/tyrargo{
+	pixel_x = -26;
+	pixel_y = 11;
+	layer = 5.99
+	},
+/turf/open/auto_turf/snow/brown_base/layer3,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"eZ" = (
+/obj/structure/flora/tree/tyrargo/tree_2{
+	pixel_x = -24;
+	pixel_y = 2
+	},
+/obj/structure/flora/tree/tyrargo{
+	pixel_x = -15;
+	pixel_y = 15;
+	layer = 5.88
+	},
+/obj/structure/flora/tree/tyrargo{
+	pixel_x = -6;
+	pixel_y = 6;
+	layer = 5.99
+	},
+/turf/open/auto_turf/snow/brown_base/layer3,
+/area/tyrargo/outdoors/outskirts/central/landing_zone)
+"fa" = (
+/obj/structure/flora/tree/tyrargo{
+	pixel_x = -23;
+	pixel_y = 15;
+	layer = 5.96
+	},
+/obj/structure/flora/tree/tyrargo/tree_2{
+	pixel_x = -14;
+	pixel_y = 3;
+	layer = 5.97
+	},
+/obj/structure/flora/tree/tyrargo{
+	pixel_x = -9;
+	pixel_y = 19;
+	layer = 5.95
+	},
+/turf/open/auto_turf/snow/brown_base/layer3,
+/area/tyrargo/outdoors/outskirts/central)
+"fb" = (
+/obj/structure/flora/tree/tyrargo{
+	pixel_x = -14;
+	pixel_y = 3;
+	layer = 5.97
+	},
+/obj/structure/flora/tree/tyrargo{
+	pixel_x = -8;
+	pixel_y = 19;
+	layer = 5.95
+	},
+/obj/structure/flora/tree/tyrargo{
+	pixel_x = -26;
+	pixel_y = 11;
+	layer = 5.96
+	},
+/turf/open/auto_turf/snow/brown_base/layer3,
+/area/tyrargo/outdoors/outskirts/central)
+"fc" = (
+/obj/structure/flora/tree/tyrargo{
+	layer = 5.97
+	},
+/obj/structure/flora/tree/tyrargo/tree_2{
+	pixel_x = -26;
+	pixel_y = 11;
+	layer = 5.96
+	},
+/obj/structure/flora/tree/tyrargo/tree_2{
+	pixel_x = -7;
+	pixel_y = 16;
+	layer = 5.95
+	},
+/turf/open/auto_turf/snow/brown_base/layer3,
+/area/tyrargo/outdoors/outskirts/central)
+"fd" = (
+/obj/structure/flora/tree/tyrargo{
+	pixel_x = -14;
+	pixel_y = 3;
+	layer = 5.97
+	},
+/obj/structure/flora/tree/tyrargo{
+	pixel_x = -8;
+	pixel_y = 19;
+	layer = 5.95
+	},
+/obj/structure/flora/tree/tyrargo{
+	pixel_x = -26;
+	pixel_y = 11;
+	layer = 5.96
+	},
+/obj/structure/flora/grass/tallgrass/ice/corner{
+	dir = 4
+	},
+/turf/open/auto_turf/snow/brown_base/layer3,
+/area/tyrargo/outdoors/outskirts/central)
+"fe" = (
+/obj/structure/flora/tree/tyrargo,
+/obj/structure/flora/tree/tyrargo/tree_2{
+	pixel_x = -26;
+	pixel_y = 11;
+	layer = 5.9
+	},
+/obj/structure/flora/tree/tyrargo/tree_2{
+	pixel_x = -7;
+	pixel_y = 16;
+	layer = 5.89
+	},
+/obj/structure/flora/grass/tallgrass/ice,
+/turf/open/auto_turf/snow/brown_base/layer3,
+/area/tyrargo/outdoors/outskirts/central)
+"ff" = (
+/obj/structure/flora/grass/tallgrass/ice,
+/obj/structure/flora/grass/tallgrass/ice,
+/turf/open/auto_turf/snow/brown_base/layer3,
+/area/tyrargo/outdoors/outskirts/central)
+
+(1,1,1) = {"
+eS
+as
+cb
+ea
+ad
+ad
+ad
+ad
+cs
+cs
+ax
+cs
+ca
+ad
+ad
+ad
+ad
+aH
+ar
+aa
+"}
+(2,1,1) = {"
+as
+eE
+en
+eb
+aw
+aw
+dL
+ad
+dn
+cZ
+ca
+ct
+cb
+bM
+ad
+ad
+ad
+at
+as
+ab
+"}
+(3,1,1) = {"
+at
+eF
+eo
+ec
+aw
+aw
+au
+ad
+do
+cH
+cH
+cu
+cc
+bN
+bz
+bj
+ad
+ad
+at
+ac
+"}
+(4,1,1) = {"
+eT
+eG
+ep
+ed
+dS
+au
+au
+ax
+dp
+da
+cI
+cv
+cd
+bO
+as
+bk
+ad
+aI
+ad
+ad
+"}
+(5,1,1) = {"
+ad
+aw
+aw
+aw
+au
+au
+dM
+dC
+do
+cJ
+cJ
+cw
+ce
+bP
+bA
+ad
+ad
+ad
+ad
+ae
+"}
+(6,1,1) = {"
+ad
+ad
+eq
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+cK
+ad
+ad
+ad
+ad
+ad
+ad
+ae
+ae
+ae
+"}
+(7,1,1) = {"
+ad
+ca
+er
+ad
+ad
+ca
+ad
+ad
+dq
+cL
+cL
+cx
+cf
+bQ
+bB
+bl
+ae
+ae
+ae
+ae
+"}
+(8,1,1) = {"
+ad
+ad
+es
+ee
+dT
+dP
+ad
+ad
+dr
+db
+cM
+cy
+cg
+bR
+bm
+bm
+aV
+aJ
+ae
+ae
+"}
+(9,1,1) = {"
+eU
+dN
+cf
+ef
+dU
+ad
+ad
+ad
+ds
+dc
+cN
+cz
+bm
+bS
+bC
+bm
+aW
+ad
+au
+af
+"}
+(10,1,1) = {"
+ey
+as
+bm
+bm
+dV
+dQ
+ad
+ad
+dt
+dd
+cO
+cA
+ch
+bf
+bD
+bd
+aX
+ad
+av
+ag
+"}
+(11,1,1) = {"
+dQ
+eH
+et
+eg
+as
+dQ
+ad
+ax
+du
+de
+bt
+bH
+ci
+bH
+bu
+bn
+aY
+aK
+aw
+ah
+"}
+(12,1,1) = {"
+eV
+as
+eu
+eh
+aW
+ad
+ca
+ad
+dv
+df
+bX
+bT
+bH
+bH
+bt
+bo
+aZ
+aL
+ad
+ad
+"}
+(13,1,1) = {"
+eW
+as
+ev
+ei
+dW
+ad
+ad
+cL
+dv
+dg
+cP
+bH
+ci
+bH
+bE
+bp
+ba
+aM
+ax
+ad
+"}
+(14,1,1) = {"
+eX
+as
+ew
+ej
+dW
+ad
+ad
+dD
+dw
+dg
+cQ
+cB
+bH
+bT
+bu
+bn
+bb
+aN
+ad
+ad
+"}
+(15,1,1) = {"
+eY
+eI
+ex
+ek
+dX
+ca
+dN
+dE
+bS
+dg
+cR
+bH
+ci
+bH
+bt
+bn
+bc
+aO
+ad
+ad
+"}
+(16,1,1) = {"
+eZ
+eJ
+ey
+dX
+ad
+dN
+as
+dF
+dx
+dh
+bt
+bH
+cj
+bH
+bF
+bq
+bd
+as
+ay
+ai
+"}
+(17,1,1) = {"
+fa
+eK
+ez
+el
+dY
+az
+aA
+dG
+dg
+di
+cS
+bU
+ck
+bU
+bG
+br
+be
+aA
+az
+aj
+"}
+(18,1,1) = {"
+fb
+eL
+em
+bx
+al
+dR
+az
+az
+dg
+dj
+bT
+bt
+cl
+bt
+bH
+bs
+be
+az
+aA
+ak
+"}
+(19,1,1) = {"
+fc
+eM
+eA
+em
+al
+al
+dm
+dH
+bg
+bt
+bH
+bX
+cm
+bV
+bH
+bt
+bf
+az
+ak
+al
+"}
+(20,1,1) = {"
+fc
+eN
+em
+al
+al
+al
+al
+dl
+bf
+bt
+bH
+bt
+cm
+bW
+bH
+bt
+bg
+aP
+aB
+al
+"}
+(21,1,1) = {"
+fb
+eO
+eA
+em
+al
+al
+al
+dI
+dy
+dj
+bH
+cC
+cm
+bt
+bH
+bt
+be
+aQ
+al
+al
+"}
+(22,1,1) = {"
+fa
+eK
+eB
+em
+dO
+aB
+al
+dJ
+dz
+bt
+bH
+bt
+cn
+bs
+bH
+bu
+be
+aR
+aC
+am
+"}
+(23,1,1) = {"
+fb
+eL
+eC
+em
+dO
+dO
+al
+dK
+dg
+cP
+cT
+bU
+co
+bU
+bI
+bt
+be
+aS
+aD
+an
+"}
+(24,1,1) = {"
+fc
+eM
+eA
+em
+dO
+dO
+al
+dl
+dA
+dk
+cU
+cD
+cp
+bJ
+bD
+bv
+bh
+aT
+aE
+ao
+"}
+(25,1,1) = {"
+fc
+eN
+eA
+em
+dO
+dO
+al
+dm
+dB
+bw
+cV
+cE
+cq
+bt
+bJ
+bw
+bi
+aU
+aF
+ap
+"}
+(26,1,1) = {"
+fd
+eP
+eA
+em
+dO
+dO
+dO
+al
+dm
+az
+cW
+cF
+cr
+bX
+bD
+az
+ak
+al
+aG
+ak
+"}
+(27,1,1) = {"
+fe
+eQ
+eD
+al
+dZ
+al
+al
+al
+al
+dl
+cX
+cG
+bD
+bY
+bK
+bx
+al
+al
+al
+al
+"}
+(28,1,1) = {"
+ff
+eR
+em
+al
+al
+al
+al
+al
+al
+dm
+cY
+bZ
+bZ
+bZ
+bL
+by
+al
+al
+al
+aq
+"}

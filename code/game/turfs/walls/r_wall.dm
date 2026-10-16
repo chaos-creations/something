@@ -239,6 +239,7 @@
 	icon = 'icons/turf/walls/prison.dmi'
 	icon_state = "tempwall"
 	damage_cap = HEALTH_WALL_REINFORCED
+	hull = TRUE
 
 /turf/closed/wall/r_wall/prison/temphull/Initialize()
 	. = ..()
@@ -246,7 +247,7 @@
 
 /turf/closed/wall/r_wall/prison/temphull/proc/de_hull()
 	SIGNAL_HANDLER
-	turf_flags = NO_FLAGS
+	hull = FALSE
 	desc = "A highly reinforced metal wall used to separate rooms and make up the ship. The extra defensive sheeting has slid away."
 
 /turf/closed/wall/r_wall/prison_unmeltable

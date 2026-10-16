@@ -26085,7 +26085,7 @@
 /obj/item/prop{
 	desc = "It's the heavy-duty black polymer kind. Time to take out the trash!";
 	icon = 'icons/obj/janitor.dmi';
-	icon_state = "trashbag_full";
+	icon_state = "trashbag3";
 	name = "trash bag";
 	pixel_x = -4;
 	pixel_y = 6

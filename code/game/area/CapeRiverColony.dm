@@ -298,14 +298,14 @@
 	icon_state = "research_dock"
 
 /area/caperiver/indoors/conambase/unknown
-	name = "c^n-Am S 'Co)es#ne B@se' A - V Un&ble To Dis@ern E S^ruct&re Func&%*# E. U.S -- &#AAA#.."
+	name = "Un&ble To Dis@ern S^ruct&re"
 	icon_state = "research_dock"
 	minimap_color = MINIMAP_DRAWING_YELLOW
-	ambience_exterior = AMBIENCE_CULT
-	soundscape_interval = 40
 	ceiling_muffle = FALSE
 	ceiling = CEILING_UNDERGROUND_METAL_BLOCK_CAS
 	requires_power = FALSE
+	ambience_exterior = AMBIENCE_HYBRISA_CAVES
+	soundscape_playlist = SCAPE_PL_LV759_DEEPCAVES
 
 // - Misc - \\
 

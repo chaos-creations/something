@@ -672,6 +672,18 @@
 	faction_group = null
 	ammo = new /obj/item/ammo_magazine/sentry
 
+/obj/structure/machinery/defenses/sentry/premade/lowammo/dumb
+	name = "modified UA-577 Gauss Turret"
+	desc = "A deployable, semi-automated turret with AI targeting capabilities. Armed with an M30 Autocannon and a high-capacity drum magazine. This one's IFF system has been disabled, and it will open fire on any targets within range."
+	faction_group = null
+	ammo = new /obj/item/ammo_magazine/sentry/premade/lowammo/dumb
+
+/obj/structure/machinery/defenses/sentry/premade/lowammo/random/dumb
+	name = "modified UA-577 Gauss Turret"
+	desc = "A deployable, semi-automated turret with AI targeting capabilities. Armed with an M30 Autocannon and a high-capacity drum magazine. This one's IFF system has been disabled, and it will open fire on any targets within range."
+	faction_group = FACTION_LIST_CLF
+	ammo = new /obj/item/ammo_magazine/sentry/premade/lowammo/dumb
+
 /obj/structure/machinery/defenses/sentry/premade/antre_wy
 	name = "\improper Static UA-577 Gauss Turret"
 	immobile = TRUE

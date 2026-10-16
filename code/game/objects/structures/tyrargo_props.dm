@@ -7,8 +7,8 @@
 	anchored = TRUE
 	unslashable = FALSE
 	health = 100
-//	layer = BELOW_MOB_LAYER
-	layer = XENO_HIDING_LAYER
+	layer = 2.4
+	mouse_opacity = MOUSE_OPACITY_TRANSPARENT
 
 /obj/structure/prop/tyrargo/boards/boards_1
 	icon_state = "boards_2"
@@ -99,6 +99,8 @@
 // Military Light Source
 
 /obj/structure/prop/tyrargo/illuminator
+	name = "\improper UE-92/B Area Illuminator"
+	desc = "Varient of the UE-92, a large deployable floodlight. This version is less powerful but it houses an internal power source that allows it to operate for several hours without being linked to a power generator."
 	icon = 'icons/obj/structures/props/industrial/illuminator.dmi'
 	icon_state = "floodlight-off"
 	health = 300
@@ -153,7 +155,7 @@
 
 /obj/structure/prop/tyrargo/military_evac_sign
 	name = "US military evacuation notice"
-	desc = "A evacuation poster, it reads: All residents of Tyrargo Rift and outlying areas are required to evacuate by 5:45pm/2182. All evacuees will be asked to provide identification and may be subject to medical testing. Evacuees resisting offical direction will be detained. Evacuation is mandatory."
+	desc = "An evacuation poster, it reads: All residents of Tyrargo Rift and outlying areas are required to evacuate by 5:45pm/2182. All evacuees will be asked to provide identification and may be subject to medical testing. Evacuees resisting official direction will be detained. Evacuation is mandatory."
 	icon = 'icons/obj/structures/props/wall_decorations/tyrargo32x64_signs.dmi'
 	icon_state = "evac_sign"
 	layer = WALL_OBJ_LAYER
@@ -212,7 +214,7 @@
 // Traffic Sign
 /obj/structure/prop/tyrargo/traffic_signal
 	name = "Portable Changeable Message Sign"
-	desc = "A PCMS, it displays offical instructions by the local authorities."
+	desc = "A PCMS, it displays official instructions by the local authorities."
 	icon = 'icons/obj/structures/props/industrial/traffic_signal.dmi'
 	icon_state = "traffic_1"
 	layer = BILLBOARD_LAYER
@@ -278,7 +280,7 @@
 	icon_overlay = "_seashallow"
 
 /turf/open/gm/river/desert/tyrargo/no_slowdown
-	base_river_slowdown = 0
+	base_river_slowdown = 1
 
 /turf/open/gm/river/desert/tyrargo/covered
 	covered = TRUE
@@ -289,7 +291,7 @@
 	icon_overlay = "_seadeep"
 
 /turf/open/gm/river/desert/tyrargo/deep/no_slowdown
-	base_river_slowdown = 0
+	base_river_slowdown = 1
 
 /turf/open/gm/river/desert/tyrargo/deep/covered
 	covered = TRUE

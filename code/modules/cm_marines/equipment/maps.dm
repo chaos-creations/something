@@ -191,7 +191,7 @@ GLOBAL_LIST_INIT(mapless_maps, list(MAP_RUNTIME, MAP_CHINOOK, MAIN_SHIP_DEFAULT_
 
 /obj/item/map/tyrargo_rift
 	name = "\improper Tyrargo Rift map"
-	desc = "A labeled blueprint of the UA city Tyrargo Rift"
+	desc = "A labeled blueprint of the UA city Tyrargo Rift."
 	html_link = "images/7/79/Tyrargo_Rift.png"
 
 /obj/item/map/white_antre_map
@@ -205,6 +205,12 @@ GLOBAL_LIST_INIT(mapless_maps, list(MAP_RUNTIME, MAP_CHINOOK, MAIN_SHIP_DEFAULT_
 	desc = "A labeled blueprint of the Con-Am mining outpost Cape River"
 	html_link = "images/4/46/Cape_River.png"
 	color = "red"
+
+/obj/item/map/abyssal_station_map
+	name = "\improper Abyssal Station 81 map"
+	desc = "An overview of Con-Am 81 'Abyssal' Station."
+	html_link = "images/7/71/Abbysal_station.png"
+	color = "cyan"
 
 /obj/item/map/galaxy
 	name = "\improper Galaxy map"
@@ -256,7 +262,7 @@ GLOBAL_LIST_INIT_TYPED(map_type_list, /obj/item/map, setup_all_maps())
 		MAP_NAVALIS_SINGLE = new /obj/item/map/navalis,
 		MAP_TYRARGO_RIFT = new /obj/item/map/tyrargo_rift(),
 		MAP_WHITE_ANTRE_RESEARCH_FACILITY = new /obj/item/map/white_antre_map(),
-		MAP_CONAM_81_ABYSSAL = new /obj/item/map/new_varadero(),
+		MAP_CONAM_81_ABYSSAL = new /obj/item/map/abyssal_station_map(),
 		MAP_CAPE_RIVER = new /obj/item/map/cape_river(),
 	)
 

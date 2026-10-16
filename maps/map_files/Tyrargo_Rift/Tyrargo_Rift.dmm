@@ -918,6 +918,9 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "W"
 	},
+/obj/structure/machinery/power/terminal{
+	dir = 4
+	},
 /turf/open/floor/prison/cell_stripe/east,
 /area/tyrargo/indoors/engineering/ground)
 "acP" = (
@@ -20086,6 +20089,7 @@
 /obj/effect/decal/ammo_casing/bullet,
 /obj/effect/decal/ammo_casing/bullet,
 /obj/effect/decal/ammo_casing/bullet,
+/obj/effect/sentry_landmark/lz_1/top_left,
 /turf/open/auto_turf/tyrargo_grass/layer0,
 /area/tyrargo/landing_zone_1)
 "aVj" = (
@@ -27113,6 +27117,7 @@
 	pixel_x = 4
 	},
 /obj/effect/decal/ammo_casing/bullet,
+/obj/effect/sentry_landmark/lz_2/bottom_left,
 /turf/open/floor/interior/wood/alt,
 /area/tyrargo/landing_zone_2)
 "bjt" = (
@@ -27498,6 +27503,7 @@
 "bkl" = (
 /obj/effect/decal/cleanable/generic,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/sentry_landmark/lz_2/top_right,
 /turf/open/floor/interior/wood,
 /area/tyrargo/landing_zone_2)
 "bkm" = (
@@ -27525,6 +27531,7 @@
 	pixel_y = -12
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/sentry_landmark/lz_2/top_right,
 /turf/open/floor/interior/wood/alt,
 /area/tyrargo/landing_zone_2)
 "bkp" = (
@@ -28598,6 +28605,7 @@
 /obj/effect/decal/grass_overlay/grass1/dark{
 	dir = 8
 	},
+/obj/effect/sentry_landmark/lz_1/top_right,
 /turf/open/auto_turf/tyrargo_grass/layer0_mud,
 /area/tyrargo/landing_zone_1)
 "bmr" = (
@@ -37110,7 +37118,7 @@
 /turf/open/auto_turf/tyrargo_grass/layer0_mud,
 /area/tyrargo/outdoors/outskirts/north_east_usasf)
 "bFg" = (
-/obj/item/ammo_magazine/pistol{
+/obj/item/ammo_magazine/pistol/vp70{
 	pixel_x = 7;
 	pixel_y = 6
 	},
@@ -47723,6 +47731,13 @@
 	},
 /turf/open/auto_turf/snow/brown_base/layer2,
 /area/tyrargo/outdoors/colony_exterior/south_east)
+"chY" = (
+/obj/structure/machinery/power/terminal{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/strata/floor3,
+/area/tyrargo/underground/engineering)
 "chZ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -48127,6 +48142,12 @@
 	},
 /turf/open/hybrisa/street/asphalt,
 /area/tyrargo/outdoors/colony_streets/south_west)
+"cjn" = (
+/obj/structure/machinery/power/terminal{
+	dir = 4
+	},
+/turf/open/floor/hybrisa/tile/tilegrey,
+/area/tyrargo/underground/apartment)
 "cjo" = (
 /obj/effect/decal/cleanable/blood/xeno,
 /turf/open/hybrisa/street/cement2,
@@ -48147,6 +48168,10 @@
 /obj/structure/blocker/invisible_wall,
 /turf/open/floor/prison/floor_plate,
 /area/tyrargo/oob/outdoors)
+"cjq" = (
+/obj/effect/sentry_landmark/lz_2/bottom_right,
+/turf/open/auto_turf/tyrargo_grass/layer0,
+/area/tyrargo/landing_zone_2)
 "cjr" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/ammo_magazine/rifle/heap{
@@ -49018,6 +49043,11 @@
 	},
 /turf/open/floor/hybrisa/carpet/carpetgreendeco,
 /area/tyrargo/indoors/apartment/south_ground)
+"clM" = (
+/obj/effect/sentry_landmark/lz_2/bottom_right,
+/obj/effect/decal/hybrisa/dirt,
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/landing_zone_2/road)
 "clN" = (
 /obj/item/prop/colony/used_flare,
 /turf/open/asphalt/cement/cement1,
@@ -49192,6 +49222,10 @@
 /obj/item/prop/colony/used_flare,
 /turf/open/floor/prison,
 /area/tyrargo/indoors/engineering/ground)
+"cmt" = (
+/obj/effect/sentry_landmark/lz_2/top_left,
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/landing_zone_2)
 "cmu" = (
 /turf/open/auto_turf/sand_white/layer0,
 /area/tyrargo/outdoors/colony_streets/east)
@@ -49227,6 +49261,10 @@
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_door_reinforced,
 /turf/open/hybrisa/street/asphalt,
 /area/tyrargo/indoors/museum_storage/upper)
+"cmA" = (
+/obj/effect/sentry_landmark/lz_2/top_left,
+/turf/open/auto_turf/tyrargo_grass/layer0,
+/area/tyrargo/landing_zone_2)
 "cmB" = (
 /turf/open/floor/hybrisa/metal/zbrownfloor1/northeast,
 /area/tyrargo/indoors/engineering/ground)
@@ -49474,6 +49512,10 @@
 "cnx" = (
 /turf/closed/wall/hybrisa/colony/engineering/reinforced/hull,
 /area/tyrargo/outdoors/colony_exterior/west)
+"cny" = (
+/obj/effect/sentry_landmark/lz_2/bottom_left,
+/turf/open/auto_turf/tyrargo_grass/layer1,
+/area/tyrargo/landing_zone_2)
 "cnz" = (
 /turf/open/auto_turf/tyrargo_grass/layer0_mud_alt,
 /area/tyrargo/outdoors/colony_exterior/west)
@@ -49773,6 +49815,15 @@
 	},
 /turf/open/floor/hybrisa/wood/greywood,
 /area/tyrargo/indoors/apartment/north_ground)
+"coD" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/obj/structure/machinery/power/terminal{
+	dir = 4
+	},
+/turf/open/floor/prison/cell_stripe/east,
+/area/tyrargo/indoors/engineering/ground)
 "coE" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/device/defibrillator/upgraded,
@@ -50107,6 +50158,14 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/asphalt/cement/cement3,
 /area/tyrargo/outdoors/colony_streets/north_west)
+"cpC" = (
+/obj/effect/sentry_landmark/lz_1/bottom_left,
+/turf/open/auto_turf/tyrargo_grass/layer0,
+/area/tyrargo/landing_zone_1)
+"cpD" = (
+/obj/effect/sentry_landmark/lz_1/bottom_right,
+/turf/open/auto_turf/tyrargo_grass/layer0,
+/area/tyrargo/landing_zone_1)
 "cpE" = (
 /obj/structure/closet/crate/ammo{
 	name = "soft-point munitions crate";
@@ -50781,6 +50840,10 @@
 /obj/structure/prop/hybrisa/vehicles/Meridian/Light_Blue,
 /turf/open/hybrisa/street/asphalt,
 /area/tyrargo/outdoors/colony_streets/north_east)
+"crJ" = (
+/obj/effect/sentry_landmark/lz_1/top_left,
+/turf/open/auto_turf/tyrargo_grass/layer0,
+/area/tyrargo/landing_zone_1)
 "crK" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/asphalt,
@@ -51058,6 +51121,11 @@
 /obj/item/prop/colony/used_flare,
 /turf/open/asphalt/cement,
 /area/tyrargo/outdoors/colony_streets/north_west)
+"csz" = (
+/obj/effect/decal/ammo_casing/bullet,
+/obj/effect/sentry_landmark/lz_1/bottom_right,
+/turf/open/auto_turf/tyrargo_grass/layer1,
+/area/tyrargo/landing_zone_1)
 "csA" = (
 /obj/structure/blocker/invisible_wall,
 /obj/structure/blocker/forcefield/vehicles,
@@ -51480,6 +51548,11 @@
 	},
 /turf/open/floor/wood,
 /area/tyrargo/indoors/bar/ground)
+"cua" = (
+/obj/effect/decal/ammo_casing/bullet,
+/obj/effect/sentry_landmark/lz_1/bottom_right,
+/turf/open/auto_turf/tyrargo_grass/layer0,
+/area/tyrargo/landing_zone_1)
 "cub" = (
 /obj/structure/prop/rock/black_ground{
 	dir = 5;
@@ -52122,6 +52195,13 @@
 	},
 /turf/open/asphalt/cement/cement1,
 /area/tyrargo/outdoors/colony_exterior/north_east)
+"cwi" = (
+/obj/structure/prop/rock/black_ground{
+	dir = 4
+	},
+/obj/effect/sentry_landmark/lz_1/top_right,
+/turf/open/auto_turf/tyrargo_grass/layer0,
+/area/tyrargo/landing_zone_1)
 "cwj" = (
 /obj/structure/flora/tree/tyrargo/tree_2{
 	pixel_y = -2;
@@ -52195,6 +52275,10 @@
 /obj/structure/flora/bush/ausbushes/lavendergrass,
 /turf/open/auto_turf/tyrargo_grass/layer0,
 /area/tyrargo/outdoors/colony_exterior/north_east)
+"cww" = (
+/obj/effect/sentry_landmark/lz_1/top_right,
+/turf/open/auto_turf/tyrargo_grass/layer0_mud,
+/area/tyrargo/landing_zone_1)
 "cwx" = (
 /obj/structure/flora/tree/tyrargo{
 	pixel_x = -15;
@@ -52445,8 +52529,8 @@
 	icon_state = "sandbag_0";
 	pixel_x = 4
 	},
-/obj/item/ammo_box/magazine/m41ae2/heap{
-	num_of_magazines = 0
+/obj/item/ammo_magazine/hpr_box/heap{
+	current_rounds = 0
 	},
 /obj/effect/decal/grass_overlay/grass1/dark{
 	dir = 4
@@ -60971,12 +61055,12 @@
 	desc = "Crate filled with soft-point ammo. Typically used when fighting onboard space stations, or when there's nothing better to use.";
 	opened = 1
 	},
-/obj/item/ammo_box/magazine/m41ae2/holo,
+/obj/item/ammo_magazine/hpr_box/holo_target,
 /turf/open/auto_turf/tyrargo_grass/layer0,
 /area/tyrargo/outdoors/outskirts/central)
 "cXv" = (
-/obj/item/ammo_box/magazine/m41ae2/heap{
-	num_of_magazines = 0
+/obj/item/ammo_magazine/hpr_box/heap{
+	current_rounds = 0
 	},
 /turf/open/auto_turf/tyrargo_grass/layer0,
 /area/tyrargo/outdoors/outskirts_road/east)
@@ -63428,13 +63512,14 @@
 /turf/open/auto_turf/tyrargo_grass/layer0,
 /area/tyrargo/outdoors/outskirts/fsb_north)
 "ddz" = (
-/obj/item/ammo_box/magazine/m41ae2/heap{
+/obj/item/ammo_magazine/hpr_box/heap{
+	current_rounds = 0;
 	pixel_x = -5;
-	pixel_y = 9;
-	num_of_magazines = 0
+	pixel_y = 9
 	},
-/obj/item/ammo_box/magazine/m41ae2/holo{
-	pixel_y = -1
+/obj/item/ammo_magazine/hpr_box/holo_target{
+	pixel_y = -1;
+	current_rounds = 84
 	},
 /turf/open/auto_turf/tyrargo_grass/layer0,
 /area/tyrargo/outdoors/outskirts/fsb_north)
@@ -70951,6 +71036,9 @@
 	capacity = 1e+006;
 	dir = 1
 	},
+/obj/structure/machinery/power/terminal{
+	dir = 4
+	},
 /turf/open/floor/corsat,
 /area/tyrargo/underground/engineering)
 "dwk" = (
@@ -72132,6 +72220,10 @@
 "dzA" = (
 /obj/structure/surface/table/reinforced/prison{
 	color = "#8B7B5B"
+	},
+/obj/structure/prop/server_equipment/laptop/closed{
+	pixel_x = -2;
+	pixel_y = 11
 	},
 /turf/open/floor/hybrisa/carpet/carpetgreendeco,
 /area/tyrargo/underground/mall)
@@ -76010,10 +76102,6 @@
 "dIL" = (
 /obj/structure/surface/table/reinforced/prison{
 	color = "#8B7B5B"
-	},
-/obj/structure/prop/server_equipment/laptop/closed{
-	pixel_x = -2;
-	pixel_y = 11
 	},
 /obj/item/ashtray/bronze{
 	icon_state = "ashtray_full_bl";
@@ -88960,7 +89048,7 @@
 /obj/structure/prop/hybrisa/misc/blood/blood3{
 	pixel_x = 11
 	},
-/obj/item/ammo_box/magazine/m41ae2/heap{
+/obj/item/ammo_magazine/hpr_box/heap{
 	pixel_x = 13;
 	pixel_y = -13
 	},
@@ -89273,7 +89361,7 @@
 /area/tyrargo/oob/outdoors)
 "eqh" = (
 /obj/structure/prop/hybrisa/misc/stoneplanterseats/empty{
-	dir = 1;
+	dir = 8;
 	pixel_x = -8;
 	pixel_y = 4
 	},
@@ -89281,7 +89369,7 @@
 /area/tyrargo/oob/outdoors)
 "eqi" = (
 /obj/structure/prop/hybrisa/misc/stoneplanterseats/empty{
-	dir = 1;
+	dir = 8;
 	pixel_x = -8;
 	pixel_y = 4
 	},
@@ -97250,6 +97338,7 @@
 	layer = 3.0;
 	pixel_y = 4
 	},
+/obj/effect/sentry_landmark/lz_2/bottom_left,
 /obj/structure/prop/tyrargo/boards{
 	dir = 8;
 	pixel_x = 5;
@@ -104102,6 +104191,7 @@
 /obj/item/shard{
 	icon_state = "medium"
 	},
+/obj/item/device/binoculars/range/designator,
 /turf/open/floor/hybrisa/carpet/carpetpatternblue,
 /area/tyrargo/indoors/apartment/north_upper)
 "fsJ" = (
@@ -105344,8 +105434,8 @@
 	dir = 8;
 	light_color = "#A7DBB6"
 	},
-/obj/item/ammo_box/magazine/m41ae2/heap{
-	num_of_magazines = 0
+/obj/item/ammo_magazine/hpr_box/heap{
+	current_rounds = 0
 	},
 /turf/open/floor/hybrisa/carpet/carpetpatternblue,
 /area/tyrargo/indoors/apartment/north_upper)
@@ -109622,7 +109712,7 @@
 	},
 /obj/effect/decal/ammo_casing/bullet,
 /obj/effect/decal/ammo_casing/bullet,
-/obj/item/ammo_box/magazine/m41ae2,
+/obj/item/ammo_magazine/hpr_box,
 /turf/open/floor/hybrisa/carpet/carpetpatternblue,
 /area/tyrargo/indoors/apartment/north_upper)
 "qvh" = (
@@ -137871,9 +137961,9 @@ dxS
 dxO
 dPh
 dvK
-dOZ
-dOZ
-dOZ
+chY
+chY
+chY
 dOU
 dOP
 dvf
@@ -143576,7 +143666,7 @@ dyd
 dHu
 dHH
 dwI
-dwI
+cjn
 dwu
 dtA
 dun
@@ -162685,7 +162775,7 @@ aVo
 bKU
 bIs
 aUU
-bIs
+cpC
 bIs
 bIs
 bIs
@@ -163315,7 +163405,7 @@ bsJ
 btc
 bsN
 bsN
-bsN
+cmt
 aUN
 aMw
 aMw
@@ -163420,7 +163510,7 @@ bJN
 aVp
 bLy
 euM
-bIs
+cpD
 aUO
 bKk
 bJO
@@ -163865,7 +163955,7 @@ erZ
 bwl
 buF
 buF
-bsJ
+cmA
 bfl
 bsJ
 bsJ
@@ -164522,7 +164612,7 @@ aVM
 euP
 bIt
 bLj
-bIs
+crJ
 bKL
 aUW
 aUR
@@ -166147,7 +166237,7 @@ brG
 bru
 nSY
 aYp
-bJN
+cww
 bQF
 bmq
 bIs
@@ -166162,9 +166252,9 @@ bIs
 bIs
 bIs
 bIs
-bII
+cua
 aWH
-aWH
+csz
 aWw
 bIs
 bIs
@@ -166335,7 +166425,7 @@ bJN
 bPe
 bIJ
 bIs
-bQE
+cwi
 bIs
 bII
 bPM
@@ -166524,7 +166614,7 @@ bIs
 bII
 bOw
 bII
-bIs
+cpD
 bII
 euN
 bJM
@@ -168669,19 +168759,19 @@ btc
 asF
 bsU
 bsJ
-bsJ
+cjq
 buF
 bsJ
 bti
 esb
 cLa
-cLd
+clM
 eJV
 cLa
 cLd
 cLg
 bsJ
-bsJ
+cjq
 bsJ
 erW
 bsN
@@ -169200,7 +169290,7 @@ eHs
 bwx
 buF
 buF
-buF
+cny
 buF
 bsJ
 bsJ
@@ -184223,7 +184313,7 @@ cMN
 obB
 acO
 acI
-acI
+coD
 acE
 cmK
 acz

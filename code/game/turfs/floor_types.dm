@@ -1719,6 +1719,9 @@
 /turf/open/floor/almayer/test_floor5
 	icon_state = "test_floor5"
 
+/turf/open/floor/almayer/test_floor7
+	icon_state = "test_floor7"
+
 /turf/open/floor/almayer/edge
 	icon_state = "floor_edge"
 

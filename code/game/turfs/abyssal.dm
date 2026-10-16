@@ -18,12 +18,14 @@
 	desc = "A huge chunk of ultra-reinforced metal used to separate rooms. Looks virtually indestructible."
 	icon_state = "hwall"
 	walltype = WALL_REINFORCED
+	hull = TRUE
 
 /turf/closed/wall/abyssal/standard/temphull
 	name = "heavy reinforced hull"
 	desc = "A huge chunk of ultra-reinforced metal used to separate rooms. This wall appears to have had an extra layer of sheeting slid over."
 	icon_state = "tempwall"
 	damage_cap = HEALTH_WALL_REINFORCED
+	hull = TRUE
 
 /turf/closed/wall/abyssal/standard/temphull/Initialize()
 	. = ..()
@@ -31,7 +33,7 @@
 
 /turf/closed/wall/abyssal/standard/temphull/proc/de_hull()
 	SIGNAL_HANDLER
-	turf_flags = NO_FLAGS
+	hull = FALSE
 	desc = "A highly reinforced metal wall used to separate rooms and make up the ship. The extra defensive sheeting has slid away."
 
 // Blue
@@ -52,12 +54,14 @@
 	desc = "A huge chunk of ultra-reinforced metal used to separate rooms. Looks virtually indestructible."
 	icon_state = "hwall"
 	walltype = WALL_REINFORCED
+	hull = TRUE
 
 /turf/closed/wall/abyssal/blue/temphull
 	name = "heavy reinforced hull"
 	desc = "A huge chunk of ultra-reinforced metal used to separate rooms. This wall appears to have had an extra layer of sheeting slid over."
 	icon_state = "tempwall"
 	damage_cap = HEALTH_WALL_REINFORCED
+	hull = TRUE
 
 /turf/closed/wall/abyssal/blue/temphull/Initialize()
 	. = ..()
@@ -65,5 +69,5 @@
 
 /turf/closed/wall/abyssal/blue/temphull/proc/de_hull()
 	SIGNAL_HANDLER
-	turf_flags = NO_FLAGS
+	hull = FALSE
 	desc = "A highly reinforced metal wall used to separate rooms and make up the ship. The extra defensive sheeting has slid away."

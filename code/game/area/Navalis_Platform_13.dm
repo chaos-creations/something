@@ -64,6 +64,7 @@
 	name = "PSV Charon"
 	icon_state = "unknown"
 	ceiling = CEILING_NONE
+	minimap_color = MINIMAP_AREA_JUNGLE
 
 /area/navalis/outdoors/charon/surface_deck
 	name = "PSV Charon - Forecastle Deck"
@@ -82,6 +83,7 @@
 	name = "PSV Charon - Below Deck"
 	icon_state = "unknown"
 	ceiling = CEILING_METAL
+	minimap_color = MINIMAP_AREA_JUNGLE
 
 // Middle Deck Indoor
 
@@ -126,6 +128,7 @@
 	name = "Medi-Sci Rig - Indoors"
 	icon_state = "medbay"
 	ceiling = CEILING_METAL
+	minimap_color = MINIMAP_AREA_MEDBAY
 
 /area/navalis/indoors/med_sci/foyer
 	name = "Medi-Sci Rig - Level-1: Foyer"
@@ -226,6 +229,7 @@
 /area/navalis/indoors/command
 	name = "Command Rig - Indoors"
 	icon_state = "bridge"
+	minimap_color = MINIMAP_AREA_COMMAND
 
 /area/navalis/indoors/command/aft_hallway
 	name = "Command Rig - Level-1: Aft-Hallway"
@@ -318,6 +322,7 @@
 /area/navalis/indoors/logistic
 	name = "Logistic Rig - Level-1:Indoors"
 	icon_state = "quartstorage"
+	minimap_color = MINIMAP_AREA_COLONY_ENGINEERING
 
 /area/navalis/indoors/logistic/Port_hallway
 	name = "Logistic Rig - Level-1:Port-Hallway"
@@ -389,6 +394,7 @@
 /area/navalis/indoors/industrial
 	name = "Industrial Rig - Indoors"
 	icon_state = "mining_production"
+	minimap_color = MINIMAP_AREA_ENGI
 
 /area/navalis/indoors/industrial/accessway
 	name = "Industrial Rig - Sector-A: Accessway"
@@ -407,7 +413,8 @@
 /area/navalis/indoors/residential
 	name = "Residential Rig - Indoors"
 	icon_state = "fitness"
-	ceiling = CEILING_REINFORCED_METAL
+	ceiling = CEILING_UNDERGROUND_METAL_ALLOW_CAS
+	minimap_color = MINIMAP_AREA_RESEARCH
 
 /area/navalis/indoors/residential/accessway
 	name = "Residential Rig - Aft-Accessway"
@@ -426,19 +433,15 @@
 
 /area/navalis/indoors/residential/cafeteria
 	name = "Residential Rig - Level 2: Cafeteria"
-	ceiling = CEILING_UNDERGROUND_METAL_ALLOW_CAS
 
 /area/navalis/indoors/residential/access
 	name = "Residential Rig - Level 2: Starboard Access"
-	ceiling = CEILING_UNDERGROUND_METAL_ALLOW_CAS
 
 /area/navalis/indoors/residential/maint_stern
 	name = "Residential Rig - Level 2: Stern Maintenance"
-	ceiling = CEILING_UNDERGROUND_METAL_ALLOW_CAS
 
 /area/navalis/indoors/residential/maint_starboard
 	name = "Residential Rig - Level 2: Starboard Maintenance"
-	ceiling = CEILING_UNDERGROUND_METAL_ALLOW_CAS
 
 
 // Landing Zones
@@ -446,6 +449,8 @@
 	name = "Navalis Platform 13 - Medical Emergency Response - Landing Zone One"
 	icon_state = "medbay3"
 	is_resin_allowed =  FALSE
+	is_landing_zone = TRUE
+	minimap_color = MINIMAP_AREA_CELL_VIP
 
 /area/navalis/outdoors/landing_zone_1/under
 	name = "LZ1 - Lower-Level Walkway"
@@ -454,14 +459,19 @@
 	name = "Navalis Platform 13 - Logistics Delivery Area - Landing Zone Two"
 	icon_state = "bunker01_engineering"
 	is_resin_allowed =  FALSE
+	is_landing_zone = TRUE
+	minimap_color = MINIMAP_AREA_CELL_MED
 
 /area/navalis/outdoors/landing_zone_2/under
 	name = "LZ2 - Lower-Level Walkway"
+	ceiling = CEILING_METAL
 
 /area/navalis/indoors/landing_zone_2
 	name = "LZ2 - Lower-Level Access"
 	icon_state = "bunker01_engineering"
 	is_resin_allowed =  FALSE
+	is_landing_zone = TRUE
+	minimap_color = MINIMAP_AREA_LZ
 
 
 // Other
@@ -469,6 +479,7 @@
 /area/navalis/outdoors/exterior
 	name = "Exterior Walkway"
 	icon_state = "eva"
+	minimap_color = MINIMAP_AREA_MINING
 	requires_power = FALSE
 
 // Medical
@@ -484,6 +495,7 @@
 
 /area/navalis/outdoors/exterior/med_ext/roof
 	name = "Medi-Sci Rig - Roof"
+	minimap_color = MINIMAP_AREA_MEDBAY
 
 // Command
 
@@ -498,6 +510,7 @@
 
 /area/navalis/outdoors/exterior/com_ext/roof
 	name = "Command Rig - Roof"
+	minimap_color = MINIMAP_AREA_COMMAND
 
 // Logistics
 
@@ -512,6 +525,7 @@
 
 /area/navalis/outdoors/exterior/log_ext/roof
 	name = "Logistical Rig - Roof"
+	minimap_color = MINIMAP_AREA_COLONY_ENGINEERING
 
 
 // Industrial
@@ -527,6 +541,7 @@
 	icon_state = "red2"
 	flags_area = AREA_NOTUNNEL|AREA_CONTAINMENT|NOT_WEEDABLE|AREA_NO_PARA
 	base_lighting_alpha = 35
+	minimap_color = MINIMAP_AREA_RESEARCH_CAVE
 	requires_power = FALSE
 
 /area/navalis/outdoors/exterior_xeno_only/lz1
@@ -542,6 +557,7 @@
 	name = "Unidentified Xeno-biological Growth: Industrial Area"
 	icon_state = "eta_xeno"
 	ceiling = CEILING_UNDERGROUND_ALLOW_CAS
+	minimap_color = MINIMAP_AREA_HYBRISACAVES
 	requires_power = FALSE
 
 /area/navalis/indoors/xeno_growth/residential
@@ -551,4 +567,5 @@
 	name = "Iceberg Interior"
 	icon_state = "medbay3"
 	ceiling = CEILING_UNDERGROUND_ALLOW_CAS
+	minimap_color = MINIMAP_AREA_COLONY_RESANDCOM
 	requires_power = FALSE

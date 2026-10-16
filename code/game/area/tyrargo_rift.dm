@@ -1,3 +1,5 @@
+//lv759 AREAS--------------------------------------//
+
 /area/tyrargo
 //	name = "Tyrargo Rift"
 	icon_state = "lv-626"
@@ -26,8 +28,6 @@
 	ambience_exterior = AMBIENCE_TYRARGO_SEWER_CITY
 	soundscape_playlist = SCAPE_PL_LV759_INDOORS
 	ceiling_muffle = FALSE
-//	soundscape_playlist = SCAPE_PL_TYRARGO_SEWER
-//	soundscape_interval = 13
 
 /area/tyrargo/oob
 	name = "Out Of Bounds"
@@ -40,7 +40,7 @@
 	ambience_exterior = AMBIENCE_TYRARGO_CITY
 
 /area/tyrargo/oob/outdoors
-	ceiling = CEILING_NO_PROTECTION
+	ceiling_muffle = FALSE
 
 // Landing Zone One
 
@@ -108,6 +108,7 @@
 
 /area/tyrargo/landing_zone_2/ceiling
 	ceiling = CEILING_METAL
+	minimap_color = MINIMAP_AREA_GLASS
 
 /area/tyrargo/landing_zone_2/east_trench
 	name = "USASF Airbase Anderson - North-East Trench"
@@ -138,6 +139,8 @@
 	ceiling = CEILING_NONE
 	minimap_color = MINIMAP_AREA_COLONY_STREETS
 	requires_power = FALSE
+	soundscape_playlist = SCAPE_PL_TYRARGO_ALERT
+	soundscape_interval = 45
 
 /area/tyrargo/outdoors/colony_streets/north_west
 	name = "Colony Streets - North-West"
@@ -168,6 +171,8 @@
 	ceiling = CEILING_NONE
 	minimap_color = MINIMAP_AREA_JUNGLE
 	requires_power = FALSE
+	soundscape_playlist = SCAPE_PL_TYRARGO_ALERT
+	soundscape_interval = 45
 
 /area/tyrargo/outdoors/colony_exterior/north_west
 	name = "Colony Exterior - North-West"
@@ -198,6 +203,8 @@
 	ceiling = CEILING_NONE
 	minimap_color = MINIMAP_AREA_CELL_HIGH
 	requires_power = FALSE
+	soundscape_playlist = SCAPE_PL_TYRARGO_ALERT
+	soundscape_interval = 45
 
 /area/tyrargo/outdoors/walkway_access/power_sewer
 	name = "External Walkway - Power/Sewer"
@@ -224,6 +231,8 @@
 /area/tyrargo/indoors/apartment
 	minimap_color = MINIMAP_AREA_COLONY_RESANDCOM
 	icon_state = "quart"
+	soundscape_playlist = SCAPE_PL_TYRARGO_ALERT
+	soundscape_interval = 45
 
 /area/tyrargo/indoors/apartment/north_ground
 	name = "Standfeld Apartment Complex - North-Ground"
@@ -242,6 +251,8 @@
 /area/tyrargo/indoors/bar
 	minimap_color = MINIMAP_AREA_CELL_VIP
 	icon_state = "bar"
+	soundscape_playlist = SCAPE_PL_TYRARGO_ALERT
+	soundscape_interval = 45
 
 /area/tyrargo/indoors/bar/ground
 	name = "Last Throw Bar - Ground"
@@ -259,6 +270,8 @@
 /area/tyrargo/indoors/engineering
 	minimap_color = MINIMAP_AREA_COLONY_ENGINEERING
 	icon_state = "maint_engine"
+	soundscape_playlist = SCAPE_PL_TYRARGO_ALERT
+	soundscape_interval = 45
 
 /area/tyrargo/indoors/engineering/ground
 	name = "Sector F: Power Plant - Ground"
@@ -276,6 +289,8 @@
 /area/tyrargo/indoors/sewer_treatment
 	minimap_color = MINIMAP_AREA_HYBRISARESEARCH
 	icon_state = "explored"
+	soundscape_playlist = SCAPE_PL_TYRARGO_ALERT
+	soundscape_interval = 45
 
 /area/tyrargo/indoors/sewer_treatment/ground
 	name = "Sewer Treatment Plant - Ground"
@@ -296,6 +311,8 @@
 /area/tyrargo/indoors/comms
 	minimap_color = MINIMAP_AREA_COLONY_ENGINEERING
 	icon_state = "ai_upload"
+	soundscape_playlist = SCAPE_PL_TYRARGO_ALERT
+	soundscape_interval = 45
 
 /area/tyrargo/indoors/comms/ground
 	name = "Ancillery Communications System - Ground"
@@ -310,6 +327,8 @@
 /area/tyrargo/indoors/gararge
 	minimap_color = MINIMAP_AREA_CELL_MED
 	icon_state = "HH_Mines"
+	soundscape_playlist = SCAPE_PL_TYRARGO_ALERT
+	soundscape_interval = 45
 
 /area/tyrargo/indoors/gararge/ground
 	name = "Busters Car Repair - Ground"
@@ -329,6 +348,8 @@
 	name = "Tyrargo Wesfeld Mall - Ground"
 	minimap_color = MINIMAP_AREA_COLONY_RESANDCOM
 	icon_state = "HH_Mines"
+	soundscape_playlist = SCAPE_PL_TYRARGO_ALERT
+	soundscape_interval = 45
 
 /area/tyrargo/indoors/mall/upper
 	name = "Tyrargo Wesfeld Mall - Upper"
@@ -343,6 +364,8 @@
 /area/tyrargo/indoors/admin
 	minimap_color = MINIMAP_AREA_COLONY_SPACE_PORT
 	icon_state = "storage"
+	soundscape_playlist = SCAPE_PL_TYRARGO_ALERT
+	soundscape_interval = 45
 
 /area/tyrargo/indoors/admin/ground
 	name = "Sector F: Government Administration - Ground"
@@ -355,11 +378,14 @@
 	ceiling = CEILING_NONE
 	requires_power = FALSE
 
-// Administration
+// Market
 
 /area/tyrargo/indoors/market
 	minimap_color = MINIMAP_AREA_COLONY_HOSPITAL
 	icon_state = "HH_Panic"
+	soundscape_playlist = SCAPE_PL_TYRARGO_ALERT
+	soundscape_interval = 30
+
 /area/tyrargo/indoors/market/ground
 	name = "Farmers Market - Ground"
 
@@ -373,6 +399,8 @@
 /area/tyrargo/indoors/security
 	minimap_color = MINIMAP_AREA_COLONY_MARSHALLS
 	icon_state = "HH_Basement"
+	soundscape_playlist = SCAPE_PL_TYRARGO_ALERT
+	soundscape_interval = 30
 
 /area/tyrargo/indoors/security/ground
 	name = "Sector F: Marshals Outpost - Ground"
@@ -387,6 +415,8 @@
 /area/tyrargo/indoors/museum_storage
 	minimap_color = MINIMAP_AREA_HYBRISARESEARCH
 	icon_state = "auxstorage"
+	soundscape_playlist = SCAPE_PL_TYRARGO_ALERT
+	soundscape_interval = 30
 
 /area/tyrargo/indoors/museum_storage/ground
 	name = "Museum Carpark - Ground"
@@ -448,6 +478,7 @@
 /area/tyrargo/outdoors/outskirts/east_trench
 	name = "Fire Support Base - Eastern Trench"
 	icon_state = "ass_line"
+	minimap_color = MINIMAP_AREA_GLASS
 
 /area/tyrargo/outdoors/outskirts/no_mans_land
 	name = "Fire Support Base - No Man's Land"
@@ -562,6 +593,31 @@
 	icon_state = "Holodeck"
 	ceiling = CEILING_UNDERGROUND_METAL_ALLOW_CAS
 	requires_power = FALSE
+
+// Tychon
+
+/area/tyrargo/indoors/tychon
+	name = "Dropship Tychon"
+	minimap_color = MINIMAP_SQUAD_ECHO
+	icon_state = "Holodeck"
+	ceiling = CEILING_UNDERGROUND_METAL_ALLOW_CAS
+	requires_power = FALSE
+	ceiling_muffle = FALSE
+
+// USS Heyst
+
+/area/tyrargo/indoors/heyst
+	name = "USS Heyst - Mid Deck"
+	minimap_color = MINIMAP_SQUAD_ECHO
+	icon_state = "Holodeck"
+	ceiling = CEILING_UNDERGROUND_METAL_ALLOW_CAS
+	soundscape_playlist = SCAPE_PL_LV759_INDOORS
+	ambience_exterior = AMBIENCE_TYRARGO_CITY
+	ceiling_muffle = FALSE
+	base_muffle = MUFFLE_MEDIUM
+
+/area/tyrargo/indoors/heyst/upper
+	name = "USS Heyst - Upper Deck"
 
 // ERT Spawn Area
 

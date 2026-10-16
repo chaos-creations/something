@@ -1,0 +1,241 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/template_noop,
+/area/template_noop)
+"b" = (
+/turf/open/slippery/hull/dir/southwest,
+/area/tyrargo/outdoors/outskirts/central)
+"c" = (
+/turf/open/slippery/hull/dir/southeast,
+/area/tyrargo/outdoors/outskirts/central)
+"d" = (
+/turf/open/slippery/hull/dir,
+/area/tyrargo/outdoors/outskirts/central)
+"e" = (
+/turf/open/slippery/hull,
+/area/tyrargo/outdoors/outskirts/central)
+"f" = (
+/turf/open/slippery/hull/dir/east,
+/area/tyrargo/outdoors/outskirts/central)
+"g" = (
+/turf/open/slippery/hull/dir/west,
+/area/tyrargo/outdoors/outskirts/central)
+"h" = (
+/turf/open/slippery/hull/dir/northwest,
+/area/tyrargo/outdoors/outskirts/central)
+"i" = (
+/turf/open/slippery/hull/dir/northeast,
+/area/tyrargo/outdoors/outskirts/central)
+"j" = (
+/turf/open/slippery/hull/dir/north,
+/area/tyrargo/outdoors/outskirts/central)
+
+(1,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(2,1,1) = {"
+a
+a
+a
+h
+g
+b
+a
+a
+a
+"}
+(3,1,1) = {"
+a
+a
+h
+e
+e
+e
+b
+a
+a
+"}
+(4,1,1) = {"
+a
+a
+j
+e
+e
+e
+d
+a
+a
+"}
+(5,1,1) = {"
+a
+a
+j
+e
+e
+e
+d
+a
+a
+"}
+(6,1,1) = {"
+a
+a
+j
+e
+e
+e
+d
+a
+a
+"}
+(7,1,1) = {"
+a
+a
+j
+e
+e
+e
+d
+a
+a
+"}
+(8,1,1) = {"
+a
+a
+j
+e
+e
+e
+d
+a
+a
+"}
+(9,1,1) = {"
+a
+h
+e
+e
+e
+e
+e
+b
+a
+"}
+(10,1,1) = {"
+a
+j
+e
+e
+e
+e
+e
+d
+a
+"}
+(11,1,1) = {"
+h
+j
+e
+e
+e
+e
+e
+d
+b
+"}
+(12,1,1) = {"
+i
+j
+e
+e
+e
+e
+e
+d
+c
+"}
+(13,1,1) = {"
+a
+j
+e
+e
+e
+e
+e
+d
+a
+"}
+(14,1,1) = {"
+a
+j
+e
+e
+e
+e
+e
+d
+a
+"}
+(15,1,1) = {"
+a
+i
+f
+e
+e
+e
+f
+c
+a
+"}
+(16,1,1) = {"
+a
+a
+a
+e
+e
+d
+a
+a
+a
+"}
+(17,1,1) = {"
+a
+a
+a
+e
+e
+d
+a
+a
+a
+"}
+(18,1,1) = {"
+a
+a
+a
+i
+f
+c
+a
+a
+a
+"}
+(19,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}

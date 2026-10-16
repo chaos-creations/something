@@ -1,0 +1,907 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aa" = (
+/turf/open_space,
+/area/tyrargo/outdoors/colony_streets/north_west)
+"ab" = (
+/obj/structure/platform/metal/hybrisa/metalplatform1/east,
+/turf/open_space,
+/area/tyrargo/outdoors/colony_streets/north_west)
+"ac" = (
+/turf/open/floor/plating/plating_catwalk/prison,
+/area/tyrargo/indoors/bar/upper/external)
+"ad" = (
+/obj/structure/cable/heavyduty{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating/plating_catwalk/prison,
+/area/tyrargo/indoors/bar/upper/external)
+"ae" = (
+/obj/structure/platform/metal/hybrisa/metalplatform1/west,
+/turf/open_space,
+/area/tyrargo/outdoors/colony_streets/north_west)
+"af" = (
+/turf/open/floor/almayer_hull/outerhull_dir/southwest,
+/area/tyrargo/indoors/bar/upper/external)
+"ag" = (
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/tyrargo/indoors/bar/upper/external)
+"ah" = (
+/turf/open/floor/almayer_hull/outerhull_dir/southeast,
+/area/tyrargo/indoors/bar/upper/external)
+"ai" = (
+/turf/open/floor/almayer_hull/outerhull_dir,
+/area/tyrargo/indoors/bar/upper/external)
+"aj" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer_hull/outerhull_dir,
+/area/tyrargo/indoors/bar/upper/external)
+"ak" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer_hull/outerhull_dir_alt/northeast,
+/area/tyrargo/indoors/bar/upper/external)
+"al" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer_hull/outerhull_dir_alt/northwest,
+/area/tyrargo/indoors/bar/upper/external)
+"am" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer_hull,
+/area/tyrargo/indoors/bar/upper/external)
+"an" = (
+/turf/open/floor/almayer_hull/outerhull_dir_alt/northeast,
+/area/tyrargo/indoors/bar/upper/external)
+"ao" = (
+/turf/open/floor/almayer_hull,
+/area/tyrargo/indoors/bar/upper/external)
+"ap" = (
+/obj/structure/prop/invuln/ice_prefab/roof_greeble{
+	icon_state = "windsock";
+	explo_proof = 0;
+	pixel_x = 6;
+	pixel_y = 6
+	},
+/turf/open/floor/almayer_hull/outerhull_dir_alt/northwest,
+/area/tyrargo/indoors/bar/upper/external)
+"aq" = (
+/turf/open_space,
+/area/tyrargo/outdoors/colony_exterior/north_west)
+"ar" = (
+/turf/closed/wall/mineral/bone_resin,
+/area/tyrargo/indoors/bar/upper)
+"as" = (
+/turf/open/floor/plating,
+/area/tyrargo/indoors/bar/upper)
+"at" = (
+/obj/structure/window_frame/strata,
+/turf/open/floor/plating,
+/area/tyrargo/indoors/bar/upper)
+"au" = (
+/turf/closed/wall/strata_outpost,
+/area/tyrargo/indoors/bar/upper)
+"av" = (
+/obj/structure/window/framed/strata/reinforced,
+/turf/open/floor/plating,
+/area/tyrargo/indoors/bar/upper)
+"aw" = (
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_sticky,
+/turf/open/floor/plating,
+/area/tyrargo/indoors/bar/upper)
+"ax" = (
+/turf/open/floor/almayer_hull/outerhull_dir_alt/northwest,
+/area/tyrargo/indoors/bar/upper/external)
+"ay" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer_hull/outerhull_dir/west,
+/area/tyrargo/indoors/bar/upper/external)
+"az" = (
+/turf/open_space,
+/area/tyrargo/indoors/bar/upper)
+"aA" = (
+/obj/structure/platform/metal/kutjevo/east,
+/turf/open_space,
+/area/tyrargo/indoors/bar/upper)
+"aB" = (
+/obj/structure/barricade/handrail/type_b{
+	dir = 8
+	},
+/obj/effect/decal/siding{
+	icon_state = "siding4"
+	},
+/turf/open/floor/strata/fake_wood,
+/area/tyrargo/indoors/bar/upper)
+"aC" = (
+/turf/open/floor/hybrisa/wood/blackwood,
+/area/tyrargo/indoors/bar/upper)
+"aD" = (
+/obj/structure/machinery/light,
+/obj/effect/decal/cleanable/generic,
+/turf/closed/wall/mineral/bone_resin,
+/area/tyrargo/indoors/bar/upper)
+"aE" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/closed/wall/mineral/bone_resin,
+/area/tyrargo/indoors/bar/upper)
+"aF" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
+/turf/open/floor/hybrisa/wood/blackwood,
+/area/tyrargo/indoors/bar/upper)
+"aG" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/hybrisa/wood/greywood,
+/area/tyrargo/indoors/bar/upper)
+"aH" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/light{
+	light_color = "#A7DBB6"
+	},
+/turf/open/floor/hybrisa/wood/blackwood,
+/area/tyrargo/indoors/bar/upper)
+"aI" = (
+/obj/effect/decal/cleanable/dirt/greenglow{
+	color = "#140400";
+	name = "dirt"
+	},
+/turf/open/floor/hybrisa/wood/greywood,
+/area/tyrargo/indoors/bar/upper)
+"aJ" = (
+/obj/structure/barricade/handrail/type_b{
+	dir = 4
+	},
+/obj/effect/decal/siding{
+	icon_state = "siding8"
+	},
+/turf/open/floor/strata/fake_wood,
+/area/tyrargo/indoors/bar/upper)
+"aK" = (
+/obj/structure/platform/metal/kutjevo/west,
+/turf/open_space,
+/area/tyrargo/indoors/bar/upper)
+"aL" = (
+/turf/open/floor/almayer_hull/outerhull_dir/northeast,
+/area/tyrargo/indoors/bar/upper/external)
+"aM" = (
+/turf/open/floor/hybrisa/wood/greywood,
+/area/tyrargo/indoors/bar/upper)
+"aN" = (
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
+/turf/open/floor/hybrisa/wood/blackwood,
+/area/tyrargo/indoors/bar/upper)
+"aO" = (
+/obj/structure/barricade/handrail/type_b{
+	dir = 4
+	},
+/obj/effect/decal/siding{
+	icon_state = "siding8"
+	},
+/obj/effect/decal/cleanable/generic,
+/turf/open/floor/strata/fake_wood,
+/area/tyrargo/indoors/bar/upper)
+"aP" = (
+/turf/open/floor/strata/multi_tiles/west,
+/area/tyrargo/indoors/bar/upper/external)
+"aQ" = (
+/obj/structure/platform/metal/hybrisa/metalplatform1/north,
+/turf/open_space,
+/area/tyrargo/outdoors/colony_streets/north_west)
+"aR" = (
+/obj/item/stack/sheet/wood,
+/turf/open/floor/hybrisa/wood/blackwood,
+/area/tyrargo/indoors/bar/upper)
+"aS" = (
+/obj/structure/surface/table/gamblingtable{
+	color = "#aeaeae"
+	},
+/turf/open/floor/hybrisa/wood/greywood,
+/area/tyrargo/indoors/bar/upper)
+"aT" = (
+/obj/structure/barricade/handrail/type_b{
+	dir = 4
+	},
+/obj/effect/decal/siding{
+	icon_state = "siding8"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/strata/fake_wood,
+/area/tyrargo/indoors/bar/upper)
+"aU" = (
+/obj/structure/cable/heavyduty{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating/plating_catwalk/prison,
+/area/tyrargo/outdoors/walkway_access/apart_gararge)
+"aV" = (
+/turf/open/floor/almayer_hull/outerhull_dir/west,
+/area/tyrargo/indoors/bar/upper/external)
+"aW" = (
+/obj/structure/barricade/handrail/type_b{
+	dir = 8
+	},
+/obj/effect/decal/siding{
+	icon_state = "siding4"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/strata/fake_wood,
+/area/tyrargo/indoors/bar/upper)
+"aX" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/hybrisa/wood/blackwood,
+/area/tyrargo/indoors/bar/upper)
+"aY" = (
+/obj/item/stack/sheet/wood,
+/turf/open/floor/hybrisa/wood/greywood,
+/area/tyrargo/indoors/bar/upper)
+"aZ" = (
+/obj/structure/surface/table/gamblingtable{
+	color = "#aeaeae"
+	},
+/obj/item/device/flashlight/lamp/green{
+	pixel_x = 5;
+	pixel_y = 14
+	},
+/turf/open/floor/hybrisa/wood/greywood,
+/area/tyrargo/indoors/bar/upper)
+"ba" = (
+/obj/structure/surface/table/gamblingtable{
+	color = "#aeaeae"
+	},
+/turf/open/floor/hybrisa/wood/blackwood,
+/area/tyrargo/indoors/bar/upper)
+"bb" = (
+/obj/structure/bed/chair/comfy{
+	dir = 8;
+	icon_state = "chair_alt"
+	},
+/turf/open/floor/hybrisa/wood/greywood,
+/area/tyrargo/indoors/bar/upper)
+"bc" = (
+/obj/structure/platform/metal/hybrisa/metalplatform1,
+/turf/open_space,
+/area/tyrargo/outdoors/colony_streets/north_west)
+"bd" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_sticky,
+/turf/open/floor/hybrisa/wood/blackwood,
+/area/tyrargo/indoors/bar/upper)
+"be" = (
+/obj/structure/surface/table/gamblingtable{
+	color = "#aeaeae"
+	},
+/obj/item/reagent_container/food/drinks/drinkingglass{
+	icon_state = "shotglass";
+	pixel_x = 16;
+	pixel_y = 16
+	},
+/turf/open/floor/hybrisa/wood/blackwood,
+/area/tyrargo/indoors/bar/upper)
+"bf" = (
+/obj/structure/surface/table/gamblingtable{
+	color = "#aeaeae"
+	},
+/obj/item/toy/handcard/aceofspades{
+	pixel_x = -2;
+	pixel_y = 5
+	},
+/turf/open/floor/hybrisa/wood/greywood,
+/area/tyrargo/indoors/bar/upper)
+"bg" = (
+/obj/structure/platform_decoration/metal/kutjevo/west,
+/turf/open_space,
+/area/tyrargo/indoors/bar/upper)
+"bh" = (
+/obj/structure/platform/metal/kutjevo/north,
+/turf/open_space,
+/area/tyrargo/indoors/bar/upper)
+"bi" = (
+/obj/structure/platform/metal/kutjevo/north,
+/obj/structure/platform/metal/kutjevo/east,
+/turf/open_space,
+/area/tyrargo/indoors/bar/upper)
+"bj" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/greenglow{
+	color = "#140400";
+	name = "dirt"
+	},
+/turf/open/floor/hybrisa/wood/greywood,
+/area/tyrargo/indoors/bar/upper)
+"bk" = (
+/obj/structure/bed/chair/comfy{
+	icon_state = "chair_alt"
+	},
+/turf/open/floor/hybrisa/wood/blackwood,
+/area/tyrargo/indoors/bar/upper)
+"bl" = (
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
+/turf/open/floor/hybrisa/wood/greywood,
+/area/tyrargo/indoors/bar/upper)
+"bm" = (
+/obj/effect/decal/cleanable/generic,
+/turf/open/floor/hybrisa/wood/blackwood,
+/area/tyrargo/indoors/bar/upper)
+"bn" = (
+/obj/structure/platform/metal/kutjevo/north,
+/obj/structure/platform/metal/kutjevo/west,
+/turf/open_space,
+/area/tyrargo/indoors/bar/upper)
+"bo" = (
+/obj/structure/platform_decoration/metal/kutjevo/east,
+/turf/open_space,
+/area/tyrargo/indoors/bar/upper)
+"bp" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer_hull/outerhull_dir/east,
+/area/tyrargo/indoors/bar/upper/external)
+"bq" = (
+/turf/open/floor/almayer_hull/outerhull_dir/northwest,
+/area/tyrargo/indoors/bar/upper/external)
+"br" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer_hull/outerhull_dir_alt/southeast,
+/area/tyrargo/indoors/bar/upper/external)
+"bs" = (
+/obj/structure/barricade/handrail/type_b,
+/obj/structure/stairs/multiz/down{
+	dir = 4
+	},
+/turf/open/floor/almayer_hull,
+/area/tyrargo/indoors/bar/upper)
+"bt" = (
+/obj/structure/barricade/handrail/type_b,
+/turf/open/floor/strata/fake_wood,
+/area/tyrargo/indoors/bar/upper)
+"bu" = (
+/obj/effect/decal/siding{
+	icon_state = "siding4"
+	},
+/turf/open/floor/strata/fake_wood,
+/area/tyrargo/indoors/bar/upper)
+"bv" = (
+/obj/structure/machinery/power/apc/power/north{
+	start_charge = 30
+	},
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
+/turf/open/floor/hybrisa/wood/blackwood,
+/area/tyrargo/indoors/bar/upper)
+"bw" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/light{
+	dir = 1;
+	light_color = "#A7DBB6"
+	},
+/turf/open/floor/hybrisa/wood/blackwood,
+/area/tyrargo/indoors/bar/upper)
+"bx" = (
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_sticky,
+/turf/open/floor/hybrisa/wood/greywood,
+/area/tyrargo/indoors/bar/upper)
+"by" = (
+/obj/effect/decal/siding{
+	icon_state = "siding8"
+	},
+/turf/open/floor/strata/fake_wood,
+/area/tyrargo/indoors/bar/upper)
+"bz" = (
+/obj/structure/barricade/handrail/type_b,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/strata/fake_wood,
+/area/tyrargo/indoors/bar/upper)
+"bA" = (
+/obj/structure/barricade/handrail/type_b,
+/obj/structure/stairs/multiz/down{
+	dir = 8
+	},
+/turf/open/floor/almayer_hull,
+/area/tyrargo/indoors/bar/upper)
+"bB" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer_hull/outerhull_dir_alt/southwest,
+/area/tyrargo/indoors/bar/upper/external)
+"bC" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer_hull/outerhull_dir/northeast,
+/area/tyrargo/indoors/bar/upper/external)
+"bD" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer_hull/outerhull_dir/northwest,
+/area/tyrargo/indoors/bar/upper/external)
+"bE" = (
+/obj/structure/stairs/multiz/down{
+	dir = 4
+	},
+/turf/open/floor/almayer_hull,
+/area/tyrargo/indoors/bar/upper)
+"bF" = (
+/obj/effect/decal/cleanable/generic,
+/turf/open/floor/strata/fake_wood,
+/area/tyrargo/indoors/bar/upper)
+"bG" = (
+/turf/open/floor/strata/fake_wood,
+/area/tyrargo/indoors/bar/upper)
+"bH" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/greenglow{
+	color = "#140400";
+	name = "dirt"
+	},
+/obj/structure/machinery/computer/hybrisa/misc/slotmachine{
+	pixel_x = 6
+	},
+/turf/open/floor/hybrisa/wood/greywood,
+/area/tyrargo/indoors/bar/upper)
+"bI" = (
+/obj/structure/machinery/computer/hybrisa/misc/slotmachine{
+	pixel_x = 6
+	},
+/turf/open/floor/hybrisa/wood/blackwood,
+/area/tyrargo/indoors/bar/upper)
+"bJ" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/strata/fake_wood,
+/area/tyrargo/indoors/bar/upper)
+"bK" = (
+/obj/structure/stairs/multiz/down{
+	dir = 8
+	},
+/turf/open/floor/almayer_hull,
+/area/tyrargo/indoors/bar/upper)
+"bL" = (
+/obj/structure/cable/heavyduty{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating/plating_catwalk/prison,
+/area/tyrargo/indoors/gararge/upper/external)
+"bM" = (
+/obj/structure/platform/metal/hybrisa/metalplatform1,
+/turf/open_space,
+/area/tyrargo/outdoors/colony_exterior/north)
+
+(1,1,1) = {"
+aq
+aq
+aq
+aq
+aq
+aq
+aq
+aq
+aq
+aq
+aq
+aa
+aa
+aa
+"}
+(2,1,1) = {"
+aq
+aq
+aq
+bq
+aV
+aV
+aV
+ay
+ay
+ay
+af
+aa
+aa
+aa
+"}
+(3,1,1) = {"
+aq
+aq
+bD
+br
+au
+au
+av
+av
+ar
+ar
+an
+af
+aa
+aa
+"}
+(4,1,1) = {"
+aq
+bq
+br
+au
+au
+az
+az
+az
+ar
+ar
+ar
+aj
+af
+ab
+"}
+(5,1,1) = {"
+aq
+au
+au
+au
+az
+az
+az
+az
+az
+ar
+as
+aj
+ag
+ac
+"}
+(6,1,1) = {"
+aq
+au
+az
+az
+az
+az
+az
+az
+az
+az
+at
+ai
+ag
+ad
+"}
+(7,1,1) = {"
+aq
+au
+az
+az
+bg
+az
+az
+az
+az
+az
+au
+ai
+ag
+ac
+"}
+(8,1,1) = {"
+aq
+au
+bE
+bs
+bh
+az
+az
+az
+az
+az
+au
+ak
+af
+ae
+"}
+(9,1,1) = {"
+aq
+av
+bF
+bt
+bi
+aA
+aA
+aA
+aA
+aA
+au
+al
+ah
+aa
+"}
+(10,1,1) = {"
+aq
+av
+bG
+bu
+aB
+aB
+aW
+aB
+aB
+aB
+av
+ai
+aa
+aa
+"}
+(11,1,1) = {"
+aq
+au
+au
+bv
+bj
+bd
+aG
+aC
+aM
+aC
+av
+ai
+ai
+ab
+"}
+(12,1,1) = {"
+aq
+au
+ar
+aM
+aX
+aG
+aX
+aG
+aN
+aD
+au
+ai
+ag
+ac
+"}
+(13,1,1) = {"
+aq
+av
+ar
+ar
+aM
+aC
+aY
+aC
+ar
+aE
+ar
+ai
+ag
+ad
+"}
+(14,1,1) = {"
+aq
+av
+aE
+aM
+bk
+aS
+aC
+aM
+aC
+aE
+ar
+ai
+ag
+ac
+"}
+(15,1,1) = {"
+aq
+av
+bH
+aX
+bl
+be
+aZ
+aR
+aM
+aF
+as
+am
+af
+ae
+"}
+(16,1,1) = {"
+aq
+av
+bI
+aG
+bm
+bf
+ba
+aS
+aC
+aG
+aw
+am
+ai
+aa
+"}
+(17,1,1) = {"
+aq
+au
+au
+bw
+aG
+aC
+bb
+aC
+aM
+aH
+au
+al
+ah
+aa
+"}
+(18,1,1) = {"
+aq
+au
+au
+bx
+aX
+aM
+aN
+aM
+aC
+aI
+av
+aj
+aa
+aa
+"}
+(19,1,1) = {"
+aq
+av
+bJ
+by
+aT
+aT
+aT
+aT
+aO
+aJ
+av
+ai
+aa
+aa
+"}
+(20,1,1) = {"
+aq
+av
+bF
+bz
+bn
+aK
+aK
+aK
+aK
+aK
+au
+an
+af
+aa
+"}
+(21,1,1) = {"
+aq
+au
+bK
+bA
+bh
+az
+az
+az
+az
+az
+au
+ao
+ai
+aa
+"}
+(22,1,1) = {"
+aq
+au
+az
+az
+bo
+az
+az
+az
+az
+az
+au
+ao
+ai
+aa
+"}
+(23,1,1) = {"
+aq
+au
+az
+az
+az
+az
+az
+az
+az
+az
+ar
+ao
+ai
+aa
+"}
+(24,1,1) = {"
+aq
+au
+au
+au
+az
+az
+az
+az
+az
+ar
+ar
+ao
+ai
+aa
+"}
+(25,1,1) = {"
+aq
+bC
+bB
+au
+au
+az
+az
+az
+ar
+ar
+ar
+ap
+ah
+aa
+"}
+(26,1,1) = {"
+bM
+aP
+aL
+bB
+au
+au
+av
+av
+au
+au
+ax
+ah
+aa
+aa
+"}
+(27,1,1) = {"
+bM
+bL
+aQ
+bC
+bp
+ah
+aP
+aP
+aP
+aL
+ah
+aa
+aa
+aa
+"}
+(28,1,1) = {"
+bM
+bL
+aQ
+aa
+aa
+aa
+bc
+aU
+aQ
+aa
+aa
+aa
+aa
+aa
+"}

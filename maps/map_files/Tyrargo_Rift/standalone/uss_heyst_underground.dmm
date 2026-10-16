@@ -1,0 +1,272 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/closed/wall/strata_ice/forest/rock,
+/area/tyrargo/oob)
+"b" = (
+/turf/closed/wall/r_wall/bunker,
+/area/tyrargo/underground/bunker/south)
+"c" = (
+/obj/structure/machinery/light/small{
+	dir = 8
+	},
+/obj/structure/prop/hybrisa/boulders/wide_boulderdark/wide_boulder1,
+/turf/open/auto_turf/hybrisa_auto_turf/layer2,
+/area/tyrargo/underground/bunker/south)
+"d" = (
+/turf/open/floor/corsat/plate,
+/area/tyrargo/underground/bunker/south)
+"e" = (
+/obj/structure/surface/rack,
+/obj/item/ammo_magazine/m56d{
+	pixel_x = 4;
+	pixel_y = 5;
+	current_rounds = 5
+	},
+/obj/item/ammo_magazine/m56d{
+	pixel_x = -9;
+	pixel_y = 9;
+	current_rounds = 45
+	},
+/turf/open/floor/corsat/plate,
+/area/tyrargo/underground/bunker/south)
+"f" = (
+/turf/open/floor/corsat/box,
+/area/tyrargo/underground/bunker/south)
+"g" = (
+/turf/closed/wall/r_wall/bunker/floodgate{
+	desc = "A huge chunk of reinforced metal used to separate rooms. This one appears to be specially reinforced.";
+	name = "bunker superdense wall"
+	},
+/area/tyrargo/underground/bunker/south)
+"h" = (
+/obj/structure/prop/hybrisa/boulders/wide_boulderdark/wide_boulder1,
+/turf/open/auto_turf/hybrisa_auto_turf/layer2,
+/area/tyrargo/underground/bunker/south)
+"i" = (
+/obj/structure/prop/hybrisa/boulders,
+/turf/open/auto_turf/hybrisa_auto_turf/layer2,
+/area/tyrargo/underground/bunker/south)
+"j" = (
+/turf/open/floor/corsat/red,
+/area/tyrargo/underground/bunker/south)
+"k" = (
+/turf/open/floor/corsat/red/southeast,
+/area/tyrargo/underground/bunker/south)
+"l" = (
+/obj/structure/machinery/light/small,
+/turf/open/floor/corsat/plate,
+/area/tyrargo/underground/bunker/south)
+"m" = (
+/obj/structure/prop/hybrisa/boulders/smallboulderdark,
+/turf/open/auto_turf/hybrisa_auto_turf/layer2,
+/area/tyrargo/underground/bunker/south)
+"n" = (
+/turf/open/auto_turf/hybrisa_auto_turf/layer2,
+/area/tyrargo/underground/bunker/south)
+"o" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/ammo_casing/bullet,
+/turf/open/floor/corsat/plate,
+/area/tyrargo/underground/bunker/south)
+"p" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/ammo_casing/bullet,
+/turf/open/floor/corsat/redcorner,
+/area/tyrargo/underground/bunker/south)
+"q" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/ammo_casing/bullet,
+/turf/open/floor/corsat/red,
+/area/tyrargo/underground/bunker/south)
+"r" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/corsat/red/southeast,
+/area/tyrargo/underground/bunker/south)
+"s" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/corsat/plate,
+/area/tyrargo/underground/bunker/south)
+"t" = (
+/obj/structure/prop/hybrisa/boulders/large_boulderdark,
+/obj/structure/prop/hybrisa/boulders/wide_boulderdark/wide_boulder1{
+	pixel_y = -12
+	},
+/turf/open/auto_turf/hybrisa_auto_turf/layer2,
+/area/tyrargo/underground/bunker/south)
+"u" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/ammo_casing/bullet,
+/obj/effect/decal/ammo_casing/bullet,
+/turf/open/floor/corsat/plate,
+/area/tyrargo/underground/bunker/south)
+"v" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/ammo_casing/bullet,
+/obj/effect/decal/ammo_casing/bullet,
+/obj/effect/decal/ammo_casing/bullet,
+/turf/open/floor/corsat/plate,
+/area/tyrargo/underground/bunker/south)
+"w" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/ammo_casing/bullet,
+/obj/effect/decal/ammo_casing/bullet,
+/obj/effect/decal/ammo_casing/bullet,
+/turf/open/floor/corsat/squares,
+/area/tyrargo/underground/bunker/south)
+"x" = (
+/turf/open/floor/corsat/red/east,
+/area/tyrargo/underground/bunker/south)
+"y" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/corsat/arrow_east,
+/area/tyrargo/underground/bunker/south)
+"z" = (
+/obj/structure/prop/hybrisa/boulders/large_boulderdark,
+/turf/open/auto_turf/hybrisa_auto_turf/layer2,
+/area/tyrargo/underground/bunker/south)
+"A" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/ammo_casing/bullet,
+/obj/effect/decal/ammo_casing/bullet,
+/obj/effect/decal/ammo_casing/bullet,
+/turf/open/floor/corsat/redcorner/east,
+/area/tyrargo/underground/bunker/south)
+"B" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/corsat/red/north,
+/area/tyrargo/underground/bunker/south)
+"C" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/corsat/red/northeast,
+/area/tyrargo/underground/bunker/south)
+"D" = (
+/obj/structure/closet/crate/ammo{
+	name = "soft-point munitions crate";
+	desc = "Crate filled with soft-point ammo. Typically used when fighting onboard space stations, or when there's nothing better to use.";
+	opened = 1
+	},
+/obj/effect/landmark/ammo_spawn/m41a_random_spawn{
+	spawn_chance = 20
+	},
+/obj/effect/landmark/ammo_spawn/m41a_random_spawn{
+	spawn_chance = 20
+	},
+/obj/effect/landmark/ammo_spawn/m41a_random_spawn{
+	spawn_chance = 20
+	},
+/obj/effect/landmark/ammo_spawn/m41a_random_spawn{
+	spawn_chance = 60
+	},
+/obj/effect/landmark/ammo_spawn/m41a_ext_random_spawn{
+	spawn_chance = 20
+	},
+/obj/effect/landmark/ammo_spawn/m4ra_random_spawn{
+	spawn_chance = 20
+	},
+/obj/effect/landmark/ammo_spawn/m4ra_random_spawn{
+	spawn_chance = 20
+	},
+/obj/effect/landmark/ammo_spawn/m4ra_random_spawn{
+	spawn_chance = 40
+	},
+/obj/effect/landmark/ammo_spawn/m4ra_random_spawn{
+	spawn_chance = 40
+	},
+/obj/effect/landmark/ammo_spawn/m4ra_ext_random_spawn{
+	spawn_chance = 20
+	},
+/turf/open/floor/corsat/plate,
+/area/tyrargo/underground/bunker/south)
+"E" = (
+/obj/structure/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/corsat/box,
+/area/tyrargo/underground/bunker/south)
+"F" = (
+/obj/structure/machinery/light/small{
+	dir = 8
+	},
+/turf/open/floor/corsat/box,
+/area/tyrargo/underground/bunker/south)
+
+(1,1,1) = {"
+b
+g
+g
+g
+g
+g
+b
+a
+"}
+(2,1,1) = {"
+b
+h
+z
+t
+m
+h
+b
+b
+"}
+(3,1,1) = {"
+F
+n
+n
+n
+n
+i
+c
+b
+"}
+(4,1,1) = {"
+s
+B
+o
+u
+o
+j
+d
+b
+"}
+(5,1,1) = {"
+s
+C
+A
+v
+p
+k
+e
+b
+"}
+(6,1,1) = {"
+s
+s
+B
+w
+q
+f
+f
+b
+"}
+(7,1,1) = {"
+d
+D
+C
+x
+r
+d
+b
+b
+"}
+(8,1,1) = {"
+b
+E
+s
+y
+s
+l
+b
+b
+"}

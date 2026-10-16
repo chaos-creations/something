@@ -1,0 +1,1116 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aa" = (
+/obj/structure/platform/metal/hybrisa/metalplatform1/north,
+/turf/open_space,
+/area/tyrargo/outdoors/colony_streets/north_west)
+"ab" = (
+/turf/closed/wall/strata_outpost,
+/area/tyrargo/indoors/gararge/upper/external)
+"ac" = (
+/turf/open/floor/prison/cell_stripe,
+/area/tyrargo/indoors/gararge/upper/external)
+"ad" = (
+/turf/open/floor/almayer_hull,
+/area/tyrargo/outdoors/colony_streets/north)
+"ae" = (
+/turf/open_space,
+/area/tyrargo/outdoors/colony_streets/north)
+"af" = (
+/turf/template_noop,
+/area/template_noop)
+"ag" = (
+/obj/structure/cable/heavyduty{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating/plating_catwalk/prison,
+/area/tyrargo/indoors/gararge/upper/external)
+"ah" = (
+/turf/open/floor/strata/multi_tiles/west,
+/area/tyrargo/indoors/gararge/upper/external)
+"ai" = (
+/turf/open/floor/almayer_hull/outerhull_dir,
+/area/tyrargo/indoors/gararge/upper/external)
+"aj" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer_hull/outerhull_dir,
+/area/tyrargo/indoors/gararge/upper/external)
+"ak" = (
+/turf/closed/wall/strata_outpost,
+/area/tyrargo/indoors/admin/upper)
+"al" = (
+/obj/structure/window/framed/strata/reinforced,
+/turf/open/floor/plating,
+/area/tyrargo/indoors/admin/upper)
+"am" = (
+/turf/closed/wall/mineral/bone_resin,
+/area/tyrargo/indoors/gararge/upper/external)
+"an" = (
+/turf/open/floor/plating/panelscorched,
+/area/tyrargo/indoors/gararge/upper/external)
+"ao" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/platingdmg1,
+/area/tyrargo/indoors/gararge/upper/external)
+"ap" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer_hull,
+/area/tyrargo/indoors/gararge/upper/external)
+"aq" = (
+/turf/open/floor/almayer_hull,
+/area/tyrargo/indoors/gararge/upper/external)
+"ar" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer_hull,
+/area/tyrargo/indoors/gararge/upper/external)
+"as" = (
+/turf/open/floor/strata/orange_edge/north,
+/area/tyrargo/indoors/admin/upper)
+"at" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/strata/orange_edge/north,
+/area/tyrargo/indoors/admin/upper)
+"au" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_sticky,
+/turf/open/floor/strata/orange_edge/north,
+/area/tyrargo/indoors/admin/upper)
+"av" = (
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_membrane,
+/turf/open/floor/strata/orange_edge/north,
+/area/tyrargo/indoors/admin/upper)
+"aw" = (
+/turf/closed/wall/mineral/bone_resin,
+/area/tyrargo/indoors/admin/upper)
+"ax" = (
+/obj/structure/platform_decoration/metal/hybrisa/metalplatformdeco1/west,
+/turf/open_space,
+/area/tyrargo/outdoors/colony_streets/north)
+"ay" = (
+/obj/structure/platform/metal/hybrisa/metalplatform1/north,
+/turf/open_space,
+/area/tyrargo/outdoors/colony_streets/north)
+"az" = (
+/turf/open/floor/plating/platingdmg2,
+/area/tyrargo/indoors/gararge/upper/external)
+"aA" = (
+/turf/open/floor/plating/platingdmg1,
+/area/tyrargo/indoors/gararge/upper/external)
+"aB" = (
+/obj/effect/decal/cleanable/generic,
+/turf/open/floor/plating/platingdmg1,
+/area/tyrargo/indoors/gararge/upper/external)
+"aC" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/panelscorched,
+/area/tyrargo/indoors/gararge/upper/external)
+"aD" = (
+/turf/open/floor/almayer_hull/outerhull_dir/southeast,
+/area/tyrargo/indoors/gararge/upper/external)
+"aE" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/hybrisa/tile/tilegreen,
+/area/tyrargo/indoors/admin/upper)
+"aF" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/ammo_casing/bullet,
+/turf/open/floor/hybrisa/tile/tilegreen,
+/area/tyrargo/indoors/admin/upper)
+"aG" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/ammo_casing/bullet,
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
+/turf/open/floor/hybrisa/tile/tilegreen,
+/area/tyrargo/indoors/admin/upper)
+"aH" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/closed/wall/mineral/bone_resin,
+/area/tyrargo/indoors/admin/upper)
+"aI" = (
+/obj/effect/decal/cleanable/generic,
+/turf/closed/wall/mineral/bone_resin,
+/area/tyrargo/indoors/admin/upper)
+"aJ" = (
+/obj/structure/barricade/handrail/wire,
+/turf/open/floor/strata/multi_tiles/west,
+/area/tyrargo/indoors/admin/upper/external)
+"aK" = (
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
+/turf/open/floor/plating/platingdmg1,
+/area/tyrargo/indoors/gararge/upper/external)
+"aL" = (
+/turf/open/floor/almayer_hull/outerhull_dir/northeast,
+/area/tyrargo/indoors/gararge/upper/external)
+"aM" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/generic,
+/obj/effect/decal/hybrisa/trash{
+	icon_state = "trash_3";
+	pixel_x = 9;
+	pixel_y = 42
+	},
+/obj/item/ammo_magazine/rifle/ar10,
+/turf/open/floor/hybrisa/tile/tilegreen,
+/area/tyrargo/indoors/admin/upper)
+"aN" = (
+/obj/structure/barricade/handrail/wire{
+	dir = 1
+	},
+/turf/open/floor/hybrisa/tile/tilegreen,
+/area/tyrargo/indoors/admin/upper)
+"aO" = (
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_sticky,
+/turf/open/floor/hybrisa/tile/tilegreen,
+/area/tyrargo/indoors/admin/upper)
+"aP" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
+/turf/open/floor/plating/plating_catwalk/prison,
+/area/tyrargo/indoors/admin/upper/external)
+"aQ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_sticky,
+/turf/open/floor/plating/plating_catwalk/prison,
+/area/tyrargo/indoors/admin/upper/external)
+"aR" = (
+/obj/effect/decal/cleanable/generic,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/prop/colony/used_flare,
+/turf/open/floor/plating/plating_catwalk/prison,
+/area/tyrargo/indoors/admin/upper/external)
+"aS" = (
+/turf/open/floor/almayer_hull/outerhull_dir/west,
+/area/tyrargo/indoors/gararge/upper/external)
+"aT" = (
+/turf/open/floor/plating,
+/area/tyrargo/indoors/gararge/upper/external)
+"aU" = (
+/turf/open/floor/prison/cell_stripe/east,
+/area/tyrargo/outdoors/walkway_access/gararge_admin)
+"aV" = (
+/obj/structure/barricade/handrail/wire,
+/turf/open/floor/strata/multi_tiles/west,
+/area/tyrargo/outdoors/walkway_access/gararge_admin)
+"aW" = (
+/turf/open/floor/prison/cell_stripe/west,
+/area/tyrargo/indoors/admin/upper)
+"aX" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/hybrisa/trash{
+	icon_state = "trash_4";
+	pixel_y = 12
+	},
+/obj/structure/barricade/wooden{
+	dir = 8
+	},
+/turf/open/floor/hybrisa/tile/tilegreen,
+/area/tyrargo/indoors/admin/upper)
+"aY" = (
+/turf/open/floor/hybrisa/tile/tilegreen,
+/area/tyrargo/indoors/admin/upper)
+"aZ" = (
+/obj/structure/stairs/multiz/down{
+	dir = 8
+	},
+/obj/structure/platform/metal/strata,
+/turf/open/floor/shiva/purplefull,
+/area/tyrargo/indoors/admin/upper)
+"ba" = (
+/obj/structure/platform/metal/strata,
+/turf/open_space,
+/area/tyrargo/indoors/admin/upper)
+"bb" = (
+/turf/open_space,
+/area/tyrargo/indoors/admin/upper)
+"bc" = (
+/obj/structure/barricade/handrail/wire{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/hybrisa/tile/tilegreen,
+/area/tyrargo/indoors/admin/upper)
+"bd" = (
+/obj/effect/decal/cleanable/dirt/greenglow{
+	color = "#140400";
+	name = "dirt"
+	},
+/turf/open/floor/hybrisa/tile/tilegreen,
+/area/tyrargo/indoors/admin/upper)
+"be" = (
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
+/turf/open/floor/strata/orange_icorner,
+/area/tyrargo/indoors/admin/upper)
+"bf" = (
+/turf/open/floor/plating/plating_catwalk/prison,
+/area/tyrargo/indoors/admin/upper/external)
+"bg" = (
+/obj/item/weapon/gun/rifle/ar10{
+	pixel_y = -3;
+	pixel_x = -1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/plating_catwalk/prison,
+/area/tyrargo/indoors/admin/upper/external)
+"bh" = (
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
+/turf/open/floor/plating/panelscorched,
+/area/tyrargo/indoors/gararge/upper/external)
+"bi" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/tyrargo/indoors/gararge/upper/external)
+"bj" = (
+/turf/open/floor/plating/plating_catwalk/prison,
+/area/tyrargo/outdoors/walkway_access/gararge_admin)
+"bk" = (
+/obj/item/device/flashlight/flare/on{
+	fuel_rate = 5
+	},
+/turf/open/floor/plating/plating_catwalk/prison,
+/area/tyrargo/outdoors/walkway_access/gararge_admin)
+"bl" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/stack/sheet/wood{
+	layer = 2.7;
+	pixel_y = 8
+	},
+/turf/open/floor/plating/plating_catwalk/prison,
+/area/tyrargo/outdoors/walkway_access/gararge_admin)
+"bm" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood/xeno,
+/turf/open/floor/prison/cell_stripe/west,
+/area/tyrargo/indoors/admin/upper)
+"bn" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/ammo_casing/bullet,
+/turf/open/floor/hybrisa/tile/tilegreen,
+/area/tyrargo/indoors/admin/upper)
+"bo" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/weapon/gun/rifle/ar10{
+	pixel_y = -3;
+	pixel_x = -1
+	},
+/obj/effect/decal/ammo_casing/bullet,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/hybrisa/tile/tilegreen,
+/area/tyrargo/indoors/admin/upper)
+"bp" = (
+/obj/structure/stairs/multiz/down{
+	dir = 8
+	},
+/turf/open/floor/shiva/purplefull,
+/area/tyrargo/indoors/admin/upper)
+"bq" = (
+/obj/structure/barricade/handrail/wire{
+	dir = 8
+	},
+/obj/effect/decal/ammo_casing/bullet,
+/turf/open/floor/hybrisa/tile/tilegreen,
+/area/tyrargo/indoors/admin/upper)
+"br" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/prop{
+	desc = "An M83 SADAR Anti-Tank RPG. This one has been expended.";
+	icon = 'icons/obj/items/weapons/guns/guns_by_faction/uscm.dmi';
+	icon_state = "m83a2";
+	name = "M83 SADAR (expended)";
+	pixel_x = 1;
+	pixel_y = 1;
+	dir = 4;
+	layer = 4.1
+	},
+/turf/open/floor/hybrisa/tile/tilegreen,
+/area/tyrargo/indoors/admin/upper)
+"bs" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/hybrisa/tile/tilegreen,
+/area/tyrargo/indoors/admin/upper)
+"bt" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison/cell_stripe/east,
+/area/tyrargo/indoors/admin/upper)
+"bu" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/strata/multi_tiles/southwest,
+/area/tyrargo/indoors/admin/upper/external)
+"bv" = (
+/obj/structure/barricade/handrail/wire{
+	dir = 1
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/tyrargo/indoors/admin/upper/external)
+"bw" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
+/turf/open/floor/plating/panelscorched,
+/area/tyrargo/indoors/gararge/upper/external)
+"bx" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/generic,
+/turf/open/floor/plating/plating_catwalk/prison,
+/area/tyrargo/outdoors/walkway_access/gararge_admin)
+"by" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/plating_catwalk/prison,
+/area/tyrargo/outdoors/walkway_access/gararge_admin)
+"bz" = (
+/obj/item/stack/sheet/wood{
+	layer = 2.7;
+	pixel_y = 8
+	},
+/turf/open/floor/hybrisa/tile/tilegreen,
+/area/tyrargo/indoors/admin/upper)
+"bA" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/hybrisa/tile/tilegreen,
+/area/tyrargo/indoors/admin/upper)
+"bB" = (
+/obj/structure/stairs/multiz/down{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/shiva/purplefull,
+/area/tyrargo/indoors/admin/upper)
+"bC" = (
+/obj/structure/barricade/handrail/wire{
+	dir = 8
+	},
+/turf/open/floor/hybrisa/tile/tilegreen,
+/area/tyrargo/indoors/admin/upper)
+"bD" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/generic,
+/obj/effect/decal/hybrisa/trash{
+	icon_state = "trash_9";
+	pixel_y = 12
+	},
+/obj/effect/decal/ammo_casing/bullet,
+/turf/open/floor/hybrisa/tile/tilegreen,
+/area/tyrargo/indoors/admin/upper)
+"bE" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/ammo_casing/bullet,
+/turf/open/floor/prison/cell_stripe/east,
+/area/tyrargo/indoors/admin/upper)
+"bF" = (
+/obj/item/ammo_magazine/rifle/ar10,
+/turf/open/floor/plating/plating_catwalk/prison,
+/area/tyrargo/indoors/admin/upper/external)
+"bG" = (
+/obj/structure/barricade/handrail/wire{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/tyrargo/indoors/admin/upper/external)
+"bH" = (
+/obj/structure/platform/metal/hybrisa/metalplatform1,
+/obj/structure/platform/metal/hybrisa/metalplatform1/west,
+/turf/open_space,
+/area/tyrargo/outdoors/colony_exterior/north)
+"bI" = (
+/obj/structure/barricade/handrail/wire{
+	dir = 1
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/tyrargo/outdoors/walkway_access/gararge_admin)
+"bJ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/wooden{
+	dir = 8
+	},
+/turf/open/floor/hybrisa/tile/tilegreen,
+/area/tyrargo/indoors/admin/upper)
+"bK" = (
+/obj/structure/stairs/multiz/down{
+	dir = 8
+	},
+/obj/structure/platform/metal/stair_cut/strata_left,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/shiva/purplefull,
+/area/tyrargo/indoors/admin/upper)
+"bL" = (
+/obj/structure/platform/metal/strata/north,
+/turf/open_space,
+/area/tyrargo/indoors/admin/upper)
+"bM" = (
+/obj/structure/barricade/handrail/wire{
+	dir = 8
+	},
+/obj/effect/decal/hybrisa/trash{
+	icon_state = "trash_16"
+	},
+/turf/open/floor/hybrisa/tile/tilegreen,
+/area/tyrargo/indoors/admin/upper)
+"bN" = (
+/obj/item/device/flashlight/flare/on{
+	fuel_rate = 5
+	},
+/turf/open/floor/hybrisa/tile/tilegreen,
+/area/tyrargo/indoors/admin/upper)
+"bO" = (
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_sticky,
+/turf/open/floor/prison/cell_stripe/east,
+/area/tyrargo/indoors/admin/upper)
+"bP" = (
+/obj/effect/decal/cleanable/generic,
+/turf/open/floor/plating/plating_catwalk/prison,
+/area/tyrargo/indoors/admin/upper/external)
+"bQ" = (
+/obj/structure/platform/metal/hybrisa/metalplatform1/west,
+/turf/open_space,
+/area/tyrargo/outdoors/colony_exterior/north)
+"bR" = (
+/obj/structure/platform/metal/hybrisa/metalplatform1,
+/turf/open_space,
+/area/tyrargo/outdoors/colony_streets/north)
+"bS" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/generic,
+/turf/open/floor/hybrisa/tile/tilegreen,
+/area/tyrargo/indoors/admin/upper)
+"bT" = (
+/obj/structure/barricade/handrail/wire,
+/turf/open/floor/hybrisa/tile/tilegreen,
+/area/tyrargo/indoors/admin/upper)
+"bU" = (
+/turf/open/floor/strata/orange_icorner/east,
+/area/tyrargo/indoors/admin/upper)
+"bV" = (
+/obj/structure/barricade/handrail/wire{
+	dir = 4
+	},
+/obj/structure/barricade/handrail/wire{
+	dir = 1
+	},
+/turf/open/floor/strata/multi_tiles/southwest,
+/area/tyrargo/indoors/admin/upper/external)
+"bW" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/generic,
+/turf/open/floor/almayer_hull,
+/area/tyrargo/indoors/gararge/upper/external)
+"bX" = (
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
+/turf/open/floor/plating/platingdmg2,
+/area/tyrargo/indoors/gararge/upper/external)
+"bY" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/hybrisa/trash{
+	icon_state = "trash_8";
+	pixel_y = -12
+	},
+/turf/open/floor/hybrisa/tile/tilegreen,
+/area/tyrargo/indoors/admin/upper)
+"bZ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood/xeno,
+/turf/open/floor/hybrisa/tile/tilegreen,
+/area/tyrargo/indoors/admin/upper)
+"ca" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood/xeno,
+/turf/open/floor/hybrisa/tile/tilegreen,
+/area/tyrargo/indoors/admin/upper)
+"cb" = (
+/obj/effect/decal/cleanable/blood/xeno,
+/obj/effect/spawner/gibspawner/xeno,
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "thermite";
+	name = "impact"
+	},
+/turf/open/floor/plating/panelscorched,
+/area/tyrargo/indoors/admin/upper)
+"cc" = (
+/turf/open/floor/plating/platingdmg3,
+/area/tyrargo/indoors/admin/upper)
+"cd" = (
+/turf/open/floor/almayer_hull/outerhull_dir/north,
+/area/tyrargo/indoors/admin/upper/external)
+"ce" = (
+/turf/open/floor/almayer_hull/outerhull_dir/northeast,
+/area/tyrargo/indoors/admin/upper/external)
+"cf" = (
+/obj/structure/platform_decoration/metal/hybrisa/metalplatformdeco1/north,
+/turf/open_space,
+/area/tyrargo/outdoors/colony_exterior/north)
+"cg" = (
+/turf/open/floor/almayer_hull/outerhull_dir/northwest,
+/area/tyrargo/indoors/gararge/upper/external)
+"ch" = (
+/turf/open/floor/strata/orange_edge,
+/area/tyrargo/indoors/admin/upper)
+"ci" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/strata/orange_edge,
+/area/tyrargo/indoors/admin/upper)
+"cj" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/strata/orange_edge,
+/area/tyrargo/indoors/admin/upper)
+"ck" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_membrane,
+/turf/open/floor/strata/orange_edge,
+/area/tyrargo/indoors/admin/upper)
+"cl" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_membrane,
+/turf/open/floor/strata/orange_edge,
+/area/tyrargo/indoors/admin/upper)
+"cm" = (
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_membrane,
+/turf/open/floor/strata/orange_edge,
+/area/tyrargo/indoors/admin/upper)
+"cn" = (
+/obj/effect/decal/cleanable/blood/xeno,
+/turf/open/floor/plating/platingdmg1,
+/area/tyrargo/indoors/admin/upper)
+"co" = (
+/turf/open/floor/plating/panelscorched,
+/area/tyrargo/indoors/admin/upper)
+"cp" = (
+/turf/open_space,
+/area/tyrargo/outdoors/colony_exterior/north)
+"cq" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/platingdmg2,
+/area/tyrargo/indoors/gararge/upper/external)
+"cr" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
+/turf/open/floor/plating,
+/area/tyrargo/indoors/gararge/upper/external)
+"cs" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/closed/wall/mineral/bone_resin,
+/area/tyrargo/indoors/gararge/upper/external)
+"ct" = (
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "thermite";
+	name = "impact"
+	},
+/turf/open/floor/plating,
+/area/tyrargo/indoors/admin/upper)
+
+(1,1,1) = {"
+cp
+cp
+cp
+cg
+ab
+ab
+ab
+aS
+aS
+aS
+ab
+am
+am
+ag
+aa
+"}
+(2,1,1) = {"
+cp
+cg
+aS
+aq
+aq
+aq
+aq
+aq
+bh
+am
+am
+am
+am
+ah
+ab
+"}
+(3,1,1) = {"
+cp
+ab
+aq
+aq
+aq
+aq
+aq
+ap
+bi
+aC
+aA
+am
+an
+ai
+ac
+"}
+(4,1,1) = {"
+cp
+ab
+ap
+ap
+bW
+aq
+aq
+aq
+az
+aT
+aK
+az
+ao
+ai
+ac
+"}
+(5,1,1) = {"
+cp
+ab
+cq
+ap
+aq
+aq
+aq
+aK
+am
+am
+az
+aA
+ap
+ai
+ac
+"}
+(6,1,1) = {"
+cp
+ab
+cr
+bi
+ap
+ab
+ab
+aT
+am
+am
+am
+aA
+aq
+ai
+ac
+"}
+(7,1,1) = {"
+cp
+am
+cs
+aA
+aA
+ab
+ao
+aT
+aA
+am
+aK
+aB
+ap
+aj
+ab
+"}
+(8,1,1) = {"
+cp
+am
+am
+ao
+bX
+ao
+ao
+bw
+ao
+ao
+an
+ao
+ar
+aj
+ab
+"}
+(9,1,1) = {"
+cp
+am
+am
+am
+an
+aA
+aq
+aq
+aq
+aq
+aq
+aC
+ab
+ab
+ab
+"}
+(10,1,1) = {"
+ae
+am
+ae
+ae
+aL
+aD
+aU
+aU
+aU
+aU
+aL
+aD
+ab
+ae
+ad
+"}
+(11,1,1) = {"
+ae
+ae
+ae
+ae
+ae
+bR
+bI
+bj
+bj
+aV
+ay
+ae
+ae
+ae
+ae
+"}
+(12,1,1) = {"
+ae
+ae
+ae
+ae
+ae
+bR
+bI
+bx
+bj
+aV
+ay
+ae
+ae
+ae
+ae
+"}
+(13,1,1) = {"
+ae
+ae
+ae
+ae
+ae
+bR
+bI
+by
+bk
+aV
+ay
+ae
+ae
+ae
+ae
+"}
+(14,1,1) = {"
+ae
+ae
+ae
+ae
+ae
+bR
+bI
+by
+bj
+aV
+ay
+ae
+ae
+ae
+ae
+"}
+(15,1,1) = {"
+ae
+ae
+ae
+ae
+ae
+bR
+bI
+bj
+bl
+aV
+ay
+ae
+ae
+ae
+ae
+"}
+(16,1,1) = {"
+ae
+ae
+ae
+ak
+ak
+al
+aW
+aW
+bm
+aW
+al
+ak
+ak
+ae
+ae
+"}
+(17,1,1) = {"
+ae
+ae
+ak
+ak
+aY
+aY
+bJ
+bz
+bn
+aX
+aE
+aE
+ak
+ak
+ae
+"}
+(18,1,1) = {"
+cp
+ae
+ak
+ch
+aE
+bS
+aY
+bA
+bo
+aY
+aM
+aE
+as
+ak
+ae
+"}
+(19,1,1) = {"
+cp
+cp
+ak
+ci
+aE
+bA
+bK
+bB
+bp
+aZ
+aE
+aF
+at
+ak
+ae
+"}
+(20,1,1) = {"
+cp
+cp
+ak
+ch
+bY
+bT
+bL
+bb
+bb
+ba
+aN
+aE
+au
+ak
+ae
+"}
+(21,1,1) = {"
+cp
+cp
+al
+cj
+aY
+bT
+bb
+bb
+bb
+bb
+aN
+aE
+av
+al
+ae
+"}
+(22,1,1) = {"
+cp
+cp
+al
+ck
+bZ
+bT
+bb
+bb
+bb
+bb
+aN
+aE
+av
+al
+ae
+"}
+(23,1,1) = {"
+cp
+cp
+ak
+cl
+bA
+bT
+bb
+bb
+bb
+bb
+aN
+aG
+aw
+al
+ae
+"}
+(24,1,1) = {"
+cp
+cp
+ak
+cm
+ca
+aE
+bM
+bC
+bq
+bc
+aE
+aH
+aw
+ak
+ae
+"}
+(25,1,1) = {"
+cp
+cp
+ct
+cn
+cb
+aE
+aF
+bD
+br
+bd
+aO
+aI
+aw
+ae
+ae
+"}
+(26,1,1) = {"
+cp
+cp
+ak
+co
+cc
+bU
+bN
+aE
+bs
+be
+aw
+aw
+aw
+ae
+af
+"}
+(27,1,1) = {"
+cp
+cp
+cp
+cp
+ak
+al
+bO
+bE
+bt
+al
+aw
+aw
+ax
+af
+af
+"}
+(28,1,1) = {"
+cp
+cp
+cp
+cp
+cd
+bv
+bP
+bF
+bf
+bf
+aP
+aJ
+ay
+af
+af
+"}
+(29,1,1) = {"
+cp
+cp
+cp
+cp
+ce
+bV
+bG
+bG
+bu
+bg
+aQ
+aJ
+ay
+af
+af
+"}
+(30,1,1) = {"
+cp
+cp
+cp
+cp
+cf
+bQ
+bQ
+bH
+bv
+bf
+aR
+aJ
+ay
+af
+af
+"}

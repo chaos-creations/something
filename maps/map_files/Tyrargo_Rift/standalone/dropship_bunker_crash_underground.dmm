@@ -1,0 +1,390 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/closed/wall/strata_ice/forest/rock,
+/area/tyrargo/oob)
+"b" = (
+/turf/closed/wall/r_wall/bunker,
+/area/tyrargo/underground/bunker/north)
+"c" = (
+/obj/structure/machinery/light/small{
+	dir = 8
+	},
+/obj/structure/prop/hybrisa/boulders/wide_boulderdark/wide_boulder1,
+/turf/open/auto_turf/hybrisa_auto_turf/layer2,
+/area/tyrargo/underground/bunker/north)
+"d" = (
+/turf/open/floor/corsat/plate,
+/area/tyrargo/underground/bunker/north)
+"e" = (
+/obj/effect/decal/cleanable/generic,
+/turf/open/floor/corsat/plate,
+/area/tyrargo/underground/bunker/north)
+"f" = (
+/turf/closed/wall/r_wall/bunker/floodgate{
+	desc = "A huge chunk of reinforced metal used to separate rooms. This one appears to be specially reinforced.";
+	name = "bunker superdense wall"
+	},
+/area/tyrargo/oob)
+"g" = (
+/obj/structure/prop/hybrisa/boulders/wide_boulderdark/wide_boulder1,
+/turf/open/auto_turf/hybrisa_auto_turf/layer2,
+/area/tyrargo/underground/bunker/north)
+"h" = (
+/obj/structure/prop/hybrisa/boulders,
+/turf/open/auto_turf/hybrisa_auto_turf/layer2,
+/area/tyrargo/underground/bunker/north)
+"i" = (
+/turf/open/auto_turf/hybrisa_auto_turf/layer2,
+/area/tyrargo/underground/bunker/north)
+"j" = (
+/turf/open/floor/corsat/red/southeast,
+/area/tyrargo/underground/bunker/north)
+"k" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/corsat/plate,
+/area/tyrargo/underground/bunker/north)
+"l" = (
+/obj/structure/machinery/light/small,
+/turf/open/floor/corsat/box,
+/area/tyrargo/underground/bunker/north)
+"m" = (
+/obj/structure/prop/hybrisa/boulders/smallboulderdark,
+/turf/open/auto_turf/hybrisa_auto_turf/layer2,
+/area/tyrargo/underground/bunker/north)
+"n" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/auto_turf/hybrisa_auto_turf/layer2,
+/area/tyrargo/underground/bunker/north)
+"o" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/ammo_casing/bullet,
+/turf/open/auto_turf/hybrisa_auto_turf/layer2,
+/area/tyrargo/underground/bunker/north)
+"p" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/ammo_casing/bullet,
+/obj/effect/decal/ammo_casing/bullet,
+/turf/open/floor/corsat/red,
+/area/tyrargo/underground/bunker/north)
+"q" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/corsat/red/southeast,
+/area/tyrargo/underground/bunker/north)
+"r" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/corsat/plate,
+/area/tyrargo/underground/bunker/north)
+"s" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/corsat/darkgreencorner,
+/area/tyrargo/underground/bunker/north)
+"t" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/corsat/darkgreen,
+/area/tyrargo/underground/bunker/north)
+"u" = (
+/obj/structure/prop/hybrisa/boulders/large_boulderdark,
+/obj/structure/prop/hybrisa/boulders/wide_boulderdark/wide_boulder1{
+	pixel_y = -12
+	},
+/turf/open/auto_turf/hybrisa_auto_turf/layer2,
+/area/tyrargo/underground/bunker/north)
+"v" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/ammo_casing/bullet,
+/obj/effect/decal/ammo_casing/bullet,
+/turf/open/floor/corsat/squares,
+/area/tyrargo/underground/bunker/north)
+"w" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/corsat/red/east,
+/area/tyrargo/underground/bunker/north)
+"x" = (
+/obj/structure/closet/crate/ammo{
+	name = "soft-point munitions crate";
+	desc = "Crate filled with soft-point ammo. Typically used when fighting onboard space stations, or when there's nothing better to use.";
+	opened = 1
+	},
+/obj/effect/landmark/ammo_spawn/m41a_random_spawn{
+	spawn_chance = 20
+	},
+/obj/effect/landmark/ammo_spawn/m41a_random_spawn{
+	spawn_chance = 20
+	},
+/obj/effect/landmark/ammo_spawn/m41a_random_spawn{
+	spawn_chance = 60
+	},
+/obj/effect/landmark/ammo_spawn/m41a_random_spawn{
+	spawn_chance = 60
+	},
+/obj/effect/landmark/ammo_spawn/m41a_ext_random_spawn{
+	spawn_chance = 20
+	},
+/obj/effect/landmark/ammo_spawn/m4ra_random_spawn{
+	spawn_chance = 20
+	},
+/obj/effect/landmark/ammo_spawn/m4ra_random_spawn{
+	spawn_chance = 20
+	},
+/obj/effect/landmark/ammo_spawn/m4ra_random_spawn{
+	spawn_chance = 40
+	},
+/obj/effect/landmark/ammo_spawn/m4ra_random_spawn{
+	spawn_chance = 40
+	},
+/obj/effect/landmark/ammo_spawn/m4ra_ext_random_spawn{
+	spawn_chance = 20
+	},
+/turf/open/floor/corsat/squares,
+/area/tyrargo/underground/bunker/north)
+"y" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/corsat/squares,
+/area/tyrargo/underground/bunker/north)
+"z" = (
+/obj/structure/prop/hybrisa/boulders/large_boulderdark,
+/turf/open/auto_turf/hybrisa_auto_turf/layer2,
+/area/tyrargo/underground/bunker/north)
+"A" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/ammo_casing/bullet,
+/turf/open/auto_turf/hybrisa_auto_turf/layer2,
+/area/tyrargo/underground/bunker/north)
+"B" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/ammo_casing/bullet,
+/obj/effect/decal/ammo_casing/bullet,
+/turf/open/floor/corsat/redcorner/east,
+/area/tyrargo/underground/bunker/north)
+"C" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/corsat/red/north,
+/area/tyrargo/underground/bunker/north)
+"D" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/corsat/red/northeast,
+/area/tyrargo/underground/bunker/north)
+"E" = (
+/turf/open/floor/corsat/darkgreencorner/east,
+/area/tyrargo/underground/bunker/north)
+"F" = (
+/obj/structure/prop/ice_colony/ground_wire{
+	dir = 1
+	},
+/turf/open/floor/corsat/darkgreen/north,
+/area/tyrargo/underground/bunker/north)
+"G" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/generic,
+/turf/open/floor/corsat/red/north,
+/area/tyrargo/underground/bunker/north)
+"H" = (
+/obj/effect/decal/cleanable/dirt/greenglow{
+	color = "#140400";
+	name = "dirt"
+	},
+/turf/open/floor/corsat/plate,
+/area/tyrargo/underground/bunker/north)
+"I" = (
+/obj/structure/surface/rack,
+/obj/item/stack/sheet/metal/med_small_stack,
+/turf/open/floor/corsat/plate,
+/area/tyrargo/underground/bunker/north)
+"J" = (
+/obj/structure/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/corsat/box,
+/area/tyrargo/underground/bunker/north)
+"K" = (
+/obj/structure/prop/hybrisa/misc/floorprops/grate{
+	layer = 4
+	},
+/obj/structure/prop/hybrisa/misc/fake/lattice/full,
+/turf/open/gm/river/desert/tyrargo/no_slowdown,
+/area/tyrargo/underground/bunker/north)
+"L" = (
+/obj/structure/machinery/light/small{
+	dir = 8
+	},
+/turf/open/floor/corsat/bluecorner/north,
+/area/tyrargo/underground/bunker/north)
+"M" = (
+/turf/open/floor/corsat/bluecorner/east,
+/area/tyrargo/underground/bunker/north)
+"N" = (
+/obj/item/reagent_container/food/snacks/grown/mushroom/glowshroom{
+	light_on = 1;
+	light_range = 1;
+	light_system = 1;
+	pixel_x = -9;
+	pixel_y = 8
+	},
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/tyrargo/underground/bunker/north)
+"O" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/corsat/blue/west,
+/area/tyrargo/underground/bunker/north)
+"P" = (
+/obj/structure/prop/ice_colony/ground_wire{
+	dir = 8;
+	layer = 4.1
+	},
+/turf/open/floor/corsat/blue/east,
+/area/tyrargo/underground/bunker/north)
+"Q" = (
+/obj/structure/prop/hybrisa/misc/floorprops/grate{
+	layer = 4
+	},
+/turf/open/gm/river/desert/tyrargo/no_slowdown,
+/area/tyrargo/underground/bunker/north)
+
+(1,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(2,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(3,1,1) = {"
+b
+b
+f
+f
+f
+f
+f
+b
+a
+a
+"}
+(4,1,1) = {"
+N
+b
+g
+z
+u
+m
+g
+b
+b
+a
+"}
+(5,1,1) = {"
+O
+L
+i
+i
+i
+i
+h
+c
+b
+a
+"}
+(6,1,1) = {"
+y
+k
+G
+A
+o
+n
+i
+d
+b
+a
+"}
+(7,1,1) = {"
+y
+k
+D
+B
+n
+o
+j
+d
+b
+a
+"}
+(8,1,1) = {"
+P
+M
+H
+C
+v
+p
+k
+e
+b
+a
+"}
+(9,1,1) = {"
+Q
+b
+I
+D
+w
+q
+d
+d
+b
+a
+"}
+(10,1,1) = {"
+K
+b
+J
+k
+r
+r
+l
+b
+b
+a
+"}
+(11,1,1) = {"
+K
+b
+b
+E
+x
+s
+b
+b
+a
+a
+"}
+(12,1,1) = {"
+K
+K
+K
+F
+y
+t
+b
+a
+a
+a
+"}
