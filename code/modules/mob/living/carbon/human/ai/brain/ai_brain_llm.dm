@@ -11,6 +11,8 @@
 #define LLM_OBJECTS_MAX 8
 /// How far around itself the NPC lists items and objects
 #define LLM_LOOK_RANGE 5
+/// A task not done by then is dropped, so an unreachable target can't hold the NPC forever
+#define LLM_TASK_TIMEOUT (30 SECONDS)
 
 /datum/human_ai_brain
 	/// If TRUE, speech heard from players goes to the LLM bridge and its answers are acted on
@@ -40,10 +42,13 @@
 	/// Held item the current task uses
 	var/datum/weakref/llm_task_item
 	var/llm_task_type
+	var/llm_task_deadline = 0
 
 /datum/human_ai_brain/proc/llm_set_enabled(enable)
 	var/static/brain_count = 0
 	llm_enabled = enable
+	if(!enable)
+		hold_position = FALSE
 	if(!llm_brain_id)
 		llm_brain_id = "brain[++brain_count]"
 	llm_heard.Cut()
@@ -287,11 +292,10 @@
 			hold_position = TRUE
 
 		if("move_to")
+			// Not quick_approach: it never gives up, and the turf of a vendor or locker can't be entered
 			if(!target || !llm_can_see(target))
 				return
-			llm_clear_orders()
-			hold_position = FALSE
-			quick_approach = get_turf(target)
+			llm_start_task(name, target)
 
 		if("attack")
 			if(!isliving(target) || !llm_can_see(target))
@@ -352,6 +356,15 @@
 	llm_task_type = task_type
 	llm_task_target = WEAKREF(target)
 	llm_task_item = task_item ? WEAKREF(task_item) : null
+	llm_task_deadline = world.time + LLM_TASK_TIMEOUT
+
+/// Drops the task if it took too long, returns TRUE if it did
+/datum/human_ai_brain/proc/llm_task_timed_out()
+	if(world.time < llm_task_deadline)
+		return FALSE
+	llm_result(llm_task_type, null, "gave up, could not get there in time")
+	llm_clear_task()
+	return TRUE
 
 /// Called by /datum/ai_action/llm_task once the NPC stands next to the task target
 /datum/human_ai_brain/proc/llm_finish_task()
@@ -424,3 +437,4 @@
 #undef LLM_ITEMS_MAX
 #undef LLM_OBJECTS_MAX
 #undef LLM_LOOK_RANGE
+#undef LLM_TASK_TIMEOUT

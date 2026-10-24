@@ -42,7 +42,7 @@
 
 	return ONGOING_ACTION_COMPLETED
 
-/// Walks next to the target of an LLM task (pick up, give, use) and does it
+/// Walks next to the target of an LLM task (move to, pick up, give, use) and does it
 /datum/ai_action/llm_task
 	name = "LLM Task"
 	action_flags = ACTION_USING_LEGS | ACTION_USING_HANDS
@@ -58,6 +58,9 @@
 		brain.llm_clear_task()
 		return 0
 
+	if(brain.llm_task_timed_out())
+		return 0
+
 	// Above looting: a spoken order beats picking up loot
 	return 20
 
@@ -70,6 +73,9 @@
 	var/atom/target = brain.llm_task_target?.resolve()
 	if(!target)
 		brain.llm_clear_task()
+		return ONGOING_ACTION_COMPLETED
+
+	if(brain.llm_task_timed_out())
 		return ONGOING_ACTION_COMPLETED
 
 	var/mob/tied_human = brain.tied_human
