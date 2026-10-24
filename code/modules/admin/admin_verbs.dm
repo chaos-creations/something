@@ -85,6 +85,7 @@ GLOBAL_LIST_INIT(admin_verbs_default, list(
 	/client/proc/create_human_ai,
 	/client/proc/fortify_room,
 	/client/proc/make_human_ai,
+	/client/proc/toggle_llm_human_ai,
 	/datum/admins/proc/create_human_ai_sniper,
 	/datum/admins/proc/create_human_ai_machinegunner,
 	/client/proc/quick_order_ai_approach,
@@ -214,6 +215,7 @@ GLOBAL_LIST_INIT(admin_verbs_server, list(
 	/client/proc/toggle_cdn,
 	/client/proc/toggle_admin_only_observe, // RU-PVE ADDITION
 	/client/proc/toggle_require_command_roles, // RU-PVE ADDITION
+	/client/proc/set_llm_bridge,
 	/datum/admins/proc/toggle_intro,
 ))
 

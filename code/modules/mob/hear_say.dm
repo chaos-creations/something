@@ -3,6 +3,7 @@
 	return FALSE
 
 /mob/proc/hear_say(message, verb = "says", datum/language/language = null, alt_name = "", italics = 0, mob/speaker = null, sound/speech_sound, sound_vol)
+	SEND_SIGNAL(src, COMSIG_MOB_HEAR_SAY, message, speaker, language)
 
 	if(!client && !(mind && mind.current != src))
 		return

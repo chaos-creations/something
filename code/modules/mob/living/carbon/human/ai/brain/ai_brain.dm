@@ -81,6 +81,7 @@ GLOBAL_LIST_EMPTY(human_ai_brains)
 	RegisterSignal(tied_human, COMSIG_HUMAN_HANDCUFFED, PROC_REF(on_handcuffed))
 	RegisterSignal(tied_human, COMSIG_HUMAN_GET_AI_BRAIN, PROC_REF(get_ai_brain))
 	RegisterSignal(tied_human, COMSIG_HUMAN_SET_SPECIES, PROC_REF(on_species_change))
+	RegisterSignal(tied_human, COMSIG_MOB_HEAR_SAY, PROC_REF(llm_on_hear_say))
 	GLOB.human_ai_brains += src
 	setup_detection_radius()
 	appraise_inventory()

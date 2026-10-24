@@ -194,3 +194,6 @@
 
 /// From /modules/animations/animations_library.dm and /code/modules/mob/mob.dm
 #define COMSIG_MOB_ANIMATING "mob_animating"
+
+/// From /mob/proc/hear_say() : (message, mob/speaker, datum/language/language), sent to every hearer, with or without a client
+#define COMSIG_MOB_HEAR_SAY "mob_hear_say"
