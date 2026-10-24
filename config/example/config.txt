@@ -263,3 +263,10 @@ CLIENT_ERROR_VERSION 514
 #GITHUB_APP_API
 #REPO_NAME cmss13
 #ORG cmss13-devs
+
+## LLM BRIDGE
+## Lets admins give human AI NPCs an LLM brain (speech and spoken orders), see tools/llm_bridge/README.md
+## Base URL of the bridge, without a trailing slash. Leave commented out to disable.
+#LLM_BRIDGE_URL https://llm.example.com
+## Must match BRIDGE_TOKEN in the bridge's env file
+#LLM_BRIDGE_TOKEN

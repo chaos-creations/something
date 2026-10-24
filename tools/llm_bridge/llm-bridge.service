@@ -1,0 +1,20 @@
+[Unit]
+Description=LLM bridge for CM-SS13 human AI NPCs
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=llm-bridge
+Group=llm-bridge
+WorkingDirectory=/opt/llm-bridge
+EnvironmentFile=/etc/llm-bridge/env
+ExecStart=/opt/llm-bridge/venv/bin/uvicorn bridge:app --host 127.0.0.1 --port 8765 --workers 1
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

@@ -669,3 +669,11 @@ This maintains a list of ip addresses that are able to bypass topic filtering.
 /datum/config_entry/string/repo_name
 
 /datum/config_entry/string/org
+
+/// Base URL of the LLM bridge for human AI NPCs (tools/llm_bridge), empty disables LLM NPCs
+/datum/config_entry/string/llm_bridge_url
+	protection = CONFIG_ENTRY_LOCKED
+
+/// Shared secret sent to the LLM bridge as a bearer token
+/datum/config_entry/string/llm_bridge_token
+	protection = CONFIG_ENTRY_LOCKED | CONFIG_ENTRY_HIDDEN

@@ -1,0 +1,8 @@
+# /etc/caddy/Caddyfile. Replace the domain with one pointing at this VPS;
+# Caddy gets the Let's Encrypt certificate by itself (ports 80 and 443 must be open).
+llm.example.com {
+	request_body {
+		max_size 64KB
+	}
+	reverse_proxy 127.0.0.1:8765
+}
