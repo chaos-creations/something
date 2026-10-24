@@ -33,6 +33,9 @@ STAR_AUTH = os.environ.get("STAR_AUTH", "bearer")
 # 0 = relay drops tools, ask for plain JSON instead
 STAR_TOOLS = os.environ.get("STAR_TOOLS", "1") != "0"
 MAX_TOKENS = int(os.environ.get("BRIDGE_MAX_TOKENS", "400"))
+# Seconds to wait for the relay. No retries: the game gives up on a request after
+# about 30 s anyway, and a late answer to an old line is worse than none
+MODEL_TIMEOUT = float(os.environ.get("BRIDGE_MODEL_TIMEOUT", "15"))
 HISTORY_LIMIT = int(os.environ.get("BRIDGE_HISTORY", "20"))
 HISTORY_TTL = 30 * 60
 # Requests per minute over all NPCs, seconds between requests of one NPC, requests per day
@@ -48,9 +51,9 @@ log = logging.getLogger("llm_bridge")
 logging.basicConfig(level=os.environ.get("BRIDGE_LOG", "INFO"))
 
 if STAR_AUTH == "bearer":
-    client = anthropic.Anthropic(auth_token=STAR_KEY, base_url=STAR_URL, timeout=25, max_retries=1)
+    client = anthropic.Anthropic(auth_token=STAR_KEY, base_url=STAR_URL, timeout=MODEL_TIMEOUT, max_retries=0)
 else:
-    client = anthropic.Anthropic(api_key=STAR_KEY, base_url=STAR_URL, timeout=25, max_retries=1)
+    client = anthropic.Anthropic(api_key=STAR_KEY, base_url=STAR_URL, timeout=MODEL_TIMEOUT, max_retries=0)
 
 
 def _tool(name, description, **props):

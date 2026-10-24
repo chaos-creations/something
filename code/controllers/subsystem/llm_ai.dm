@@ -1,7 +1,7 @@
 /// Where the in-round bridge settings are kept between restarts
 #define LLM_SETTINGS_FILE "data/llm_bridge.json"
-/// A request older than this is forgotten, the bridge has its own shorter timeout
-#define LLM_REQUEST_TIMEOUT (40 SECONDS)
+/// A request older than this is forgotten, the bridge gives up on the relay sooner (BRIDGE_MODEL_TIMEOUT)
+#define LLM_REQUEST_TIMEOUT (25 SECONDS)
 
 /// Bridge address and secret, out of reach of VV and proc calls like the DB config
 /datum/llm_bridge_settings
@@ -87,6 +87,7 @@ SUBSYSTEM_DEF(llm_ai)
 			pending -= brain
 			brain.llm_request = null
 			report_error("request timed out")
+			brain.llm_on_failure()
 
 	for(var/datum/human_ai_brain/brain as anything in queued)
 		if(QDELETED(brain) || !brain.llm_enabled)

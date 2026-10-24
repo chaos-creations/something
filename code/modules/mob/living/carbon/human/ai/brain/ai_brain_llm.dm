@@ -23,6 +23,10 @@
 	var/llm_brain_id
 	/// list(list("speaker" = weakref, "name" = name, "text" = text)) heard since the last request
 	var/list/llm_heard = list()
+	/// What the request in flight carries, put back into llm_heard if it fails
+	var/list/llm_sent_heard = list()
+	/// Times the current lines may still be resent after a failed request
+	var/llm_retries_left = 0
 	/// Short id ("m1") : weakref of everything in the last observation, the only things answers may refer to
 	var/list/llm_ids = list()
 	/// Outcomes of the last actions (examine text, refusals), sent with the next request
@@ -90,6 +94,18 @@
 		"text" = copytext_char(html_decode(message), 1, LLM_TEXT_MAX),
 	))
 	llm_followup = FALSE
+	llm_retries_left = 1
+	SSllm_ai.queue(src)
+
+/// The relay is slow at times: one retry, so a line said during a hiccup is not just dropped
+/datum/human_ai_brain/proc/llm_on_failure()
+	if(llm_retries_left <= 0 || !length(llm_sent_heard))
+		return
+	llm_retries_left--
+	llm_heard = llm_sent_heard + llm_heard
+	if(length(llm_heard) > LLM_HEARD_MAX)
+		llm_heard.Cut(1, length(llm_heard) - LLM_HEARD_MAX + 1)
+	llm_sent_heard = list()
 	SSllm_ai.queue(src)
 
 /datum/human_ai_brain/proc/llm_persona_data()
@@ -156,6 +172,7 @@
 			"name" = line["name"],
 			"text" = line["text"],
 		))
+	llm_sent_heard = llm_heard.Copy()
 	llm_heard.Cut()
 
 	var/list/mobs = list()
@@ -223,6 +240,7 @@
 	// rust-g reports non-2xx answers as errors too, with the status code in the text
 	if(response.errored || response.status_code != 200)
 		SSllm_ai.report_error("bridge request failed: [response.error || "HTTP [response.status_code]"]")
+		llm_on_failure()
 		return
 
 	var/list/data
@@ -233,8 +251,10 @@
 		return
 	if(data["error"])
 		SSllm_ai.report_error("bridge: [data["error"]]")
+		llm_on_failure()
 		return
 	SSllm_ai.last_error = null
+	llm_sent_heard = list()
 
 	if(!llm_enabled || QDELETED(tied_human) || tied_human.client || tied_human.stat != CONSCIOUS)
 		return
